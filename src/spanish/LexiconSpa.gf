@@ -227,8 +227,8 @@ lin
    stop_V = regV "parar" ;
    jump_V = regV "saltar" ;
 
-  left_Ord = M.mkOrd (regA "izquierda") ;
-  right_Ord = M.mkOrd (regA "derecha") ;
+  left_Ord = M.mkPostOrd (regA "izquierdo") ;
+  right_Ord = M.mkPostOrd (regA "derecho") ;
   far_Adv = mkAdv "lejos" ; ----?
    correct_A = regA "correcto" ;
    dry_A = regA "seco" ;

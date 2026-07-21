@@ -228,8 +228,8 @@ lin
   stop_V = reflV (regV "fermare") ;
   jump_V = regV "saltare" ;
 
-  left_Ord = mkOrd (regA "sinistro") ;
-  right_Ord = mkOrd (regA "destro") ;
+  left_Ord = mkPostOrd (regA "sinistro") ;
+  right_Ord = mkPostOrd (regA "destro") ;
   far_Adv = mkAdv "lontano" ;
   correct_A = regA "corretto" ;
   dry_A = regA "secco" ;

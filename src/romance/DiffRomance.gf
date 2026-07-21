@@ -65,6 +65,7 @@ interface DiffRomance = open CommonRomance, Prelude in {
   oper AForm : PType ;
   oper Adj : Type = {s : AForm => Str} ;
   oper mkOrd : Adj -> {s,s2 : AAgr => Str} = \x -> {s = \\ag => x.s ! aagr2aform ag; s2 = \\_ => []} ;
+  oper mkPostOrd : Adj -> {s,s2 : AAgr => Str} = \x -> {s = \\_ => []; s2 = \\ag => x.s ! aagr2aform ag} ;
 
   oper aform2aagr : AForm -> AAgr ;
   oper aform2gender : AForm -> Gender = \af -> (aform2aagr af).g ;

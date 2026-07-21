@@ -22,7 +22,9 @@ incomplete concrete AdjectiveRomance of Adjective =
                     False => piuComp ++ a.s ! af }
       } ;
     AdjOrd ord = {
-      s = \\af => ord.s ! aform2aagr af ; ----
+      s = \\af =>
+        let ag = aform2aagr af
+        in ord.s ! ag ++ ord.s2 ! ag ;
       isPre = False ; ----
       copTyp = serCopula
       } ;

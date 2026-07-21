@@ -230,8 +230,8 @@ lin
    put_V2 = dirV2 (mkV "posar") ;
    stop_V = mkV "aturar" ;
    jump_V = mkV "saltar" ;
-   left_Ord = M.mkOrd (regA "esquerra") ;
-   right_Ord = M.mkOrd (regA "dreta") ;
+   left_Ord = M.mkPostOrd (regA "esquerre") ;
+   right_Ord = M.mkPostOrd (mk2A "dret" "dreta") ;
    far_Adv = mkAdv "lluny" ;
    correct_A = regA "correcte" ;
    dry_A = regA "sec" ;

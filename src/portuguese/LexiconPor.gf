@@ -250,8 +250,8 @@ lin
    wood_N       = mkN "madeira" ;
    worm_N       = mkN "verme" ;             -- lombriga (Fem)
    year_N       = mkN "ano" ;
-   left_Ord = M.mkOrd (regA "esquerda") ;
-   right_Ord = M.mkOrd (regA "direita") ;
+   left_Ord = M.mkPostOrd (regA "esquerdo") ;
+   right_Ord = M.mkPostOrd (regA "direito") ;
    john_PN = mkPN "João" masculine ;
    paris_PN = mkPN "Paris" feminine ;
    -- V

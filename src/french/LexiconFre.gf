@@ -199,7 +199,7 @@ lin
   travel_V = regV "voyager" ;
   tree_N = regGenN "arbre" masculine ;
  ---- trousers_N = regGenN "pantalon" masculine ;
-  ugly_A = regA "laide" ;
+  ugly_A = regA "laid" ;
   understand_V2 = comprendre_V2 ;
   university_N = regGenN "université" feminine ;
   village_N = regGenN "village" masculine ;
@@ -230,8 +230,8 @@ lin
   stop_V = reflV (regV "arrêter") ;
   jump_V = regV "sauter" ;
 
-  left_Ord = M.mkOrd (regA "gauche") ;
-  right_Ord = M.mkOrd (regA "droite") ;
+  left_Ord = M.mkPostOrd (regA "gauche") ;
+  right_Ord = M.mkPostOrd (regA "droit") ;
   far_Adv = mkAdv "loin" ;
   correct_A = regA "correct" ;
   dry_A = (mkA "sec" "sèche" "secs" "sèches") ;
@@ -243,7 +243,7 @@ lin
   round_A = regA "rond" ;
   sharp_A = regA "tranchant" ;
   smooth_A = regA "lisse" ;
-  straight_A = regA "droite" ;
+  straight_A = regA "droit" ;
   wet_A = regA "mouillé" ;
   wide_A = regA "large" ;
   animal_N = regN "animal" ;
@@ -366,6 +366,5 @@ lin
     reason_N = regGenN "raison" feminine ;
     today_Adv = mkAdv "aujourd'hui" ;
     uncertain_A = regA "incertain" ;
-
 
 } ;
