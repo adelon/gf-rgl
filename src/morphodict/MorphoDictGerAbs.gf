@@ -40186,7 +40186,6 @@ fun verbrauch_N : N ;
 fun verbrauchen_V : V ;
 fun verbraucher_N : N ;
 fun verbraucherzentrale_N : N ;
-fun verbrechen_gegenmenschlichkeit_N : N ;
 fun verbrechen_N : N ;
 fun verbrechen_V : V ;
 fun verbrecher_N : N ;

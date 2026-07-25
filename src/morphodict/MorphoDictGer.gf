@@ -40194,7 +40194,6 @@ lin verbrauch_N = mkN "Verbrauch" "Verbräuche" masculine ;
 lin verbrauchen_V = irregV "verbrauchen" "verbraucht" "verbrauchte" "verbrauchte" "verbraucht" ;
 lin verbraucher_N = mkN "Verbraucher" "Verbraucher" masculine ;
 lin verbraucherzentrale_N = mkN "Verbraucherzentrale" "Verbraucherzentralen" feminine ;
-lin verbrechen_gegenmenschlichkeit_N = mkN "Verbrechen gegenMenschlichkeit" "Verbrechen gegenMenschlichkeit" neuter ;
 lin verbrechen_N = mkN "Verbrechen" "Verbrechen" neuter ;
 lin verbrechen_V = irregV "verbrechen" "verbrecht" "verbrach" "verbräche" "verbrochen" ;
 lin verbrecher_N = mkN "Verbrecher" "Verbrecher" masculine ;
