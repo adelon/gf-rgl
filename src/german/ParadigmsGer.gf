@@ -525,9 +525,19 @@ mkV2 : overload {
       uncap = n.uncap ** {co = toLowerFirst co} ;
       } ;
 
-  dative_eN : N -> N = \n -> n ** {
-      s = table {Sg => table {Dat => n.s ! Sg ! Dat + "e" ; c => n.s ! Sg ! c} ; Pl => n.s ! Pl} ;
-      } ; ---- change uncap as well?
+  dative_eN : N -> N = \n ->
+    let addDativeE : (Number => Case => Str) -> (Number => Case => Str) =
+      \forms -> table {
+        Sg => table {
+          Dat => forms ! Sg ! Dat + "e" ;
+          c => forms ! Sg ! c
+          } ;
+        Pl => forms ! Pl
+        }
+    in n ** {
+      s = addDativeE n.s ;
+      uncap = n.uncap ** {s = addDativeE n.uncap.s}
+      } ;
 
   mkN2 = overload {
     mkN2 : Str -> N2 = \s -> vonN2 (regN s) ;

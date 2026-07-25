@@ -4,6 +4,7 @@ cc -all (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Sg ! Nom ++ (mkN "Sprac
 cc -all case (mkN "Sprache" "Sprachen" "Sprach" feminine).g of {Fem => "feminine" ; _ => "wrong"}
 cc -all (mkN "Sprache" "Sprachen" feminine).co ++ (mkN "Sprache" "Sprachen" feminine).uncap.co
 cc -all (mkN (changeCompoundN "Ampere" (mkN "Ampere" "Ampere" neuter)) (mkN "Meter" "Meter" neuter)).s ! Sg ! Nom
+cc -all (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).s ! Sg ! Dat ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).uncap.s ! Sg ! Dat ++ (mkN "Feier" (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine)))).s ! Sg ! Nom ++ (mkN "Feier" (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine)))).s ! Sg ! Dat ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).co ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).uncap.co
 
 i -retain alltenses/ExtendGer.gfo
 
