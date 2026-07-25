@@ -32,6 +32,8 @@ Metalexikon [pl.nom pl.dat]: Metalexika Metalexika
 Neuter n-plural genitives: Auges Ohrs
 Herz [sg.dat sg.gen pl.nom]: Herzen Herzens Herzen
 Neuter s-plural controls: Radios Restaurants Gummis
+Käse [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Käse Käse Käse Käses Käse Käsen
+Gebäude [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Gebäude Gebäude Gebäude Gebäudes Gebäude Gebäuden
 Corpus dictionary [sg.gen pl.nom pl.dat]: Corpus Corpora Corpora
 Creek [sg.gen pl.nom pl.dat]: Creeks Creeks Creeks
 Vielverfärbender Birkenpilz [bare.sg bare.pl def.sg indef.sg]: Vielverfärbender Birkenpilz Vielverfärbende Birkenpilze der Vielverfärbende Birkenpilz ein Vielverfärbender Birkenpilz

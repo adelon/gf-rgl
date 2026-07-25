@@ -38,6 +38,9 @@ cc -all "Neuter n-plural genitives:" ++ (mkN "Auge" "Augen" neuter).s ! Sg ! Gen
 cc -all "Herz [sg.dat sg.gen pl.nom]:" ++ (mkN "Herz" "Herz" "Herzen" "Herzens" "Herzen" "Herzen" neuter).s ! Sg ! Dat ++ (mkN "Herz" "Herz" "Herzen" "Herzens" "Herzen" "Herzen" neuter).s ! Sg ! Gen ++ (mkN "Herz" "Herz" "Herzen" "Herzens" "Herzen" "Herzen" neuter).s ! Pl ! Nom
 cc -all "Neuter s-plural controls:" ++ (mkN "Radio" "Radios" neuter).s ! Sg ! Gen ++ (mkN "Restaurant" "Restaurants" neuter).s ! Sg ! Gen ++ (mkN "Gummi" "Gummis" neuter).s ! Sg ! Gen
 
+cc -all "Käse [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Nom ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Acc ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Dat ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Gen ++ (mkN "Käse" "Käse" masculine).s ! Pl ! Nom ++ (mkN "Käse" "Käse" masculine).s ! Pl ! Dat
+cc -all "Gebäude [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Nom ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Acc ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Dat ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Gen ++ (mkN "Gebäude" "Gebäude" neuter).s ! Pl ! Nom ++ (mkN "Gebäude" "Gebäude" neuter).s ! Pl ! Dat
+
 i -retain alltenses/DictGer.gfo
 
 cc -all "Corpus dictionary [sg.gen pl.nom pl.dat]:" ++ corpus_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ corpus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ corpus_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative
