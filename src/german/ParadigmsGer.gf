@@ -76,6 +76,11 @@ mkN : overload {
 
   mkN : (Bild,Bilder : Str) -> Gender -> N ; -- sg and pl nom, and gender
 
+-- A preferred productive compound modifier form can be supplied as a third
+-- principal part. It may include a linker or an internal hyphen.
+
+  mkN : (sg,pl,co : Str) -> Gender -> N ;
+
   mkN : (Frau : Str) -> Gender -> N ;  -- masc: e, neutr: er, fem: en
 
 -- Worst case: give all four singular forms, two plural forms (others + dative),
@@ -107,9 +112,9 @@ mkN : overload {
     invarPlN : (sg,pl : Str) -> Gender -> N ;
     } ;
 
--- The default compound form can be changed:
+-- Set the preferred compound modifier form of an existing noun:
 
-    changeCompoundN : Str -> N -> N ;   -- kyrko + kyrka_N
+    changeCompoundN : Str -> N -> N ;
 
 -- Add dative -e ; typically used as variant, either first or second.
 
@@ -781,6 +786,8 @@ mkV2 : overload {
     mkN : Str -> N = regN ;
     mkN : (x1 : Str) -> Gender -> N = reg1N ;
     mkN : (x1,x2 : Str) -> Gender -> N = reg2N ;
+    mkN : (sg,pl,co : Str) -> Gender -> N
+      = \sg,pl,co,g -> changeCompoundN co (reg2N sg pl g) ;
     mkN : (x1,_,_,_,_,x6 : Str) -> Gender -> N = mk6N ;
     mkN : Str -> N -> N  -- Auto + Fahrer -> Autofahrer
       = \s,x -> mkCompoundN s x ;

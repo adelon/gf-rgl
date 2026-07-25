@@ -1,3 +1,10 @@
 i -retain alltenses/ParadigmsGer.gfo
 
+cc -all (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Sg ! Nom ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Pl ! Nom ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Pl ! Dat ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).co ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).uncap.co
+cc -all case (mkN "Sprache" "Sprachen" "Sprach" feminine).g of {Fem => "feminine" ; _ => "wrong"}
+cc -all (mkN "Sprache" "Sprachen" feminine).co ++ (mkN "Sprache" "Sprachen" feminine).uncap.co
 cc -all (mkN (changeCompoundN "Ampere" (mkN "Ampere" "Ampere" neuter)) (mkN "Meter" "Meter" neuter)).s ! Sg ! Nom
+
+i -retain alltenses/ExtendGer.gfo
+
+cc -all (ExtendGer.CompoundN (ParadigmsGer.mkN "Sprache" "Sprachen" "Sprach" ParadigmsGer.feminine) (ParadigmsGer.mkN "Familie" "Familien" ParadigmsGer.feminine)).s ! Sg ! Nom
