@@ -20,10 +20,12 @@ cc -all wache_N.co ++ (ParadigmsGer.mkN wache_N turm_N).s ! ParadigmsGer.singula
 cc -all DictGer.bilge_N.co
 cc -all kaese_N.co ++ kaese_N.uncap.co ++ frischkaese_N.co ++ frischkaese_N.uncap.co
 cc -all gebaeude_N.co ++ gebaeude_N.uncap.co ++ wohngebaeude_N.co ++ wohngebaeude_N.uncap.co
+cc -all (ParadigmsGer.mkN frischkaese_N kuchen_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all (ParadigmsGer.mkN kaese_N kuchen_N).co
 cc -all (ParadigmsGer.mkN gebaeude_N teil_N).co
 cc -all (ParadigmsGer.mkN kirche_N tuer_N).co
 cc -all (ParadigmsGer.mkN auge_N arzt_N).co
 cc -all messwein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN rasse_N hund_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all algonkin_sprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN algonkin_sprache_N familie_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all (ParadigmsGer.mkN w_frage_N typ_N).co
 cc -all ampere_N.co ++ ampere_N.uncap.co ++ joule_N.co ++ joule_N.uncap.co
