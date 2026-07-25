@@ -41,6 +41,13 @@ cc -all "Neuter s-plural controls:" ++ (mkN "Radio" "Radios" neuter).s ! Sg ! Ge
 cc -all "Käse [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Nom ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Acc ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Dat ++ (mkN "Käse" "Käse" masculine).s ! Sg ! Gen ++ (mkN "Käse" "Käse" masculine).s ! Pl ! Nom ++ (mkN "Käse" "Käse" masculine).s ! Pl ! Dat
 cc -all "Gebäude [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Nom ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Acc ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Dat ++ (mkN "Gebäude" "Gebäude" neuter).s ! Sg ! Gen ++ (mkN "Gebäude" "Gebäude" neuter).s ! Pl ! Nom ++ (mkN "Gebäude" "Gebäude" neuter).s ! Pl ! Dat
 
+i -retain alltenses/LexiconGer.gfo
+
+cc -all "Same [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ seed_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ seed_N.s ! ParadigmsGer.singular ! ParadigmsGer.accusative ++ seed_N.s ! ParadigmsGer.singular ! ParadigmsGer.dative ++ seed_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ seed_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ seed_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative
+cc -all "Knie [sg.nom sg.acc sg.dat sg.gen pl.nom pl.acc pl.dat pl.gen]:" ++ knee_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ knee_N.s ! ParadigmsGer.singular ! ParadigmsGer.accusative ++ knee_N.s ! ParadigmsGer.singular ! ParadigmsGer.dative ++ knee_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ knee_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ knee_N.s ! ParadigmsGer.plural ! ParadigmsGer.accusative ++ knee_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ knee_N.s ! ParadigmsGer.plural ! ParadigmsGer.genitive
+cc -all "Schnee [sg.nom sg.acc sg.dat sg.gen]:" ++ snow_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ snow_N.s ! ParadigmsGer.singular ! ParadigmsGer.accusative ++ snow_N.s ! ParadigmsGer.singular ! ParadigmsGer.dative ++ snow_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive
+cc -table snow_N.s ! ParadigmsGer.plural
+
 i -retain alltenses/DictGer.gfo
 
 cc -all "Ergebnis [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ ergebnis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ergebnis_N.s ! ParadigmsGer.singular ! ParadigmsGer.accusative ++ ergebnis_N.s ! ParadigmsGer.singular ! ParadigmsGer.dative ++ ergebnis_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ ergebnis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ergebnis_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative

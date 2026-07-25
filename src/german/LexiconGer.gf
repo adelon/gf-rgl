@@ -282,7 +282,7 @@ lin
   horn_N = mkN "Horn" "Hörner" neuter ;
   husband_N = mkN "Ehemann" "Ehemänner" masculine ;
   ice_N = mkN "Eis" "Eise" neuter ;
-  knee_N = mkN "Knie" "Kniee" neuter ;
+  knee_N = mkN "Knie" "Knie" "Knie" neuter ;
   leaf_N = reg2N "Blatt" "Blätter" neuter ;
   leg_N = mkN "Bein" "Beine" neuter ;
   liver_N = mkN "Leber" "Lebern" feminine ;
@@ -300,11 +300,14 @@ lin
   rope_N = mkN "Seil" "Seile" neuter ;
   salt_N = mkN "Salz" "Salze" neuter ;
   sand_N = mkN "Sand" ;
-  seed_N = mkN "Same" "Samen" masculine ;
+  seed_N = mkN "Same" "Samen" "Samen" "Samens" "Samen" "Samen" masculine ;
   skin_N = mkN "Haut" "Häute" feminine ;
   sky_N = mkN "Himmel" ;
   smoke_N = mkN "Rauch" ;
-  snow_N = mkN "Schnee" "Schneen" masculine ; ---- sg t
+  snow_N =
+    changeCompoundN "Schnee"
+      (mkN "Schnee" "Schnee" "Schnee" "Schnees"
+           nonExist nonExist masculine) ;
   stick_N = mkN "Stock" "Stöcke" masculine ;
   tail_N = mkN "Schwanz" "Schwänze" masculine ;
   tongue_N = mkN "Zunge" ;

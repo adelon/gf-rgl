@@ -34,6 +34,13 @@ Herz [sg.dat sg.gen pl.nom]: Herzen Herzens Herzen
 Neuter s-plural controls: Radios Restaurants Gummis
 Käse [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Käse Käse Käse Käses Käse Käsen
 Gebäude [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Gebäude Gebäude Gebäude Gebäudes Gebäude Gebäuden
+Same [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Same Samen Samen Samens Samen Samen
+Knie [sg.nom sg.acc sg.dat sg.gen pl.nom pl.acc pl.dat pl.gen]: Knie Knie Knie Knies Knie Knie Knien Knie
+Schnee [sg.nom sg.acc sg.dat sg.gen]: Schnee Schnee Schnee Schnees
+ResGer.Nom => Predef.nonExist
+ResGer.Acc => Predef.nonExist
+ResGer.Dat => Predef.nonExist
+ResGer.Gen => Predef.nonExist
 Ergebnis [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Ergebnis Ergebnis Ergebnis Ergebnisses Ergebnisse Ergebnissen
 Kenntnis [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Kenntnis Kenntnis Kenntnis Kenntnis Kenntnisse Kenntnissen
 Firnis [sg.gen pl.nom pl.dat]: Firnisses Firnisse Firnissen

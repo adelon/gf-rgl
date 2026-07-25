@@ -12,6 +12,8 @@ cc -all (ExtendGer.CompoundN (ParadigmsGer.mkN "Sprache" "Sprachen" "Sprach" Par
 i -retain alltenses/LexiconGer.gfo
 
 cc -all cheese_N.co ++ cheese_N.uncap.co ++ industry_N.co ++ industry_N.uncap.co ++ school_N.co ++ school_N.uncap.co
+cc -all seed_N.co ++ seed_N.uncap.co ++ knee_N.co ++ knee_N.uncap.co ++ snow_N.co ++ snow_N.uncap.co
+cc -all (ParadigmsGer.mkN seed_N bank_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN knee_N (ParadigmsGer.mkN "Gelenk" "Gelenke" ParadigmsGer.neuter)).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN knee_N (ParadigmsGer.mkN "Scheibe" "Scheiben" ParadigmsGer.feminine)).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN snow_N (ParadigmsGer.mkN "Ball" "Bälle" ParadigmsGer.masculine)).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 
 i -retain alltenses/DictGer.gfo
 
@@ -30,3 +32,4 @@ cc -all messwein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (Parad
 cc -all algonkin_sprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN algonkin_sprache_N familie_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all (ParadigmsGer.mkN w_frage_N typ_N).co
 cc -all ampere_N.co ++ ampere_N.uncap.co ++ joule_N.co ++ joule_N.uncap.co
+cc -all knie_N.co ++ knie_N.uncap.co ++ buchhalterknie_N.co ++ buchhalterknie_N.uncap.co ++ rheinknie_N.co ++ rheinknie_N.uncap.co
