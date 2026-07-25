@@ -490,6 +490,8 @@ mkV2 : overload {
     let hunden = dativePluralN hunde
     in
     case <hund,hunde,g> of {                                        -- Duden p. 223
+      <_ + "nis",_ + "nisse",Neutr> =>
+        mk6N hund hund hund (hund + "ses") hunde hunden g ;
       <_,_ + ("e" | "er"), Masc | Neutr> =>                         -- I,IV 
         variants {mk6N hund hund hund (genitS True  hund) hunde hunden g ;
                   mk6N hund hund hund (genitS False hund) hunde hunden g} ;
