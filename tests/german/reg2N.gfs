@@ -1,5 +1,8 @@
 i -retain alltenses/ParadigmsGer.gfo
 
+cc -all "Lexikon [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (mkN "Lexikon" "Lexika" neuter).s ! Sg ! Nom ++ (mkN "Lexikon" "Lexika" neuter).s ! Sg ! Acc ++ (mkN "Lexikon" "Lexika" neuter).s ! Sg ! Dat ++ (mkN "Lexikon" "Lexika" neuter).s ! Sg ! Gen ++ (mkN "Lexikon" "Lexika" neuter).s ! Pl ! Nom ++ (mkN "Lexikon" "Lexika" neuter).s ! Pl ! Dat
+cc -all "Visum [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (mkN "Visum" "Visa" neuter).s ! Sg ! Nom ++ (mkN "Visum" "Visa" neuter).s ! Sg ! Acc ++ (mkN "Visum" "Visa" neuter).s ! Sg ! Dat ++ (mkN "Visum" "Visa" neuter).s ! Sg ! Gen ++ (mkN "Visum" "Visa" neuter).s ! Pl ! Nom ++ (mkN "Visum" "Visa" neuter).s ! Pl ! Dat
+cc -all "Corpus/Corpora [pl.nom pl.dat]:" ++ (mkN "Corpus" "Corpora" neuter).s ! Pl ! Nom ++ (mkN "Corpus" "Corpora" neuter).s ! Pl ! Dat
 cc -all "Genus Verbi [sg.gen pl.nom pl.dat]:" ++ (invarN "Genus Verbi" "Genera Verbi" neuter).s ! Sg ! Gen ++ (invarN "Genus Verbi" "Genera Verbi" neuter).s ! Pl ! Nom ++ (invarN "Genus Verbi" "Genera Verbi" neuter).s ! Pl ! Dat
 cc -all "Haus [sg.gen pl.nom pl.dat]:" ++ (mkN "Haus" "Häuser" neuter).s ! Sg ! Gen ++ (mkN "Haus" "Häuser" neuter).s ! Pl ! Nom ++ (mkN "Haus" "Häuser" neuter).s ! Pl ! Dat
 cc -all "Axolotl [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (invarPlN "Axolotl" masculine).s ! Sg ! Nom ++ (invarPlN "Axolotl" masculine).s ! Sg ! Acc ++ (invarPlN "Axolotl" masculine).s ! Sg ! Dat ++ (invarPlN "Axolotl" masculine).s ! Sg ! Gen ++ (invarPlN "Axolotl" masculine).s ! Pl ! Nom ++ (invarPlN "Axolotl" masculine).s ! Pl ! Dat
@@ -9,10 +12,27 @@ cc -all "Penny [sg.gen pl.nom pl.dat]:" ++ (invarPlN "Penny" "Pence" masculine).
 cc -all "Bar unit [sg.gen pl.nom pl.dat]:" ++ (invarPlN "Bar" neuter).s ! Sg ! Gen ++ (invarPlN "Bar" neuter).s ! Pl ! Nom ++ (invarPlN "Bar" neuter).s ! Pl ! Dat
 cc -all "Inuk [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Nom ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Acc ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Dat ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Gen ++ (invarPlN "Inuk" "Inuit" masculine).s ! Pl ! Nom ++ (invarPlN "Inuk" "Inuit" masculine).s ! Pl ! Dat
 cc -all "Baht [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (invarN "Baht" masculine).s ! Sg ! Nom ++ (invarN "Baht" masculine).s ! Sg ! Acc ++ (invarN "Baht" masculine).s ! Sg ! Dat ++ (invarN "Baht" masculine).s ! Sg ! Gen ++ (invarN "Baht" masculine).s ! Pl ! Nom ++ (invarN "Baht" masculine).s ! Pl ! Dat
+cc -all "Lehrer/Lehrer [pl.nom pl.dat]:" ++ (mkN "Lehrer" "Lehrer" masculine).s ! Pl ! Nom ++ (mkN "Lehrer" "Lehrer" masculine).s ! Pl ! Dat
 cc -all "Goldmark gender:" ++ case (invarN "Goldmark" feminine).g of {Fem => "feminine" ; _ => "wrong"}
 cc -all "Invariant head [sg.gen pl.dat]:" ++ (mkN "Gold" (invarN "Mark" feminine)).s ! Sg ! Gen ++ (mkN "Gold" (invarN "Mark" feminine)).s ! Pl ! Dat
 cc -all "Invariant modifier [sg.nom pl.dat]:" ++ (mkN (invarN "Goldmark" feminine) (mkN "Kurs" "Kurse" masculine)).s ! Sg ! Nom ++ (mkN (invarN "Goldmark" feminine) (mkN "Kurs" "Kurse" masculine)).s ! Pl ! Dat
 cc -all "Invariant-plural head [sg.gen pl.dat]:" ++ (mkN "Riesen" (invarPlN "Axolotl" masculine)).s ! Sg ! Gen ++ (mkN "Riesen" (invarPlN "Axolotl" masculine)).s ! Pl ! Dat
+
+cc -all "Muskel/Muskeln [pl.nom pl.dat]:" ++ (mkN "Muskel" "Muskeln" masculine).s ! Pl ! Nom ++ (mkN "Muskel" "Muskeln" masculine).s ! Pl ! Dat
+cc -all "Auto/Autos [pl.nom pl.dat]:" ++ (mkN "Auto" "Autos" neuter).s ! Pl ! Nom ++ (mkN "Auto" "Autos" neuter).s ! Pl ! Dat
+cc -all "Abbozzo/Abbozzi [pl.nom pl.dat]:" ++ (mkN "Abbozzo" "Abbozzi" masculine).s ! Pl ! Nom ++ (mkN "Abbozzo" "Abbozzi" masculine).s ! Pl ! Dat
+cc -all "Causa/Causae [pl.nom pl.dat]:" ++ (mkN "Causa" "Causae" feminine).s ! Pl ! Nom ++ (mkN "Causa" "Causae" feminine).s ! Pl ! Dat
+cc -all "Owambo/Owambo [pl.nom pl.dat]:" ++ (mkN "Owambo" "Owambo" masculine).s ! Pl ! Nom ++ (mkN "Owambo" "Owambo" masculine).s ! Pl ! Dat
+cc -all "Minangkabau/Minangkabau [pl.nom pl.dat]:" ++ (mkN "Minangkabau" "Minangkabau" masculine).s ! Pl ! Nom ++ (mkN "Minangkabau" "Minangkabau" masculine).s ! Pl ! Dat
+cc -all "Bocher/Bocherim [pl.nom pl.dat]:" ++ (mkN "Bocher" "Bocherim" masculine).s ! Pl ! Nom ++ (mkN "Bocher" "Bocherim" masculine).s ! Pl ! Dat
+cc -all "Chassid/Chassidim [pl.nom pl.dat]:" ++ (mkN "Chassid" "Chassidim" masculine).s ! Pl ! Nom ++ (mkN "Chassid" "Chassidim" masculine).s ! Pl ! Dat
+cc -all "Kippa/Kippot [pl.nom pl.dat]:" ++ (mkN "Kippa" "Kippot" feminine).s ! Pl ! Nom ++ (mkN "Kippa" "Kippot" feminine).s ! Pl ! Dat
+cc -all "Schofar/Schofaroth [pl.nom pl.dat]:" ++ (mkN "Schofar" "Schofaroth" masculine).s ! Pl ! Nom ++ (mkN "Schofar" "Schofaroth" masculine).s ! Pl ! Dat
+cc -all "Sioux [sg.gen pl.nom pl.dat]:" ++ (invarN "Sioux" masculine).s ! Sg ! Gen ++ (invarN "Sioux" masculine).s ! Pl ! Nom ++ (invarN "Sioux" masculine).s ! Pl ! Dat
+cc -all "Hund/Hunde [pl.nom pl.dat]:" ++ (mkN "Hund" "Hunde" masculine).s ! Pl ! Nom ++ (mkN "Hund" "Hunde" masculine).s ! Pl ! Dat
+cc -all "Kind/Kinder [pl.nom pl.dat]:" ++ (mkN "Kind" "Kinder" neuter).s ! Pl ! Nom ++ (mkN "Kind" "Kinder" neuter).s ! Pl ! Dat
+
+cc -all "Metalexikon [pl.nom pl.dat]:" ++ (mkN "Meta" (mkN "Lexikon" "Lexika" neuter)).s ! Pl ! Nom ++ (mkN "Meta" (mkN "Lexikon" "Lexika" neuter)).s ! Pl ! Dat
 
 i -retain alltenses/DictGer.gfo
 

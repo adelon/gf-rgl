@@ -1,3 +1,6 @@
+Lexikon [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Lexikon Lexikon Lexikon Lexikons Lexika Lexika
+Visum [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Visum Visum Visum Visums Visa Visa
+Corpus/Corpora [pl.nom pl.dat]: Corpora Corpora
 Genus Verbi [sg.gen pl.nom pl.dat]: Genus Verbi Genera Verbi Genera Verbi
 Haus [sg.gen pl.nom pl.dat]: Hauses Häuser Häusern
 Axolotl [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Axolotl Axolotl Axolotl Axolotls Axolotl Axolotl
@@ -7,9 +10,24 @@ Penny [sg.gen pl.nom pl.dat]: Pennys Pence Pence
 Bar unit [sg.gen pl.nom pl.dat]: Bars Bar Bar
 Inuk [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Inuk Inuk Inuk Inuks Inuit Inuit
 Baht [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Baht Baht Baht Baht Baht Baht
+Lehrer/Lehrer [pl.nom pl.dat]: Lehrer Lehrern
 Goldmark gender: feminine
 Invariant head [sg.gen pl.dat]: Goldmark Goldmark
 Invariant modifier [sg.nom pl.dat]: Goldmarkkurs Goldmarkkursen
 Invariant-plural head [sg.gen pl.dat]: Riesenaxolotls Riesenaxolotl
+Muskel/Muskeln [pl.nom pl.dat]: Muskeln Muskeln
+Auto/Autos [pl.nom pl.dat]: Autos Autos
+Abbozzo/Abbozzi [pl.nom pl.dat]: Abbozzi Abbozzi
+Causa/Causae [pl.nom pl.dat]: Causae Causae
+Owambo/Owambo [pl.nom pl.dat]: Owambo Owambo
+Minangkabau/Minangkabau [pl.nom pl.dat]: Minangkabau Minangkabau
+Bocher/Bocherim [pl.nom pl.dat]: Bocherim Bocherim
+Chassid/Chassidim [pl.nom pl.dat]: Chassidim Chassidim
+Kippa/Kippot [pl.nom pl.dat]: Kippot Kippot
+Schofar/Schofaroth [pl.nom pl.dat]: Schofaroth Schofaroth
+Sioux [sg.gen pl.nom pl.dat]: Sioux Sioux Sioux
+Hund/Hunde [pl.nom pl.dat]: Hunde Hunden
+Kind/Kinder [pl.nom pl.dat]: Kinder Kindern
+Metalexikon [pl.nom pl.dat]: Metalexika Metalexika
 Corpus dictionary [sg.gen pl.nom pl.dat]: Corpus Corpora Corpora
 Creek [sg.gen pl.nom pl.dat]: Creeks Creeks Creeks
