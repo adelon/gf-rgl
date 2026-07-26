@@ -12673,7 +12673,7 @@ fun feuerloeschteich_N : N ;
 fun feuerloeschzug_N : N ;
 fun feuermelder_N : N ;
 fun feuern_3_V : V ;
-fun feuersalaman_N : N ;
+fun feuersalamander_N : N ;
 fun feuerschiff_N : N ;
 fun feuerspiegel_N : N ;
 fun feuerstein_N : N ;
