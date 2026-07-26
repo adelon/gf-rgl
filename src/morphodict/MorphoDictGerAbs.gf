@@ -41055,7 +41055,6 @@ fun vielgestaltig_A : A ;
 fun vielleicht_Adv : Adv ;
 fun vielmals_Adv : Adv ;
 fun vielseitig_A : A ;
-fun vielverfaerbende_birkenpilz__N : N ;
 fun vielweiberei_N : N ;
 fun vier_N : N ;
 fun vierarmig_A : A ;

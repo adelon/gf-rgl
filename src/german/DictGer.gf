@@ -24,4 +24,7 @@ lin
     S.mkCN
       (mkN2 verbrechen_N (mkPrep "gegen" accusative))
       (S.mkNP S.the_Quant S.singularNum menschlichkeit_N) ;
+
+  vielverfaerbender_birkenpilz_CN =
+    S.mkCN (mkA "Vielverfärbend") birkenpilz_N ;
 }

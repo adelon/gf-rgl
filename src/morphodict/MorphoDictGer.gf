@@ -41063,7 +41063,6 @@ lin vielgestaltig_A = mk3A "vielgestaltig" "vielgestaltiger" "vielgestaltigste" 
 lin vielleicht_Adv = mkAdv "vielleicht" ;
 lin vielmals_Adv = mkAdv "vielmals" ;
 lin vielseitig_A = mk3A "vielseitig" "vielseitiger" "vielseitigste" ;
-lin vielverfaerbende_birkenpilz__N = mkN "Vielverfärbende Birkenpilz" "VielverfärbenBirkenpilze" masculine ;
 lin vielweiberei_N = mkN "Vielweiberei" "Vielweibereien" feminine ;
 lin vier_N = mkN "Vier" "Vieren" feminine ;
 lin vierarmig_A = regA "vierarmig" ;
