@@ -8,3 +8,22 @@ cc -all (mkN (changeCompoundN "Ampere" (mkN "Ampere" "Ampere" neuter)) (mkN "Met
 i -retain alltenses/ExtendGer.gfo
 
 cc -all (ExtendGer.CompoundN (ParadigmsGer.mkN "Sprache" "Sprachen" "Sprach" ParadigmsGer.feminine) (ParadigmsGer.mkN "Familie" "Familien" ParadigmsGer.feminine)).s ! Sg ! Nom
+
+i -retain alltenses/LexiconGer.gfo
+
+cc -all cheese_N.co ++ cheese_N.uncap.co ++ industry_N.co ++ industry_N.uncap.co ++ school_N.co ++ school_N.uncap.co
+
+i -retain alltenses/DictGer.gfo
+
+cc -all sprache_N.co ++ (ParadigmsGer.mkN sprache_N politik_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ sprachpolitik_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ sprachenpolitik_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all wache_N.co ++ (ParadigmsGer.mkN wache_N turm_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ wachturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ wachtturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all DictGer.bilge_N.co
+cc -all kaese_N.co ++ kaese_N.uncap.co ++ frischkaese_N.co ++ frischkaese_N.uncap.co
+cc -all gebaeude_N.co ++ gebaeude_N.uncap.co ++ wohngebaeude_N.co ++ wohngebaeude_N.uncap.co
+cc -all (ParadigmsGer.mkN kaese_N kuchen_N).co
+cc -all (ParadigmsGer.mkN gebaeude_N teil_N).co
+cc -all (ParadigmsGer.mkN kirche_N tuer_N).co
+cc -all (ParadigmsGer.mkN auge_N arzt_N).co
+cc -all messwein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN rasse_N hund_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all (ParadigmsGer.mkN w_frage_N typ_N).co
+cc -all ampere_N.co ++ ampere_N.uncap.co ++ joule_N.co ++ joule_N.uncap.co

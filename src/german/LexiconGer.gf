@@ -52,7 +52,7 @@ lin
   cat_N = mkN "Katze" ;
   ceiling_N = mkN "Zimmerdecke" ;
   chair_N = reg2N "Stuhl" "Stühle" masculine ;
-  cheese_N = mkN "Käse" "Käse" masculine ;
+  cheese_N = mkN "Käse" "Käse" "Käse" masculine ;
   child_N = reg2N "Kind" "Kinder" neuter ;
   church_N = mkN "Kirche" ;
   city_N = reg2N "Stadt" "Städte" feminine ;
@@ -106,14 +106,14 @@ lin
   hot_A = regA "heiß" ;
   house_N = reg2N "Haus" "Häuser" neuter ;
   important_A = regA "wichtig" ;
-  industry_N = mkN "Industrie" ;
+  industry_N = changeCompoundN "Industrie" (mkN "Industrie") ;
   iron_N = reg2N "Eisen" "Eisen" neuter ;
   jump_V = seinV Irreg.springen_V ;
   king_N = mkN "König" ;
   know_V2 = dirV2 Irreg.kennen_V ; 
   know_VQ = mkVQ Irreg.wissen_V ;
   know_VS = mkVS Irreg.wissen_V ;
-  lake_N = mkN "See" "See" "See" "Sees" "Seen" "Seen" masculine ;
+  lake_N = changeCompoundN "See" (mkN "See" "See" "See" "Sees" "Seen" "Seen" masculine) ;
   lamp_N = mkN "Lampe";
   learn_V2 = dirV2 (regV "lernen") ;
   leather_N = reg2N "Leder" "Leder" neuter ;
@@ -123,7 +123,7 @@ lin
   live_V = regV "leben" ;
   long_A = mk3A "lang" "länger" "längste" ;
   lose_V2 = dirV2 Irreg.verlieren_V ;
-  love_N = mkN "Liebe" ;
+  love_N = changeCompoundN "Liebes" (mkN "Liebe") ;
   love_V2 = dirV2 (regV "lieben") ;
   man_N = reg2N "Mann" "Männer" masculine ;
   married_A2 = mkA2 (regA "verheiratet") (mkPrep "mit" dative) ;
@@ -144,7 +144,8 @@ lin
   paint_V2A = mkV2A (regV "malen") accPrep ;
   paper_N = reg2N "Papier" "Papiere" neuter ;
   paris_PN = mkPN "Paris" neuter ;
-  peace_N = mk6N "Friede" "Frieden" "Frieden" "Friedens" "Frieden" "Frieden" masculine ;
+  peace_N = changeCompoundN "Friedens"
+    (mk6N "Friede" "Frieden" "Frieden" "Friedens" "Frieden" "Frieden" masculine) ;
   pen_N = mkN "Bleistift" ;
   planet_N = reg2N "Planet" "Planeten" masculine ;
   -- plastic_N = reg2N "Plastik" "Plastiken" feminine ; ----
@@ -168,7 +169,7 @@ lin
   rubber_N = reg2N "Gummi" "Gummis" neuter ;
   run_V = seinV Irreg.laufen_V ;
   say_VS = mkVS (regV "sagen") ;
-  school_N = mkN "Schule";
+  school_N = changeCompoundN "Schul" (mkN "Schule");
   science_N = reg2N "Wissenschaft" "Wissenschaften" feminine ;
   sea_N = reg2N "Meer" "Meere" neuter ;
   seek_V2 = dirV2 (regV "suchen") ;
@@ -250,7 +251,7 @@ lin
   wet_A = mk4A "naß" "nass" "nasser" "nasseste" ;
   wide_A = regA "breit" ;
   animal_N = reg2N "Tier" "Tiere" neuter ;
-  ashes_N = mkN "Asche" ;
+  ashes_N = changeCompoundN "Asche" (mkN "Asche") ;
   back_N = reg2N "Rücken" "Rücken" masculine ;
   bark_N = mkN "Rinde" ;
   belly_N = reg2N "Bauch" "Bäuche" masculine ;
@@ -261,7 +262,7 @@ lin
   day_N = mkN "Tag" ;
   dust_N = reg2N "Staub" "Stäube" masculine ;
   ear_N = mkN "Ohr" "Ohren" neuter ;
-  earth_N = mkN "Erde" ;
+  earth_N = changeCompoundN "Erd" (mkN "Erde") ;
   egg_N = mkN "Ei" "Eier" neuter ;
   eye_N = mkN "Auge" "Augen" neuter;
   fat_N = mkN "Fett" "Fette" neuter ;
@@ -273,7 +274,7 @@ lin
   foot_N = reg2N "Fuß" "Füße" masculine ;
   forest_N = reg2N "Wald" "Wälder" masculine ;
   grass_N = mkN "Gras" "Gräser" neuter ;
-  guts_N = mkN "Eingeweide" "Eingeweide" neuter ; ---- pl t ?
+  guts_N = mkN "Eingeweide" "Eingeweide" "Eingeweide" neuter ; ---- pl t ?
   hair_N = mkN "Haar" "Haare" neuter ;
   hand_N = mkN "Hand" "Hände" feminine ;
   head_N = mkN "Kopf" "Köpfe" masculine ;
@@ -287,7 +288,8 @@ lin
   liver_N = mkN "Leber" "Lebern" feminine ;
   louse_N = reg2N "Laus" "Läuse" feminine ;
   mouth_N = mkN "Mund" "Münder" masculine ;
-  name_N = mkN "Name" "Namen" "Namen" "Namens" "Namen" "Namen" masculine ;
+  name_N = changeCompoundN "Namens"
+    (mkN "Name" "Namen" "Namen" "Namens" "Namen" "Namen" masculine) ;
   neck_N = mkN "Nacken" "Nacken" masculine ;
   night_N = reg2N "Nacht" "Nächte" feminine ;
   nose_N = mkN "Nase" ;
@@ -360,11 +362,11 @@ lin
   wipe_V2 = dirV2 (regV "wischen") ;
 
   grammar_N = reg2N "Grammatik" "Grammatiken" feminine ;
-  language_N = mkN "Sprache" ;
+  language_N = changeCompoundN "Sprach" (mkN "Sprache") ;
   rule_N = reg2N "Regel" "Regeln" feminine ;
 
     john_PN = mkPN "Johann" masculine ;
-    question_N = mkN "Frage" ;
+    question_N = changeCompoundN "Frage" (mkN "Frage") ;
     ready_A = regA "fertig" ;
     reason_N = reg2N "Grund" "Gründe" masculine ;
     today_Adv = mkAdv "heute" ;
