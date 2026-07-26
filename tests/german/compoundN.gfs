@@ -1,0 +1,3 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -all (mkN (changeCompoundN "Ampere" (mkN "Ampere" "Ampere" neuter)) (mkN "Meter" "Meter" neuter)).s ! Sg ! Nom
