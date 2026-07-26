@@ -67,8 +67,27 @@ oper
     _ => v + "t"                  -- lernen, lärmen, qualmen etc
     } ;
 
-  verbST : Str -> Str = \v -> case v of {
-    _ + ("s" | "ss" | "ß" | "sch" | "x" | "z") => v + "t" ;
+  -- Present -st is reduced to -t after s/ss/ß/x/z, but not after sch.
+  -- Contracted -ten verbs retain their stem-final t: hält -> hältst.
+  -- Preterite-present verbs retain a zero-ending 3sg: kann -> kannst.
+  verbPresSg2 : Str -> Str -> Str = \inf,pres3Sg ->
+    let addST : Str -> Str = \v -> case v of {
+          _ + ("s" | "ss" | "ß" | "x" | "z") => v + "t" ;
+          _ => v + "st"
+          }
+    in case <inf,pres3Sg> of {
+      <"werden", "wird"> => "wirst" ;
+      <_, base + "t"> => case <inf,base> of {
+        <_ + "ten", _ + ("e" | "s" | "ss" | "ß" | "x" | "z")> => addST base ;
+        <_ + "ten", _> => pres3Sg + "st" ;
+        _ => addST base
+        } ;
+      _ => addST pres3Sg
+      } ;
+
+  -- Preterite -st takes epenthetic e after d/t/s/ss/ß/x/z, but not sch.
+  verbPretSg2 : Str -> Str = \v -> case v of {
+    _ + ("d" | "t" | "s" | "ss" | "ß" | "x" | "z") => v + "est" ;
     _ => v + "st"
     } ;
 
@@ -117,4 +136,3 @@ oper
   invNum : CardOrd = NCard (AMod (GSg Masc) Nom) ;
 
 } ;
-
