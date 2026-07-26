@@ -2,8 +2,10 @@
 
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
-    [ bilge_N
+    [ atlas_N
+    , bilge_N
     , gewebe_N
+    , kanevas_N
     , kohle_N
     , muehle_N
     , palme_N
@@ -17,11 +19,19 @@ oper
     mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine ;
 
 lin
+  atlas_N =
+    mkN "Atlas" "Atlas" "Atlas" (variants {"Atlas" ; "Atlasses"})
+        "Atlas" "Atlas" masculine ;
+
   bilge_N = mkN "Bilge" "Bilgen" ("Bilge" | "Bilgen") feminine ;
 
   braunkohle_N = mkN braun_N kohleVariant_N ;
 
   gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
+
+  kanevas_N =
+    mkN "Kanevas" "Kanevas" "Kanevas"
+        (variants {"Kanevas" ; "Kanevasses"}) "Kanevas" "Kanevas" masculine ;
 
   kohle_N = kohleVariant_N ;
 
