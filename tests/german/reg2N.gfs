@@ -13,3 +13,7 @@ cc -all "Goldmark gender:" ++ case (invarN "Goldmark" feminine).g of {Fem => "fe
 cc -all "Invariant head [sg.gen pl.dat]:" ++ (mkN "Gold" (invarN "Mark" feminine)).s ! Sg ! Gen ++ (mkN "Gold" (invarN "Mark" feminine)).s ! Pl ! Dat
 cc -all "Invariant modifier [sg.nom pl.dat]:" ++ (mkN (invarN "Goldmark" feminine) (mkN "Kurs" "Kurse" masculine)).s ! Sg ! Nom ++ (mkN (invarN "Goldmark" feminine) (mkN "Kurs" "Kurse" masculine)).s ! Pl ! Dat
 cc -all "Invariant-plural head [sg.gen pl.dat]:" ++ (mkN "Riesen" (invarPlN "Axolotl" masculine)).s ! Sg ! Gen ++ (mkN "Riesen" (invarPlN "Axolotl" masculine)).s ! Pl ! Dat
+
+i -retain alltenses/DictGer.gfo
+
+cc -all "Creek [sg.gen pl.nom pl.dat]:" ++ creek_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ creek_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ creek_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative
