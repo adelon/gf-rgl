@@ -1,0 +1,15 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -all "Genus Verbi [sg.gen pl.nom pl.dat]:" ++ (invarN "Genus Verbi" "Genera Verbi" neuter).s ! Sg ! Gen ++ (invarN "Genus Verbi" "Genera Verbi" neuter).s ! Pl ! Nom ++ (invarN "Genus Verbi" "Genera Verbi" neuter).s ! Pl ! Dat
+cc -all "Haus [sg.gen pl.nom pl.dat]:" ++ (mkN "Haus" "Häuser" neuter).s ! Sg ! Gen ++ (mkN "Haus" "Häuser" neuter).s ! Pl ! Nom ++ (mkN "Haus" "Häuser" neuter).s ! Pl ! Dat
+cc -all "Axolotl [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (invarPlN "Axolotl" masculine).s ! Sg ! Nom ++ (invarPlN "Axolotl" masculine).s ! Sg ! Acc ++ (invarPlN "Axolotl" masculine).s ! Sg ! Dat ++ (invarPlN "Axolotl" masculine).s ! Sg ! Gen ++ (invarPlN "Axolotl" masculine).s ! Pl ! Nom ++ (invarPlN "Axolotl" masculine).s ! Pl ! Dat
+cc -all "Eiklar [sg.gen pl.nom pl.dat]:" ++ (invarPlN "Eiklar" neuter).s ! Sg ! Gen ++ (invarPlN "Eiklar" neuter).s ! Pl ! Nom ++ (invarPlN "Eiklar" neuter).s ! Pl ! Dat
+cc -all "Ampere [sg.gen pl.nom pl.dat]:" ++ (invarPlN "Ampere" neuter).s ! Sg ! Gen ++ (invarPlN "Ampere" neuter).s ! Pl ! Nom ++ (invarPlN "Ampere" neuter).s ! Pl ! Dat
+cc -all "Penny [sg.gen pl.nom pl.dat]:" ++ (invarPlN "Penny" "Pence" masculine).s ! Sg ! Gen ++ (invarPlN "Penny" "Pence" masculine).s ! Pl ! Nom ++ (invarPlN "Penny" "Pence" masculine).s ! Pl ! Dat
+cc -all "Bar unit [sg.gen pl.nom pl.dat]:" ++ (invarPlN "Bar" neuter).s ! Sg ! Gen ++ (invarPlN "Bar" neuter).s ! Pl ! Nom ++ (invarPlN "Bar" neuter).s ! Pl ! Dat
+cc -all "Inuk [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Nom ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Acc ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Dat ++ (invarPlN "Inuk" "Inuit" masculine).s ! Sg ! Gen ++ (invarPlN "Inuk" "Inuit" masculine).s ! Pl ! Nom ++ (invarPlN "Inuk" "Inuit" masculine).s ! Pl ! Dat
+cc -all "Baht [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]:" ++ (invarN "Baht" masculine).s ! Sg ! Nom ++ (invarN "Baht" masculine).s ! Sg ! Acc ++ (invarN "Baht" masculine).s ! Sg ! Dat ++ (invarN "Baht" masculine).s ! Sg ! Gen ++ (invarN "Baht" masculine).s ! Pl ! Nom ++ (invarN "Baht" masculine).s ! Pl ! Dat
+cc -all "Goldmark gender:" ++ case (invarN "Goldmark" feminine).g of {Fem => "feminine" ; _ => "wrong"}
+cc -all "Invariant head [sg.gen pl.dat]:" ++ (mkN "Gold" (invarN "Mark" feminine)).s ! Sg ! Gen ++ (mkN "Gold" (invarN "Mark" feminine)).s ! Pl ! Dat
+cc -all "Invariant modifier [sg.nom pl.dat]:" ++ (mkN (invarN "Goldmark" feminine) (mkN "Kurs" "Kurse" masculine)).s ! Sg ! Nom ++ (mkN (invarN "Goldmark" feminine) (mkN "Kurs" "Kurse" masculine)).s ! Pl ! Dat
+cc -all "Invariant-plural head [sg.gen pl.dat]:" ++ (mkN "Riesen" (invarPlN "Axolotl" masculine)).s ! Sg ! Gen ++ (mkN "Riesen" (invarPlN "Axolotl" masculine)).s ! Pl ! Dat
