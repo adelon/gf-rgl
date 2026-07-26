@@ -4210,8 +4210,8 @@ lin
   niederschlagen_V2 = dirV2 (prefixV "nieder" (irregV "schlagen" "schlagt" "schlug" "schlüge" "geschlagen"))  ;
   niederschreiben_V2 = dirV2 (prefixV "nieder" (irregV "schreiben" "schreibt" "schrieb" "schrieb" "geschrieben"))  ;
   niesen_V = regV "niesen" ;
-  niffeln_V2 = dirV2 (irregV "niffeln" "niffe" "niffe" "niffe" "geniffe")  ;
-  niffeln_V = irregV "niffeln" "niffe" "niffe" "niffe" "geniffe" ;
+  niffeln_V2 = dirV2 (regV "niffeln")  ;
+  niffeln_V = regV "niffeln" ;
   nippen_am_V2 = prepV2 (regV "nippen") (mkPrep "an" dative) ;
   nitrieren_V2 = dirV2 (regV "nitrieren")  ;
   nivellieren_V2 = dirV2 (regV "nivellieren")  ;
@@ -6204,7 +6204,7 @@ lin
   vergegenwaertigen_dat_V3 = accdatV3 (irregV "vergegenwärtigen" "vergegenwärtigt" "vergegenwärtigte" "vergegenwärtigte" "vergegenwärtigt")  ;
   vergehen_V = irregV "vergehen" "vergeht" "verging" "verginge" "vergangen" ;
   vergeigen_V2 = dirV2 (irregV "vergeigen" "vergeigt" "vergeigte" "vergeigte" "vergeigt")  ;
-  vergemeinschaften_V2 = dirV2 (irregV "vergemeinschaften" "vergemeinschaften" "vergemeinschaften" "vergemeinschaften" "vergemeinschaften")  ;
+  vergemeinschaften_V2 = dirV2 (irregV "vergemeinschaften" "vergemeinschaftet" "vergemeinschaftete" "vergemeinschaftete" "vergemeinschaftet")  ;
   vergenossenschaften_V2 = dirV2 (regV "vergenossenschaften")  ;
   vergenossenschaftlichen_V2 = dirV2 (regV "vergenossenschaftlichen")  ;
   vergesellschaften_V2 = dirV2 (regV "vergesellschaften")  ;
