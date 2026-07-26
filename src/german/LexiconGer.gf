@@ -277,7 +277,7 @@ lin
   hair_N = mkN "Haar" "Haare" neuter ;
   hand_N = mkN "Hand" "Hände" feminine ;
   head_N = mkN "Kopf" "Köpfe" masculine ;
-  heart_N = mkN "Herz" "Herzen" neuter ;
+  heart_N = mkN "Herz" "Herz" "Herzen" "Herzens" "Herzen" "Herzen" neuter ;
   horn_N = mkN "Horn" "Hörner" neuter ;
   husband_N = mkN "Ehemann" "Ehemänner" masculine ;
   ice_N = mkN "Eis" "Eise" neuter ;

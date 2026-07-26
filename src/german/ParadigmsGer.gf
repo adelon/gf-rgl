@@ -502,8 +502,8 @@ mkV2 : overload {
         mk6N hund hund hund hund hunde hunde g ;
       <_,_ + "a", Neutr> =>
         mk6N hund hund hund (genitS True hund) hunde hunden g ;
-      <_,_ + ("n" | "s"), Neutr> =>                                 --- not mentioned; Konto-Kontos
-        mk6N hund hund hund hund hunde hunde g ;
+      <_,_ + "n", Neutr> =>                                         -- Auge-Augen
+        mk6N hund hund hund (genitS True hund) hunde hunde g ;
       _ =>
         let n = reg1N hund g
         in mk6N hund
