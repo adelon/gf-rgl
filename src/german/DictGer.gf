@@ -3,27 +3,27 @@
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ bilge_N
-    , braunkohle_N
     , gewebe_N
     , kohle_N
     , muehle_N
     , palme_N
-    , stammzelle_N
-    , steinkohle_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
 flags coding=utf8 ;
 
+oper
+  kohleVariant_N : N =
+    mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine ;
+
 lin
   bilge_N = mkN "Bilge" "Bilgen" ("Bilge" | "Bilgen") feminine ;
 
-  braunkohle_N =
-    mkN "Braunkohle" "Braunkohlen" ("Braunkohle" | "Braunkohlen") feminine ;
+  braunkohle_N = mkN braun_N kohleVariant_N ;
 
   gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 
-  kohle_N = mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine ;
+  kohle_N = kohleVariant_N ;
 
   muehle_N = mkN "Mühle" "Mühlen" ("Mühl" | "Mühlen") feminine ;
 
@@ -42,11 +42,9 @@ lin
         "Qualitätsweinen mit Prädikat"
         masculine ;
 
-  stammzelle_N =
-    mkN "Stammzelle" "Stammzellen" ("Stammzell" | "Stammzellen") feminine ;
+  stammzelle_N = mkN stamm_N zelle_N ;
 
-  steinkohle_N =
-    mkN "Steinkohle" "Steinkohlen" ("Steinkohle" | "Steinkohlen") feminine ;
+  steinkohle_N = mkN stein_N kohleVariant_N ;
 
   verbrechen_gegen_die_menschlichkeit_CN =
     S.mkCN
