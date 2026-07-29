@@ -198,9 +198,8 @@ rglCommands =
         case mex of
           Nothing -> die $ "Cannot find module: " ++ m
           Just mfull -> flip mapM_ modes $ \mode -> do
-            let dst = getRGLBuildDir bi mode
             putStrLn $ "Building [" ++ show mode ++ "] " ++ dropSourceDir mfull
-            run_gfc bi ["--gfo-dir="++dst, mfull]
+            run_gfc_mode bi mode [mfull]
 
   ]
   where
@@ -375,19 +374,23 @@ gfc bi modes summary files =
   parallel_ [gfcn bi mode summary files | mode<-modes]
 
 gfcn :: Info -> Mode -> String -> [FilePath] -> IO ()
-gfcn bi mode summary files = do
-  let dir = getRGLBuildDir bi mode
-      preproc = case mode of
-                  Present -> "--preproc=mkPresent"
-                  _       -> ""
-  createDirectoryIfMissing True dir
+gfcn bi mode summary files =
   if length files > 0
   then do
     putStrLn $ "Building [" ++ show mode ++ "]"
     when (infoVerbose bi) (putStrLn summary)
-    run_gfc bi (["--no-pmcfg", preproc, "--gfo-dir="++dir] ++ files)
+    run_gfc_mode bi mode files
   else
     putStrLn $ "Skipping [" ++ show mode ++ "] (nothing to build)"
+
+run_gfc_mode :: Info -> Mode -> [FilePath] -> IO ()
+run_gfc_mode bi mode files = do
+  let dir = getRGLBuildDir bi mode
+      mode_args = case mode of
+                    Present -> ["--preproc=mkPresent"]
+                    _       -> []
+  createDirectoryIfMissing True dir
+  run_gfc bi (["--no-pmcfg", "--gfo-dir="++dir] ++ mode_args ++ files)
 
 -- | Runs the gf executable in compile mode with the given arguments
 run_gfc :: Info -> [String] -> IO ()
