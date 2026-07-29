@@ -15307,6 +15307,7 @@ fun glamouroes_A : A ;
 fun glans_N : N ;
 fun glanzleistung_N : N ;
 fun glaren_V : V ;
+fun glas_N : N ;
 fun glasampulle_N : N ;
 fun glasauge_N : N ;
 fun glasbaustein_N : N ;

@@ -15313,6 +15313,7 @@ lin glamouroes_A = mk3A "glamourös" "glamouröser" "glamouröseste" ;
 lin glans_N = mkN "Glans" "Glandes" feminine ;
 lin glanzleistung_N = mkN "Glanzleistung" ;
 lin glaren_V = regV "glaren" ;
+lin glas_N = mkN "Glas" "Gläser" neuter ;
 lin glasampulle_N = mkN "Glasampulle" "Glasampullen" feminine ;
 lin glasauge_N = mkN "Glasauge" "Glasaugen" neuter ;
 lin glasbaustein_N = mkN "Glasbaustein" "Glasbausteine" masculine ;
