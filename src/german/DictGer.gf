@@ -15,6 +15,9 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin a_achse_N = mkHyphenN a_N achse_N ;
+lin arbeitslosengeld_N = mkN "Arbeitslosen" geld_N ;
+lin arbeitslosenquote_N = mkN "Arbeitslosen" quote_N ;
+lin arbeitslosenrate_N = mkN "Arbeitslosen" rate_N ;
 lin atlas_N = mkN "Atlas" "Atlas" "Atlas" (variants {"Atlas" ; "Atlasses"}) "Atlas" "Atlas" masculine ;
 lin bilge_N = mkN "Bilge" "Bilgen" ("Bilge" | "Bilgen") feminine ;
 lin braunkohle_N = mkN braun_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;

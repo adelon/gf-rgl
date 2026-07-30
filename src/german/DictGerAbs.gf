@@ -4,6 +4,9 @@ abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
   a_achse_N : N ;
+  arbeitslosengeld_N : N ;
+  arbeitslosenquote_N : N ;
+  arbeitslosenrate_N : N ;
   braunkohle_N : N ;
   braunkohlekraftwerk_N : N ;
   bundesverfassungsgericht_N : N ;
