@@ -6,6 +6,7 @@ fun
   a_achse_N : N ;
   braunkohle_N : N ;
   braunkohlekraftwerk_N : N ;
+  bundesverfassungsgericht_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;
   eierkohle_N : N ;
   fluorchlorkohlenwasserstoff_N : N ;
@@ -48,6 +49,7 @@ fun
   kohlroulade_N : N ;
   kohlruebe_N : N ;
   kohlweissling_N : N ;
+  liebesbrief_N : N ;
   mutterseelenallein_A : A ;
   perfluorkohlenstoff_N : N ;
   plan_b_N : N ;
@@ -58,6 +60,7 @@ fun
   steinkohlekraftwerk_N : N ;
   torfkohle_N : N ;
   verbrechen_gegen_die_menschlichkeit_CN : CN ;
+  verfassungsgericht_N : N ;
   vielverfaerbender_birkenpilz_CN : CN ;
   zeichenkohle_N : N ;
 }

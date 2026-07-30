@@ -19,6 +19,7 @@ lin atlas_N = mkN "Atlas" "Atlas" "Atlas" (variants {"Atlas" ; "Atlasses"}) "Atl
 lin bilge_N = mkN "Bilge" "Bilgen" ("Bilge" | "Bilgen") feminine ;
 lin braunkohle_N = mkN braun_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;
 lin braunkohlekraftwerk_N = mkN "Braunkohle" kraftwerk_N ;
+lin bundesverfassungsgericht_N = mkN bund_bundes_N verfassungsgericht_N ;
 lin chlorfluorkohlenwasserstoff_N = mkN "Chlorfluor" (mkN "Kohlen" wasserstoff_N) ;
 -- Eier-, Torf-, and Zeichenkohle use -kohlen- recursively.
 lin eierkohle_N = mkN "Eier" (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
@@ -67,6 +68,7 @@ lin kohlrabenschwarz_A = regA "kohlrabenschwarz" ; -- from "Kohle", i.e. referri
 lin kohlroulade_N = mkN kohl_N roulade_N ;
 lin kohlruebe_N = mkN kohl_N ruebe_N ;
 lin kohlweissling_N = mkN kohl_N weissling_N ;
+lin liebesbrief_N = mkN liebe_N brief_N ;
 lin muehle_N = mkN "Mühle" "Mühlen" ("Mühl" | "Mühlen") feminine ;
 lin mutterseelenallein_A = mkA (mkN mutter_N seele_N) allein_A ;
 lin palme_N = mkN "Palme" "Palmen" ("Palm" | "Palmen") feminine ;
@@ -79,6 +81,7 @@ lin steinkohle_N = mkN stein_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") femini
 lin steinkohlekraftwerk_N = mkN "Steinkohle" kraftwerk_N ;
 lin torfkohle_N = mkN torf_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 lin verbrechen_gegen_die_menschlichkeit_CN = S.mkCN (mkN2 verbrechen_N (mkPrep "gegen" accusative)) (S.mkNP S.the_Quant S.singularNum menschlichkeit_N) ;
+lin verfassungsgericht_N = mkN verfassung_N gericht_N ;
 lin vielverfaerbender_birkenpilz_CN = S.mkCN (mkA "Vielverfärbend") birkenpilz_N ;
 lin zeichenkohle_N = mkN zeichen_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 }
