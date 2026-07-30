@@ -1,0 +1,3 @@
+i -retain alltenses/TryGer.gfo
+
+cc -all (mkUtt (mkAP (mkAdA "hoch") (mkA "kompliziert"))).s ++ (mkUtt (mkNP a_Det (mkCN (mkAP (mkAdA "hoch") (mkA "kompliziert")) (mkN "Problem" "Probleme" neuter)))).s

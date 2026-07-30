@@ -272,6 +272,7 @@ mkN : overload {
 -- Adverbs are formed from strings.
 
   mkAdv : Str -> Adv ; -- adverbs have just one form anyway
+  mkAdA : Str -> AdA ; -- adjective modifiers have just one form
   mkIAdv : Str -> IAdv ;
 
 --2 Prepositions
@@ -660,6 +661,7 @@ mkV2 : overload {
   mkA2 = \a,p -> a ** {c2 = p ; lock_A2 = <>} ;
 
   mkAdv s = {s = s ; lock_Adv = <>} ;
+  mkAdA s = {s = s ; lock_AdA = <>} ;
   mkIAdv s = {s = s ; lock_IAdv = <>} ;
 
   mkPrep = overload {
