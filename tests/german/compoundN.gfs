@@ -24,6 +24,9 @@ cc -all sprache_N.co ++ (ParadigmsGer.mkN sprache_N politik_N).s ! ParadigmsGer.
 cc -all wache_N.co ++ (ParadigmsGer.mkN wache_N turm_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ wachturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ wachtturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all DictGer.bilge_N.co
 cc -all braunkohle_N.co ++ braunkohle_N.uncap.co ++ (ParadigmsGer.mkN braunkohle_N kraftwerk_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ stammzelle_N.co ++ stammzelle_N.uncap.co ++ (ParadigmsGer.mkN stammzelle_N faktor_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ steinkohle_N.co ++ steinkohle_N.uncap.co ++ (ParadigmsGer.mkN steinkohle_N kraftwerk_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all kohlmeise_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kohlmeise_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kohlmeise_N.co ++ (ParadigmsGer.mkN kohlmeise_N bestand_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all eierkohle_N.co ++ holzkohle_N.co ++ torfkohle_N.co ++ zeichenkohle_N.co ++ kohlroulade_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kohlruebe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kohlweissling_N.co ++ kohlrabi_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all kohlensaeureanhydraseinhibitor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kohlenstoffquelle_N.co ++ radiokohlenstoffdatierung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ radiokohlenstoffdatierung_N.co
 cc -all kaese_N.co ++ kaese_N.uncap.co ++ frischkaese_N.co ++ frischkaese_N.uncap.co
 cc -all gebaeude_N.co ++ gebaeude_N.uncap.co ++ wohngebaeude_N.co ++ wohngebaeude_N.uncap.co
 cc -all (ParadigmsGer.mkN frischkaese_N kuchen_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
