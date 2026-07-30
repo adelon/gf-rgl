@@ -18,4 +18,13 @@ lin
   friedhof_N = changeCompoundN "Friedhofs" (mkN "Fried" (mkN "Hof" "Hof" "Hof" "Hofs" "Höfe" "Höfen" masculine)) ;
   mauer_N = mkN "Mauer" "Mauern" "Mauer" feminine ;
   nah_A = regA "nah" ;
+  pkw_N = abbrevN (mkN "Pkw" "Pkws" masculine) ;
+  maut_N = mkN "Maut" "Mauten" feminine ;
+  system_N = mkN "System" "Systeme" neuter ;
+  pkwmaut_N = mkN (abbrevN (mkN "Pkw" "Pkws" masculine)) (mkN "Maut" "Mauten" feminine) ;
+  pkwmautsystem_N = mkN pkwmaut_N (mkN "System" "Systeme" neuter) ;
+  waffe_N = mkN "Waffe" "Waffen" feminine ;
+  abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+  frei_A = regA "frei" ;
+  abc_waffen_frei_A = mkA (mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine)) (regA "frei") ;
 }

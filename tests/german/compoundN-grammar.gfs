@@ -7,8 +7,16 @@ l -bind -lang=TestCompoundGer -treebank sprachpolitik_N
 l -bind -lang=TestCompoundGer -treebank sprachenpolitik_N
 l -bind -lang=TestCompoundGer -treebank (CompoundN friedhof_N mauer_N)
 l -bind -lang=TestCompoundGer -treebank (CompoundAP friedhof_N nah_A)
+l -bind -lang=TestCompoundGer -treebank (CompoundN pkw_N maut_N)
+l -bind -lang=TestCompoundGer -treebank pkwmaut_N
+l -bind -lang=TestCompoundGer -treebank (CompoundN (CompoundN pkw_N maut_N) system_N)
+l -bind -lang=TestCompoundGer -treebank pkwmautsystem_N
+l -bind -lang=TestCompoundGer -treebank (CompoundAP abc_waffen_N frei_A)
+l -bind -lang=TestCompoundGer -treebank abc_waffen_frei_A
+l -bind -lang=TestCompoundGer -treebank (CompoundN abc_waffen_N system_N)
 l -bind -lang=TestCompoundGer -table friedhof_N
 l -bind -lang=TestCompoundGer -table (CompoundN friedhof_N mauer_N)
+l -bind -lang=TestCompoundGer -table pkwmaut_N
 p -lang=TestCompoundGer -cat=N "Frischkäsekuchen"
 p -lang=TestCompoundGer -cat=N "Frischkäse &+ kuchen"
 pg -langs

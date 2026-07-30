@@ -3,6 +3,7 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  a_achse_N : N ;
   braunkohle_N : N ;
   braunkohlekraftwerk_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;

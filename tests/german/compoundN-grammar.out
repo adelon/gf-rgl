@@ -19,6 +19,27 @@ TestCompoundGer: Friedhofsmauer
 TestCompoundGerAbs: CompoundAP friedhof_N nah_A
 TestCompoundGer: friedhofsnah
 
+TestCompoundGerAbs: CompoundN pkw_N maut_N
+TestCompoundGer: Pkw-Maut
+
+TestCompoundGerAbs: pkwmaut_N
+TestCompoundGer: Pkw-Maut
+
+TestCompoundGerAbs: CompoundN (CompoundN pkw_N maut_N) system_N
+TestCompoundGer: Pkw-Maut-System
+
+TestCompoundGerAbs: pkwmautsystem_N
+TestCompoundGer: Pkw-Maut-System
+
+TestCompoundGerAbs: CompoundAP abc_waffen_N frei_A
+TestCompoundGer: ABC-Waffen-frei
+
+TestCompoundGerAbs: abc_waffen_frei_A
+TestCompoundGer: ABC-Waffen-frei
+
+TestCompoundGerAbs: CompoundN abc_waffen_N system_N
+TestCompoundGer: ABC-Waffen-System
+
 s Sg Nom : Friedhof
 s Sg Acc : Friedhof
 s Sg Dat : Friedhof
@@ -56,6 +77,25 @@ uncap s Pl Acc : friedhofsmauern
 uncap s Pl Dat : friedhofsmauern
 uncap s Pl Gen : friedhofsmauern
 uncap co : friedhofsmauer
+
+s Sg Nom : Pkw-Maut
+s Sg Acc : Pkw-Maut
+s Sg Dat : Pkw-Maut
+s Sg Gen : Pkw-Maut
+s Pl Nom : Pkw-Mauten
+s Pl Acc : Pkw-Mauten
+s Pl Dat : Pkw-Mauten
+s Pl Gen : Pkw-Mauten
+co : Pkw-Maut
+uncap s Sg Nom : Pkw-Maut
+uncap s Sg Acc : Pkw-Maut
+uncap s Sg Dat : Pkw-Maut
+uncap s Sg Gen : Pkw-Maut
+uncap s Pl Nom : Pkw-Mauten
+uncap s Pl Acc : Pkw-Mauten
+uncap s Pl Dat : Pkw-Mauten
+uncap s Pl Gen : Pkw-Mauten
+uncap co : Pkw-Maut
 
 frischkaesekuchen_N
 

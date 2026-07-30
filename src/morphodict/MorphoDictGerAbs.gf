@@ -1,6 +1,5 @@
 abstract MorphoDictGerAbs = Cat ** {
 
-fun a_achse_N : N ;
 fun a_battuta_Adv : Adv ;
 fun a_bombe_N : N ;
 fun a_cappella_Adv : Adv ;

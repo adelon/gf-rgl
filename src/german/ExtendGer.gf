@@ -429,15 +429,35 @@ concrete ExtendGer of Extend =
     -- The first noun's canonical co realizes the internal boundary. The
     -- completed noun transparently propagates the head's co outward.
     CompoundN a x =
-      let s = a.co in lin N {
-        s  = \\n,c => s ++ Predef.BIND ++ x.uncap.s ! n ! c ;
-        co = s ++ Predef.BIND ++ x.uncap.co ;
-        uncap = {
-          s  = \\n,c => a.uncap.co  ++ Predef.BIND ++ x.uncap.s ! n ! c ;
-          co = a.uncap.co  ++ Predef.BIND ++ x.uncap.co ;
+      let csep = mergeCompoundSep a.csep x.csep
+      in case csep of {
+        BindSep => lin N {
+          s  = \\n,c => a.co ++ Predef.BIND ++ x.uncap.s ! n ! c ;
+          co = a.co ++ Predef.BIND ++ x.uncap.co ;
+          uncap = {
+            s  = \\n,c => a.uncap.co ++ Predef.BIND ++ x.uncap.s ! n ! c ;
+            co = a.uncap.co ++ Predef.BIND ++ x.uncap.co ;
+            } ;
+          csep = csep ;
+          g = x.g
           } ;
-        g = x.g
-      } ;
+        HyphenSep =>
+          let
+            forms : Number => Case => Str =
+              \\n,c => a.co ++ Predef.BIND ++ "-" ++ Predef.BIND ++ x.s ! n ! c ;
+            co : Str =
+              a.co ++ Predef.BIND ++ "-" ++ Predef.BIND ++ x.co
+          in lin N {
+            s = forms ;
+            co = co ;
+            uncap = {
+              s = forms ;
+              co = co
+              } ;
+            csep = csep ;
+            g = x.g
+            }
+        } ;
 
 -- very language-specific things
 
@@ -489,10 +509,14 @@ concrete ExtendGer of Extend =
       n = Pl
       } ;
 
-    -- Adjectival compounds consume the uncapitalized copy of the same
-    -- canonical noun modifier form.
+    -- Adjectival compounds consume the word-internal noun modifier form.
+    -- Hyphenated noun constituents retain their capitalization.
     CompoundAP n a = {
-      s = \\af => n.uncap.co ++ Predef.BIND ++ a.s ! Posit ! af ;
+      s = \\af => case n.csep of {
+        BindSep => n.uncap.co ++ Predef.BIND ++ a.s ! Posit ! af ;
+        HyphenSep =>
+          n.co ++ Predef.BIND ++ "-" ++ Predef.BIND ++ a.s ! Posit ! af
+        } ;
       s2 = \\_ => [] ;
       isPre = True ;
       c = <[],[]> ;

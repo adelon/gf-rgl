@@ -4,12 +4,20 @@ Sprachen sprachen
 Amperemeter
 Tage tage Feiertag Feiertage Tages tages
 mutterseelenallein mutterseelenalleiner mutterseelenalleiner mutterseelenalleinsten
+Pkw-Maut
+Pkw-Maut-System
+ABC-Waffen-frei
+W-Frage-Typ
+W-Frage-Typ
 Sprach Predef.BIND familie
 feminine
 friedhofs Predef.BIND nah
+Pkw Predef.BIND - Predef.BIND Maut
+ABC-Waffen Predef.BIND - Predef.BIND frei
 Käse käse Industrie industrie Schul schul
 Samen samen Knie knie Schnee schnee
 Samenbank Kniegelenk Kniescheibe Schneeball
+A-Achse A-Achsen A-Achsen A-Achsen A-Achsen-System
 Sprach Sprachpolitik Sprachpolitik Sprachenpolitik
 Wach Wachturm Wachturm Wachtturm
 Bilge / Bilgen
@@ -25,8 +33,10 @@ Gebäudeteil
 Kirchentür
 Augenarzt
 Messwein Rassehund
-Algonkin-Sprache Algonkin-Sprachfamilie
-W-Fragetyp
+Algonkin-Sprache Algonkin-Sprach-Familie
+W-Frage-Typ Test-W-Frage
+Pkw-Maut
+DVD-System
 Ampere ampere Joule joule
 Knie knie Buchhalterknie buchhalterknie Rheinknie rheinknie
 mutterseelenallein

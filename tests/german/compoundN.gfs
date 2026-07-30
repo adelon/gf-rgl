@@ -6,12 +6,19 @@ cc -all (mkN "Sprache" "Sprachen" feminine).co ++ (mkN "Sprache" "Sprachen" femi
 cc -all (mkN (changeCompoundN "Ampere" (mkN "Ampere" "Ampere" neuter)) (mkN "Meter" "Meter" neuter)).s ! Sg ! Nom
 cc -all (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).s ! Sg ! Dat ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).uncap.s ! Sg ! Dat ++ (mkN "Feier" (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine)))).s ! Sg ! Nom ++ (mkN "Feier" (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine)))).s ! Sg ! Dat ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).co ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).uncap.co
 cc -all (mkA (mkN (mkN "Mutter" "Mütter" feminine) (mkN "Seele" "Seelen" feminine)) (mkA "allein")).s ! Posit ! APred ++ (mkA (mkN (mkN "Mutter" "Mütter" feminine) (mkN "Seele" "Seelen" feminine)) (mkA "allein")).s ! Posit ! AMod (GSg Masc) Nom ++ (mkA (mkN (mkN "Mutter" "Mütter" feminine) (mkN "Seele" "Seelen" feminine)) (mkA "allein")).s ! Compar ! APred ++ (mkA (mkN (mkN "Mutter" "Mütter" feminine) (mkN "Seele" "Seelen" feminine)) (mkA "allein")).s ! Superl ! APred
+cc -all (mkN (abbrevN (mkN "Pkw" "Pkws" masculine)) (mkN "Maut" "Mauten" feminine)).s ! Sg ! Nom
+cc -all (mkN (mkN (abbrevN (mkN "Pkw" "Pkws" masculine)) (mkN "Maut" "Mauten" feminine)) (mkN "System" "Systeme" neuter)).s ! Sg ! Nom
+cc -all (mkA (mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine)) (mkA "frei")).s ! Posit ! APred
+cc -all (mkN (mkN "W-Frage" "W-Fragen" "W-Frage" feminine) (mkN "Typ" "Typen" masculine)).s ! Sg ! Nom
+cc -all (mkN (changeCompoundN "W-Frage" (mkN "Frage" "Fragen" feminine)) (mkN "Typ" "Typen" masculine)).s ! Sg ! Nom
 
 i -retain alltenses/ExtendGer.gfo
 
 cc -all (ExtendGer.CompoundN (ParadigmsGer.mkN "Sprache" "Sprachen" "Sprach" ParadigmsGer.feminine) (ParadigmsGer.mkN "Familie" "Familien" ParadigmsGer.feminine)).s ! Sg ! Nom
 cc -all case (ExtendGer.CompoundN (ParadigmsGer.changeCompoundN "Friedhofs" (ParadigmsGer.mkN "Friedhof" "Friedhöfe" ParadigmsGer.masculine)) (ParadigmsGer.mkN "Mauer" "Mauern" ParadigmsGer.feminine)).g of {ResGer.Fem => "feminine" ; _ => "wrong"}
 cc -all (ExtendGer.CompoundAP (ParadigmsGer.changeCompoundN "Friedhofs" (ParadigmsGer.mkN "Friedhof" "Friedhöfe" ParadigmsGer.masculine)) (ParadigmsGer.mkA "nah")).s ! ResGer.APred
+cc -all (ExtendGer.CompoundN (ParadigmsGer.abbrevN (ParadigmsGer.mkN "Pkw" "Pkws" ParadigmsGer.masculine)) (ParadigmsGer.mkN "Maut" "Mauten" ParadigmsGer.feminine)).s ! Sg ! Nom
+cc -all (ExtendGer.CompoundAP (ParadigmsGer.mkHyphenN "ABC" (ParadigmsGer.mkN "Waffe" "Waffen" ParadigmsGer.feminine)) (ParadigmsGer.mkA "frei")).s ! ResGer.APred
 
 i -retain alltenses/LexiconGer.gfo
 
@@ -21,6 +28,7 @@ cc -all (ParadigmsGer.mkN seed_N bank_N).s ! ParadigmsGer.singular ! ParadigmsGe
 
 i -retain alltenses/DictGer.gfo
 
+cc -all a_achse_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ a_achse_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ a_achse_N.co ++ a_achse_N.uncap.co ++ (ParadigmsGer.mkN a_achse_N system_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all sprache_N.co ++ (ParadigmsGer.mkN sprache_N politik_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ sprachpolitik_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ sprachenpolitik_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all wache_N.co ++ (ParadigmsGer.mkN wache_N turm_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ wachturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ wachtturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all DictGer.bilge_N.co
@@ -37,7 +45,9 @@ cc -all (ParadigmsGer.mkN kirche_N tuer_N).co
 cc -all (ParadigmsGer.mkN auge_N arzt_N).co
 cc -all messwein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN rasse_N hund_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all algonkin_sprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ (ParadigmsGer.mkN algonkin_sprache_N familie_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
-cc -all (ParadigmsGer.mkN w_frage_N typ_N).co
+cc -all (ParadigmsGer.mkN w_frage_N typ_N).co ++ (ParadigmsGer.mkN "Test" w_frage_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all (ParadigmsGer.mkN pkw_N maut_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
+cc -all (ParadigmsGer.mkN dvd_N system_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all ampere_N.co ++ ampere_N.uncap.co ++ joule_N.co ++ joule_N.uncap.co
 cc -all knie_N.co ++ knie_N.uncap.co ++ buchhalterknie_N.co ++ buchhalterknie_N.uncap.co ++ rheinknie_N.co ++ rheinknie_N.uncap.co
 cc -one mutterseelenallein_A

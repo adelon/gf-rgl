@@ -17,4 +17,13 @@ fun
   friedhof_N : N ;
   mauer_N : N ;
   nah_A : A ;
+  pkw_N : N ;
+  maut_N : N ;
+  system_N : N ;
+  pkwmaut_N : N ;
+  pkwmautsystem_N : N ;
+  waffe_N : N ;
+  abc_waffen_N : N ;
+  frei_A : A ;
+  abc_waffen_frei_A : A ;
 }

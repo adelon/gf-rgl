@@ -25,6 +25,7 @@ resource ResGer = ParamX ** open Prelude in {
   param
     Case = Nom | Acc | Dat | Gen ;
     Gender = Masc | Fem | Neutr ;
+    CompoundSep = BindSep | HyphenSep ;
 
 -- Complex $CN$s, like adjectives, have strong and weak forms.
 
@@ -271,8 +272,24 @@ resource ResGer = ParamX ** open Prelude in {
       s : Number => Case => Str ;  --- just a copy of the normal noun; would be nicer with run-time uncap
       co : Str ; -- uncapitalized canonical productive modifier form
       } ;
+    csep : CompoundSep ; -- mandatory separator in compounds; HyphenSep propagates by Durchkopplung
     g : Gender
     } ;
+
+  mergeCompoundSep : CompoundSep -> CompoundSep -> CompoundSep = \x,y ->
+    case <x,y> of {
+      <BindSep,BindSep> => BindSep ;
+      _ => HyphenSep
+      } ;
+
+  inferCompoundSep : Str -> Str -> CompoundSep = \s,co ->
+    case Predef.occur "-" s of {
+      Predef.PTrue => HyphenSep ;
+      Predef.PFalse => case Predef.occur "-" co of {
+        Predef.PTrue => HyphenSep ;
+        Predef.PFalse => BindSep
+        }
+      } ;
 
   NP : Type = { -- HL 7/22: Bool = True if DefArt is dropped to combine with prep of type isPrepDefArt
      s : Bool => Case => Str ;
@@ -282,28 +299,42 @@ resource ResGer = ParamX ** open Prelude in {
      w : Weight } ; -- light NPs come before negation in simple clauses
 
   mkN  : (x1,_,_,_,_,x6,x7 : Str) -> Gender -> Noun = 
-    \Mann, Mannen, Manne, Mannes, Maenner, Maennern, Mann_, g -> {
+    \Mann, Mannen, Manne, Mannes, Maenner, Maennern, Mann_, g ->
+    let
+      csep = inferCompoundSep Mann Mann_ ;
+      uncap = case csep of {
+        BindSep =>
+          let
+            mann = toLowerFirst Mann ;
+            mannen = toLowerFirst Mannen ;
+            manne = toLowerFirst Manne ;
+            mannes = toLowerFirst Mannes ;
+            maenner = toLowerFirst Maenner ;
+            maennern = toLowerFirst Maennern ;
+            mann_ = toLowerFirst Mann_
+          in {
+            s = table {
+              Sg => caselist mann mannen manne mannes ;
+              Pl => caselist maenner maenner maennern maenner
+              } ;
+            co = mann_
+            } ;
+        HyphenSep => {
+          s = table {
+            Sg => caselist Mann Mannen Manne Mannes ;
+            Pl => caselist Maenner Maenner Maennern Maenner
+            } ;
+          co = Mann_
+          }
+        }
+    in {
      s = table {
        Sg => caselist Mann Mannen Manne Mannes ;
        Pl => caselist Maenner Maenner Maennern Maenner
        } ; 
      co = Mann_ ;
-     uncap = 
-       let
-         mann = toLowerFirst Mann ;
-         mannen = toLowerFirst Mannen ;
-         manne = toLowerFirst Manne ;
-         mannes = toLowerFirst Mannes ;
-         maenner = toLowerFirst Maenner ;
-         maennern = toLowerFirst Maennern ;
-         mann_ = toLowerFirst Mann_ ;
-       in {
-         s = table {
-           Sg => caselist mann mannen manne mannes ;
-           Pl => caselist maenner maenner maennern maenner
-           } ; 
-         co = mann_ ;
-         } ;
+     uncap = uncap ;
+     csep = csep ;
      g = g
     } ;
 
