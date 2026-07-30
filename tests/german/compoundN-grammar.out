@@ -1,0 +1,64 @@
+TestCompoundGerAbs: CompoundN frischkaese_N kuchen_N
+TestCompoundGer: Frischkäsekuchen
+
+TestCompoundGerAbs: frischkaesekuchen_N
+TestCompoundGer: Frischkäsekuchen
+
+TestCompoundGerAbs: CompoundN sprache_N politik_N
+TestCompoundGer: Sprachpolitik
+
+TestCompoundGerAbs: sprachpolitik_N
+TestCompoundGer: Sprachpolitik
+
+TestCompoundGerAbs: sprachenpolitik_N
+TestCompoundGer: Sprachenpolitik
+
+TestCompoundGerAbs: CompoundN friedhof_N mauer_N
+TestCompoundGer: Friedhofsmauer
+
+TestCompoundGerAbs: CompoundAP friedhof_N nah_A
+TestCompoundGer: friedhofsnah
+
+s Sg Nom : Friedhof
+s Sg Acc : Friedhof
+s Sg Dat : Friedhof
+s Sg Gen : Friedhofs
+s Pl Nom : Friedhöfe
+s Pl Acc : Friedhöfe
+s Pl Dat : Friedhöfen
+s Pl Gen : Friedhöfe
+co : Friedhofs
+uncap s Sg Nom : friedhof
+uncap s Sg Acc : friedhof
+uncap s Sg Dat : friedhof
+uncap s Sg Gen : friedhofs
+uncap s Pl Nom : friedhöfe
+uncap s Pl Acc : friedhöfe
+uncap s Pl Dat : friedhöfen
+uncap s Pl Gen : friedhöfe
+uncap co : friedhofs
+
+s Sg Nom : Friedhofsmauer
+s Sg Acc : Friedhofsmauer
+s Sg Dat : Friedhofsmauer
+s Sg Gen : Friedhofsmauer
+s Pl Nom : Friedhofsmauern
+s Pl Acc : Friedhofsmauern
+s Pl Dat : Friedhofsmauern
+s Pl Gen : Friedhofsmauern
+co : Friedhofsmauer
+uncap s Sg Nom : friedhofsmauer
+uncap s Sg Acc : friedhofsmauer
+uncap s Sg Dat : friedhofsmauer
+uncap s Sg Gen : friedhofsmauer
+uncap s Pl Nom : friedhofsmauern
+uncap s Pl Acc : friedhofsmauern
+uncap s Pl Dat : friedhofsmauern
+uncap s Pl Gen : friedhofsmauern
+uncap co : friedhofsmauer
+
+frischkaesekuchen_N
+
+CompoundN frischkaese_N kuchen_N
+
+TestCompoundGer

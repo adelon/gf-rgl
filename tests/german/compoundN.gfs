@@ -9,6 +9,8 @@ cc -all (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage
 i -retain alltenses/ExtendGer.gfo
 
 cc -all (ExtendGer.CompoundN (ParadigmsGer.mkN "Sprache" "Sprachen" "Sprach" ParadigmsGer.feminine) (ParadigmsGer.mkN "Familie" "Familien" ParadigmsGer.feminine)).s ! Sg ! Nom
+cc -all case (ExtendGer.CompoundN (ParadigmsGer.changeCompoundN "Friedhofs" (ParadigmsGer.mkN "Friedhof" "Friedhöfe" ParadigmsGer.masculine)) (ParadigmsGer.mkN "Mauer" "Mauern" ParadigmsGer.feminine)).g of {ResGer.Fem => "feminine" ; _ => "wrong"}
+cc -all (ExtendGer.CompoundAP (ParadigmsGer.changeCompoundN "Friedhofs" (ParadigmsGer.mkN "Friedhof" "Friedhöfe" ParadigmsGer.masculine)) (ParadigmsGer.mkA "nah")).s ! ResGer.APred
 
 i -retain alltenses/LexiconGer.gfo
 

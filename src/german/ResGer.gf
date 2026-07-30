@@ -266,10 +266,10 @@ resource ResGer = ParamX ** open Prelude in {
 
   Noun : Type = {
     s : Number => Case => Str ; 
-    co : Str ;  -- compound form, first part
-    uncap : {   -- compound form, second part, uncapitalized
+    co : Str ;  -- canonical productive modifier form when this noun is the first compound constituent
+    uncap : {   -- uncapitalized copy used when this noun is a noninitial compound constituent
       s : Number => Case => Str ;  --- just a copy of the normal noun; would be nicer with run-time uncap
-      co : Str ;
+      co : Str ; -- uncapitalized canonical productive modifier form
       } ;
     g : Gender
     } ;

@@ -1,0 +1,14 @@
+i tests/german/TestCompoundGer.gf
+
+l -bind -lang=TestCompoundGer -treebank (CompoundN frischkaese_N kuchen_N)
+l -bind -lang=TestCompoundGer -treebank frischkaesekuchen_N
+l -bind -lang=TestCompoundGer -treebank (CompoundN sprache_N politik_N)
+l -bind -lang=TestCompoundGer -treebank sprachpolitik_N
+l -bind -lang=TestCompoundGer -treebank sprachenpolitik_N
+l -bind -lang=TestCompoundGer -treebank (CompoundN friedhof_N mauer_N)
+l -bind -lang=TestCompoundGer -treebank (CompoundAP friedhof_N nah_A)
+l -bind -lang=TestCompoundGer -table friedhof_N
+l -bind -lang=TestCompoundGer -table (CompoundN friedhof_N mauer_N)
+p -lang=TestCompoundGer -cat=N "Frischkäsekuchen"
+p -lang=TestCompoundGer -cat=N "Frischkäse &+ kuchen"
+pg -langs
