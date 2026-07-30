@@ -25973,7 +25973,6 @@ lin mutterkuchen_N = mkN "Mutterkuchen" "Mutterkuchen" masculine ;
 lin mutterlauge_N = mkN "Mutterlauge" "Mutterlaugen" feminine ;
 lin mutterliebe__N = mkN "Mutterliebe" "Mutterlieben" feminine ;
 lin muttermal_N = mkN "Muttermal" "Muttermale" neuter ;
-lin mutterseelenallein_A = regA "mutterseelenallein" ;
 lin muttersprache_N = mkN "Muttersprache" "Muttersprachen" feminine ;
 lin muttersprachler_N = mkN "Muttersprachler" "Muttersprachler" masculine ;
 lin muttersprachlich_A = regA "muttersprachlich" ;

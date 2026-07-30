@@ -47,6 +47,7 @@ fun
   kohlroulade_N : N ;
   kohlruebe_N : N ;
   kohlweissling_N : N ;
+  mutterseelenallein_A : A ;
   perfluorkohlenstoff_N : N ;
   plan_b_N : N ;
   qualitaetswein_mit_praedikat_N : N ;

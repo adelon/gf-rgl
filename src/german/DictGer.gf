@@ -67,6 +67,7 @@ lin kohlroulade_N = mkN kohl_N roulade_N ;
 lin kohlruebe_N = mkN kohl_N ruebe_N ;
 lin kohlweissling_N = mkN kohl_N weissling_N ;
 lin muehle_N = mkN "Mühle" "Mühlen" ("Mühl" | "Mühlen") feminine ;
+lin mutterseelenallein_A = mkA (mkN mutter_N seele_N) allein_A ;
 lin palme_N = mkN "Palme" "Palmen" ("Palm" | "Palmen") feminine ;
 lin perfluorkohlenstoff_N = mkN "Perfluor" (mkN "Kohlen" stoff_N) ;
 lin plan_b_N = mkN "Plan B" "Plan B" "Plan B" (variants {"Plan B" ; "Plans B"}) "Pläne B" "Plänen B" masculine ;

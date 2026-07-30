@@ -25967,7 +25967,6 @@ fun mutterkuchen_N : N ;
 fun mutterlauge_N : N ;
 fun mutterliebe__N : N ;
 fun muttermal_N : N ;
-fun mutterseelenallein_A : A ;
 fun muttersprache_N : N ;
 fun muttersprachler_N : N ;
 fun muttersprachlich_A : A ;
