@@ -1,0 +1,5 @@
+i -retain tests/german/TestHochkompliziertGer.gf
+
+cc -all "pred:" ++ TestHochkompliziertGer.spacedPred ++ "attr:" ++ TestHochkompliziertGer.spacedAttr
+cc -all "s2-nom:" ++ TestHochkompliziertGer.spacedS2Nom ++ "s2-acc:" ++ TestHochkompliziertGer.spacedS2Acc ++ "s2-dat:" ++ TestHochkompliziertGer.spacedS2Dat ++ "s2-gen:" ++ TestHochkompliziertGer.spacedS2Gen ++ "c1:" ++ TestHochkompliziertGer.spacedC1 ++ "c2:" ++ TestHochkompliziertGer.spacedC2 ++ "ext:" ++ TestHochkompliziertGer.spacedExt ++ "isPre:" ++ TestHochkompliziertGer.spacedIsPre
+cc -all "positive:" ++ TestHochkompliziertGer.closedPos ++ "comparative:" ++ TestHochkompliziertGer.closedCompar ++ "superlative:" ++ TestHochkompliziertGer.closedSuperl

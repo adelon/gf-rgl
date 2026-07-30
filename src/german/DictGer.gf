@@ -42,6 +42,7 @@ lin en_vogue_Adv = mkAdv "en vogue" ;
 lin fluorchlorkohlenwasserstoff_N = mkN "Fluorchlor" (mkN "Kohlen" wasserstoff_N) ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
+lin hoch_kompliziert_AP = S.mkAP (mkAdA "hoch") kompliziert_A ;
 -- Prefer Holzkohlegrill; the now less common Holzkohlengrill is intentionally omitted.
 lin holzkohle_N = mkN holz_N (mkN "Kohle" "Kohlen" "Kohle" feminine) ;
 lin in_ermangelung_Adv = mkAdv "in Ermangelung" ;

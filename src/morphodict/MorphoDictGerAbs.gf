@@ -17505,7 +17505,6 @@ fun hochhieven_V : V ;
 fun hochintensiv_A : A ;
 fun hochinteressant_A : A ;
 fun hochkommen_7_V : V ;
-fun hochkompliziert_3_A : A ;
 fun hochkompliziert_A : A ;
 fun hochkonzentriert_A : A ;
 fun hochkrempeln_V : V ;
