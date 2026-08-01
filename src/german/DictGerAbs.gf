@@ -214,6 +214,14 @@ fun
   additionssalz_N : N ;
   additionssystem_N : N ;
   acrylverbindung_N : N ;
+  agrarbetrieb_N : N ;
+  agrarerzeugnis_N : N ;
+  agrarexport_N : N ;
+  agrarpreis_N : N ;
+  agrarprodukt_N : N ;
+  agrarreform_N : N ;
+  agrarstaat_N : N ;
+  agrarwissenschaft_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
