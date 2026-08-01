@@ -3,6 +3,11 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abfahrtsgleis_N : N ;
+  abfahrtszeit_N : N ;
+  abgabeeigenschaft_N : N ;
+  abgabesystem_N : N ;
+  abgabezug_N : N ;
   abbrucharbeit_N : N ;
   abbruchbescheid_N : N ;
   abbruchbirne_N : N ;

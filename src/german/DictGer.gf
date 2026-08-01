@@ -70,6 +70,11 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abfahrtsgleis_N = mkN "Abfahrts" gleis_N ;
+lin abfahrtszeit_N = mkN "Abfahrts" zeit_N ;
+lin abgabeeigenschaft_N = mkN abgabe_N eigenschaft_N ;
+lin abgabesystem_N = mkN abgabe_N system_N ;
+lin abgabezug_N = mkN abgabe_N zug_N ;
 lin abbrucharbeit_N = mkN abbruch_N arbeit_N ;
 lin abbruchbescheid_N = mkN abbruch_N bescheid_N ;
 lin abbruchbirne_N = changeCompoundN "Abbruchbirnen" (mkN abbruch_N birne_N) ;
