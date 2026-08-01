@@ -159,6 +159,16 @@ fun
   acetoxygruppe_N : N ;
   acetylcholinrezeptor_N : N ;
   acetylgruppe_N : N ;
+  acetylderivat_N : N ;
+  acrylatpolymer_N : N ;
+  acrylharzschicht_N : N ;
+  acylaminogruppe_N : N ;
+  acylderivat_N : N ;
+  acylgruppe_N : N ;
+  acylhalogenid_N : N ;
+  acylierungskatalysator_N : N ;
+  acylierungsmittel_N : N ;
+  acylkette_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
