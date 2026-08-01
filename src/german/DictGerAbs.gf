@@ -222,6 +222,12 @@ fun
   agrarreform_N : N ;
   agrarstaat_N : N ;
   agrarwissenschaft_N : N ;
+  ahnenbild_N : N ;
+  ahnherr_N : N ;
+  ahornsirup_N : N ;
+  ahrwein_N : N ;
+  akanthusfries_N : N ;
+  agroforstsystem_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
