@@ -119,7 +119,11 @@ oper
     ++ DictGer.bilgeoel_N.co
     ++ DictGer.bilgepumpe_N.s ! Sg ! Nom
     ++ DictGer.bilgepumpe_N.s ! Pl ! Nom
-    ++ DictGer.bilgepumpe_N.co ;
+    ++ DictGer.bilgepumpe_N.co
+    ++ DictGer.bilgenentoeler_N.s ! Sg ! Nom
+    ++ DictGer.bilgenentoeler_N.s ! Sg ! Gen
+    ++ DictGer.bilgenentoeler_N.s ! Pl ! Nom
+    ++ DictGer.bilgenentoeler_N.co ;
 
   chefDePartieForms : Str = nounValue DictGer.chef_de_partie_N ;
 

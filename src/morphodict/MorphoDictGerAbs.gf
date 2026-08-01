@@ -6025,7 +6025,7 @@ fun bildungssprachlich_A : A ;
 fun bildungsweg_N : N ;
 fun bildwoerterbuch_N : N ;
 fun bilge_N : N ;
-fun bilgenentoeler_N : N ;
+fun entoeler_N : N ;
 fun biliaer_A : A ;
 fun bilingual_A : A ;
 fun bilingue_N : N ;

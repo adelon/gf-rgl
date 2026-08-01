@@ -25,6 +25,7 @@ fun
   bad_bank_N : N ;
   bauerngabel_N : N ;
   bilgenoel_N : N ;
+  bilgenentoeler_N : N ;
   bilgenschwein_N : N ;
   bilgeoel_N : N ;
   bilgepumpe_N : N ;

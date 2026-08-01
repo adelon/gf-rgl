@@ -39,6 +39,7 @@ lin ausser_stande_Adv = mkAdv "außer Stande" ;
 lin bad_bank_N = mkN "Bad Bank" "Bad Banks" "Bad-Bank" feminine ;
 lin bauerngabel_N = mkN "Bauern" gabel_N ;
 lin bilgenoel_N = mkN "Bilgen" oel_N ;
+lin bilgenentoeler_N = mkN "Bilgen" entoeler_N ;
 lin bilgenschwein_N = mkN "Bilgen" schwein_N ;
 lin bilgeoel_N = mkN "Bilge" oel_N ;
 lin bilgepumpe_N = mkN "Bilge" pumpe_N ;
