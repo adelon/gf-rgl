@@ -3,6 +3,23 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abendakademie_N : N ;
+  abendandacht_N : N ;
+  abendanfrage_N : N ;
+  abendanzug_N : N ;
+  abendausgabe_N : N ;
+  abendblatt_N : N ;
+  abendempfang_N : N ;
+  abendgebet_N : N ;
+  abendgymnasium_N : N ;
+  abendkasse_N : N ;
+  abendkleid_N : N ;
+  abendstunde_N : N ;
+  abendveranstaltung_N : N ;
+  abendweite_N : N ;
+  abendzeit_N : N ;
+  abendzeitung_N : N ;
+  abendzug_N : N ;
   abbauerscheinung_N : N ;
   abbaufeld_N : N ;
   abbaugerechtigkeit_N : N ;

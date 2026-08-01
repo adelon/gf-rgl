@@ -3,6 +3,23 @@
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ atlas_N
+    , abendakademie_N
+    , abendandacht_N
+    , abendanfrage_N
+    , abendanzug_N
+    , abendausgabe_N
+    , abendblatt_N
+    , abendempfang_N
+    , abendgebet_N
+    , abendgymnasium_N
+    , abendkasse_N
+    , abendkleid_N
+    , abendstunde_N
+    , abendveranstaltung_N
+    , abendweite_N
+    , abendzeit_N
+    , abendzeitung_N
+    , abendzug_N
     , abbauerscheinung_N
     , abbaufeld_N
     , abbaugerechtigkeit_N
@@ -77,6 +94,23 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abendakademie_N = mkN abend_N akademie_N ;
+lin abendandacht_N = mkN abend_N andacht_N ;
+lin abendanfrage_N = mkN abend_N anfrage_N ;
+lin abendanzug_N = mkN abend_N anzug_N ;
+lin abendausgabe_N = mkN abend_N ausgabe_N ;
+lin abendblatt_N = mkN abend_N blatt_N ;
+lin abendempfang_N = mkN abend_N empfang_N ;
+lin abendgebet_N = mkN abend_N gebet_N ;
+lin abendgymnasium_N = mkN abend_N gymnasium_N ;
+lin abendkasse_N = mkN abend_N kasse_N ;
+lin abendkleid_N = mkN abend_N kleid_N ;
+lin abendstunde_N = mkN abend_N stunde_N ;
+lin abendveranstaltung_N = mkN abend_N veranstaltung_N ;
+lin abendweite_N = mkN abend_N weite_N ;
+lin abendzeit_N = mkN abend_N zeit_N ;
+lin abendzeitung_N = mkN abend_N zeitung_N ;
+lin abendzug_N = mkN abend_N zug_N ;
 lin abbauerscheinung_N = mkN abbau_N erscheinung_N ;
 lin abbaufeld_N = mkN abbau_N feld_N ;
 lin abbaugerechtigkeit_N = mkN abbau_N gerechtigkeit_N ;
