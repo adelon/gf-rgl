@@ -9787,7 +9787,6 @@ fun echopraxie_N : N ;
 fun echt_A : A ;
 fun echt_reflexive_verb_N : N ;
 fun echte_alant_N : N ;
-fun echte_reizker__N : N ;
 fun eckball_N : N ;
 fun eckballmarke_N : N ;
 fun ecke_N : N ;

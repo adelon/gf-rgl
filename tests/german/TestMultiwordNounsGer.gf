@@ -54,6 +54,19 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
       DictGer.bildende_kunst_CN).s ! False ! Nom ;
 
+  speciesAndTerminologyCitations : Str =
+    DictGer.echter_reizker_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.toter_code_CN.s ! Strong ! Sg ! Nom ;
+  speciesAndTerminologyAgreement : Str =
+    (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.echter_reizker_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.echter_reizker_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.toter_code_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.toter_code_CN).s ! False ! Dat ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom

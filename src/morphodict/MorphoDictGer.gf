@@ -9793,7 +9793,6 @@ lin echopraxie_N = mkN "Echopraxie" "Echopraxien" feminine ;
 lin echt_A = mk3A "echt" "echter" "echteste" ;
 lin echt_reflexive_verb_N = mkN "echt reflexive Verb" "echt reflexiven Verben" neuter ;
 lin echte_alant_N = mkN "Echte Alant" "Echten Alante" masculine ;
-lin echte_reizker__N = mkN "Echte Reizker " "Echten Reizker" masculine ;
 lin eckball_N = mkN "Eckball" "Eckbälle" neuter ;
 lin eckballmarke_N = mkN "Eckballmarke" "Eckballmarken" feminine ;
 lin ecke_N = mkN "Ecke" "Ecken" "Eck" feminine ;

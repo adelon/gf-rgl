@@ -28,6 +28,7 @@ fun
   dessen_ungeachtet_Adv : Adv ;
   diakritisches_zeichen_CN : CN ;
   direkte_rede_CN : CN ;
+  echter_reizker_CN : CN ;
   eierkohle_N : N ;
   en_passant_Adv : Adv ;
   en_vogue_Adv : Adv ;
@@ -115,6 +116,7 @@ fun
   steinkohle_N : N ;
   steinkohlekraftwerk_N : N ;
   torfkohle_N : N ;
+  toter_code_CN : CN ;
   up_to_date_Adv : Adv ;
   verbrechen_gegen_die_menschlichkeit_CN : CN ;
   verfassungsgericht_N : N ;

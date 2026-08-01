@@ -41,6 +41,7 @@ lin chlorfluorkohlenwasserstoff_N = mkN "Chlorfluor" (mkN "Kohlen" wasserstoff_N
 lin dessen_ungeachtet_Adv = mkAdv "dessen ungeachtet" ;
 lin diakritisches_zeichen_CN = S.mkCN diakritisch_A zeichen_N ;
 lin direkte_rede_CN = S.mkCN direkt_A rede_N ;
+lin echter_reizker_CN = S.mkCN (capitalizeA echt_A) reizker__N ;
 -- Eier-, Torf-, and Zeichenkohle use -kohlen- recursively.
 lin eierkohle_N = mkN "Eier" (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 lin en_passant_Adv = mkAdv "en passant" ;
@@ -141,6 +142,7 @@ lin stante_pede_Adv = mkAdv "stante pede" ;
 lin steinkohle_N = mkN stein_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;
 lin steinkohlekraftwerk_N = mkN "Steinkohle" kraftwerk_N ;
 lin torfkohle_N = mkN torf_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
+lin toter_code_CN = S.mkCN tot_A code__N ;
 lin up_to_date_Adv = mkAdv "up to date" ;
 lin verbrechen_gegen_die_menschlichkeit_CN = S.mkCN (mkN2 verbrechen_N (mkPrep "gegen" accusative)) (S.mkNP S.the_Quant S.singularNum menschlichkeit_N) ;
 lin verfassungsgericht_N = mkN verfassung_N gericht_N ;
