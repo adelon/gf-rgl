@@ -30,6 +30,8 @@ lin atlas_N = mkN "Atlas" "Atlas" "Atlas" (variants {"Atlas" ; "Atlasses"}) "Atl
 lin ausser_betrieb_Adv = mkAdv "außer Betrieb" ;
 lin ausser_stande_Adv = mkAdv "außer Stande" ;
 lin bad_bank_N = mkN "Bad Bank" "Bad Banks" "Bad-Bank" feminine ;
+lin besitzanzeigendes_fuerwort_CN = S.mkCN besitzanzeigend_A fuerwort_N ;
+lin bildende_kunst_CN = S.mkCN bildend_A kunst_N ;
 lin bilge_N = mkN "Bilge" "Bilgen" ("Bilge" | "Bilgen") feminine ;
 lin braunkohle_N = mkN braun_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;
 lin braunkohlekraftwerk_N = mkN "Braunkohle" kraftwerk_N ;
@@ -52,6 +54,7 @@ lin genus_verbi_N = changeCompoundN "Genus-Verbi" (invarN "Genus Verbi" "Genera 
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
+lin hinweisendes_fuerwort_CN = S.mkCN hinweisend_A fuerwort_N ;
 lin hoch_kompliziert_AP = S.mkAP (mkAdA "hoch") kompliziert_A ;
 -- Prefer Holzkohlegrill; the now less common Holzkohlengrill is intentionally omitted.
 lin holzkohle_N = mkN holz_N (mkN "Kohle" "Kohlen" "Kohle" feminine) ;

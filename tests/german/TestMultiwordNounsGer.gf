@@ -42,6 +42,18 @@ oper
   cnAgreement : Str = formalSg.s ! False ! Nom ++ formalPl.s ! False ! Dat
     ++ diacriticSg.s ! False ! Nom ++ diacriticDat.s ! False ! Dat ;
 
+  fuerwortAndArtCitations : Str =
+    DictGer.besitzanzeigendes_fuerwort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.hinweisendes_fuerwort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.bildende_kunst_CN.s ! Strong ! Sg ! Nom ;
+  fuerwortAndArtAgreement : Str =
+    (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.besitzanzeigendes_fuerwort_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.hinweisendes_fuerwort_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.bildende_kunst_CN).s ! False ! Nom ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom

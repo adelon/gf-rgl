@@ -18,6 +18,8 @@ fun
   ausser_betrieb_Adv : Adv ;
   ausser_stande_Adv : Adv ;
   bad_bank_N : N ;
+  besitzanzeigendes_fuerwort_CN : CN ;
+  bildende_kunst_CN : CN ;
   braunkohle_N : N ;
   braunkohlekraftwerk_N : N ;
   brevi_manu_Adv : Adv ;
@@ -37,6 +39,7 @@ fun
   genus_verbi_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
+  hinweisendes_fuerwort_CN : CN ;
   hoch_kompliziert_AP : AP ;
   holzkohle_N : N ;
   in_ermangelung_Adv : Adv ;
