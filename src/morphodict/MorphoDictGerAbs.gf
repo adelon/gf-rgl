@@ -22993,7 +22993,6 @@ fun leinwand_A : A ;
 fun leinwand_N : N ;
 fun leipogramm_N : N ;
 fun leipzig_N : N ;
-fun leipziger_allerlei_N : N ;
 fun leipziger_N : N ;
 fun leipzigerin_N : N ;
 fun leise_A : A ;

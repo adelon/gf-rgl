@@ -22998,7 +22998,6 @@ lin leinwand_A = mk3A "leinwand" "leinwander" "leinwandste" ;
 lin leinwand_N = mkN "Leinwand" "Leinwände" feminine ;
 lin leipogramm_N = mkN "Leipogramm" "Leipogramme" neuter ;
 lin leipzig_N = mkN "Leipzig" "Leipzigs" neuter ;
-lin leipziger_allerlei_N = mkN "Leipziger Allerlei" "Leipziger Allerleie" neuter;
 lin leipziger_N = mkN "Leipziger" "Leipziger" masculine ;
 lin leipzigerin_N = mkN "Leipzigerin" "Leipzigerinnen" feminine ;
 lin leise_A = mk3A "leise" "leiser" "leiseste" ;

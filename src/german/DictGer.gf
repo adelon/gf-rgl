@@ -16,6 +16,7 @@ concrete DictGer of DictGerAbs =
     , frei_variierende_allomorph_N
     , frei_variierende_allophon_N
     , ewige_schach_N
+    , leipziger_allerlei_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -176,6 +177,8 @@ lin kohlenwasserstoffkette_N = mkN (mkN "Kohlen" wasserstoff_N) kette_N ;
 lin kohlenwasserstoffrest_N = mkN (mkN "Kohlen" wasserstoff_N) rest_N ;
 lin kohletablette_N = mkN "Kohle" tablette_N ;
 lin kind_gottes_CN = S.mkCN (mkN2 kind_N genPrep) (S.mkNP (mkPN "Gott" "Gottes" masculine)) ;
+lin leipziger_allerlei_CN = S.mkCN (invarA "Leipziger")
+  (mkN "Allerlei" "Allerlei" "Allerlei" "Allerleis" "Allerleis" "Allerleis" neuter) ;
 lin kinderspielzeug_N = mkN "Kinder" spielzeug_N ;
 lin laeufergabel_N = mkN "Läufer" gabel_N ;
 lin laeuferzug_N = mkN "Läufer" zug_N ;

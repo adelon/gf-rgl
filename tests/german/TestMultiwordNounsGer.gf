@@ -244,6 +244,13 @@ oper
 
   ewigesSchachForms : Str = nounValue DictGer.ewige_schach_N ;
 
+  leipzigerAllerleiForms : Str =
+    DictGer.leipziger_allerlei_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.leipziger_allerlei_CN.s ! Strong ! Sg ! Gen
+    ++ DictGer.leipziger_allerlei_CN.s ! Strong ! Pl ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.leipziger_allerlei_CN).s ! False ! Dat ;
+
   childOfGod = DictGer.kind_gottes_CN ;
   childOfGodSg = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     childOfGod ;
