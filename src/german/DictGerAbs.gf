@@ -57,8 +57,15 @@ fun
   fruehstueck_N : N ;
   fusionierende_sprache_CN : CN ;
   genus_verbi_N : N ;
+  gewebeextrakt_N : N ;
+  gewebeklebstoff_N : N ;
+  gewebekultur_N : N ;
+  gewebekulturmedium_N : N ;
+  gewebeschnitt_N : N ;
   gewebeschaedigung_N : N ;
+  gewebestruktur_N : N ;
   gewebsschaedigung_N : N ;
+  gewebetransplantat_N : N ;
   geburtstag_N : N ;
   geburtstagsfeier_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
