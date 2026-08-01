@@ -20,6 +20,7 @@ fun
   ausser_betrieb_Adv : Adv ;
   ausser_stande_Adv : Adv ;
   bad_bank_N : N ;
+  bauerngabel_N : N ;
   bilgenoel_N : N ;
   bilgenschwein_N : N ;
   bilgeoel_N : N ;
@@ -31,11 +32,15 @@ fun
   brevi_manu_Adv : Adv ;
   bundesverfassungsgericht_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;
+  damengambit_N : N ;
+  damenfluegel_N : N ;
+  drachenvariante_N : N ;
   chef_de_partie_N : N ;
   cordon_bleu_N : N ;
   creme_brulee_3_N : N ;
   creme_brulee_N : N ;
   dessen_ungeachtet_Adv : Adv ;
+  epaulettenmatt_N : N ;
   diakritisches_zeichen_CN : CN ;
   direkte_rede_CN : CN ;
   echter_reizker_CN : CN ;
@@ -47,6 +52,7 @@ fun
   flektierende_sprache_CN : CN ;
   fluorchlorkohlenwasserstoff_N : N ;
   formale_sprache_CN : CN ;
+  grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;
   fusionierende_sprache_CN : CN ;
@@ -99,6 +105,7 @@ fun
   kohlenwasserstoffrest_N : N ;
   kohletablette_N : N ;
   kind_gottes_CN : CN ;
+  laeufergabel_N : N ;
   knollenblaetterpilz_N : N ;
   kohlmeise_N : N ;
   kohlpechrabenschwarz_A : A ;
@@ -119,9 +126,11 @@ fun
   natuerliche_sprache_CN : CN ;
   noch_mal_Adv : Adv ;
   otto_normalverbraucher_PN : PN ;
+  orang_utan_eroeffnung_N : N ;
   palmengewoelbe_N : N ;
   palmsonntag_N : N ;
   palmwein_N : N ;
+  springergabel_N : N ;
   par_excellence_Adv : Adv ;
   par_force_Adv : Adv ;
   per_annum_Adv : Adv ;
@@ -150,6 +159,7 @@ fun
   toter_code_CN : CN ;
   up_to_date_Adv : Adv ;
   umweltfreundlich_A : A ;
+  vorstossvariante_N : N ;
   verbrechen_gegen_die_menschlichkeit_CN : CN ;
   verfassungsgericht_N : N ;
   vice_versa_Adv : Adv ;

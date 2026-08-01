@@ -119,6 +119,18 @@ oper
 
   chefDePartieForms : Str = nounValue DictGer.chef_de_partie_N ;
 
+  chessCompoundForms : Str =
+    DictGer.damengambit_N.s ! Sg ! Nom ++ DictGer.damengambit_N.s ! Pl ! Nom ++ DictGer.damengambit_N.co
+    ++ DictGer.epaulettenmatt_N.s ! Sg ! Nom ++ DictGer.epaulettenmatt_N.s ! Pl ! Nom ++ DictGer.epaulettenmatt_N.co
+    ++ DictGer.grundreihenmatt_N.s ! Sg ! Nom ++ DictGer.grundreihenmatt_N.s ! Pl ! Nom ++ DictGer.grundreihenmatt_N.co
+    ++ DictGer.damenfluegel_N.s ! Sg ! Nom ++ DictGer.damenfluegel_N.s ! Pl ! Nom ++ DictGer.damenfluegel_N.co
+    ++ DictGer.bauerngabel_N.s ! Sg ! Nom ++ DictGer.bauerngabel_N.s ! Pl ! Nom ++ DictGer.bauerngabel_N.co
+    ++ DictGer.drachenvariante_N.s ! Sg ! Nom ++ DictGer.drachenvariante_N.s ! Pl ! Nom ++ DictGer.drachenvariante_N.co
+    ++ DictGer.laeufergabel_N.s ! Sg ! Nom ++ DictGer.laeufergabel_N.s ! Pl ! Nom ++ DictGer.laeufergabel_N.co
+    ++ DictGer.orang_utan_eroeffnung_N.s ! Sg ! Nom ++ DictGer.orang_utan_eroeffnung_N.s ! Pl ! Nom ++ DictGer.orang_utan_eroeffnung_N.co
+    ++ DictGer.springergabel_N.s ! Sg ! Nom ++ DictGer.springergabel_N.s ! Pl ! Nom ++ DictGer.springergabel_N.co
+    ++ DictGer.vorstossvariante_N.s ! Sg ! Nom ++ DictGer.vorstossvariante_N.s ! Pl ! Nom ++ DictGer.vorstossvariante_N.co ;
+
   lexicalizedModifierForms : Str =
     DictGer.muehlstein_N.s ! Sg ! Nom
     ++ DictGer.muehlstein_N.co
