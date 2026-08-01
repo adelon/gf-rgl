@@ -25,6 +25,16 @@ fun
   aalsuppe_N : N ;
   aaltierchen_N : N ;
   aalwehr_N : N ;
+  aasblume_N : N ;
+  aasfliege_N : N ;
+  aasfresser_N : N ;
+  aasgeier_N : N ;
+  aasinsekt_N : N ;
+  aasjaeger_N : N ;
+  aaskaefer_N : N ;
+  aaskraehe_N : N ;
+  aasseite_N : N ;
+  aasvogel_N : N ;
   abstossungsreaktion_N : N ;
   a_battuta_Adv : Adv ;
   a_cappella_Adv : Adv ;

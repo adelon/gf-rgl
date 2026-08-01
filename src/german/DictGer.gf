@@ -43,6 +43,16 @@ concrete DictGer of DictGerAbs =
     , aalsuppe_N
     , aaltierchen_N
     , aalwehr_N
+    , aasblume_N
+    , aasfliege_N
+    , aasfresser_N
+    , aasgeier_N
+    , aasinsekt_N
+    , aasjaeger_N
+    , aaskaefer_N
+    , aaskraehe_N
+    , aasseite_N
+    , aasvogel_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -83,6 +93,16 @@ lin aalspeer_N = mkN aal_N speer_N ;
 lin aalsuppe_N = mkN aal_N suppe_N ;
 lin aaltierchen_N = mkN aal_N tierchen_N ;
 lin aalwehr_N = mkN aal_N wehr_N ;
+lin aasblume_N = mkN aas_N blume_N ;
+lin aasfliege_N = mkN aas_N fliege_N ;
+lin aasfresser_N = mkN aas_N fresser_N ;
+lin aasgeier_N = mkN aas_N geier_N ;
+lin aasinsekt_N = mkN aas_N insekt_N ;
+lin aasjaeger_N = mkN aas_N jaeger_N ;
+lin aaskaefer_N = mkN aas_N kaefer_N ;
+lin aaskraehe_N = mkN aas_N kraehe_N ;
+lin aasseite_N = mkN aas_N seite_N ;
+lin aasvogel_N = mkN aas_N vogel_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;
