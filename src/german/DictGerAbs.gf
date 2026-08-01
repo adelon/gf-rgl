@@ -142,6 +142,13 @@ fun
   abwrackpraemie_N : N ;
   abziehstahl_N : N ;
   abzweigdose_N : N ;
+  ackerbuergerhaus_N : N ;
+  achselhaar_N : N ;
+  achselhoehle_N : N ;
+  achteckstempel_N : N ;
+  achterbahn_N : N ;
+  achtmonatskind_N : N ;
+  achtungserfolg_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
