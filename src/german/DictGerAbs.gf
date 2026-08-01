@@ -106,6 +106,7 @@ fun
   liebesbrief_N : N ;
   lied_ohne_worte_N : N ;
   millionen_mal_Adv : Adv ;
+  muehlstein_N : N ;
   mutterseelenallein_A : A ;
   nach_links_Adv : Adv ;
   nach_rechts_Adv : Adv ;
@@ -113,6 +114,9 @@ fun
   natuerliche_sprache_CN : CN ;
   noch_mal_Adv : Adv ;
   otto_normalverbraucher_PN : PN ;
+  palmengewoelbe_N : N ;
+  palmsonntag_N : N ;
+  palmwein_N : N ;
   par_excellence_Adv : Adv ;
   par_force_Adv : Adv ;
   per_annum_Adv : Adv ;

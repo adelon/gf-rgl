@@ -103,6 +103,17 @@ oper
     ++ DictGer.umweltfreundlich_A.s ! Compar ! APred
     ++ DictGer.umweltfreundlich_A.s ! Superl ! APred ;
 
+  lexicalizedModifierForms : Str =
+    DictGer.muehlstein_N.s ! Sg ! Nom
+    ++ DictGer.muehlstein_N.co
+    ++ DictGer.palmengewoelbe_N.s ! Sg ! Nom
+    ++ DictGer.palmengewoelbe_N.co
+    ++ DictGer.palmsonntag_N.s ! Sg ! Nom
+    ++ DictGer.palmsonntag_N.co
+    ++ (ParadigmsGer.mkN DictGer.palmsonntag_N DictGer.prozession_N).s ! Sg ! Nom
+    ++ DictGer.palmwein_N.s ! Sg ! Nom
+    ++ DictGer.palmwein_N.co ;
+
   transparentCompoundForms : Str =
     DictGer.augenblicksbildung_N.s ! Sg ! Nom
     ++ DictGer.augenblicksbildung_N.s ! Sg ! Gen
