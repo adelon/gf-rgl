@@ -3,6 +3,18 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abbrucharbeit_N : N ;
+  abbruchbescheid_N : N ;
+  abbruchbirne_N : N ;
+  abbruchfirma_N : N ;
+  abbruchgenehmigung_N : N ;
+  abbruchhammer_N : N ;
+  abbruchhaus_N : N ;
+  abbruchkante_N : N ;
+  abbruchmaterial_N : N ;
+  abbruchsieg_N : N ;
+  abbruchstein_N : N ;
+  abbruchstelle_N : N ;
   abbildungsfehler_N : N ;
   abflussrohr_N : N ;
   abwasseraufbereitung_N : N ;
