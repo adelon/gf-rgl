@@ -103,6 +103,20 @@ oper
     ++ DictGer.umweltfreundlich_A.s ! Compar ! APred
     ++ DictGer.umweltfreundlich_A.s ! Superl ! APred ;
 
+  bilgeCompoundForms : Str =
+    DictGer.bilgenoel_N.s ! Sg ! Nom
+    ++ DictGer.bilgenoel_N.s ! Pl ! Nom
+    ++ DictGer.bilgenoel_N.co
+    ++ DictGer.bilgenschwein_N.s ! Sg ! Nom
+    ++ DictGer.bilgenschwein_N.s ! Pl ! Nom
+    ++ DictGer.bilgenschwein_N.co
+    ++ DictGer.bilgeoel_N.s ! Sg ! Nom
+    ++ DictGer.bilgeoel_N.s ! Pl ! Nom
+    ++ DictGer.bilgeoel_N.co
+    ++ DictGer.bilgepumpe_N.s ! Sg ! Nom
+    ++ DictGer.bilgepumpe_N.s ! Pl ! Nom
+    ++ DictGer.bilgepumpe_N.co ;
+
   lexicalizedModifierForms : Str =
     DictGer.muehlstein_N.s ! Sg ! Nom
     ++ DictGer.muehlstein_N.co

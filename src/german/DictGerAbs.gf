@@ -20,6 +20,10 @@ fun
   ausser_betrieb_Adv : Adv ;
   ausser_stande_Adv : Adv ;
   bad_bank_N : N ;
+  bilgenoel_N : N ;
+  bilgenschwein_N : N ;
+  bilgeoel_N : N ;
+  bilgepumpe_N : N ;
   besitzanzeigendes_fuerwort_CN : CN ;
   bildende_kunst_CN : CN ;
   braunkohle_N : N ;
