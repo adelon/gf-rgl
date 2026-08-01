@@ -4,6 +4,7 @@ abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
   a_achse_N : N ;
+  abstossungsreaktion_N : N ;
   a_battuta_Adv : Adv ;
   a_cappella_Adv : Adv ;
   a_jour_Adv : Adv ;

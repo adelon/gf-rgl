@@ -17,6 +17,7 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin a_achse_N = mkHyphenN a_N achse_N ;
+lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;
 lin a_jour_Adv = mkAdv "à jour" ;
