@@ -3,6 +3,13 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abbildungsfehler_N : N ;
+  abflussrohr_N : N ;
+  abwasseraufbereitung_N : N ;
+  abwasserkanal_N : N ;
+  abwasserleitung_N : N ;
+  abzugsschach_N : N ;
+  abzugsschacht_N : N ;
   abc_waffen_N : N ;
   abc_waffen_frei_A : A ;
   a_achse_N : N ;

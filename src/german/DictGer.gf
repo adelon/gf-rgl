@@ -70,6 +70,13 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abbildungsfehler_N = mkN abbildung_N fehler_N ;
+lin abflussrohr_N = mkN abfluss_N rohr_N ;
+lin abwasseraufbereitung_N = mkN abwasser_N aufbereitung_N ;
+lin abwasserkanal_N = mkN abwasser_N kanal_N ;
+lin abwasserleitung_N = mkN abwasser_N leitung_N ;
+lin abzugsschach_N = mkN "Abzugs" schach_N ;
+lin abzugsschacht_N = mkN "Abzugs" schacht_N ;
 lin capsulitis_adhaesiva_N = changeCompoundN "Capsulitis-adhaesiva"
   (mkN "Capsulitis adhaesiva" "Capsulitidem adhaesivam"
     "Capsulitidi adhaesivae" "Capsulitidis adhaesivae"
