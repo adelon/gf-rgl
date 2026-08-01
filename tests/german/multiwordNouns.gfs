@@ -14,6 +14,7 @@ cc -all "Zipf law Noun forms:" ++ TestMultiwordNounsGer.zipfLawForms
 cc -all "Sauce hollandaise Noun forms:" ++ TestMultiwordNounsGer.sauceHollandaiseForms
 cc -all "Adjective compounds:" ++ TestMultiwordNounsGer.adjectiveCompoundForms
 cc -all "Bilge compounds:" ++ TestMultiwordNounsGer.bilgeCompoundForms
+cc -all "Chef de Partie:" ++ TestMultiwordNounsGer.chefDePartieForms
 cc -all "Lexicalized modifier compounds:" ++ TestMultiwordNounsGer.lexicalizedModifierForms
 cc -all "Transparent compounds:" ++ TestMultiwordNounsGer.transparentCompoundForms
 cc -all "Musical loan Noun forms:" ++ TestMultiwordNounsGer.musicalLoanNounForms

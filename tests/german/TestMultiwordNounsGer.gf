@@ -117,6 +117,8 @@ oper
     ++ DictGer.bilgepumpe_N.s ! Pl ! Nom
     ++ DictGer.bilgepumpe_N.co ;
 
+  chefDePartieForms : Str = nounValue DictGer.chef_de_partie_N ;
+
   lexicalizedModifierForms : Str =
     DictGer.muehlstein_N.s ! Sg ! Nom
     ++ DictGer.muehlstein_N.co

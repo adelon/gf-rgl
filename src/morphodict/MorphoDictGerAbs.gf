@@ -7573,7 +7573,6 @@ fun cheder_N : N ;
 fun chederschule_N : N ;
 fun cheerleader_N : N ;
 fun cheeseburger_N : N ;
-fun chef_de_partie_N : N ;
 fun chef_N : N ;
 fun chefarzt_N : N ;
 fun chefredakteur_N : N ;

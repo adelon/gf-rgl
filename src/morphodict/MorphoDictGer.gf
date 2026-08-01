@@ -7579,7 +7579,6 @@ lin cheder_N = mkN "Cheder" "Chadarim" masculine ;
 lin chederschule_N = mkN "Chederschule" "Chederschulen" feminine ;
 lin cheerleader_N = mkN "Cheerleader" "Cheerleader" masculine ;
 lin cheeseburger_N = mkN "Cheeseburger" "Cheeseburger" masculine ;
-lin chef_de_partie_N = mkN "Chef de Partie" "Chefs de Partie" masculine ;
 lin chef_N = mkN "Chef" "Chefs" masculine ;
 lin chefarzt_N = mkN "Chefarzt" "Chefärzte" masculine ;
 lin chefredakteur_N = mkN "Chefredakteur" "Chefredakteure" masculine ;

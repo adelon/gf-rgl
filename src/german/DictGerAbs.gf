@@ -31,6 +31,7 @@ fun
   brevi_manu_Adv : Adv ;
   bundesverfassungsgericht_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;
+  chef_de_partie_N : N ;
   cordon_bleu_N : N ;
   creme_brulee_3_N : N ;
   creme_brulee_N : N ;

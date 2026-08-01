@@ -46,6 +46,9 @@ lin braunkohlekraftwerk_N = mkN "Braunkohle" kraftwerk_N ;
 lin brevi_manu_Adv = mkAdv "brevi manu" ;
 lin bundesverfassungsgericht_N = mkN bund_bundes_N verfassungsgericht_N ;
 lin chlorfluorkohlenwasserstoff_N = mkN "Chlorfluor" (mkN "Kohlen" wasserstoff_N) ;
+lin chef_de_partie_N = changeCompoundN "Chef-de-Partie"
+  (mkN "Chef de Partie" "Chef de Partie" "Chef de Partie"
+    "Chefs de Partie" "Chefs de Partie" "Chefs de Partie" masculine) ;
 lin cordon_bleu_N = changeCompoundN "Cordon-bleu" (mkN "Cordon bleu" "Cordon bleu" "Cordon bleu" "Cordons bleus" "Cordons bleus" "Cordons bleus" neuter) ;
 lin creme_brulee_3_N = mkN "Crème brûlée" "Crèmes brûlées" "Crème-brûlée" feminine ;
 lin creme_brulee_N = mkN "Crème brulée" "Crèmes brulées" "Crème-brulée" feminine ;
