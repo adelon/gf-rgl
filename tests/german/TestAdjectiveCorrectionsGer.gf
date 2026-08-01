@@ -70,7 +70,8 @@ oper
     ++ DictGer.sinnfrei_A.s ! Posit ! APred ++ DictGer.sinnfrei_A.s ! Compar ! APred ++ DictGer.sinnfrei_A.s ! Superl ! APred
     ++ DictGer.tiefschuerfend_A.s ! Posit ! APred ++ DictGer.tiefschuerfend_A.s ! Compar ! APred ++ DictGer.tiefschuerfend_A.s ! Superl ! APred
     ++ DictGer.voreingenommen_A.s ! Posit ! APred ++ DictGer.voreingenommen_A.s ! Compar ! APred ++ DictGer.voreingenommen_A.s ! Superl ! APred
-    ++ DictGer.wortgetreu_A.s ! Posit ! APred ++ DictGer.wortgetreu_A.s ! Compar ! APred ++ DictGer.wortgetreu_A.s ! Superl ! APred ;
+    ++ DictGer.wortgetreu_A.s ! Posit ! APred ++ DictGer.wortgetreu_A.s ! Compar ! APred ++ DictGer.wortgetreu_A.s ! Superl ! APred
+    ++ DictGer.wenig_A.s ! Posit ! APred ++ DictGer.wenig_A.s ! Compar ! APred ++ DictGer.wenig_A.s ! Superl ! APred ;
 
   compounds : Str =
     DictGer.saegerau_A.s ! Posit ! APred ++ DictGer.saegerau_A.s ! Compar ! APred ++ DictGer.saegerau_A.s ! Superl ! APred
