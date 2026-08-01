@@ -2006,6 +2006,7 @@ fun analphabet_N : N ;
 fun analphabetin_N : N ;
 fun analphabetismus_N : N ;
 fun analyse_N : N ;
+fun analysator_N : N ;
 fun analysieren_V : V ;
 fun analyst_N : N ;
 fun analystin_N : N ;

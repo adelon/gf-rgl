@@ -2012,6 +2012,7 @@ lin analphabet_N = mkN "Analphabet" "Analphabeten" masculine ;
 lin analphabetin_N = mkN "Analphabetin" "Analphabetinnen" feminine ;
 lin analphabetismus_N = mkN "Analphabetismus" "Analphabetismen" masculine ;
 lin analyse_N = mkN "Analyse" "Analysen" feminine ;
+lin analysator_N = mkN "Analysator" "Analysator" "Analysator" "Analysators" "Analysatoren" "Analysatoren" masculine ;
 lin analysieren_V = prefixV "an" (irregV "alysieren" "alysiert" "alysierte" "alysierte" "gealysiert") ;
 lin analyst_N = mkN "Analyst" "Analysten" masculine ;
 lin analystin_N = mkN "Analystin" "Analystinnen" feminine ;
