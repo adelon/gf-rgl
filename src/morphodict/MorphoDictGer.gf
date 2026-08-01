@@ -15080,7 +15080,6 @@ lin gewebespezifisch_A = regA "gewebespezifisch" ;
 lin gewebetropismusbestimmend_A = regA "gewebetropismusbestimmend" ;
 lin gewebeverklebung_N = mkN "Gewebeverklebung" "Gewebeverklebungen" feminine ;
 lin gewebsplasminogenaktivator_N = mkN "Gewebsplasminogenaktivator" "Gewebsplasminogenaktivatoren" masculine ;
-lin gewebsschnitt_N = mkN "Gewebsschnitt" "Gewebsschnitten" masculine ;
 lin gewebt_A = regA "gewebt" ;
 lin gewehr_N = mkN "Gewehr" "Gewehre" neuter ;
 lin gewehrschuss__N = mkN "Gewehrschuss" "Gewehrschüsse" masculine ;

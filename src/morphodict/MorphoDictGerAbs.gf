@@ -15074,7 +15074,6 @@ fun gewebespezifisch_A : A ;
 fun gewebetropismusbestimmend_A : A ;
 fun gewebeverklebung_N : N ;
 fun gewebsplasminogenaktivator_N : N ;
-fun gewebsschnitt_N : N ;
 fun gewebt_A : A ;
 fun gewehr_N : N ;
 fun gewehrschuss__N : N ;

@@ -70,6 +70,7 @@ fun
   gewebeschaedigung_N : N ;
   gewebestruktur_N : N ;
   gewebsschaedigung_N : N ;
+  gewebsschnitt_N : N ;
   gewebetransplantat_N : N ;
   gewebetransplantation_N : N ;
   gewebsverletzung_N : N ;

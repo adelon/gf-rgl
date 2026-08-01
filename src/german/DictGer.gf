@@ -88,6 +88,7 @@ lin gewebeschnitt_N = mkN "Gewebe" schnitt_N ;
 lin gewebeschaedigung_N = changeCompoundN "Gewebeschädigungs" (mkN "Gewebe" schaedigung_N) ;
 lin gewebestruktur_N = mkN "Gewebe" struktur_N ;
 lin gewebsschaedigung_N = changeCompoundN "Gewebsschädigungs" (mkN "Gewebs" schaedigung_N) ;
+lin gewebsschnitt_N = mkN "Gewebs" schnitt_N ;
 lin gewebetransplantat_N = mkN "Gewebe" transplantat_N ;
 lin gewebetransplantation_N = changeCompoundN "Gewebetransplantations" (mkN "Gewebe" transplantation_N) ;
 lin gewebsverletzung_N = changeCompoundN "Gewebsverletzungs" (mkN "Gewebs" verletzung_N) ;
