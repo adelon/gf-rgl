@@ -118,6 +118,13 @@ fun
   abschlussarbeit_N : N ;
   abschlusspruefung_N : N ;
   abschlusszeugnis_N : N ;
+  abschussbasis_N : N ;
+  abschussbefehl_N : N ;
+  abschussliste_N : N ;
+  abschussrampe_N : N ;
+  absichtserklaerung_N : N ;
+  absorptionsspektrum_N : N ;
+  abstandsprache_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
