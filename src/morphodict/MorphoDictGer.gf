@@ -15075,7 +15075,6 @@ lin gewaschen_A = regA "gewaschen" ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" "Gewebe" neuter ;
 lin gewebeabschnitt_N = mkN "Gewebeabschnitt" "Gewebeabschnitten" masculine ;
 lin gewebeabstossungsreaktion_N = mkN "Gewebeabstoßungsreaktion" "Gewebeabstoßungsreaktionen" feminine ;
-lin gewebefaktor_N = mkN "Gewebefaktor" "Gewebefaktoren" masculine ;
 lin gewebefaktorproteinantagonist_N = mkN "Gewebefaktorproteinantagonist" "Gewebefaktorproteinantagonisten" masculine ;
 lin gewebeplasminogenaktivator_N = mkN "Gewebeplasminogenaktivator" "Gewebeplasminogenaktivatoren" masculine ;
 lin gewebespezifisch_A = regA "gewebespezifisch" ;

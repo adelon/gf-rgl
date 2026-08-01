@@ -15069,7 +15069,6 @@ fun gewaschen_A : A ;
 fun gewebe_N : N ;
 fun gewebeabschnitt_N : N ;
 fun gewebeabstossungsreaktion_N : N ;
-fun gewebefaktor_N : N ;
 fun gewebefaktorproteinantagonist_N : N ;
 fun gewebeplasminogenaktivator_N : N ;
 fun gewebespezifisch_A : A ;
