@@ -57,6 +57,8 @@ fun
   fruehstueck_N : N ;
   fusionierende_sprache_CN : CN ;
   genus_verbi_N : N ;
+  gewebeschaedigung_N : N ;
+  gewebsschaedigung_N : N ;
   geburtstag_N : N ;
   geburtstagsfeier_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
