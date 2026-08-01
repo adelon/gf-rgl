@@ -12,6 +12,7 @@ cc -all "French culinary Noun forms:" ++ TestMultiwordNounsGer.frenchCulinaryNou
 cc -all "Partielles Kurzwort:" ++ TestMultiwordNounsGer.partiellesKurzwortCitations ++ TestMultiwordNounsGer.partiellComparison
 cc -all "Zipf law Noun forms:" ++ TestMultiwordNounsGer.zipfLawForms
 cc -all "Sauce hollandaise Noun forms:" ++ TestMultiwordNounsGer.sauceHollandaiseForms
+cc -all "Transparent compounds:" ++ TestMultiwordNounsGer.transparentCompoundForms
 cc -all "Musical loan Noun forms:" ++ TestMultiwordNounsGer.musicalLoanNounForms
 cc -all "Musical phrase Noun forms:" ++ TestMultiwordNounsGer.musicalPhraseNounForms
 cc -all "Invariant Latin Noun forms:" ++ TestMultiwordNounsGer.invariantLatinNounForms

@@ -93,6 +93,30 @@ oper
 
   sauceHollandaiseForms : Str = nounValue DictGer.sauce_hollandaise_N ;
 
+  transparentCompoundForms : Str =
+    DictGer.augenblicksbildung_N.s ! Sg ! Nom
+    ++ DictGer.augenblicksbildung_N.s ! Sg ! Gen
+    ++ DictGer.augenblicksbildung_N.s ! Pl ! Nom
+    ++ DictGer.augenblicksbildung_N.co
+    ++ (ParadigmsGer.mkN DictGer.augenblicksbildung_N DictGer.system_N).s ! Sg ! Nom
+    ++ DictGer.fruehstueck_N.s ! Sg ! Nom
+    ++ DictGer.fruehstueck_N.s ! Sg ! Gen
+    ++ DictGer.fruehstueck_N.s ! Pl ! Nom
+    ++ DictGer.fruehstueck_N.co
+    ++ (ParadigmsGer.mkN DictGer.fruehstueck_N DictGer.system_N).s ! Sg ! Nom
+    ++ DictGer.geburtstag_N.s ! Sg ! Nom
+    ++ DictGer.geburtstag_N.s ! Sg ! Gen
+    ++ DictGer.geburtstag_N.s ! Pl ! Nom
+    ++ DictGer.geburtstag_N.co
+    ++ DictGer.geburtstagsfeier_N.s ! Sg ! Nom
+    ++ DictGer.geburtstagsfeier_N.co
+    ++ (ParadigmsGer.mkN DictGer.geburtstag_N DictGer.system_N).s ! Sg ! Nom
+    ++ DictGer.handschuh_N.s ! Sg ! Nom
+    ++ DictGer.handschuh_N.s ! Sg ! Gen
+    ++ DictGer.handschuh_N.s ! Pl ! Nom
+    ++ DictGer.handschuh_N.co
+    ++ (ParadigmsGer.mkN DictGer.handschuh_N DictGer.system_N).s ! Sg ! Nom ;
+
   musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
 
   musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;

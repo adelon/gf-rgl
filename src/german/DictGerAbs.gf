@@ -13,6 +13,7 @@ fun
   ad_nauseam_Adv : Adv ;
   agglutinierende_sprache_CN : CN ;
   alter_ego_N : N ;
+  augenblicksbildung_N : N ;
   arbeitslosengeld_N : N ;
   arbeitslosenquote_N : N ;
   arbeitslosenrate_N : N ;
@@ -42,10 +43,14 @@ fun
   fluorchlorkohlenwasserstoff_N : N ;
   formale_sprache_CN : CN ;
   fruehlingsknollenblaetterpilz_N : N ;
+  fruehstueck_N : N ;
   fusionierende_sprache_CN : CN ;
   genus_verbi_N : N ;
+  geburtstag_N : N ;
+  geburtstagsfeier_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
+  handschuh_N : N ;
   hinweisendes_fuerwort_CN : CN ;
   hoch_kompliziert_AP : AP ;
   holzkohle_N : N ;
