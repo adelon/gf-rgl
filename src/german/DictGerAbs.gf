@@ -76,6 +76,7 @@ fun
   gewebsschnitt_N : N ;
   gewebetransplantat_N : N ;
   gewebetransplantation_N : N ;
+  gewebeverklebung_N : N ;
   gewebsverletzung_N : N ;
   geburtstag_N : N ;
   geburtstagsfeier_N : N ;

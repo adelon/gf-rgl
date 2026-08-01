@@ -94,6 +94,7 @@ lin gewebsschaedigung_N = changeCompoundN "Gewebsschädigungs" (mkN "Gewebs" sch
 lin gewebsschnitt_N = mkN "Gewebs" schnitt_N ;
 lin gewebetransplantat_N = mkN "Gewebe" transplantat_N ;
 lin gewebetransplantation_N = changeCompoundN "Gewebetransplantations" (mkN "Gewebe" transplantation_N) ;
+lin gewebeverklebung_N = mkN gewebe_N verklebung_N ;
 lin gewebsverletzung_N = changeCompoundN "Gewebsverletzungs" (mkN "Gewebs" verletzung_N) ;
 lin geburtstag_N = changeCompoundN "Geburtstags" (mkN "Geburts" tag_N) ;
 lin geburtstagsfeier_N = mkN geburtstag_N feier_N ;
