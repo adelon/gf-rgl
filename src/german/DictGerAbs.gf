@@ -199,6 +199,13 @@ fun
   abendessen_N : N ;
   abendhimmel_N : N ;
   absolutadjektiv_N : N ;
+  abaenderungsantrag_N : N ;
+  abgottschlange_N : N ;
+  abteilungsleiter_N : N ;
+  abteilungsleiterin_N : N ;
+  abtritterker_N : N ;
+  ackergauchheil_N : N ;
+  ackerweg_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
