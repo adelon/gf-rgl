@@ -64,6 +64,7 @@ lin direkte_rede_CN = S.mkCN direkt_A rede_N ;
 lin echter_reizker_CN = S.mkCN (capitalizeA echt_A) reizker__N ;
 -- Eier-, Torf-, and Zeichenkohle use -kohlen- recursively.
 lin eierkohle_N = mkN "Eier" (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
+lin eiskalt_A = mkA eis_N kalt_A ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
 lin en_passant_Adv = mkAdv "en passant" ;
 lin en_vogue_Adv = mkAdv "en vogue" ;

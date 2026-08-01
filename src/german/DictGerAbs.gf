@@ -46,6 +46,7 @@ fun
   direkte_rede_CN : CN ;
   echter_reizker_CN : CN ;
   eierkohle_N : N ;
+  eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
   en_vogue_Adv : Adv ;

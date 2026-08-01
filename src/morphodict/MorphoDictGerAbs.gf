@@ -10379,7 +10379,7 @@ fun eishockeytor_N : N ;
 fun eishoernchen_N : N ;
 fun eisig_A : A ;
 fun eiskaffee_N : N ;
-fun eiskalt_A : A ;
+fun eis_N : N ;
 fun eiskasten_N : N ;
 fun eiskeil_N : N ;
 fun eiskratzer_N : N ;

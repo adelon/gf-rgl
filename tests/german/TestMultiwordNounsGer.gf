@@ -101,7 +101,11 @@ oper
     ++ DictGer.umweltfreundlich_A.s ! Posit ! APred
     ++ DictGer.umweltfreundlich_A.s ! Posit ! AMod (GSg Neutr) Nom
     ++ DictGer.umweltfreundlich_A.s ! Compar ! APred
-    ++ DictGer.umweltfreundlich_A.s ! Superl ! APred ;
+    ++ DictGer.umweltfreundlich_A.s ! Superl ! APred
+    ++ DictGer.eiskalt_A.s ! Posit ! APred
+    ++ DictGer.eiskalt_A.s ! Posit ! AMod (GSg Neutr) Nom
+    ++ DictGer.eiskalt_A.s ! Compar ! APred
+    ++ DictGer.eiskalt_A.s ! Superl ! APred ;
 
   bilgeCompoundForms : Str =
     DictGer.bilgenoel_N.s ! Sg ! Nom
