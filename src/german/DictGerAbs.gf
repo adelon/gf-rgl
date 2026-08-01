@@ -66,6 +66,7 @@ fun
   gewebeabstossungsreaktion_N : N ;
   gewebeadhaesion_N : N ;
   gewebeoberflaeche_N : N ;
+  gewebeplasminogenaktivator_N : N ;
   gewebefluessigkeit_N : N ;
   gewebeextrakt_N : N ;
   gewebefaktor_N : N ;
@@ -77,6 +78,7 @@ fun
   gewebeschaedigung_N : N ;
   gewebestruktur_N : N ;
   gewebsschaedigung_N : N ;
+  gewebsplasminogenaktivator_N : N ;
   gewebsschnitt_N : N ;
   gewebetransplantat_N : N ;
   gewebetransplantation_N : N ;
@@ -160,6 +162,7 @@ fun
   palmwedel_N : N ;
   palmsonntag_N : N ;
   palmwein_N : N ;
+  plasminogenaktivator_N : N ;
   springergabel_N : N ;
   springerzug_N : N ;
   par_excellence_Adv : Adv ;
