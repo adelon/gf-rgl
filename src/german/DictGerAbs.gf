@@ -95,6 +95,13 @@ fun
   abendnebel_N : N ;
   abendpunkt_N : N ;
   abessinierbrunnen_N : N ;
+  ablassbrief_N : N ;
+  ablauforganisation_N : N ;
+  ablehnungsgesuch_N : N ;
+  ableitungsmorphem_N : N ;
+  ablenkungsmanoever_N : N ;
+  abrasionsplatte_N : N ;
+  abrissbirne_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
