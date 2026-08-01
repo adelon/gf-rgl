@@ -12,6 +12,7 @@ fun
   ad_acta_Adv : Adv ;
   ad_nauseam_Adv : Adv ;
   agglutinierende_sprache_CN : CN ;
+  alter_ego_N : N ;
   arbeitslosengeld_N : N ;
   arbeitslosenquote_N : N ;
   arbeitslosenrate_N : N ;
@@ -96,6 +97,7 @@ fun
   mutterseelenallein_A : A ;
   nach_links_Adv : Adv ;
   nach_rechts_Adv : Adv ;
+  native_speaker_N : N ;
   natuerliche_sprache_CN : CN ;
   noch_mal_Adv : Adv ;
   otto_normalverbraucher_PN : PN ;
@@ -106,6 +108,7 @@ fun
   perfluorkohlenstoff_N : N ;
   peu_a_peu_Adv : Adv ;
   plan_b_N : N ;
+  point_of_sale_N : N ;
   post_mortem_Adv : Adv ;
   pro_rata_Adv : Adv ;
   public_viewing_N : N ;
