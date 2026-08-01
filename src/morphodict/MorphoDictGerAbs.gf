@@ -762,6 +762,7 @@ fun abstimmen_V : V ;
 fun abstimmung_N : N ;
 fun abstimmungsgebiet_N : N ;
 fun abstinenzler_N : N ;
+fun abstossung_N : N ;
 fun abstossungsreaktion_N : N ;
 fun abstottern_V : V ;
 fun abstrafen_V : V ;

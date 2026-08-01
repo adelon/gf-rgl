@@ -768,6 +768,7 @@ lin abstimmen_V = prefixV "ab" (regV "stimmen") ;
 lin abstimmung_N = mkN "Abstimmung" ;
 lin abstimmungsgebiet_N = mkN "Abstimmungsgebiet" "Abstimmungsgebiete" neuter ;
 lin abstinenzler_N = mkN "Abstinenzler" "Abstinenzler" masculine ;
+lin abstossung_N = mkN "Abstoßung" ;
 lin abstossungsreaktion_N = mkN "Abstoßungsreaktion" "Abstoßungsreaktionen" feminine ;
 lin abstottern_V = prefixV "ab" (irregV "stottern" "stottert" "stotte" "stottere" "gestottert") ;
 lin abstrafen_V = prefixV "ab" (regV "strafen") ;
