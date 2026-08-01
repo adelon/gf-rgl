@@ -3,6 +3,10 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abfallbehaelter_N : N ;
+  abfalleimer_N : N ;
+  abfallmaterial_N : N ;
+  abfallprodukt_N : N ;
   abfahrtsgleis_N : N ;
   abfahrtszeit_N : N ;
   abgabeeigenschaft_N : N ;

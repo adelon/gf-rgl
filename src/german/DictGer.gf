@@ -70,6 +70,10 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abfallbehaelter_N = mkN abfall_N behaelter_N ;
+lin abfalleimer_N = mkN abfall_N eimer_N ;
+lin abfallmaterial_N = mkN abfall_N material_N ;
+lin abfallprodukt_N = mkN abfall_N produkt_N ;
 lin abfahrtsgleis_N = mkN "Abfahrts" gleis_N ;
 lin abfahrtszeit_N = mkN "Abfahrts" zeit_N ;
 lin abgabeeigenschaft_N = mkN abgabe_N eigenschaft_N ;
