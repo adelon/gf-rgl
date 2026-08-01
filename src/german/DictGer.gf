@@ -3,6 +3,11 @@
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ atlas_N
+    , abendmahlsfeier_N
+    , abendmahlsgemeinschaft_N
+    , abendmahlsstreit_N
+    , abendmahlswein_N
+    , abendmahlzeit_N
     , abenteuerbuch_N
     , abenteuerfilm_N
     , abenteuergeschichte_N
@@ -98,6 +103,11 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
+lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
+lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;
+lin abendmahlswein_N = mkN "Abendmahls" wein_N ;
+lin abendmahlzeit_N = mkN abendmahl_N zeit_N ;
 lin abenteuerbuch_N = mkN abenteuer_N buch_N ;
 lin abenteuerfilm_N = mkN abenteuer_N film_N ;
 lin abenteuergeschichte_N = mkN abenteuer_N geschichte_N ;

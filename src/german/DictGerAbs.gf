@@ -3,6 +3,11 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abendmahlsfeier_N : N ;
+  abendmahlsgemeinschaft_N : N ;
+  abendmahlsstreit_N : N ;
+  abendmahlswein_N : N ;
+  abendmahlzeit_N : N ;
   abenteuerbuch_N : N ;
   abenteuerfilm_N : N ;
   abenteuergeschichte_N : N ;
