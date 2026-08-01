@@ -82,6 +82,12 @@ oper
   frenchCulinaryNounForms : Str = nounValue DictGer.creme_brulee_3_N
     ++ nounValue DictGer.creme_brulee_N ;
 
+  partiellesKurzwortCitations : Str =
+    DictGer.partielles_kurzwort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.partielles_kurzwort_CN.s ! Strong ! Pl ! Nom ;
+  partiellComparison : Str = partiell_A.s ! Compar ! APred
+    ++ partiell_A.s ! Superl ! APred ;
+
   musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
 
   musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;

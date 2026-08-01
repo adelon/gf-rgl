@@ -28155,7 +28155,6 @@ fun partialsequenz_N : N ;
 fun partie_N : N ;
 fun partieformular_N : N ;
 fun partiell_A : A ;
-fun partielle_kurzwort__N : N ;
 fun partikel_N : N ;
 fun partikelbildend_A : A ;
 fun partikelfrei_A : A ;

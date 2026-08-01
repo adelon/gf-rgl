@@ -9,6 +9,7 @@ cc -all "English loan Noun forms:" ++ TestMultiwordNounsGer.englishLoanNounForms
 cc -all "Additional loan Noun forms:" ++ TestMultiwordNounsGer.additionalLoanNounForms
 cc -all "Fixed loan Noun forms:" ++ TestMultiwordNounsGer.fixedLoanNounForms
 cc -all "French culinary Noun forms:" ++ TestMultiwordNounsGer.frenchCulinaryNounForms
+cc -all "Partielles Kurzwort:" ++ TestMultiwordNounsGer.partiellesKurzwortCitations ++ TestMultiwordNounsGer.partiellComparison
 cc -all "Musical loan Noun forms:" ++ TestMultiwordNounsGer.musicalLoanNounForms
 cc -all "Musical phrase Noun forms:" ++ TestMultiwordNounsGer.musicalPhraseNounForms
 cc -all "Invariant Latin Noun forms:" ++ TestMultiwordNounsGer.invariantLatinNounForms

@@ -137,6 +137,7 @@ lin per_annum_Adv = mkAdv "per annum" ;
 lin per_os_Adv = mkAdv "per os" ;
 lin perfluorkohlenstoff_N = mkN "Perfluor" (mkN "Kohlen" stoff_N) ;
 lin peu_a_peu_Adv = mkAdv "peu à peu" ;
+lin partielles_kurzwort_CN = S.mkCN partiell_A kurzwort_N ;
 lin plan_b_N = mkN "Plan B" "Plan B" "Plan B" (variants {"Plan B" ; "Plans B"}) "Pläne B" "Plänen B" masculine ;
 lin point_of_sale_N = changeCompoundN "Point-of-Sale" (mkN "Point of Sale" "Point of Sale" "Point of Sale" "Points of Sale" "Points of Sale" "Points of Sale" masculine) ;
 lin post_mortem_Adv = mkAdv "post mortem" ;

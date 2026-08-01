@@ -114,6 +114,7 @@ fun
   per_os_Adv : Adv ;
   perfluorkohlenstoff_N : N ;
   peu_a_peu_Adv : Adv ;
+  partielles_kurzwort_CN : CN ;
   plan_b_N : N ;
   point_of_sale_N : N ;
   post_mortem_Adv : Adv ;
