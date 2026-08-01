@@ -216,7 +216,6 @@ fun abc_code_N : N ;
 fun abc_schuetze_N : N ;
 fun abc_schuetzin_N : N ;
 fun abc_tafel_N : N ;
-fun abc_waffen_frei_A : A ;
 fun abchangieren_V : V ;
 fun abchecken_V : V ;
 fun abchoppen_V : V ;

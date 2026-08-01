@@ -1,0 +1,3 @@
+i -retain tests/german/TestABCFreiGer.gf
+
+cc -one TestABCFreiGer.forms

@@ -222,7 +222,6 @@ lin abc_code_N = mkN "Abc-Code" "Abc-Codes" masculine ;
 lin abc_schuetze_N = mkN "Abc-Schütze" "Abc-Schützen" masculine ;
 lin abc_schuetzin_N = mkN "Abc-Schützin" "Abc-Schützinnen" feminine ;
 lin abc_tafel_N = mkN "ABC-Tafel" "ABC-Tafeln" feminine ;
-lin abc_waffen_frei_A = regA "ABC-Waffen-frei" ;
 lin abchangieren_V = prefixV "ab" (regV "changieren") ;
 lin abchecken_V = prefixV "ab" (regV "checken") ;
 lin abchoppen_V = prefixV "ab" (regV "choppen") ;
