@@ -206,6 +206,10 @@ fun
   abtritterker_N : N ;
   ackergauchheil_N : N ;
   ackerweg_N : N ;
+  actionfilm_N : N ;
+  activinantagonist_N : N ;
+  adamantanylgruppe_N : N ;
+  adamsapfel_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
