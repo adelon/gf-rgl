@@ -37,6 +37,8 @@ lin capsulitis_adhaesiva_N = changeCompoundN "Capsulitis-adhaesiva"
   (mkN "Capsulitis adhaesiva" "Capsulitidem adhaesivam"
     "Capsulitidi adhaesivae" "Capsulitidis adhaesivae"
     "Capsulitides adhaesivae" "Capsulitidibus adhaesivis" feminine) ;
+lin larsen_system_N = changeCompoundN "Larsen-System-"
+  (mkHyphenN "Larsen" system_N) ;
 lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;

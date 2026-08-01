@@ -8164,7 +8164,6 @@ lin darunterliegend_A = regA "darunterliegend" ;
 lin darwinist_N = mkN "Darwinist" "Darwinisten" masculine ;
 lin darwinistisch_A = regA "darwinistisch" ;
 lin darzustellen_V = prefixV "dar" (regV "zustellen") ;
-lin das_nbsplarsen_system_N = mkN "das&nbsp;Larsen-System" "die&nbsp;Larsen-Systeme" neuter ;
 lin daselbst_Adv = mkAdv "daselbst" ;
 lin dasig_A = mk3A "dasig" "dasiger" "dasigste" ;
 lin dass_satz_1_N = mkN "daß-Satz" "daß-Sätze" masculine ;

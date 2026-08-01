@@ -8158,7 +8158,6 @@ fun darunterliegend_A : A ;
 fun darwinist_N : N ;
 fun darwinistisch_A : A ;
 fun darzustellen_V : V ;
-fun das_nbsplarsen_system_N : N ;
 fun daselbst_Adv : Adv ;
 fun dasig_A : A ;
 fun dass_satz_1_N : N ;
