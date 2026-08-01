@@ -3,6 +3,13 @@
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ atlas_N
+    , abbauerscheinung_N
+    , abbaufeld_N
+    , abbaugerechtigkeit_N
+    , abbauprodukt_N
+    , abbauprozess_N
+    , abbaurecht_N
+    , abbaustelle_N
     , bilge_N
     , creme_brulee_3_N
     , creme_brulee_N
@@ -70,6 +77,13 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abbauerscheinung_N = mkN abbau_N erscheinung_N ;
+lin abbaufeld_N = mkN abbau_N feld_N ;
+lin abbaugerechtigkeit_N = mkN abbau_N gerechtigkeit_N ;
+lin abbauprodukt_N = mkN abbau_N produkt_N ;
+lin abbauprozess_N = mkN abbau_N prozess_N ;
+lin abbaurecht_N = mkN abbau_N recht_N ;
+lin abbaustelle_N = mkN abbau_N stelle_N ;
 lin abfallbehaelter_N = mkN abfall_N behaelter_N ;
 lin abfalleimer_N = mkN abfall_N eimer_N ;
 lin abfallmaterial_N = mkN abfall_N material_N ;

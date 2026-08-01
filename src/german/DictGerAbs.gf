@@ -3,6 +3,13 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abbauerscheinung_N : N ;
+  abbaufeld_N : N ;
+  abbaugerechtigkeit_N : N ;
+  abbauprodukt_N : N ;
+  abbauprozess_N : N ;
+  abbaurecht_N : N ;
+  abbaustelle_N : N ;
   abfallbehaelter_N : N ;
   abfalleimer_N : N ;
   abfallmaterial_N : N ;
