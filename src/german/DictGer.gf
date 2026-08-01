@@ -80,6 +80,7 @@ lin gewebeoberflaeche_N = changeCompoundN "Gewebeoberflächen" (mkN "Gewebe" obe
 lin gewebefluessigkeit_N = changeCompoundN "Gewebeflüssigkeits" (mkN "Gewebe" fluessigkeit_N) ;
 lin gewebeextrakt_N = mkN "Gewebe" extrakt_N ;
 lin gewebefaktor_N = mkN "Gewebe" faktor_N ;
+lin gewebefaktorproteinantagonist_N = changeCompoundN "Gewebefaktorproteinantagonisten" (mkN (mkN gewebefaktor_N protein_N) antagonist_N) ;
 lin gewebeklebstoff_N = mkN "Gewebe" klebstoff_N ;
 lin gewebekultur_N = mkN "Gewebe" kultur_N ;
 lin gewebekulturmedium_N = mkN gewebekultur_N medium_N ;

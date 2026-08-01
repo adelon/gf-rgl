@@ -62,6 +62,7 @@ fun
   gewebefluessigkeit_N : N ;
   gewebeextrakt_N : N ;
   gewebefaktor_N : N ;
+  gewebefaktorproteinantagonist_N : N ;
   gewebeklebstoff_N : N ;
   gewebekultur_N : N ;
   gewebekulturmedium_N : N ;
