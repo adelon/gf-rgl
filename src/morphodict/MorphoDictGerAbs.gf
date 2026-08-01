@@ -40296,6 +40296,7 @@ fun verklaerung_N : N ;
 fun verklappen_V : V ;
 fun verklausuliert_A : A ;
 fun verkleidung_N : N ;
+fun verklebung_N : N ;
 fun verkleinerung_N : N ;
 fun verkleinerungsform_N : N ;
 fun verknallen_V : V ;

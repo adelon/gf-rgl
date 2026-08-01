@@ -40305,6 +40305,7 @@ lin verklaerung_N = mkN "Verklärung" ;
 lin verklappen_V = irregV "verklappen" "verklappt" "verklappte" "verklappte" "verklappt" ;
 lin verklausuliert_A = mk3A "verklausuliert" "verklausulierter" "verklausuliertesten e" ;
 lin verkleidung_N = mkN "Verkleidung" ;
+lin verklebung_N = mkN "Verklebung" ;
 lin verkleinerung_N = mkN "Verkleinerung" ;
 lin verkleinerungsform_N = mkN "Verkleinerungsform" "Verkleinerungsformen" feminine ;
 lin verknallen_V = irregV "verknallen" "verknallt" "verknallte" "verknallte" "verknallt" ;
