@@ -67,6 +67,11 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.toter_code_CN).s ! False ! Dat ;
 
+  englishLoanNounForms : Str =
+    nounValue DictGer.hot_rod_N ++ nounValue DictGer.irish_stew_N
+    ++ nounValue DictGer.public_viewing_N
+    ++ (ParadigmsGer.mkN DictGer.hot_rod_N DictGer.system_N).s ! Sg ! Nom ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom

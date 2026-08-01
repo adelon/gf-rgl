@@ -43,10 +43,12 @@ fun
   hinweisendes_fuerwort_CN : CN ;
   hoch_kompliziert_AP : AP ;
   holzkohle_N : N ;
+  hot_rod_N : N ;
   in_ermangelung_Adv : Adv ;
   in_ermanglung_Adv : Adv ;
   in_petto_Adv : Adv ;
   indirekte_rede_CN : CN ;
+  irish_stew_N : N ;
   isolierende_sprache_CN : CN ;
   kohlebergwerk_N : N ;
   kohleheizung_N : N ;
@@ -106,6 +108,7 @@ fun
   plan_b_N : N ;
   post_mortem_Adv : Adv ;
   pro_rata_Adv : Adv ;
+  public_viewing_N : N ;
   qualitaetswein_mit_praedikat_N : N ;
   radiokohlenstoffdatierung_N : N ;
   sans_phrase_Adv : Adv ;

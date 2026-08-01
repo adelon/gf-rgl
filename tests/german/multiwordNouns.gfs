@@ -5,6 +5,7 @@ cc -all "Genus Verbi:" ++ TestMultiwordNounsGer.genusVerbiForms
 cc -all "CN agreement:" ++ TestMultiwordNounsGer.cnAgreement
 cc -all "Fürwort and art CNs:" ++ TestMultiwordNounsGer.fuerwortAndArtCitations ++ TestMultiwordNounsGer.fuerwortAndArtAgreement
 cc -all "Species and terminology CNs:" ++ TestMultiwordNounsGer.speciesAndTerminologyCitations ++ TestMultiwordNounsGer.speciesAndTerminologyAgreement
+cc -all "English loan Noun forms:" ++ TestMultiwordNounsGer.englishLoanNounForms
 cc -all "Language-type CNs:" ++ TestMultiwordNounsGer.languageTypeCitations ++ TestMultiwordNounsGer.languageTypeAgreement
 cc -all "Reported-speech CNs:" ++ TestMultiwordNounsGer.reportedSpeechCitations ++ TestMultiwordNounsGer.reportedSpeechAgreement
 cc -all "Species CN:" ++ TestMultiwordNounsGer.speciesForms
