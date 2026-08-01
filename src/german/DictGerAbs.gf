@@ -192,6 +192,7 @@ fun
   public_viewing_N : N ;
   qualitaetswein_mit_praedikat_N : N ;
   qualitaetswein_bestimmter_anbaugebiete_N : N ;
+  capsulitis_adhaesiva_N : N ;
   radiokohlenstoffdatierung_N : N ;
   rotwein_N : N ;
   sans_phrase_Adv : Adv ;

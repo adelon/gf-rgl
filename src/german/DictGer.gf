@@ -21,6 +21,7 @@ concrete DictGer of DictGerAbs =
     , die_nbspvorgabepartie_N
     , qualitaetswein_bestimmter_anbaugebiete_N
     , zahl_null_N
+    , capsulitis_adhaesiva_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -32,6 +33,10 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin capsulitis_adhaesiva_N = changeCompoundN "Capsulitis-adhaesiva"
+  (mkN "Capsulitis adhaesiva" "Capsulitidem adhaesivam"
+    "Capsulitidi adhaesivae" "Capsulitidis adhaesivae"
+    "Capsulitides adhaesivae" "Capsulitidibus adhaesivis" feminine) ;
 lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;

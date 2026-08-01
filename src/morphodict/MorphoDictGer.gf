@@ -7397,7 +7397,6 @@ lin caprinsaeure_N = mkN "Caprinsäure" "Caprinsäuren" feminine ;
 lin caprylsaeure_N = mkN "Caprylsäure" "Caprylsäuren" feminine ;
 lin capsidprotein_N = mkN "Capsidprotein" "Capsidproteine" neuter ;
 lin capsomer_N = mkN "Capsomer" "Capsomere" neuter ;
-lin capsulitis_adhaesiva_N = mkN "Capsulitis adhaesiva" "Capsulitiadhaesivae" feminine ;
 lin capsulitis_N = mkN "Capsulitis" "Capsulitides" feminine ;
 lin captopril_N = mkN "Captopril" "Captoprile" neuter ;
 lin carambola_N = mkN "Carambola" "Carambolas" feminine ;

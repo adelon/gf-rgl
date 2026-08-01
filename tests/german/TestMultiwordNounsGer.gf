@@ -257,6 +257,8 @@ oper
     DictGer.qualitaetswein_bestimmter_anbaugebiete_N
     ++ nounValue DictGer.zahl_null_N ;
 
+  latinPhraseForms : Str = nounValue DictGer.capsulitis_adhaesiva_N ;
+
   childOfGod = DictGer.kind_gottes_CN ;
   childOfGodSg = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     childOfGod ;

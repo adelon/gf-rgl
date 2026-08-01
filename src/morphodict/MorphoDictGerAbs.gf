@@ -7391,7 +7391,6 @@ fun caprinsaeure_N : N ;
 fun caprylsaeure_N : N ;
 fun capsidprotein_N : N ;
 fun capsomer_N : N ;
-fun capsulitis_adhaesiva_N : N ;
 fun capsulitis_N : N ;
 fun captopril_N : N ;
 fun carambola_N : N ;
