@@ -41937,6 +41937,7 @@ lin weihrauch_N = mkN "Weihrauch" "Weihrauche" masculine ;
 lin weihwasser_N = mkN "Weihwasser" "Weihwasser" neuter ;
 lin weihwasserbecken_N = mkN "Weihwasserbecken" "Weihwasserbecken" neuter ;
 lin weihwasserwedel_N = mkN "Weihwasserwedel" "Weihwasserwedel" masculine ;
+lin wedel_N = mkN "Wedel" "Wedel" "Wedel" "Wedels" "Wedel" "Wedeln" masculine ;
 lin weiland_Adv = mkAdv "weiland" ;
 lin weilen_V = regV "weilen" ;
 lin weiler_N = mkN "Weiler" "Weiler" masculine ;

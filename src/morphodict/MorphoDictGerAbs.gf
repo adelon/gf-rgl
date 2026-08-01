@@ -41928,6 +41928,7 @@ fun weihrauch_N : N ;
 fun weihwasser_N : N ;
 fun weihwasserbecken_N : N ;
 fun weihwasserwedel_N : N ;
+fun wedel_N : N ;
 fun weiland_Adv : Adv ;
 fun weilen_V : V ;
 fun weiler_N : N ;
