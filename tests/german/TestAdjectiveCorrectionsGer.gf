@@ -27,5 +27,8 @@ oper
     ++ DictGer.zuegellos_A.s ! Superl ! APred
     ++ DictGer.zutraeglich_A.s ! Posit ! APred
     ++ DictGer.zutraeglich_A.s ! Compar ! APred
-    ++ DictGer.zutraeglich_A.s ! Superl ! APred ;
+    ++ DictGer.zutraeglich_A.s ! Superl ! APred
+    ++ DictGer.frei_A.s ! Posit ! APred
+    ++ DictGer.frei_A.s ! Compar ! APred
+    ++ DictGer.frei_A.s ! Superl ! APred ;
 }
