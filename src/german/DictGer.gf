@@ -4,6 +4,8 @@ concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ atlas_N
     , bilge_N
+    , creme_brulee_3_N
+    , creme_brulee_N
     , gewebe_N
     , kanevas_N
     , kohle_N
@@ -40,6 +42,8 @@ lin brevi_manu_Adv = mkAdv "brevi manu" ;
 lin bundesverfassungsgericht_N = mkN bund_bundes_N verfassungsgericht_N ;
 lin chlorfluorkohlenwasserstoff_N = mkN "Chlorfluor" (mkN "Kohlen" wasserstoff_N) ;
 lin cordon_bleu_N = changeCompoundN "Cordon-bleu" (mkN "Cordon bleu" "Cordon bleu" "Cordon bleu" "Cordons bleus" "Cordons bleus" "Cordons bleus" neuter) ;
+lin creme_brulee_3_N = mkN "Crème brûlée" "Crèmes brûlées" "Crème-brûlée" feminine ;
+lin creme_brulee_N = mkN "Crème brulée" "Crèmes brulées" "Crème-brulée" feminine ;
 lin dessen_ungeachtet_Adv = mkAdv "dessen ungeachtet" ;
 lin diakritisches_zeichen_CN = S.mkCN diakritisch_A zeichen_N ;
 lin direkte_rede_CN = S.mkCN direkt_A rede_N ;

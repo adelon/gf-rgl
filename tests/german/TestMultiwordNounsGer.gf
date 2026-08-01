@@ -79,6 +79,9 @@ oper
     ++ nounValue DictGer.enfant_terrible_N ++ nounValue DictGer.fait_accompli_N
     ++ nounValue DictGer.jour_fixe_N ;
 
+  frenchCulinaryNounForms : Str = nounValue DictGer.creme_brulee_3_N
+    ++ nounValue DictGer.creme_brulee_N ;
+
   musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
 
   musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;

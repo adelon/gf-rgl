@@ -7921,8 +7921,6 @@ fun crashkurs_N : N ;
 fun cream_N : N ;
 fun creek_N : N ;
 fun cremant_N : N ;
-fun creme_brulee_3_N : N ;
-fun creme_brulee_N : N ;
 fun creme_caramel_N : N ;
 fun cremegrundlage_N : N ;
 fun cremig_A : A ;

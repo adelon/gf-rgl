@@ -27,6 +27,8 @@ fun
   bundesverfassungsgericht_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;
   cordon_bleu_N : N ;
+  creme_brulee_3_N : N ;
+  creme_brulee_N : N ;
   dessen_ungeachtet_Adv : Adv ;
   diakritisches_zeichen_CN : CN ;
   direkte_rede_CN : CN ;
