@@ -20424,7 +20424,6 @@ lin kindersicherung_N = mkN "Kindersicherung" ;
 lin kindersitz_N = mkN "Kindersitz" "Kindersitze" masculine ;
 lin kindersoldat_N = mkN "Kindersoldat" "Kindersoldaten" masculine ;
 lin kinderspiel_N = mkN "Kinderspiel" "Kinderspiele" neuter ;
-lin kinderspielzeug_N = mkN "Kin­derspielzeug" "Kin­derspielzeuge" neuter ;
 lin kindersprache_N = mkN "Kindersprache" "Kindersprachen" feminine ;
 lin kindertagesstaette_N = mkN "Kindertagesstätte" "Kindertagesstätten" feminine ;
 lin kindertheater_N = mkN "Kindertheater" "Kindertheater" neuter ;

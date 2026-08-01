@@ -127,6 +127,7 @@ lin kohlenwasserstoffkette_N = mkN (mkN "Kohlen" wasserstoff_N) kette_N ;
 lin kohlenwasserstoffrest_N = mkN (mkN "Kohlen" wasserstoff_N) rest_N ;
 lin kohletablette_N = mkN "Kohle" tablette_N ;
 lin kind_gottes_CN = S.mkCN (mkN2 kind_N genPrep) (S.mkNP (mkPN "Gott" "Gottes" masculine)) ;
+lin kinderspielzeug_N = mkN "Kinder" spielzeug_N ;
 lin laeufergabel_N = mkN "Läufer" gabel_N ;
 lin laeuferzug_N = mkN "Läufer" zug_N ;
 lin knollenblaetterpilz_N = mkN "Knollenblätter" pilz_N ;

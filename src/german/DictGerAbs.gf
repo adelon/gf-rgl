@@ -105,6 +105,7 @@ fun
   kohlenwasserstoffrest_N : N ;
   kohletablette_N : N ;
   kind_gottes_CN : CN ;
+  kinderspielzeug_N : N ;
   laeufergabel_N : N ;
   laeuferzug_N : N ;
   knollenblaetterpilz_N : N ;

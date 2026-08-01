@@ -20418,7 +20418,6 @@ fun kindersicherung_N : N ;
 fun kindersitz_N : N ;
 fun kindersoldat_N : N ;
 fun kinderspiel_N : N ;
-fun kinderspielzeug_N : N ;
 fun kindersprache_N : N ;
 fun kindertagesstaette_N : N ;
 fun kindertheater_N : N ;
