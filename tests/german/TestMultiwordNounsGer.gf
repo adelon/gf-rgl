@@ -42,6 +42,35 @@ oper
   cnAgreement : Str = formalSg.s ! False ! Nom ++ formalPl.s ! False ! Dat
     ++ diacriticSg.s ! False ! Nom ++ diacriticDat.s ! False ! Dat ;
 
+  languageTypeCitations : Str =
+    DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.fusionierende_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.isolierende_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.lebende_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.natuerliche_sprache_CN.s ! Strong ! Sg ! Nom ;
+  fusionSg = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+    DictGer.fusionierende_sprache_CN ;
+  fusionDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+    DictGer.fusionierende_sprache_CN ;
+  isolationPl = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+    DictGer.isolierende_sprache_CN ;
+  languageTypeAgreement : Str = fusionSg.s ! False ! Nom
+    ++ fusionDat.s ! False ! Dat ++ isolationPl.s ! False ! Dat ;
+
+  reportedSpeechCitations : Str =
+    DictGer.direkte_rede_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.indirekte_rede_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.woertliche_rede_CN.s ! Strong ! Sg ! Nom ;
+  directDat = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+    DictGer.direkte_rede_CN ;
+  indirectPl = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+    DictGer.indirekte_rede_CN ;
+  literalDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+    DictGer.woertliche_rede_CN ;
+  reportedSpeechAgreement : Str = directDat.s ! False ! Dat
+    ++ indirectPl.s ! False ! Nom ++ literalDat.s ! False ! Dat ;
+
   greenFungus = DictGer.gruener_knollenblaetterpilz_CN ;
   greenFungusDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     greenFungus ;

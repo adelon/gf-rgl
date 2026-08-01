@@ -11,6 +11,7 @@ fun
   a_priori_Adv : Adv ;
   ad_acta_Adv : Adv ;
   ad_nauseam_Adv : Adv ;
+  agglutinierende_sprache_CN : CN ;
   arbeitslosengeld_N : N ;
   arbeitslosenquote_N : N ;
   arbeitslosenrate_N : N ;
@@ -24,12 +25,15 @@ fun
   chlorfluorkohlenwasserstoff_N : N ;
   dessen_ungeachtet_Adv : Adv ;
   diakritisches_zeichen_CN : CN ;
+  direkte_rede_CN : CN ;
   eierkohle_N : N ;
   en_passant_Adv : Adv ;
   en_vogue_Adv : Adv ;
+  flektierende_sprache_CN : CN ;
   fluorchlorkohlenwasserstoff_N : N ;
   formale_sprache_CN : CN ;
   fruehlingsknollenblaetterpilz_N : N ;
+  fusionierende_sprache_CN : CN ;
   genus_verbi_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
@@ -38,6 +42,8 @@ fun
   in_ermangelung_Adv : Adv ;
   in_ermanglung_Adv : Adv ;
   in_petto_Adv : Adv ;
+  indirekte_rede_CN : CN ;
+  isolierende_sprache_CN : CN ;
   kohlebergwerk_N : N ;
   kohleheizung_N : N ;
   kohleherd_N : N ;
@@ -78,11 +84,13 @@ fun
   kohlruebe_N : N ;
   kohlweissling_N : N ;
   last_minute_Adv : Adv ;
+  lebende_sprache_CN : CN ;
   liebesbrief_N : N ;
   millionen_mal_Adv : Adv ;
   mutterseelenallein_A : A ;
   nach_links_Adv : Adv ;
   nach_rechts_Adv : Adv ;
+  natuerliche_sprache_CN : CN ;
   noch_mal_Adv : Adv ;
   otto_normalverbraucher_PN : PN ;
   par_excellence_Adv : Adv ;
@@ -109,6 +117,7 @@ fun
   verfassungsgericht_N : N ;
   vice_versa_Adv : Adv ;
   vielverfaerbender_birkenpilz_CN : CN ;
+  woertliche_rede_CN : CN ;
   zeichenkohle_N : N ;
   zu_hause_Adv : Adv ;
   zu_stande_Adv : Adv ;

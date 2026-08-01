@@ -3,6 +3,8 @@ i -retain tests/german/TestMultiwordNounsGer.gf
 cc -all "Bad Bank:" ++ TestMultiwordNounsGer.badBankForms
 cc -all "Genus Verbi:" ++ TestMultiwordNounsGer.genusVerbiForms
 cc -all "CN agreement:" ++ TestMultiwordNounsGer.cnAgreement
+cc -all "Language-type CNs:" ++ TestMultiwordNounsGer.languageTypeCitations ++ TestMultiwordNounsGer.languageTypeAgreement
+cc -all "Reported-speech CNs:" ++ TestMultiwordNounsGer.reportedSpeechCitations ++ TestMultiwordNounsGer.reportedSpeechAgreement
 cc -all "Species CN:" ++ TestMultiwordNounsGer.speciesForms
 cc -all "Kind Gottes:" ++ TestMultiwordNounsGer.childOfGodForms
 cc -all "Proper names:" ++ TestMultiwordNounsGer.properNameForms
