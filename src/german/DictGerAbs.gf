@@ -72,6 +72,10 @@ fun
   abbildungsfehler_N : N ;
   abflussrohr_N : N ;
   abflusslos_A : A ;
+  abbeizmittel_N : N ;
+  abbiegespur_N : N ;
+  abblasventil_N : N ;
+  abblendschalter_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
