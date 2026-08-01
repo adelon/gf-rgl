@@ -614,6 +614,8 @@ lin qualitaetswein_bestimmter_anbaugebiete_N = changeCompoundN "Qualitätswein b
     "Qualitätsweinen bestimmter Anbaugebiete" masculine) ;
 lin radiokohlenstoffdatierung_N = mkN (mkN "Radio" (mkN "Kohlen" stoff_N)) datierung_N ;
 lin rotwein_N = mkN "Rot" wein_N ;
+lin saegerau_A = mkA saege_N rau_A ;
+lin schadenfroh_A = mkA schaden_N froh_A ;
 lin sans_phrase_Adv = mkAdv "sans phrase" ;
 lin sauce_hollandaise_N = changeCompoundN "Sauce-Hollandaise"
   (invarN "Sauce hollandaise" feminine) ;
@@ -634,6 +636,7 @@ lin torfkohle_N = mkN torf_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 lin toter_code_CN = S.mkCN tot_A code__N ;
 lin up_to_date_Adv = mkAdv "up to date" ;
 lin umweltfreundlich_A = mkA umwelt_N freundlich_A ;
+lin wortkarg_A = mkA wort_N karg_A ;
 lin vorstossvariante_N = mkN "Vorstoß" variante_N ;
 lin verbrechen_gegen_die_menschlichkeit_CN = S.mkCN (mkN2 verbrechen_N (mkPrep "gegen" accusative)) (S.mkNP S.the_Quant S.singularNum menschlichkeit_N) ;
 lin verfassungsgericht_N = mkN verfassung_N gericht_N ;

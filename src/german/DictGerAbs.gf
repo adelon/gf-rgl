@@ -463,6 +463,8 @@ fun
   larsen_system_N : N ;
   radiokohlenstoffdatierung_N : N ;
   rotwein_N : N ;
+  saegerau_A : A ;
+  schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;
   so_lala_Adv : Adv ;
@@ -476,6 +478,7 @@ fun
   toter_code_CN : CN ;
   up_to_date_Adv : Adv ;
   umweltfreundlich_A : A ;
+  wortkarg_A : A ;
   vorstossvariante_N : N ;
   verbrechen_gegen_die_menschlichkeit_CN : CN ;
   verfassungsgericht_N : N ;

@@ -58,4 +58,22 @@ oper
     ++ DictGer.verschieden_A.s ! Posit ! APred ++ DictGer.verschieden_A.s ! Compar ! APred ++ DictGer.verschieden_A.s ! Superl ! APred
     ++ DictGer.willkommen_A.s ! Posit ! APred ++ DictGer.willkommen_A.s ! Compar ! APred ++ DictGer.willkommen_A.s ! Superl ! APred
     ++ DictGer.zaeh_A.s ! Posit ! APred ++ DictGer.zaeh_A.s ! Compar ! APred ++ DictGer.zaeh_A.s ! Superl ! APred ;
+
+  suffixal : Str =
+    DictGer.buchstabengetreu_A.s ! Posit ! APred ++ DictGer.buchstabengetreu_A.s ! Compar ! APred ++ DictGer.buchstabengetreu_A.s ! Superl ! APred
+    ++ DictGer.erdnah_A.s ! Posit ! APred ++ DictGer.erdnah_A.s ! Compar ! APred ++ DictGer.erdnah_A.s ! Superl ! APred
+    ++ DictGer.fangfrisch_A.s ! Posit ! APred ++ DictGer.fangfrisch_A.s ! Compar ! APred ++ DictGer.fangfrisch_A.s ! Superl ! APred
+    ++ DictGer.getreu_A.s ! Posit ! APred ++ DictGer.getreu_A.s ! Compar ! APred ++ DictGer.getreu_A.s ! Superl ! APred
+    ++ DictGer.hartgesotten_A.s ! Posit ! APred ++ DictGer.hartgesotten_A.s ! Compar ! APred ++ DictGer.hartgesotten_A.s ! Superl ! APred
+    ++ DictGer.ofenfrisch_A.s ! Posit ! APred ++ DictGer.ofenfrisch_A.s ! Compar ! APred ++ DictGer.ofenfrisch_A.s ! Superl ! APred
+    ++ DictGer.postfrisch_A.s ! Posit ! APred ++ DictGer.postfrisch_A.s ! Compar ! APred ++ DictGer.postfrisch_A.s ! Superl ! APred
+    ++ DictGer.sinnfrei_A.s ! Posit ! APred ++ DictGer.sinnfrei_A.s ! Compar ! APred ++ DictGer.sinnfrei_A.s ! Superl ! APred
+    ++ DictGer.tiefschuerfend_A.s ! Posit ! APred ++ DictGer.tiefschuerfend_A.s ! Compar ! APred ++ DictGer.tiefschuerfend_A.s ! Superl ! APred
+    ++ DictGer.voreingenommen_A.s ! Posit ! APred ++ DictGer.voreingenommen_A.s ! Compar ! APred ++ DictGer.voreingenommen_A.s ! Superl ! APred
+    ++ DictGer.wortgetreu_A.s ! Posit ! APred ++ DictGer.wortgetreu_A.s ! Compar ! APred ++ DictGer.wortgetreu_A.s ! Superl ! APred ;
+
+  compounds : Str =
+    DictGer.saegerau_A.s ! Posit ! APred ++ DictGer.saegerau_A.s ! Compar ! APred ++ DictGer.saegerau_A.s ! Superl ! APred
+    ++ DictGer.schadenfroh_A.s ! Posit ! APred ++ DictGer.schadenfroh_A.s ! Compar ! APred ++ DictGer.schadenfroh_A.s ! Superl ! APred
+    ++ DictGer.wortkarg_A.s ! Posit ! APred ++ DictGer.wortkarg_A.s ! Compar ! APred ++ DictGer.wortkarg_A.s ! Superl ! APred ;
 }

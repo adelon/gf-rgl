@@ -2,3 +2,5 @@ i -retain tests/german/TestAdjectiveCorrectionsGer.gf
 
 cc -one TestAdjectiveCorrectionsGer.clean
 cc -one TestAdjectiveCorrectionsGer.canonical
+cc -one TestAdjectiveCorrectionsGer.suffixal
+cc -one TestAdjectiveCorrectionsGer.compounds
