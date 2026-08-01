@@ -84,6 +84,10 @@ fun
   abdeckplane_N : N ;
   abdeckplatte_N : N ;
   abduzenslaehmung_N : N ;
+  abkuerzungsfimmel_N : N ;
+  abkuerzungssprache_N : N ;
+  abkuerzungsverzeichnis_N : N ;
+  abkuerzungswoerterbuch_N : N ;
   abenddaemmerung_N : N ;
   abendnebel_N : N ;
   abendpunkt_N : N ;
