@@ -3,6 +3,10 @@
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ atlas_N
+    , abenteuerbuch_N
+    , abenteuerfilm_N
+    , abenteuergeschichte_N
+    , abenteuerspielplatz_N
     , abendakademie_N
     , abendandacht_N
     , abendanfrage_N
@@ -94,6 +98,10 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abenteuerbuch_N = mkN abenteuer_N buch_N ;
+lin abenteuerfilm_N = mkN abenteuer_N film_N ;
+lin abenteuergeschichte_N = mkN abenteuer_N geschichte_N ;
+lin abenteuerspielplatz_N = mkN abenteuer_N spielplatz_N ;
 lin abendakademie_N = mkN abend_N akademie_N ;
 lin abendandacht_N = mkN abend_N andacht_N ;
 lin abendanfrage_N = mkN abend_N anfrage_N ;

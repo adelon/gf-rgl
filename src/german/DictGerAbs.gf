@@ -3,6 +3,10 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abenteuerbuch_N : N ;
+  abenteuerfilm_N : N ;
+  abenteuergeschichte_N : N ;
+  abenteuerspielplatz_N : N ;
   abendakademie_N : N ;
   abendandacht_N : N ;
   abendanfrage_N : N ;
