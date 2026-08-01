@@ -93,6 +93,16 @@ oper
 
   sauceHollandaiseForms : Str = nounValue DictGer.sauce_hollandaise_N ;
 
+  adjectiveCompoundForms : Str =
+    DictGer.rotwein_N.s ! Sg ! Nom
+    ++ DictGer.rotwein_N.s ! Pl ! Nom
+    ++ DictGer.rotwein_N.co
+    ++ (ParadigmsGer.mkN DictGer.rotwein_N DictGer.system_N).s ! Sg ! Nom
+    ++ DictGer.umweltfreundlich_A.s ! Posit ! APred
+    ++ DictGer.umweltfreundlich_A.s ! Posit ! AMod (GSg Neutr) Nom
+    ++ DictGer.umweltfreundlich_A.s ! Compar ! APred
+    ++ DictGer.umweltfreundlich_A.s ! Superl ! APred ;
+
   transparentCompoundForms : Str =
     DictGer.augenblicksbildung_N.s ! Sg ! Nom
     ++ DictGer.augenblicksbildung_N.s ! Sg ! Gen

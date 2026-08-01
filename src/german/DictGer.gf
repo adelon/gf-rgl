@@ -150,6 +150,7 @@ lin pro_rata_Adv = mkAdv "pro rata" ;
 lin public_viewing_N = changeCompoundN "Public-Viewing" (mkN "Public Viewing" "Public Viewing" "Public Viewing" (variants {"Public Viewing" ; "Public Viewings"}) "Public Viewings" "Public Viewings" neuter) ;
 lin qualitaetswein_mit_praedikat_N = mkN "Qualitätswein mit Prädikat" "Qualitätswein mit Prädikat" "Qualitätswein mit Prädikat" (variants {"Qualitätsweins mit Prädikat" ; "Qualitätsweines mit Prädikat"}) "Qualitätsweine mit Prädikat" "Qualitätsweinen mit Prädikat" masculine ;
 lin radiokohlenstoffdatierung_N = mkN (mkN "Radio" (mkN "Kohlen" stoff_N)) datierung_N ;
+lin rotwein_N = mkN "Rot" wein_N ;
 lin sans_phrase_Adv = mkAdv "sans phrase" ;
 lin sauce_hollandaise_N = changeCompoundN "Sauce-Hollandaise"
   (invarN "Sauce hollandaise" feminine) ;
@@ -168,6 +169,7 @@ lin steinkohlekraftwerk_N = mkN "Steinkohle" kraftwerk_N ;
 lin torfkohle_N = mkN torf_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 lin toter_code_CN = S.mkCN tot_A code__N ;
 lin up_to_date_Adv = mkAdv "up to date" ;
+lin umweltfreundlich_A = mkA umwelt_N freundlich_A ;
 lin verbrechen_gegen_die_menschlichkeit_CN = S.mkCN (mkN2 verbrechen_N (mkPrep "gegen" accusative)) (S.mkNP S.the_Quant S.singularNum menschlichkeit_N) ;
 lin verfassungsgericht_N = mkN verfassung_N gericht_N ;
 lin vice_versa_Adv = mkAdv "vice versa" ;

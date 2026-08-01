@@ -127,6 +127,7 @@ fun
   public_viewing_N : N ;
   qualitaetswein_mit_praedikat_N : N ;
   radiokohlenstoffdatierung_N : N ;
+  rotwein_N : N ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;
   so_lala_Adv : Adv ;
@@ -139,6 +140,7 @@ fun
   torfkohle_N : N ;
   toter_code_CN : CN ;
   up_to_date_Adv : Adv ;
+  umweltfreundlich_A : A ;
   verbrechen_gegen_die_menschlichkeit_CN : CN ;
   verfassungsgericht_N : N ;
   vice_versa_Adv : Adv ;
