@@ -183,6 +183,7 @@ mkN : overload {
 -- In the worst case, all four forms are needed.
 
     mkPN : (nom,acc,dat,gen : Str) -> Gender -> PN ; -- name with all case forms
+    mkPN : (nom,acc,dat,gen : Str) -> Gender -> Number -> PN ; -- and explicit number
 
 -- Inflection can also be inherited from the singular forms of a common noun.
 
@@ -618,8 +619,12 @@ mkV2 : overload {
     mkPN : N -> PN = \n -> lin PN {s = n.s ! Sg; g = n.g; n = Sg} ;
     mkPN : (nom,gen : Str) -> Gender -> PN = mk2PN ;
     mkPN : (nom,acc,dat,gen : Str) -> Gender -> PN = \nom,acc,dat,gen,g ->
-      {s = table {Nom => nom ; Acc => acc ; Dat => dat ; Gen => gen} ; 
-       g = g ; n = Sg ; lock_PN = <>} 
+      {s = table {Nom => nom ; Acc => acc ; Dat => dat ; Gen => gen} ;
+       g = g ; n = Sg ; lock_PN = <>} ;
+    mkPN : (nom,acc,dat,gen : Str) -> Gender -> Number -> PN =
+      \nom,acc,dat,gen,g,n ->
+        {s = table {Nom => nom ; Acc => acc ; Dat => dat ; Gen => gen} ;
+         g = g ; n = n ; lock_PN = <>}
     } ;
 
   mk2PN  : (karolus, karoli : Str) -> Gender -> PN ; -- karolus, karoli
