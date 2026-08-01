@@ -198,7 +198,6 @@ lin abdruecken_V = prefixV "ab" (regV "drücken") ;
 lin abduktion_N = mkN "Abduktion" ;
 lin abduktor_N = mkN "Abduktor" "Abduktoren" masculine ;
 lin abdunkeln_V = prefixV "ab" (irregV "dunkeln" "dunkelt" "dunke" "dunkele" "gedunkelt") ;
-lin abduzenslaehmung_N = mkN "Abduzenslähmung" ;
 lin abduzieren_V = prefixV "ab" (irregV "duzieren" "duziert" "duzierte" "duzierte" "geduziert") ;
 lin abecedarium_N = mkN "Abecedarium" "Abecedarien" neuter ;
 lin abecedarius_N = invarN "Abecedarius" "Abecedarii" masculine ;

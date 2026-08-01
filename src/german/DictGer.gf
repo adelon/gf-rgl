@@ -27,6 +27,7 @@ concrete DictGer of DictGerAbs =
     , abdeckfarbe_N
     , abdeckplane_N
     , abdeckplatte_N
+    , abduzenslaehmung_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -151,6 +152,7 @@ lin abdeckblech_N = mkN "Abdeck" blech_N ;
 lin abdeckfarbe_N = changeCompoundN "Abdeckfarben" (mkN "Abdeck" farbe_N) ;
 lin abdeckplane_N = mkN "Abdeck" plane_N ;
 lin abdeckplatte_N = mkN "Abdeck" platte_N ;
+lin abduzenslaehmung_N = mkN "Abduzens" laehmung_N ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;

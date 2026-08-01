@@ -83,6 +83,7 @@ fun
   abdeckfarbe_N : N ;
   abdeckplane_N : N ;
   abdeckplatte_N : N ;
+  abduzenslaehmung_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;

@@ -192,7 +192,6 @@ fun abdruecken_V : V ;
 fun abduktion_N : N ;
 fun abduktor_N : N ;
 fun abdunkeln_V : V ;
-fun abduzenslaehmung_N : N ;
 fun abduzieren_V : V ;
 fun abecedarium_N : N ;
 fun abecedarius_N : N ;
