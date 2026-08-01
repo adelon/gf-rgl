@@ -140,6 +140,8 @@ fun
   vielverfaerbender_birkenpilz_CN : CN ;
   woertliche_rede_CN : CN ;
   zeichenkohle_N : N ;
+  zipf_sche_gesetz_N : N ;
+  zipfsche_gesetz_N : N ;
   zu_hause_Adv : Adv ;
   zu_stande_Adv : Adv ;
   zu_tage_Adv : Adv ;

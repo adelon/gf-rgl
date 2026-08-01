@@ -168,6 +168,12 @@ lin viola_d_amore_N = changeCompoundN "Viola-d'Amore" (mkN "Viola d'Amore" "Viol
 lin vielverfaerbender_birkenpilz_CN = S.mkCN (mkA "Vielverfärbend") birkenpilz_N ;
 lin woertliche_rede_CN = S.mkCN woertlich_A rede_N ;
 lin zeichenkohle_N = mkN zeichen_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
+lin zipf_sche_gesetz_N = changeCompoundN "Zipf'sches-Gesetz"
+  (mkN "Zipf'sches Gesetz" "Zipf'sches Gesetz" "Zipf'schem Gesetz"
+    "Zipf'schen Gesetzes" "Zipf'sche Gesetze" "Zipf'schen Gesetzen" neuter) ;
+lin zipfsche_gesetz_N = changeCompoundN "Zipfsches-Gesetz"
+  (mkN "Zipfsches Gesetz" "Zipfsches Gesetz" "Zipfschem Gesetz"
+    "Zipfschen Gesetzes" "Zipfsche Gesetze" "Zipfschen Gesetzen" neuter) ;
 lin zu_hause_Adv = mkAdv "zu Hause" ;
 lin zu_stande_Adv = mkAdv "zu Stande" ;
 lin zu_tage_Adv = mkAdv "zu Tage" ;

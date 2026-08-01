@@ -88,6 +88,9 @@ oper
   partiellComparison : Str = partiell_A.s ! Compar ! APred
     ++ partiell_A.s ! Superl ! APred ;
 
+  zipfLawForms : Str = nounValue DictGer.zipf_sche_gesetz_N
+    ++ nounValue DictGer.zipfsche_gesetz_N ;
+
   musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
 
   musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;
