@@ -150,6 +150,7 @@ lin st_vincent_und_die_grenadinen_PN = mkPN
   neuter plural ;
 lin stammzelle_N = mkN stamm_N zelle_N ;
 lin stante_pede_Adv = mkAdv "stante pede" ;
+lin stabat_mater_N = changeCompoundN "Stabat-Mater" (invarN "Stabat Mater" neuter) ;
 lin steinkohle_N = mkN stein_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;
 lin steinkohlekraftwerk_N = mkN "Steinkohle" kraftwerk_N ;
 lin torfkohle_N = mkN torf_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;

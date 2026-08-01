@@ -83,6 +83,8 @@ oper
 
   musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;
 
+  invariantLatinNounForms : Str = nounValue DictGer.stabat_mater_N ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom

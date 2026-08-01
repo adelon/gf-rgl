@@ -124,6 +124,7 @@ fun
   st_vincent_und_die_grenadinen_PN : PN ;
   stammzelle_N : N ;
   stante_pede_Adv : Adv ;
+  stabat_mater_N : N ;
   steinkohle_N : N ;
   steinkohlekraftwerk_N : N ;
   torfkohle_N : N ;

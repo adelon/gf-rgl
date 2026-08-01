@@ -35786,7 +35786,6 @@ lin staatssekretaer_N = mkN "Staatssekretär" "Staatssekretäre" masculine ;
 lin staatssprache_N = mkN "Staatssprache" "Staatssprachen" feminine ;
 lin staatsstreich_N = mkN "Staatsstreich" "Staatsstreiche" masculine ;
 lin stab_N = mkN "Stab" "Stäbe" masculine ;
-lin stabat_mater_N = mkN "Stabat Mater" "Stabat Mater" neuter ;
 lin stabhochspringer_N = mkN "Stabhochspringer" "Stabhochspringer" masculine ;
 lin stabhochspringerin_N = mkN "Stabhochspringerin" "Stabhochspringerinnen" feminine ;
 lin stabhochsprung_N = mkN "Stabhochsprung" ;

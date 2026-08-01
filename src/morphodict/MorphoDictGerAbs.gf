@@ -35777,7 +35777,6 @@ fun staatssekretaer_N : N ;
 fun staatssprache_N : N ;
 fun staatsstreich_N : N ;
 fun stab_N : N ;
-fun stabat_mater_N : N ;
 fun stabhochspringer_N : N ;
 fun stabhochspringerin_N : N ;
 fun stabhochsprung_N : N ;

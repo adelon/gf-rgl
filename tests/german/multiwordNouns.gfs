@@ -10,6 +10,7 @@ cc -all "Additional loan Noun forms:" ++ TestMultiwordNounsGer.additionalLoanNou
 cc -all "Fixed loan Noun forms:" ++ TestMultiwordNounsGer.fixedLoanNounForms
 cc -all "Musical loan Noun forms:" ++ TestMultiwordNounsGer.musicalLoanNounForms
 cc -all "Musical phrase Noun forms:" ++ TestMultiwordNounsGer.musicalPhraseNounForms
+cc -all "Invariant Latin Noun forms:" ++ TestMultiwordNounsGer.invariantLatinNounForms
 cc -all "Language-type CNs:" ++ TestMultiwordNounsGer.languageTypeCitations ++ TestMultiwordNounsGer.languageTypeAgreement
 cc -all "Reported-speech CNs:" ++ TestMultiwordNounsGer.reportedSpeechCitations ++ TestMultiwordNounsGer.reportedSpeechAgreement
 cc -all "Species CN:" ++ TestMultiwordNounsGer.speciesForms
