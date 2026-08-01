@@ -169,6 +169,16 @@ fun
   acylierungskatalysator_N : N ;
   acylierungsmittel_N : N ;
   acylkette_N : N ;
+  acylkettenzusammensetzung_N : N ;
+  acyloxygruppe_N : N ;
+  acylradikal_N : N ;
+  acylrest_N : N ;
+  adenokarzinomzelle_N : N ;
+  adenosinderivat_N : N ;
+  adenosinrezeptoragonist_N : N ;
+  adenovirusinfektion_N : N ;
+  adenovirusvektor_N : N ;
+  aderleitung_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
