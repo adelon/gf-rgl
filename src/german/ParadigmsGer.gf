@@ -133,6 +133,12 @@ mkN : overload {
     invarPlN : (sg,pl : Str) -> Gender -> N ;
     } ;
 
+-- Pluralia tantum have no singular forms. The plural dative is derived from
+-- the supplied plural, which also serves as the canonical compound form.
+-- Gender is immaterial because plural agreement does not use it.
+
+  pluralOnlyN : Str -> N ;
+
 -- Set the canonical outward compound modifier form of a completed noun.
 -- Citation and inflectional forms and gender remain unchanged.
 
@@ -838,6 +844,21 @@ mkV2 : overload {
         (case g of {Fem => sg ; _ => genitS True sg})
         pl pl g ;
     } ;
+
+  pluralOnlyN : Str -> N = \pl ->
+    let n = changeCompoundN pl (reg2N pl pl Masc)
+    in n ** {
+      s = table {
+        Sg => \\_ => nonExist ;
+        Pl => n.s ! Pl
+        } ;
+      uncap = n.uncap ** {
+        s = table {
+          Sg => \\_ => nonExist ;
+          Pl => n.uncap.s ! Pl
+          }
+        }
+      } ;
 
   mkN = overload {
     mkN : Str -> N = regN ;

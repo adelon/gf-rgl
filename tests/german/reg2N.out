@@ -10,6 +10,11 @@ Penny [sg.gen pl.nom pl.dat]: Pennys Pence Pence
 Bar unit [sg.gen pl.nom pl.dat]: Bars Bar Bar
 Inuk [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Inuk Inuk Inuk Inuks Inuit Inuit
 Baht [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Baht Baht Baht Baht Baht Baht
+ResGer.Nom => Predef.nonExist
+ResGer.Acc => Predef.nonExist
+ResGer.Dat => Predef.nonExist
+ResGer.Gen => Predef.nonExist
+Plural-only paradigm [Eltern pl.nom pl.dat uncap.nom uncap.dat co uncap.co csep compound; Leute pl.dat]: Eltern Eltern eltern eltern Eltern eltern bind Elternabend Leuten
 Lehrer/Lehrer [pl.nom pl.dat]: Lehrer Lehrern
 Goldmark gender: feminine
 Invariant head [sg.gen pl.dat]: Goldmark Goldmark
@@ -41,6 +46,7 @@ ResGer.Nom => Predef.nonExist
 ResGer.Acc => Predef.nonExist
 ResGer.Dat => Predef.nonExist
 ResGer.Gen => Predef.nonExist
+Plural-only dictionary [Eltern pl.nom pl.dat co; Ferien pl.nom pl.dat co]: Eltern Eltern Eltern Ferien Ferien Ferien
 Ergebnis [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Ergebnis Ergebnis Ergebnis Ergebnisses Ergebnisse Ergebnissen
 Kenntnis [sg.nom sg.acc sg.dat sg.gen pl.nom pl.dat]: Kenntnis Kenntnis Kenntnis Kenntnis Kenntnisse Kenntnissen
 Firnis [sg.gen pl.nom pl.dat]: Firnisses Firnisse Firnissen
