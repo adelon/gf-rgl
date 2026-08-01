@@ -7,6 +7,8 @@ fun
   abfangjaeger_N : N ;
   abfangmittel_N : N ;
   abfangrezeptor_N : N ;
+  abgangsgruppe_N : N ;
+  abgassystem_N : N ;
   abendmahlsfeier_N : N ;
   abendmahlsgemeinschaft_N : N ;
   abendmahlsstreit_N : N ;

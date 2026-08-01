@@ -7,6 +7,8 @@ concrete DictGer of DictGerAbs =
     , abfangjaeger_N
     , abfangmittel_N
     , abfangrezeptor_N
+    , abgangsgruppe_N
+    , abgassystem_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -111,6 +113,8 @@ lin abfangbahn_N = mkN "Abfang" bahn_N ;
 lin abfangjaeger_N = mkN "Abfang" jaeger_N ;
 lin abfangmittel_N = mkN "Abfang" mittel_N ;
 lin abfangrezeptor_N = mkN "Abfang" rezeptor_N ;
+lin abgangsgruppe_N = mkN "Abgangs" gruppe_N ;
+lin abgassystem_N = mkN abgas_N system_N ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;
