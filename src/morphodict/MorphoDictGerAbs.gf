@@ -24407,8 +24407,6 @@ fun maulschluessel_N : N ;
 fun maultasche_N : N ;
 fun maultier_N : N ;
 fun maulwurf_N : N ;
-fun maulwurffell_N : N ;
-fun maulwurfsfell_N : N ;
 fun maulwurfshaufen_N : N ;
 fun maulwurfshuegel_N : N ;
 fun maunzen_V : V ;

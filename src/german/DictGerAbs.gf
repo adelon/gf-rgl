@@ -118,6 +118,8 @@ fun
   liebesbrief_N : N ;
   lied_ohne_worte_N : N ;
   millionen_mal_Adv : Adv ;
+  maulwurffell_N : N ;
+  maulwurfsfell_N : N ;
   muehlstein_N : N ;
   mutterseelenallein_A : A ;
   nach_links_Adv : Adv ;
