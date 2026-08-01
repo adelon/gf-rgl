@@ -210,6 +210,10 @@ fun
   activinantagonist_N : N ;
   adamantanylgruppe_N : N ;
   adamsapfel_N : N ;
+  additionsprodukt_N : N ;
+  additionssalz_N : N ;
+  additionssystem_N : N ;
+  acrylverbindung_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
