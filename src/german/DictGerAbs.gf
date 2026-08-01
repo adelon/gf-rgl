@@ -115,6 +115,9 @@ fun
   absatzproblem_N : N ;
   absatzzeichen_N : N ;
   absauganlage_N : N ;
+  abschlussarbeit_N : N ;
+  abschlusspruefung_N : N ;
+  abschlusszeugnis_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
