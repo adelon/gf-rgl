@@ -11737,7 +11737,6 @@ lin evolution_N = mkN "Evolution" ;
 lin evolutionstheorie_N = mkN "Evolutionstheorie" "Evolutionstheorien" feminine ;
 lin evozieren_V = irregV "evozieren" "evoziert" "evozierte" "evozierte" "evoziert" ;
 lin ewig_A = mk3A "ewig" "ewiger" "ewigste" ;
-lin ewige_schach_N = mkN "ewige Schach" "ewigen Schachs" neuter ;
 lin ewiggestrig_A = regA "ewiggestrig" ;
 lin ewigkeit_N = mkN "Ewigkeit" "Ewigkeiten" feminine ;
 lin ex_N = invarN "Ex" masculine ;

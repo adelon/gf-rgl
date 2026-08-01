@@ -242,6 +242,8 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
       DictGer.frei_variierendes_allophon_CN).s ! False ! Dat ;
 
+  ewigesSchachForms : Str = nounValue DictGer.ewige_schach_N ;
+
   childOfGod = DictGer.kind_gottes_CN ;
   childOfGodSg = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     childOfGod ;

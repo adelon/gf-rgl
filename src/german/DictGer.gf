@@ -15,6 +15,7 @@ concrete DictGer of DictGerAbs =
     , gelbe_kraterelle__N
     , frei_variierende_allomorph_N
     , frei_variierende_allophon_N
+    , ewige_schach_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -86,6 +87,9 @@ lin fluorchlorkohlenwasserstoff_N = mkN "Fluorchlor" (mkN "Kohlen" wasserstoff_N
 lin formale_sprache_CN = S.mkCN formal_A sprache_N ;
 lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
 lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
+lin ewige_schach_N = changeCompoundN "Ewiges-Schach"
+  (mkN "ewiges Schach" "ewiges Schach" "ewigem Schach" "ewigen Schachs"
+    "ewige Schachs" "ewigen Schachs" neuter) ;
 lin grundreihenmatt_N = mkN "Grundreihen" matt_N ;
 lin fruehlingsknollenblaetterpilz_N = mkN "Frühlings" knollenblaetterpilz_N ;
 lin fruehstueck_N = changeCompoundN "Frühstücks" (mkN "Früh" stueck_N) ;

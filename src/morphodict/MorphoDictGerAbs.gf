@@ -11731,7 +11731,6 @@ fun evolution_N : N ;
 fun evolutionstheorie_N : N ;
 fun evozieren_V : V ;
 fun ewig_A : A ;
-fun ewige_schach_N : N ;
 fun ewiggestrig_A : A ;
 fun ewigkeit_N : N ;
 fun ex_N : N ;
