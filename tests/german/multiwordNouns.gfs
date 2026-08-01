@@ -28,6 +28,7 @@ cc -all "Additional species CNs:" ++ TestMultiwordNounsGer.additionalSpeciesCita
 cc -all "Variierende terminology CNs:" ++ TestMultiwordNounsGer.variierendeTerminologyCitations ++ TestMultiwordNounsGer.variierendeTerminologyAgreement
 cc -all "Ewiges Schach:" ++ TestMultiwordNounsGer.ewigesSchachForms
 cc -all "Leipziger Allerlei:" ++ TestMultiwordNounsGer.leipzigerAllerleiForms
+cc -all "Corrected phrase nouns:" ++ TestMultiwordNounsGer.correctedPhraseForms
 cc -all "Kind Gottes:" ++ TestMultiwordNounsGer.childOfGodForms
 cc -all "Proper names:" ++ TestMultiwordNounsGer.properNameForms
 cc -all "Knollenblätterpilz family:" ++ TestMultiwordNounsGer.fungusFamily

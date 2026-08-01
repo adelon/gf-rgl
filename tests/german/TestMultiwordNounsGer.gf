@@ -253,6 +253,10 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.leipziger_allerlei_CN).s ! False ! Dat ;
 
+  correctedPhraseForms : Str = nounValue
+    DictGer.qualitaetswein_bestimmter_anbaugebiete_N
+    ++ nounValue DictGer.zahl_null_N ;
+
   childOfGod = DictGer.kind_gottes_CN ;
   childOfGodSg = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     childOfGod ;

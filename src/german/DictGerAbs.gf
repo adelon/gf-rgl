@@ -191,6 +191,7 @@ fun
   pro_rata_Adv : Adv ;
   public_viewing_N : N ;
   qualitaetswein_mit_praedikat_N : N ;
+  qualitaetswein_bestimmter_anbaugebiete_N : N ;
   radiokohlenstoffdatierung_N : N ;
   rotwein_N : N ;
   sans_phrase_Adv : Adv ;
@@ -214,6 +215,7 @@ fun
   vielverfaerbender_birkenpilz_CN : CN ;
   woertliche_rede_CN : CN ;
   zeichenkohle_N : N ;
+  zahl_null_N : N ;
   zipf_sche_gesetz_N : N ;
   zipfsche_gesetz_N : N ;
   zu_hause_Adv : Adv ;

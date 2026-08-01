@@ -19,6 +19,8 @@ concrete DictGer of DictGerAbs =
     , leipziger_allerlei_N
     , das_nbspfamilienschach_N
     , die_nbspvorgabepartie_N
+    , qualitaetswein_bestimmter_anbaugebiete_N
+    , zahl_null_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -231,6 +233,13 @@ lin post_mortem_Adv = mkAdv "post mortem" ;
 lin pro_rata_Adv = mkAdv "pro rata" ;
 lin public_viewing_N = changeCompoundN "Public-Viewing" (mkN "Public Viewing" "Public Viewing" "Public Viewing" (variants {"Public Viewing" ; "Public Viewings"}) "Public Viewings" "Public Viewings" neuter) ;
 lin qualitaetswein_mit_praedikat_N = mkN "Qualitätswein mit Prädikat" "Qualitätswein mit Prädikat" "Qualitätswein mit Prädikat" (variants {"Qualitätsweins mit Prädikat" ; "Qualitätsweines mit Prädikat"}) "Qualitätsweine mit Prädikat" "Qualitätsweinen mit Prädikat" masculine ;
+lin qualitaetswein_bestimmter_anbaugebiete_N = changeCompoundN "Qualitätswein bestimmter Anbaugebiete"
+  (mkN "Qualitätswein bestimmter Anbaugebiete"
+    "Qualitätswein bestimmter Anbaugebiete"
+    "Qualitätswein bestimmter Anbaugebiete"
+    "Qualitätsweins bestimmter Anbaugebiete"
+    "Qualitätsweine bestimmter Anbaugebiete"
+    "Qualitätsweinen bestimmter Anbaugebiete" masculine) ;
 lin radiokohlenstoffdatierung_N = mkN (mkN "Radio" (mkN "Kohlen" stoff_N)) datierung_N ;
 lin rotwein_N = mkN "Rot" wein_N ;
 lin sans_phrase_Adv = mkAdv "sans phrase" ;
@@ -246,7 +255,7 @@ lin st_vincent_und_die_grenadinen_PN = mkPN
 lin stammzelle_N = mkN stamm_N zelle_N ;
 lin stante_pede_Adv = mkAdv "stante pede" ;
 lin stabat_mater_N = changeCompoundN "Stabat-Mater" (invarN "Stabat Mater" neuter) ;
-lin vorgabepartie_N = mkN vorgabe_N partie_N ;
+lin vorgabepartie_N = mkN "Vorgabe" partie_N ;
 lin steinkohle_N = mkN stein_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;
 lin steinkohlekraftwerk_N = mkN "Steinkohle" kraftwerk_N ;
 lin torfkohle_N = mkN torf_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
@@ -261,6 +270,9 @@ lin viola_d_amore_N = changeCompoundN "Viola-d'Amore" (mkN "Viola d'Amore" "Viol
 lin vielverfaerbender_birkenpilz_CN = S.mkCN (mkA "Vielverfärbend") birkenpilz_N ;
 lin woertliche_rede_CN = S.mkCN woertlich_A rede_N ;
 lin zeichenkohle_N = mkN zeichen_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
+lin zahl_null_N = changeCompoundN "Zahl Null"
+  (mkN "Zahl Null" "Zahl Null" "Zahl Null" "Zahl Null"
+    "Nullen" "Nullen" feminine) ;
 lin zipf_sche_gesetz_N = changeCompoundN "Zipf'sches-Gesetz"
   (mkN "Zipf'sches Gesetz" "Zipf'sches Gesetz" "Zipf'schem Gesetz"
     "Zipf'schen Gesetzes" "Zipf'sche Gesetze" "Zipf'schen Gesetzen" neuter) ;
