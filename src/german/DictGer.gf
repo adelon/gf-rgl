@@ -28,6 +28,9 @@ concrete DictGer of DictGerAbs =
     , abdeckplane_N
     , abdeckplatte_N
     , abduzenslaehmung_N
+    , abenddaemmerung_N
+    , abendnebel_N
+    , abendpunkt_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -153,6 +156,9 @@ lin abdeckfarbe_N = changeCompoundN "Abdeckfarben" (mkN "Abdeck" farbe_N) ;
 lin abdeckplane_N = mkN "Abdeck" plane_N ;
 lin abdeckplatte_N = mkN "Abdeck" platte_N ;
 lin abduzenslaehmung_N = mkN "Abduzens" laehmung_N ;
+lin abenddaemmerung_N = mkN abend_N daemmerung_N ;
+lin abendnebel_N = mkN abend_N nebel_N ;
+lin abendpunkt_N = mkN abend_N punkt_N ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;
