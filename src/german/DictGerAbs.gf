@@ -133,6 +133,7 @@ fun
   palmsonntag_N : N ;
   palmwein_N : N ;
   springergabel_N : N ;
+  springerzug_N : N ;
   par_excellence_Adv : Adv ;
   par_force_Adv : Adv ;
   per_annum_Adv : Adv ;

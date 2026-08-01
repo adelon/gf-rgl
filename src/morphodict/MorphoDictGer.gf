@@ -35666,7 +35666,6 @@ lin springer_N = mkN "Springer" "Springer" masculine ;
 lin springerbauer_N = mkN "Springerbauer" "Springerbauern" masculine ;
 lin springerendspiel_N = mkN "Springerendspiel" "Springerendspiele" neuter ;
 lin springerle_N = mkN "Springerle" "Springerle" neuter ;
-lin springerzug_N = mkN "Springerzug" "die&nbsp;Springerzüge" masculine ;
 lin springpferd_N = mkN "Springpferd" "Springpferde" neuter ;
 lin springtanz_N = mkN "Springtanz" "Springtänze" masculine ;
 lin sprint_N = mkN "Sprint" "Sprints" masculine ;

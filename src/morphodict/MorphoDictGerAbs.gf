@@ -35657,7 +35657,6 @@ fun springer_N : N ;
 fun springerbauer_N : N ;
 fun springerendspiel_N : N ;
 fun springerle_N : N ;
-fun springerzug_N : N ;
 fun springpferd_N : N ;
 fun springtanz_N : N ;
 fun sprint_N : N ;

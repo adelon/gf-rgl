@@ -157,6 +157,7 @@ lin palmengewoelbe_N = mkN "Palmen" gewoelbe_N ;
 lin palmsonntag_N = changeCompoundN "Palmsonntags" (mkN "Palm" sonntag_N) ;
 lin palmwein_N = mkN "Palm" wein_N ;
 lin springergabel_N = mkN "Springer" gabel_N ;
+lin springerzug_N = mkN "Springer" zug_N ;
 lin palme_N = mkN "Palme" "Palmen" ("Palm" | "Palmen") feminine ;
 lin par_excellence_Adv = mkAdv "par excellence" ;
 lin par_force_Adv = mkAdv "par force" ;
