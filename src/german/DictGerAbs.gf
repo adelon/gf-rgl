@@ -179,6 +179,16 @@ fun
   adenovirusinfektion_N : N ;
   adenovirusvektor_N : N ;
   aderleitung_N : N ;
+  adjektivphrase_N : N ;
+  adlerauge_N : N ;
+  adlerfarn_N : N ;
+  adlerhorst_N : N ;
+  adlernase_N : N ;
+  adlerstein_N : N ;
+  adressbuch_N : N ;
+  adventgemeinde_N : N ;
+  adventsonntag_N : N ;
+  adverbialadjektiv_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
