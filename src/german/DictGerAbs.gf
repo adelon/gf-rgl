@@ -26,13 +26,16 @@ fun
   brevi_manu_Adv : Adv ;
   bundesverfassungsgericht_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;
+  cordon_bleu_N : N ;
   dessen_ungeachtet_Adv : Adv ;
   diakritisches_zeichen_CN : CN ;
   direkte_rede_CN : CN ;
   echter_reizker_CN : CN ;
   eierkohle_N : N ;
+  enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
   en_vogue_Adv : Adv ;
+  fait_accompli_N : N ;
   flektierende_sprache_CN : CN ;
   fluorchlorkohlenwasserstoff_N : N ;
   formale_sprache_CN : CN ;
@@ -51,6 +54,7 @@ fun
   indirekte_rede_CN : CN ;
   irish_stew_N : N ;
   isolierende_sprache_CN : CN ;
+  jour_fixe_N : N ;
   kohlebergwerk_N : N ;
   kohleheizung_N : N ;
   kohleherd_N : N ;

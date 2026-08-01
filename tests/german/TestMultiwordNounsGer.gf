@@ -75,6 +75,10 @@ oper
   additionalLoanNounForms : Str = nounValue DictGer.alter_ego_N
     ++ nounValue DictGer.native_speaker_N ++ nounValue DictGer.point_of_sale_N ;
 
+  fixedLoanNounForms : Str = nounValue DictGer.cordon_bleu_N
+    ++ nounValue DictGer.enfant_terrible_N ++ nounValue DictGer.fait_accompli_N
+    ++ nounValue DictGer.jour_fixe_N ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom
