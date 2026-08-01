@@ -135,6 +135,13 @@ fun
   abstimmungsgebiet_N : N ;
   abstraktionsfaehigkeit_N : N ;
   abstrichprobe_N : N ;
+  abwaermekraftwerk_N : N ;
+  abwehrkette_N : N ;
+  abwehrkraft_N : N ;
+  abwehrverletzung_N : N ;
+  abwrackpraemie_N : N ;
+  abziehstahl_N : N ;
+  abzweigdose_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
