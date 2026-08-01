@@ -76,6 +76,9 @@ fun
   abbiegespur_N : N ;
   abblasventil_N : N ;
   abblendschalter_N : N ;
+  abblaseventil_N : N ;
+  abbildungsmassstab_N : N ;
+  abbuchungsauftrag_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;

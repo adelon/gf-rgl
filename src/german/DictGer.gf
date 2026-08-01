@@ -20,6 +20,9 @@ concrete DictGer of DictGerAbs =
     , abbiegespur_N
     , abblasventil_N
     , abblendschalter_N
+    , abblaseventil_N
+    , abbildungsmassstab_N
+    , abbuchungsauftrag_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -137,6 +140,9 @@ lin abbeizmittel_N = mkN "Abbeiz" mittel_N ;
 lin abbiegespur_N = mkN "Abbiege" spur_N ;
 lin abblasventil_N = mkN "Abblas" ventil_N ;
 lin abblendschalter_N = mkN "Abblend" schalter_N ;
+lin abblaseventil_N = mkN "Abblase" ventil_N ;
+lin abbildungsmassstab_N = mkN abbildung_N massstab_N ;
+lin abbuchungsauftrag_N = mkN abbuchung_N auftrag_N ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;
