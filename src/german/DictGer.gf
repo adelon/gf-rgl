@@ -176,6 +176,7 @@ lin noch_mal_Adv = mkAdv "noch mal" ;
 lin otto_normalverbraucher_PN = mkPN "Otto Normalverbraucher" ;
 lin orang_utan_eroeffnung_N = mkHyphenN "Orang-Utan" eroeffnung_N ;
 lin palmengewoelbe_N = mkN "Palmen" gewoelbe_N ;
+lin palmwedel_N = mkN "Palm" wedel_N ;
 lin palmsonntag_N = changeCompoundN "Palmsonntags" (mkN "Palm" sonntag_N) ;
 lin palmwein_N = mkN "Palm" wein_N ;
 lin springergabel_N = mkN "Springer" gabel_N ;

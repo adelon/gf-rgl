@@ -27845,7 +27845,6 @@ lin palliativum_N = mkN "Palliativum" "Palliativa" neuter ;
 lin palme_N = mkN "Palme" "Palmen" "Palm" feminine ;
 lin palmitate_N = mkN "Palmitat" "Palmitate" neuter ;
 lin palmitinsaeure_N = mkN "Palmitinsäure" "Palmitinsäuren" feminine ;
-lin palmwedel_N = mkN "Palmwedel" "Palmwedel" masculine ;
 lin paloma_N = mkN "Paloma" "Palomas" feminine ;
 lin palpebral_A = regA "palpebral" ;
 lin paltrockwindmuehle_N = mkN "Paltrockwindmühle" "Paltrockwindmühlen" feminine ;

@@ -152,6 +152,7 @@ fun
   otto_normalverbraucher_PN : PN ;
   orang_utan_eroeffnung_N : N ;
   palmengewoelbe_N : N ;
+  palmwedel_N : N ;
   palmsonntag_N : N ;
   palmwein_N : N ;
   springergabel_N : N ;

@@ -27839,7 +27839,6 @@ fun palliativum_N : N ;
 fun palme_N : N ;
 fun palmitate_N : N ;
 fun palmitinsaeure_N : N ;
-fun palmwedel_N : N ;
 fun paloma_N : N ;
 fun palpebral_A : A ;
 fun paltrockwindmuehle_N : N ;
