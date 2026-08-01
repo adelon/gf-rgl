@@ -269,6 +269,11 @@ mkN : overload {
 
   invarA : Str -> A ;            -- invariable, e.g. prima
 
+-- Capitalize every form of a completed adjective. This is useful in
+-- lexicalized names whose adjective remains capitalized under inflection.
+
+  capitalizeA : A -> A ;
+
 -- Two-place adjectives are formed by adding a preposition to an adjective.
 
   mkA2 : A -> Prep -> A2 ; -- e.g. teilbar + durch
@@ -934,6 +939,10 @@ mkV2 : overload {
         }
       }
     };
+
+  capitalizeA : A -> A = \a -> lin A {
+    s = \\d,f => toUpperFirst (a.s ! d ! f)
+    } ;
 
 
 

@@ -1,0 +1,3 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -all "Capitalized adjective [posit.pred masc.nom neutr.nom pl.dat compar.pred superl.pred]:" ++ (capitalizeA (mkA "grün" "grüner" "grünste")).s ! Posit ! APred ++ (capitalizeA (mkA "grün" "grüner" "grünste")).s ! Posit ! AMod (GSg Masc) Nom ++ (capitalizeA (mkA "grün" "grüner" "grünste")).s ! Posit ! AMod (GSg Neutr) Nom ++ (capitalizeA (mkA "grün" "grüner" "grünste")).s ! Posit ! AMod GPl Dat ++ (capitalizeA (mkA "grün" "grüner" "grünste")).s ! Compar ! APred ++ (capitalizeA (mkA "grün" "grüner" "grünste")).s ! Superl ! APred
