@@ -41002,7 +41002,6 @@ lin vinorelbine_N = mkN "Vinorelbin" "Vinorelbine" neuter ;
 lin vinylgruppe_N = mkN "Vinylgruppe" "Vinylgruppen" feminine ;
 lin vinylpolymer_N = mkN "Vinylpolymer" "Vinylpolymere" neuter ;
 lin vinylpyrrolidonpolymer_N = mkN "Vinylpyrrolidonpolymer" "Vinylpyrrolidonpolymere" neuter ;
-lin viola_d_amore_N = mkN "Viola d'Amore" "Violen d'Amore" feminine ;
 lin viola_N = mkN "Viola" "Violen" feminine ;
 lin violett_A = regA "violett" ;
 lin violette_lacktrichterling_N = mkN "Violette Lacktrichterling" "Violetten Lacktrichterlinge" masculine ;

@@ -131,6 +131,7 @@ fun
   verbrechen_gegen_die_menschlichkeit_CN : CN ;
   verfassungsgericht_N : N ;
   vice_versa_Adv : Adv ;
+  viola_d_amore_N : N ;
   vielverfaerbender_birkenpilz_CN : CN ;
   woertliche_rede_CN : CN ;
   zeichenkohle_N : N ;

@@ -157,6 +157,7 @@ lin up_to_date_Adv = mkAdv "up to date" ;
 lin verbrechen_gegen_die_menschlichkeit_CN = S.mkCN (mkN2 verbrechen_N (mkPrep "gegen" accusative)) (S.mkNP S.the_Quant S.singularNum menschlichkeit_N) ;
 lin verfassungsgericht_N = mkN verfassung_N gericht_N ;
 lin vice_versa_Adv = mkAdv "vice versa" ;
+lin viola_d_amore_N = changeCompoundN "Viola-d'Amore" (mkN "Viola d'Amore" "Viola d'Amore" "Viola d'Amore" "Viole d'Amore" "Viole d'Amore" "Violen d'Amore" feminine) ;
 lin vielverfaerbender_birkenpilz_CN = S.mkCN (mkA "Vielverfärbend") birkenpilz_N ;
 lin woertliche_rede_CN = S.mkCN woertlich_A rede_N ;
 lin zeichenkohle_N = mkN zeichen_N (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;

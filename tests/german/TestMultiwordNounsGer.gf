@@ -79,6 +79,8 @@ oper
     ++ nounValue DictGer.enfant_terrible_N ++ nounValue DictGer.fait_accompli_N
     ++ nounValue DictGer.jour_fixe_N ;
 
+  musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom
