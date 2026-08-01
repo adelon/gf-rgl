@@ -1,0 +1,3 @@
+i -retain tests/german/TestVerbCorrectionsGer.gf
+
+cc -one TestVerbCorrectionsGer.clean
