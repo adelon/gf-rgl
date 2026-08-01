@@ -91,6 +91,13 @@ fun
   handschuh_N : N ;
   hinweisendes_fuerwort_CN : CN ;
   hoch_kompliziert_AP : AP ;
+  gelbe_kantherelle_CN : CN ;
+  gelbe_kraterelle_CN : CN ;
+  loeffelfoermige_seitling_CN : CN ;
+  roetende_schirmling_CN : CN ;
+  starkriechende_pfifferling_CN : CN ;
+  weiterfuehrende_nebensatz_CN : CN ;
+  ziegelrote_risspilz_CN : CN ;
   holzkohle_N : N ;
   hot_rod_N : N ;
   in_ermangelung_Adv : Adv ;

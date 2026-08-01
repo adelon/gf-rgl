@@ -217,6 +217,22 @@ oper
   speciesForms : Str = greenFungus.s ! Strong ! Sg ! Nom
     ++ greenFungusDat.s ! False ! Dat ++ greenFungusPl.s ! False ! Nom ;
 
+  additionalSpeciesCitations : Str =
+    DictGer.gelbe_kantherelle_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.gelbe_kraterelle_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.loeffelfoermige_seitling_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.roetende_schirmling_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.starkriechende_pfifferling_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.ziegelrote_risspilz_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.weiterfuehrende_nebensatz_CN.s ! Strong ! Sg ! Nom ;
+  additionalSpeciesAgreement : Str =
+    (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.loeffelfoermige_seitling_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.roetende_schirmling_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.weiterfuehrende_nebensatz_CN).s ! False ! Dat ;
+
   childOfGod = DictGer.kind_gottes_CN ;
   childOfGodSg = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     childOfGod ;

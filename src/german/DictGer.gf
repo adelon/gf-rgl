@@ -11,6 +11,13 @@ concrete DictGer of DictGerAbs =
     , kohle_N
     , muehle_N
     , palme_N
+    , gelbe_kantherelle__N
+    , gelbe_kraterelle__N
+    , loeffelfoermige_seitling__N
+    , roetende_schirmling_N
+    , starkriechende_pfifferling__N
+    , weiterfuehrende_nebensatz_N
+    , ziegelrote_risspilz__N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -110,6 +117,13 @@ lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
 lin handschuh_N = mkN "Hand" schuh_N ;
 lin hinweisendes_fuerwort_CN = S.mkCN hinweisend_A fuerwort_N ;
 lin hoch_kompliziert_AP = S.mkAP (mkAdA "hoch") kompliziert_A ;
+lin gelbe_kantherelle_CN = S.mkCN (capitalizeA gelb_A) (mkN "Kantherelle" "Kantherellen" feminine) ;
+lin gelbe_kraterelle_CN = S.mkCN (capitalizeA gelb_A) (mkN "Kraterelle" "Kraterellen" feminine) ;
+lin loeffelfoermige_seitling_CN = S.mkCN (capitalizeA (mkA "löffelförmig")) (mkN "Seitling" "Seitlinge" masculine) ;
+lin roetende_schirmling_CN = S.mkCN (capitalizeA (mkA "rötend")) (mkN "Schirmling" "Schirmlinge" masculine) ;
+lin starkriechende_pfifferling_CN = S.mkCN (capitalizeA (mkA "starkriechend")) (mkN "Pfifferling" "Pfifferlinge" masculine) ;
+lin weiterfuehrende_nebensatz_CN = S.mkCN (mkA "weiterführend") nebensatz_N ;
+lin ziegelrote_risspilz_CN = S.mkCN (capitalizeA (mkA "ziegelrot")) (mkN "Risspilz" "Risspilze" masculine) ;
 -- Prefer Holzkohlegrill; the now less common Holzkohlengrill is intentionally omitted.
 lin holzkohle_N = mkN holz_N (mkN "Kohle" "Kohlen" "Kohle" feminine) ;
 lin hot_rod_N = changeCompoundN "Hot-Rod" (mkN "Hot Rod" "Hot Rod" "Hot Rod" "Hot Rods" "Hot Rods" "Hot Rods" neuter) ;

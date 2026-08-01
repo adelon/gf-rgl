@@ -24,6 +24,7 @@ cc -all "Invariant Latin Noun forms:" ++ TestMultiwordNounsGer.invariantLatinNou
 cc -all "Language-type CNs:" ++ TestMultiwordNounsGer.languageTypeCitations ++ TestMultiwordNounsGer.languageTypeAgreement
 cc -all "Reported-speech CNs:" ++ TestMultiwordNounsGer.reportedSpeechCitations ++ TestMultiwordNounsGer.reportedSpeechAgreement
 cc -all "Species CN:" ++ TestMultiwordNounsGer.speciesForms
+cc -all "Additional species CNs:" ++ TestMultiwordNounsGer.additionalSpeciesCitations ++ TestMultiwordNounsGer.additionalSpeciesAgreement
 cc -all "Kind Gottes:" ++ TestMultiwordNounsGer.childOfGodForms
 cc -all "Proper names:" ++ TestMultiwordNounsGer.properNameForms
 cc -all "Knollenblätterpilz family:" ++ TestMultiwordNounsGer.fungusFamily
