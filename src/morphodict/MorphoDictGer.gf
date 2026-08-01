@@ -15073,7 +15073,6 @@ lin gewanndorf_N = mkN "Gewanndorf" "Gewanndörfer" neuter ;
 lin gewannflur_N = mkN "Gewannflur" "Gewannfluren" feminine ;
 lin gewaschen_A = regA "gewaschen" ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" "Gewebe" neuter ;
-lin gewebeabstossungsreaktion_N = mkN "Gewebeabstoßungsreaktion" "Gewebeabstoßungsreaktionen" feminine ;
 lin gewebeplasminogenaktivator_N = mkN "Gewebeplasminogenaktivator" "Gewebeplasminogenaktivatoren" masculine ;
 lin gewebespezifisch_A = regA "gewebespezifisch" ;
 lin gewebetropismusbestimmend_A = regA "gewebetropismusbestimmend" ;

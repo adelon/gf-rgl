@@ -59,6 +59,7 @@ fun
   fusionierende_sprache_CN : CN ;
   genus_verbi_N : N ;
   gewebeabschnitt_N : N ;
+  gewebeabstossungsreaktion_N : N ;
   gewebeadhaesion_N : N ;
   gewebeoberflaeche_N : N ;
   gewebefluessigkeit_N : N ;
