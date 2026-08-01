@@ -137,7 +137,9 @@ oper
     ++ DictGer.laeufergabel_N.s ! Sg ! Nom ++ DictGer.laeufergabel_N.s ! Pl ! Nom ++ DictGer.laeufergabel_N.co
     ++ DictGer.orang_utan_eroeffnung_N.s ! Sg ! Nom ++ DictGer.orang_utan_eroeffnung_N.s ! Pl ! Nom ++ DictGer.orang_utan_eroeffnung_N.co
     ++ DictGer.springergabel_N.s ! Sg ! Nom ++ DictGer.springergabel_N.s ! Pl ! Nom ++ DictGer.springergabel_N.co
-    ++ DictGer.vorstossvariante_N.s ! Sg ! Nom ++ DictGer.vorstossvariante_N.s ! Pl ! Nom ++ DictGer.vorstossvariante_N.co ;
+    ++ DictGer.vorstossvariante_N.s ! Sg ! Nom ++ DictGer.vorstossvariante_N.s ! Pl ! Nom ++ DictGer.vorstossvariante_N.co
+    ++ DictGer.familienschach_N.s ! Sg ! Nom ++ DictGer.familienschach_N.s ! Pl ! Nom ++ DictGer.familienschach_N.co
+    ++ DictGer.vorgabepartie_N.s ! Sg ! Nom ++ DictGer.vorgabepartie_N.s ! Pl ! Nom ++ DictGer.vorgabepartie_N.co ;
 
   lexicalizedModifierForms : Str =
     DictGer.muehlstein_N.s ! Sg ! Nom

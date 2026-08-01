@@ -143,6 +143,8 @@ fun
   kohletablette_N : N ;
   kind_gottes_CN : CN ;
   leipziger_allerlei_CN : CN ;
+  familienschach_N : N ;
+  vorgabepartie_N : N ;
   kinderspielzeug_N : N ;
   laeufergabel_N : N ;
   laeuferzug_N : N ;
