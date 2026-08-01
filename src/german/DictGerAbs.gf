@@ -84,6 +84,9 @@ fun
   abdeckplane_N : N ;
   abdeckplatte_N : N ;
   abduzenslaehmung_N : N ;
+  abhaengigkeitsgrammatik_N : N ;
+  abkehrschein_N : N ;
+  abklingbecken_N : N ;
   abkuerzungsfimmel_N : N ;
   abkuerzungssprache_N : N ;
   abkuerzungsverzeichnis_N : N ;
@@ -91,6 +94,7 @@ fun
   abenddaemmerung_N : N ;
   abendnebel_N : N ;
   abendpunkt_N : N ;
+  abessinierbrunnen_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
