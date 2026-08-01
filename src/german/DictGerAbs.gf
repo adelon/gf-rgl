@@ -189,6 +189,16 @@ fun
   adventgemeinde_N : N ;
   adventsonntag_N : N ;
   adverbialadjektiv_N : N ;
+  adverbialbestimmung_N : N ;
+  adverbialklammer_N : N ;
+  adverbialsatz_N : N ;
+  adverbklammer_N : N ;
+  adverbphrase_N : N ;
+  aehrenfeld_N : N ;
+  aehrenlilie_N : N ;
+  abendessen_N : N ;
+  abendhimmel_N : N ;
+  absolutadjektiv_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
