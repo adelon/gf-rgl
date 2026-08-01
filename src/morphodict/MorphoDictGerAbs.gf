@@ -37955,7 +37955,6 @@ fun tosylgruppe_N : N ;
 fun tot_A : A ;
 fun total_A : A ;
 fun totalitaer_A : A ;
-fun tote_code__N : N ;
 fun tote_sprache_N : N ;
 fun totem_N : N ;
 fun totenacker_N : N ;

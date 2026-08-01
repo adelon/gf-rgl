@@ -37964,7 +37964,6 @@ lin tosylgruppe_N = mkN "Tosylgruppe" "Tosylgruppen" feminine ;
 lin tot_A = regA "tot" ;
 lin total_A = regA "total" ;
 lin totalitaer_A = mk3A "totalitär" "totalitärer" "totalitärste" ;
-lin tote_code__N = mkN "tote Code " "toten Codes" masculine ;
 lin tote_sprache_N = mkN "tote Sprache" "toten Sprachen" feminine ;
 lin totem_N = mkN "Totem" "Totems" neuter ;
 lin totenacker_N = mkN "Totenacker" "Totenäcker" masculine ;
