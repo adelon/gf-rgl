@@ -149,6 +149,16 @@ fun
   achterbahn_N : N ;
   achtmonatskind_N : N ;
   achtungserfolg_N : N ;
+  achillesferse_N : N ;
+  achillessehne_N : N ;
+  acetatpuffer_N : N ;
+  acetatsaeure_N : N ;
+  acetessigsaeure_N : N ;
+  acetonitrilgradient_N : N ;
+  acetonitrilkonzentration_N : N ;
+  acetoxygruppe_N : N ;
+  acetylcholinrezeptor_N : N ;
+  acetylgruppe_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
