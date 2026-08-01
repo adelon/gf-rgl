@@ -102,6 +102,12 @@ fun
   ablenkungsmanoever_N : N ;
   abrasionsplatte_N : N ;
   abrissbirne_N : N ;
+  abnuetzungserscheinung_N : N ;
+  abnutzungserscheinung_N : N ;
+  abschiedsausgabe_N : N ;
+  abschiedsfeier_N : N ;
+  abschiedsgrussformel_N : N ;
+  abschiedskuss_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
