@@ -287,7 +287,6 @@ lin abfliegen_V = prefixV "ab" (irregV "fliegen" "fliegt" "flog" "flöge" "geflo
 lin abfliessen_V = prefixV "ab" (irregV "fließen" "fließt" "floss" "floss" "geflossen") ;
 lin abflug_N = mkN "Abflug" "Abflüge" masculine ;
 lin abfluss_N = mkN "Abfluss" "Abflüsse" masculine ;
-lin abflusslos_A = regA "abflusslos" ;
 lin abfolge_N = mkN "Abfolge" "Abfolgen" feminine ;
 lin abformen_V = prefixV "ab" (regV "formen") ;
 lin abfotografieren_V = prefixV "ab" (regV "fotografieren") ;

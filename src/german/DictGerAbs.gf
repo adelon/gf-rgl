@@ -71,6 +71,7 @@ fun
   abbruchstelle_N : N ;
   abbildungsfehler_N : N ;
   abflussrohr_N : N ;
+  abflusslos_A : A ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;

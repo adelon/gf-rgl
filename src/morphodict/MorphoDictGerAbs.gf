@@ -281,7 +281,6 @@ fun abfliegen_V : V ;
 fun abfliessen_V : V ;
 fun abflug_N : N ;
 fun abfluss_N : N ;
-fun abflusslos_A : A ;
 fun abfolge_N : N ;
 fun abformen_V : V ;
 fun abfotografieren_V : V ;

@@ -15,6 +15,7 @@ concrete DictGer of DictGerAbs =
     , abfuehrmittel_N
     , abformmasse_N
     , abfragesprache_N
+    , abflusslos_A
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -127,6 +128,7 @@ lin abgasanalysator_N = mkN abgas_N analysator_N ;
 lin abfuehrmittel_N = mkN "Abführ" mittel_N ;
 lin abformmasse_N = mkN "Abform" masse_N ;
 lin abfragesprache_N = changeCompoundN "Abfragesprachen" (mkN abfrage_N sprache_N) ;
+lin abflusslos_A = mkA abfluss_N (mkA "los") ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;
