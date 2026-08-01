@@ -9,6 +9,7 @@ fun
   abfangrezeptor_N : N ;
   abgangsgruppe_N : N ;
   abgassystem_N : N ;
+  abfragesprache_N : N ;
   abendmahlsfeier_N : N ;
   abendmahlsgemeinschaft_N : N ;
   abendmahlsstreit_N : N ;

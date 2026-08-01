@@ -294,7 +294,6 @@ lin abformmasse_N = mkN "Abformmasse" "Abformmassen" feminine ;
 lin abfotografieren_V = prefixV "ab" (regV "fotografieren") ;
 lin abfrage_N = mkN "Abfrage" "Abfragen" "Abfrage" feminine ;
 lin abfragen_V = prefixV "ab" (regV "fragen") ;
-lin abfragesprache_N = mkN "Abfragesprache" "Abfragesprachen" feminine ;
 lin abfruehstuecken_V = prefixV "ab" (regV "frühstücken") ;
 lin abfuehren_V = prefixV "ab" (regV "führen") ;
 lin abfuehrend_A = regA "abführend" ;

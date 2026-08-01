@@ -288,7 +288,6 @@ fun abformmasse_N : N ;
 fun abfotografieren_V : V ;
 fun abfrage_N : N ;
 fun abfragen_V : V ;
-fun abfragesprache_N : N ;
 fun abfruehstuecken_V : V ;
 fun abfuehren_V : V ;
 fun abfuehrend_A : A ;

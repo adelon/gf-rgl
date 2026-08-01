@@ -9,6 +9,7 @@ concrete DictGer of DictGerAbs =
     , abfangrezeptor_N
     , abgangsgruppe_N
     , abgassystem_N
+    , abfragesprache_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -115,6 +116,7 @@ lin abfangmittel_N = mkN "Abfang" mittel_N ;
 lin abfangrezeptor_N = mkN "Abfang" rezeptor_N ;
 lin abgangsgruppe_N = mkN "Abgangs" gruppe_N ;
 lin abgassystem_N = mkN abgas_N system_N ;
+lin abfragesprache_N = changeCompoundN "Abfragesprachen" (mkN abfrage_N sprache_N) ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;
