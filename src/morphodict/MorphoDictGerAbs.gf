@@ -15067,7 +15067,6 @@ fun gewanndorf_N : N ;
 fun gewannflur_N : N ;
 fun gewaschen_A : A ;
 fun gewebe_N : N ;
-fun gewebeabschnitt_N : N ;
 fun gewebeabstossungsreaktion_N : N ;
 fun gewebeplasminogenaktivator_N : N ;
 fun gewebespezifisch_A : A ;

@@ -75,6 +75,7 @@ lin fruehlingsknollenblaetterpilz_N = mkN "Frühlings" knollenblaetterpilz_N ;
 lin fruehstueck_N = changeCompoundN "Frühstücks" (mkN "Früh" stueck_N) ;
 lin fusionierende_sprache_CN = S.mkCN fusionierend_A sprache_N ;
 lin genus_verbi_N = changeCompoundN "Genus-Verbi" (invarN "Genus Verbi" "Genera Verbi" neuter) ;
+lin gewebeabschnitt_N = mkN "Gewebe" abschnitt_N ;
 lin gewebeadhaesion_N = changeCompoundN "Gewebeadhäsions" (mkN "Gewebe" adhaesion_N) ;
 lin gewebeoberflaeche_N = changeCompoundN "Gewebeoberflächen" (mkN "Gewebe" oberflaeche_N) ;
 lin gewebefluessigkeit_N = changeCompoundN "Gewebeflüssigkeits" (mkN "Gewebe" fluessigkeit_N) ;
