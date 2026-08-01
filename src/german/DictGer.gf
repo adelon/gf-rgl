@@ -24,6 +24,25 @@ concrete DictGer of DictGerAbs =
     , capsulitis_adhaesiva_N
     , a_bombe_N
     , a_schwa_N
+    , aalbeere_N
+    , aalfang_N
+    , aalfischer_N
+    , aalfischerei_N
+    , aalhaut_N
+    , aalkasten_N
+    , aalkorb_N
+    , aalleiter_N
+    , aalmoewe_N
+    , aalmolch_N
+    , aalmutter_N
+    , aalraupe_N
+    , aalreuse_N
+    , aalrute_N
+    , aalschnur_N
+    , aalspeer_N
+    , aalsuppe_N
+    , aaltierchen_N
+    , aalwehr_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -45,6 +64,25 @@ lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
 lin a_bombe_N = mkHyphenN a_N bombe_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
+lin aalbeere_N = mkN aal_N beere_N ;
+lin aalfang_N = mkN aal_N fang_N ;
+lin aalfischer_N = mkN aal_N fischer_N ;
+lin aalfischerei_N = mkN aal_N fischerei_N ;
+lin aalhaut_N = mkN aal_N haut_N ;
+lin aalkasten_N = mkN aal_N kasten_N ;
+lin aalkorb_N = mkN aal_N korb_N ;
+lin aalleiter_N = mkN aal_N leiter_N ;
+lin aalmoewe_N = mkN aal_N moewe_N ;
+lin aalmolch_N = mkN aal_N molch_N ;
+lin aalmutter_N = mkN aal_N mutter_N ;
+lin aalraupe_N = mkN aal_N raupe_N ;
+lin aalreuse_N = mkN aal_N reuse_N ;
+lin aalrute_N = mkN aal_N rute_N ;
+lin aalschnur_N = mkN aal_N schnur_N ;
+lin aalspeer_N = mkN aal_N speer_N ;
+lin aalsuppe_N = mkN aal_N suppe_N ;
+lin aaltierchen_N = mkN aal_N tierchen_N ;
+lin aalwehr_N = mkN aal_N wehr_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;
