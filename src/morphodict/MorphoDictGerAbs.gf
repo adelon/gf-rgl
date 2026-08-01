@@ -1,8 +1,6 @@
 abstract MorphoDictGerAbs = Cat ** {
 
-fun a_bombe_N : N ;
 fun a_N : N ;
-fun a_schwa_N : N ;
 fun aachener_N : N ;
 fun aachenerin_N : N ;
 fun aacher_Adv : Adv ;
@@ -32617,6 +32615,7 @@ fun schachlehrer_N : N ;
 fun schachmatt_A : A ;
 fun schachmatt_N : N ;
 fun schach_N : N ;
+fun schwa_N : N ;
 fun schacholympiade_N : N ;
 fun schachspiel_N : N ;
 fun schachspieler_N : N ;

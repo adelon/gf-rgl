@@ -22,6 +22,8 @@ concrete DictGer of DictGerAbs =
     , qualitaetswein_bestimmter_anbaugebiete_N
     , zahl_null_N
     , capsulitis_adhaesiva_N
+    , a_bombe_N
+    , a_schwa_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -41,6 +43,8 @@ lin larsen_system_N = changeCompoundN "Larsen-System-"
   (mkHyphenN "Larsen" system_N) ;
 lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
+lin a_bombe_N = mkHyphenN a_N bombe_N ;
+lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;

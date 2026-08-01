@@ -193,6 +193,8 @@ fun
   qualitaetswein_mit_praedikat_N : N ;
   qualitaetswein_bestimmter_anbaugebiete_N : N ;
   capsulitis_adhaesiva_N : N ;
+  a_bombe_N : N ;
+  a_schwa_N : N ;
   larsen_system_N : N ;
   radiokohlenstoffdatierung_N : N ;
   rotwein_N : N ;

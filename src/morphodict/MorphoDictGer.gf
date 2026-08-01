@@ -6,9 +6,7 @@ concrete MorphoDictGer of MorphoDictGerAbs = CatGer **
 flags coding=utf8 ;
 
 
-lin a_bombe_N = mkN "A-Bombe" "A-Bomben" feminine ;
 lin a_N = mkN "A" "As" neuter ;
-lin a_schwa_N = mkN "a-Schwa" "a-Schwas" neuter ;
 lin aachener_N = mkN "Aachener" "Aachener" masculine ;
 lin aachenerin_N = mkN "Aachenerin" "Aachenerinnen" feminine ;
 lin aacher_Adv = mkAdv "aacher" ;
@@ -32626,6 +32624,7 @@ lin schachlehrer_N = mkN "Schachlehrer" "Schachlehrer" masculine ;
 lin schachmatt_A = regA "schachmatt" ;
 lin schachmatt_N = mkN "Schachmatt" "Schachmatts" neuter ;
 lin schach_N = mkN "Schach" "Schachs" neuter ;
+lin schwa_N = mkN "Schwa" "Schwas" neuter ;
 lin schacholympiade_N = mkN "Schacholympiade" "Schacholympiaden" feminine ;
 lin schachspiel_N = mkN "Schachspiel" "Schachspiele" neuter ;
 lin schachspieler_N = mkN "Schachspieler" "Schachspieler" masculine ;
