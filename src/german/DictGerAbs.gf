@@ -123,6 +123,7 @@ fun
   qualitaetswein_mit_praedikat_N : N ;
   radiokohlenstoffdatierung_N : N ;
   sans_phrase_Adv : Adv ;
+  sauce_hollandaise_N : N ;
   so_lala_Adv : Adv ;
   st_vincent_und_die_grenadinen_PN : PN ;
   stammzelle_N : N ;

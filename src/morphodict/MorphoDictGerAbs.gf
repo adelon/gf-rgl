@@ -32616,7 +32616,6 @@ fun satzzeichen_N : N ;
 fun sauber_A : A ;
 fun sauberkeit_N : N ;
 fun saubillig_A : A ;
-fun sauce_hollandaise_N : N ;
 fun sauce_N : N ;
 fun sauciere_N : N ;
 fun saudackel_N : N ;

@@ -32625,7 +32625,6 @@ lin satzzeichen_N = mkN "Satzzeichen" "Satzzeichen" neuter ;
 lin sauber_A = mk3A "sauber" "sauberer" "sauberste" ;
 lin sauberkeit_N = mkN "Sauberkeit" "Sauberkeiten" feminine ;
 lin saubillig_A = regA "saubillig" ;
-lin sauce_hollandaise_N = mkN "Sauce hollandaise" feminine;
 lin sauce_N = mkN "Sauce" "Saucen" feminine ;
 lin sauciere_N = mkN "Sauciere" "Saucieren" feminine ;
 lin saudackel_N = mkN "Saudackel" "Saudackel" masculine ;

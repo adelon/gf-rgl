@@ -91,6 +91,8 @@ oper
   zipfLawForms : Str = nounValue DictGer.zipf_sche_gesetz_N
     ++ nounValue DictGer.zipfsche_gesetz_N ;
 
+  sauceHollandaiseForms : Str = nounValue DictGer.sauce_hollandaise_N ;
+
   musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
 
   musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;

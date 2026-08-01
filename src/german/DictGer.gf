@@ -146,6 +146,8 @@ lin public_viewing_N = changeCompoundN "Public-Viewing" (mkN "Public Viewing" "P
 lin qualitaetswein_mit_praedikat_N = mkN "Qualitätswein mit Prädikat" "Qualitätswein mit Prädikat" "Qualitätswein mit Prädikat" (variants {"Qualitätsweins mit Prädikat" ; "Qualitätsweines mit Prädikat"}) "Qualitätsweine mit Prädikat" "Qualitätsweinen mit Prädikat" masculine ;
 lin radiokohlenstoffdatierung_N = mkN (mkN "Radio" (mkN "Kohlen" stoff_N)) datierung_N ;
 lin sans_phrase_Adv = mkAdv "sans phrase" ;
+lin sauce_hollandaise_N = changeCompoundN "Sauce-Hollandaise"
+  (invarN "Sauce hollandaise" feminine) ;
 lin so_lala_Adv = mkAdv "so lala" ;
 lin st_vincent_und_die_grenadinen_PN = mkPN
   "St. Vincent und die Grenadinen"
