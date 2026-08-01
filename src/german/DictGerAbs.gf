@@ -108,6 +108,13 @@ fun
   abschiedsfeier_N : N ;
   abschiedsgrussformel_N : N ;
   abschiedskuss_N : N ;
+  abschlagsmarkierung_N : N ;
+  abschleppdienst_N : N ;
+  abschleppseil_N : N ;
+  abschleppstange_N : N ;
+  absatzproblem_N : N ;
+  absatzzeichen_N : N ;
+  absauganlage_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
