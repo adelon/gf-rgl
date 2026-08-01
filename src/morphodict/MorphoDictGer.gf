@@ -297,7 +297,6 @@ lin abfragen_V = prefixV "ab" (regV "fragen") ;
 lin abfruehstuecken_V = prefixV "ab" (regV "frühstücken") ;
 lin abfuehren_V = prefixV "ab" (regV "führen") ;
 lin abfuehrend_A = regA "abführend" ;
-lin abfuehrmittel_N = mkN "Abführmittel" "Abführmittel" neuter ;
 lin abfuhr_N = mkN "Abfuhr" "Abfuhren" feminine ;
 lin abgabe_N = mkN "Abgabe" "Abgaben" "Abgabe" feminine ;
 lin abgabenfrei_A = regA "abgabenfrei" ;

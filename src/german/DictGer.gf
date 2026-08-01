@@ -12,6 +12,7 @@ concrete DictGer of DictGerAbs =
     , abgeltungssteuer_N
     , abgeltungsteuer_N
     , abgasanalysator_N
+    , abfuehrmittel_N
     , abfragesprache_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
@@ -122,6 +123,7 @@ lin abgassystem_N = mkN abgas_N system_N ;
 lin abgeltungssteuer_N = mkN "Abgeltungs" steuer_steuer_N ;
 lin abgeltungsteuer_N = mkN abgeltung_N steuer_steuer_N ;
 lin abgasanalysator_N = mkN abgas_N analysator_N ;
+lin abfuehrmittel_N = mkN "Abführ" mittel_N ;
 lin abfragesprache_N = changeCompoundN "Abfragesprachen" (mkN abfrage_N sprache_N) ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;

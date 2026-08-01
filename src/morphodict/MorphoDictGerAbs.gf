@@ -291,7 +291,6 @@ fun abfragen_V : V ;
 fun abfruehstuecken_V : V ;
 fun abfuehren_V : V ;
 fun abfuehrend_A : A ;
-fun abfuehrmittel_N : N ;
 fun abfuhr_N : N ;
 fun abgabe_N : N ;
 fun abgabenfrei_A : A ;
