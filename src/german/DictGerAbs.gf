@@ -224,6 +224,12 @@ fun
   capsulitis_adhaesiva_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
+  abc_buch_9_N : N ;
+  abc_buch_N : N ;
+  abc_code_N : N ;
+  abc_schuetze_N : N ;
+  abc_schuetzin_N : N ;
+  abc_tafel_N : N ;
   larsen_system_N : N ;
   radiokohlenstoffdatierung_N : N ;
   rotwein_N : N ;

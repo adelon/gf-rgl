@@ -24,6 +24,12 @@ concrete DictGer of DictGerAbs =
     , capsulitis_adhaesiva_N
     , a_bombe_N
     , a_schwa_N
+    , abc_buch_9_N
+    , abc_buch_N
+    , abc_code_N
+    , abc_schuetze_N
+    , abc_schuetzin_N
+    , abc_tafel_N
     , aalbeere_N
     , aalfang_N
     , aalfischer_N
@@ -74,6 +80,12 @@ lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
 lin a_bombe_N = mkHyphenN a_N bombe_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
+lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
+lin abc_buch_N = mkHyphenN "ABC" buch_N ;
+lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
+lin abc_schuetze_N = mkHyphenN "Abc" schuetze_N ;
+lin abc_schuetzin_N = mkHyphenN "Abc" schuetzin_N ;
+lin abc_tafel_N = mkHyphenN "ABC" tafel_N ;
 lin aalbeere_N = mkN aal_N beere_N ;
 lin aalfang_N = mkN aal_N fang_N ;
 lin aalfischer_N = mkN aal_N fischer_N ;
