@@ -3,6 +3,10 @@
 concrete DictGer of DictGerAbs =
   MorphoDictGer -
     [ atlas_N
+    , abfangbahn_N
+    , abfangjaeger_N
+    , abfangmittel_N
+    , abfangrezeptor_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -103,6 +107,10 @@ concrete DictGer of DictGerAbs =
 flags coding=utf8 ;
 
 lin abc_waffen_N = mkHyphenN "ABC" (mkN "Waffe" "Waffen" feminine) ;
+lin abfangbahn_N = mkN "Abfang" bahn_N ;
+lin abfangjaeger_N = mkN "Abfang" jaeger_N ;
+lin abfangmittel_N = mkN "Abfang" mittel_N ;
+lin abfangrezeptor_N = mkN "Abfang" rezeptor_N ;
 lin abendmahlsfeier_N = mkN "Abendmahls" feier_N ;
 lin abendmahlsgemeinschaft_N = mkN "Abendmahls" gemeinschaft_N ;
 lin abendmahlsstreit_N = mkN "Abendmahls" streit_N ;

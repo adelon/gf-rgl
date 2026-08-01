@@ -3,6 +3,10 @@
 abstract DictGerAbs = MorphoDictGerAbs ** {
 
 fun
+  abfangbahn_N : N ;
+  abfangjaeger_N : N ;
+  abfangmittel_N : N ;
+  abfangrezeptor_N : N ;
   abendmahlsfeier_N : N ;
   abendmahlsgemeinschaft_N : N ;
   abendmahlsstreit_N : N ;
