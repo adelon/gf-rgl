@@ -23295,7 +23295,6 @@ lin liechtensteiner_N = mkN "Liechtensteiner" "Liechtensteiner" masculine ;
 lin liechtensteinerin_N = mkN "Liechtensteinerin" "Liechtensteinerinnen" feminine ;
 lin liechtensteinisch_A = mk3A "liechtensteinisch" "liechtensteinischer" "liechtensteinischste" ;
 lin lied_N = mkN "Lied" "Lieder" neuter ;
-lin lied_ohne_worte_N = mkN "Lied ohne Worte" "Lieohne Worte" neuter ;
 lin liederbuch_N = mkN "Liederbuch" "Liederbücher" neuter ;
 lin liederlich_A = mk3A "liederlich" "liederlicher" "liederlichste" ;
 lin liedermacher_N = mkN "Liedermacher" "Liedermacher" masculine ;

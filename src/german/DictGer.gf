@@ -116,6 +116,7 @@ lin kohlweissling_N = mkN kohl_N weissling_N ;
 lin last_minute_Adv = mkAdv "last minute" ;
 lin lebende_sprache_CN = S.mkCN lebend_A sprache_N ;
 lin liebesbrief_N = mkN liebe_N brief_N ;
+lin lied_ohne_worte_N = changeCompoundN "Lied-ohne-Worte" (mkN "Lied ohne Worte" "Lied ohne Worte" "Lied ohne Worte" "Liedes ohne Worte" "Lieder ohne Worte" "Liedern ohne Worte" neuter) ;
 lin millionen_mal_Adv = mkAdv "Millionen Mal" ;
 lin muehle_N = mkN "Mühle" "Mühlen" ("Mühl" | "Mühlen") feminine ;
 lin mutterseelenallein_A = mkA (mkN mutter_N seele_N) allein_A ;

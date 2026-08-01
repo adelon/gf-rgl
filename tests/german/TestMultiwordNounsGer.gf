@@ -81,6 +81,8 @@ oper
 
   musicalLoanNounForms : Str = nounValue DictGer.viola_d_amore_N ;
 
+  musicalPhraseNounForms : Str = nounValue DictGer.lied_ohne_worte_N ;
+
   languageTypeCitations : Str =
     DictGer.agglutinierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom

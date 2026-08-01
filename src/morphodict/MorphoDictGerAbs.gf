@@ -23289,7 +23289,6 @@ fun liechtensteiner_N : N ;
 fun liechtensteinerin_N : N ;
 fun liechtensteinisch_A : A ;
 fun lied_N : N ;
-fun lied_ohne_worte_N : N ;
 fun liederbuch_N : N ;
 fun liederlich_A : A ;
 fun liedermacher_N : N ;
