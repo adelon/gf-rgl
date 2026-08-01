@@ -106,6 +106,7 @@ fun
   kohletablette_N : N ;
   kind_gottes_CN : CN ;
   laeufergabel_N : N ;
+  laeuferzug_N : N ;
   knollenblaetterpilz_N : N ;
   kohlmeise_N : N ;
   kohlpechrabenschwarz_A : A ;

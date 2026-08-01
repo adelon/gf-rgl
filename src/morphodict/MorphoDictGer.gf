@@ -22460,7 +22460,6 @@ lin laeufer_N = mkN "Läufer" "Läufer" masculine ;
 lin laeuferbauer_N = mkN "Läuferbauer" "Läuferbauern" masculine ;
 lin laeuferendspiel_N = mkN "Läuferendspiel" "Läuferendspiele" neuter ;
 lin laeuferpaar_N = mkN "Läuferpaar" "Läuferpaare" neuter ;
-lin laeuferzug_N = mkN "Läuferzug" "die&nbsp;Läuferzüge" masculine ;
 lin laeufig_A = mk3A "läufig" "läufig" "läufigste" ;
 lin laeuten_V = irregV "läuten" "läutet" "läutete" "läutete" "geläutet" ;
 lin laeutern_V = irregV "läutern" "läutert" "läuterte" "läutere" "geläutert" ;

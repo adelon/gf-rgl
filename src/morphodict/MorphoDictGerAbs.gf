@@ -22454,7 +22454,6 @@ fun laeufer_N : N ;
 fun laeuferbauer_N : N ;
 fun laeuferendspiel_N : N ;
 fun laeuferpaar_N : N ;
-fun laeuferzug_N : N ;
 fun laeufig_A : A ;
 fun laeuten_V : V ;
 fun laeutern_V : V ;
