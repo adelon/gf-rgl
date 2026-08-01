@@ -28,6 +28,7 @@ lin arbeitslosenrate_N = mkN "Arbeitslosen" rate_N ;
 lin atlas_N = mkN "Atlas" "Atlas" "Atlas" (variants {"Atlas" ; "Atlasses"}) "Atlas" "Atlas" masculine ;
 lin ausser_betrieb_Adv = mkAdv "außer Betrieb" ;
 lin ausser_stande_Adv = mkAdv "außer Stande" ;
+lin bad_bank_N = mkN "Bad Bank" "Bad Banks" "Bad-Bank" feminine ;
 lin bilge_N = mkN "Bilge" "Bilgen" ("Bilge" | "Bilgen") feminine ;
 lin braunkohle_N = mkN braun_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;
 lin braunkohlekraftwerk_N = mkN "Braunkohle" kraftwerk_N ;
@@ -35,12 +36,17 @@ lin brevi_manu_Adv = mkAdv "brevi manu" ;
 lin bundesverfassungsgericht_N = mkN bund_bundes_N verfassungsgericht_N ;
 lin chlorfluorkohlenwasserstoff_N = mkN "Chlorfluor" (mkN "Kohlen" wasserstoff_N) ;
 lin dessen_ungeachtet_Adv = mkAdv "dessen ungeachtet" ;
+lin diakritisches_zeichen_CN = S.mkCN diakritisch_A zeichen_N ;
 -- Eier-, Torf-, and Zeichenkohle use -kohlen- recursively.
 lin eierkohle_N = mkN "Eier" (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 lin en_passant_Adv = mkAdv "en passant" ;
 lin en_vogue_Adv = mkAdv "en vogue" ;
 lin fluorchlorkohlenwasserstoff_N = mkN "Fluorchlor" (mkN "Kohlen" wasserstoff_N) ;
+lin formale_sprache_CN = S.mkCN formal_A sprache_N ;
+lin fruehlingsknollenblaetterpilz_N = mkN "Frühlings" knollenblaetterpilz_N ;
+lin genus_verbi_N = changeCompoundN "Genus-Verbi" (invarN "Genus Verbi" "Genera Verbi" neuter) ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
+lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
 lin hoch_kompliziert_AP = S.mkAP (mkAdA "hoch") kompliziert_A ;
 -- Prefer Holzkohlegrill; the now less common Holzkohlengrill is intentionally omitted.
@@ -81,6 +87,8 @@ lin kohlenwasserstoffgruppe_N = mkN (mkN "Kohlen" wasserstoff_N) gruppe_N ;
 lin kohlenwasserstoffkette_N = mkN (mkN "Kohlen" wasserstoff_N) kette_N ;
 lin kohlenwasserstoffrest_N = mkN (mkN "Kohlen" wasserstoff_N) rest_N ;
 lin kohletablette_N = mkN "Kohle" tablette_N ;
+lin kind_gottes_CN = S.mkCN (mkN2 kind_N genPrep) (S.mkNP (mkPN "Gott" "Gottes" masculine)) ;
+lin knollenblaetterpilz_N = mkN "Knollenblätter" pilz_N ;
 -- Historical Kohle- 'black', not Kohl 'cabbage'.
 lin kohlmeise_N = mkN "Kohl" meise_N ;
 lin kohlpechrabenschwarz_A = regA "kohlpechrabenschwarz" ;
@@ -96,6 +104,7 @@ lin mutterseelenallein_A = mkA (mkN mutter_N seele_N) allein_A ;
 lin nach_links_Adv = mkAdv "nach links" ;
 lin nach_rechts_Adv = mkAdv "nach rechts" ;
 lin noch_mal_Adv = mkAdv "noch mal" ;
+lin otto_normalverbraucher_PN = mkPN "Otto Normalverbraucher" ;
 lin palme_N = mkN "Palme" "Palmen" ("Palm" | "Palmen") feminine ;
 lin par_excellence_Adv = mkAdv "par excellence" ;
 lin par_force_Adv = mkAdv "par force" ;
@@ -110,6 +119,12 @@ lin qualitaetswein_mit_praedikat_N = mkN "Qualitätswein mit Prädikat" "Qualit�
 lin radiokohlenstoffdatierung_N = mkN (mkN "Radio" (mkN "Kohlen" stoff_N)) datierung_N ;
 lin sans_phrase_Adv = mkAdv "sans phrase" ;
 lin so_lala_Adv = mkAdv "so lala" ;
+lin st_vincent_und_die_grenadinen_PN = mkPN
+  "St. Vincent und die Grenadinen"
+  "St. Vincent und die Grenadinen"
+  "St. Vincent und den Grenadinen"
+  "St. Vincents und der Grenadinen"
+  neuter plural ;
 lin stammzelle_N = mkN stamm_N zelle_N ;
 lin stante_pede_Adv = mkAdv "stante pede" ;
 lin steinkohle_N = mkN stein_N (mkN "Kohle" "Kohlen" ("Kohle" | "Kohlen") feminine) ;

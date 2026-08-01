@@ -16,16 +16,22 @@ fun
   arbeitslosenrate_N : N ;
   ausser_betrieb_Adv : Adv ;
   ausser_stande_Adv : Adv ;
+  bad_bank_N : N ;
   braunkohle_N : N ;
   braunkohlekraftwerk_N : N ;
   brevi_manu_Adv : Adv ;
   bundesverfassungsgericht_N : N ;
   chlorfluorkohlenwasserstoff_N : N ;
   dessen_ungeachtet_Adv : Adv ;
+  diakritisches_zeichen_CN : CN ;
   eierkohle_N : N ;
   en_passant_Adv : Adv ;
   en_vogue_Adv : Adv ;
   fluorchlorkohlenwasserstoff_N : N ;
+  formale_sprache_CN : CN ;
+  fruehlingsknollenblaetterpilz_N : N ;
+  genus_verbi_N : N ;
+  gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   hoch_kompliziert_AP : AP ;
   holzkohle_N : N ;
@@ -63,6 +69,8 @@ fun
   kohlenwasserstoffkette_N : N ;
   kohlenwasserstoffrest_N : N ;
   kohletablette_N : N ;
+  kind_gottes_CN : CN ;
+  knollenblaetterpilz_N : N ;
   kohlmeise_N : N ;
   kohlpechrabenschwarz_A : A ;
   kohlrabenschwarz_A : A ;
@@ -76,6 +84,7 @@ fun
   nach_links_Adv : Adv ;
   nach_rechts_Adv : Adv ;
   noch_mal_Adv : Adv ;
+  otto_normalverbraucher_PN : PN ;
   par_excellence_Adv : Adv ;
   par_force_Adv : Adv ;
   per_annum_Adv : Adv ;
@@ -89,6 +98,7 @@ fun
   radiokohlenstoffdatierung_N : N ;
   sans_phrase_Adv : Adv ;
   so_lala_Adv : Adv ;
+  st_vincent_und_die_grenadinen_PN : PN ;
   stammzelle_N : N ;
   stante_pede_Adv : Adv ;
   steinkohle_N : N ;
