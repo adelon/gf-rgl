@@ -13,6 +13,7 @@ fun
   abgeltungsteuer_N : N ;
   abgasanalysator_N : N ;
   abfuehrmittel_N : N ;
+  abformmasse_N : N ;
   abfragesprache_N : N ;
   abendmahlsfeier_N : N ;
   abendmahlsgemeinschaft_N : N ;

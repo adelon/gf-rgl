@@ -290,7 +290,6 @@ lin abfluss_N = mkN "Abfluss" "Abflüsse" masculine ;
 lin abflusslos_A = regA "abflusslos" ;
 lin abfolge_N = mkN "Abfolge" "Abfolgen" feminine ;
 lin abformen_V = prefixV "ab" (regV "formen") ;
-lin abformmasse_N = mkN "Abformmasse" "Abformmassen" feminine ;
 lin abfotografieren_V = prefixV "ab" (regV "fotografieren") ;
 lin abfrage_N = mkN "Abfrage" "Abfragen" "Abfrage" feminine ;
 lin abfragen_V = prefixV "ab" (regV "fragen") ;

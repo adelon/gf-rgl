@@ -284,7 +284,6 @@ fun abfluss_N : N ;
 fun abflusslos_A : A ;
 fun abfolge_N : N ;
 fun abformen_V : V ;
-fun abformmasse_N : N ;
 fun abfotografieren_V : V ;
 fun abfrage_N : N ;
 fun abfragen_V : V ;
