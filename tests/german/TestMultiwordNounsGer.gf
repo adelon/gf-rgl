@@ -233,6 +233,15 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.weiterfuehrende_nebensatz_CN).s ! False ! Dat ;
 
+  variierendeTerminologyCitations : Str =
+    DictGer.frei_variierendes_allomorph_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.frei_variierendes_allophon_CN.s ! Strong ! Pl ! Nom ;
+  variierendeTerminologyAgreement : Str =
+    (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.frei_variierendes_allomorph_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.frei_variierendes_allophon_CN).s ! False ! Dat ;
+
   childOfGod = DictGer.kind_gottes_CN ;
   childOfGodSg = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
     childOfGod ;

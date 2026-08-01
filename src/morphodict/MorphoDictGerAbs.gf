@@ -13444,8 +13444,6 @@ fun frech_A : A ;
 fun frechheit_N : N ;
 fun fregatte_N : N ;
 fun frei_A : A ;
-fun frei_variierende_allomorph_N : N ;
-fun frei_variierende_allophon_N : N ;
 fun freibad_N : N ;
 fun freibauer_N : N ;
 fun freiberufler_N : N ;

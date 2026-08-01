@@ -93,6 +93,8 @@ fun
   hoch_kompliziert_AP : AP ;
   gelbe_kantherelle_CN : CN ;
   gelbe_kraterelle_CN : CN ;
+  frei_variierendes_allomorph_CN : CN ;
+  frei_variierendes_allophon_CN : CN ;
   loeffelfoermige_seitling_CN : CN ;
   roetende_schirmling_CN : CN ;
   starkriechende_pfifferling_CN : CN ;

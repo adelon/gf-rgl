@@ -13,6 +13,8 @@ concrete DictGer of DictGerAbs =
     , palme_N
     , gelbe_kantherelle__N
     , gelbe_kraterelle__N
+    , frei_variierende_allomorph_N
+    , frei_variierende_allophon_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -82,6 +84,8 @@ lin fait_accompli_N = changeCompoundN "Fait-accompli" (mkN "Fait accompli" "Fait
 lin flektierende_sprache_CN = S.mkCN flektierend_A sprache_N ;
 lin fluorchlorkohlenwasserstoff_N = mkN "Fluorchlor" (mkN "Kohlen" wasserstoff_N) ;
 lin formale_sprache_CN = S.mkCN formal_A sprache_N ;
+lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
+lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
 lin grundreihenmatt_N = mkN "Grundreihen" matt_N ;
 lin fruehlingsknollenblaetterpilz_N = mkN "Frühlings" knollenblaetterpilz_N ;
 lin fruehstueck_N = changeCompoundN "Frühstücks" (mkN "Früh" stueck_N) ;

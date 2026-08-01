@@ -25,6 +25,7 @@ cc -all "Language-type CNs:" ++ TestMultiwordNounsGer.languageTypeCitations ++ T
 cc -all "Reported-speech CNs:" ++ TestMultiwordNounsGer.reportedSpeechCitations ++ TestMultiwordNounsGer.reportedSpeechAgreement
 cc -all "Species CN:" ++ TestMultiwordNounsGer.speciesForms
 cc -all "Additional species CNs:" ++ TestMultiwordNounsGer.additionalSpeciesCitations ++ TestMultiwordNounsGer.additionalSpeciesAgreement
+cc -all "Variierende terminology CNs:" ++ TestMultiwordNounsGer.variierendeTerminologyCitations ++ TestMultiwordNounsGer.variierendeTerminologyAgreement
 cc -all "Kind Gottes:" ++ TestMultiwordNounsGer.childOfGodForms
 cc -all "Proper names:" ++ TestMultiwordNounsGer.properNameForms
 cc -all "Knollenblätterpilz family:" ++ TestMultiwordNounsGer.fungusFamily
