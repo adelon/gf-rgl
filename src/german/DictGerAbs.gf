@@ -125,6 +125,16 @@ fun
   absichtserklaerung_N : N ;
   absorptionsspektrum_N : N ;
   abstandsprache_N : N ;
+  abseitsfalle_N : N ;
+  abseitstor_N : N ;
+  absperrbalken_N : N ;
+  abstellgleis_N : N ;
+  abstellkammer_N : N ;
+  abstellraum_N : N ;
+  abstiegsplatz_N : N ;
+  abstimmungsgebiet_N : N ;
+  abstraktionsfaehigkeit_N : N ;
+  abstrichprobe_N : N ;
   abwasseraufbereitung_N : N ;
   abwasserkanal_N : N ;
   abwasserleitung_N : N ;
