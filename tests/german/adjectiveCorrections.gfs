@@ -1,3 +1,4 @@
 i -retain tests/german/TestAdjectiveCorrectionsGer.gf
 
 cc -one TestAdjectiveCorrectionsGer.clean
+cc -one TestAdjectiveCorrectionsGer.canonical

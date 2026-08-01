@@ -31,4 +31,31 @@ oper
     ++ DictGer.frei_A.s ! Posit ! APred
     ++ DictGer.frei_A.s ! Compar ! APred
     ++ DictGer.frei_A.s ! Superl ! APred ;
+
+  canonical : Str =
+    DictGer.barsch_A.s ! Posit ! APred ++ DictGer.barsch_A.s ! Compar ! APred ++ DictGer.barsch_A.s ! Superl ! APred
+    ++ DictGer.doll_A.s ! Posit ! APred ++ DictGer.doll_A.s ! Compar ! APred ++ DictGer.doll_A.s ! Superl ! APred
+    ++ DictGer.duester_A.s ! Posit ! APred ++ DictGer.duester_A.s ! Compar ! APred ++ DictGer.duester_A.s ! Superl ! APred
+    ++ DictGer.flau_A.s ! Posit ! APred ++ DictGer.flau_A.s ! Compar ! APred ++ DictGer.flau_A.s ! Superl ! APred
+    ++ DictGer.froh_A.s ! Posit ! APred ++ DictGer.froh_A.s ! Compar ! APred ++ DictGer.froh_A.s ! Superl ! APred
+    ++ DictGer.gehoben_A.s ! Posit ! APred ++ DictGer.gehoben_A.s ! Compar ! APred ++ DictGer.gehoben_A.s ! Superl ! APred
+    ++ DictGer.genau_A.s ! Posit ! APred ++ DictGer.genau_A.s ! Compar ! APred ++ DictGer.genau_A.s ! Superl ! APred
+    ++ DictGer.hager_A.s ! Posit ! APred ++ DictGer.hager_A.s ! Compar ! APred ++ DictGer.hager_A.s ! Superl ! APred
+    ++ DictGer.karg_A.s ! Posit ! APred ++ DictGer.karg_A.s ! Compar ! APred ++ DictGer.karg_A.s ! Superl ! APred
+    ++ DictGer.lau_A.s ! Posit ! APred ++ DictGer.lau_A.s ! Compar ! APred ++ DictGer.lau_A.s ! Superl ! APred
+    ++ DictGer.mau_A.s ! Posit ! APred ++ DictGer.mau_A.s ! Compar ! APred ++ DictGer.mau_A.s ! Superl ! APred
+    ++ DictGer.morbid_A.s ! Posit ! APred ++ DictGer.morbid_A.s ! Compar ! APred ++ DictGer.morbid_A.s ! Superl ! APred
+    ++ DictGer.morsch_A.s ! Posit ! APred ++ DictGer.morsch_A.s ! Compar ! APred ++ DictGer.morsch_A.s ! Superl ! APred
+    ++ DictGer.neu_A.s ! Posit ! APred ++ DictGer.neu_A.s ! Compar ! APred ++ DictGer.neu_A.s ! Superl ! APred
+    ++ DictGer.nieder_A.s ! Posit ! APred ++ DictGer.nieder_A.s ! Compar ! APred ++ DictGer.nieder_A.s ! Superl ! APred
+    ++ DictGer.proper_A.s ! Posit ! APred ++ DictGer.proper_A.s ! Compar ! APred ++ DictGer.proper_A.s ! Superl ! APred
+    ++ DictGer.rechtschaffen_A.s ! Posit ! APred ++ DictGer.rechtschaffen_A.s ! Compar ! APred ++ DictGer.rechtschaffen_A.s ! Superl ! APred
+    ++ DictGer.rot_A.s ! Posit ! APred ++ DictGer.rot_A.s ! Compar ! APred ++ DictGer.rot_A.s ! Superl ! APred
+    ++ DictGer.scheu_A.s ! Posit ! APred ++ DictGer.scheu_A.s ! Compar ! APred ++ DictGer.scheu_A.s ! Superl ! APred
+    ++ DictGer.schmal_A.s ! Posit ! APred ++ DictGer.schmal_A.s ! Compar ! APred ++ DictGer.schmal_A.s ! Superl ! APred
+    ++ DictGer.treu_A.s ! Posit ! APred ++ DictGer.treu_A.s ! Compar ! APred ++ DictGer.treu_A.s ! Superl ! APred
+    ++ DictGer.tumb_A.s ! Posit ! APred ++ DictGer.tumb_A.s ! Compar ! APred ++ DictGer.tumb_A.s ! Superl ! APred
+    ++ DictGer.verschieden_A.s ! Posit ! APred ++ DictGer.verschieden_A.s ! Compar ! APred ++ DictGer.verschieden_A.s ! Superl ! APred
+    ++ DictGer.willkommen_A.s ! Posit ! APred ++ DictGer.willkommen_A.s ! Compar ! APred ++ DictGer.willkommen_A.s ! Superl ! APred
+    ++ DictGer.zaeh_A.s ! Posit ! APred ++ DictGer.zaeh_A.s ! Compar ! APred ++ DictGer.zaeh_A.s ! Superl ! APred ;
 }
