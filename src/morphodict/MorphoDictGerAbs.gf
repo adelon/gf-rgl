@@ -4936,8 +4936,6 @@ fun benzodiazepin_N : N ;
 fun benzoesaeure_N : N ;
 fun benzofuranderivat_N : N ;
 fun benzol_N : N ;
-fun benzolkern_N : N ;
-fun benzolring_N : N ;
 fun benzopyranderivat_N : N ;
 fun benzothiazepinderivat_N : N ;
 fun benzoylfunktionalitaet_N : N ;

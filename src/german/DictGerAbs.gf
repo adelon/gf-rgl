@@ -740,6 +740,8 @@ fun
   benzinkanister_N : N ;
   benzinpumpe_N : N ;
   benzinverbrauch_N : N ;
+  benzolkern_N : N ;
+  benzolring_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
