@@ -1212,6 +1212,14 @@ fun
   buchmesse_N : N ;
   buchtitel_N : N ;
   buchumschlag_N : N ;
+  buergerhaus_N : N ;
+  buergerinitiative_N : N ;
+  buergerkaefig_N : N ;
+  buergerkoenig_N : N ;
+  buergerkrieg_N : N ;
+  buergerkrone_N : N ;
+  buergersteig_N : N ;
+  buergerverein_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;

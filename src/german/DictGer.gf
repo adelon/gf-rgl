@@ -102,6 +102,14 @@ concrete DictGer of DictGerAbs =
     , buchmesse_N
     , buchtitel_N
     , buchumschlag_N
+    , buergerhaus_N
+    , buergerinitiative_N
+    , buergerkaefig_N
+    , buergerkoenig_N
+    , buergerkrieg_N
+    , buergerkrone_N
+    , buergersteig_N
+    , buergerverein_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1875,6 +1883,14 @@ lin buchhandlung_N = mkN buch_N handlung_N ;
 lin buchmesse_N = changeCompoundN "Buchmessen" (mkN buch_N messe_N) ;
 lin buchtitel_N = mkN buch_N titel_N ;
 lin buchumschlag_N = mkN buch_N umschlag_N ;
+lin buergerhaus_N = mkN buerger_N haus_N ;
+lin buergerinitiative_N = changeCompoundN "Bürgerinitiativen" (mkN buerger_N initiative_N) ;
+lin buergerkaefig_N = mkN buerger_N kaefig_N ;
+lin buergerkoenig_N = mkN buerger_N koenig_N ;
+lin buergerkrieg_N = mkN buerger_N krieg_N ;
+lin buergerkrone_N = mkN buerger_N krone_N ;
+lin buergersteig_N = mkN buerger_N steig_N ;
+lin buergerverein_N = mkN buerger_N verein_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
