@@ -277,6 +277,11 @@ fun
   hautschicht_N : N ;
   hautstoerung_N : N ;
   hautverletzung_N : N ;
+  hautfarbe_N : N ;
+  hautflaeche_N : N ;
+  hautpartie_N : N ;
+  hautreaktion_N : N ;
+  hautzelle_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
