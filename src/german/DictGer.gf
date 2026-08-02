@@ -291,6 +291,10 @@ concrete DictGer of DictGerAbs =
     , bauchwehkoralle_N
     , bauchwehziegenbart_N
     , baummarderfell_N
+    , beachbasketball_N
+    , beachvolleyball_N
+    , becherglas_N
+    , bebauungsplan_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -990,4 +994,8 @@ lin bauchhoehlenerkrankung_N = mkN (mkN "Bauch" hoehle_N) erkrankung_N ;
 lin bauchwehkoralle_N = mkN (mkN "Bauch" weh_N) koralle_N ;
 lin bauchwehziegenbart_N = mkN (mkN "Bauch" weh_N) ziegenbart_N ;
 lin baummarderfell_N = mkN baummarder_N fell_N ;
+lin beachbasketball_N = mkN "Beach" basketball_N ;
+lin beachvolleyball_N = mkN "Beach" volleyball_N ;
+lin becherglas_N = mkN "Becher" glas_N ;
+lin bebauungsplan_N = mkN bebauung_N plan_N ;
 }

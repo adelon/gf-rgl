@@ -141,3 +141,4 @@ cc -all bauspardarlehen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++
 cc -all bauchmuskel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bauchmuskel_N.co ++ bauchnabel_N.co ++ bauchredner_N.co ++ bauchschmerz_N.co ++ bauchspeck_N.co
 cc -all baugeruest_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ baugeruest_N.co ++ baugruppe_N.co ++ bauhelm_N.co ++ bauherr_N.co ++ bauholz_N.co ++ bauingenieur_N.co ++ bauklotz_N.co ++ baumaschine_N.co
 cc -all bauchhoehlenerkrankung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bauchhoehlenerkrankung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bauchhoehlenerkrankung_N.co ++ bauchwehkoralle_N.co ++ bauchwehziegenbart_N.co ++ baummarderfell_N.co
+cc -all beachbasketball_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ beachbasketball_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beachbasketball_N.co ++ beachvolleyball_N.co ++ becherglas_N.co ++ bebauungsplan_N.co

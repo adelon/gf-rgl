@@ -660,4 +660,8 @@ fun
   bauchwehkoralle_N : N ;
   bauchwehziegenbart_N : N ;
   baummarderfell_N : N ;
+  beachbasketball_N : N ;
+  beachvolleyball_N : N ;
+  becherglas_N : N ;
+  bebauungsplan_N : N ;
 }
