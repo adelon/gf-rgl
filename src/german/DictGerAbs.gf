@@ -439,6 +439,11 @@ fun
   endprodukt_N : N ;
   endstation_N : N ;
   endstruktur_N : N ;
+  endphase_N : N ;
+  endreim_N : N ;
+  endsee_N : N ;
+  endsilbe_N : N ;
+  endteufe_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
