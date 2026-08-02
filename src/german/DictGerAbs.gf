@@ -394,6 +394,11 @@ fun
   hydrocarbylgruppe_N : N ;
   hydrogenfumarate_N : N ;
   hydrogensulfat_N : N ;
+  hyaluronsaeure_N : N ;
+  hydrodispersion_N : N ;
+  hydroperoxid_N : N ;
+  hydroxamsaeure_N : N ;
+  hydroxidion_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

@@ -889,6 +889,11 @@ concrete DictGer of DictGerAbs =
     , hydrocarbylgruppe_N
     , hydrogenfumarate_N
     , hydrogensulfat_N
+    , hyaluronsaeure_N
+    , hydrodispersion_N
+    , hydroperoxid_N
+    , hydroxamsaeure_N
+    , hydroxidion_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1231,6 +1236,11 @@ lin hydrobromide_N = mkN "Hydro" bromid_N ;
 lin hydrocarbylgruppe_N = mkN "Hydrocarbyl" gruppe_N ;
 lin hydrogenfumarate_N = mkN wasserstoff_N fumarat_N ;
 lin hydrogensulfat_N = mkN "Hydrogen" sulfat_N ;
+lin hyaluronsaeure_N = changeCompoundN "Hyaluronsäuren" (mkN "Hyaluron" saeure_N) ;
+lin hydrodispersion_N = mkN "Hydro" dispersion_N ;
+lin hydroperoxid_N = mkN "Hydro" peroxid_N ;
+lin hydroxamsaeure_N = changeCompoundN "Hydroxamsäuren" (mkN "Hydroxam" saeure_N) ;
+lin hydroxidion_N = mkN hydroxid_N ion_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
