@@ -1664,6 +1664,13 @@ fun
   carboxylgruppe_N : N ;
   carboxylgruppierung_N : N ;
   carboxylrest_N : N ;
+  carboxygruppe_N : N ;
+  carboxylatgruppe_N : N ;
+  carboxylatharz_N : N ;
+  carboxymethylcellulose_N : N ;
+  carboxymethylgruppe_N : N ;
+  carboxyvinylpolymer_N : N ;
+  carboxyvinylsaeure_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

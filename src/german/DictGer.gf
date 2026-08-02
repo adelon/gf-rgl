@@ -556,6 +556,13 @@ concrete DictGer of DictGerAbs =
     , carboxylgruppe_N
     , carboxylgruppierung_N
     , carboxylrest_N
+    , carboxygruppe_N
+    , carboxylatgruppe_N
+    , carboxylatharz_N
+    , carboxymethylcellulose_N
+    , carboxymethylgruppe_N
+    , carboxyvinylpolymer_N
+    , carboxyvinylsaeure_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2915,6 +2922,13 @@ lin carboxylfunktion_N = mkN "Carboxyl" funktion_N ;
 lin carboxylgruppe_N = mkN "Carboxyl" gruppe_N ;
 lin carboxylgruppierung_N = mkN "Carboxyl" gruppierung_N ;
 lin carboxylrest_N = mkN "Carboxyl" rest_N ;
+lin carboxygruppe_N = mkN "Carboxy" gruppe_N ;
+lin carboxylatgruppe_N = mkN "Carboxylat" gruppe_N ;
+lin carboxylatharz_N = mkN "Carboxylat" harz_N ;
+lin carboxymethylcellulose_N = changeCompoundN "Carboxymethylcellulosen" (mkN "Carboxymethyl" cellulose_N) ;
+lin carboxymethylgruppe_N = mkN "Carboxymethyl" gruppe_N ;
+lin carboxyvinylpolymer_N = mkN "Carboxyvinyl" polymer_N ;
+lin carboxyvinylsaeure_N = changeCompoundN "Carboxyvinylsäuren" (mkN "Carboxyvinyl" saeure_N) ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
