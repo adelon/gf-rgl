@@ -501,6 +501,9 @@ fun
   kaefersammlung_N : N ;
   kaempferholz_N : N ;
   kaenguruleder_N : N ;
+  kaliumbicarbonat_N : N ;
+  kaliumion_N : N ;
+  kaliumsalz_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

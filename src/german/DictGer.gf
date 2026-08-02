@@ -996,6 +996,9 @@ concrete DictGer of DictGerAbs =
     , kaefersammlung_N
     , kaempferholz_N
     , kaenguruleder_N
+    , kaliumbicarbonat_N
+    , kaliumion_N
+    , kaliumsalz_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1445,6 +1448,9 @@ lin kalkstein_N = mkN kalk_N stein_N ;
 lin kaefersammlung_N = mkN kaefer_N sammlung_N ;
 lin kaempferholz_N = mkN kaempfer_N holz_N ;
 lin kaenguruleder_N = mkN kaenguru_N leder_N ;
+lin kaliumbicarbonat_N = mkN "Kalium" bicarbonat_N ;
+lin kaliumion_N = mkN "Kalium" ion_N ;
+lin kaliumsalz_N = mkN "Kalium" salz_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
