@@ -710,4 +710,7 @@ fun
   bergkiefer_N : N ;
   bergkristall_N : N ;
   bergspitze_N : N ;
+  bergfink_N : N ;
+  berghaenfling_N : N ;
+  bergstation_N : N ;
 }

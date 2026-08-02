@@ -341,6 +341,9 @@ concrete DictGer of DictGerAbs =
     , bergkiefer_N
     , bergkristall_N
     , bergspitze_N
+    , bergfink_N
+    , berghaenfling_N
+    , bergstation_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1090,4 +1093,7 @@ lin bergkette_N = mkN berg_N kette_N ;
 lin bergkiefer_N = mkN berg_N kiefer_N ;
 lin bergkristall_N = mkN berg_N kristall_N ;
 lin bergspitze_N = mkN berg_N spitze_N ;
+lin bergfink_N = mkN berg_N fink_N ;
+lin berghaenfling_N = mkN berg_N haenfling_N ;
+lin bergstation_N = mkN berg_N station_N ;
 }
