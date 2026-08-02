@@ -311,6 +311,11 @@ fun
   hosenrolle_N : N ;
   hosentasche_N : N ;
   hundezelle_N : N ;
+  hochzeitsbild_N : N ;
+  hochzeitsfeier_N : N ;
+  hochzeitskleid_N : N ;
+  hochzeitsreise_N : N ;
+  hochzeitstag_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
