@@ -7477,7 +7477,6 @@ lin damm_N = mkN "Damm" "Dämme" masculine ;
 lin damnum_N = mkN "Damnum" "Damna" neuter ;
 lin damoklesschwert_N = mkN "Damoklesschwert" "Damoklesschwerter" neuter ;
 lin dampf_N = mkN "Dampf" "Dämpfe" masculine ;
-lin dampfbackofen_N = mkN "Dampfbackofen" "Dampfbacköfen" masculine ;
 lin dampfen_V = regV "dampfen" ;
 lin dampfer_N = mkN "Dampfer" "Dampfer" masculine ;
 lin dampfgarer_N = mkN "Dampfgarer" "Dampfgarer" masculine ;

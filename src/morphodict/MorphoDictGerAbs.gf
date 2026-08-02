@@ -7471,7 +7471,6 @@ fun damm_N : N ;
 fun damnum_N : N ;
 fun damoklesschwert_N : N ;
 fun dampf_N : N ;
-fun dampfbackofen_N : N ;
 fun dampfen_V : V ;
 fun dampfer_N : N ;
 fun dampfgarer_N : N ;
