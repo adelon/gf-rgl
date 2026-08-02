@@ -909,4 +909,12 @@ fun
   darmstoerung_N : N ;
   darmverschluss_N : N ;
   darmwind_N : N ;
+  datenbank_N : N ;
+  datenpanne_N : N ;
+  datensammlung_N : N ;
+  datensicherung_N : N ;
+  datentransfer_N : N ;
+  datentyp_N : N ;
+  datenuebertragung_N : N ;
+  datenverlust_N : N ;
 }

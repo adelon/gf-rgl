@@ -540,6 +540,14 @@ concrete DictGer of DictGerAbs =
     , darmstoerung_N
     , darmverschluss_N
     , darmwind_N
+    , datenbank_N
+    , datenpanne_N
+    , datensammlung_N
+    , datensicherung_N
+    , datentransfer_N
+    , datentyp_N
+    , datenuebertragung_N
+    , datenverlust_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1488,4 +1496,12 @@ lin darmspiegelung_N = mkN darm_N spiegelung_N ;
 lin darmstoerung_N = mkN darm_N stoerung_N ;
 lin darmverschluss_N = mkN darm_N verschluss_N ;
 lin darmwind_N = mkN darm_N wind_N ;
+lin datenbank_N = mkN "Daten" bank_N ;
+lin datenpanne_N = mkN "Daten" panne_N ;
+lin datensammlung_N = mkN "Daten" sammlung_N ;
+lin datensicherung_N = mkN "Daten" sicherung_N ;
+lin datentransfer_N = mkN "Daten" transfer_N ;
+lin datentyp_N = mkN "Daten" typ_N ;
+lin datenuebertragung_N = mkN "Daten" uebertragung_N ;
+lin datenverlust_N = mkN "Daten" verlust_N ;
 }
