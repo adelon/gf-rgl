@@ -1718,6 +1718,8 @@ fun
   chloratom_N : N ;
   chlorderivat_N : N ;
   chlorhydrat_N : N ;
+  chancentod_N : N ;
+  cerebrospinalfluessigkeit_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

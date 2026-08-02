@@ -610,6 +610,8 @@ concrete DictGer of DictGerAbs =
     , chloratom_N
     , chlorderivat_N
     , chlorhydrat_N
+    , chancentod_N
+    , cerebrospinalfluessigkeit_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3023,6 +3025,8 @@ lin chalkonderivat_N = mkN "Chalkon" derivat_N ;
 lin chloratom_N = mkN "Chlor" atom_N ;
 lin chlorderivat_N = mkN "Chlor" derivat_N ;
 lin chlorhydrat_N = mkN "Chlor" hydrat_N ;
+lin chancentod_N = mkN "Chancen" tod_N ;
+lin cerebrospinalfluessigkeit_N = mkN "Cerebrospinal" fluessigkeit_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
