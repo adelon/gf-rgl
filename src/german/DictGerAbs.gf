@@ -373,6 +373,12 @@ fun
   hybridvektor_N : N ;
   hybridzelle_N : N ;
   hybridzellinie_N : N ;
+  hydratform_N : N ;
+  hydraulikpresse_N : N ;
+  hydrazingruppe_N : N ;
+  hydrierkatalysator_N : N ;
+  hydrierungskatalysator_N : N ;
+  hydrochloridsalz_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
