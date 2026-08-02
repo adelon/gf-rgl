@@ -1087,6 +1087,11 @@ concrete DictGer of DictGerAbs =
     , liebesgestaendnis_N
     , liebesleben_N
     , liebeslied_N
+    , muttergesellschaft_N
+    , mutterhaus_N
+    , mutterkuchen_N
+    , muttersprache_N
+    , muttertag_N
     , katzenauge_N
     , katzenfell_N
     , katzenfrettfell_N
@@ -1636,6 +1641,11 @@ lin liebesgedicht_N = mkN "Liebes" gedicht_N ;
 lin liebesgestaendnis_N = mkN "Liebes" gestaendnis_N ;
 lin liebesleben_N = mkN "Liebes" leben_N ;
 lin liebeslied_N = mkN "Liebes" lied_N ;
+lin muttergesellschaft_N = mkN "Mutter" gesellschaft_N ;
+lin mutterhaus_N = mkN "Mutter" haus_N ;
+lin mutterkuchen_N = mkN "Mutter" kuchen_N ;
+lin muttersprache_N = changeCompoundN "Muttersprachen" (mkN "Mutter" sprache_N) ;
+lin muttertag_N = mkN "Mutter" tag_N ;
 lin katzenauge_N = mkN "Katzen" auge_N ;
 lin katzenfell_N = mkN "Katzen" fell_N ;
 lin katzenfrettfell_N = mkN "Katzenfrett" fell_N ;

@@ -592,6 +592,11 @@ fun
   liebesgestaendnis_N : N ;
   liebesleben_N : N ;
   liebeslied_N : N ;
+  muttergesellschaft_N : N ;
+  mutterhaus_N : N ;
+  mutterkuchen_N : N ;
+  muttersprache_N : N ;
+  muttertag_N : N ;
   katzenauge_N : N ;
   katzenfell_N : N ;
   katzenfrettfell_N : N ;
