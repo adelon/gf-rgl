@@ -850,6 +850,14 @@ concrete DictGer of DictGerAbs =
     , ereignishorizont_N
     , erektionsstoerung_N
     , erfolgsaussicht_N
+    , erfolgserlebnis_N
+    , erfolgsrezept_N
+    , erfuellungsgehilfe_N
+    , ergaenzungsfrage_N
+    , ergaenzungssatz_N
+    , ergaenzungsstrich_N
+    , erholungsgebiet_N
+    , erkrankungsstadium_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1410,6 +1418,14 @@ lin erdzeitalter_N = mkN "Erd" zeitalter_N ;
 lin ereignishorizont_N = mkN ereignis_N horizont_N ;
 lin erektionsstoerung_N = mkN "Erektions" stoerung_N ;
 lin erfolgsaussicht_N = mkN "Erfolgs" aussicht_N ;
+lin erfolgserlebnis_N = mkN "Erfolgs" erlebnis_N ;
+lin erfolgsrezept_N = mkN "Erfolgs" rezept_N ;
+lin erfuellungsgehilfe_N = mkN "Erfüllungs" gehilfe_N ;
+lin ergaenzungsfrage_N = changeCompoundN "Ergänzungsfragen" (mkN ergaenzung_N frage_N) ;
+lin ergaenzungssatz_N = mkN ergaenzung_N satz_N ;
+lin ergaenzungsstrich_N = mkN ergaenzung_N strich_N ;
+lin erholungsgebiet_N = mkN "Erholungs" gebiet_N ;
+lin erkrankungsstadium_N = mkN erkrankung_N stadium_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

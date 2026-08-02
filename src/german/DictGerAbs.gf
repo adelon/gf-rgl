@@ -535,6 +535,14 @@ fun
   ereignishorizont_N : N ;
   erektionsstoerung_N : N ;
   erfolgsaussicht_N : N ;
+  erfolgserlebnis_N : N ;
+  erfolgsrezept_N : N ;
+  erfuellungsgehilfe_N : N ;
+  ergaenzungsfrage_N : N ;
+  ergaenzungssatz_N : N ;
+  ergaenzungsstrich_N : N ;
+  erholungsgebiet_N : N ;
+  erkrankungsstadium_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
