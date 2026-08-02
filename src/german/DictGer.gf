@@ -125,6 +125,12 @@ concrete DictGer of DictGerAbs =
     , starkriechende_pfifferling__N
     , weiterfuehrende_nebensatz_N
     , ziegelrote_risspilz__N
+    , fussballplatz__N
+    , geschaeftsreise__N
+    , maerzrevolution__N
+    , sprachoekonomie__N
+    , x_achse__N
+    , y_achse__N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -658,4 +664,10 @@ lin zu_hause_Adv = mkAdv "zu Hause" ;
 lin zu_stande_Adv = mkAdv "zu Stande" ;
 lin zu_tage_Adv = mkAdv "zu Tage" ;
 lin zu_viel_Adv = mkAdv "zu viel" ;
+lin fussballplatz__N = mkN fussball_N platz_N ;
+lin geschaeftsreise__N = mkN "Geschäfts" reise_N ;
+lin maerzrevolution__N = mkN maerz_N revolution_N ;
+lin sprachoekonomie__N = mkN "Sprach" oekonomie__N ;
+lin x_achse__N = mkHyphenN "x" achse_N ;
+lin y_achse__N = mkHyphenN "y" achse_N ;
 }

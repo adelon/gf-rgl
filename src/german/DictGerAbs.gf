@@ -494,4 +494,10 @@ fun
   zu_stande_Adv : Adv ;
   zu_tage_Adv : Adv ;
   zu_viel_Adv : Adv ;
+  fussballplatz__N : N ;
+  geschaeftsreise__N : N ;
+  maerzrevolution__N : N ;
+  sprachoekonomie__N : N ;
+  x_achse__N : N ;
+  y_achse__N : N ;
 }
