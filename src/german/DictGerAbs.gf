@@ -588,6 +588,10 @@ fun
   ledermantel_N : N ;
   lederriemen_N : N ;
   lederstiefel_N : N ;
+  liebesgedicht_N : N ;
+  liebesgestaendnis_N : N ;
+  liebesleben_N : N ;
+  liebeslied_N : N ;
   katzenauge_N : N ;
   katzenfell_N : N ;
   katzenfrettfell_N : N ;

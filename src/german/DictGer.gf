@@ -1083,6 +1083,10 @@ concrete DictGer of DictGerAbs =
     , ledermantel_N
     , lederriemen_N
     , lederstiefel_N
+    , liebesgedicht_N
+    , liebesgestaendnis_N
+    , liebesleben_N
+    , liebeslied_N
     , katzenauge_N
     , katzenfell_N
     , katzenfrettfell_N
@@ -1628,6 +1632,10 @@ lin lederkoffer_N = mkN "Leder" koffer_N ;
 lin ledermantel_N = mkN "Leder" mantel_N ;
 lin lederriemen_N = mkN "Leder" riemen_N ;
 lin lederstiefel_N = mkN "Leder" stiefel_N ;
+lin liebesgedicht_N = mkN "Liebes" gedicht_N ;
+lin liebesgestaendnis_N = mkN "Liebes" gestaendnis_N ;
+lin liebesleben_N = mkN "Liebes" leben_N ;
+lin liebeslied_N = mkN "Liebes" lied_N ;
 lin katzenauge_N = mkN "Katzen" auge_N ;
 lin katzenfell_N = mkN "Katzen" fell_N ;
 lin katzenfrettfell_N = mkN "Katzenfrett" fell_N ;
