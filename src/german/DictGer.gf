@@ -345,6 +345,7 @@ concrete DictGer of DictGerAbs =
     , behandlungsfehler_N
     , behandlungsmethode_N
     , behandlungsmittel_N
+    , behandlungsschema_N
     , behandlungsweise_N
     , befehlsform_N
     , befehlsnotstand_N
@@ -367,6 +368,7 @@ concrete DictGer of DictGerAbs =
     , benetzungsmittel_N
     , belegstelle_N
     , beitrittserklaerung_N
+    , beutetier_N
     , berufsakademie_N
     , berufsaussicht_N
     , berufsgruppe_N
@@ -1192,6 +1194,7 @@ lin bedienungsanleitung_N = mkN bedienung_N anleitung_N ;
 lin behandlungsfehler_N = mkN behandlung_N fehler_N ;
 lin behandlungsmethode_N = mkN behandlung_N methode_N ;
 lin behandlungsmittel_N = mkN behandlung_N mittel_N ;
+lin behandlungsschema_N = mkN behandlung_N (mkN "Schema" "Schemen" neuter) ;
 lin behandlungsweise_N = mkN behandlung_N weise_N ;
 lin befehlsform_N = mkN (changeCompoundN "Befehls" befehl_N) form_N ;
 lin befehlsnotstand_N = mkN (changeCompoundN "Befehls" befehl_N) notstand_N ;
@@ -1212,6 +1215,7 @@ lin beinbruch_N = mkN bein_N bruch_N ;
 lin beinhaus_N = mkN bein_N haus_N ;
 lin belegstelle_N = mkN beleg_N stelle_N ;
 lin beitrittserklaerung_N = mkN "Beitritts" erklaerung_N ;
+lin beutetier_N = mkN "Beute" tier_N ;
 lin berufsakademie_N = mkN (changeCompoundN "Berufs" beruf_N) akademie_N ;
 lin berufsaussicht_N = mkN (changeCompoundN "Berufs" beruf_N) aussicht_N ;
 lin berufsgruppe_N = mkN (changeCompoundN "Berufs" beruf_N) gruppe_N ;

@@ -714,6 +714,7 @@ fun
   behandlungsfehler_N : N ;
   behandlungsmethode_N : N ;
   behandlungsmittel_N : N ;
+  behandlungsschema_N : N ;
   behandlungsweise_N : N ;
   befehlsform_N : N ;
   befehlsnotstand_N : N ;
@@ -736,6 +737,7 @@ fun
   benetzungsmittel_N : N ;
   belegstelle_N : N ;
   beitrittserklaerung_N : N ;
+  beutetier_N : N ;
   berufsakademie_N : N ;
   berufsaussicht_N : N ;
   berufsgruppe_N : N ;
