@@ -373,6 +373,10 @@ concrete DictGer of DictGerAbs =
     , benzinverbrauch_N
     , benzolkern_N
     , benzolring_N
+    , bergsteiger_N
+    , bergtapir_N
+    , bergulme_N
+    , bergwerk_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1167,6 +1171,10 @@ lin benzinpumpe_N = mkN benzin_N pumpe_N ;
 lin benzinverbrauch_N = mkN benzin_N verbrauch_N ;
 lin benzolkern_N = mkN benzol_N kern_N ;
 lin benzolring_N = mkN benzol_N ring_N ;
+lin bergsteiger_N = mkN berg_N steiger_N ;
+lin bergtapir_N = mkN berg_N tapir_N ;
+lin bergulme_N = mkN berg_N ulme_N ;
+lin bergwerk_N = mkN berg_N werk_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

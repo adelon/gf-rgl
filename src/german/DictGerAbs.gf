@@ -742,6 +742,10 @@ fun
   benzinverbrauch_N : N ;
   benzolkern_N : N ;
   benzolring_N : N ;
+  bergsteiger_N : N ;
+  bergtapir_N : N ;
+  bergulme_N : N ;
+  bergwerk_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
