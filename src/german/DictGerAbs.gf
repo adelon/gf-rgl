@@ -379,6 +379,10 @@ fun
   hydrierkatalysator_N : N ;
   hydrierungskatalysator_N : N ;
   hydrochloridsalz_N : N ;
+  hydroxyfunktion_N : N ;
+  hydroxygruppe_N : N ;
+  hydroxylfunktion_N : N ;
+  hydroxylgruppe_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
