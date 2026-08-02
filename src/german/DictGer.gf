@@ -175,6 +175,15 @@ concrete DictGer of DictGerAbs =
     , rheinknie_N
     , schulgebaeude_N
     , wohngebaeude_N
+    , badeanzug_N
+    , badehose_N
+    , badekappe_N
+    , bademantel_N
+    , bademeister_N
+    , badesalz_N
+    , badeschwamm_N
+    , badewanne_N
+    , badezimmer_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -758,4 +767,13 @@ lin buchhalterknie_N = mkN "Buchhalter" knie_N ;
 lin rheinknie_N = mkN "Rhein" knie_N ;
 lin schulgebaeude_N = mkN "Schul" gebaeude_N ;
 lin wohngebaeude_N = mkN "Wohn" gebaeude_N ;
+lin badeanzug_N = mkN "Bade" anzug_N ;
+lin badehose_N = mkN "Bade" hose_N ;
+lin badekappe_N = mkN "Bade" kappe_N ;
+lin bademantel_N = mkN "Bade" mantel_N ;
+lin bademeister_N = mkN "Bade" meister_N ;
+lin badesalz_N = mkN "Bade" salz_N ;
+lin badeschwamm_N = mkN "Bade" schwamm_N ;
+lin badewanne_N = mkN "Bade" wanne_N ;
+lin badezimmer_N = mkN "Bade" zimmer_N ;
 }

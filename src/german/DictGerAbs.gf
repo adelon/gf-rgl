@@ -544,4 +544,13 @@ fun
   rheinknie_N : N ;
   schulgebaeude_N : N ;
   wohngebaeude_N : N ;
+  badeanzug_N : N ;
+  badehose_N : N ;
+  badekappe_N : N ;
+  bademantel_N : N ;
+  bademeister_N : N ;
+  badesalz_N : N ;
+  badeschwamm_N : N ;
+  badewanne_N : N ;
+  badezimmer_N : N ;
 }
