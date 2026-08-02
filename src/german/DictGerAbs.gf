@@ -721,6 +721,8 @@ fun
   bewerbungsgespraech_N : N ;
   bewegungsmangel_N : N ;
   bewegungsstoerung_N : N ;
+  bewaehrungsstrafe_N : N ;
+  beziehungskrise_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;

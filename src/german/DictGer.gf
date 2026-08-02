@@ -352,6 +352,8 @@ concrete DictGer of DictGerAbs =
     , bewerbungsgespraech_N
     , bewegungsmangel_N
     , bewegungsstoerung_N
+    , bewaehrungsstrafe_N
+    , beziehungskrise_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1125,6 +1127,8 @@ lin bewerbungsfrist_N = mkN (changeCompoundN "Bewerbungs" bewerbung_N) frist_N ;
 lin bewerbungsgespraech_N = mkN (changeCompoundN "Bewerbungs" bewerbung_N) gespraech_N ;
 lin bewegungsmangel_N = mkN (changeCompoundN "Bewegungs" bewegung_N) mangel_N ;
 lin bewegungsstoerung_N = mkN (changeCompoundN "Bewegungs" bewegung_N) stoerung_N ;
+lin bewaehrungsstrafe_N = mkN (changeCompoundN "Bewährungs" bewaehrung_N) strafe_N ;
+lin beziehungskrise_N = mkN (changeCompoundN "Beziehungs" beziehung_N) krise_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;
