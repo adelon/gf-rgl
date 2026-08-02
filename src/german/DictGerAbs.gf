@@ -850,6 +850,9 @@ fun
   druckschrift_N : N ;
   dornbusch_N : N ;
   dornenkrone_N : N ;
+  drogenhaendler_N : N ;
+  drogenhaendlerin_N : N ;
+  drogeriekette_N : N ;
   dachantenne_N : N ;
   dachbalken_N : N ;
   dachboden_N : N ;
