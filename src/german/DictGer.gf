@@ -171,6 +171,10 @@ concrete DictGer of DictGerAbs =
     , schnittkaese_N
     , stinkkaese_N
     , weichkaese_N
+    , buchhalterknie_N
+    , rheinknie_N
+    , schulgebaeude_N
+    , wohngebaeude_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -750,4 +754,8 @@ lin schafskaese_N = mkN "Schafs" kaese_N ;
 lin schnittkaese_N = mkN "Schnitt" kaese_N ;
 lin stinkkaese_N = mkN "Stink" kaese_N ;
 lin weichkaese_N = mkN "Weich" kaese_N ;
+lin buchhalterknie_N = mkN "Buchhalter" knie_N ;
+lin rheinknie_N = mkN "Rhein" knie_N ;
+lin schulgebaeude_N = mkN "Schul" gebaeude_N ;
+lin wohngebaeude_N = mkN "Wohn" gebaeude_N ;
 }

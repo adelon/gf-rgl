@@ -540,4 +540,8 @@ fun
   schnittkaese_N : N ;
   stinkkaese_N : N ;
   weichkaese_N : N ;
+  buchhalterknie_N : N ;
+  rheinknie_N : N ;
+  schulgebaeude_N : N ;
+  wohngebaeude_N : N ;
 }
