@@ -506,6 +506,16 @@ fun
   kaliumsalz_N : N ;
   kamillentee_N : N ;
   kamerafrau_N : N ;
+  kampfbegriff_N : N ;
+  kampfflugzeug_N : N ;
+  kampfhubschrauber_N : N ;
+  kampfhund_N : N ;
+  kampfkunst_N : N ;
+  kampflaeufer_N : N ;
+  kampfname_N : N ;
+  kampfpanzer_N : N ;
+  kampfplatz_N : N ;
+  kampfpreis_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

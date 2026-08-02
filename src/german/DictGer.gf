@@ -1001,6 +1001,16 @@ concrete DictGer of DictGerAbs =
     , kaliumsalz_N
     , kamillentee_N
     , kamerafrau_N
+    , kampfbegriff_N
+    , kampfflugzeug_N
+    , kampfhubschrauber_N
+    , kampfhund_N
+    , kampfkunst_N
+    , kampflaeufer_N
+    , kampfname_N
+    , kampfpanzer_N
+    , kampfplatz_N
+    , kampfpreis_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1455,6 +1465,16 @@ lin kaliumion_N = mkN "Kalium" ion_N ;
 lin kaliumsalz_N = mkN "Kalium" salz_N ;
 lin kamillentee_N = mkN kamille_N tee_N ;
 lin kamerafrau_N = mkN kamera_N frau_N ;
+lin kampfbegriff_N = mkN kampf_N begriff_N ;
+lin kampfflugzeug_N = mkN kampf_N flugzeug_N ;
+lin kampfhubschrauber_N = mkN kampf_N hubschrauber_N ;
+lin kampfhund_N = mkN kampf_N hund_N ;
+lin kampfkunst_N = mkN kampf_N kunst_N ;
+lin kampflaeufer_N = mkN kampf_N laeufer_N ;
+lin kampfname_N = mkN kampf_N name_N ;
+lin kampfpanzer_N = mkN kampf_N panzer_N ;
+lin kampfplatz_N = mkN kampf_N platz_N ;
+lin kampfpreis_N = mkN kampf_N preis_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
