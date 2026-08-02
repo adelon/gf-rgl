@@ -178,6 +178,10 @@ concrete DictGer of DictGerAbs =
     , computerspiel_N
     , computersprache_N
     , computertastatur_N
+    , clubhaus_N
+    , clubjacke_N
+    , clubmitglied_N
+    , clubsessel_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -2027,6 +2031,10 @@ lin computerprogramm_N = mkN computer_N programm_N ;
 lin computerspiel_N = mkN computer_N spiel_N ;
 lin computersprache_N = changeCompoundN "Computersprachen" (mkN computer_N sprache_N) ;
 lin computertastatur_N = mkN computer_N tastatur_N ;
+lin clubhaus_N = mkN club_N haus_N ;
+lin clubjacke_N = mkN club_N jacke_N ;
+lin clubmitglied_N = mkN club_N mitglied_N ;
+lin clubsessel_N = mkN club_N sessel_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

@@ -1288,6 +1288,10 @@ fun
   computerspiel_N : N ;
   computersprache_N : N ;
   computertastatur_N : N ;
+  clubhaus_N : N ;
+  clubjacke_N : N ;
+  clubmitglied_N : N ;
+  clubsessel_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
