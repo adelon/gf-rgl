@@ -315,6 +315,9 @@ fun
   eichenblatt_N : N ;
   eichenbohle_N : N ;
   eichensteinpilz_N : N ;
+  eidbruch_N : N ;
+  eidechsenleder_N : N ;
+  eiderente_N : N ;
   eierbecher_N : N ;
   eierkohle_N : N ;
   eierkocher_N : N ;
@@ -331,6 +334,7 @@ fun
   eierstich_N : N ;
   eiertanz_N : N ;
   eieruhr_N : N ;
+  eidgenossenschaft_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
