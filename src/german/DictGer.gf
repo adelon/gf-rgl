@@ -258,6 +258,19 @@ concrete DictGer of DictGerAbs =
     , baumwollhemd_N
     , baumwollpflanze_N
     , baumwollplantage_N
+    , baunaht_N
+    , bauplan_N
+    , bauplatz_N
+    , bauprojekt_N
+    , bauschaden_N
+    , bauschaum_N
+    , baustein_N
+    , baustelle_N
+    , baustil_N
+    , baustoff_N
+    , bauweise_N
+    , bauwerk_N
+    , bauzaun_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -924,4 +937,17 @@ lin baumwollernte_N = mkN "Baumwoll" ernte_N ;
 lin baumwollhemd_N = mkN "Baumwoll" hemd_N ;
 lin baumwollpflanze_N = mkN "Baumwoll" pflanze_N ;
 lin baumwollplantage_N = mkN "Baumwoll" plantage_N ;
+lin baunaht_N = mkN "Bau" naht_N ;
+lin bauplan_N = mkN "Bau" plan_N ;
+lin bauplatz_N = mkN "Bau" platz_N ;
+lin bauprojekt_N = mkN "Bau" projekt_N ;
+lin bauschaden_N = mkN "Bau" schaden_N ;
+lin bauschaum_N = mkN "Bau" schaum_N ;
+lin baustein_N = mkN "Bau" stein_N ;
+lin baustelle_N = mkN "Bau" stelle_N ;
+lin baustil_N = mkN "Bau" stil_N ;
+lin baustoff_N = mkN "Bau" stoff_N ;
+lin bauweise_N = mkN "Bau" weise_N ;
+lin bauwerk_N = mkN "Bau" werk_N ;
+lin bauzaun_N = mkN "Bau" zaun_N ;
 }

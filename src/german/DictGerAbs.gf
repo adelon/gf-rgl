@@ -627,4 +627,17 @@ fun
   baumwollhemd_N : N ;
   baumwollpflanze_N : N ;
   baumwollplantage_N : N ;
+  baunaht_N : N ;
+  bauplan_N : N ;
+  bauplatz_N : N ;
+  bauprojekt_N : N ;
+  bauschaden_N : N ;
+  bauschaum_N : N ;
+  baustein_N : N ;
+  baustelle_N : N ;
+  baustil_N : N ;
+  baustoff_N : N ;
+  bauweise_N : N ;
+  bauwerk_N : N ;
+  bauzaun_N : N ;
 }
