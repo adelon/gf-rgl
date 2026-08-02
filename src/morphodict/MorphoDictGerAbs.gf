@@ -8945,8 +8945,6 @@ fun durchschlag_N : N ;
 fun durchschlagend_A : A ;
 fun durchschnitt_N : N ;
 fun durchschnittlich_A : A ;
-fun durchschnittseinkommen_N : N ;
-fun durchschnittsmenge_N : N ;
 fun durchschuss__N : N ;
 fun durchsetzen_7_V : V ;
 fun durchsetzungsvermoegen_N : N ;
