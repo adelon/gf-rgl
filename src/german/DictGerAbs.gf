@@ -452,6 +452,7 @@ fun
   englischhorn_N : N ;
   englischlehrer_N : N ;
   englischlehrerin_N : N ;
+  enkelkind_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
