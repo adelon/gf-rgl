@@ -724,6 +724,15 @@ concrete DictGer of DictGerAbs =
     , elefantenhaus_N
     , elefantenrennen_N
     , elefantenrunde_N
+    , elektroauto_N
+    , elektrofahrrad_N
+    , elektrogeraet_N
+    , elektrogitarre_N
+    , elektroheizung_N
+    , elektroherd_N
+    , elektroindustrie_N
+    , elektrokabel_N
+    , elektroleitung__N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1155,6 +1164,15 @@ lin elefantenfuss_N = mkN "Elefanten" fuss_N ;
 lin elefantenhaus_N = mkN "Elefanten" haus_N ;
 lin elefantenrennen_N = mkN "Elefanten" rennen_N ;
 lin elefantenrunde_N = mkN "Elefanten" runde_N ;
+lin elektroauto_N = mkN "Elektro" auto_N ;
+lin elektrofahrrad_N = mkN "Elektro" fahrrad_N ;
+lin elektrogeraet_N = mkN "Elektro" geraet_N ;
+lin elektrogitarre_N = mkN "Elektro" gitarre_N ;
+lin elektroheizung_N = mkN "Elektro" heizung_N ;
+lin elektroherd_N = mkN "Elektro" herd_N ;
+lin elektroindustrie_N = changeCompoundN "Elektroindustrien" (mkN "Elektro" industrie_N) ;
+lin elektrokabel_N = mkN "Elektro" kabel_N ;
+lin elektroleitung__N = mkN "Elektro" leitung_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;

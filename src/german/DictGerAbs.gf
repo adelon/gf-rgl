@@ -409,6 +409,15 @@ fun
   elefantenhaus_N : N ;
   elefantenrennen_N : N ;
   elefantenrunde_N : N ;
+  elektroauto_N : N ;
+  elektrofahrrad_N : N ;
+  elektrogeraet_N : N ;
+  elektrogitarre_N : N ;
+  elektroheizung_N : N ;
+  elektroherd_N : N ;
+  elektroindustrie_N : N ;
+  elektrokabel_N : N ;
+  elektroleitung__N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
