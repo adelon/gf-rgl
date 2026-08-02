@@ -922,6 +922,9 @@ fun
   dorfplatz_N : N ;
   dorfstrasse_N : N ;
   dorftrottel_N : N ;
+  dosiseinheit_N : N ;
+  dosisform_N : N ;
+  dosismenge_N : N ;
   dampfkavitation_N : N ;
   dampflok_N : N ;
   dampflokomotive_N : N ;

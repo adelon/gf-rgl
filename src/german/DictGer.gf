@@ -553,6 +553,9 @@ concrete DictGer of DictGerAbs =
     , dorfplatz_N
     , dorfstrasse_N
     , dorftrottel_N
+    , dosiseinheit_N
+    , dosisform_N
+    , dosismenge_N
     , dampfkavitation_N
     , dampflok_N
     , dampflokomotive_N
@@ -1556,6 +1559,9 @@ lin dorfhelfer_N = mkN dorf_N helfer_N ;
 lin dorfplatz_N = mkN dorf_N platz_N ;
 lin dorfstrasse_N = changeCompoundN "Dorfstraßen" (mkN dorf_N strasse_N) ;
 lin dorftrottel_N = mkN dorf_N trottel_N ;
+lin dosiseinheit_N = mkN dosis_N einheit_N ;
+lin dosisform_N = mkN dosis_N form_N ;
+lin dosismenge_N = mkN dosis_N menge_N ;
 lin dampfkavitation_N = mkN dampf_N kavitation_N ;
 lin dampflok_N = mkN dampf_N lok_N ;
 lin dampflokomotive_N = mkN dampf_N lokomotive_N ;
