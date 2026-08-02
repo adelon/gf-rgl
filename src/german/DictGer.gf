@@ -742,6 +742,9 @@ concrete DictGer of DictGerAbs =
     , elfenbeinturm_N
     , eliteeinheit_N
     , elitesoldat_N
+    , elternsprache_N
+    , elternteil_N
+    , elternzeit_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1191,6 +1194,9 @@ lin elfenbeinmoewe_N = mkN "Elfenbein" moewe_N ;
 lin elfenbeinturm_N = mkN "Elfenbein" turm_N ;
 lin eliteeinheit_N = changeCompoundN "Eliteeinheits" (mkN "Elite" einheit_N) ;
 lin elitesoldat_N = mkN "Elite" soldat_N ;
+lin elternsprache_N = changeCompoundN "Elternsprachen" (mkN "Eltern" sprache_N) ;
+lin elternteil_N = mkN "Eltern" teil_N ;
+lin elternzeit_N = mkN "Eltern" zeit_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;

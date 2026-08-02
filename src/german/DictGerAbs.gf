@@ -427,6 +427,9 @@ fun
   elfenbeinturm_N : N ;
   eliteeinheit_N : N ;
   elitesoldat_N : N ;
+  elternsprache_N : N ;
+  elternteil_N : N ;
+  elternzeit_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
