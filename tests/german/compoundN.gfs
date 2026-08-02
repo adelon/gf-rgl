@@ -30,6 +30,9 @@ i -retain alltenses/ParadigmsGer.gfo
 i -retain alltenses/DictGer.gfo
 cc -all kaktusbirne_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaktusbirne_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaktusbirne_N.co ++ kaktusfeige_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaktusfeige_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaktusfeige_N.co
 i -retain alltenses/ParadigmsGer.gfo
+i -retain alltenses/DictGer.gfo
+cc -all kalkstein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kalkstein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kalkstein_N.co
+i -retain alltenses/ParadigmsGer.gfo
 cc -all (mkN "Sprache" "Sprachen" feminine).co ++ (mkN "Sprache" "Sprachen" feminine).uncap.co
 cc -all (mkN (changeCompoundN "Ampere" (mkN "Ampere" "Ampere" neuter)) (mkN "Meter" "Meter" neuter)).s ! Sg ! Nom
 cc -all (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).s ! Sg ! Dat ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).uncap.s ! Sg ! Dat ++ (mkN "Feier" (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine)))).s ! Sg ! Nom ++ (mkN "Feier" (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine)))).s ! Sg ! Dat ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).co ++ (dative_eN (changeCompoundN "Tages" (mkN "Tag" "Tag" "Tag" "Tages" "Tage" "Tagen" masculine))).uncap.co

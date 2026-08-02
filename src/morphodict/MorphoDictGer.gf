@@ -18292,7 +18292,6 @@ lin kaliumion_N = mkN "Kaliumion" "Kaliumionen" neuter ;
 lin kaliumkanaloeffner_N = mkN "Kaliumkanalöffner" "Kaliumkanalöffner" masculine ;
 lin kaliumsalz_N = mkN "Kaliumsalz" "Kaliumsalze" neuter ;
 lin kalk_N = mkN "Kalk" "Kalke" masculine ;
-lin kalkstein_N = mkN "Kalkstein" "Kalksteine" masculine ;
 lin kalkulation_N = mkN "Kalkulation" ;
 lin kalkulieren_V = irregV "kalkulieren" "kalkuliert" "kalkulierte" "kalkulierte" "kalkuliert" ;
 lin kalligraph_N = mkN "Kalligraph" "Kalligraphen" masculine ;

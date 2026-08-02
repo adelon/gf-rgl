@@ -18287,7 +18287,6 @@ fun kaliumion_N : N ;
 fun kaliumkanaloeffner_N : N ;
 fun kaliumsalz_N : N ;
 fun kalk_N : N ;
-fun kalkstein_N : N ;
 fun kalkulation_N : N ;
 fun kalkulieren_V : V ;
 fun kalligraph_N : N ;
