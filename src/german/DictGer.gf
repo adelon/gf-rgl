@@ -199,6 +199,10 @@ concrete DictGer of DictGerAbs =
     , bakteriengift_N
     , bakterienkultur_N
     , bakteriensuspension_N
+    , balkenanker_N
+    , balkendiagramm_N
+    , balkenkopf_N
+    , balkenwaage_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -806,4 +810,8 @@ lin bakteriengeissel_N = mkN "Bakterien" geissel_N ;
 lin bakteriengift_N = mkN "Bakterien" gift_N ;
 lin bakterienkultur_N = mkN "Bakterien" kultur_N ;
 lin bakteriensuspension_N = mkN "Bakterien" suspension_N ;
+lin balkenanker_N = mkN "Balken" anker_N ;
+lin balkendiagramm_N = mkN "Balken" diagramm_N ;
+lin balkenkopf_N = mkN "Balken" kopf_N ;
+lin balkenwaage_N = mkN "Balken" waage_N ;
 }

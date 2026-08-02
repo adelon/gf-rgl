@@ -568,4 +568,8 @@ fun
   bakteriengift_N : N ;
   bakterienkultur_N : N ;
   bakteriensuspension_N : N ;
+  balkenanker_N : N ;
+  balkendiagramm_N : N ;
+  balkenkopf_N : N ;
+  balkenwaage_N : N ;
 }
