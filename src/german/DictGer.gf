@@ -158,6 +158,19 @@ concrete DictGer of DictGerAbs =
     , baerentraube_N
     , baerenzucker_N
     , baertierchen_N
+    , analogkaese_N
+    , chesterkaese_N
+    , frischkaese_N
+    , hartkaese_N
+    , huettenkaese_N
+    , kuhmilchkaese_N
+    , parmesankaese_N
+    , rohmilchkaese_N
+    , saanenkaese_N
+    , schafskaese_N
+    , schnittkaese_N
+    , stinkkaese_N
+    , weichkaese_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -724,4 +737,17 @@ lin baerenfellmuetze_N = mkN "Bärenfell" muetze_N ;
 lin baerentraube_N = mkN "Bären" traube_N ;
 lin baerenzucker_N = mkN "Bären" zucker_N ;
 lin baertierchen_N = mkN "Bär" tierchen_N ;
+lin analogkaese_N = mkN "Analog" kaese_N ;
+lin chesterkaese_N = mkN "Chester" kaese_N ;
+lin frischkaese_N = mkN "Frisch" kaese_N ;
+lin hartkaese_N = mkN "Hart" kaese_N ;
+lin huettenkaese_N = mkN "Hütten" kaese_N ;
+lin kuhmilchkaese_N = mkN "Kuhmilch" kaese_N ;
+lin parmesankaese_N = mkN "Parmesan" kaese_N ;
+lin rohmilchkaese_N = mkN "Rohmilch" kaese_N ;
+lin saanenkaese_N = mkN "Saanen" kaese_N ;
+lin schafskaese_N = mkN "Schafs" kaese_N ;
+lin schnittkaese_N = mkN "Schnitt" kaese_N ;
+lin stinkkaese_N = mkN "Stink" kaese_N ;
+lin weichkaese_N = mkN "Weich" kaese_N ;
 }

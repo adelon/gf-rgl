@@ -527,4 +527,17 @@ fun
   baerentraube_N : N ;
   baerenzucker_N : N ;
   baertierchen_N : N ;
+  analogkaese_N : N ;
+  chesterkaese_N : N ;
+  frischkaese_N : N ;
+  hartkaese_N : N ;
+  huettenkaese_N : N ;
+  kuhmilchkaese_N : N ;
+  parmesankaese_N : N ;
+  rohmilchkaese_N : N ;
+  saanenkaese_N : N ;
+  schafskaese_N : N ;
+  schnittkaese_N : N ;
+  stinkkaese_N : N ;
+  weichkaese_N : N ;
 }
