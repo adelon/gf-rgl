@@ -221,6 +221,17 @@ fun
   hauptmahlzeit_N : N ;
   hauptplatine_N : N ;
   hauptrolle_N : N ;
+  hauptsache_N : N ;
+  hauptsatz_N : N ;
+  hauptschluessel_N : N ;
+  hauptschnur_N : N ;
+  hauptseite_N : N ;
+  hauptspeise_N : N ;
+  hauptsprache_N : N ;
+  hauptstadt_N : N ;
+  hauptstrasse_N : N ;
+  hauptteil_N : N ;
+  hauptwort_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
