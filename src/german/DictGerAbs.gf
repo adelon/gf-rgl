@@ -319,6 +319,9 @@ fun
   hochzeitsgeschenk_N : N ;
   hochzeitssuppe_N : N ;
   hochzeitstorte_N : N ;
+  hosenrock_N : N ;
+  hosenschlitz_N : N ;
+  hosentraeger_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
