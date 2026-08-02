@@ -640,4 +640,7 @@ fun
   bauweise_N : N ;
   bauwerk_N : N ;
   bauzaun_N : N ;
+  bauspardarlehen_N : N ;
+  bausparkasse_N : N ;
+  bausparvertrag_N : N ;
 }

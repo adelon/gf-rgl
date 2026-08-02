@@ -271,6 +271,9 @@ concrete DictGer of DictGerAbs =
     , bauweise_N
     , bauwerk_N
     , bauzaun_N
+    , bauspardarlehen_N
+    , bausparkasse_N
+    , bausparvertrag_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -950,4 +953,7 @@ lin baustoff_N = mkN "Bau" stoff_N ;
 lin bauweise_N = mkN "Bau" weise_N ;
 lin bauwerk_N = mkN "Bau" werk_N ;
 lin bauzaun_N = mkN "Bau" zaun_N ;
+lin bauspardarlehen_N = mkN "Bauspar" darlehen_N ;
+lin bausparkasse_N = mkN "Bauspar" kasse_N ;
+lin bausparvertrag_N = mkN "Bauspar" vertrag_N ;
 }
