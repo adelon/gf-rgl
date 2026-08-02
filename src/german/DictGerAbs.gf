@@ -892,6 +892,15 @@ fun
   depotform_N : N ;
   depotformulierung_N : N ;
   dichtungsstreifen_N : N ;
+  doppeladler_N : N ;
+  doppelbauer_N : N ;
+  doppelbindung_N : N ;
+  doppelfehler_N : N ;
+  doppelhaus_N : N ;
+  doppelkreuz_N : N ;
+  doppelpass_N : N ;
+  doppelpunkt_N : N ;
+  doppelzimmer_N : N ;
   dampfkavitation_N : N ;
   dampflok_N : N ;
   dampflokomotive_N : N ;

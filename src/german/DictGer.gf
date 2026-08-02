@@ -523,6 +523,15 @@ concrete DictGer of DictGerAbs =
     , depotform_N
     , depotformulierung_N
     , dichtungsstreifen_N
+    , doppeladler_N
+    , doppelbauer_N
+    , doppelbindung_N
+    , doppelfehler_N
+    , doppelhaus_N
+    , doppelkreuz_N
+    , doppelpass_N
+    , doppelpunkt_N
+    , doppelzimmer_N
     , dampfkavitation_N
     , dampflok_N
     , dampflokomotive_N
@@ -1496,6 +1505,15 @@ lin deichbruch_N = mkN deich_N bruch_N ;
 lin depotform_N = mkN depot_N form_N ;
 lin depotformulierung_N = mkN depot_N (changeCompoundN "Formulierungs" formulierung_N) ;
 lin dichtungsstreifen_N = mkN dichtung_N streifen_N ;
+lin doppeladler_N = mkN doppel_N adler_N ;
+lin doppelbauer_N = mkN doppel_N bauer_N ;
+lin doppelbindung_N = changeCompoundN "Doppelbindungs" (mkN doppel_N bindung_N) ;
+lin doppelfehler_N = mkN doppel_N fehler_N ;
+lin doppelhaus_N = mkN doppel_N haus_N ;
+lin doppelkreuz_N = mkN doppel_N kreuz_N ;
+lin doppelpass_N = mkN doppel_N pass_N ;
+lin doppelpunkt_N = mkN doppel_N punkt_N ;
+lin doppelzimmer_N = mkN doppel_N zimmer_N ;
 lin dampfkavitation_N = mkN dampf_N kavitation_N ;
 lin dampflok_N = mkN dampf_N lok_N ;
 lin dampflokomotive_N = mkN dampf_N lokomotive_N ;
