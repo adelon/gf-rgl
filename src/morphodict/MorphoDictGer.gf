@@ -6735,7 +6735,6 @@ lin callgirl_N = mkN "Callgirl" "Callgirls" neuter ;
 lin calumet_N = mkN "Calumet" "Calumets" neuter ;
 lin calypso_N = mkN "Calypso" "Calypsos" masculine ;
 lin calzium_N = mkN "Calzium" "Calzien" neuter ;
-lin calziumverbindung_N = mkN "Calziumverbindung" "Calziumverbindungen" feminine ;
 lin camaieu_N = mkN "Camaieu" "Camaieuen" feminine ;
 lin camembert_N = mkN "Camembert" "Camemberts" masculine ;
 lin camion_N = mkN "Camion" ;

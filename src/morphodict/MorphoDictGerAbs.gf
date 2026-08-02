@@ -6729,7 +6729,6 @@ fun callgirl_N : N ;
 fun calumet_N : N ;
 fun calypso_N : N ;
 fun calzium_N : N ;
-fun calziumverbindung_N : N ;
 fun camaieu_N : N ;
 fun camembert_N : N ;
 fun camion_N : N ;

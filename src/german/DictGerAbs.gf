@@ -1659,6 +1659,7 @@ fun
   calciumsalz_N : N ;
   calciumspiegel_N : N ;
   calciumverbindung_N : N ;
+  calziumverbindung_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

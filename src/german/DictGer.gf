@@ -551,6 +551,7 @@ concrete DictGer of DictGerAbs =
     , calciumsalz_N
     , calciumspiegel_N
     , calciumverbindung_N
+    , calziumverbindung_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2905,6 +2906,7 @@ lin calciumquelle_N = mkN calcium_N quelle_N ;
 lin calciumsalz_N = mkN calcium_N salz_N ;
 lin calciumspiegel_N = mkN calcium_N spiegel_N ;
 lin calciumverbindung_N = mkN calcium_N verbindung_N ;
+lin calziumverbindung_N = mkN calzium_N verbindung_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
