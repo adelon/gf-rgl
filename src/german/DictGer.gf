@@ -464,6 +464,10 @@ concrete DictGer of DictGerAbs =
     , celluloseetherderivat_N
     , cellulosephthalat_N
     , cellulosepolymer_N
+    , chlorgruppe_N
+    , chloridanion_N
+    , chloridion_N
+    , chloridionenkatalysator_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1336,4 +1340,8 @@ lin celluloseether_N = mkN cellulose_N ether_N ;
 lin celluloseetherderivat_N = mkN celluloseether_N derivat_N ;
 lin cellulosephthalat_N = mkN cellulose_N (mkN "Phthalat" "Phthalate" neuter) ;
 lin cellulosepolymer_N = mkN cellulose_N polymer_N ;
+lin chlorgruppe_N = mkN chlor_N gruppe_N ;
+lin chloridanion_N = mkN chlorid_N anion_N ;
+lin chloridion_N = mkN chlorid_N ion_N ;
+lin chloridionenkatalysator_N = mkN chloridion_N katalysator_N ;
 }

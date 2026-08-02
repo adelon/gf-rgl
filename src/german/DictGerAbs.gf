@@ -833,4 +833,8 @@ fun
   celluloseetherderivat_N : N ;
   cellulosephthalat_N : N ;
   cellulosepolymer_N : N ;
+  chlorgruppe_N : N ;
+  chloridanion_N : N ;
+  chloridion_N : N ;
+  chloridionenkatalysator_N : N ;
 }
