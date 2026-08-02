@@ -208,6 +208,9 @@ concrete DictGer of DictGerAbs =
     , ballettschule_N
     , balletttaenzer_N
     , balletttaenzerin_N
+    , ballsaal_N
+    , ballspiel_N
+    , ballsportart_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -824,4 +827,7 @@ lin ballettlehrerin_N = mkN "Ballett" lehrerin_N ;
 lin ballettschule_N = mkN "Ballett" schule_N ;
 lin balletttaenzer_N = mkN "Ballett" taenzer_N ;
 lin balletttaenzerin_N = mkN "Ballett" taenzerin_N ;
+lin ballsaal_N = mkN "Ball" saal_N ;
+lin ballspiel_N = mkN "Ball" spiel_N ;
+lin ballsportart_N = mkN "Ball" sportart_N ;
 }

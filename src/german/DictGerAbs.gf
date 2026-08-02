@@ -577,4 +577,7 @@ fun
   ballettschule_N : N ;
   balletttaenzer_N : N ;
   balletttaenzerin_N : N ;
+  ballsaal_N : N ;
+  ballspiel_N : N ;
+  ballsportart_N : N ;
 }
