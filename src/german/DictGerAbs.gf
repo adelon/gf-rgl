@@ -453,6 +453,10 @@ fun
   englischlehrer_N : N ;
   englischlehrerin_N : N ;
   enkelkind_N : N ;
+  entenei_N : N ;
+  entenfeder_N : N ;
+  entenmuschel_N : N ;
+  entenschnabel_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

@@ -768,6 +768,10 @@ concrete DictGer of DictGerAbs =
     , englischlehrer_N
     , englischlehrerin_N
     , enkelkind_N
+    , entenei_N
+    , entenfeder_N
+    , entenmuschel_N
+    , entenschnabel_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1246,6 +1250,10 @@ lin englischhorn_N = mkN "Englisch" horn_N ;
 lin englischlehrer_N = mkN "Englisch" lehrer_N ;
 lin englischlehrerin_N = mkN "Englisch" lehrerin_N ;
 lin enkelkind_N = mkN "Enkel" kind_N ;
+lin entenei_N = mkN ente_N ei_N ;
+lin entenfeder_N = mkN ente_N feder_N ;
+lin entenmuschel_N = mkN ente_N muschel_N ;
+lin entenschnabel_N = mkN ente_N schnabel_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
