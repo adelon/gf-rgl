@@ -1660,6 +1660,10 @@ fun
   calciumspiegel_N : N ;
   calciumverbindung_N : N ;
   calziumverbindung_N : N ;
+  carboxylfunktion_N : N ;
+  carboxylgruppe_N : N ;
+  carboxylgruppierung_N : N ;
+  carboxylrest_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

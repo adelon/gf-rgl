@@ -552,6 +552,10 @@ concrete DictGer of DictGerAbs =
     , calciumspiegel_N
     , calciumverbindung_N
     , calziumverbindung_N
+    , carboxylfunktion_N
+    , carboxylgruppe_N
+    , carboxylgruppierung_N
+    , carboxylrest_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2907,6 +2911,10 @@ lin calciumsalz_N = mkN calcium_N salz_N ;
 lin calciumspiegel_N = mkN calcium_N spiegel_N ;
 lin calciumverbindung_N = mkN calcium_N verbindung_N ;
 lin calziumverbindung_N = mkN calzium_N verbindung_N ;
+lin carboxylfunktion_N = mkN "Carboxyl" funktion_N ;
+lin carboxylgruppe_N = mkN "Carboxyl" gruppe_N ;
+lin carboxylgruppierung_N = mkN "Carboxyl" gruppierung_N ;
+lin carboxylrest_N = mkN "Carboxyl" rest_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
