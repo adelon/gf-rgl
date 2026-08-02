@@ -295,6 +295,18 @@ concrete DictGer of DictGerAbs =
     , beachvolleyball_N
     , becherglas_N
     , bebauungsplan_N
+    , bedeutungsangabe_N
+    , bedeutungsbeziehung_N
+    , bedeutungserweiterung_N
+    , bedeutungsisolierung_N
+    , bedeutungslehre_N
+    , bedeutungsrelation_N
+    , bedeutungsuebertragung_N
+    , bedeutungsverbesserung_N
+    , bedeutungsverschlechterung_N
+    , bedeutungswandel_N
+    , bedeutungswoerterbuch_N
+    , bedeutungswort_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -998,4 +1010,16 @@ lin beachbasketball_N = mkN "Beach" basketball_N ;
 lin beachvolleyball_N = mkN "Beach" volleyball_N ;
 lin becherglas_N = mkN "Becher" glas_N ;
 lin bebauungsplan_N = mkN bebauung_N plan_N ;
+lin bedeutungsangabe_N = mkN bedeutung_N angabe_N ;
+lin bedeutungsbeziehung_N = mkN bedeutung_N beziehung_N ;
+lin bedeutungserweiterung_N = mkN bedeutung_N erweiterung_N ;
+lin bedeutungsisolierung_N = mkN bedeutung_N isolierung_N ;
+lin bedeutungslehre_N = mkN bedeutung_N lehre_N ;
+lin bedeutungsrelation_N = mkN bedeutung_N relation_N ;
+lin bedeutungsuebertragung_N = mkN bedeutung_N uebertragung_N ;
+lin bedeutungsverbesserung_N = mkN bedeutung_N verbesserung_N ;
+lin bedeutungsverschlechterung_N = mkN bedeutung_N verschlechterung_N ;
+lin bedeutungswandel_N = mkN bedeutung_N wandel_N ;
+lin bedeutungswoerterbuch_N = mkN bedeutung_N woerterbuch_N ;
+lin bedeutungswort_N = mkN bedeutung_N wort_N ;
 }

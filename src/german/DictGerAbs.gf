@@ -664,4 +664,16 @@ fun
   beachvolleyball_N : N ;
   becherglas_N : N ;
   bebauungsplan_N : N ;
+  bedeutungsangabe_N : N ;
+  bedeutungsbeziehung_N : N ;
+  bedeutungserweiterung_N : N ;
+  bedeutungsisolierung_N : N ;
+  bedeutungslehre_N : N ;
+  bedeutungsrelation_N : N ;
+  bedeutungsuebertragung_N : N ;
+  bedeutungsverbesserung_N : N ;
+  bedeutungsverschlechterung_N : N ;
+  bedeutungswandel_N : N ;
+  bedeutungswoerterbuch_N : N ;
+  bedeutungswort_N : N ;
 }
