@@ -381,6 +381,8 @@ concrete DictGer of DictGerAbs =
     , besatzungsmacht_N
     , besatzungsmitglied_N
     , besatzungszone_N
+    , beschaffungsamt_N
+    , beschreibungssprache_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1183,6 +1185,8 @@ lin besatzungsarmee_N = mkN besatzung_N armee_N ;
 lin besatzungsmacht_N = mkN besatzung_N macht_N ;
 lin besatzungsmitglied_N = mkN besatzung_N mitglied_N ;
 lin besatzungszone_N = mkN besatzung_N zone_N ;
+lin beschaffungsamt_N = mkN beschaffung_N amt_N ;
+lin beschreibungssprache_N = mkN beschreibung_N sprache_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

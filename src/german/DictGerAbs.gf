@@ -750,6 +750,8 @@ fun
   besatzungsmacht_N : N ;
   besatzungsmitglied_N : N ;
   besatzungszone_N : N ;
+  beschaffungsamt_N : N ;
+  beschreibungssprache_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
