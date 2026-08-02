@@ -573,6 +573,12 @@ concrete DictGer of DictGerAbs =
     , castorbehaelter_N
     , castorlager_N
     , castortransport_N
+    , chiantiflasche_N
+    , champagnerflasche_N
+    , cognacflasche_N
+    , cognacglas_N
+    , coladose_N
+    , colaflasche_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2949,6 +2955,12 @@ lin carboxyalkylcellulose_N = changeCompoundN "Carboxyalkylcellulosen" (mkN "Car
 lin castorbehaelter_N = mkN "Castor" behaelter_N ;
 lin castorlager_N = mkN "Castor" (mkN "Lager" "Lager" neuter) ;
 lin castortransport_N = mkN "Castor" transport_N ;
+lin chiantiflasche_N = mkN "Chianti" flasche_N ;
+lin champagnerflasche_N = mkN "Champagner" flasche_N ;
+lin cognacflasche_N = mkN "Cognac" flasche_N ;
+lin cognacglas_N = mkN "Cognac" glas_N ;
+lin coladose_N = mkN "Cola" dose_N ;
+lin colaflasche_N = mkN "Cola" flasche_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

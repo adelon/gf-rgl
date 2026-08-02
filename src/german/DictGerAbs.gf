@@ -1681,6 +1681,12 @@ fun
   castorbehaelter_N : N ;
   castorlager_N : N ;
   castortransport_N : N ;
+  chiantiflasche_N : N ;
+  champagnerflasche_N : N ;
+  cognacflasche_N : N ;
+  cognacglas_N : N ;
+  coladose_N : N ;
+  colaflasche_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
