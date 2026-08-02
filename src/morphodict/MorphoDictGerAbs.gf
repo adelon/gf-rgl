@@ -5389,7 +5389,6 @@ fun bezeichnende_N : N ;
 fun bezeichnet_A : A ;
 fun bezeichnete_N : N ;
 fun bezeichnung_N : N ;
-fun bezeichnungsexotismus_N : N ;
 fun bezichtigen_V : V ;
 fun beziehen_V : V ;
 fun beziehung_N : N ;

@@ -5395,7 +5395,6 @@ lin bezeichnende_N = mkN "Bezeichnende" "Bezeichnenden" neuter ;
 lin bezeichnet_A = regA "bezeichnet" ;
 lin bezeichnete_N = mkN "Bezeichnete" "Bezeichneten" neuter ;
 lin bezeichnung_N = mkN "Bezeichnung" ;
-lin bezeichnungsexotismus_N = mkN "Bezeichnungsexotismus" "Bezeichnungsexotismen" masculine ;
 lin bezichtigen_V = regV "bezichtigen" ;
 lin beziehen_V = irregV "beziehen" "bezieht" "bezog" "bezöge" "bezogen" ;
 lin beziehung_N = mkN "Beziehung" ;
