@@ -204,6 +204,10 @@ fun
   handwaesche_N : N ;
   handwerk_N : N ;
   handwurzel_N : N ;
+  halskette_N : N ;
+  halsschmerz_N : N ;
+  halstuch_N : N ;
+  halswirbel_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
