@@ -389,6 +389,14 @@ fun
   hydroxysaeure_N : N ;
   hydroxyschutzgruppe_N : N ;
   hydroxyverbindung_N : N ;
+  hydroxyalkylcellulose_N : N ;
+  hydroxycarbonsaeure_N : N ;
+  hydroxyethylcellulose_N : N ;
+  hydroxyethylstaerke_N : N ;
+  hydroxypropylcellulose_N : N ;
+  hydroxypropylgruppe_N : N ;
+  hydroxypropylmethylcellulose_N : N ;
+  hydroxypropylstaerke_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
