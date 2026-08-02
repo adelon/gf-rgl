@@ -151,9 +151,17 @@ concrete DictGer of DictGerAbs =
     , bachstelze_N
     , backenbart_N
     , backenzahn_N
+    , backenknochen_N
+    , backfisch_N
+    , backfischaquarium_N
     , backfett_N
     , backform_N
     , backofen_N
+    , backpinsel_N
+    , backpulver_N
+    , backshop_N
+    , backtrog_N
+    , backzucker_N
     , backsteinkaese_N
     , baerenfell_N
     , baerenfellmuetze_N
@@ -968,9 +976,17 @@ lin bachhund_N = mkN bach_N hund_N ;
 lin bachstelze_N = mkN bach_N stelze_N ;
 lin backenbart_N = mkN backen_N bart_N ;
 lin backenzahn_N = mkN backen_N zahn_N ;
+lin backenknochen_N = mkN backen_N knochen_N ;
+lin backfisch_N = mkN "Back" fisch_N ;
+lin backfischaquarium_N = mkN backfisch_N aquarium_N ;
 lin backfett_N = mkN "Back" fett_N ;
 lin backform_N = mkN "Back" form_N ;
 lin backofen_N = mkN "Back" ofen_N ;
+lin backpinsel_N = mkN "Back" pinsel_N ;
+lin backpulver_N = mkN "Back" pulver_N ;
+lin backshop_N = mkN "Back" shop_N ;
+lin backtrog_N = mkN "Back" trog_N ;
+lin backzucker_N = mkN "Back" zucker_N ;
 lin backsteinkaese_N = mkN "Backstein" kaese_N ;
 lin baerenfell_N = mkN "Bären" fell_N ;
 lin baerenfellmuetze_N = mkN "Bärenfell" muetze_N ;

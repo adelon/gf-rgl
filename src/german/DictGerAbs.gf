@@ -523,9 +523,17 @@ fun
   bachstelze_N : N ;
   backenbart_N : N ;
   backenzahn_N : N ;
+  backenknochen_N : N ;
+  backfisch_N : N ;
+  backfischaquarium_N : N ;
   backfett_N : N ;
   backform_N : N ;
   backofen_N : N ;
+  backpinsel_N : N ;
+  backpulver_N : N ;
+  backshop_N : N ;
+  backtrog_N : N ;
+  backzucker_N : N ;
   backsteinkaese_N : N ;
   baerenfell_N : N ;
   baerenfellmuetze_N : N ;
