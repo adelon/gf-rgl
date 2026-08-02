@@ -449,6 +449,9 @@ fun
   energiebuendel_N : N ;
   energiepass_N : N ;
   energiequelle_N : N ;
+  englischhorn_N : N ;
+  englischlehrer_N : N ;
+  englischlehrerin_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

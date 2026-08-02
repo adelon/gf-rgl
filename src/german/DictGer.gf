@@ -764,6 +764,9 @@ concrete DictGer of DictGerAbs =
     , energiebuendel_N
     , energiepass_N
     , energiequelle_N
+    , englischhorn_N
+    , englischlehrer_N
+    , englischlehrerin_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1238,6 +1241,9 @@ lin energieberatung_N = mkN "Energie" beratung_N ;
 lin energiebuendel_N = mkN "Energie" buendel_N ;
 lin energiepass_N = mkN "Energie" pass_N ;
 lin energiequelle_N = changeCompoundN "Energiequellen" (mkN "Energie" quelle_N) ;
+lin englischhorn_N = mkN "Englisch" horn_N ;
+lin englischlehrer_N = mkN "Englisch" lehrer_N ;
+lin englischlehrerin_N = mkN "Englisch" lehrerin_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
