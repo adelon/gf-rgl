@@ -504,6 +504,8 @@ fun
   kaliumbicarbonat_N : N ;
   kaliumion_N : N ;
   kaliumsalz_N : N ;
+  kamillentee_N : N ;
+  kamerafrau_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
