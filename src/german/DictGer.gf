@@ -986,6 +986,10 @@ concrete DictGer of DictGerAbs =
     , kaiserreich_N
     , kaiserschmarren_N
     , kaiserschnitt_N
+    , kaelteeinbruch_N
+    , kaeltekopfschmerz_N
+    , kaeltepol_N
+    , kaeltewelle_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1425,6 +1429,10 @@ lin kaiserpinguin_N = mkN kaiser_N pinguin_N ;
 lin kaiserreich_N = mkN kaiser_N reich_N ;
 lin kaiserschmarren_N = mkN kaiser_N schmarren_N ;
 lin kaiserschnitt_N = mkN kaiser_N schnitt_N ;
+lin kaelteeinbruch_N = mkN "Kälte" einbruch_N ;
+lin kaeltekopfschmerz_N = mkN "Kälte" kopfschmerz_N ;
+lin kaeltepol_N = mkN "Kälte" pol_N ;
+lin kaeltewelle_N = mkN "Kälte" welle_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

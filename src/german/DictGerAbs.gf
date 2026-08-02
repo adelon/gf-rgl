@@ -491,6 +491,10 @@ fun
   kaiserreich_N : N ;
   kaiserschmarren_N : N ;
   kaiserschnitt_N : N ;
+  kaelteeinbruch_N : N ;
+  kaeltekopfschmerz_N : N ;
+  kaeltepol_N : N ;
+  kaeltewelle_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
