@@ -774,6 +774,9 @@ concrete DictGer of DictGerAbs =
     , entenmuschel_N
     , entenschnabel_N
     , enkephalinasevariante_N
+    , entfuehrungsopfer_N
+    , entlausungsanstalt_N
+    , entmarkungskrankheit_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1258,6 +1261,9 @@ lin entenfeder_N = mkN ente_N feder_N ;
 lin entenmuschel_N = mkN ente_N muschel_N ;
 lin entenschnabel_N = mkN ente_N schnabel_N ;
 lin enkephalinasevariante_N = mkN enkephalinase_N variante_N ;
+lin entfuehrungsopfer_N = mkN "Entführungs" opfer_N ;
+lin entlausungsanstalt_N = mkN "Entlausungs" anstalt_N ;
+lin entmarkungskrankheit_N = mkN "Entmarkungs" krankheit_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

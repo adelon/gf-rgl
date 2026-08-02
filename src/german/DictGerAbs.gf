@@ -459,6 +459,9 @@ fun
   entenmuschel_N : N ;
   entenschnabel_N : N ;
   enkephalinasevariante_N : N ;
+  entfuehrungsopfer_N : N ;
+  entlausungsanstalt_N : N ;
+  entmarkungskrankheit_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
