@@ -211,6 +211,12 @@ concrete DictGer of DictGerAbs =
     , ballsaal_N
     , ballspiel_N
     , ballsportart_N
+    , bananenbrot_N
+    , bananenflanke_N
+    , bananenrepublik_N
+    , bananensaft_N
+    , bananenschale_N
+    , bananenstecker__N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -830,4 +836,10 @@ lin balletttaenzerin_N = mkN "Ballett" taenzerin_N ;
 lin ballsaal_N = mkN "Ball" saal_N ;
 lin ballspiel_N = mkN "Ball" spiel_N ;
 lin ballsportart_N = mkN "Ball" sportart_N ;
+lin bananenbrot_N = mkN "Bananen" brot_N ;
+lin bananenflanke_N = mkN "Bananen" flanke_N ;
+lin bananenrepublik_N = mkN "Bananen" republik_N ;
+lin bananensaft_N = mkN "Bananen" saft_N ;
+lin bananenschale_N = mkN "Bananen" schale_N ;
+lin bananenstecker__N = mkN "Bananen" stecker_N ;
 }

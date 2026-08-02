@@ -580,4 +580,10 @@ fun
   ballsaal_N : N ;
   ballspiel_N : N ;
   ballsportart_N : N ;
+  bananenbrot_N : N ;
+  bananenflanke_N : N ;
+  bananenrepublik_N : N ;
+  bananensaft_N : N ;
+  bananenschale_N : N ;
+  bananenstecker__N : N ;
 }
