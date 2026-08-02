@@ -192,6 +192,13 @@ concrete DictGer of DictGerAbs =
     , bahnschranke_N
     , bahnsteig_N
     , bahnuebergang_N
+    , bakterienchromosom_N
+    , bakterienfilter_N
+    , bakterienflora_N
+    , bakteriengeissel_N
+    , bakteriengift_N
+    , bakterienkultur_N
+    , bakteriensuspension_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -792,4 +799,11 @@ lin bahnreise_N = mkN "Bahn" reise_N ;
 lin bahnschranke_N = mkN "Bahn" schranke_N ;
 lin bahnsteig_N = mkN "Bahn" steig_N ;
 lin bahnuebergang_N = mkN "Bahn" uebergang_N ;
+lin bakterienchromosom_N = mkN "Bakterien" chromosom_N ;
+lin bakterienfilter_N = mkN "Bakterien" filter_N ;
+lin bakterienflora_N = mkN "Bakterien" flora_N ;
+lin bakteriengeissel_N = mkN "Bakterien" geissel_N ;
+lin bakteriengift_N = mkN "Bakterien" gift_N ;
+lin bakterienkultur_N = mkN "Bakterien" kultur_N ;
+lin bakteriensuspension_N = mkN "Bakterien" suspension_N ;
 }

@@ -561,4 +561,11 @@ fun
   bahnschranke_N : N ;
   bahnsteig_N : N ;
   bahnuebergang_N : N ;
+  bakterienchromosom_N : N ;
+  bakterienfilter_N : N ;
+  bakterienflora_N : N ;
+  bakteriengeissel_N : N ;
+  bakteriengift_N : N ;
+  bakterienkultur_N : N ;
+  bakteriensuspension_N : N ;
 }
