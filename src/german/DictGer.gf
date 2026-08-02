@@ -366,6 +366,11 @@ concrete DictGer of DictGerAbs =
     , benutzerkonto_N
     , benutzername_N
     , benutzerseite_N
+    , benzinbehaelter_N
+    , benzinflasche_N
+    , benzinkanister_N
+    , benzinpumpe_N
+    , benzinverbrauch_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1153,6 +1158,11 @@ lin bezeichnungsexotismus_N = mkN (changeCompoundN "Bezeichnungs" bezeichnung_N)
 lin benutzerkonto_N = mkN benutzer_N konto_N ;
 lin benutzername_N = mkN benutzer_N name_N ;
 lin benutzerseite_N = mkN benutzer_N seite_N ;
+lin benzinbehaelter_N = mkN benzin_N behaelter_N ;
+lin benzinflasche_N = mkN benzin_N flasche_N ;
+lin benzinkanister_N = mkN benzin_N kanister_N ;
+lin benzinpumpe_N = mkN benzin_N pumpe_N ;
+lin benzinverbrauch_N = mkN benzin_N verbrauch_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

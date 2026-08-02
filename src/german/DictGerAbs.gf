@@ -735,6 +735,11 @@ fun
   benutzerkonto_N : N ;
   benutzername_N : N ;
   benutzerseite_N : N ;
+  benzinbehaelter_N : N ;
+  benzinflasche_N : N ;
+  benzinkanister_N : N ;
+  benzinpumpe_N : N ;
+  benzinverbrauch_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
