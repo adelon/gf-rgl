@@ -131,3 +131,4 @@ cc -all ballettabend_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ba
 cc -all ballsaal_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ballsaal_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ballsaal_N.co ++ ballspiel_N.co ++ ballsportart_N.co
 cc -all bananenbrot_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bananenbrot_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bananenbrot_N.co ++ bananenflanke_N.co ++ bananenrepublik_N.co ++ bananensaft_N.co ++ bananenschale_N.co ++ bananenstecker__N.co
 cc -all balgfrucht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ balgfrucht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ balgfrucht_N.co ++ ballaststoff_N.co ++ balsamessig_N.co ++ bambusrohr_N.co
+cc -all bandenkrieg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bandenkrieg_N.co ++ bandgenerator_N.co ++ bandlaufwerk_N.co ++ bandnudel_N.co ++ bandsaege_N.co ++ bandsalat_N.co

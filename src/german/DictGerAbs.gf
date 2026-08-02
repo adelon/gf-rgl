@@ -590,4 +590,10 @@ fun
   ballaststoff_N : N ;
   balsamessig_N : N ;
   bambusrohr_N : N ;
+  bandenkrieg_N : N ;
+  bandgenerator_N : N ;
+  bandlaufwerk_N : N ;
+  bandnudel_N : N ;
+  bandsaege_N : N ;
+  bandsalat_N : N ;
 }

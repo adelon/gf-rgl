@@ -221,6 +221,12 @@ concrete DictGer of DictGerAbs =
     , ballaststoff_N
     , balsamessig_N
     , bambusrohr_N
+    , bandenkrieg_N
+    , bandgenerator_N
+    , bandlaufwerk_N
+    , bandnudel_N
+    , bandsaege_N
+    , bandsalat_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -850,4 +856,10 @@ lin balgfrucht_N = mkN "Balg" frucht_N ;
 lin ballaststoff_N = mkN "Ballast" stoff_N ;
 lin balsamessig_N = mkN "Balsam" essig_N ;
 lin bambusrohr_N = mkN "Bambus" rohr_N ;
+lin bandenkrieg_N = mkN "Banden" krieg_N ;
+lin bandgenerator_N = mkN "Band" generator_N ;
+lin bandlaufwerk_N = mkN "Band" laufwerk_N ;
+lin bandnudel_N = mkN "Band" nudel_N ;
+lin bandsaege_N = mkN "Band" saege_N ;
+lin bandsalat_N = mkN "Band" salat_N ;
 }
