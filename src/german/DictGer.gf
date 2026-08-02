@@ -666,6 +666,12 @@ concrete DictGer of DictGerAbs =
     , eigenschaftsprofil_N
     , eigenschaftswort_N
     , eigenviskositaet_N
+    , einbahnstrasse_N
+    , einblatt_N
+    , einfamilienhaus_N
+    , einhorn_N
+    , einraumwohnung_N
+    , eintagsfliege_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1038,6 +1044,12 @@ lin eigenheimbesitzer_N = mkN eigenheim_N besitzer_N ;
 lin eigenschaftsprofil_N = mkN "Eigenschafts" profil_N ;
 lin eigenschaftswort_N = mkN "Eigenschafts" wort_N ;
 lin eigenviskositaet_N = mkN "Eigen" viskositaet_N ;
+lin einbahnstrasse_N = mkN "Einbahn" strasse_N ;
+lin einblatt_N = mkN "Ein" blatt_N ;
+lin einfamilienhaus_N = mkN "Einfamilien" haus_N ;
+lin einhorn_N = mkN "Ein" horn_N ;
+lin einraumwohnung_N = mkN "Einraum" wohnung_N ;
+lin eintagsfliege_N = mkN "Eintags" fliege_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
