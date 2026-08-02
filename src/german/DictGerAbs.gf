@@ -265,6 +265,11 @@ fun
   hauswand_N : N ;
   hauswein_N : N ;
   hauswirt_N : N ;
+  haselmaus_N : N ;
+  haselnuss_N : N ;
+  hasenfuss_N : N ;
+  haubenmeise_N : N ;
+  haubentaucher_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
