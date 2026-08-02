@@ -8902,7 +8902,6 @@ fun durchbrechen_6_V : V ;
 fun durchbrechung_N : N ;
 fun durchbrennen_1_V : V ;
 fun durchbruch_N : N ;
-fun durchbruchschmerz_N : N ;
 fun durchdenken_V : V ;
 fun durchdrehen_1_V : V ;
 fun durchdringen_V : V ;

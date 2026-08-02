@@ -860,6 +860,7 @@ fun
   durchfuehrungsgesellschaft_N : N ;
   durchschnittseinkommen_N : N ;
   durchschnittsmenge_N : N ;
+  durchbruchschmerz_N : N ;
   dachantenne_N : N ;
   dachbalken_N : N ;
   dachboden_N : N ;

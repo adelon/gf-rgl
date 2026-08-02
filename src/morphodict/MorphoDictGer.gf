@@ -8908,7 +8908,6 @@ lin durchbrechen_6_V = prefixV "durch" (irregV "brechen" "brecht" "brach" "bräc
 lin durchbrechung_N = mkN "Durchbrechung" "Durchbrechungen" feminine ;
 lin durchbrennen_1_V = prefixV "durch" (irregV "brennen" "brennt" "brannte" "brannte" "gebrannt") ;
 lin durchbruch_N = mkN "Durchbruch" "Durchbrüche" masculine ;
-lin durchbruchschmerz_N = mkN "Durchbruchschmerz" "Durchbruchschmerzen" masculine ;
 lin durchdenken_V = irregV "durchdenken" "denkt" "dachte" "dächte" "gedacht" ;
 lin durchdrehen_1_V = prefixV "durch" (regV "drehen") ;
 lin durchdringen_V = prefixV "durch" (MorphoDictGer.dringen_V) ;
