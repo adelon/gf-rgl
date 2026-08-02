@@ -5350,8 +5350,6 @@ fun bewegen_V : V ;
 fun beweglich_A : A ;
 fun bewegt_A : A ;
 fun bewegung_N : N ;
-fun bewegungsmangel_N : N ;
-fun bewegungsstoerung_N : N ;
 fun bewehren_V : V ;
 fun bewehrt_A : A ;
 fun bewehrung_N : N ;
