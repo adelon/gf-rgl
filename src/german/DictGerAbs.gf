@@ -864,4 +864,13 @@ fun
   dachtraufe_N : N ;
   dachzeile_N : N ;
   dachziegel_N : N ;
+  dachbinder_N : N ;
+  dachfirst_N : N ;
+  dachgiebel_N : N ;
+  dachhase_N : N ;
+  dachkonstruktion_N : N ;
+  dachlawine_N : N ;
+  dachschaden_N : N ;
+  dachstuhl_N : N ;
+  dachwohnung_N : N ;
 }
