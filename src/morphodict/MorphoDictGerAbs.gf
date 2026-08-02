@@ -4732,8 +4732,6 @@ fun beibehalten_V : V ;
 fun beibringen_7_V : V ;
 fun beichte_N : N ;
 fun beichten_V : V ;
-fun beichtstuhl_N : N ;
-fun beichtvater_N : N ;
 fun beidenhaender_N : N ;
 fun beiderseits_Adv : Adv ;
 fun beidhaender_N : N ;

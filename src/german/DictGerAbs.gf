@@ -692,4 +692,6 @@ fun
   begriffsschrift_N : N ;
   begruessungsfloskel_N : N ;
   begruessungskuss_N : N ;
+  beichtstuhl_N : N ;
+  beichtvater_N : N ;
 }
