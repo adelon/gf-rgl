@@ -479,10 +479,12 @@ fun
   enzyminhibitor_N : N ;
   enzymsystem_N : N ;
   enzymzubereitung_N : N ;
+  epidermisschicht_N : N ;
   epithelgewebe_N : N ;
   epithelzelle_N : N ;
   epithelzelllinie_N : N ;
   epithelzellschaedigung_N : N ;
+  epistelseite_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

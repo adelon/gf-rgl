@@ -794,10 +794,12 @@ concrete DictGer of DictGerAbs =
     , enzyminhibitor_N
     , enzymsystem_N
     , enzymzubereitung_N
+    , epidermisschicht_N
     , epithelgewebe_N
     , epithelzelle_N
     , epithelzelllinie_N
     , epithelzellschaedigung_N
+    , epistelseite_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1302,10 +1304,12 @@ lin enzymgemisch_N = mkN "Enzym" gemisch_N ;
 lin enzyminhibitor_N = mkN "Enzym" inhibitor_N ;
 lin enzymsystem_N = mkN "Enzym" system_N ;
 lin enzymzubereitung_N = mkN "Enzym" zubereitung_N ;
+lin epidermisschicht_N = mkN "Epidermis" schicht_N ;
 lin epithelgewebe_N = changeCompoundN "Epithelgeweben" (mkN "Epithel" gewebe_N) ;
 lin epithelzelle_N = mkN "Epithel" zelle_N ;
 lin epithelzelllinie_N = mkN epithelzelle_N linie_N ;
 lin epithelzellschaedigung_N = mkN epithelzelle_N schaedigung_N ;
+lin epistelseite_N = mkN "Epistel" seite_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
