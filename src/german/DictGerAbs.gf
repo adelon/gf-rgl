@@ -715,6 +715,7 @@ fun
   befehlssequenz_N : N ;
   befehlsverweigerung_N : N ;
   befoerderungsmittel_N : N ;
+  befeuchtungsmittel_N : N ;
   befreiungsschlag_N : N ;
   begierdetaufe_N : N ;
   begriffsschrift_N : N ;
@@ -726,6 +727,7 @@ fun
   behelfsbruecke_N : N ;
   beinbruch_N : N ;
   beinhaus_N : N ;
+  benetzungsmittel_N : N ;
   belegstelle_N : N ;
   beitrittserklaerung_N : N ;
   berufsakademie_N : N ;

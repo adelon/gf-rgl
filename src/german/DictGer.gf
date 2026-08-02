@@ -346,6 +346,7 @@ concrete DictGer of DictGerAbs =
     , befehlssequenz_N
     , befehlsverweigerung_N
     , befoerderungsmittel_N
+    , befeuchtungsmittel_N
     , befreiungsschlag_N
     , begierdetaufe_N
     , begriffsschrift_N
@@ -357,6 +358,7 @@ concrete DictGer of DictGerAbs =
     , behelfsbruecke_N
     , beinbruch_N
     , beinhaus_N
+    , benetzungsmittel_N
     , belegstelle_N
     , beitrittserklaerung_N
     , berufsakademie_N
@@ -1042,6 +1044,8 @@ lin basispunkt_N = mkN basis_N punkt_N ;
 lin beruhigungsmittel_N = mkN "Beruhigungs" mittel_N ;
 lin ballmarker_N = mkN ball_N marker_N ;
 lin beisszange_N = mkN "Beiß" zange_N ;
+lin befeuchtungsmittel_N = mkN "Befeuchtungs" mittel_N ;
+lin benetzungsmittel_N = mkN "Benetzungs" mittel_N ;
 lin bahnhof_N = mkN bahn_N hof_N ;
 lin bahnhofsgaststaette_N = mkN "Bahnhofs" gaststaette_N ;
 lin bahnhofsuhr_N = mkN "Bahnhofs" uhr_N ;
