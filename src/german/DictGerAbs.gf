@@ -367,6 +367,13 @@ fun
   eiscafe_N : N ;
   eisdecke_N : N ;
   eisdiele_N : N ;
+  eisenatom_N : N ;
+  eisenerz_N : N ;
+  eisengehalt_N : N ;
+  eisenhut_N : N ;
+  eisenrohr_N : N ;
+  eisensalz_N : N ;
+  eisenverbindung_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
