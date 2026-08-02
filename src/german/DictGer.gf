@@ -1033,6 +1033,17 @@ concrete DictGer of DictGerAbs =
     , kanzlermehrheit_N
     , kanonenschuss_N
     , kanonenturm_N
+    , kapitaensbinde_N
+    , kapitalismusanalyse_N
+    , kapselhuelse_N
+    , kapsidpartikel_N
+    , kapsidprotein_N
+    , karabinerhaken_N
+    , karateschule_N
+    , karpfenstein_N
+    , karpfenteich_N
+    , kartellamt_N
+    , kartenhaus_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1519,6 +1530,17 @@ lin kanzlerkandidatin_N = mkN kanzler_N kandidatin_N ;
 lin kanzlermehrheit_N = mkN kanzler_N mehrheit_N ;
 lin kanonenschuss_N = mkN "Kanonen" schuss_N ;
 lin kanonenturm_N = mkN "Kanonen" turm_N ;
+lin kapitaensbinde_N = mkN "Kapitäns" binde_N ;
+lin kapitalismusanalyse_N = mkN "Kapitalismus" analyse_N ;
+lin kapselhuelse_N = mkN kapsel_N huelse_N ;
+lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
+lin kapsidprotein_N = mkN kapsid_N protein_N ;
+lin karabinerhaken_N = mkN karabiner_N haken_N ;
+lin karateschule_N = mkN "Karate" schule_N ;
+lin karpfenstein_N = mkN karpfen_N stein_N ;
+lin karpfenteich_N = mkN karpfen_N teich_N ;
+lin kartellamt_N = mkN kartell_N amt_N ;
+lin kartenhaus_N = mkN "Karten" haus_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

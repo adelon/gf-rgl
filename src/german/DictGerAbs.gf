@@ -538,6 +538,17 @@ fun
   kanzlermehrheit_N : N ;
   kanonenschuss_N : N ;
   kanonenturm_N : N ;
+  kapitaensbinde_N : N ;
+  kapitalismusanalyse_N : N ;
+  kapselhuelse_N : N ;
+  kapsidpartikel_N : N ;
+  kapsidprotein_N : N ;
+  karabinerhaken_N : N ;
+  karateschule_N : N ;
+  karpfenstein_N : N ;
+  karpfenteich_N : N ;
+  kartellamt_N : N ;
+  kartenhaus_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
