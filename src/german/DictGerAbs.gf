@@ -1195,6 +1195,13 @@ fun
   qualitaetswein_mit_praedikat_N : N ;
   qualitaetswein_bestimmter_anbaugebiete_N : N ;
   capsulitis_adhaesiva_N : N ;
+  ach_laut_N : N ;
+  ad_hoc_bildung__N : N ;
+  aha_erlebnis_N : N ;
+  aleppo_kiefer_N : N ;
+  antillen_gulden_N : N ;
+  aruba_gulden_N : N ;
+  audio_designer_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;

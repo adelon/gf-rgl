@@ -85,6 +85,13 @@ concrete DictGer of DictGerAbs =
     , qualitaetswein_bestimmter_anbaugebiete_N
     , zahl_null_N
     , capsulitis_adhaesiva_N
+    , ach_laut_N
+    , ad_hoc_bildung__N
+    , aha_erlebnis_N
+    , aleppo_kiefer_N
+    , antillen_gulden_N
+    , aruba_gulden_N
+    , audio_designer_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1841,6 +1848,13 @@ lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
 lin a_bombe_N = mkHyphenN a_N bombe_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
+lin ach_laut_N = mkHyphenN "Ach" laut_N ;
+lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
+lin aha_erlebnis_N = mkHyphenN "Aha" erlebnis_N ;
+lin aleppo_kiefer_N = mkHyphenN "Aleppo" kiefer_N ;
+lin antillen_gulden_N = mkHyphenN "Antillen" gulden_N ;
+lin aruba_gulden_N = mkHyphenN "Aruba" gulden_N ;
+lin audio_designer_N = mkHyphenN "Audio" designer_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
