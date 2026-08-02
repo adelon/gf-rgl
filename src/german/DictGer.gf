@@ -217,6 +217,10 @@ concrete DictGer of DictGerAbs =
     , bananensaft_N
     , bananenschale_N
     , bananenstecker__N
+    , balgfrucht_N
+    , ballaststoff_N
+    , balsamessig_N
+    , bambusrohr_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -842,4 +846,8 @@ lin bananenrepublik_N = mkN "Bananen" republik_N ;
 lin bananensaft_N = mkN "Bananen" saft_N ;
 lin bananenschale_N = mkN "Bananen" schale_N ;
 lin bananenstecker__N = mkN "Bananen" stecker_N ;
+lin balgfrucht_N = mkN "Balg" frucht_N ;
+lin ballaststoff_N = mkN "Ballast" stoff_N ;
+lin balsamessig_N = mkN "Balsam" essig_N ;
+lin bambusrohr_N = mkN "Bambus" rohr_N ;
 }

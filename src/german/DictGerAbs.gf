@@ -586,4 +586,8 @@ fun
   bananensaft_N : N ;
   bananenschale_N : N ;
   bananenstecker__N : N ;
+  balgfrucht_N : N ;
+  ballaststoff_N : N ;
+  balsamessig_N : N ;
+  bambusrohr_N : N ;
 }
