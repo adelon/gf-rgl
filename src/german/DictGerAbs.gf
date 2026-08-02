@@ -820,4 +820,11 @@ fun
   calciumsalz_N : N ;
   calciumspiegel_N : N ;
   calciumverbindung_N : N ;
+  cafehaus_N : N ;
+  campingbus_N : N ;
+  campingplatz_N : N ;
+  campingstuhl_N : N ;
+  cellokonzert_N : N ;
+  cellospieler_N : N ;
+  cellospielerin_N : N ;
 }

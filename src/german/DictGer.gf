@@ -451,6 +451,13 @@ concrete DictGer of DictGerAbs =
     , calciumsalz_N
     , calciumspiegel_N
     , calciumverbindung_N
+    , cafehaus_N
+    , campingbus_N
+    , campingplatz_N
+    , campingstuhl_N
+    , cellokonzert_N
+    , cellospieler_N
+    , cellospielerin_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1310,4 +1317,11 @@ lin calciumquelle_N = mkN calcium_N quelle_N ;
 lin calciumsalz_N = mkN calcium_N salz_N ;
 lin calciumspiegel_N = mkN calcium_N spiegel_N ;
 lin calciumverbindung_N = mkN calcium_N verbindung_N ;
+lin cafehaus_N = mkN cafe_N haus_N ;
+lin campingbus_N = mkN "Camping" bus_N ;
+lin campingplatz_N = mkN "Camping" platz_N ;
+lin campingstuhl_N = mkN "Camping" stuhl_N ;
+lin cellokonzert_N = mkN cello_N konzert_N ;
+lin cellospieler_N = mkN cello_N spieler_N ;
+lin cellospielerin_N = mkN cello_N spielerin_N ;
 }
