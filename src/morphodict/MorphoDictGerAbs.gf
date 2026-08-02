@@ -7647,8 +7647,6 @@ fun defizitaer_A : A ;
 fun deflation_N : N ;
 fun defloration_N : N ;
 fun deflorieren_V : V ;
-fun deformationsgeschwindigkeit_N : N ;
-fun deformationsgradient_N : N ;
 fun deformieren_V : V ;
 fun defragmentierung_N : N ;
 fun degagiert_A : A ;

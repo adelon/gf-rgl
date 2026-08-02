@@ -917,4 +917,6 @@ fun
   datentyp_N : N ;
   datenuebertragung_N : N ;
   datenverlust_N : N ;
+  deformationsgeschwindigkeit_N : N ;
+  deformationsgradient_N : N ;
 }
