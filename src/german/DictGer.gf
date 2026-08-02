@@ -1044,6 +1044,15 @@ concrete DictGer of DictGerAbs =
     , karpfenteich_N
     , kartellamt_N
     , kartenhaus_N
+    , katzenauge_N
+    , katzenfell_N
+    , katzenfrettfell_N
+    , katzenklappe_N
+    , katzenklo_N
+    , katzenmusik_N
+    , katzenrasse_N
+    , katzentisch_N
+    , katzenwaesche_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1541,6 +1550,15 @@ lin karpfenstein_N = mkN karpfen_N stein_N ;
 lin karpfenteich_N = mkN karpfen_N teich_N ;
 lin kartellamt_N = mkN kartell_N amt_N ;
 lin kartenhaus_N = mkN "Karten" haus_N ;
+lin katzenauge_N = mkN "Katzen" auge_N ;
+lin katzenfell_N = mkN "Katzen" fell_N ;
+lin katzenfrettfell_N = mkN "Katzenfrett" fell_N ;
+lin katzenklappe_N = mkN "Katzen" klappe_N ;
+lin katzenklo_N = mkN "Katzen" klo_N ;
+lin katzenmusik_N = mkN "Katzen" musik_N ;
+lin katzenrasse_N = changeCompoundN "Katzenrassen" (mkN "Katzen" rasse_N) ;
+lin katzentisch_N = mkN "Katzen" tisch_N ;
+lin katzenwaesche_N = changeCompoundN "Katzenwäschen" (mkN "Katzen" waesche_N) ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

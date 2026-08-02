@@ -549,6 +549,15 @@ fun
   karpfenteich_N : N ;
   kartellamt_N : N ;
   kartenhaus_N : N ;
+  katzenauge_N : N ;
+  katzenfell_N : N ;
+  katzenfrettfell_N : N ;
+  katzenklappe_N : N ;
+  katzenklo_N : N ;
+  katzenmusik_N : N ;
+  katzenrasse_N : N ;
+  katzentisch_N : N ;
+  katzenwaesche_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
