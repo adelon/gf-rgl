@@ -563,6 +563,13 @@ concrete DictGer of DictGerAbs =
     , carboxymethylgruppe_N
     , carboxyvinylpolymer_N
     , carboxyvinylsaeure_N
+    , carbonsaeureeinheit_N
+    , carbonsaeurefunktion_N
+    , carbonsaeuregruppe_N
+    , carbonylgruppe_N
+    , carbonylverbindung_N
+    , carboanhydraseinhibitor_N
+    , carboxyalkylcellulose_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2929,6 +2936,13 @@ lin carboxymethylcellulose_N = changeCompoundN "Carboxymethylcellulosen" (mkN "C
 lin carboxymethylgruppe_N = mkN "Carboxymethyl" gruppe_N ;
 lin carboxyvinylpolymer_N = mkN "Carboxyvinyl" polymer_N ;
 lin carboxyvinylsaeure_N = changeCompoundN "Carboxyvinylsäuren" (mkN "Carboxyvinyl" saeure_N) ;
+lin carbonsaeureeinheit_N = mkN "Carbonsäure" einheit_N ;
+lin carbonsaeurefunktion_N = mkN "Carbonsäure" funktion_N ;
+lin carbonsaeuregruppe_N = mkN "Carbonsäure" gruppe_N ;
+lin carbonylgruppe_N = mkN "Carbonyl" gruppe_N ;
+lin carbonylverbindung_N = mkN "Carbonyl" verbindung_N ;
+lin carboanhydraseinhibitor_N = mkN "Carboanhydrase" inhibitor_N ;
+lin carboxyalkylcellulose_N = changeCompoundN "Carboxyalkylcellulosen" (mkN "Carboxyalkyl" cellulose_N) ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

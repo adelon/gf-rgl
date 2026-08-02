@@ -1671,6 +1671,13 @@ fun
   carboxymethylgruppe_N : N ;
   carboxyvinylpolymer_N : N ;
   carboxyvinylsaeure_N : N ;
+  carbonsaeureeinheit_N : N ;
+  carbonsaeurefunktion_N : N ;
+  carbonsaeuregruppe_N : N ;
+  carbonylgruppe_N : N ;
+  carbonylverbindung_N : N ;
+  carboanhydraseinhibitor_N : N ;
+  carboxyalkylcellulose_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
