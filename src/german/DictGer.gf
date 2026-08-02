@@ -531,6 +531,15 @@ concrete DictGer of DictGerAbs =
     , dauerregen_N
     , dauerwelle_N
     , dauerzustand_N
+    , darmentzuendung_N
+    , darmerkrankung_N
+    , darminfektion_N
+    , darmkrankheit_N
+    , darmsaite_N
+    , darmspiegelung_N
+    , darmstoerung_N
+    , darmverschluss_N
+    , darmwind_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1470,4 +1479,13 @@ lin dauermarke_N = mkN dauer_N marke_N ;
 lin dauerregen_N = mkN dauer_N regen_N ;
 lin dauerwelle_N = mkN dauer_N welle_N ;
 lin dauerzustand_N = mkN dauer_N zustand_N ;
+lin darmentzuendung_N = mkN darm_N entzuendung_N ;
+lin darmerkrankung_N = mkN darm_N erkrankung_N ;
+lin darminfektion_N = mkN darm_N infektion_N ;
+lin darmkrankheit_N = mkN darm_N krankheit_N ;
+lin darmsaite_N = mkN darm_N saite_N ;
+lin darmspiegelung_N = mkN darm_N spiegelung_N ;
+lin darmstoerung_N = mkN darm_N stoerung_N ;
+lin darmverschluss_N = mkN darm_N verschluss_N ;
+lin darmwind_N = mkN darm_N wind_N ;
 }

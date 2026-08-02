@@ -900,4 +900,13 @@ fun
   dauerregen_N : N ;
   dauerwelle_N : N ;
   dauerzustand_N : N ;
+  darmentzuendung_N : N ;
+  darmerkrankung_N : N ;
+  darminfektion_N : N ;
+  darmkrankheit_N : N ;
+  darmsaite_N : N ;
+  darmspiegelung_N : N ;
+  darmstoerung_N : N ;
+  darmverschluss_N : N ;
+  darmwind_N : N ;
 }
