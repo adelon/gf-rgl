@@ -546,6 +546,13 @@ concrete DictGer of DictGerAbs =
     , doppelweck_N
     , doppelweltmeister_N
     , doppelzentner_N
+    , dorfbewohner_N
+    , dorfdepp_N
+    , dorfflur_N
+    , dorfhelfer_N
+    , dorfplatz_N
+    , dorfstrasse_N
+    , dorftrottel_N
     , dampfkavitation_N
     , dampflok_N
     , dampflokomotive_N
@@ -1542,6 +1549,13 @@ lin doppelspaltexperiment_N = mkN (mkN doppel_N spalt_N) experiment_N ;
 lin doppelweck_N = mkN doppel_N weck_N ;
 lin doppelweltmeister_N = mkN doppel_N weltmeister_N ;
 lin doppelzentner_N = mkN doppel_N zentner_N ;
+lin dorfbewohner_N = mkN dorf_N bewohner_N ;
+lin dorfdepp_N = mkN dorf_N depp_N ;
+lin dorfflur_N = mkN dorf_N (mkN "Flur" "Fluren" masculine) ;
+lin dorfhelfer_N = mkN dorf_N helfer_N ;
+lin dorfplatz_N = mkN dorf_N platz_N ;
+lin dorfstrasse_N = changeCompoundN "Dorfstraßen" (mkN dorf_N strasse_N) ;
+lin dorftrottel_N = mkN dorf_N trottel_N ;
 lin dampfkavitation_N = mkN dampf_N kavitation_N ;
 lin dampflok_N = mkN dampf_N lok_N ;
 lin dampflokomotive_N = mkN dampf_N lokomotive_N ;

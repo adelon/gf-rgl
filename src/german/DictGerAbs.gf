@@ -915,6 +915,13 @@ fun
   doppelweck_N : N ;
   doppelweltmeister_N : N ;
   doppelzentner_N : N ;
+  dorfbewohner_N : N ;
+  dorfdepp_N : N ;
+  dorfflur_N : N ;
+  dorfhelfer_N : N ;
+  dorfplatz_N : N ;
+  dorfstrasse_N : N ;
+  dorftrottel_N : N ;
   dampfkavitation_N : N ;
   dampflok_N : N ;
   dampflokomotive_N : N ;
