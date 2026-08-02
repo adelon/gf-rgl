@@ -374,6 +374,15 @@ fun
   eisenrohr_N : N ;
   eisensalz_N : N ;
   eisenverbindung_N : N ;
+  eisfach_N : N ;
+  eishoernchen_N : N ;
+  eiskaffee_N : N ;
+  eiskasten_N : N ;
+  eiskeil_N : N ;
+  eiskratzer_N : N ;
+  eiskrem_N : N ;
+  eiskristall_N : N ;
+  eiskugel_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;

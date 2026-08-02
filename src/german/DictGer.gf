@@ -689,6 +689,15 @@ concrete DictGer of DictGerAbs =
     , eisenrohr_N
     , eisensalz_N
     , eisenverbindung_N
+    , eisfach_N
+    , eishoernchen_N
+    , eiskaffee_N
+    , eiskasten_N
+    , eiskeil_N
+    , eiskratzer_N
+    , eiskrem_N
+    , eiskristall_N
+    , eiskugel_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1085,6 +1094,15 @@ lin eisenhut_N = mkN "Eisen" hut_N ;
 lin eisenrohr_N = mkN "Eisen" rohr_N ;
 lin eisensalz_N = mkN "Eisen" salz_N ;
 lin eisenverbindung_N = mkN "Eisen" verbindung_N ;
+lin eisfach_N = mkN eis_N fach_N ;
+lin eishoernchen_N = mkN eis_N hoernchen_N ;
+lin eiskaffee_N = changeCompoundN "Eiskaffeen" (mkN eis_N kaffee_N) ;
+lin eiskasten_N = mkN eis_N kasten_N ;
+lin eiskeil_N = mkN eis_N keil_N ;
+lin eiskratzer_N = mkN eis_N kratzer_N ;
+lin eiskrem_N = mkN eis_N krem_N ;
+lin eiskristall_N = mkN eis_N kristall_N ;
+lin eiskugel_N = mkN eis_N kugel_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
