@@ -514,6 +514,9 @@ fun
   erdoelleitung_N : N ;
   erdoelraffinerie_N : N ;
   erdwaermekraftwerk_N : N ;
+  erdgeschoss_7_N : N ;
+  erdgeschoss_N : N ;
+  erdgeschosswohnung_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

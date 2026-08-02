@@ -829,6 +829,9 @@ concrete DictGer of DictGerAbs =
     , erdoelleitung_N
     , erdoelraffinerie_N
     , erdwaermekraftwerk_N
+    , erdgeschoss_7_N
+    , erdgeschoss_N
+    , erdgeschosswohnung_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1368,6 +1371,9 @@ lin erdgasleitung_N = mkN "Erdgas" leitung_N ;
 lin erdoelleitung_N = mkN "Erdöl" leitung_N ;
 lin erdoelraffinerie_N = mkN "Erdöl" raffinerie_N ;
 lin erdwaermekraftwerk_N = mkN "Erdwärme" kraftwerk_N ;
+lin erdgeschoss_7_N = mkN erde_N geschoss_6_N ;
+lin erdgeschoss_N = mkN erde_N geschoss_N ;
+lin erdgeschosswohnung_N = mkN erdgeschoss_N wohnung_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
