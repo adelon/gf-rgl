@@ -856,6 +856,8 @@ fun
   duftkerze_N : N ;
   duftstoff_N : N ;
   dunstkreis_N : N ;
+  durchfallerkrankung_N : N ;
+  durchfuehrungsgesellschaft_N : N ;
   dachantenne_N : N ;
   dachbalken_N : N ;
   dachboden_N : N ;
