@@ -808,4 +808,16 @@ fun
   bergfink_N : N ;
   berghaenfling_N : N ;
   bergstation_N : N ;
+  calcium_N : N ;
+  calciumantagonist_N : N ;
+  calciumchelator_N : N ;
+  calciumcitrat_N : N ;
+  calciumion_N : N ;
+  calciumkation_N : N ;
+  calciummaterial_N : N ;
+  calciumphosphat_N : N ;
+  calciumquelle_N : N ;
+  calciumsalz_N : N ;
+  calciumspiegel_N : N ;
+  calciumverbindung_N : N ;
 }

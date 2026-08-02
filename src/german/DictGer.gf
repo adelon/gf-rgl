@@ -439,6 +439,18 @@ concrete DictGer of DictGerAbs =
     , bergfink_N
     , berghaenfling_N
     , bergstation_N
+    , calcium_N
+    , calciumantagonist_N
+    , calciumchelator_N
+    , calciumcitrat_N
+    , calciumion_N
+    , calciumkation_N
+    , calciummaterial_N
+    , calciumphosphat_N
+    , calciumquelle_N
+    , calciumsalz_N
+    , calciumspiegel_N
+    , calciumverbindung_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1286,4 +1298,16 @@ lin bergspitze_N = mkN berg_N spitze_N ;
 lin bergfink_N = mkN berg_N fink_N ;
 lin berghaenfling_N = mkN berg_N haenfling_N ;
 lin bergstation_N = mkN berg_N station_N ;
+lin calcium_N = mkN "Calcium" "Calcien" neuter ;
+lin calciumantagonist_N = mkN calcium_N antagonist_N ;
+lin calciumchelator_N = mkN calcium_N chelator_N ;
+lin calciumcitrat_N = mkN calcium_N citrat_N ;
+lin calciumion_N = mkN calcium_N ion_N ;
+lin calciumkation_N = mkN calcium_N kation_N ;
+lin calciummaterial_N = mkN calcium_N material_N ;
+lin calciumphosphat_N = mkN calcium_N phosphat_N ;
+lin calciumquelle_N = mkN calcium_N quelle_N ;
+lin calciumsalz_N = mkN calcium_N salz_N ;
+lin calciumspiegel_N = mkN calcium_N spiegel_N ;
+lin calciumverbindung_N = mkN calcium_N verbindung_N ;
 }
