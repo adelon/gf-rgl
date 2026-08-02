@@ -169,6 +169,10 @@ concrete DictGer of DictGerAbs =
     , chorturm_N
     , chorturmkirche_N
     , chorumgang_N
+    , christbaumkugel_N
+    , christdemokrat_N
+    , christrose_N
+    , christstollen_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -2009,6 +2013,10 @@ lin chorton_N = mkN "Chor" (mkN "Ton" "Töne" masculine) ;
 lin chorturm_N = mkN "Chor" turm_N ;
 lin chorturmkirche_N = mkN chorturm_N kirche_N ;
 lin chorumgang_N = mkN "Chor" umgang_N ;
+lin christbaumkugel_N = mkN "Christbaum" kugel_N ;
+lin christdemokrat_N = mkN christ_N demokrat_N ;
+lin christrose_N = mkN christ_N rose_N ;
+lin christstollen_N = mkN christ_N stollen_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

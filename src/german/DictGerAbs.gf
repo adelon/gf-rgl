@@ -1279,6 +1279,10 @@ fun
   chorturm_N : N ;
   chorturmkirche_N : N ;
   chorumgang_N : N ;
+  christbaumkugel_N : N ;
+  christdemokrat_N : N ;
+  christrose_N : N ;
+  christstollen_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
