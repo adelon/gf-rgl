@@ -7542,7 +7542,6 @@ lin date_N = mkN "Date" "Dates" neuter ;
 lin datei_N = mkN "Datei" "Dateien" feminine ;
 lin dateiname_N = mkN "Dateiname" "Dateinamen" masculine ;
 lin dateityp_N = mkN "Dateityp" "Dateitypen" masculine ;
-lin datenbanktrigger_N = mkN "Datenbanktrigger" "Datenbanktrigger" masculine ;
 lin datenfernuebertragung_N = mkN "Datenfernübertragung" ;
 lin datenschuetzer_N = mkN "Datenschützer" "Datenschützer" masculine ;
 lin datenschutzrechtlich_A = regA "datenschutzrechtlich" ;

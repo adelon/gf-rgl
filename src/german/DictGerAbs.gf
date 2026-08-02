@@ -917,6 +917,7 @@ fun
   datentyp_N : N ;
   datenuebertragung_N : N ;
   datenverlust_N : N ;
+  datenbanktrigger_N : N ;
   deformationsgeschwindigkeit_N : N ;
   deformationsgradient_N : N ;
   dehnungsfuge_N : N ;

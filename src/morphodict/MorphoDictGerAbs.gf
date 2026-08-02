@@ -7536,7 +7536,6 @@ fun date_N : N ;
 fun datei_N : N ;
 fun dateiname_N : N ;
 fun dateityp_N : N ;
-fun datenbanktrigger_N : N ;
 fun datenfernuebertragung_N : N ;
 fun datenschuetzer_N : N ;
 fun datenschutzrechtlich_A : A ;
