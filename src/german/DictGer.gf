@@ -832,6 +832,21 @@ concrete DictGer of DictGerAbs =
     , erdgeschoss_7_N
     , erdgeschoss_N
     , erdgeschosswohnung_N
+    , erdbirne_N
+    , erdkroete_N
+    , erdmaennchen_N
+    , erdmasse_N
+    , erdmoebel_N
+    , erdnuss_N
+    , erdoberflaeche_N
+    , erdofen_N
+    , erdrakete_N
+    , erdstall_N
+    , erdteil_N
+    , erdtrabant_N
+    , erdumfang_N
+    , erdwolf_N
+    , erdzeitalter_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1374,6 +1389,21 @@ lin erdwaermekraftwerk_N = mkN "Erdwärme" kraftwerk_N ;
 lin erdgeschoss_7_N = mkN erde_N geschoss_6_N ;
 lin erdgeschoss_N = mkN erde_N geschoss_N ;
 lin erdgeschosswohnung_N = mkN erdgeschoss_N wohnung_N ;
+lin erdbirne_N = changeCompoundN "Erdbirnen" (mkN "Erd" birne_N) ;
+lin erdkroete_N = mkN "Erd" kroete_N ;
+lin erdmaennchen_N = mkN "Erd" maennchen_N ;
+lin erdmasse_N = mkN "Erd" masse_N ;
+lin erdmoebel_N = mkN "Erd" moebel_N ;
+lin erdnuss_N = mkN "Erd" nuss_N ;
+lin erdoberflaeche_N = mkN "Erd" oberflaeche_N ;
+lin erdofen_N = mkN "Erd" ofen_N ;
+lin erdrakete_N = mkN "Erd" rakete_N ;
+lin erdstall_N = mkN "Erd" stall_N ;
+lin erdteil_N = mkN "Erd" teil_N ;
+lin erdtrabant_N = mkN "Erd" trabant_N ;
+lin erdumfang_N = mkN "Erd" umfang_N ;
+lin erdwolf_N = mkN "Erd" wolf_N ;
+lin erdzeitalter_N = mkN "Erd" zeitalter_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
