@@ -25943,7 +25943,6 @@ lin nationalistisch_A = mk3A "nationalistisch" "nationalistischer" "nationalisti
 lin nationalitaet_N = mkN "Nationalität" "Nationalitäten" feminine ;
 lin nationalmannschaft_N = mkN "Nationalmannschaft" "Nationalmannschaften" feminine ;
 lin nationalmusik_N = mkN "Nationalmusik" "Nationalmusiken" feminine ;
-lin nationaloekonomie__N = mkN "Nationalökonomie" "Nationalökonomien" feminine ;
 lin nationalpark_N = mkN "Nationalpark" "Nationalparks" masculine ;
 lin nationalsozialist_N = mkN "Nationalsozialist" "Nationalsozialisten" masculine ;
 lin nationalsozialistisch_A = mk3A "nationalsozialistisch" "nationalsozialistischer" "nationalsozialistischste" ;

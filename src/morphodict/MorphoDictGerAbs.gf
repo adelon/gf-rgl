@@ -25938,7 +25938,6 @@ fun nationalistisch_A : A ;
 fun nationalitaet_N : N ;
 fun nationalmannschaft_N : N ;
 fun nationalmusik_N : N ;
-fun nationaloekonomie__N : N ;
 fun nationalpark_N : N ;
 fun nationalsozialist_N : N ;
 fun nationalsozialistisch_A : A ;

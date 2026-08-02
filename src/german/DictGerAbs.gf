@@ -500,4 +500,5 @@ fun
   sprachoekonomie__N : N ;
   x_achse__N : N ;
   y_achse__N : N ;
+  nationaloekonomie__N : N ;
 }
