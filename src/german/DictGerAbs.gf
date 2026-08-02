@@ -148,6 +148,10 @@ fun
   achselhaar_N : N ;
   haarfarbe_N : N ;
   haarschnitt_N : N ;
+  haargarn_N : N ;
+  haarnetz_N : N ;
+  haarsieb_N : N ;
+  haarstern_N : N ;
   achselhoehle_N : N ;
   achteckstempel_N : N ;
   achterbahn_N : N ;
