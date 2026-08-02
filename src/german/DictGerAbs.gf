@@ -383,6 +383,12 @@ fun
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
+  hydroxyalkylgruppe_N : N ;
+  hydroxyfettsaeure_N : N ;
+  hydroxylschutzgruppe_N : N ;
+  hydroxysaeure_N : N ;
+  hydroxyschutzgruppe_N : N ;
+  hydroxyverbindung_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
