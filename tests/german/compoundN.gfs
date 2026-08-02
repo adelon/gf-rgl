@@ -151,3 +151,4 @@ cc -all begruessungsfloskel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative 
 cc -all beichtstuhl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beichtstuhl_N.co ++ beichtvater_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beichtvater_N.co
 cc -all behaeltervorrichtung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ behaeltervorrichtung_N.co ++ behelfsbruecke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ behelfsbruecke_N.co
 cc -all beinbruch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beinbruch_N.co ++ beinhaus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beinhaus_N.co
+cc -all belegstelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ belegstelle_N.co

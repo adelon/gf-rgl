@@ -4849,7 +4849,6 @@ fun belebt_A : A ;
 fun beleg_N : N ;
 fun belegen_V : V ;
 fun belegschaft_N : N ;
-fun belegstelle_N : N ;
 fun belegt_A : A ;
 fun belegung_N : N ;
 fun belehrend_A : A ;

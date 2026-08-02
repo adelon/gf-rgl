@@ -4855,7 +4855,6 @@ lin belebt_A = mk3A "belebt" "belebter" "belebteste" ;
 lin beleg_N = mkN "Beleg" "Belege" masculine ;
 lin belegen_V = regV "belegen" ;
 lin belegschaft_N = mkN "Belegschaft" "Belegschaften" feminine ;
-lin belegstelle_N = mkN "Belegstelle" "Belegstellen" feminine ;
 lin belegt_A = regA "belegt" ;
 lin belegung_N = mkN "Belegung" ;
 lin belehrend_A = mk3A "belehrend" "belehrender" "belehrendste" ;

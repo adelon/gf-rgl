@@ -698,4 +698,5 @@ fun
   behelfsbruecke_N : N ;
   beinbruch_N : N ;
   beinhaus_N : N ;
+  belegstelle_N : N ;
 }
