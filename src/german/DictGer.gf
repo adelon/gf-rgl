@@ -788,6 +788,12 @@ concrete DictGer of DictGerAbs =
     , entscheidungsfrage_N
     , entschliessungsantrag_N
     , entwicklungsstoerung_N
+    , enzymaktivitaet_N
+    , enzymbehandlung_N
+    , enzymgemisch_N
+    , enzyminhibitor_N
+    , enzymsystem_N
+    , enzymzubereitung_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1286,6 +1292,12 @@ lin entzuendungszelle_N = changeCompoundN "Entzündungszellen" (mkN "Entzündung
 lin entscheidungsfrage_N = changeCompoundN "Entscheidungsfragen" (mkN "Entscheidungs" frage_N) ;
 lin entschliessungsantrag_N = mkN "Entschließungs" antrag_N ;
 lin entwicklungsstoerung_N = mkN "Entwicklungs" stoerung_N ;
+lin enzymaktivitaet_N = mkN "Enzym" aktivitaet_N ;
+lin enzymbehandlung_N = mkN "Enzym" behandlung_N ;
+lin enzymgemisch_N = mkN "Enzym" gemisch_N ;
+lin enzyminhibitor_N = mkN "Enzym" inhibitor_N ;
+lin enzymsystem_N = mkN "Enzym" system_N ;
+lin enzymzubereitung_N = mkN "Enzym" zubereitung_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

@@ -473,6 +473,12 @@ fun
   entscheidungsfrage_N : N ;
   entschliessungsantrag_N : N ;
   entwicklungsstoerung_N : N ;
+  enzymaktivitaet_N : N ;
+  enzymbehandlung_N : N ;
+  enzymgemisch_N : N ;
+  enzyminhibitor_N : N ;
+  enzymsystem_N : N ;
+  enzymzubereitung_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
