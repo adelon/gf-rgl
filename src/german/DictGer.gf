@@ -768,6 +768,7 @@ concrete DictGer of DictGerAbs =
     , englischlehrer_N
     , englischlehrerin_N
     , enkelkind_N
+    , engelaut_N
     , entenei_N
     , entenfeder_N
     , entenmuschel_N
@@ -1250,6 +1251,7 @@ lin englischhorn_N = mkN "Englisch" horn_N ;
 lin englischlehrer_N = mkN "Englisch" lehrer_N ;
 lin englischlehrerin_N = mkN "Englisch" lehrerin_N ;
 lin enkelkind_N = mkN "Enkel" kind_N ;
+lin engelaut_N = mkN "Enge" laut_N ;
 lin entenei_N = mkN ente_N ei_N ;
 lin entenfeder_N = mkN ente_N feder_N ;
 lin entenmuschel_N = mkN ente_N muschel_N ;

@@ -9861,7 +9861,6 @@ fun engagiert_A : A ;
 fun enge_apposition_N : N ;
 fun enge_N : N ;
 fun engel_N : N ;
-fun engelaut_N : N ;
 fun engelmacher_N : N ;
 fun engelmacherin_N : N ;
 fun engerling_N : N ;

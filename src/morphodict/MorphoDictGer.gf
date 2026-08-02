@@ -9867,7 +9867,6 @@ lin engagiert_A = mk3A "engagiert" "engagierter" "engagierteste" ;
 lin enge_apposition_N = mkN "enge Apposition" ;
 lin enge_N = mkN "Enge" "Engen" feminine ;
 lin engel_N = mkN "Engel" "Engel" masculine ;
-lin engelaut_N = mkN "Engelaut" "Engelaute" masculine ;
 lin engelmacher_N = mkN "Engelmacher" "Engelmacher" masculine ;
 lin engelmacherin_N = mkN "Engelmacherin" "Engelmacherinnen" feminine ;
 lin engerling_N = mkN "Engerling" "Engerlinge" masculine ;

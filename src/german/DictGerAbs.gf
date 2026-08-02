@@ -453,6 +453,7 @@ fun
   englischlehrer_N : N ;
   englischlehrerin_N : N ;
   enkelkind_N : N ;
+  engelaut_N : N ;
   entenei_N : N ;
   entenfeder_N : N ;
   entenmuschel_N : N ;
