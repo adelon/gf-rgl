@@ -138,6 +138,9 @@ concrete DictGer of DictGerAbs =
     , backstein_N
     , backstube_N
     , backware_N
+    , bahnhofsvorplatz_N
+    , bahnpoststempel__N
+    , bahnradsport_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1947,6 +1950,9 @@ lin backpfeife_N = mkN "Back" pfeife_N ;
 lin backstein_N = mkN "Back" stein_N ;
 lin backstube_N = mkN "Back" stube_N ;
 lin backware_N = mkN "Back" ware_N ;
+lin bahnhofsvorplatz_N = mkN "Bahnhofs" (mkN "Vorplatz" "Vorplätze" masculine) ;
+lin bahnpoststempel__N = mkN "Bahnpost" stempel_N ;
+lin bahnradsport_N = mkN bahn_N radsport_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

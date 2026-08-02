@@ -1248,6 +1248,9 @@ fun
   backstein_N : N ;
   backstube_N : N ;
   backware_N : N ;
+  bahnhofsvorplatz_N : N ;
+  bahnpoststempel__N : N ;
+  bahnradsport_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
