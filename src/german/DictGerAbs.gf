@@ -383,6 +383,11 @@ fun
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
+  hydroxyapatit_N : N ;
+  hydroxylamin_N : N ;
+  hydroxylgruppensubstituent_N : N ;
+  hydroxylysine_N : N ;
+  hydroxymethylpropylcellulose_N : N ;
   hydroxyalkylgruppe_N : N ;
   hydroxyfettsaeure_N : N ;
   hydroxylschutzgruppe_N : N ;

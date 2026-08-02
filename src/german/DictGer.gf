@@ -875,6 +875,11 @@ concrete DictGer of DictGerAbs =
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
+    , hydroxyapatit_N
+    , hydroxylamin_N
+    , hydroxylgruppensubstituent_N
+    , hydroxylysine_N
+    , hydroxymethylpropylcellulose_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1214,6 +1219,11 @@ lin hydroxylschutzgruppe_N = mkN "Hydroxyl" schutzgruppe_N ;
 lin hydroxysaeure_N = changeCompoundN "Hydroxysäuren" (mkN "Hydroxy" saeure_N) ;
 lin hydroxyschutzgruppe_N = mkN "Hydroxy" schutzgruppe_N ;
 lin hydroxyverbindung_N = mkN "Hydroxy" verbindung_N ;
+lin hydroxyapatit_N = mkN "Hydroxy" (mkN "Apatit" "Apatiten" feminine) ;
+lin hydroxylamin_N = mkN "Hydroxyl" amin_N ;
+lin hydroxylgruppensubstituent_N = mkN hydroxylgruppe_N substituent_N ;
+lin hydroxylysine_N = mkN "Hydroxy" lysin_N ;
+lin hydroxymethylpropylcellulose_N = changeCompoundN "Hydroxymethylpropylcellulosen" (mkN "Hydroxymethylpropyl" cellulose_N) ;
 lin hydroxyalkylcellulose_N = changeCompoundN "Hydroxyalkylcellulosen" (mkN "Hydroxyalkyl" cellulose_N) ;
 lin hydroxycarbonsaeure_N = changeCompoundN "Hydroxycarbonsäuren" (mkN "Hydroxycarbon" saeure_N) ;
 lin hydroxyethylcellulose_N = changeCompoundN "Hydroxyethylcellulosen" (mkN "Hydroxyethyl" cellulose_N) ;
