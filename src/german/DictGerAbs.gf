@@ -335,6 +335,10 @@ fun
   eiertanz_N : N ;
   eieruhr_N : N ;
   eidgenossenschaft_N : N ;
+  eiform_N : N ;
+  eilauftrag_N : N ;
+  eilsendung_N : N ;
+  eilzug_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;

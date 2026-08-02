@@ -650,6 +650,10 @@ concrete DictGer of DictGerAbs =
     , eiertanz_N
     , eieruhr_N
     , eidgenossenschaft_N
+    , eiform_N
+    , eilauftrag_N
+    , eilsendung_N
+    , eilzug_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1006,6 +1010,10 @@ lin eierstich_N = mkN "Eier" stich_N ;
 lin eiertanz_N = mkN "Eier" tanz_N ;
 lin eieruhr_N = mkN "Eier" uhr_N ;
 lin eidgenossenschaft_N = mkN "Eid" genossenschaft_N ;
+lin eiform_N = mkN "Ei" form_N ;
+lin eilauftrag_N = mkN "Eil" auftrag_N ;
+lin eilsendung_N = mkN "Eil" sendung_N ;
+lin eilzug_N = mkN "Eil" zug_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
