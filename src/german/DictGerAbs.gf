@@ -1701,6 +1701,15 @@ fun
   cyanobakterium_N : N ;
   cytoplasmadomaene_N : N ;
   cytosinbase_N : N ;
+  cephalosporinderivat_N : N ;
+  cephalosporinverbindung_N : N ;
+  colonkrebszelle_N : N ;
+  corioliskraft_N : N ;
+  cycloalkylgruppe_N : N ;
+  cyclodextrinderivat_N : N ;
+  cyclohexylgruppe_N : N ;
+  cyclooxygenaseinhibitor_N : N ;
+  cyclopropylgruppe_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

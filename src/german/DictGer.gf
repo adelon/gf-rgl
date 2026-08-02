@@ -593,6 +593,15 @@ concrete DictGer of DictGerAbs =
     , cyanobakterium_N
     , cytoplasmadomaene_N
     , cytosinbase_N
+    , cephalosporinderivat_N
+    , cephalosporinverbindung_N
+    , colonkrebszelle_N
+    , corioliskraft_N
+    , cycloalkylgruppe_N
+    , cyclodextrinderivat_N
+    , cyclohexylgruppe_N
+    , cyclooxygenaseinhibitor_N
+    , cyclopropylgruppe_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2989,6 +2998,15 @@ lin cyanogruppe_N = mkN "Cyano" gruppe_N ;
 lin cyanobakterium_N = mkN "Cyano" bakterium_N ;
 lin cytoplasmadomaene_N = mkN "Cytoplasma" domaene_N ;
 lin cytosinbase_N = mkN "Cytosin" base_N ;
+lin cephalosporinderivat_N = mkN "Cephalosporin" derivat_N ;
+lin cephalosporinverbindung_N = mkN "Cephalosporin" verbindung_N ;
+lin colonkrebszelle_N = mkN "Colonkrebs" zelle_N ;
+lin corioliskraft_N = mkN "Coriolis" kraft_N ;
+lin cycloalkylgruppe_N = mkN "Cycloalkyl" gruppe_N ;
+lin cyclodextrinderivat_N = mkN "Cyclodextrin" derivat_N ;
+lin cyclohexylgruppe_N = mkN "Cyclohexyl" gruppe_N ;
+lin cyclooxygenaseinhibitor_N = mkN "Cyclooxygenase" inhibitor_N ;
+lin cyclopropylgruppe_N = mkN "Cyclopropyl" gruppe_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
