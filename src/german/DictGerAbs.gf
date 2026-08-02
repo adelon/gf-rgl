@@ -516,6 +516,8 @@ fun
   kampfpanzer_N : N ;
   kampfplatz_N : N ;
   kampfpreis_N : N ;
+  kanalgas_N : N ;
+  kammerjaeger_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

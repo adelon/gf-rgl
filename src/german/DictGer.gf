@@ -1011,6 +1011,8 @@ concrete DictGer of DictGerAbs =
     , kampfpanzer_N
     , kampfplatz_N
     , kampfpreis_N
+    , kanalgas_N
+    , kammerjaeger_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1475,6 +1477,8 @@ lin kampfname_N = mkN kampf_N name_N ;
 lin kampfpanzer_N = mkN kampf_N panzer_N ;
 lin kampfplatz_N = mkN kampf_N platz_N ;
 lin kampfpreis_N = mkN kampf_N preis_N ;
+lin kanalgas_N = mkN kanal_N gas_N ;
+lin kammerjaeger_N = mkN kammer_N jaeger_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
