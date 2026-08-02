@@ -328,6 +328,10 @@ fun
   hunderasse_N : N ;
   hundeschlitten_N : N ;
   hundeschwanz_N : N ;
+  hundefell_N : N ;
+  hundefriseur_N : N ;
+  hundefrisoer_N : N ;
+  hundespielzeug_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
