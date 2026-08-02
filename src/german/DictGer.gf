@@ -875,6 +875,13 @@ concrete DictGer of DictGerAbs =
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
+    , hybridomazelle_N
+    , hybridomazellinie_N
+    , hybridomazelllinie_N
+    , hybridomzelle_N
+    , hybridomzellinie_N
+    , hybridomzelllinie_N
+    , hybridplasminogenaktivator_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1203,6 +1210,13 @@ lin hybridrasse_N = changeCompoundN "Hybridrassen" (mkN hybrid_N rasse_N) ;
 lin hybridvektor_N = mkN hybrid_N vektor_N ;
 lin hybridzelle_N = changeCompoundN "Hybridzellen" (mkN hybrid_N zelle_N) ;
 lin hybridzellinie_N = mkN hybrid_N zellinie_N ;
+lin hybridomazelle_N = mkN hybridoma_N zelle_N ;
+lin hybridomazellinie_N = mkN hybridoma_N zellinie_N ;
+lin hybridomazelllinie_N = mkN hybridoma_N zelllinie_N ;
+lin hybridomzelle_N = mkN hybridom_N zelle_N ;
+lin hybridomzellinie_N = mkN hybridom_N zellinie_N ;
+lin hybridomzelllinie_N = mkN hybridom_N zelllinie_N ;
+lin hybridplasminogenaktivator_N = mkN (mkN hybrid_N plasminogen_N) aktivator_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

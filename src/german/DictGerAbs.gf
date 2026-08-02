@@ -380,6 +380,13 @@ fun
   hydrierungskatalysator_N : N ;
   hydrochloridsalz_N : N ;
   hydroxyfunktion_N : N ;
+  hybridomazelle_N : N ;
+  hybridomazellinie_N : N ;
+  hybridomazelllinie_N : N ;
+  hybridomzelle_N : N ;
+  hybridomzellinie_N : N ;
+  hybridomzelllinie_N : N ;
+  hybridplasminogenaktivator_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
