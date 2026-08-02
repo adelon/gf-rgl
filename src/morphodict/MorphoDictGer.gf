@@ -9882,7 +9882,6 @@ lin enkaptisch_A = regA "enkaptisch" ;
 lin enkel_N = mkN "Enkel" "Enkel" masculine ;
 lin enkelin_N = mkN "Enkelin" "Enkelinnen" feminine ;
 lin enkephalinase_N = mkN "Enkephalinase" "Enkephalinasen" "Enkephalinase" feminine ;
-lin enkephalinasevariante_N = mkN "Enkephalinasevariante" "Enkephalinasevarianten" feminine ;
 lin enklave_N = mkN "Enklave" "Enklaven" feminine ;
 lin enklise_N = mkN "Enklise" "Enklisen" feminine ;
 lin enklitikon_N = mkN "Enklitikon" "Enklitika" neuter ;

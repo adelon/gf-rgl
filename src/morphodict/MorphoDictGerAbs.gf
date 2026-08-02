@@ -9876,7 +9876,6 @@ fun enkaptisch_A : A ;
 fun enkel_N : N ;
 fun enkelin_N : N ;
 fun enkephalinase_N : N ;
-fun enkephalinasevariante_N : N ;
 fun enklave_N : N ;
 fun enklise_N : N ;
 fun enklitikon_N : N ;

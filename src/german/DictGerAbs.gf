@@ -458,6 +458,7 @@ fun
   entenfeder_N : N ;
   entenmuschel_N : N ;
   entenschnabel_N : N ;
+  enkephalinasevariante_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
