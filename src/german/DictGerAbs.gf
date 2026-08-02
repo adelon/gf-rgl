@@ -568,6 +568,9 @@ fun
   badezimmer_N : N ;
   bauleiter_N : N ;
   berufsschullehrer_N : N ;
+  basisdemokratie_N : N ;
+  basismaterial_N : N ;
+  basispunkt_N : N ;
   bahnhof_N : N ;
   bahnhofsgaststaette_N : N ;
   bahnhofsuhr_N : N ;
