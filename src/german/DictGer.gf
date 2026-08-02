@@ -184,6 +184,14 @@ concrete DictGer of DictGerAbs =
     , badeschwamm_N
     , badewanne_N
     , badezimmer_N
+    , bahnbus_N
+    , bahndamm_N
+    , bahnfahrt_N
+    , bahngleis_N
+    , bahnreise_N
+    , bahnschranke_N
+    , bahnsteig_N
+    , bahnuebergang_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -776,4 +784,12 @@ lin badesalz_N = mkN "Bade" salz_N ;
 lin badeschwamm_N = mkN "Bade" schwamm_N ;
 lin badewanne_N = mkN "Bade" wanne_N ;
 lin badezimmer_N = mkN "Bade" zimmer_N ;
+lin bahnbus_N = mkN "Bahn" bus_N ;
+lin bahndamm_N = mkN "Bahn" damm_N ;
+lin bahnfahrt_N = mkN "Bahn" fahrt_N ;
+lin bahngleis_N = mkN "Bahn" gleis_N ;
+lin bahnreise_N = mkN "Bahn" reise_N ;
+lin bahnschranke_N = mkN "Bahn" schranke_N ;
+lin bahnsteig_N = mkN "Bahn" steig_N ;
+lin bahnuebergang_N = mkN "Bahn" uebergang_N ;
 }
