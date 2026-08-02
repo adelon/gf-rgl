@@ -385,6 +385,9 @@ concrete DictGer of DictGerAbs =
     , beschreibungssprache_N
     , besenstiel_N
     , besenwirtschaft_N
+    , bestimmungsbuch_N
+    , bestimmungsort_N
+    , bestimmungswort_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1191,6 +1194,9 @@ lin beschaffungsamt_N = mkN beschaffung_N amt_N ;
 lin beschreibungssprache_N = mkN beschreibung_N sprache_N ;
 lin besenstiel_N = mkN besen_N stiel_N ;
 lin besenwirtschaft_N = mkN besen_N wirtschaft_N ;
+lin bestimmungsbuch_N = mkN bestimmung_N buch_N ;
+lin bestimmungsort_N = mkN bestimmung_N ort_N ;
+lin bestimmungswort_N = mkN bestimmung_N wort_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

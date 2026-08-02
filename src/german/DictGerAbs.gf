@@ -754,6 +754,9 @@ fun
   beschreibungssprache_N : N ;
   besenstiel_N : N ;
   besenwirtschaft_N : N ;
+  bestimmungsbuch_N : N ;
+  bestimmungsort_N : N ;
+  bestimmungswort_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
