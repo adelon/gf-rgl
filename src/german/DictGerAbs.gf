@@ -521,4 +521,10 @@ fun
   backfett_N : N ;
   backform_N : N ;
   backofen_N : N ;
+  backsteinkaese_N : N ;
+  baerenfell_N : N ;
+  baerenfellmuetze_N : N ;
+  baerentraube_N : N ;
+  baerenzucker_N : N ;
+  baertierchen_N : N ;
 }

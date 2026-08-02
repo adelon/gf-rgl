@@ -152,6 +152,12 @@ concrete DictGer of DictGerAbs =
     , backfett_N
     , backform_N
     , backofen_N
+    , backsteinkaese_N
+    , baerenfell_N
+    , baerenfellmuetze_N
+    , baerentraube_N
+    , baerenzucker_N
+    , baertierchen_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -712,4 +718,10 @@ lin backenzahn_N = mkN backen_N zahn_N ;
 lin backfett_N = mkN "Back" fett_N ;
 lin backform_N = mkN "Back" form_N ;
 lin backofen_N = mkN "Back" ofen_N ;
+lin backsteinkaese_N = mkN "Backstein" kaese_N ;
+lin baerenfell_N = mkN "Bären" fell_N ;
+lin baerenfellmuetze_N = mkN "Bärenfell" muetze_N ;
+lin baerentraube_N = mkN "Bären" traube_N ;
+lin baerenzucker_N = mkN "Bären" zucker_N ;
+lin baertierchen_N = mkN "Bär" tierchen_N ;
 }
