@@ -361,6 +361,18 @@ fun
   hutfahrer_N : N ;
   hutmacher_N : N ;
   hutmacherin_N : N ;
+  hybridantrieb_N : N ;
+  hybridauto_N : N ;
+  hybridbildung_N : N ;
+  hybridfaktor_N : N ;
+  hybridgen_N : N ;
+  hybridpartikel_N : N ;
+  hybridpromotor_N : N ;
+  hybridprotein_N : N ;
+  hybridrasse_N : N ;
+  hybridvektor_N : N ;
+  hybridzelle_N : N ;
+  hybridzellinie_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
