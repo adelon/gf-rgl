@@ -1724,6 +1724,15 @@ fun
   charterkolonie_N : N ;
   chatrollenspiel_N : N ;
   checkliste_N : N ;
+  dachgepaecktraeger_N : N ;
+  dachgeschoss_N : N ;
+  dachgeschosswohnung_N : N ;
+  dachgesellschaft_N : N ;
+  dachreiter__N : N ;
+  dachrinne_N : N ;
+  dachsfell_N : N ;
+  dachshund_N : N ;
+  dachverband_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

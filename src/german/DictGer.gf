@@ -616,6 +616,15 @@ concrete DictGer of DictGerAbs =
     , charterkolonie_N
     , chatrollenspiel_N
     , checkliste_N
+    , dachgepaecktraeger_N
+    , dachgeschoss_N
+    , dachgeschosswohnung_N
+    , dachgesellschaft_N
+    , dachreiter__N
+    , dachrinne_N
+    , dachsfell_N
+    , dachshund_N
+    , dachverband_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3035,6 +3044,15 @@ lin charaktereigenschaft_N = mkN charakter_N eigenschaft_N ;
 lin charterkolonie_N = mkN charter_N kolonie_N ;
 lin chatrollenspiel_N = mkN "Chat" rollenspiel_N ;
 lin checkliste_N = mkN "Check" liste_N ;
+lin dachgepaecktraeger_N = mkN dach_N gepaecktraeger_N ;
+lin dachgeschoss_N = mkN dach_N geschoss_N ;
+lin dachgeschosswohnung_N = mkN (mkN dach_N geschoss_N) wohnung_N ;
+lin dachgesellschaft_N = mkN dach_N gesellschaft_N ;
+lin dachreiter__N = mkN dach_N reiter_N ;
+lin dachrinne_N = mkN dach_N (mkN "Rinne" "Rinnen" feminine) ;
+lin dachsfell_N = mkN dachs_N fell_N ;
+lin dachshund_N = mkN dachs_N hund_N ;
+lin dachverband_N = mkN dach_N verband_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
