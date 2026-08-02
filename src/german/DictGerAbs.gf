@@ -572,6 +572,8 @@ fun
   basismaterial_N : N ;
   basispunkt_N : N ;
   beruhigungsmittel_N : N ;
+  ballmarker_N : N ;
+  beisszange_N : N ;
   bahnhof_N : N ;
   bahnhofsgaststaette_N : N ;
   bahnhofsuhr_N : N ;
