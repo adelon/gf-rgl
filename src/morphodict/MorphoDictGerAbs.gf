@@ -9754,7 +9754,6 @@ fun empfaengnisverhuetend_A : A ;
 fun empfaengnisverhuetungsmittel_N : N ;
 fun empfang_N : N ;
 fun empfangen_V : V ;
-fun empfangszimmer_N : N ;
 fun empfehlen_V : V ;
 fun empfehlenswert_A : A ;
 fun empfehlung_N : N ;

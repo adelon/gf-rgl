@@ -438,6 +438,7 @@ fun
   endmoraene_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
+  empfangszimmer_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;

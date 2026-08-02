@@ -9760,7 +9760,6 @@ lin empfaengnisverhuetend_A = regA "empfängnisverhütend" ;
 lin empfaengnisverhuetungsmittel_N = mkN "Empfängnisverhütungsmittel" "Empfängnisverhütungsmittel" neuter ;
 lin empfang_N = mkN "Empfang" "Empfänge" masculine ;
 lin empfangen_V = irregV "empfangen" "empfangt" "empfing" "empfinge" "empfangen" ;
-lin empfangszimmer_N = mkN "Empfangszimmer" "Empfangszimmer" neuter ;
 lin empfehlen_V = irregV "empfehlen" "empfehlt" "empfahl" "empfähle" "empfohlen" ;
 lin empfehlenswert_A = mk3A "empfehlenswert" "empfehlenswerter" "empfehlenswerteste" ;
 lin empfehlung_N = mkN "Empfehlung" ;
