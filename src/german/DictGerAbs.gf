@@ -1283,6 +1283,11 @@ fun
   christdemokrat_N : N ;
   christrose_N : N ;
   christstollen_N : N ;
+  computernetzwerk_N : N ;
+  computerprogramm_N : N ;
+  computerspiel_N : N ;
+  computersprache_N : N ;
+  computertastatur_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;

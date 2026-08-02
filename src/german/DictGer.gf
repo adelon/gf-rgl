@@ -173,6 +173,11 @@ concrete DictGer of DictGerAbs =
     , christdemokrat_N
     , christrose_N
     , christstollen_N
+    , computernetzwerk_N
+    , computerprogramm_N
+    , computerspiel_N
+    , computersprache_N
+    , computertastatur_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -2017,6 +2022,11 @@ lin christbaumkugel_N = mkN "Christbaum" kugel_N ;
 lin christdemokrat_N = mkN christ_N demokrat_N ;
 lin christrose_N = mkN christ_N rose_N ;
 lin christstollen_N = mkN christ_N stollen_N ;
+lin computernetzwerk_N = mkN computer_N netzwerk_N ;
+lin computerprogramm_N = mkN computer_N programm_N ;
+lin computerspiel_N = mkN computer_N spiel_N ;
+lin computersprache_N = changeCompoundN "Computersprachen" (mkN computer_N sprache_N) ;
+lin computertastatur_N = mkN computer_N tastatur_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
