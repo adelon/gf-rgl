@@ -399,6 +399,8 @@ fun
   hydroperoxid_N : N ;
   hydroxamsaeure_N : N ;
   hydroxidion_N : N ;
+  hyperaktivitaetsstoerung_N : N ;
+  hypothekarkredit_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

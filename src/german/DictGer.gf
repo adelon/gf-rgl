@@ -894,6 +894,8 @@ concrete DictGer of DictGerAbs =
     , hydroperoxid_N
     , hydroxamsaeure_N
     , hydroxidion_N
+    , hyperaktivitaetsstoerung_N
+    , hypothekarkredit_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1241,6 +1243,8 @@ lin hydrodispersion_N = mkN "Hydro" dispersion_N ;
 lin hydroperoxid_N = mkN "Hydro" peroxid_N ;
 lin hydroxamsaeure_N = changeCompoundN "Hydroxamsäuren" (mkN "Hydroxam" saeure_N) ;
 lin hydroxidion_N = mkN hydroxid_N ion_N ;
+lin hyperaktivitaetsstoerung_N = mkN "Hyperaktivitäts" stoerung_N ;
+lin hypothekarkredit_N = mkN hypothekar_N kredit_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
