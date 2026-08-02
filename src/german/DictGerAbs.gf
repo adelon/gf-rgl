@@ -286,6 +286,11 @@ fun
   heidelaeufer_N : N ;
   hefeinfektion_N : N ;
   hefezelle_N : N ;
+  heimfahrt_N : N ;
+  heimreise_N : N ;
+  heimsieg_N : N ;
+  heimspiel_N : N ;
+  heimtier_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
