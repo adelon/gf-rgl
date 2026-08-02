@@ -492,6 +492,8 @@ concrete DictGer of DictGerAbs =
     , durchschnittseinkommen_N
     , durchschnittsmenge_N
     , durchbruchschmerz_N
+    , durchlauferhitzer_N
+    , durchsetzungsvermoegen_N
     , dachantenne_N
     , dachbalken_N
     , dachboden_N
@@ -1511,6 +1513,8 @@ lin durchfuehrungsgesellschaft_N = mkN durchfuehrung_N gesellschaft_N ;
 lin durchschnittseinkommen_N = mkN "Durchschnitts" einkommen_N ;
 lin durchschnittsmenge_N = mkN "Durchschnitts" menge_N ;
 lin durchbruchschmerz_N = mkN durchbruch_N schmerz_N ;
+lin durchlauferhitzer_N = mkN "Durchlauf" erhitzer_N ;
+lin durchsetzungsvermoegen_N = mkN "Durchsetzungs" vermoegen_N ;
 lin dachantenne_N = mkN dach_N antenne_N ;
 lin dachbalken_N = mkN dach_N balken_N ;
 lin dachboden_N = mkN dach_N boden_N ;
