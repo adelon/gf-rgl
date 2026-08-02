@@ -581,6 +581,13 @@ fun
   koenigsspringer_N : N ;
   koenigsturm_N : N ;
   koenigszug_N : N ;
+  lederguertel_N : N ;
+  lederhose_N : N ;
+  lederjacke_N : N ;
+  lederkoffer_N : N ;
+  ledermantel_N : N ;
+  lederriemen_N : N ;
+  lederstiefel_N : N ;
   katzenauge_N : N ;
   katzenfell_N : N ;
   katzenfrettfell_N : N ;

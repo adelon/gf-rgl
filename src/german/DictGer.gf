@@ -1076,6 +1076,13 @@ concrete DictGer of DictGerAbs =
     , koenigsspringer_N
     , koenigsturm_N
     , koenigszug_N
+    , lederguertel_N
+    , lederhose_N
+    , lederjacke_N
+    , lederkoffer_N
+    , ledermantel_N
+    , lederriemen_N
+    , lederstiefel_N
     , katzenauge_N
     , katzenfell_N
     , katzenfrettfell_N
@@ -1614,6 +1621,13 @@ lin koenigssohn_N = mkN "Königs" sohn_N ;
 lin koenigsspringer_N = mkN "Königs" springer_N ;
 lin koenigsturm_N = mkN "Königs" turm_N ;
 lin koenigszug_N = mkN "Königs" zug_N ;
+lin lederguertel_N = mkN "Leder" guertel_N ;
+lin lederhose_N = mkN "Leder" hose_N ;
+lin lederjacke_N = mkN "Leder" jacke_N ;
+lin lederkoffer_N = mkN "Leder" koffer_N ;
+lin ledermantel_N = mkN "Leder" mantel_N ;
+lin lederriemen_N = mkN "Leder" riemen_N ;
+lin lederstiefel_N = mkN "Leder" stiefel_N ;
 lin katzenauge_N = mkN "Katzen" auge_N ;
 lin katzenfell_N = mkN "Katzen" fell_N ;
 lin katzenfrettfell_N = mkN "Katzenfrett" fell_N ;
