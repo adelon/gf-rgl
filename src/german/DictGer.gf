@@ -532,6 +532,20 @@ concrete DictGer of DictGerAbs =
     , doppelpass_N
     , doppelpunkt_N
     , doppelzimmer_N
+    , doppelbogey_N
+    , doppelfassade_N
+    , doppelkernprozessor_N
+    , doppelmoerder_N
+    , doppelmoerderin_N
+    , doppelmonarchie_N
+    , doppelquartett_N
+    , doppelschicht_N
+    , doppelschnepfe_N
+    , doppelschritt_N
+    , doppelspaltexperiment_N
+    , doppelweck_N
+    , doppelweltmeister_N
+    , doppelzentner_N
     , dampfkavitation_N
     , dampflok_N
     , dampflokomotive_N
@@ -1514,6 +1528,20 @@ lin doppelkreuz_N = mkN doppel_N kreuz_N ;
 lin doppelpass_N = mkN doppel_N pass_N ;
 lin doppelpunkt_N = mkN doppel_N punkt_N ;
 lin doppelzimmer_N = mkN doppel_N zimmer_N ;
+lin doppelbogey_N = mkN doppel_N bogey_N ;
+lin doppelfassade_N = changeCompoundN "Doppelfassaden" (mkN doppel_N fassade_N) ;
+lin doppelkernprozessor_N = mkN (mkN doppel_N kern_N) prozessor_N ;
+lin doppelmoerder_N = mkN doppel_N moerder_N ;
+lin doppelmoerderin_N = mkN doppel_N moerderin_N ;
+lin doppelmonarchie_N = changeCompoundN "Doppelmonarchien" (mkN doppel_N monarchie_N) ;
+lin doppelquartett_N = mkN doppel_N quartett_N ;
+lin doppelschicht_N = mkN doppel_N schicht_N ;
+lin doppelschnepfe_N = changeCompoundN "Doppelschnepfen" (mkN doppel_N schnepfe_N) ;
+lin doppelschritt_N = mkN doppel_N schritt_N ;
+lin doppelspaltexperiment_N = mkN (mkN doppel_N spalt_N) experiment_N ;
+lin doppelweck_N = mkN doppel_N weck_N ;
+lin doppelweltmeister_N = mkN doppel_N weltmeister_N ;
+lin doppelzentner_N = mkN doppel_N zentner_N ;
 lin dampfkavitation_N = mkN dampf_N kavitation_N ;
 lin dampflok_N = mkN dampf_N lok_N ;
 lin dampflokomotive_N = mkN dampf_N lokomotive_N ;
