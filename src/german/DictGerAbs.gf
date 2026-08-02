@@ -1251,6 +1251,13 @@ fun
   bahnhofsvorplatz_N : N ;
   bahnpoststempel__N : N ;
   bahnradsport_N : N ;
+  bandpassfilter_N : N ;
+  bandsaegeblatt_N : N ;
+  bandscheibe_N : N ;
+  bandscheibenvorfall_N : N ;
+  bandwurm_N : N ;
+  bandwurmsatz_N : N ;
+  bandwurmwort_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;

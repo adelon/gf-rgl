@@ -141,6 +141,13 @@ concrete DictGer of DictGerAbs =
     , bahnhofsvorplatz_N
     , bahnpoststempel__N
     , bahnradsport_N
+    , bandpassfilter_N
+    , bandsaegeblatt_N
+    , bandscheibe_N
+    , bandscheibenvorfall_N
+    , bandwurm_N
+    , bandwurmsatz_N
+    , bandwurmwort_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1953,6 +1960,13 @@ lin backware_N = mkN "Back" ware_N ;
 lin bahnhofsvorplatz_N = mkN "Bahnhofs" (mkN "Vorplatz" "Vorplätze" masculine) ;
 lin bahnpoststempel__N = mkN "Bahnpost" stempel_N ;
 lin bahnradsport_N = mkN bahn_N radsport_N ;
+lin bandpassfilter_N = mkN "Bandpass" filter_N ;
+lin bandsaegeblatt_N = mkN bandsaege_N blatt_N ;
+lin bandscheibe_N = mkN "Band" scheibe_N ;
+lin bandscheibenvorfall_N = mkN bandscheibe_N vorfall_N ;
+lin bandwurm_N = mkN "Band" wurm_N ;
+lin bandwurmsatz_N = mkN bandwurm_N satz_N ;
+lin bandwurmwort_N = mkN bandwurm_N wort_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
