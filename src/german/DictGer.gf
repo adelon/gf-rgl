@@ -97,6 +97,11 @@ concrete DictGer of DictGerAbs =
     , aberrationszeit_N
     , algonkin_sprache_N
     , alt_achtundsechziger_N
+    , buchbesprechung_N
+    , buchhandlung_N
+    , buchmesse_N
+    , buchtitel_N
+    , buchumschlag_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1865,6 +1870,11 @@ lin aberrationskonstante_N = mkN "Aberrations" konstante_N ;
 lin aberrationszeit_N = mkN "Aberrations" zeit_N ;
 lin algonkin_sprache_N = mkHyphenN "Algonkin" sprache_N ;
 lin alt_achtundsechziger_N = mkHyphenN "Alt" achtundsechziger_N ;
+lin buchbesprechung_N = mkN buch_N besprechung_N ;
+lin buchhandlung_N = mkN buch_N handlung_N ;
+lin buchmesse_N = changeCompoundN "Buchmessen" (mkN buch_N messe_N) ;
+lin buchtitel_N = mkN buch_N titel_N ;
+lin buchumschlag_N = mkN buch_N umschlag_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

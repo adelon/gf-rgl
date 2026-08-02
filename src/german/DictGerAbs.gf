@@ -1207,6 +1207,11 @@ fun
   aberrationszeit_N : N ;
   algonkin_sprache_N : N ;
   alt_achtundsechziger_N : N ;
+  buchbesprechung_N : N ;
+  buchhandlung_N : N ;
+  buchmesse_N : N ;
+  buchtitel_N : N ;
+  buchumschlag_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
