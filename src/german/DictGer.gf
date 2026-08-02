@@ -818,6 +818,17 @@ concrete DictGer of DictGerAbs =
     , erbstueck_N
     , erbswurst_N
     , erbwort_N
+    , erdaepfelsalat_N
+    , erdalkaliion_N
+    , erdalkalimetall_N
+    , erdalkalimetallcarbonat_N
+    , erdalkalimetallsalz_N
+    , erdaushubdeponie_N
+    , erdboden_N
+    , erdgasleitung_N
+    , erdoelleitung_N
+    , erdoelraffinerie_N
+    , erdwaermekraftwerk_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1346,6 +1357,17 @@ lin erbsenzaehler_N = mkN erbse_N zaehler_N ;
 lin erbstueck_N = mkN "Erb" stueck_N ;
 lin erbswurst_N = mkN "Erbs" wurst_N ;
 lin erbwort_N = mkN "Erb" wort_N ;
+lin erdaepfelsalat_N = mkN "Erdäpfel" salat_N ;
+lin erdalkaliion_N = mkN "Erdalkali" ion_N ;
+lin erdalkalimetall_N = mkN "Erdalkali" metall_N ;
+lin erdalkalimetallcarbonat_N = mkN erdalkalimetall_N carbonat_N ;
+lin erdalkalimetallsalz_N = mkN erdalkalimetall_N salz_N ;
+lin erdaushubdeponie_N = mkN "Erdaushub" deponie_N ;
+lin erdboden_N = mkN "Erd" boden_N ;
+lin erdgasleitung_N = mkN "Erdgas" leitung_N ;
+lin erdoelleitung_N = mkN "Erdöl" leitung_N ;
+lin erdoelraffinerie_N = mkN "Erdöl" raffinerie_N ;
+lin erdwaermekraftwerk_N = mkN "Erdwärme" kraftwerk_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

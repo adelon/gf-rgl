@@ -503,6 +503,17 @@ fun
   erbstueck_N : N ;
   erbswurst_N : N ;
   erbwort_N : N ;
+  erdaepfelsalat_N : N ;
+  erdalkaliion_N : N ;
+  erdalkalimetall_N : N ;
+  erdalkalimetallcarbonat_N : N ;
+  erdalkalimetallsalz_N : N ;
+  erdaushubdeponie_N : N ;
+  erdboden_N : N ;
+  erdgasleitung_N : N ;
+  erdoelleitung_N : N ;
+  erdoelraffinerie_N : N ;
+  erdwaermekraftwerk_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
