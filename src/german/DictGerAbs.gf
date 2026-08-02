@@ -299,6 +299,14 @@ fun
   himmelbett_N : N ;
   himmelfahrt_N : N ;
   himmelsleiter_N : N ;
+  hochblatt_N : N ;
+  hochbruecke_N : N ;
+  hochhaus_N : N ;
+  hochnebel_N : N ;
+  hochofen_N : N ;
+  hochschule_N : N ;
+  hochseil_N : N ;
+  hochstrasse_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
