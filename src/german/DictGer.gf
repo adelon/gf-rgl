@@ -522,6 +522,15 @@ concrete DictGer of DictGerAbs =
     , dampfradio_N
     , dampfschiff_N
     , dampfturbine_N
+    , dauerauftrag_N
+    , dauerbrenner_N
+    , dauerkarte_N
+    , dauerkultur_N
+    , dauerlauf_N
+    , dauermarke_N
+    , dauerregen_N
+    , dauerwelle_N
+    , dauerzustand_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1452,4 +1461,13 @@ lin dampfplauderer_N = mkN dampf_N plauderer_N ;
 lin dampfradio_N = mkN dampf_N radio_N ;
 lin dampfschiff_N = mkN dampf_N schiff_N ;
 lin dampfturbine_N = mkN dampf_N turbine_N ;
+lin dauerauftrag_N = mkN dauer_N auftrag_N ;
+lin dauerbrenner_N = mkN dauer_N brenner_N ;
+lin dauerkarte_N = mkN dauer_N karte_N ;
+lin dauerkultur_N = mkN dauer_N kultur_N ;
+lin dauerlauf_N = mkN dauer_N lauf_N ;
+lin dauermarke_N = mkN dauer_N marke_N ;
+lin dauerregen_N = mkN dauer_N regen_N ;
+lin dauerwelle_N = mkN dauer_N welle_N ;
+lin dauerzustand_N = mkN dauer_N zustand_N ;
 }

@@ -891,4 +891,13 @@ fun
   dampfradio_N : N ;
   dampfschiff_N : N ;
   dampfturbine_N : N ;
+  dauerauftrag_N : N ;
+  dauerbrenner_N : N ;
+  dauerkarte_N : N ;
+  dauerkultur_N : N ;
+  dauerlauf_N : N ;
+  dauermarke_N : N ;
+  dauerregen_N : N ;
+  dauerwelle_N : N ;
+  dauerzustand_N : N ;
 }
