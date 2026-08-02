@@ -567,6 +567,8 @@ fun
   badewanne_N : N ;
   badezimmer_N : N ;
   bauleiter_N : N ;
+  bauarbeiter_N : N ;
+  bauart_N : N ;
   berufsschullehrer_N : N ;
   basisdemokratie_N : N ;
   basismaterial_N : N ;

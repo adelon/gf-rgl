@@ -4429,8 +4429,6 @@ fun bataillon_N : N ;
 fun batate_N : N ;
 fun batisten_A : A ;
 fun batterie_N : N ;
-fun bauarbeiter_N : N ;
-fun bauart_N : N ;
 fun baubewilligung_N : N ;
 fun bauch_N : N ;
 fun bauchig_A : A ;
