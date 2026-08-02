@@ -648,4 +648,12 @@ fun
   bauchredner_N : N ;
   bauchschmerz_N : N ;
   bauchspeck_N : N ;
+  baugeruest_N : N ;
+  baugruppe_N : N ;
+  bauhelm_N : N ;
+  bauherr_N : N ;
+  bauholz_N : N ;
+  bauingenieur_N : N ;
+  bauklotz_N : N ;
+  baumaschine_N : N ;
 }

@@ -139,3 +139,4 @@ cc -all baumwollernte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ b
 cc -all baunaht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ baunaht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ baunaht_N.co ++ bauplan_N.co ++ bauplatz_N.co ++ bauprojekt_N.co ++ bauschaden_N.co ++ bauschaum_N.co ++ baustein_N.co ++ baustelle_N.co ++ baustil_N.co ++ baustoff_N.co ++ bauweise_N.co ++ bauwerk_N.co ++ bauzaun_N.co
 cc -all bauspardarlehen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bauspardarlehen_N.co ++ bausparkasse_N.co ++ bausparvertrag_N.co
 cc -all bauchmuskel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bauchmuskel_N.co ++ bauchnabel_N.co ++ bauchredner_N.co ++ bauchschmerz_N.co ++ bauchspeck_N.co
+cc -all baugeruest_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ baugeruest_N.co ++ baugruppe_N.co ++ bauhelm_N.co ++ bauherr_N.co ++ bauholz_N.co ++ bauingenieur_N.co ++ bauklotz_N.co ++ baumaschine_N.co

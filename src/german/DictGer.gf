@@ -279,6 +279,14 @@ concrete DictGer of DictGerAbs =
     , bauchredner_N
     , bauchschmerz_N
     , bauchspeck_N
+    , baugeruest_N
+    , baugruppe_N
+    , bauhelm_N
+    , bauherr_N
+    , bauholz_N
+    , bauingenieur_N
+    , bauklotz_N
+    , baumaschine_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -966,4 +974,12 @@ lin bauchnabel_N = mkN "Bauch" nabel_N ;
 lin bauchredner_N = mkN "Bauch" redner_N ;
 lin bauchschmerz_N = mkN "Bauch" schmerz_N ;
 lin bauchspeck_N = mkN "Bauch" speck_N ;
+lin baugeruest_N = mkN "Bau" geruest_N ;
+lin baugruppe_N = mkN "Bau" gruppe_N ;
+lin bauhelm_N = mkN "Bau" helm_N ;
+lin bauherr_N = mkN "Bau" herr_N ;
+lin bauholz_N = mkN "Bau" holz_N ;
+lin bauingenieur_N = mkN "Bau" ingenieur_N ;
+lin bauklotz_N = mkN "Bau" klotz_N ;
+lin baumaschine_N = mkN "Bau" maschine_N ;
 }
