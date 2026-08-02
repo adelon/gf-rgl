@@ -354,6 +354,13 @@ fun
   hungertuch_N : N ;
   hungerturm_N : N ;
   hungerzwetschge_N : N ;
+  hurenkind_N : N ;
+  hurensohn_N : N ;
+  hustenmittel_N : N ;
+  hustensaft_N : N ;
+  hutfahrer_N : N ;
+  hutmacher_N : N ;
+  hutmacherin_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
