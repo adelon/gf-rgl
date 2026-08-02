@@ -481,7 +481,7 @@ fun
   enzymzubereitung_N : N ;
   epithelgewebe_N : N ;
   epithelzelle_N : N ;
-  epithelzellinie_N : N ;
+  epithelzelllinie_N : N ;
   epithelzellschaedigung_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
