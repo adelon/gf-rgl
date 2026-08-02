@@ -146,6 +146,8 @@ fun
   abzweigdose_N : N ;
   ackerbuergerhaus_N : N ;
   achselhaar_N : N ;
+  haarfarbe_N : N ;
+  haarschnitt_N : N ;
   achselhoehle_N : N ;
   achteckstempel_N : N ;
   achterbahn_N : N ;
