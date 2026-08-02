@@ -547,6 +547,16 @@ fun
   erkennungsmarke_N : N ;
   erkennungssequenz_N : N ;
   erkennungszeichen_N : N ;
+  erinnerungsluecke_N : N ;
+  eroeffnungsfeier_N : N ;
+  erregermaschine_N : N ;
+  erregungsleitung_N : N ;
+  ersatzprobe_N : N ;
+  ersatzschule_N : N ;
+  ersatzstoff_N : N ;
+  ersatzteil_N : N ;
+  erscheinungsbild_N : N ;
+  erscheinungsform_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

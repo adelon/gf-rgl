@@ -862,6 +862,16 @@ concrete DictGer of DictGerAbs =
     , erkennungsmarke_N
     , erkennungssequenz_N
     , erkennungszeichen_N
+    , erinnerungsluecke_N
+    , eroeffnungsfeier_N
+    , erregermaschine_N
+    , erregungsleitung_N
+    , ersatzprobe_N
+    , ersatzschule_N
+    , ersatzstoff_N
+    , ersatzteil_N
+    , erscheinungsbild_N
+    , erscheinungsform_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1434,6 +1444,16 @@ lin erkenntnislehre_N = changeCompoundN "Erkenntnislehren" (mkN "Erkenntnis" leh
 lin erkennungsmarke_N = mkN "Erkennungs" marke_N ;
 lin erkennungssequenz_N = mkN "Erkennungs" sequenz_N ;
 lin erkennungszeichen_N = mkN "Erkennungs" zeichen_N ;
+lin erinnerungsluecke_N = mkN "Erinnerungs" luecke_N ;
+lin eroeffnungsfeier_N = mkN "Eröffnungs" feier_N ;
+lin erregermaschine_N = mkN "Erreger" maschine_N ;
+lin erregungsleitung_N = mkN "Erregungs" leitung_N ;
+lin ersatzprobe_N = changeCompoundN "Ersatzproben" (mkN "Ersatz" probe_N) ;
+lin ersatzschule_N = changeCompoundN "Ersatzschulen" (mkN "Ersatz" schule_N) ;
+lin ersatzstoff_N = mkN "Ersatz" stoff_N ;
+lin ersatzteil_N = mkN "Ersatz" teil_N ;
+lin erscheinungsbild_N = mkN "Erscheinungs" bild_N ;
+lin erscheinungsform_N = mkN "Erscheinungs" form_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
