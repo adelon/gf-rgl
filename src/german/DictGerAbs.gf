@@ -518,6 +518,8 @@ fun
   kampfpreis_N : N ;
   kanalgas_N : N ;
   kammerjaeger_N : N ;
+  kammersonate_N : N ;
+  kammlinie_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
