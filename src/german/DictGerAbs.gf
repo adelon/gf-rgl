@@ -291,6 +291,11 @@ fun
   heimsieg_N : N ;
   heimspiel_N : N ;
   heimtier_N : N ;
+  holzbank_N : N ;
+  holzbecher_N : N ;
+  holzhaus_N : N ;
+  holzmoebel_N : N ;
+  holzweg_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
