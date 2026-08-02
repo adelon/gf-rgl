@@ -478,6 +478,10 @@ fun
   kaffeepause_N : N ;
   kaffeesachse_N : N ;
   kaffeetasse_N : N ;
+  kakaobaum_N : N ;
+  kakaobohne_N : N ;
+  kalenderjahr_N : N ;
+  kalenderwoche_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

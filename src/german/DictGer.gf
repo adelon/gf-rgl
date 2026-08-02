@@ -973,6 +973,10 @@ concrete DictGer of DictGerAbs =
     , kaffeepause_N
     , kaffeesachse_N
     , kaffeetasse_N
+    , kakaobaum_N
+    , kakaobohne_N
+    , kalenderjahr_N
+    , kalenderwoche_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1399,6 +1403,10 @@ lin kaffeemuehle_N = mkN kaffee_N muehle_N ;
 lin kaffeepause_N = mkN kaffee_N pause_N ;
 lin kaffeesachse_N = mkN kaffee_N sachse_N ;
 lin kaffeetasse_N = mkN kaffee_N tasse_N ;
+lin kakaobaum_N = mkN "Kakao" baum_N ;
+lin kakaobohne_N = mkN "Kakao" bohne_N ;
+lin kalenderjahr_N = mkN kalender_N jahr_N ;
+lin kalenderwoche_N = mkN kalender_N woche_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
