@@ -1266,6 +1266,11 @@ fun
   bankkundin_N : N ;
   banknote_N : N ;
   bankraub_N : N ;
+  bannwald_N : N ;
+  bantamgewicht_N : N ;
+  bantusprache_N : N ;
+  buergermeister_N : N ;
+  buergermeisterin_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;

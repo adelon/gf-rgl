@@ -156,6 +156,11 @@ concrete DictGer of DictGerAbs =
     , bankkundin_N
     , banknote_N
     , bankraub_N
+    , bannwald_N
+    , bantamgewicht_N
+    , bantusprache_N
+    , buergermeister_N
+    , buergermeisterin_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1983,6 +1988,11 @@ lin bankkunde_N = mkN "Bank" kunde_N ;
 lin bankkundin_N = mkN "Bank" kundin_N ;
 lin banknote_N = mkN "Bank" note_N ;
 lin bankraub_N = mkN "Bank" raub_N ;
+lin bannwald_N = mkN bann_N wald_N ;
+lin bantamgewicht_N = mkN "Bantam" gewicht_N ;
+lin bantusprache_N = changeCompoundN "Bantusprachen" (mkN "Bantu" sprache_N) ;
+lin buergermeister_N = mkN buerger_N meister_N ;
+lin buergermeisterin_N = mkN buerger_N (mkN "Meisterin" "Meisterinnen" feminine) ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
