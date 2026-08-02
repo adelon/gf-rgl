@@ -623,4 +623,8 @@ fun
   baumschule_N : N ;
   baumstamm_N : N ;
   baumstumpf_N : N ;
+  baumwollernte_N : N ;
+  baumwollhemd_N : N ;
+  baumwollpflanze_N : N ;
+  baumwollplantage_N : N ;
 }

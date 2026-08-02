@@ -254,6 +254,10 @@ concrete DictGer of DictGerAbs =
     , baumschule_N
     , baumstamm_N
     , baumstumpf_N
+    , baumwollernte_N
+    , baumwollhemd_N
+    , baumwollpflanze_N
+    , baumwollplantage_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -916,4 +920,8 @@ lin baumrinde_N = mkN "Baum" rinde_N ;
 lin baumschule_N = mkN "Baum" schule_N ;
 lin baumstamm_N = mkN "Baum" stamm_N ;
 lin baumstumpf_N = mkN "Baum" stumpf_N ;
+lin baumwollernte_N = mkN "Baumwoll" ernte_N ;
+lin baumwollhemd_N = mkN "Baumwoll" hemd_N ;
+lin baumwollpflanze_N = mkN "Baumwoll" pflanze_N ;
+lin baumwollplantage_N = mkN "Baumwoll" plantage_N ;
 }
