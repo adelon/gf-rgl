@@ -199,6 +199,7 @@ concrete DictGer of DictGerAbs =
     , basisdemokratie_N
     , basismaterial_N
     , basispunkt_N
+    , beruhigungsmittel_N
     , bahnhof_N
     , bahnhofsgaststaette_N
     , bahnhofsuhr_N
@@ -1036,6 +1037,7 @@ lin berufsschullehrer_N = mkN berufsschule_N lehrer_N ;
 lin basisdemokratie_N = mkN basis_N demokratie_N ;
 lin basismaterial_N = mkN basis_N material_N ;
 lin basispunkt_N = mkN basis_N punkt_N ;
+lin beruhigungsmittel_N = mkN "Beruhigungs" mittel_N ;
 lin bahnhof_N = mkN bahn_N hof_N ;
 lin bahnhofsgaststaette_N = mkN "Bahnhofs" gaststaette_N ;
 lin bahnhofsuhr_N = mkN "Bahnhofs" uhr_N ;

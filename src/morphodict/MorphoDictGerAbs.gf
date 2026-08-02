@@ -5023,7 +5023,6 @@ fun beruhen_V : V ;
 fun beruhend_A : A ;
 fun beruhigen_V : V ;
 fun beruhigend_A : A ;
-fun beruhigungsmittel_N : N ;
 fun besaenftigen_V : V ;
 fun besagen_V : V ;
 fun besagt_A : A ;

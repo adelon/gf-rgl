@@ -62,6 +62,7 @@ cc -all bahnhof_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bahnhof_N
 cc -all bauleiter_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ bauleiter_N.co ++ berufsschullehrer_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ berufsschullehrer_N.co
 cc -all bakterienvakzine_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ bakterienvakzine_N.co ++ bakterienzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ bakterienzelle_N.co
 cc -all basisdemokratie_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ basisdemokratie_N.co ++ basismaterial_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ basismaterial_N.co ++ basispunkt_N.co
+cc -all beruhigungsmittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ beruhigungsmittel_N.co
 cc -all palmwedel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ palmwedel_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ palmwedel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ palmwedel_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ palmwedel_N.co ++ (ParadigmsGer.mkN palmwedel_N system_N).s ! ParadigmsGer.singular ! ParadigmsGer.nominative
 cc -all kaese_N.co ++ kaese_N.uncap.co ++ frischkaese_N.co ++ frischkaese_N.uncap.co
 cc -all gebaeude_N.co ++ gebaeude_N.uncap.co ++ wohngebaeude_N.co ++ wohngebaeude_N.uncap.co

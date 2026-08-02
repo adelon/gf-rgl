@@ -5029,7 +5029,6 @@ lin beruhen_V = regV "beruhen" ;
 lin beruhend_A = regA "beruhend" ;
 lin beruhigen_V = regV "beruhigen" ;
 lin beruhigend_A = regA "beruhigend" ;
-lin beruhigungsmittel_N = mkN "Beruhigungsmittel" "Beruhigungsmittel" neuter ;
 lin besaenftigen_V = regV "besänftigen" ;
 lin besagen_V = regV "besagen" ;
 lin besagt_A = regA "besagt" ;
