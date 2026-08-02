@@ -785,6 +785,9 @@ concrete DictGer of DictGerAbs =
     , entzuendungsreaktionsstoerung_N
     , entzuendungsschmerz_N
     , entzuendungszelle_N
+    , entscheidungsfrage_N
+    , entschliessungsantrag_N
+    , entwicklungsstoerung_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1280,6 +1283,9 @@ lin entzuendungsreaktion_N = changeCompoundN "Entzündungsreaktion" (mkN "Entzü
 lin entzuendungsreaktionsstoerung_N = mkN "Entzündungsreaktions" stoerung_N ;
 lin entzuendungsschmerz_N = mkN "Entzündungs" schmerz_N ;
 lin entzuendungszelle_N = changeCompoundN "Entzündungszellen" (mkN "Entzündungs" zelle_N) ;
+lin entscheidungsfrage_N = changeCompoundN "Entscheidungsfragen" (mkN "Entscheidungs" frage_N) ;
+lin entschliessungsantrag_N = mkN "Entschließungs" antrag_N ;
+lin entwicklungsstoerung_N = mkN "Entwicklungs" stoerung_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

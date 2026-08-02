@@ -470,6 +470,9 @@ fun
   entzuendungsreaktionsstoerung_N : N ;
   entzuendungsschmerz_N : N ;
   entzuendungszelle_N : N ;
+  entscheidungsfrage_N : N ;
+  entschliessungsantrag_N : N ;
+  entwicklungsstoerung_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
