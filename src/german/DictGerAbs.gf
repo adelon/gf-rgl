@@ -383,6 +383,15 @@ fun
   eiskrem_N : N ;
   eiskristall_N : N ;
   eiskugel_N : N ;
+  eismaschine_N : N ;
+  eismasse_N : N ;
+  eismeer_N : N ;
+  eismoewe_N : N ;
+  eisnebel_N : N ;
+  eispickel_N : N ;
+  eispilz_N : N ;
+  eisregen_N : N ;
+  eisscholle_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
