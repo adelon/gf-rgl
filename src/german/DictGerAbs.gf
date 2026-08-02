@@ -1202,6 +1202,9 @@ fun
   antillen_gulden_N : N ;
   aruba_gulden_N : N ;
   audio_designer_N : N ;
+  aberdeenrind_N : N ;
+  aberrationskonstante_N : N ;
+  aberrationszeit_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;

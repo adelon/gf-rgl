@@ -92,6 +92,9 @@ concrete DictGer of DictGerAbs =
     , antillen_gulden_N
     , aruba_gulden_N
     , audio_designer_N
+    , aberdeenrind_N
+    , aberrationskonstante_N
+    , aberrationszeit_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1855,6 +1858,9 @@ lin aleppo_kiefer_N = mkHyphenN "Aleppo" kiefer_N ;
 lin antillen_gulden_N = mkHyphenN "Antillen" gulden_N ;
 lin aruba_gulden_N = mkHyphenN "Aruba" gulden_N ;
 lin audio_designer_N = mkHyphenN "Audio" designer_N ;
+lin aberdeenrind_N = mkN "Aberdeen" rind_N ;
+lin aberrationskonstante_N = mkN "Aberrations" konstante_N ;
+lin aberrationszeit_N = mkN "Aberrations" zeit_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
