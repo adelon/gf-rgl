@@ -157,6 +157,10 @@ fun
   hafenstadt_N : N ;
   haferfeld_N : N ;
   haferflocke_N : N ;
+  hakenkreuz_N : N ;
+  hakenkreuzfahne_N : N ;
+  hakennase_N : N ;
+  hakenstecken_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
