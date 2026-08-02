@@ -240,6 +240,20 @@ concrete DictGer of DictGerAbs =
     , bauernopfer_N
     , bauernregel_N
     , bauernzug_N
+    , baumdiagramm_N
+    , baumfalke_N
+    , baumfeind_N
+    , baumfreund_N
+    , baumgraph_N
+    , baumgrenze_N
+    , baumhaus_N
+    , baumkrone_N
+    , baumkuchen_N
+    , baummarder_N
+    , baumrinde_N
+    , baumschule_N
+    , baumstamm_N
+    , baumstumpf_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -888,4 +902,18 @@ lin bauernhof_N = mkN "Bauern" hof_N ;
 lin bauernopfer_N = mkN "Bauern" opfer_N ;
 lin bauernregel_N = mkN "Bauern" regel_N ;
 lin bauernzug_N = mkN "Bauern" zug_N ;
+lin baumdiagramm_N = mkN "Baum" diagramm_N ;
+lin baumfalke_N = mkN "Baum" falke_N ;
+lin baumfeind_N = mkN "Baum" feind_N ;
+lin baumfreund_N = mkN "Baum" freund_N ;
+lin baumgraph_N = mkN "Baum" graph_N ;
+lin baumgrenze_N = mkN "Baum" grenze_N ;
+lin baumhaus_N = mkN "Baum" haus_N ;
+lin baumkrone_N = mkN "Baum" krone_N ;
+lin baumkuchen_N = mkN "Baum" kuchen_N ;
+lin baummarder_N = mkN "Baum" marder_N ;
+lin baumrinde_N = mkN "Baum" rinde_N ;
+lin baumschule_N = mkN "Baum" schule_N ;
+lin baumstamm_N = mkN "Baum" stamm_N ;
+lin baumstumpf_N = mkN "Baum" stumpf_N ;
 }

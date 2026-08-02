@@ -609,4 +609,18 @@ fun
   bauernopfer_N : N ;
   bauernregel_N : N ;
   bauernzug_N : N ;
+  baumdiagramm_N : N ;
+  baumfalke_N : N ;
+  baumfeind_N : N ;
+  baumfreund_N : N ;
+  baumgraph_N : N ;
+  baumgrenze_N : N ;
+  baumhaus_N : N ;
+  baumkrone_N : N ;
+  baumkuchen_N : N ;
+  baummarder_N : N ;
+  baumrinde_N : N ;
+  baumschule_N : N ;
+  baumstamm_N : N ;
+  baumstumpf_N : N ;
 }
