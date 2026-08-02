@@ -746,6 +746,10 @@ fun
   bergtapir_N : N ;
   bergulme_N : N ;
   bergwerk_N : N ;
+  besatzungsarmee_N : N ;
+  besatzungsmacht_N : N ;
+  besatzungsmitglied_N : N ;
+  besatzungszone_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
