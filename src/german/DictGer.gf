@@ -751,6 +751,9 @@ concrete DictGer of DictGerAbs =
     , endnote_N
     , endloesung_N
     , endmoraene_N
+    , endprodukt_N
+    , endstation_N
+    , endstruktur_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1212,6 +1215,9 @@ lin endgruppe_N = mkN "End" gruppe_N ;
 lin endnote_N = mkN "End" note_N ;
 lin endloesung_N = mkN "End" loesung_N ;
 lin endmoraene_N = mkN "End" moraene_N ;
+lin endprodukt_N = mkN "End" produkt_N ;
+lin endstation_N = mkN "End" station_N ;
+lin endstruktur_N = mkN "End" struktur_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

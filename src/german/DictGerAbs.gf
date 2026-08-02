@@ -436,6 +436,9 @@ fun
   endnote_N : N ;
   endloesung_N : N ;
   endmoraene_N : N ;
+  endprodukt_N : N ;
+  endstation_N : N ;
+  endstruktur_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
