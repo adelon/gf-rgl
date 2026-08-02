@@ -777,6 +777,14 @@ concrete DictGer of DictGerAbs =
     , entfuehrungsopfer_N
     , entlausungsanstalt_N
     , entmarkungskrankheit_N
+    , entzuendungserkrankung_N
+    , entzuendungshemmer_N
+    , entzuendungskrankheit_N
+    , entzuendungsmediator_N
+    , entzuendungsreaktion_N
+    , entzuendungsreaktionsstoerung_N
+    , entzuendungsschmerz_N
+    , entzuendungszelle_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1264,6 +1272,14 @@ lin enkephalinasevariante_N = mkN enkephalinase_N variante_N ;
 lin entfuehrungsopfer_N = mkN "Entführungs" opfer_N ;
 lin entlausungsanstalt_N = mkN "Entlausungs" anstalt_N ;
 lin entmarkungskrankheit_N = mkN "Entmarkungs" krankheit_N ;
+lin entzuendungserkrankung_N = mkN "Entzündungs" erkrankung_N ;
+lin entzuendungshemmer_N = mkN "Entzündungs" hemmer_N ;
+lin entzuendungskrankheit_N = mkN "Entzündungs" krankheit_N ;
+lin entzuendungsmediator_N = mkN "Entzündungs" mediator_N ;
+lin entzuendungsreaktion_N = changeCompoundN "Entzündungsreaktion" (mkN "Entzündungs" reaktion_N) ;
+lin entzuendungsreaktionsstoerung_N = mkN "Entzündungsreaktions" stoerung_N ;
+lin entzuendungsschmerz_N = mkN "Entzündungs" schmerz_N ;
+lin entzuendungszelle_N = changeCompoundN "Entzündungszellen" (mkN "Entzündungs" zelle_N) ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

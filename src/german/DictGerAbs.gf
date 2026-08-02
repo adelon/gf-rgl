@@ -462,6 +462,14 @@ fun
   entfuehrungsopfer_N : N ;
   entlausungsanstalt_N : N ;
   entmarkungskrankheit_N : N ;
+  entzuendungserkrankung_N : N ;
+  entzuendungshemmer_N : N ;
+  entzuendungskrankheit_N : N ;
+  entzuendungsmediator_N : N ;
+  entzuendungsreaktion_N : N ;
+  entzuendungsreaktionsstoerung_N : N ;
+  entzuendungsschmerz_N : N ;
+  entzuendungszelle_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
