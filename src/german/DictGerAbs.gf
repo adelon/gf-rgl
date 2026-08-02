@@ -1710,6 +1710,11 @@ fun
   cyclohexylgruppe_N : N ;
   cyclooxygenaseinhibitor_N : N ;
   cyclopropylgruppe_N : N ;
+  cadmiumsulfit_N : N ;
+  camptothecinderivat_N : N ;
+  campusmaut_N : N ;
+  capsidprotein_N : N ;
+  chalkonderivat_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
