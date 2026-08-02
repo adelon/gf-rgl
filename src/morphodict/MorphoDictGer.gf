@@ -8894,7 +8894,6 @@ lin dunkelziffer_N = mkN "Dunkelziffer" "Dunkelziffern" feminine ;
 lin dunst_N = mkN "Dunst" "Dünste" masculine ;
 lin dunstabzugshaube_N = mkN "Dunstabzugshaube" "Dunstabzugshauben" feminine ;
 lin dunstig_A = mk3A "dunstig" "dunstiger" "dunstigste" ;
-lin dunstkreis_N = mkN "Dunstkreis" "Dunstkreise" masculine ;
 lin duodenal_A = regA "duodenal" ;
 lin duodenoskopie_N = mkN "Duodenoskopie" "Duodenoskopien" feminine ;
 lin duodenum_N = mkN "Duodenum" "Duodena" neuter ;

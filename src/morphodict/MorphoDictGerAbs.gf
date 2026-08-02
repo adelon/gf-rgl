@@ -8888,7 +8888,6 @@ fun dunkelziffer_N : N ;
 fun dunst_N : N ;
 fun dunstabzugshaube_N : N ;
 fun dunstig_A : A ;
-fun dunstkreis_N : N ;
 fun duodenal_A : A ;
 fun duodenoskopie_N : N ;
 fun duodenum_N : N ;
