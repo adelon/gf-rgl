@@ -1687,6 +1687,9 @@ fun
   cognacglas_N : N ;
   coladose_N : N ;
   colaflasche_N : N ;
+  cysteinprotease_N : N ;
+  cysteinproteinase_N : N ;
+  cysteinrest_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

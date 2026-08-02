@@ -579,6 +579,9 @@ concrete DictGer of DictGerAbs =
     , cognacglas_N
     , coladose_N
     , colaflasche_N
+    , cysteinprotease_N
+    , cysteinproteinase_N
+    , cysteinrest_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2961,6 +2964,9 @@ lin cognacflasche_N = mkN "Cognac" flasche_N ;
 lin cognacglas_N = mkN "Cognac" glas_N ;
 lin coladose_N = mkN "Cola" dose_N ;
 lin colaflasche_N = mkN "Cola" flasche_N ;
+lin cysteinprotease_N = changeCompoundN "Cysteinproteasen" (mkN "Cystein" protease_N) ;
+lin cysteinproteinase_N = changeCompoundN "Cysteinproteinasen" (mkN "Cystein" proteinase_N) ;
+lin cysteinrest_N = mkN "Cystein" rest_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
