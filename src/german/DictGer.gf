@@ -110,6 +110,13 @@ concrete DictGer of DictGerAbs =
     , buergerkrone_N
     , buergersteig_N
     , buergerverein_N
+    , brotaufstrich_N
+    , brotgetreide_N
+    , brotkasten_N
+    , brotkrume_N
+    , brotmesser_N
+    , brotrinde_N
+    , brotschrift_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1891,6 +1898,13 @@ lin buergerkrieg_N = mkN buerger_N krieg_N ;
 lin buergerkrone_N = mkN buerger_N krone_N ;
 lin buergersteig_N = mkN buerger_N steig_N ;
 lin buergerverein_N = mkN buerger_N verein_N ;
+lin brotaufstrich_N = mkN brot_N aufstrich_N ;
+lin brotgetreide_N = changeCompoundN "Brotgetreiden" (mkN brot_N getreide_N) ;
+lin brotkasten_N = mkN brot_N kasten_N ;
+lin brotkrume_N = mkN brot_N krume_N ;
+lin brotmesser_N = mkN brot_N messer_N ;
+lin brotrinde_N = mkN brot_N rinde_N ;
+lin brotschrift_N = mkN brot_N schrift_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

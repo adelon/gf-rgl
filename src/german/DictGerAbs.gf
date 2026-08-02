@@ -1220,6 +1220,13 @@ fun
   buergerkrone_N : N ;
   buergersteig_N : N ;
   buergerverein_N : N ;
+  brotaufstrich_N : N ;
+  brotgetreide_N : N ;
+  brotkasten_N : N ;
+  brotkrume_N : N ;
+  brotmesser_N : N ;
+  brotrinde_N : N ;
+  brotschrift_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
