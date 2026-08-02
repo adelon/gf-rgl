@@ -316,6 +316,9 @@ fun
   hochzeitskleid_N : N ;
   hochzeitsreise_N : N ;
   hochzeitstag_N : N ;
+  hochzeitsgeschenk_N : N ;
+  hochzeitssuppe_N : N ;
+  hochzeitstorte_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
