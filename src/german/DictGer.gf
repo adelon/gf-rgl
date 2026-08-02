@@ -468,6 +468,9 @@ concrete DictGer of DictGerAbs =
     , chloridanion_N
     , chloridion_N
     , chloridionenkatalysator_N
+    , cholesterinderivat_N
+    , cholesterinspiegel_N
+    , citratsalz_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1344,4 +1347,7 @@ lin chlorgruppe_N = mkN chlor_N gruppe_N ;
 lin chloridanion_N = mkN chlorid_N anion_N ;
 lin chloridion_N = mkN chlorid_N ion_N ;
 lin chloridionenkatalysator_N = mkN chloridion_N katalysator_N ;
+lin cholesterinderivat_N = mkN cholesterin_N derivat_N ;
+lin cholesterinspiegel_N = mkN cholesterin_N spiegel_N ;
+lin citratsalz_N = mkN citrat_N salz_N ;
 }

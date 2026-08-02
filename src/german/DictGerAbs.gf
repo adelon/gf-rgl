@@ -837,4 +837,7 @@ fun
   chloridanion_N : N ;
   chloridion_N : N ;
   chloridionenkatalysator_N : N ;
+  cholesterinderivat_N : N ;
+  cholesterinspiegel_N : N ;
+  citratsalz_N : N ;
 }
