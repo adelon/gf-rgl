@@ -723,6 +723,10 @@ fun
   bewegungsstoerung_N : N ;
   bewaehrungsstrafe_N : N ;
   beziehungskrise_N : N ;
+  beutelbaer_N : N ;
+  beutelbuch_N : N ;
+  beutelmeise_N : N ;
+  beuteltier_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;

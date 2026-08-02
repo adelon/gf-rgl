@@ -354,6 +354,10 @@ concrete DictGer of DictGerAbs =
     , bewegungsstoerung_N
     , bewaehrungsstrafe_N
     , beziehungskrise_N
+    , beutelbaer_N
+    , beutelbuch_N
+    , beutelmeise_N
+    , beuteltier_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1129,6 +1133,10 @@ lin bewegungsmangel_N = mkN (changeCompoundN "Bewegungs" bewegung_N) mangel_N ;
 lin bewegungsstoerung_N = mkN (changeCompoundN "Bewegungs" bewegung_N) stoerung_N ;
 lin bewaehrungsstrafe_N = mkN (changeCompoundN "Bewährungs" bewaehrung_N) strafe_N ;
 lin beziehungskrise_N = mkN (changeCompoundN "Beziehungs" beziehung_N) krise_N ;
+lin beutelbaer_N = mkN beutel_N baer_N ;
+lin beutelbuch_N = mkN beutel_N buch_N ;
+lin beutelmeise_N = mkN beutel_N meise_N ;
+lin beuteltier_N = mkN beutel_N tier_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;
