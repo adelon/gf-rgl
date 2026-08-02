@@ -357,6 +357,16 @@ fun
   einhorn_N : N ;
   einraumwohnung_N : N ;
   eintagsfliege_N : N ;
+  eisaufguss_N : N ;
+  eisbahn_N : N ;
+  eisbank_N : N ;
+  eisbecher_N : N ;
+  eisbein_N : N ;
+  eisberg_N : N ;
+  eisbombe_N : N ;
+  eiscafe_N : N ;
+  eisdecke_N : N ;
+  eisdiele_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
