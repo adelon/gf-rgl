@@ -358,6 +358,10 @@ concrete DictGer of DictGerAbs =
     , beutelbuch_N
     , beutelmeise_N
     , beuteltier_N
+    , bezirksausschuss_N
+    , bezirksklasse_N
+    , bezirksliga_N
+    , bezirksstadt_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1137,6 +1141,10 @@ lin beutelbaer_N = mkN beutel_N baer_N ;
 lin beutelbuch_N = mkN beutel_N buch_N ;
 lin beutelmeise_N = mkN beutel_N meise_N ;
 lin beuteltier_N = mkN beutel_N tier_N ;
+lin bezirksausschuss_N = mkN (changeCompoundN "Bezirks" bezirk_N) ausschuss_N ;
+lin bezirksklasse_N = mkN (changeCompoundN "Bezirks" bezirk_N) klasse_N ;
+lin bezirksliga_N = mkN (changeCompoundN "Bezirks" bezirk_N) liga_N ;
+lin bezirksstadt_N = mkN (changeCompoundN "Bezirks" bezirk_N) stadt_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;
