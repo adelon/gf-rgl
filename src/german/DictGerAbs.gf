@@ -485,6 +485,15 @@ fun
   epithelzelllinie_N : N ;
   epithelzellschaedigung_N : N ;
   epistelseite_N : N ;
+  erdbeben_N : N ;
+  erdbebenwarnung_N : N ;
+  erdbeerbaum_N : N ;
+  erdbeere_N : N ;
+  erdbeerkoepfchen_N : N ;
+  erdbeerkuchen_N : N ;
+  erdbeersaft_N : N ;
+  erdbeertorte_N : N ;
+  erdbeerwein_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

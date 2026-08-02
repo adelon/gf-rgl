@@ -800,6 +800,15 @@ concrete DictGer of DictGerAbs =
     , epithelzelllinie_N
     , epithelzellschaedigung_N
     , epistelseite_N
+    , erdbeben_N
+    , erdbebenwarnung_N
+    , erdbeerbaum_N
+    , erdbeere_N
+    , erdbeerkoepfchen_N
+    , erdbeerkuchen_N
+    , erdbeersaft_N
+    , erdbeertorte_N
+    , erdbeerwein_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1310,6 +1319,15 @@ lin epithelzelle_N = mkN "Epithel" zelle_N ;
 lin epithelzelllinie_N = mkN epithelzelle_N linie_N ;
 lin epithelzellschaedigung_N = mkN epithelzelle_N schaedigung_N ;
 lin epistelseite_N = mkN "Epistel" seite_N ;
+lin erdbeben_N = mkN erde_N beben_N ;
+lin erdbebenwarnung_N = mkN erdbeben_N warnung_N ;
+lin erdbeerbaum_N = mkN erdbeere_N baum_N ;
+lin erdbeere_N = changeCompoundN "Erdbeer" (mkN erde_N beere_N) ;
+lin erdbeerkoepfchen_N = mkN erdbeere_N koepfchen_N ;
+lin erdbeerkuchen_N = mkN erdbeere_N kuchen_N ;
+lin erdbeersaft_N = mkN erdbeere_N saft_N ;
+lin erdbeertorte_N = mkN erdbeere_N torte_N ;
+lin erdbeerwein_N = mkN erdbeere_N wein_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
