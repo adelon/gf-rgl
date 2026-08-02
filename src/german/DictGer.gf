@@ -715,6 +715,10 @@ concrete DictGer of DictGerAbs =
     , eiswuerfel_N
     , eiszapfen_N
     , eiszeit_N
+    , eisbaer_N
+    , eisbaerenfell_N
+    , eisbaerfell_N
+    , eisbergsalat_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1137,6 +1141,10 @@ lin eiswein_N = mkN eis_N wein_N ;
 lin eiswuerfel_N = mkN eis_N wuerfel_N ;
 lin eiszapfen_N = mkN eis_N zapfen_N ;
 lin eiszeit_N = mkN eis_N zeit_N ;
+lin eisbaer_N = mkN eis_N baer_N ;
+lin eisbaerenfell_N = mkN "Eisbären" fell_N ;
+lin eisbaerfell_N = mkN "Eisbär" fell_N ;
+lin eisbergsalat_N = mkN eisberg_N salat_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;

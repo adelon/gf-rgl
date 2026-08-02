@@ -400,6 +400,10 @@ fun
   eiswuerfel_N : N ;
   eiszapfen_N : N ;
   eiszeit_N : N ;
+  eisbaer_N : N ;
+  eisbaerenfell_N : N ;
+  eisbaerfell_N : N ;
+  eisbergsalat_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
