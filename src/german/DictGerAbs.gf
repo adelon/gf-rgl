@@ -503,4 +503,11 @@ fun
   nationaloekonomie__N : N ;
   thema_rhema_gliederung__N : N ;
   thema_rhema_progression__N : N ;
+  toerggeleabend__N : N ;
+  toerggelekeller__N : N ;
+  toerggelemenue__N : N ;
+  toerggelezeit__N : N ;
+  totengelaeut__N : N ;
+  type_token_relation__N : N ;
+  type_token_verhaeltnis__N : N ;
 }

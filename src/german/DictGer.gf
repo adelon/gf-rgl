@@ -134,6 +134,13 @@ concrete DictGer of DictGerAbs =
     , nationaloekonomie__N
     , thema_rhema_gliederung__N
     , thema_rhema_progression__N
+    , toerggeleabend__N
+    , toerggelekeller__N
+    , toerggelemenue__N
+    , toerggelezeit__N
+    , totengelaeut__N
+    , type_token_relation__N
+    , type_token_verhaeltnis__N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -676,4 +683,11 @@ lin y_achse__N = mkHyphenN "y" achse_N ;
 lin nationaloekonomie__N = mkN "National" oekonomie__N ;
 lin thema_rhema_gliederung__N = mkHyphenN (mkHyphenN thema_N rhema_N) gliederung_N ;
 lin thema_rhema_progression__N = mkHyphenN (mkHyphenN thema_N rhema_N) progression_N ;
+lin toerggeleabend__N = mkN "Törggele" abend_N ;
+lin toerggelekeller__N = mkN "Törggele" keller_N ;
+lin toerggelemenue__N = mkN "Törggele" menue_N ;
+lin toerggelezeit__N = mkN "Törggele" zeit_N ;
+lin totengelaeut__N = mkN "Toten" gelaeut_N ;
+lin type_token_relation__N = mkHyphenN (mkHyphenN "Type" token_N) relation_N ;
+lin type_token_verhaeltnis__N = mkHyphenN (mkHyphenN "Type" token_N) verhaeltnis_N ;
 }
