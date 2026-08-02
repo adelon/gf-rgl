@@ -153,6 +153,10 @@ fun
   haarsieb_N : N ;
   haarstern_N : N ;
   haarnadel_N : N ;
+  hafenkapitaen_N : N ;
+  hafenstadt_N : N ;
+  haferfeld_N : N ;
+  haferflocke_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
