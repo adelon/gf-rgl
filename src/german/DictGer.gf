@@ -331,6 +331,11 @@ concrete DictGer of DictGerAbs =
     , beinhaus_N
     , belegstelle_N
     , beitrittserklaerung_N
+    , bergahorn_N
+    , bergarbeiter_N
+    , bergbaude_N
+    , bergetappe_N
+    , bergfilm_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1070,4 +1075,9 @@ lin beinbruch_N = mkN bein_N bruch_N ;
 lin beinhaus_N = mkN bein_N haus_N ;
 lin belegstelle_N = mkN beleg_N stelle_N ;
 lin beitrittserklaerung_N = mkN "Beitritts" erklaerung_N ;
+lin bergahorn_N = mkN berg_N ahorn_N ;
+lin bergarbeiter_N = mkN berg_N arbeiter_N ;
+lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;
+lin bergetappe_N = changeCompoundN "Bergetappen" (mkN berg_N etappe_N) ;
+lin bergfilm_N = mkN berg_N film_N ;
 }

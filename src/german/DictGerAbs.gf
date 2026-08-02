@@ -700,4 +700,9 @@ fun
   beinhaus_N : N ;
   belegstelle_N : N ;
   beitrittserklaerung_N : N ;
+  bergahorn_N : N ;
+  bergarbeiter_N : N ;
+  bergbaude_N : N ;
+  bergetappe_N : N ;
+  bergfilm_N : N ;
 }

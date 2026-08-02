@@ -153,3 +153,4 @@ cc -all behaeltervorrichtung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative
 cc -all beinbruch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beinbruch_N.co ++ beinhaus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beinhaus_N.co
 cc -all belegstelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ belegstelle_N.co
 cc -all beitrittserklaerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beitrittserklaerung_N.co
+cc -all bergahorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bergahorn_N.co ++ bergarbeiter_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bergarbeiter_N.co ++ bergbaude_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bergbaude_N.co ++ bergetappe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bergetappe_N.co ++ bergfilm_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bergfilm_N.co
