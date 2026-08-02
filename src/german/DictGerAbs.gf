@@ -430,6 +430,12 @@ fun
   elternsprache_N : N ;
   elternteil_N : N ;
   elternzeit_N : N ;
+  endbuchstabe_N : N ;
+  endgegner_N : N ;
+  endgruppe_N : N ;
+  endnote_N : N ;
+  endloesung_N : N ;
+  endmoraene_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
