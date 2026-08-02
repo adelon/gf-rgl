@@ -732,6 +732,9 @@ fun
   bezirksliga_N : N ;
   bezirksstadt_N : N ;
   bezeichnungsexotismus_N : N ;
+  benutzerkonto_N : N ;
+  benutzername_N : N ;
+  benutzerseite_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;

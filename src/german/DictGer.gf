@@ -363,6 +363,9 @@ concrete DictGer of DictGerAbs =
     , bezirksliga_N
     , bezirksstadt_N
     , bezeichnungsexotismus_N
+    , benutzerkonto_N
+    , benutzername_N
+    , benutzerseite_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1147,6 +1150,9 @@ lin bezirksklasse_N = mkN (changeCompoundN "Bezirks" bezirk_N) klasse_N ;
 lin bezirksliga_N = mkN (changeCompoundN "Bezirks" bezirk_N) liga_N ;
 lin bezirksstadt_N = mkN (changeCompoundN "Bezirks" bezirk_N) stadt_N ;
 lin bezeichnungsexotismus_N = mkN (changeCompoundN "Bezeichnungs" bezeichnung_N) exotismus_N ;
+lin benutzerkonto_N = mkN benutzer_N konto_N ;
+lin benutzername_N = mkN benutzer_N name_N ;
+lin benutzerseite_N = mkN benutzer_N seite_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;
