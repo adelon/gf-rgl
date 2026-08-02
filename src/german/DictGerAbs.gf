@@ -656,4 +656,8 @@ fun
   bauingenieur_N : N ;
   bauklotz_N : N ;
   baumaschine_N : N ;
+  bauchhoehlenerkrankung_N : N ;
+  bauchwehkoralle_N : N ;
+  bauchwehziegenbart_N : N ;
+  baummarderfell_N : N ;
 }
