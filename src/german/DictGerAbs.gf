@@ -322,6 +322,12 @@ fun
   hosenrock_N : N ;
   hosenschlitz_N : N ;
   hosentraeger_N : N ;
+  hundeblume_N : N ;
+  hundehuette_N : N ;
+  hundeleine_N : N ;
+  hunderasse_N : N ;
+  hundeschlitten_N : N ;
+  hundeschwanz_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
