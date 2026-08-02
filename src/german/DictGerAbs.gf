@@ -863,6 +863,15 @@ fun
   durchbruchschmerz_N : N ;
   durchlauferhitzer_N : N ;
   durchsetzungsvermoegen_N : N ;
+  ehebruch_N : N ;
+  ehebett_N : N ;
+  ehefrau_N : N ;
+  ehegatte_N : N ;
+  eheleben_N : N ;
+  ehepaar_N : N ;
+  ehepartner_N : N ;
+  ehering_N : N ;
+  eheschein_N : N ;
   dachantenne_N : N ;
   dachbalken_N : N ;
   dachboden_N : N ;

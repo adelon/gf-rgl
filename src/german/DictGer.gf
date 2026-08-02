@@ -494,6 +494,15 @@ concrete DictGer of DictGerAbs =
     , durchbruchschmerz_N
     , durchlauferhitzer_N
     , durchsetzungsvermoegen_N
+    , ehebruch_N
+    , ehebett_N
+    , ehefrau_N
+    , ehegatte_N
+    , eheleben_N
+    , ehepaar_N
+    , ehepartner_N
+    , ehering_N
+    , eheschein_N
     , dachantenne_N
     , dachbalken_N
     , dachboden_N
@@ -1515,6 +1524,15 @@ lin durchschnittsmenge_N = mkN "Durchschnitts" menge_N ;
 lin durchbruchschmerz_N = mkN durchbruch_N schmerz_N ;
 lin durchlauferhitzer_N = mkN "Durchlauf" erhitzer_N ;
 lin durchsetzungsvermoegen_N = mkN "Durchsetzungs" vermoegen_N ;
+lin ehebruch_N = mkN ehe_N bruch_N ;
+lin ehebett_N = mkN ehe_N bett_N ;
+lin ehefrau_N = mkN ehe_N frau_N ;
+lin ehegatte_N = mkN ehe_N gatte_N ;
+lin eheleben_N = mkN ehe_N leben_N ;
+lin ehepaar_N = mkN ehe_N paar_N ;
+lin ehepartner_N = mkN ehe_N partner_N ;
+lin ehering_N = mkN ehe_N ring_N ;
+lin eheschein_N = mkN ehe_N schein_N ;
 lin dachantenne_N = mkN dach_N antenne_N ;
 lin dachbalken_N = mkN dach_N balken_N ;
 lin dachboden_N = mkN dach_N boden_N ;
