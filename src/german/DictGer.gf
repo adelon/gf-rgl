@@ -203,6 +203,11 @@ concrete DictGer of DictGerAbs =
     , balkendiagramm_N
     , balkenkopf_N
     , balkenwaage_N
+    , ballettabend_N
+    , ballettlehrerin_N
+    , ballettschule_N
+    , balletttaenzer_N
+    , balletttaenzerin_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -814,4 +819,9 @@ lin balkenanker_N = mkN "Balken" anker_N ;
 lin balkendiagramm_N = mkN "Balken" diagramm_N ;
 lin balkenkopf_N = mkN "Balken" kopf_N ;
 lin balkenwaage_N = mkN "Balken" waage_N ;
+lin ballettabend_N = mkN "Ballett" abend_N ;
+lin ballettlehrerin_N = mkN "Ballett" lehrerin_N ;
+lin ballettschule_N = mkN "Ballett" schule_N ;
+lin balletttaenzer_N = mkN "Ballett" taenzer_N ;
+lin balletttaenzerin_N = mkN "Ballett" taenzerin_N ;
 }

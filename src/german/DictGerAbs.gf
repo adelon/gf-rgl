@@ -572,4 +572,9 @@ fun
   balkendiagramm_N : N ;
   balkenkopf_N : N ;
   balkenwaage_N : N ;
+  ballettabend_N : N ;
+  ballettlehrerin_N : N ;
+  ballettschule_N : N ;
+  balletttaenzer_N : N ;
+  balletttaenzerin_N : N ;
 }
