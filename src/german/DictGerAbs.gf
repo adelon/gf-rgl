@@ -532,6 +532,9 @@ fun
   erdumfang_N : N ;
   erdwolf_N : N ;
   erdzeitalter_N : N ;
+  ereignishorizont_N : N ;
+  erektionsstoerung_N : N ;
+  erfolgsaussicht_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

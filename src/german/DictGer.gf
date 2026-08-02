@@ -847,6 +847,9 @@ concrete DictGer of DictGerAbs =
     , erdumfang_N
     , erdwolf_N
     , erdzeitalter_N
+    , ereignishorizont_N
+    , erektionsstoerung_N
+    , erfolgsaussicht_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1404,6 +1407,9 @@ lin erdtrabant_N = mkN "Erd" trabant_N ;
 lin erdumfang_N = mkN "Erd" umfang_N ;
 lin erdwolf_N = mkN "Erd" wolf_N ;
 lin erdzeitalter_N = mkN "Erd" zeitalter_N ;
+lin ereignishorizont_N = mkN ereignis_N horizont_N ;
+lin erektionsstoerung_N = mkN "Erektions" stoerung_N ;
+lin erfolgsaussicht_N = mkN "Erfolgs" aussicht_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
