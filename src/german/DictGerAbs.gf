@@ -1678,6 +1678,9 @@ fun
   carbonylverbindung_N : N ;
   carboanhydraseinhibitor_N : N ;
   carboxyalkylcellulose_N : N ;
+  castorbehaelter_N : N ;
+  castorlager_N : N ;
+  castortransport_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

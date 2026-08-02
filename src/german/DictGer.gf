@@ -570,6 +570,9 @@ concrete DictGer of DictGerAbs =
     , carbonylverbindung_N
     , carboanhydraseinhibitor_N
     , carboxyalkylcellulose_N
+    , castorbehaelter_N
+    , castorlager_N
+    , castortransport_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2943,6 +2946,9 @@ lin carbonylgruppe_N = mkN "Carbonyl" gruppe_N ;
 lin carbonylverbindung_N = mkN "Carbonyl" verbindung_N ;
 lin carboanhydraseinhibitor_N = mkN "Carboanhydrase" inhibitor_N ;
 lin carboxyalkylcellulose_N = changeCompoundN "Carboxyalkylcellulosen" (mkN "Carboxyalkyl" cellulose_N) ;
+lin castorbehaelter_N = mkN "Castor" behaelter_N ;
+lin castorlager_N = mkN "Castor" (mkN "Lager" "Lager" neuter) ;
+lin castortransport_N = mkN "Castor" transport_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
