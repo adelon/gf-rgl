@@ -1474,6 +1474,7 @@ lin ewige_schach_N = changeCompoundN "Ewiges-Schach"
 lin grundreihenmatt_N = mkN "Grundreihen" matt_N ;
 lin fruehlingsknollenblaetterpilz_N = mkN "Frühlings" knollenblaetterpilz_N ;
 lin fruehstueck_N = changeCompoundN "Frühstücks" (mkN "Früh" stueck_N) ;
+lin gabelfruehstueck_N = mkN gabel_N fruehstueck_N ;
 lin fusionierende_sprache_CN = S.mkCN fusionierend_A sprache_N ;
 lin genus_verbi_N = changeCompoundN "Genus-Verbi" (invarN "Genus Verbi" "Genera Verbi" neuter) ;
 lin gewebeabschnitt_N = mkN "Gewebe" abschnitt_N ;
@@ -1500,10 +1501,12 @@ lin gewebeverklebung_N = mkN gewebe_N verklebung_N ;
 lin gewebsverletzung_N = changeCompoundN "Gewebsverletzungs" (mkN "Gewebs" verletzung_N) ;
 lin geburtstag_N = changeCompoundN "Geburtstags" (mkN "Geburts" tag_N) ;
 lin geburtstagsfeier_N = mkN geburtstag_N feier_N ;
+lin gummihandschuh_N = mkN "Gummi" handschuh_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
 lin handschuh_N = mkN "Hand" schuh_N ;
+lin kindergeburtstag_N = mkN "Kinder" geburtstag_N ;
 lin hinweisendes_fuerwort_CN = S.mkCN hinweisend_A fuerwort_N ;
 lin hoch_kompliziert_AP = S.mkAP (mkAdA "hoch") kompliziert_A ;
 lin gelbe_kantherelle_CN = S.mkCN (capitalizeA gelb_A) (mkN "Kantherelle" "Kantherellen" feminine) ;
@@ -1559,6 +1562,7 @@ lin kohletablette_N = mkN "Kohle" tablette_N ;
 lin kind_gottes_CN = S.mkCN (mkN2 kind_N genPrep) (S.mkNP (mkPN "Gott" "Gottes" masculine)) ;
 lin leipziger_allerlei_CN = S.mkCN (invarA "Leipziger")
   (mkN "Allerlei" "Allerlei" "Allerlei" "Allerleis" "Allerleis" "Allerleis" neuter) ;
+lin lederhandschuh_N = mkN leder_N handschuh_N ;
 lin kinderspielzeug_N = mkN "Kinder" spielzeug_N ;
 lin laeufergabel_N = mkN "Läufer" gabel_N ;
 lin laeuferzug_N = mkN "Läufer" zug_N ;
@@ -1622,6 +1626,7 @@ lin schadenfroh_A = mkA schaden_N froh_A ;
 lin sans_phrase_Adv = mkAdv "sans phrase" ;
 lin sauce_hollandaise_N = changeCompoundN "Sauce-Hollandaise"
   (invarN "Sauce hollandaise" feminine) ;
+lin sektfruehstueck_N = mkN sekt_N fruehstueck_N ;
 lin so_lala_Adv = mkAdv "so lala" ;
 lin st_vincent_und_die_grenadinen_PN = mkPN
   "St. Vincent und die Grenadinen"

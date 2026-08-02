@@ -571,6 +571,7 @@ fun
   grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;
+  gabelfruehstueck_N : N ;
   fusionierende_sprache_CN : CN ;
   genus_verbi_N : N ;
   gewebeabschnitt_N : N ;
@@ -597,11 +598,14 @@ fun
   gewebsverletzung_N : N ;
   geburtstag_N : N ;
   geburtstagsfeier_N : N ;
+  gummihandschuh_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;
+  kindergeburtstag_N : N ;
   hinweisendes_fuerwort_CN : CN ;
   hoch_kompliziert_AP : AP ;
+  lederhandschuh_N : N ;
   gelbe_kantherelle_CN : CN ;
   gelbe_kraterelle_CN : CN ;
   frei_variierendes_allomorph_CN : CN ;
@@ -719,6 +723,7 @@ fun
   schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;
+  sektfruehstueck_N : N ;
   so_lala_Adv : Adv ;
   st_vincent_und_die_grenadinen_PN : PN ;
   stammzelle_N : N ;
