@@ -307,6 +307,10 @@ fun
   hochschule_N : N ;
   hochseil_N : N ;
   hochstrasse_N : N ;
+  hofhund_N : N ;
+  hosenrolle_N : N ;
+  hosentasche_N : N ;
+  hundezelle_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
