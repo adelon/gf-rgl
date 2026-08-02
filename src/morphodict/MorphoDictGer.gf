@@ -7672,7 +7672,6 @@ lin degu_N = mkN "Degu" "Degus" masculine ;
 lin degustieren_V = irregV "degustieren" "degustiert" "degustierte" "degustierte" "degustiert" ;
 lin dehnen_1_V = regV "dehnen" ;
 lin dehnung_N = mkN "Dehnung" ;
-lin dehnungsfuge_N = mkN "Dehnungsfuge" "Dehnungsfugen" feminine ;
 lin dehydratisieren_V = irregV "dehydratisieren" "dehydratisiert" "dehydratisierte" "dehydratisierte" "dehydratisiert" ;
 lin dehydratisiert_A = regA "dehydratisiert" ;
 lin dehydrieren_V = irregV "dehydrieren" "dehydriert" "dehydrierte" "dehydrierte" "dehydriert" ;

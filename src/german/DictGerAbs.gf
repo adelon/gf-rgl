@@ -919,4 +919,5 @@ fun
   datenverlust_N : N ;
   deformationsgeschwindigkeit_N : N ;
   deformationsgradient_N : N ;
+  dehnungsfuge_N : N ;
 }

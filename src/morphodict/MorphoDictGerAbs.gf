@@ -7666,7 +7666,6 @@ fun degu_N : N ;
 fun degustieren_V : V ;
 fun dehnen_1_V : V ;
 fun dehnung_N : N ;
-fun dehnungsfuge_N : N ;
 fun dehydratisieren_V : V ;
 fun dehydratisiert_A : A ;
 fun dehydrieren_V : V ;

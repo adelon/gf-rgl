@@ -550,6 +550,7 @@ concrete DictGer of DictGerAbs =
     , datenverlust_N
     , deformationsgeschwindigkeit_N
     , deformationsgradient_N
+    , dehnungsfuge_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1508,4 +1509,5 @@ lin datenuebertragung_N = mkN "Daten" uebertragung_N ;
 lin datenverlust_N = mkN "Daten" verlust_N ;
 lin deformationsgeschwindigkeit_N = mkN "Deformations" geschwindigkeit_N ;
 lin deformationsgradient_N = mkN "Deformations" gradient_N ;
+lin dehnungsfuge_N = mkN dehnung_N fuge_N ;
 }
