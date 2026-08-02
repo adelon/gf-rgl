@@ -345,6 +345,9 @@ concrete DictGer of DictGerAbs =
     , betriebssystem_N
     , betriebsunfall_N
     , betriebswohnung_N
+    , bevoelkerungsdichte_N
+    , bevoelkerungspyramide_N
+    , bevoelkerungszahl_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1111,6 +1114,9 @@ lin betriebsrat_N = mkN (changeCompoundN "Betriebs" betrieb_N) rat_N ;
 lin betriebssystem_N = mkN (changeCompoundN "Betriebs" betrieb_N) system_N ;
 lin betriebsunfall_N = mkN (changeCompoundN "Betriebs" betrieb_N) unfall_N ;
 lin betriebswohnung_N = mkN (changeCompoundN "Betriebs" betrieb_N) wohnung_N ;
+lin bevoelkerungsdichte_N = mkN (changeCompoundN "Bevölkerungs" bevoelkerung_N) dichte_N ;
+lin bevoelkerungspyramide_N = mkN (changeCompoundN "Bevölkerungs" bevoelkerung_N) pyramide_N ;
+lin bevoelkerungszahl_N = mkN (changeCompoundN "Bevölkerungs" bevoelkerung_N) zahl_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

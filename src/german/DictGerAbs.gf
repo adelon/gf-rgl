@@ -714,6 +714,9 @@ fun
   betriebssystem_N : N ;
   betriebsunfall_N : N ;
   betriebswohnung_N : N ;
+  bevoelkerungsdichte_N : N ;
+  bevoelkerungspyramide_N : N ;
+  bevoelkerungszahl_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
