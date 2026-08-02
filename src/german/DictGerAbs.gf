@@ -1690,6 +1690,10 @@ fun
   cysteinprotease_N : N ;
   cysteinproteinase_N : N ;
   cysteinrest_N : N ;
+  cannabinoidrezeptor_N : N ;
+  chemokinrezeptor_N : N ;
+  cytokinrezeptor_N : N ;
+  cortisolantagonist_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

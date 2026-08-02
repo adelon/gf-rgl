@@ -582,6 +582,10 @@ concrete DictGer of DictGerAbs =
     , cysteinprotease_N
     , cysteinproteinase_N
     , cysteinrest_N
+    , cannabinoidrezeptor_N
+    , chemokinrezeptor_N
+    , cytokinrezeptor_N
+    , cortisolantagonist_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2967,6 +2971,10 @@ lin colaflasche_N = mkN "Cola" flasche_N ;
 lin cysteinprotease_N = changeCompoundN "Cysteinproteasen" (mkN "Cystein" protease_N) ;
 lin cysteinproteinase_N = changeCompoundN "Cysteinproteinasen" (mkN "Cystein" proteinase_N) ;
 lin cysteinrest_N = mkN "Cystein" rest_N ;
+lin cannabinoidrezeptor_N = mkN "Cannabinoid" rezeptor_N ;
+lin chemokinrezeptor_N = mkN "Chemokin" rezeptor_N ;
+lin cytokinrezeptor_N = mkN "Cytokin" rezeptor_N ;
+lin cortisolantagonist_N = mkN "Cortisol" antagonist_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
