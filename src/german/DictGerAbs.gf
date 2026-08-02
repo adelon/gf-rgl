@@ -339,6 +339,14 @@ fun
   eilauftrag_N : N ;
   eilsendung_N : N ;
   eilzug_N : N ;
+  eigenart_N : N ;
+  eigenfunktion_N : N ;
+  eigenheim_N : N ;
+  eigenname_N : N ;
+  eigenprotein_N : N ;
+  eigentor_N : N ;
+  eigenvektor_N : N ;
+  eigenwert_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;

@@ -654,6 +654,14 @@ concrete DictGer of DictGerAbs =
     , eilauftrag_N
     , eilsendung_N
     , eilzug_N
+    , eigenart_N
+    , eigenfunktion_N
+    , eigenheim_N
+    , eigenname_N
+    , eigenprotein_N
+    , eigentor_N
+    , eigenvektor_N
+    , eigenwert_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1014,6 +1022,14 @@ lin eiform_N = mkN "Ei" form_N ;
 lin eilauftrag_N = mkN "Eil" auftrag_N ;
 lin eilsendung_N = mkN "Eil" sendung_N ;
 lin eilzug_N = mkN "Eil" zug_N ;
+lin eigenart_N = mkN "Eigen" art_N ;
+lin eigenfunktion_N = mkN "Eigen" funktion_N ;
+lin eigenheim_N = mkN "Eigen" heim_N ;
+lin eigenname_N = changeCompoundN "Eigennamen" (mkN "Eigen" name_N) ;
+lin eigenprotein_N = mkN "Eigen" protein_N ;
+lin eigentor_N = mkN "Eigen" tor_N ;
+lin eigenvektor_N = mkN "Eigen" vektor_N ;
+lin eigenwert_N = mkN "Eigen" wert_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
