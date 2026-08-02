@@ -662,6 +662,10 @@ concrete DictGer of DictGerAbs =
     , eigentor_N
     , eigenvektor_N
     , eigenwert_N
+    , eigenheimbesitzer_N
+    , eigenschaftsprofil_N
+    , eigenschaftswort_N
+    , eigenviskositaet_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1030,6 +1034,10 @@ lin eigenprotein_N = mkN "Eigen" protein_N ;
 lin eigentor_N = mkN "Eigen" tor_N ;
 lin eigenvektor_N = mkN "Eigen" vektor_N ;
 lin eigenwert_N = mkN "Eigen" wert_N ;
+lin eigenheimbesitzer_N = mkN eigenheim_N besitzer_N ;
+lin eigenschaftsprofil_N = mkN "Eigenschafts" profil_N ;
+lin eigenschaftswort_N = mkN "Eigenschafts" wort_N ;
+lin eigenviskositaet_N = mkN "Eigen" viskositaet_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;

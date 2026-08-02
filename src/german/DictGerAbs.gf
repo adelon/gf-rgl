@@ -347,6 +347,10 @@ fun
   eigentor_N : N ;
   eigenvektor_N : N ;
   eigenwert_N : N ;
+  eigenheimbesitzer_N : N ;
+  eigenschaftsprofil_N : N ;
+  eigenschaftswort_N : N ;
+  eigenviskositaet_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
