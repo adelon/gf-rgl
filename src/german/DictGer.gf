@@ -484,6 +484,8 @@ concrete DictGer of DictGerAbs =
     , drogenhaendler_N
     , drogenhaendlerin_N
     , drogeriekette_N
+    , duftkerze_N
+    , duftstoff_N
     , dachantenne_N
     , dachbalken_N
     , dachboden_N
@@ -1495,6 +1497,8 @@ lin dornenkrone_N = mkN "Dornen" krone_N ;
 lin drogenhaendler_N = mkN droge_N haendler_N ;
 lin drogenhaendlerin_N = mkN droge_N haendlerin_N ;
 lin drogeriekette_N = mkN drogerie_N kette_N ;
+lin duftkerze_N = mkN duft_N kerze_N ;
+lin duftstoff_N = mkN duft_N stoff_N ;
 lin dachantenne_N = mkN dach_N antenne_N ;
 lin dachbalken_N = mkN dach_N balken_N ;
 lin dachboden_N = mkN dach_N boden_N ;

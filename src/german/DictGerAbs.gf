@@ -853,6 +853,8 @@ fun
   drogenhaendler_N : N ;
   drogenhaendlerin_N : N ;
   drogeriekette_N : N ;
+  duftkerze_N : N ;
+  duftstoff_N : N ;
   dachantenne_N : N ;
   dachbalken_N : N ;
   dachboden_N : N ;

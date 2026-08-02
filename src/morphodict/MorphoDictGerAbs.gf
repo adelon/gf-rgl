@@ -8858,8 +8858,6 @@ fun duett_N : N ;
 fun duft_N : N ;
 fun dufte_A : A ;
 fun duften_V : V ;
-fun duftkerze_N : N ;
-fun duftstoff_N : N ;
 fun dukatenscheisser_N : N ;
 fun duktal_A : A ;
 fun duktil_A : A ;
