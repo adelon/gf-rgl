@@ -9676,8 +9676,6 @@ fun eliminieren_V : V ;
 fun elision_N : N ;
 fun elitaer_A : A ;
 fun elite_N : N ;
-fun eliteeinheit_N : N ;
-fun elitesoldat_N : N ;
 fun elixier_N : N ;
 fun elizitieren_V : V ;
 fun ella_N : N ;
