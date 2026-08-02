@@ -751,6 +751,8 @@ concrete DictGer of DictGerAbs =
     , endnote_N
     , endloesung_N
     , endmoraene_N
+    , empfaengersprache_N
+    , empfaengerzelle_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1209,6 +1211,8 @@ lin endgruppe_N = mkN "End" gruppe_N ;
 lin endnote_N = mkN "End" note_N ;
 lin endloesung_N = mkN "End" loesung_N ;
 lin endmoraene_N = mkN "End" moraene_N ;
+lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
+lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;

@@ -9749,8 +9749,6 @@ fun empathie_N : N ;
 fun empathisch_A : A ;
 fun empathogen_A : A ;
 fun empfaenger_N : N ;
-fun empfaengersprache_N : N ;
-fun empfaengerzelle_N : N ;
 fun empfaenglich_A : A ;
 fun empfaengnisverhuetend_A : A ;
 fun empfaengnisverhuetungsmittel_N : N ;
