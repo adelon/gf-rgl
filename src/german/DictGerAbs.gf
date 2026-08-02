@@ -1696,6 +1696,11 @@ fun
   cortisolantagonist_N : N ;
   chromatographiematerial_N : N ;
   chromatographieschritt_N : N ;
+  cyangruppe_N : N ;
+  cyanogruppe_N : N ;
+  cyanobakterium_N : N ;
+  cytoplasmadomaene_N : N ;
+  cytosinbase_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

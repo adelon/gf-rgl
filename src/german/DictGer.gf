@@ -588,6 +588,11 @@ concrete DictGer of DictGerAbs =
     , cortisolantagonist_N
     , chromatographiematerial_N
     , chromatographieschritt_N
+    , cyangruppe_N
+    , cyanogruppe_N
+    , cyanobakterium_N
+    , cytoplasmadomaene_N
+    , cytosinbase_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2979,6 +2984,11 @@ lin cytokinrezeptor_N = mkN "Cytokin" rezeptor_N ;
 lin cortisolantagonist_N = mkN "Cortisol" antagonist_N ;
 lin chromatographiematerial_N = mkN "Chromatographie" material_N ;
 lin chromatographieschritt_N = mkN "Chromatographie" schritt_N ;
+lin cyangruppe_N = mkN "Cyan" gruppe_N ;
+lin cyanogruppe_N = mkN "Cyano" gruppe_N ;
+lin cyanobakterium_N = mkN "Cyano" bakterium_N ;
+lin cytoplasmadomaene_N = mkN "Cytoplasma" domaene_N ;
+lin cytosinbase_N = mkN "Cytosin" base_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
