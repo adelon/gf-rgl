@@ -132,6 +132,8 @@ concrete DictGer of DictGerAbs =
     , x_achse__N
     , y_achse__N
     , nationaloekonomie__N
+    , thema_rhema_gliederung__N
+    , thema_rhema_progression__N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -672,4 +674,6 @@ lin sprachoekonomie__N = mkN "Sprach" oekonomie__N ;
 lin x_achse__N = mkHyphenN "x" achse_N ;
 lin y_achse__N = mkHyphenN "y" achse_N ;
 lin nationaloekonomie__N = mkN "National" oekonomie__N ;
+lin thema_rhema_gliederung__N = mkHyphenN (mkHyphenN thema_N rhema_N) gliederung_N ;
+lin thema_rhema_progression__N = mkHyphenN (mkHyphenN thema_N rhema_N) progression_N ;
 }

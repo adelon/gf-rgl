@@ -501,4 +501,6 @@ fun
   x_achse__N : N ;
   y_achse__N : N ;
   nationaloekonomie__N : N ;
+  thema_rhema_gliederung__N : N ;
+  thema_rhema_progression__N : N ;
 }
