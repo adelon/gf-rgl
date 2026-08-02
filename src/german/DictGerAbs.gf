@@ -690,4 +690,6 @@ fun
   befreiungsschlag_N : N ;
   begierdetaufe_N : N ;
   begriffsschrift_N : N ;
+  begruessungsfloskel_N : N ;
+  begruessungskuss_N : N ;
 }

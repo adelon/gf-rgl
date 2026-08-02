@@ -321,6 +321,8 @@ concrete DictGer of DictGerAbs =
     , befreiungsschlag_N
     , begierdetaufe_N
     , begriffsschrift_N
+    , begruessungsfloskel_N
+    , begruessungskuss_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1050,4 +1052,6 @@ lin befoerderungsmittel_N = mkN befoerderung_N mittel_N ;
 lin befreiungsschlag_N = mkN befreiung_N schlag_N ;
 lin begierdetaufe_N = mkN begierde_N taufe_N ;
 lin begriffsschrift_N = changeCompoundN "Begriffsschrift" (mkN (changeCompoundN "Begriffs" begriff_N) schrift_N) ;
+lin begruessungsfloskel_N = mkN begruessung_N floskel_N ;
+lin begruessungskuss_N = mkN begruessung_N kuss_N ;
 }

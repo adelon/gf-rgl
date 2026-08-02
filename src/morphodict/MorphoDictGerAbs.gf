@@ -4680,8 +4680,6 @@ fun begruendung_N : N ;
 fun begruenen_V : V ;
 fun begruessen_V : V ;
 fun begruessung_N : N ;
-fun begruessungsfloskel_N : N ;
-fun begruessungskuss_N : N ;
 fun beguenstigen_V : V ;
 fun beguetert_A : A ;
 fun behaart_A : A ;
