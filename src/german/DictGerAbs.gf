@@ -333,6 +333,10 @@ fun
   hundefrisoer_N : N ;
   hundespielzeug_N : N ;
   hundezuechter_N : N ;
+  hunds_rose_N : N ;
+  hundsaffe_N : N ;
+  hundsrose_N : N ;
+  hundszunge_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
