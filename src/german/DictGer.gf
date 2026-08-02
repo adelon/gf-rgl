@@ -312,6 +312,11 @@ concrete DictGer of DictGerAbs =
     , behandlungsmethode_N
     , behandlungsmittel_N
     , behandlungsweise_N
+    , befehlsform_N
+    , befehlsnotstand_N
+    , befehlssatz_N
+    , befehlssequenz_N
+    , befehlsverweigerung_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1032,4 +1037,9 @@ lin behandlungsfehler_N = mkN behandlung_N fehler_N ;
 lin behandlungsmethode_N = mkN behandlung_N methode_N ;
 lin behandlungsmittel_N = mkN behandlung_N mittel_N ;
 lin behandlungsweise_N = mkN behandlung_N weise_N ;
+lin befehlsform_N = mkN (changeCompoundN "Befehls" befehl_N) form_N ;
+lin befehlsnotstand_N = mkN (changeCompoundN "Befehls" befehl_N) notstand_N ;
+lin befehlssatz_N = mkN (changeCompoundN "Befehls" befehl_N) satz_N ;
+lin befehlssequenz_N = mkN (changeCompoundN "Befehls" befehl_N) sequenz_N ;
+lin befehlsverweigerung_N = mkN (changeCompoundN "Befehls" befehl_N) verweigerung_N ;
 }

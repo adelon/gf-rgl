@@ -681,4 +681,9 @@ fun
   behandlungsmethode_N : N ;
   behandlungsmittel_N : N ;
   behandlungsweise_N : N ;
+  befehlsform_N : N ;
+  befehlsnotstand_N : N ;
+  befehlssatz_N : N ;
+  befehlssequenz_N : N ;
+  befehlsverweigerung_N : N ;
 }
