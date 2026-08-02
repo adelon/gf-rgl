@@ -296,6 +296,9 @@ fun
   holzhaus_N : N ;
   holzmoebel_N : N ;
   holzweg_N : N ;
+  himmelbett_N : N ;
+  himmelfahrt_N : N ;
+  himmelsleiter_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
