@@ -182,6 +182,9 @@ concrete DictGer of DictGerAbs =
     , clubjacke_N
     , clubmitglied_N
     , clubsessel_N
+    , cocktailglas_N
+    , currypulver_N
+    , currywurst_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -2035,6 +2038,9 @@ lin clubhaus_N = mkN club_N haus_N ;
 lin clubjacke_N = mkN club_N jacke_N ;
 lin clubmitglied_N = mkN club_N mitglied_N ;
 lin clubsessel_N = mkN club_N sessel_N ;
+lin cocktailglas_N = mkN cocktail_N glas_N ;
+lin currypulver_N = mkN curry_N pulver_N ;
+lin currywurst_N = mkN curry_N wurst_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
