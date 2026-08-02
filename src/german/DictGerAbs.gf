@@ -270,6 +270,13 @@ fun
   hasenfuss_N : N ;
   haubenmeise_N : N ;
   haubentaucher_N : N ;
+  hautentzuendung_N : N ;
+  hauterkrankung_N : N ;
+  hautinfektion_N : N ;
+  hautkrankheit_N : N ;
+  hautschicht_N : N ;
+  hautstoerung_N : N ;
+  hautverletzung_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
