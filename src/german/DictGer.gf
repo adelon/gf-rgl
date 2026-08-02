@@ -1065,6 +1065,17 @@ concrete DictGer of DictGerAbs =
     , kindersprache_N
     , kindertheater_N
     , kinderzimmer_N
+    , koenigsbauer_N
+    , koenigsetappe_N
+    , koenigskerze_N
+    , koenigskind_N
+    , koenigsklasse_N
+    , koenigslaeufer_N
+    , koenigspinguin_N
+    , koenigssohn_N
+    , koenigsspringer_N
+    , koenigsturm_N
+    , koenigszug_N
     , katzenauge_N
     , katzenfell_N
     , katzenfrettfell_N
@@ -1592,6 +1603,17 @@ lin kinderspiel_N = mkN "Kinder" spiel_N ;
 lin kindersprache_N = changeCompoundN "Kindersprachen" (mkN "Kinder" sprache_N) ;
 lin kindertheater_N = mkN "Kinder" theater_N ;
 lin kinderzimmer_N = mkN "Kinder" zimmer_N ;
+lin koenigsbauer_N = mkN "Königs" bauer_N ;
+lin koenigsetappe_N = mkN "Königs" etappe_N ;
+lin koenigskerze_N = mkN "Königs" kerze_N ;
+lin koenigskind_N = mkN "Königs" kind_N ;
+lin koenigsklasse_N = mkN "Königs" klasse_N ;
+lin koenigslaeufer_N = mkN "Königs" laeufer_N ;
+lin koenigspinguin_N = mkN "Königs" pinguin_N ;
+lin koenigssohn_N = mkN "Königs" sohn_N ;
+lin koenigsspringer_N = mkN "Königs" springer_N ;
+lin koenigsturm_N = mkN "Königs" turm_N ;
+lin koenigszug_N = mkN "Königs" zug_N ;
 lin katzenauge_N = mkN "Katzen" auge_N ;
 lin katzenfell_N = mkN "Katzen" fell_N ;
 lin katzenfrettfell_N = mkN "Katzenfrett" fell_N ;

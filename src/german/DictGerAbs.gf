@@ -570,6 +570,17 @@ fun
   kindersprache_N : N ;
   kindertheater_N : N ;
   kinderzimmer_N : N ;
+  koenigsbauer_N : N ;
+  koenigsetappe_N : N ;
+  koenigskerze_N : N ;
+  koenigskind_N : N ;
+  koenigsklasse_N : N ;
+  koenigslaeufer_N : N ;
+  koenigspinguin_N : N ;
+  koenigssohn_N : N ;
+  koenigsspringer_N : N ;
+  koenigsturm_N : N ;
+  koenigszug_N : N ;
   katzenauge_N : N ;
   katzenfell_N : N ;
   katzenfrettfell_N : N ;
