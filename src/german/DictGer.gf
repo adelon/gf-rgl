@@ -95,6 +95,8 @@ concrete DictGer of DictGerAbs =
     , aberdeenrind_N
     , aberrationskonstante_N
     , aberrationszeit_N
+    , algonkin_sprache_N
+    , alt_achtundsechziger_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1861,6 +1863,8 @@ lin audio_designer_N = mkHyphenN "Audio" designer_N ;
 lin aberdeenrind_N = mkN "Aberdeen" rind_N ;
 lin aberrationskonstante_N = mkN "Aberrations" konstante_N ;
 lin aberrationszeit_N = mkN "Aberrations" zeit_N ;
+lin algonkin_sprache_N = mkHyphenN "Algonkin" sprache_N ;
+lin alt_achtundsechziger_N = mkHyphenN "Alt" achtundsechziger_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

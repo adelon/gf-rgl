@@ -1205,6 +1205,8 @@ fun
   aberdeenrind_N : N ;
   aberrationskonstante_N : N ;
   aberrationszeit_N : N ;
+  algonkin_sprache_N : N ;
+  alt_achtundsechziger_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
