@@ -152,6 +152,11 @@ fun
   haarnetz_N : N ;
   haarsieb_N : N ;
   haarstern_N : N ;
+  haaransatz_N : N ;
+  haarersatz_N : N ;
+  haarfollikel_N : N ;
+  haarriss_N : N ;
+  haartrockner_N : N ;
   achselhoehle_N : N ;
   achteckstempel_N : N ;
   achterbahn_N : N ;
