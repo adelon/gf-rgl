@@ -924,6 +924,19 @@ concrete DictGer of DictGerAbs =
     , immunotoxin_N
     , immunreaktion_N
     , immunregulator_N
+    , jahrbuch_N
+    , jahresabschluss_N
+    , jahresanfang_N
+    , jahresende_N
+    , jahresgehalt_N
+    , jahreshoroskop_N
+    , jahresmitte_N
+    , jahresrueckblick_N
+    , jahrestag_N
+    , jahresueberschuss_N
+    , jahreswechsel_N
+    , jahreszahl__N
+    , jahreszeit_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1301,6 +1314,19 @@ lin immunglobulinsequenz_N = mkN immunglobulin_N sequenz_N ;
 lin immunotoxin_N = mkN "Immunotoxin" "Immuntoxine" neuter ;
 lin immunreaktion_N = changeCompoundN "Immunreaktion" (mkN "Immun" reaktion_N) ;
 lin immunregulator_N = mkN "Immun" regulator_N ;
+lin jahrbuch_N = mkN jahr_N buch_N ;
+lin jahresabschluss_N = mkN "Jahres" abschluss_N ;
+lin jahresanfang_N = mkN "Jahres" anfang_N ;
+lin jahresende_N = mkN "Jahres" ende_N ;
+lin jahresgehalt_N = mkN "Jahres" gehalt_N ;
+lin jahreshoroskop_N = mkN "Jahres" horoskop_N ;
+lin jahresmitte_N = mkN "Jahres" (mkN "Mitte" "Mitten" feminine) ;
+lin jahresrueckblick_N = mkN "Jahres" rueckblick_N ;
+lin jahrestag_N = mkN "Jahres" tag_N ;
+lin jahresueberschuss_N = mkN "Jahres" ueberschuss_N ;
+lin jahreswechsel_N = mkN "Jahres" wechsel_N ;
+lin jahreszahl__N = mkN "Jahres" zahl_N ;
+lin jahreszeit_N = mkN "Jahres" zeit_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
