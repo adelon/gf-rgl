@@ -686,4 +686,8 @@ fun
   befehlssatz_N : N ;
   befehlssequenz_N : N ;
   befehlsverweigerung_N : N ;
+  befoerderungsmittel_N : N ;
+  befreiungsschlag_N : N ;
+  begierdetaufe_N : N ;
+  begriffsschrift_N : N ;
 }

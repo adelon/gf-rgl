@@ -317,6 +317,10 @@ concrete DictGer of DictGerAbs =
     , befehlssatz_N
     , befehlssequenz_N
     , befehlsverweigerung_N
+    , befoerderungsmittel_N
+    , befreiungsschlag_N
+    , begierdetaufe_N
+    , begriffsschrift_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1042,4 +1046,8 @@ lin befehlsnotstand_N = mkN (changeCompoundN "Befehls" befehl_N) notstand_N ;
 lin befehlssatz_N = mkN (changeCompoundN "Befehls" befehl_N) satz_N ;
 lin befehlssequenz_N = mkN (changeCompoundN "Befehls" befehl_N) sequenz_N ;
 lin befehlsverweigerung_N = mkN (changeCompoundN "Befehls" befehl_N) verweigerung_N ;
+lin befoerderungsmittel_N = mkN befoerderung_N mittel_N ;
+lin befreiungsschlag_N = mkN befreiung_N schlag_N ;
+lin begierdetaufe_N = mkN begierde_N taufe_N ;
+lin begriffsschrift_N = changeCompoundN "Begriffsschrift" (mkN (changeCompoundN "Begriffs" begriff_N) schrift_N) ;
 }
