@@ -15295,7 +15295,6 @@ lin halsbandfrankolin_N = mkN "Halsbandfrankolin" "Halsbandfrankoline" masculine
 lin halsbandschnaepper_N = mkN "Halsbandschnäpper" "Halsbandschnäpper" masculine ;
 lin halse_N = mkN "Halse" "Halsen" feminine ;
 lin halsen_V = regV "halsen" ;
-lin halsentzuendung_N = mkN "Halsentzündung" "Halsentzündungen" feminine ;
 lin halsgericht_N = mkN "Halsgericht" "Halsgerichte" neuter ;
 lin halskrausenerdstern_N = mkN "Halskrausenerdstern" "Halskrausenerdsterne" masculine ;
 lin halt_Adv = mkAdv "halt" ;

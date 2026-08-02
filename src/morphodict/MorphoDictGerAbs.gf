@@ -15290,7 +15290,6 @@ fun halsbandfrankolin_N : N ;
 fun halsbandschnaepper_N : N ;
 fun halse_N : N ;
 fun halsen_V : V ;
-fun halsentzuendung_N : N ;
 fun halsgericht_N : N ;
 fun halskrausenerdstern_N : N ;
 fun halt_Adv : Adv ;

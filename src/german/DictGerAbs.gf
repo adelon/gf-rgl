@@ -208,6 +208,7 @@ fun
   halsschmerz_N : N ;
   halstuch_N : N ;
   halswirbel_N : N ;
+  halsentzuendung_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;

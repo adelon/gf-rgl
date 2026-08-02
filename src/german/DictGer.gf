@@ -1033,6 +1033,7 @@ lin halskette_N = mkN "Hals" kette_N ;
 lin halsschmerz_N = mkN "Hals" schmerz_N ;
 lin halstuch_N = mkN "Hals" (mkN "Tuch" "Tücher" neuter) ;
 lin halswirbel_N = mkN "Hals" wirbel_N ;
+lin halsentzuendung_N = mkN "Hals" entzuendung_N ;
 lin achselhoehle_N = mkN achsel_N hoehle_N ;
 lin achteckstempel_N = mkN achteck_N stempel_N ;
 lin achterbahn_N = mkN achter_N bahn_N ;
