@@ -479,6 +479,8 @@ concrete DictGer of DictGerAbs =
     , druckregler_N
     , drucksache_N
     , druckschrift_N
+    , dornbusch_N
+    , dornenkrone_N
     , dachantenne_N
     , dachbalken_N
     , dachboden_N
@@ -1485,6 +1487,8 @@ lin druckfehler_N = mkN "Druck" fehler_N ;
 lin druckregler_N = mkN "Druck" regler_N ;
 lin drucksache_N = mkN "Druck" sache_N ;
 lin druckschrift_N = mkN "Druck" schrift_N ;
+lin dornbusch_N = mkN "Dorn" busch_N ;
+lin dornenkrone_N = mkN "Dornen" krone_N ;
 lin dachantenne_N = mkN dach_N antenne_N ;
 lin dachbalken_N = mkN dach_N balken_N ;
 lin dachboden_N = mkN dach_N boden_N ;

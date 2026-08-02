@@ -848,6 +848,8 @@ fun
   druckregler_N : N ;
   drucksache_N : N ;
   druckschrift_N : N ;
+  dornbusch_N : N ;
+  dornenkrone_N : N ;
   dachantenne_N : N ;
   dachbalken_N : N ;
   dachboden_N : N ;

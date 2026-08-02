@@ -8594,8 +8594,6 @@ fun dorit_N : N ;
 fun dorkasgazelle_N : N ;
 fun dormitorium_N : N ;
 fun dorn_N : N ;
-fun dornbusch_N : N ;
-fun dornenkrone_N : N ;
 fun dornfelder_N : N ;
 fun dorren_V : V ;
 fun dorsal_A : A ;
