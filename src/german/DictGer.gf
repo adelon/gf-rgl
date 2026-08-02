@@ -331,6 +331,13 @@ concrete DictGer of DictGerAbs =
     , beinhaus_N
     , belegstelle_N
     , beitrittserklaerung_N
+    , berufsakademie_N
+    , berufsaussicht_N
+    , berufsgruppe_N
+    , berufskrankheit_N
+    , berufsleben_N
+    , berufsschule_N
+    , berufssprache_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1083,6 +1090,13 @@ lin beinbruch_N = mkN bein_N bruch_N ;
 lin beinhaus_N = mkN bein_N haus_N ;
 lin belegstelle_N = mkN beleg_N stelle_N ;
 lin beitrittserklaerung_N = mkN "Beitritts" erklaerung_N ;
+lin berufsakademie_N = mkN (changeCompoundN "Berufs" beruf_N) akademie_N ;
+lin berufsaussicht_N = mkN (changeCompoundN "Berufs" beruf_N) aussicht_N ;
+lin berufsgruppe_N = mkN (changeCompoundN "Berufs" beruf_N) gruppe_N ;
+lin berufskrankheit_N = mkN (changeCompoundN "Berufs" beruf_N) krankheit_N ;
+lin berufsleben_N = mkN (changeCompoundN "Berufs" beruf_N) leben_N ;
+lin berufsschule_N = mkN (changeCompoundN "Berufs" beruf_N) schule_N ;
+lin berufssprache_N = mkN (changeCompoundN "Berufs" beruf_N) sprache_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

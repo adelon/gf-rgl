@@ -700,6 +700,13 @@ fun
   beinhaus_N : N ;
   belegstelle_N : N ;
   beitrittserklaerung_N : N ;
+  berufsakademie_N : N ;
+  berufsaussicht_N : N ;
+  berufsgruppe_N : N ;
+  berufskrankheit_N : N ;
+  berufsleben_N : N ;
+  berufsschule_N : N ;
+  berufssprache_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
