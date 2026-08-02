@@ -194,6 +194,8 @@ concrete DictGer of DictGerAbs =
     , badeschwamm_N
     , badewanne_N
     , badezimmer_N
+    , bauleiter_N
+    , berufsschullehrer_N
     , bahnhof_N
     , bahnhofsgaststaette_N
     , bahnhofsuhr_N
@@ -1024,6 +1026,8 @@ lin badesalz_N = mkN "Bade" salz_N ;
 lin badeschwamm_N = mkN "Bade" schwamm_N ;
 lin badewanne_N = mkN "Bade" wanne_N ;
 lin badezimmer_N = mkN "Bade" zimmer_N ;
+lin bauleiter_N = mkN "Bau" leiter_N ;
+lin berufsschullehrer_N = mkN berufsschule_N lehrer_N ;
 lin bahnhof_N = mkN bahn_N hof_N ;
 lin bahnhofsgaststaette_N = mkN "Bahnhofs" gaststaette_N ;
 lin bahnhofsuhr_N = mkN "Bahnhofs" uhr_N ;

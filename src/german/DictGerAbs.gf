@@ -566,6 +566,8 @@ fun
   badeschwamm_N : N ;
   badewanne_N : N ;
   badezimmer_N : N ;
+  bauleiter_N : N ;
+  berufsschullehrer_N : N ;
   bahnhof_N : N ;
   bahnhofsgaststaette_N : N ;
   bahnhofsuhr_N : N ;
