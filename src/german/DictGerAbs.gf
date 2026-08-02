@@ -209,6 +209,18 @@ fun
   halstuch_N : N ;
   halswirbel_N : N ;
   halsentzuendung_N : N ;
+  hauptakzent_N : N ;
+  hauptbahnhof_N : N ;
+  hauptbuch_N : N ;
+  hauptfeldwebel_N : N ;
+  hauptgruppe_N : N ;
+  haupthaus_N : N ;
+  hauptkomponente_N : N ;
+  hauptlaster_N : N ;
+  hauptlinie_N : N ;
+  hauptmahlzeit_N : N ;
+  hauptplatine_N : N ;
+  hauptrolle_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
