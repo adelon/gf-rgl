@@ -848,4 +848,20 @@ fun
   druckregler_N : N ;
   drucksache_N : N ;
   druckschrift_N : N ;
+  dachantenne_N : N ;
+  dachbalken_N : N ;
+  dachboden_N : N ;
+  dachfenster_N : N ;
+  dachgarten_N : N ;
+  dachgaube_N : N ;
+  dachhaut_N : N ;
+  dachkammer_N : N ;
+  dachlatte_N : N ;
+  dachluke_N : N ;
+  dachpappe_N : N ;
+  dachstube_N : N ;
+  dachterrasse_N : N ;
+  dachtraufe_N : N ;
+  dachzeile_N : N ;
+  dachziegel_N : N ;
 }

@@ -479,6 +479,22 @@ concrete DictGer of DictGerAbs =
     , druckregler_N
     , drucksache_N
     , druckschrift_N
+    , dachantenne_N
+    , dachbalken_N
+    , dachboden_N
+    , dachfenster_N
+    , dachgarten_N
+    , dachgaube_N
+    , dachhaut_N
+    , dachkammer_N
+    , dachlatte_N
+    , dachluke_N
+    , dachpappe_N
+    , dachstube_N
+    , dachterrasse_N
+    , dachtraufe_N
+    , dachzeile_N
+    , dachziegel_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1366,4 +1382,20 @@ lin druckfehler_N = mkN "Druck" fehler_N ;
 lin druckregler_N = mkN "Druck" regler_N ;
 lin drucksache_N = mkN "Druck" sache_N ;
 lin druckschrift_N = mkN "Druck" schrift_N ;
+lin dachantenne_N = mkN dach_N antenne_N ;
+lin dachbalken_N = mkN dach_N balken_N ;
+lin dachboden_N = mkN dach_N boden_N ;
+lin dachfenster_N = mkN dach_N fenster_N ;
+lin dachgarten_N = mkN dach_N garten_N ;
+lin dachgaube_N = mkN dach_N gaube_N ;
+lin dachhaut_N = mkN dach_N haut_N ;
+lin dachkammer_N = mkN dach_N kammer_N ;
+lin dachlatte_N = mkN dach_N latte_N ;
+lin dachluke_N = mkN dach_N luke_N ;
+lin dachpappe_N = mkN dach_N pappe_N ;
+lin dachstube_N = mkN dach_N stube_N ;
+lin dachterrasse_N = mkN dach_N terrasse_N ;
+lin dachtraufe_N = mkN dach_N traufe_N ;
+lin dachzeile_N = mkN dach_N zeile_N ;
+lin dachziegel_N = mkN dach_N ziegel_N ;
 }
