@@ -1018,6 +1018,19 @@ concrete DictGer of DictGerAbs =
     , kaninchenfell_N
     , kaninchenleber_N
     , kaninchenzuechter_N
+    , kanarienpockenvektor_N
+    , kanarienvogel_N
+    , kandidatensubstanz_N
+    , kandidatenverbindung_N
+    , kanonenkugel_N
+    , kanonenofen_N
+    , kanzleisprache_N
+    , kanzleistil_N
+    , kanzleramt_N
+    , kanzlerinkandidatin_N
+    , kanzlerkandidat_N
+    , kanzlerkandidatin_N
+    , kanzlermehrheit_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1489,6 +1502,19 @@ lin kammlinie_N = mkN kamm_N linie_N ;
 lin kaninchenfell_N = mkN kaninchen_N fell_N ;
 lin kaninchenleber_N = mkN kaninchen_N leber_N ;
 lin kaninchenzuechter_N = mkN kaninchen_N zuechter_N ;
+lin kanarienpockenvektor_N = mkN "Kanarienpocken" vektor_N ;
+lin kanarienvogel_N = mkN "Kanarien" vogel_N ;
+lin kandidatensubstanz_N = mkN "Kandidaten" substanz_N ;
+lin kandidatenverbindung_N = mkN "Kandidaten" verbindung_N ;
+lin kanonenkugel_N = mkN "Kanonen" kugel_N ;
+lin kanonenofen_N = mkN "Kanonen" ofen_N ;
+lin kanzleisprache_N = mkN kanzlei_N sprache_N ;
+lin kanzleistil_N = mkN kanzlei_N stil_N ;
+lin kanzleramt_N = mkN kanzler_N amt_N ;
+lin kanzlerinkandidatin_N = mkN kanzlerin_N kandidatin_N ;
+lin kanzlerkandidat_N = mkN kanzler_N kandidat_N ;
+lin kanzlerkandidatin_N = mkN kanzler_N kandidatin_N ;
+lin kanzlermehrheit_N = mkN kanzler_N mehrheit_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
