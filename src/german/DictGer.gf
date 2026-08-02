@@ -327,6 +327,8 @@ concrete DictGer of DictGerAbs =
     , beichtvater_N
     , behaeltervorrichtung_N
     , behelfsbruecke_N
+    , beinbruch_N
+    , beinhaus_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1062,4 +1064,6 @@ lin beichtstuhl_N = mkN beichte_N stuhl_N ;
 lin beichtvater_N = mkN beichte_N vater_N ;
 lin behaeltervorrichtung_N = mkN behaelter_N vorrichtung_N ;
 lin behelfsbruecke_N = mkN (changeCompoundN "Behelfs" behelf_N) bruecke_N ;
+lin beinbruch_N = mkN bein_N bruch_N ;
+lin beinhaus_N = mkN bein_N haus_N ;
 }

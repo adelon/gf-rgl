@@ -696,4 +696,6 @@ fun
   beichtvater_N : N ;
   behaeltervorrichtung_N : N ;
   behelfsbruecke_N : N ;
+  beinbruch_N : N ;
+  beinhaus_N : N ;
 }
