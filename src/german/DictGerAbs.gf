@@ -840,4 +840,12 @@ fun
   cholesterinderivat_N : N ;
   cholesterinspiegel_N : N ;
   citratsalz_N : N ;
+  druckerpapier_N : N ;
+  druckerpatrone_N : N ;
+  druckersprache_N : N ;
+  druckerzeugnis_N : N ;
+  druckfehler_N : N ;
+  druckregler_N : N ;
+  drucksache_N : N ;
+  druckschrift_N : N ;
 }

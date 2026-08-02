@@ -471,6 +471,14 @@ concrete DictGer of DictGerAbs =
     , cholesterinderivat_N
     , cholesterinspiegel_N
     , citratsalz_N
+    , druckerpapier_N
+    , druckerpatrone_N
+    , druckersprache_N
+    , druckerzeugnis_N
+    , druckfehler_N
+    , druckregler_N
+    , drucksache_N
+    , druckschrift_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1350,4 +1358,12 @@ lin chloridionenkatalysator_N = mkN chloridion_N katalysator_N ;
 lin cholesterinderivat_N = mkN cholesterin_N derivat_N ;
 lin cholesterinspiegel_N = mkN cholesterin_N spiegel_N ;
 lin citratsalz_N = mkN citrat_N salz_N ;
+lin druckerpapier_N = mkN "Drucker" papier_N ;
+lin druckerpatrone_N = mkN "Drucker" patrone_N ;
+lin druckersprache_N = mkN "Drucker" sprache_N ;
+lin druckerzeugnis_N = mkN "Drucker" zeugnis_N ;
+lin druckfehler_N = mkN "Druck" fehler_N ;
+lin druckregler_N = mkN "Druck" regler_N ;
+lin drucksache_N = mkN "Druck" sache_N ;
+lin druckschrift_N = mkN "Druck" schrift_N ;
 }
