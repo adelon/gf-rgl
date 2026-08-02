@@ -1715,6 +1715,9 @@ fun
   campusmaut_N : N ;
   capsidprotein_N : N ;
   chalkonderivat_N : N ;
+  chloratom_N : N ;
+  chlorderivat_N : N ;
+  chlorhydrat_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

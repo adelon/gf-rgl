@@ -607,6 +607,9 @@ concrete DictGer of DictGerAbs =
     , campusmaut_N
     , capsidprotein_N
     , chalkonderivat_N
+    , chloratom_N
+    , chlorderivat_N
+    , chlorhydrat_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3017,6 +3020,9 @@ lin camptothecinderivat_N = mkN "Camptothecin" derivat_N ;
 lin campusmaut_N = mkN "Campus" maut_N ;
 lin capsidprotein_N = mkN "Capsid" protein_N ;
 lin chalkonderivat_N = mkN "Chalkon" derivat_N ;
+lin chloratom_N = mkN "Chlor" atom_N ;
+lin chlorderivat_N = mkN "Chlor" derivat_N ;
+lin chlorhydrat_N = mkN "Chlor" hydrat_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
