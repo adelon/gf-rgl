@@ -25,6 +25,7 @@ fun
   abenteuergeschichte_N : N ;
   abenteuerspielplatz_N : N ;
   abendakademie_N : N ;
+  abendbummel_N : N ;
   abendandacht_N : N ;
   abendanfrage_N : N ;
   abendanzug_N : N ;
@@ -35,6 +36,7 @@ fun
   abendgymnasium_N : N ;
   abendkasse_N : N ;
   abendkleid_N : N ;
+  abendkurs_N : N ;
   abendstunde_N : N ;
   abendveranstaltung_N : N ;
   abendweite_N : N ;

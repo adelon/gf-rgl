@@ -41,6 +41,7 @@ concrete DictGer of DictGerAbs =
     , abenteuergeschichte_N
     , abenteuerspielplatz_N
     , abendakademie_N
+    , abendbummel_N
     , abendandacht_N
     , abendanfrage_N
     , abendanzug_N
@@ -51,6 +52,7 @@ concrete DictGer of DictGerAbs =
     , abendgymnasium_N
     , abendkasse_N
     , abendkleid_N
+    , abendkurs_N
     , abendstunde_N
     , abendveranstaltung_N
     , abendweite_N
@@ -589,6 +591,7 @@ lin abenteuerfilm_N = mkN abenteuer_N film_N ;
 lin abenteuergeschichte_N = mkN abenteuer_N geschichte_N ;
 lin abenteuerspielplatz_N = mkN abenteuer_N spielplatz_N ;
 lin abendakademie_N = mkN abend_N akademie_N ;
+lin abendbummel_N = mkN abend_N (mkN "Bummel" "Bummel" masculine) ;
 lin abendandacht_N = mkN abend_N andacht_N ;
 lin abendanfrage_N = mkN abend_N anfrage_N ;
 lin abendanzug_N = mkN abend_N anzug_N ;
@@ -599,6 +602,7 @@ lin abendgebet_N = mkN abend_N gebet_N ;
 lin abendgymnasium_N = mkN abend_N gymnasium_N ;
 lin abendkasse_N = mkN abend_N kasse_N ;
 lin abendkleid_N = mkN abend_N kleid_N ;
+lin abendkurs_N = mkN abend_N kurs__N ;
 lin abendstunde_N = mkN abend_N stunde_N ;
 lin abendveranstaltung_N = mkN abend_N veranstaltung_N ;
 lin abendweite_N = mkN abend_N weite_N ;
