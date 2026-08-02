@@ -494,6 +494,12 @@ concrete DictGer of DictGerAbs =
     , durchbruchschmerz_N
     , durchlauferhitzer_N
     , durchsetzungsvermoegen_N
+    , ehrenamt_N
+    , ehrenkranz_N
+    , ehrenmord_N
+    , ehrenplatz_N
+    , ehrenrunde_N
+    , ehrensold_N
     , ehebruch_N
     , ehebett_N
     , ehefrau_N
@@ -1524,6 +1530,12 @@ lin durchschnittsmenge_N = mkN "Durchschnitts" menge_N ;
 lin durchbruchschmerz_N = mkN durchbruch_N schmerz_N ;
 lin durchlauferhitzer_N = mkN "Durchlauf" erhitzer_N ;
 lin durchsetzungsvermoegen_N = mkN "Durchsetzungs" vermoegen_N ;
+lin ehrenamt_N = mkN ehre_N amt_N ;
+lin ehrenkranz_N = mkN ehre_N kranz_N ;
+lin ehrenmord_N = mkN ehre_N mord_N ;
+lin ehrenplatz_N = mkN ehre_N platz_N ;
+lin ehrenrunde_N = mkN ehre_N runde_N ;
+lin ehrensold_N = mkN ehre_N sold_N ;
 lin ehebruch_N = mkN ehe_N bruch_N ;
 lin ehebett_N = mkN ehe_N bett_N ;
 lin ehefrau_N = mkN ehe_N frau_N ;

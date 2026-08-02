@@ -863,6 +863,12 @@ fun
   durchbruchschmerz_N : N ;
   durchlauferhitzer_N : N ;
   durchsetzungsvermoegen_N : N ;
+  ehrenamt_N : N ;
+  ehrenkranz_N : N ;
+  ehrenmord_N : N ;
+  ehrenplatz_N : N ;
+  ehrenrunde_N : N ;
+  ehrensold_N : N ;
   ehebruch_N : N ;
   ehebett_N : N ;
   ehefrau_N : N ;
