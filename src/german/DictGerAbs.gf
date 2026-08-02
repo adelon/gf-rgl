@@ -752,6 +752,8 @@ fun
   besatzungszone_N : N ;
   beschaffungsamt_N : N ;
   beschreibungssprache_N : N ;
+  besenstiel_N : N ;
+  besenwirtschaft_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;

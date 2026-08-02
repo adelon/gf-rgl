@@ -5123,8 +5123,6 @@ fun beseitigen_V : V ;
 fun besen_N : N ;
 fun besenrein_A : A ;
 fun besenreis_N : N ;
-fun besenstiel_N : N ;
-fun besenwirtschaft_N : N ;
 fun besetzen_V : V ;
 fun besetzung_N : N ;
 fun besicherung_N : N ;
