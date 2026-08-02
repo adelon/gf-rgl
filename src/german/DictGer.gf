@@ -274,6 +274,11 @@ concrete DictGer of DictGerAbs =
     , bauspardarlehen_N
     , bausparkasse_N
     , bausparvertrag_N
+    , bauchmuskel_N
+    , bauchnabel_N
+    , bauchredner_N
+    , bauchschmerz_N
+    , bauchspeck_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -956,4 +961,9 @@ lin bauzaun_N = mkN "Bau" zaun_N ;
 lin bauspardarlehen_N = mkN "Bauspar" darlehen_N ;
 lin bausparkasse_N = mkN "Bauspar" kasse_N ;
 lin bausparvertrag_N = mkN "Bauspar" vertrag_N ;
+lin bauchmuskel_N = mkN "Bauch" muskel_N ;
+lin bauchnabel_N = mkN "Bauch" nabel_N ;
+lin bauchredner_N = mkN "Bauch" redner_N ;
+lin bauchschmerz_N = mkN "Bauch" schmerz_N ;
+lin bauchspeck_N = mkN "Bauch" speck_N ;
 }

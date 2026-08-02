@@ -643,4 +643,9 @@ fun
   bauspardarlehen_N : N ;
   bausparkasse_N : N ;
   bausparvertrag_N : N ;
+  bauchmuskel_N : N ;
+  bauchnabel_N : N ;
+  bauchredner_N : N ;
+  bauchschmerz_N : N ;
+  bauchspeck_N : N ;
 }
