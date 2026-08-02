@@ -882,4 +882,13 @@ fun
   damenturm_N : N ;
   damenzug_N : N ;
   damespiel_N : N ;
+  dampfkavitation_N : N ;
+  dampflok_N : N ;
+  dampflokomotive_N : N ;
+  dampfmaschine_N : N ;
+  dampfnudel_N : N ;
+  dampfplauderer_N : N ;
+  dampfradio_N : N ;
+  dampfschiff_N : N ;
+  dampfturbine_N : N ;
 }

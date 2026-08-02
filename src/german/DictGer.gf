@@ -513,6 +513,15 @@ concrete DictGer of DictGerAbs =
     , damenturm_N
     , damenzug_N
     , damespiel_N
+    , dampfkavitation_N
+    , dampflok_N
+    , dampflokomotive_N
+    , dampfmaschine_N
+    , dampfnudel_N
+    , dampfplauderer_N
+    , dampfradio_N
+    , dampfschiff_N
+    , dampfturbine_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1434,4 +1443,13 @@ lin damentaschentuch_N = mkN dame_N taschentuch_N ;
 lin damenturm_N = mkN dame_N turm_N ;
 lin damenzug_N = mkN dame_N zug_N ;
 lin damespiel_N = mkN dame_N spiel_N ;
+lin dampfkavitation_N = mkN dampf_N kavitation_N ;
+lin dampflok_N = mkN dampf_N lok_N ;
+lin dampflokomotive_N = mkN dampf_N lokomotive_N ;
+lin dampfmaschine_N = mkN dampf_N maschine_N ;
+lin dampfnudel_N = mkN dampf_N nudel_N ;
+lin dampfplauderer_N = mkN dampf_N plauderer_N ;
+lin dampfradio_N = mkN dampf_N radio_N ;
+lin dampfschiff_N = mkN dampf_N schiff_N ;
+lin dampfturbine_N = mkN dampf_N turbine_N ;
 }
