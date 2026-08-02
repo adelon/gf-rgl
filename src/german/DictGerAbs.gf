@@ -498,6 +498,9 @@ fun
   kaktusbirne_N : N ;
   kaktusfeige_N : N ;
   kalkstein_N : N ;
+  kaefersammlung_N : N ;
+  kaempferholz_N : N ;
+  kaenguruleder_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

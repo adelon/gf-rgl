@@ -993,6 +993,9 @@ concrete DictGer of DictGerAbs =
     , kaktusbirne_N
     , kaktusfeige_N
     , kalkstein_N
+    , kaefersammlung_N
+    , kaempferholz_N
+    , kaenguruleder_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1439,6 +1442,9 @@ lin kaeltewelle_N = mkN "Kälte" welle_N ;
 lin kaktusbirne_N = mkN "Kaktus" birne_N ;
 lin kaktusfeige_N = mkN "Kaktus" feige_N ;
 lin kalkstein_N = mkN kalk_N stein_N ;
+lin kaefersammlung_N = mkN kaefer_N sammlung_N ;
+lin kaempferholz_N = mkN kaempfer_N holz_N ;
+lin kaenguruleder_N = mkN kaenguru_N leder_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
