@@ -951,6 +951,12 @@ concrete DictGer of DictGerAbs =
     , jagdhund_N
     , jagdschein_N
     , jagdstrecke_N
+    , kabelbinder_N
+    , kabelbrand_N
+    , kabelkanal_N
+    , kabelpritsche_N
+    , kabelsalat_N
+    , kabelschacht_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1355,6 +1361,12 @@ lin jagdflugzeug_N = mkN jagd_N flugzeug_N ;
 lin jagdhund_N = mkN jagd_N hund_N ;
 lin jagdschein_N = mkN jagd_N schein_N ;
 lin jagdstrecke_N = mkN jagd_N strecke_N ;
+lin kabelbinder_N = mkN kabel_N binder_N ;
+lin kabelbrand_N = mkN kabel_N brand_N ;
+lin kabelkanal_N = mkN kabel_N kanal_N ;
+lin kabelpritsche_N = mkN kabel_N pritsche_N ;
+lin kabelsalat_N = mkN kabel_N salat_N ;
+lin kabelschacht_N = mkN kabel_N schacht_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

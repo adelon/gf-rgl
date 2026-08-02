@@ -456,6 +456,12 @@ fun
   jagdhund_N : N ;
   jagdschein_N : N ;
   jagdstrecke_N : N ;
+  kabelbinder_N : N ;
+  kabelbrand_N : N ;
+  kabelkanal_N : N ;
+  kabelpritsche_N : N ;
+  kabelsalat_N : N ;
+  kabelschacht_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
