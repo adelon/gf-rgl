@@ -631,6 +631,21 @@ concrete DictGer of DictGerAbs =
     , eichenblatt_N
     , eichenbohle_N
     , eichensteinpilz_N
+    , eierbecher_N
+    , eierkocher_N
+    , eierkopf_N
+    , eierkuchen_N
+    , eierlauf_N
+    , eierlikoer_N
+    , eierschale_N
+    , eierschmarren_N
+    , eierschneider_N
+    , eierschwamm_N
+    , eierschwammerl_N
+    , eierspeise_N
+    , eierstich_N
+    , eiertanz_N
+    , eieruhr_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -968,6 +983,21 @@ lin eichenbohle_N = mkN "Eichen" bohle_N ;
 lin eichensteinpilz_N = mkN "Eichen" steinpilz_N ;
 -- Eier-, Torf-, and Zeichenkohle use -kohlen- recursively.
 lin eierkohle_N = mkN "Eier" (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
+lin eierbecher_N = mkN "Eier" becher_N ;
+lin eierkocher_N = mkN "Eier" kocher_N ;
+lin eierkopf_N = mkN "Eier" kopf_N ;
+lin eierkuchen_N = mkN "Eier" kuchen_N ;
+lin eierlauf_N = mkN "Eier" lauf_N ;
+lin eierlikoer_N = mkN "Eier" likoer_N ;
+lin eierschale_N = mkN "Eier" schale_N ;
+lin eierschmarren_N = mkN "Eier" schmarren_N ;
+lin eierschneider_N = mkN "Eier" schneider_N ;
+lin eierschwamm_N = mkN "Eier" schwamm_N ;
+lin eierschwammerl_N = mkN "Eier" schwammerl_N ;
+lin eierspeise_N = changeCompoundN "Eierspeisen" (mkN "Eier" speise_N) ;
+lin eierstich_N = mkN "Eier" stich_N ;
+lin eiertanz_N = mkN "Eier" tanz_N ;
+lin eieruhr_N = mkN "Eier" uhr_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
