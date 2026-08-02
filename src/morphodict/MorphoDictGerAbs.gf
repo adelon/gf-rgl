@@ -7035,8 +7035,6 @@ fun christologisch_A : A ;
 fun christoph_N : N ;
 fun chromatid_N : N ;
 fun chromatographie_N : N ;
-fun chromatographiematerial_N : N ;
-fun chromatographieschritt_N : N ;
 fun chromatographisch_A : A ;
 fun chromogen_A : A ;
 fun chromon_N : N ;

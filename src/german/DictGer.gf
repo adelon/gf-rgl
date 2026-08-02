@@ -586,6 +586,8 @@ concrete DictGer of DictGerAbs =
     , chemokinrezeptor_N
     , cytokinrezeptor_N
     , cortisolantagonist_N
+    , chromatographiematerial_N
+    , chromatographieschritt_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -2975,6 +2977,8 @@ lin cannabinoidrezeptor_N = mkN "Cannabinoid" rezeptor_N ;
 lin chemokinrezeptor_N = mkN "Chemokin" rezeptor_N ;
 lin cytokinrezeptor_N = mkN "Cytokin" rezeptor_N ;
 lin cortisolantagonist_N = mkN "Cortisol" antagonist_N ;
+lin chromatographiematerial_N = mkN "Chromatographie" material_N ;
+lin chromatographieschritt_N = mkN "Chromatographie" schritt_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
