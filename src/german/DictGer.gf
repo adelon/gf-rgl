@@ -1157,6 +1157,7 @@ lin hundefell_N = mkN "Hunde" fell_N ;
 lin hundefriseur_N = mkN "Hunde" friseur_N ;
 lin hundefrisoer_N = mkN "Hunde" frisoer_N ;
 lin hundespielzeug_N = mkN "Hunde" spielzeug_N ;
+lin hundezuechter_N = mkN "Hunde" zuechter_N ;
 lin achselhoehle_N = mkN achsel_N hoehle_N ;
 lin achteckstempel_N = mkN achteck_N stempel_N ;
 lin achterbahn_N = mkN achter_N bahn_N ;

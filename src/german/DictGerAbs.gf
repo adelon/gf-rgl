@@ -332,6 +332,7 @@ fun
   hundefriseur_N : N ;
   hundefrisoer_N : N ;
   hundespielzeug_N : N ;
+  hundezuechter_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;

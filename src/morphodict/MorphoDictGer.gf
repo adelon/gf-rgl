@@ -16631,7 +16631,6 @@ lin hunderter_N = mkN "Hunderter" "Hunderter" masculine ;
 lin hundertfuenfundsiebziger_N = mkN "Hundertfünfundsiebziger" "Hundertfünfundsiebziger" masculine ;
 lin hundertmal_Adv = mkAdv "hundertmal" ;
 lin hundertstel_A = regA "hundertstel" ;
-lin hundezuechter_N = mkN "Hundezüchter" "Hundezüchter" masculine ;
 lin hundezuechterin_N = mkN "Hundezüchterin" "Hundezüchterinnen" feminine ;
 lin hunds_rose_N = mkN "Hunds-Rose" "Hunds-Rosen" feminine ;
 lin hundsaffe_N = mkN "Hundsaffe" "Hundsaffen" masculine ;

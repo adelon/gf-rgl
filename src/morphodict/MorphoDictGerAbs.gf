@@ -16626,7 +16626,6 @@ fun hunderter_N : N ;
 fun hundertfuenfundsiebziger_N : N ;
 fun hundertmal_Adv : Adv ;
 fun hundertstel_A : A ;
-fun hundezuechter_N : N ;
 fun hundezuechterin_N : N ;
 fun hunds_rose_N : N ;
 fun hundsaffe_N : N ;
