@@ -307,6 +307,11 @@ concrete DictGer of DictGerAbs =
     , bedeutungswandel_N
     , bedeutungswoerterbuch_N
     , bedeutungswort_N
+    , bedienungsanleitung_N
+    , behandlungsfehler_N
+    , behandlungsmethode_N
+    , behandlungsmittel_N
+    , behandlungsweise_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1022,4 +1027,9 @@ lin bedeutungsverschlechterung_N = mkN bedeutung_N verschlechterung_N ;
 lin bedeutungswandel_N = mkN bedeutung_N wandel_N ;
 lin bedeutungswoerterbuch_N = mkN bedeutung_N woerterbuch_N ;
 lin bedeutungswort_N = mkN bedeutung_N wort_N ;
+lin bedienungsanleitung_N = mkN bedienung_N anleitung_N ;
+lin behandlungsfehler_N = mkN behandlung_N fehler_N ;
+lin behandlungsmethode_N = mkN behandlung_N methode_N ;
+lin behandlungsmittel_N = mkN behandlung_N mittel_N ;
+lin behandlungsweise_N = mkN behandlung_N weise_N ;
 }

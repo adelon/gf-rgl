@@ -676,4 +676,9 @@ fun
   bedeutungswandel_N : N ;
   bedeutungswoerterbuch_N : N ;
   bedeutungswort_N : N ;
+  bedienungsanleitung_N : N ;
+  behandlungsfehler_N : N ;
+  behandlungsmethode_N : N ;
+  behandlungsmittel_N : N ;
+  behandlungsweise_N : N ;
 }
