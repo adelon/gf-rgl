@@ -549,6 +549,9 @@ concrete DictGer of DictGerAbs =
     , datenuebertragung_N
     , datenverlust_N
     , datenbanktrigger_N
+    , datenfernuebertragung_N
+    , datenschuetzer_N
+    , datenverarbeitung_N
     , deformationsgeschwindigkeit_N
     , deformationsgradient_N
     , dehnungsfuge_N
@@ -1509,6 +1512,9 @@ lin datentyp_N = mkN "Daten" typ_N ;
 lin datenuebertragung_N = mkN "Daten" uebertragung_N ;
 lin datenverlust_N = mkN "Daten" verlust_N ;
 lin datenbanktrigger_N = mkN datenbank_N trigger_N ;
+lin datenfernuebertragung_N = mkN "Daten" (mkN "Fernübertragung" "Fernübertragungen" feminine) ;
+lin datenschuetzer_N = mkN "Daten" (mkN "Schützer" "Schützer" masculine) ;
+lin datenverarbeitung_N = mkN "Daten" (mkN "Verarbeitung" "Verarbeitungen" feminine) ;
 lin deformationsgeschwindigkeit_N = mkN "Deformations" geschwindigkeit_N ;
 lin deformationsgradient_N = mkN "Deformations" gradient_N ;
 lin dehnungsfuge_N = mkN dehnung_N fuge_N ;
