@@ -694,4 +694,6 @@ fun
   begruessungskuss_N : N ;
   beichtstuhl_N : N ;
   beichtvater_N : N ;
+  behaeltervorrichtung_N : N ;
+  behelfsbruecke_N : N ;
 }
