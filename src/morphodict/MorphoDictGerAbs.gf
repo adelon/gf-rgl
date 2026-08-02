@@ -18261,8 +18261,6 @@ fun kaki_N : N ;
 fun kakophonie_N : N ;
 fun kakophonisch_A : A ;
 fun kaktee_N : N ;
-fun kaktusbirne_N : N ;
-fun kaktusfeige_N : N ;
 fun kalamit_N : N ;
 fun kalamitaet_N : N ;
 fun kalaschnikow_N : N ;
