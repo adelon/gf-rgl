@@ -482,6 +482,15 @@ fun
   kakaobohne_N : N ;
   kalenderjahr_N : N ;
   kalenderwoche_N : N ;
+  kaiseradler_N : N ;
+  kaiserbroetchen_N : N ;
+  kaisergans_N : N ;
+  kaiserpfalz_N : N ;
+  kaiserpilz_N : N ;
+  kaiserpinguin_N : N ;
+  kaiserreich_N : N ;
+  kaiserschmarren_N : N ;
+  kaiserschnitt_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

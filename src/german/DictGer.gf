@@ -977,6 +977,15 @@ concrete DictGer of DictGerAbs =
     , kakaobohne_N
     , kalenderjahr_N
     , kalenderwoche_N
+    , kaiseradler_N
+    , kaiserbroetchen_N
+    , kaisergans_N
+    , kaiserpfalz_N
+    , kaiserpilz_N
+    , kaiserpinguin_N
+    , kaiserreich_N
+    , kaiserschmarren_N
+    , kaiserschnitt_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1407,6 +1416,15 @@ lin kakaobaum_N = mkN "Kakao" baum_N ;
 lin kakaobohne_N = mkN "Kakao" bohne_N ;
 lin kalenderjahr_N = mkN kalender_N jahr_N ;
 lin kalenderwoche_N = mkN kalender_N woche_N ;
+lin kaiseradler_N = mkN kaiser_N adler_N ;
+lin kaiserbroetchen_N = mkN kaiser_N broetchen_N ;
+lin kaisergans_N = mkN kaiser_N gans_N ;
+lin kaiserpfalz_N = mkN kaiser_N pfalz_N ;
+lin kaiserpilz_N = mkN kaiser_N pilz_N ;
+lin kaiserpinguin_N = mkN kaiser_N pinguin_N ;
+lin kaiserreich_N = mkN kaiser_N reich_N ;
+lin kaiserschmarren_N = mkN kaiser_N schmarren_N ;
+lin kaiserschnitt_N = mkN kaiser_N schnitt_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
