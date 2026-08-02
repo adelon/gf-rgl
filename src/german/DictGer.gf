@@ -161,6 +161,14 @@ concrete DictGer of DictGerAbs =
     , bantusprache_N
     , buergermeister_N
     , buergermeisterin_N
+    , chorhaupt_N
+    , chormusik_N
+    , chorsaenger_N
+    , chorsaengerin_N
+    , chorton_N
+    , chorturm_N
+    , chorturmkirche_N
+    , chorumgang_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1993,6 +2001,14 @@ lin bantamgewicht_N = mkN "Bantam" gewicht_N ;
 lin bantusprache_N = changeCompoundN "Bantusprachen" (mkN "Bantu" sprache_N) ;
 lin buergermeister_N = mkN buerger_N meister_N ;
 lin buergermeisterin_N = mkN buerger_N (mkN "Meisterin" "Meisterinnen" feminine) ;
+lin chorhaupt_N = mkN "Chor" haupt_N ;
+lin chormusik_N = mkN "Chor" musik_N ;
+lin chorsaenger_N = mkN "Chor" saenger_N ;
+lin chorsaengerin_N = mkN "Chor" saengerin_N ;
+lin chorton_N = mkN "Chor" (mkN "Ton" "Töne" masculine) ;
+lin chorturm_N = mkN "Chor" turm_N ;
+lin chorturmkirche_N = mkN chorturm_N kirche_N ;
+lin chorumgang_N = mkN "Chor" umgang_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

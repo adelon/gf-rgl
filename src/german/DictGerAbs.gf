@@ -1271,6 +1271,14 @@ fun
   bantusprache_N : N ;
   buergermeister_N : N ;
   buergermeisterin_N : N ;
+  chorhaupt_N : N ;
+  chormusik_N : N ;
+  chorsaenger_N : N ;
+  chorsaengerin_N : N ;
+  chorton_N : N ;
+  chorturm_N : N ;
+  chorturmkirche_N : N ;
+  chorumgang_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
