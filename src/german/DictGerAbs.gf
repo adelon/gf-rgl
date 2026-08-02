@@ -178,6 +178,9 @@ fun
   halbvokal_N : N ;
   halbzeit_N : N ;
   halbzylinder_N : N ;
+  hallenbad_N : N ;
+  hallenkirche_N : N ;
+  hallenkrypta_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
