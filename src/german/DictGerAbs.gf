@@ -417,6 +417,18 @@ fun
   imidazolverbindung_N : N ;
   imingruppe_N : N ;
   immobilienmarkt_N : N ;
+  immunadsorption_N : N ;
+  immunaktivator_N : N ;
+  immunfehlfunktion_N : N ;
+  immunkomplex_N : N ;
+  immunkomponente_N : N ;
+  immunkonjugat_N : N ;
+  immunglobulinkette_N : N ;
+  immunglobulinklasse_N : N ;
+  immunglobulinsequenz_N : N ;
+  immunotoxin_N : N ;
+  immunreaktion_N : N ;
+  immunregulator_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

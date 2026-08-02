@@ -912,6 +912,18 @@ concrete DictGer of DictGerAbs =
     , imidazolverbindung_N
     , imingruppe_N
     , immobilienmarkt_N
+    , immunadsorption_N
+    , immunaktivator_N
+    , immunfehlfunktion_N
+    , immunkomplex_N
+    , immunkomponente_N
+    , immunkonjugat_N
+    , immunglobulinkette_N
+    , immunglobulinklasse_N
+    , immunglobulinsequenz_N
+    , immunotoxin_N
+    , immunreaktion_N
+    , immunregulator_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1277,6 +1289,18 @@ lin imidazolderivat_N = mkN imidazol_N derivat_N ;
 lin imidazolverbindung_N = mkN imidazol_N verbindung_N ;
 lin imingruppe_N = mkN imin_N gruppe_N ;
 lin immobilienmarkt_N = mkN "Immobilien" markt_N ;
+lin immunadsorption_N = mkN "Immun" adsorption_N ;
+lin immunaktivator_N = mkN "Immun" aktivator_N ;
+lin immunfehlfunktion_N = mkN "Immun" fehlfunktion_N ;
+lin immunkomplex_N = mkN "Immun" komplex_N ;
+lin immunkomponente_N = mkN "Immun" komponente_N ;
+lin immunkonjugat_N = mkN "Immun" konjugat_N ;
+lin immunglobulinkette_N = mkN immunglobulin_N kette_N ;
+lin immunglobulinklasse_N = mkN immunglobulin_N klasse_N ;
+lin immunglobulinsequenz_N = mkN immunglobulin_N sequenz_N ;
+lin immunotoxin_N = mkN "Immunotoxin" "Immuntoxine" neuter ;
+lin immunreaktion_N = changeCompoundN "Immunreaktion" (mkN "Immun" reaktion_N) ;
+lin immunregulator_N = mkN "Immun" regulator_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
