@@ -4792,7 +4792,6 @@ fun beitrag_N : N ;
 fun beitragen_7_V : V ;
 fun beitragsbemessungsgrenze_N : N ;
 fun beitreten_2_V : V ;
-fun beitrittserklaerung_N : N ;
 fun beiwagen_N : N ;
 fun beiwohnen_V : V ;
 fun beiwort_N : N ;

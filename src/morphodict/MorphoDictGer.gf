@@ -4798,7 +4798,6 @@ lin beitrag_N = mkN "Beitrag" "Beiträge" masculine ;
 lin beitragen_7_V = prefixV "bei" (irregV "tragen" "tragt" "trug" "trüge" "getragen") ;
 lin beitragsbemessungsgrenze_N = mkN "Beitragsbemessungsgrenze" "Beitragsbemessungsgrenzen" feminine ;
 lin beitreten_2_V = prefixV "bei" (irregV "treten" "tritt" "trat" "träte" "getreten") ;
-lin beitrittserklaerung_N = mkN "Beitrittserklärung" ;
 lin beiwagen_N = mkN "Beiwagen" "Beiwagen" masculine ;
 lin beiwohnen_V = prefixV "bei" (regV "wohnen") ;
 lin beiwort_N = mkN "Beiwort" "Beiwörter" neuter ;

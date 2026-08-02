@@ -699,4 +699,5 @@ fun
   beinbruch_N : N ;
   beinhaus_N : N ;
   belegstelle_N : N ;
+  beitrittserklaerung_N : N ;
 }
