@@ -896,6 +896,22 @@ concrete DictGer of DictGerAbs =
     , hydroxidion_N
     , hyperaktivitaetsstoerung_N
     , hypothekarkredit_N
+    , i_punkt_N
+    , idealbild_N
+    , idealgewicht_N
+    , idealsprache_N
+    , ideenschrift_N
+    , idiotenapostroph_N
+    , igelkiefer_N
+    , igelschwamm_N
+    , igelstellung_N
+    , iltisfell_N
+    , imbissbude_N
+    , imbissstand_N
+    , imidazolderivat_N
+    , imidazolverbindung_N
+    , imingruppe_N
+    , immobilienmarkt_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1245,6 +1261,22 @@ lin hydroxamsaeure_N = changeCompoundN "Hydroxamsäuren" (mkN "Hydroxam" saeure_
 lin hydroxidion_N = mkN hydroxid_N ion_N ;
 lin hyperaktivitaetsstoerung_N = mkN "Hyperaktivitäts" stoerung_N ;
 lin hypothekarkredit_N = mkN hypothekar_N kredit_N ;
+lin i_punkt_N = mkHyphenN "i" punkt_N ;
+lin idealbild_N = mkN ideal_N bild_N ;
+lin idealgewicht_N = mkN ideal_N gewicht_N ;
+lin idealsprache_N = changeCompoundN "Idealsprachen" (mkN ideal_N sprache_N) ;
+lin ideenschrift_N = mkN idee_N schrift_N ;
+lin idiotenapostroph_N = mkN "Idioten" apostroph_N ;
+lin igelkiefer_N = mkN igel_N kiefer_N ;
+lin igelschwamm_N = mkN igel_N schwamm_N ;
+lin igelstellung_N = mkN igel_N stellung_N ;
+lin iltisfell_N = mkN iltis_N fell_N ;
+lin imbissbude_N = mkN imbiss_N bude_N ;
+lin imbissstand_N = mkN imbiss_N stand_N ;
+lin imidazolderivat_N = mkN imidazol_N derivat_N ;
+lin imidazolverbindung_N = mkN imidazol_N verbindung_N ;
+lin imingruppe_N = mkN imin_N gruppe_N ;
+lin immobilienmarkt_N = mkN "Immobilien" markt_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
