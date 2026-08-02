@@ -282,6 +282,10 @@ fun
   hautpartie_N : N ;
   hautreaktion_N : N ;
   hautzelle_N : N ;
+  heideherr_N : N ;
+  heidelaeufer_N : N ;
+  hefeinfektion_N : N ;
+  hefezelle_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;
