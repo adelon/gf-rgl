@@ -312,6 +312,9 @@ fun
   diakritisches_zeichen_CN : CN ;
   direkte_rede_CN : CN ;
   echter_reizker_CN : CN ;
+  eichenblatt_N : N ;
+  eichenbohle_N : N ;
+  eichensteinpilz_N : N ;
   eierkohle_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;

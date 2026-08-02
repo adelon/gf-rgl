@@ -628,6 +628,9 @@ concrete DictGer of DictGerAbs =
     , deformationsgeschwindigkeit_N
     , deformationsgradient_N
     , dehnungsfuge_N
+    , eichenblatt_N
+    , eichenbohle_N
+    , eichensteinpilz_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -960,6 +963,9 @@ lin epaulettenmatt_N = mkN "Epauletten" matt_N ;
 lin diakritisches_zeichen_CN = S.mkCN diakritisch_A zeichen_N ;
 lin direkte_rede_CN = S.mkCN direkt_A rede_N ;
 lin echter_reizker_CN = S.mkCN (capitalizeA echt_A) reizker__N ;
+lin eichenblatt_N = mkN "Eichen" blatt_N ;
+lin eichenbohle_N = mkN "Eichen" bohle_N ;
+lin eichensteinpilz_N = mkN "Eichen" steinpilz_N ;
 -- Eier-, Torf-, and Zeichenkohle use -kohlen- recursively.
 lin eierkohle_N = mkN "Eier" (mkN "Kohle" "Kohlen" "Kohlen" feminine) ;
 lin eiskalt_A = mkA eis_N kalt_A ;
