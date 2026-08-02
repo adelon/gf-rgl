@@ -117,6 +117,22 @@ concrete DictGer of DictGerAbs =
     , brotmesser_N
     , brotrinde_N
     , brotschrift_N
+    , brustbeutel_N
+    , brustdruese_N
+    , brusterkrankung_N
+    , brustimplantat_N
+    , brustkarzinomzelle_N
+    , brustkorb_N
+    , brustkrebs_N
+    , brustkrebszelle_N
+    , brustkreuz_N
+    , bruststimme_N
+    , brusttasche_N
+    , brusttumorzelle_N
+    , brustvergroesserung_N
+    , brustverkleinerung_N
+    , brustwarze_N
+    , brustwirbel_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1905,6 +1921,22 @@ lin brotkrume_N = mkN brot_N krume_N ;
 lin brotmesser_N = mkN brot_N messer_N ;
 lin brotrinde_N = mkN brot_N rinde_N ;
 lin brotschrift_N = mkN brot_N schrift_N ;
+lin brustbeutel_N = mkN brust_N beutel_N ;
+lin brustdruese_N = mkN brust_N druese_N ;
+lin brusterkrankung_N = mkN brust_N erkrankung_N ;
+lin brustimplantat_N = mkN brust_N implantat_N ;
+lin brustkarzinomzelle_N = mkN brust_N karzinomzelle_N ;
+lin brustkorb_N = mkN brust_N korb_N ;
+lin brustkrebs_N = mkN brust_N krebs_N ;
+lin brustkrebszelle_N = mkN brust_N krebszelle_N ;
+lin brustkreuz_N = mkN brust_N kreuz_N ;
+lin bruststimme_N = changeCompoundN "Bruststimmen" (mkN brust_N stimme_N) ;
+lin brusttasche_N = mkN brust_N tasche_N ;
+lin brusttumorzelle_N = changeCompoundN "Brusttumorzellen" (mkN brust_N tumorzelle_N) ;
+lin brustvergroesserung_N = mkN brust_N vergroesserung_N ;
+lin brustverkleinerung_N = mkN brust_N verkleinerung_N ;
+lin brustwarze_N = mkN brust_N warze_N ;
+lin brustwirbel_N = mkN brust_N wirbel_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
