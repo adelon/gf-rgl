@@ -858,6 +858,10 @@ concrete DictGer of DictGerAbs =
     , ergaenzungsstrich_N
     , erholungsgebiet_N
     , erkrankungsstadium_N
+    , erkenntnislehre_N
+    , erkennungsmarke_N
+    , erkennungssequenz_N
+    , erkennungszeichen_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1426,6 +1430,10 @@ lin ergaenzungssatz_N = mkN ergaenzung_N satz_N ;
 lin ergaenzungsstrich_N = mkN ergaenzung_N strich_N ;
 lin erholungsgebiet_N = mkN "Erholungs" gebiet_N ;
 lin erkrankungsstadium_N = mkN erkrankung_N stadium_N ;
+lin erkenntnislehre_N = changeCompoundN "Erkenntnislehren" (mkN "Erkenntnis" lehre_N) ;
+lin erkennungsmarke_N = mkN "Erkennungs" marke_N ;
+lin erkennungssequenz_N = mkN "Erkennungs" sequenz_N ;
+lin erkennungszeichen_N = mkN "Erkennungs" zeichen_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;

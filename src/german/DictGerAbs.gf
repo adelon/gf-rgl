@@ -543,6 +543,10 @@ fun
   ergaenzungsstrich_N : N ;
   erholungsgebiet_N : N ;
   erkrankungsstadium_N : N ;
+  erkenntnislehre_N : N ;
+  erkennungsmarke_N : N ;
+  erkennungssequenz_N : N ;
+  erkennungszeichen_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;
