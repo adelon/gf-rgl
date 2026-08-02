@@ -418,6 +418,11 @@ fun
   elektroindustrie_N : N ;
   elektrokabel_N : N ;
   elektroleitung__N : N ;
+  elektronenakzeptor_N : N ;
+  elektronendonator_N : N ;
+  elektronengehirn_N : N ;
+  elektronenmikroskop_N : N ;
+  elektronenstrahl_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;

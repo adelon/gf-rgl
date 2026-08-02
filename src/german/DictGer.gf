@@ -733,6 +733,11 @@ concrete DictGer of DictGerAbs =
     , elektroindustrie_N
     , elektrokabel_N
     , elektroleitung__N
+    , elektronenakzeptor_N
+    , elektronendonator_N
+    , elektronengehirn_N
+    , elektronenmikroskop_N
+    , elektronenstrahl_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1173,6 +1178,11 @@ lin elektroherd_N = mkN "Elektro" herd_N ;
 lin elektroindustrie_N = changeCompoundN "Elektroindustrien" (mkN "Elektro" industrie_N) ;
 lin elektrokabel_N = mkN "Elektro" kabel_N ;
 lin elektroleitung__N = mkN "Elektro" leitung_N ;
+lin elektronenakzeptor_N = mkN "Elektronen" akzeptor_N ;
+lin elektronendonator_N = mkN "Elektronen" donator_N ;
+lin elektronengehirn_N = mkN "Elektronen" gehirn_N ;
+lin elektronenmikroskop_N = mkN "Elektronen" mikroskop_N ;
+lin elektronenstrahl_N = mkN "Elektronen" strahl_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
