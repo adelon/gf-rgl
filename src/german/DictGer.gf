@@ -519,6 +519,10 @@ concrete DictGer of DictGerAbs =
     , dampfkochtopf_N
     , dampfschifffahrt_N
     , dampfbackofen_N
+    , deichbruch_N
+    , depotform_N
+    , depotformulierung_N
+    , dichtungsstreifen_N
     , dampfkavitation_N
     , dampflok_N
     , dampflokomotive_N
@@ -1488,6 +1492,10 @@ lin dammschnitt_N = mkN damm_N schnitt_N ;
 lin dampfkochtopf_N = mkN dampf_N kochtopf_N ;
 lin dampfschifffahrt_N = mkN dampf_N schifffahrt_N ;
 lin dampfbackofen_N = mkN dampf_N backofen_N ;
+lin deichbruch_N = mkN deich_N bruch_N ;
+lin depotform_N = mkN depot_N form_N ;
+lin depotformulierung_N = mkN depot_N (changeCompoundN "Formulierungs" formulierung_N) ;
+lin dichtungsstreifen_N = mkN dichtung_N streifen_N ;
 lin dampfkavitation_N = mkN dampf_N kavitation_N ;
 lin dampflok_N = mkN dampf_N lok_N ;
 lin dampflokomotive_N = mkN dampf_N lokomotive_N ;

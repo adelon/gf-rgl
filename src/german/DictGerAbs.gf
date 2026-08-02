@@ -888,6 +888,10 @@ fun
   dampfkochtopf_N : N ;
   dampfschifffahrt_N : N ;
   dampfbackofen_N : N ;
+  deichbruch_N : N ;
+  depotform_N : N ;
+  depotformulierung_N : N ;
+  dichtungsstreifen_N : N ;
   dampfkavitation_N : N ;
   dampflok_N : N ;
   dampflokomotive_N : N ;
