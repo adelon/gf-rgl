@@ -885,6 +885,8 @@ fun
   dammbruch_N : N ;
   dammriss_N : N ;
   dammschnitt_N : N ;
+  dampfkochtopf_N : N ;
+  dampfschifffahrt_N : N ;
   dampfkavitation_N : N ;
   dampflok_N : N ;
   dampflokomotive_N : N ;
