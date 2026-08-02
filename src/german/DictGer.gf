@@ -148,6 +148,14 @@ concrete DictGer of DictGerAbs =
     , bandwurm_N
     , bandwurmsatz_N
     , bandwurmwort_N
+    , bankautomat_N
+    , bankbilanz_N
+    , bankfeiertag_N
+    , bankfiliale_N
+    , bankkunde_N
+    , bankkundin_N
+    , banknote_N
+    , bankraub_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1967,6 +1975,14 @@ lin bandscheibenvorfall_N = mkN bandscheibe_N vorfall_N ;
 lin bandwurm_N = mkN "Band" wurm_N ;
 lin bandwurmsatz_N = mkN bandwurm_N satz_N ;
 lin bandwurmwort_N = mkN bandwurm_N wort_N ;
+lin bankautomat_N = mkN "Bank" automat_N ;
+lin bankbilanz_N = mkN "Bank" bilanz_N ;
+lin bankfeiertag_N = mkN "Bank" feiertag_N ;
+lin bankfiliale_N = mkN "Bank" filiale_N ;
+lin bankkunde_N = mkN "Bank" kunde_N ;
+lin bankkundin_N = mkN "Bank" kundin_N ;
+lin banknote_N = mkN "Bank" note_N ;
+lin bankraub_N = mkN "Bank" raub_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

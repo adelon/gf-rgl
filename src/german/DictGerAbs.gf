@@ -1258,6 +1258,14 @@ fun
   bandwurm_N : N ;
   bandwurmsatz_N : N ;
   bandwurmwort_N : N ;
+  bankautomat_N : N ;
+  bankbilanz_N : N ;
+  bankfeiertag_N : N ;
+  bankfiliale_N : N ;
+  bankkunde_N : N ;
+  bankkundin_N : N ;
+  banknote_N : N ;
+  bankraub_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
