@@ -612,6 +612,10 @@ concrete DictGer of DictGerAbs =
     , chlorhydrat_N
     , chancentod_N
     , cerebrospinalfluessigkeit_N
+    , charaktereigenschaft_N
+    , charterkolonie_N
+    , chatrollenspiel_N
+    , checkliste_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3027,6 +3031,10 @@ lin chlorderivat_N = mkN "Chlor" derivat_N ;
 lin chlorhydrat_N = mkN "Chlor" hydrat_N ;
 lin chancentod_N = mkN "Chancen" tod_N ;
 lin cerebrospinalfluessigkeit_N = mkN "Cerebrospinal" fluessigkeit_N ;
+lin charaktereigenschaft_N = mkN charakter_N eigenschaft_N ;
+lin charterkolonie_N = mkN charter_N kolonie_N ;
+lin chatrollenspiel_N = mkN "Chat" rollenspiel_N ;
+lin checkliste_N = mkN "Check" liste_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

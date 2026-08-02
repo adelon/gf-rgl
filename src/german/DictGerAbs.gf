@@ -1720,6 +1720,10 @@ fun
   chlorhydrat_N : N ;
   chancentod_N : N ;
   cerebrospinalfluessigkeit_N : N ;
+  charaktereigenschaft_N : N ;
+  charterkolonie_N : N ;
+  chatrollenspiel_N : N ;
+  checkliste_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
