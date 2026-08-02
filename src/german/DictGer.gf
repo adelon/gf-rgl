@@ -338,6 +338,13 @@ concrete DictGer of DictGerAbs =
     , berufsleben_N
     , berufsschule_N
     , berufssprache_N
+    , betriebsart_N
+    , betriebsmittel_N
+    , betriebsnudel_N
+    , betriebsrat_N
+    , betriebssystem_N
+    , betriebsunfall_N
+    , betriebswohnung_N
     , bergahorn_N
     , bergarbeiter_N
     , bergbaude_N
@@ -1097,6 +1104,13 @@ lin berufskrankheit_N = mkN (changeCompoundN "Berufs" beruf_N) krankheit_N ;
 lin berufsleben_N = mkN (changeCompoundN "Berufs" beruf_N) leben_N ;
 lin berufsschule_N = mkN (changeCompoundN "Berufs" beruf_N) schule_N ;
 lin berufssprache_N = mkN (changeCompoundN "Berufs" beruf_N) sprache_N ;
+lin betriebsart_N = mkN (changeCompoundN "Betriebs" betrieb_N) art_N ;
+lin betriebsmittel_N = mkN (changeCompoundN "Betriebs" betrieb_N) mittel_N ;
+lin betriebsnudel_N = mkN (changeCompoundN "Betriebs" betrieb_N) nudel_N ;
+lin betriebsrat_N = mkN (changeCompoundN "Betriebs" betrieb_N) rat_N ;
+lin betriebssystem_N = mkN (changeCompoundN "Betriebs" betrieb_N) system_N ;
+lin betriebsunfall_N = mkN (changeCompoundN "Betriebs" betrieb_N) unfall_N ;
+lin betriebswohnung_N = mkN (changeCompoundN "Betriebs" betrieb_N) wohnung_N ;
 lin bergahorn_N = mkN berg_N ahorn_N ;
 lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;

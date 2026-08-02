@@ -707,6 +707,13 @@ fun
   berufsleben_N : N ;
   berufsschule_N : N ;
   berufssprache_N : N ;
+  betriebsart_N : N ;
+  betriebsmittel_N : N ;
+  betriebsnudel_N : N ;
+  betriebsrat_N : N ;
+  betriebssystem_N : N ;
+  betriebsunfall_N : N ;
+  betriebswohnung_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
