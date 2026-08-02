@@ -494,6 +494,15 @@ fun
   erdbeersaft_N : N ;
   erdbeertorte_N : N ;
   erdbeerwein_N : N ;
+  erbauungsbuch_N : N ;
+  erbfeind_N : N ;
+  erbkrankheit_N : N ;
+  erbonkel_N : N ;
+  erbsensprache_N : N ;
+  erbsenzaehler_N : N ;
+  erbstueck_N : N ;
+  erbswurst_N : N ;
+  erbwort_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

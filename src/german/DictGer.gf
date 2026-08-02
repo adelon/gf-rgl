@@ -809,6 +809,15 @@ concrete DictGer of DictGerAbs =
     , erdbeersaft_N
     , erdbeertorte_N
     , erdbeerwein_N
+    , erbauungsbuch_N
+    , erbfeind_N
+    , erbkrankheit_N
+    , erbonkel_N
+    , erbsensprache_N
+    , erbsenzaehler_N
+    , erbstueck_N
+    , erbswurst_N
+    , erbwort_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1328,6 +1337,15 @@ lin erdbeerkuchen_N = mkN erdbeere_N kuchen_N ;
 lin erdbeersaft_N = mkN erdbeere_N saft_N ;
 lin erdbeertorte_N = mkN erdbeere_N torte_N ;
 lin erdbeerwein_N = mkN erdbeere_N wein_N ;
+lin erbauungsbuch_N = mkN "Erbauungs" buch_N ;
+lin erbfeind_N = mkN "Erb" feind_N ;
+lin erbkrankheit_N = mkN "Erb" krankheit_N ;
+lin erbonkel_N = mkN "Erb" onkel_N ;
+lin erbsensprache_N = changeCompoundN "Erbsensprachen" (mkN erbse_N sprache_N) ;
+lin erbsenzaehler_N = mkN erbse_N zaehler_N ;
+lin erbstueck_N = mkN "Erb" stueck_N ;
+lin erbswurst_N = mkN "Erbs" wurst_N ;
+lin erbwort_N = mkN "Erb" wort_N ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
