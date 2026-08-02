@@ -882,6 +882,9 @@ fun
   damenturm_N : N ;
   damenzug_N : N ;
   damespiel_N : N ;
+  dammbruch_N : N ;
+  dammriss_N : N ;
+  dammschnitt_N : N ;
   dampfkavitation_N : N ;
   dampflok_N : N ;
   dampflokomotive_N : N ;

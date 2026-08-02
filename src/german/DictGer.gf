@@ -513,6 +513,9 @@ concrete DictGer of DictGerAbs =
     , damenturm_N
     , damenzug_N
     , damespiel_N
+    , dammbruch_N
+    , dammriss_N
+    , dammschnitt_N
     , dampfkavitation_N
     , dampflok_N
     , dampflokomotive_N
@@ -1476,6 +1479,9 @@ lin damentaschentuch_N = mkN dame_N taschentuch_N ;
 lin damenturm_N = mkN dame_N turm_N ;
 lin damenzug_N = mkN dame_N zug_N ;
 lin damespiel_N = mkN dame_N spiel_N ;
+lin dammbruch_N = mkN damm_N bruch_N ;
+lin dammriss_N = mkN damm_N riss_N ;
+lin dammschnitt_N = mkN damm_N schnitt_N ;
 lin dampfkavitation_N = mkN dampf_N kavitation_N ;
 lin dampflok_N = mkN dampf_N lok_N ;
 lin dampflokomotive_N = mkN dampf_N lokomotive_N ;
