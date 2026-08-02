@@ -468,6 +468,16 @@ fun
   kaesehobel_N : N ;
   kaesekuchen_N : N ;
   kaesepappel_N : N ;
+  kaffeebohne_N : N ;
+  kaffeefilter_N : N ;
+  kaffeehaus_N : N ;
+  kaffeekanne_N : N ;
+  kaffeekasse_N : N ;
+  kaffeemaschine_N : N ;
+  kaffeemuehle_N : N ;
+  kaffeepause_N : N ;
+  kaffeesachse_N : N ;
+  kaffeetasse_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

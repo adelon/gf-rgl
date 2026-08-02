@@ -963,6 +963,16 @@ concrete DictGer of DictGerAbs =
     , kaesehobel_N
     , kaesekuchen_N
     , kaesepappel_N
+    , kaffeebohne_N
+    , kaffeefilter_N
+    , kaffeehaus_N
+    , kaffeekanne_N
+    , kaffeekasse_N
+    , kaffeemaschine_N
+    , kaffeemuehle_N
+    , kaffeepause_N
+    , kaffeesachse_N
+    , kaffeetasse_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1379,6 +1389,16 @@ lin kaeseglocke_N = mkN kaese_N glocke_N ;
 lin kaesehobel_N = mkN kaese_N hobel_N ;
 lin kaesekuchen_N = mkN kaese_N kuchen_N ;
 lin kaesepappel_N = mkN kaese_N pappel_N ;
+lin kaffeebohne_N = mkN kaffee_N bohne_N ;
+lin kaffeefilter_N = mkN kaffee_N filter_N ;
+lin kaffeehaus_N = mkN kaffee_N haus_N ;
+lin kaffeekanne_N = mkN kaffee_N kanne_N ;
+lin kaffeekasse_N = mkN kaffee_N kasse_N ;
+lin kaffeemaschine_N = mkN kaffee_N maschine_N ;
+lin kaffeemuehle_N = mkN kaffee_N muehle_N ;
+lin kaffeepause_N = mkN kaffee_N pause_N ;
+lin kaffeesachse_N = mkN kaffee_N sachse_N ;
+lin kaffeetasse_N = mkN kaffee_N tasse_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
