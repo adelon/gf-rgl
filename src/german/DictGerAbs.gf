@@ -827,4 +827,10 @@ fun
   cellokonzert_N : N ;
   cellospieler_N : N ;
   cellospielerin_N : N ;
+  celluloseacetatpolymer_N : N ;
+  cellulosederivat_N : N ;
+  celluloseether_N : N ;
+  celluloseetherderivat_N : N ;
+  cellulosephthalat_N : N ;
+  cellulosepolymer_N : N ;
 }

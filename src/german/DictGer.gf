@@ -458,6 +458,12 @@ concrete DictGer of DictGerAbs =
     , cellokonzert_N
     , cellospieler_N
     , cellospielerin_N
+    , celluloseacetatpolymer_N
+    , cellulosederivat_N
+    , celluloseether_N
+    , celluloseetherderivat_N
+    , cellulosephthalat_N
+    , cellulosepolymer_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1324,4 +1330,10 @@ lin campingstuhl_N = mkN "Camping" stuhl_N ;
 lin cellokonzert_N = mkN cello_N konzert_N ;
 lin cellospieler_N = mkN cello_N spieler_N ;
 lin cellospielerin_N = mkN cello_N spielerin_N ;
+lin celluloseacetatpolymer_N = mkN (mkN cellulose_N acetat_N) polymer_N ;
+lin cellulosederivat_N = mkN cellulose_N derivat_N ;
+lin celluloseether_N = mkN cellulose_N ether_N ;
+lin celluloseetherderivat_N = mkN celluloseether_N derivat_N ;
+lin cellulosephthalat_N = mkN cellulose_N (mkN "Phthalat" "Phthalate" neuter) ;
+lin cellulosepolymer_N = mkN cellulose_N polymer_N ;
 }
