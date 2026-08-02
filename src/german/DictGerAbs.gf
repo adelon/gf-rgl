@@ -1733,6 +1733,13 @@ fun
   dachsfell_N : N ;
   dachshund_N : N ;
   dachverband_N : N ;
+  damoklesschwert_N : N ;
+  dateiname_N : N ;
+  dateityp_N : N ;
+  dativobjekt_N : N ;
+  deckadresse_N : N ;
+  deckanschrift_N : N ;
+  deckname_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

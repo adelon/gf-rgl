@@ -625,6 +625,13 @@ concrete DictGer of DictGerAbs =
     , dachsfell_N
     , dachshund_N
     , dachverband_N
+    , damoklesschwert_N
+    , dateiname_N
+    , dateityp_N
+    , dativobjekt_N
+    , deckadresse_N
+    , deckanschrift_N
+    , deckname_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3053,6 +3060,13 @@ lin dachrinne_N = mkN dach_N (mkN "Rinne" "Rinnen" feminine) ;
 lin dachsfell_N = mkN dachs_N fell_N ;
 lin dachshund_N = mkN dachs_N hund_N ;
 lin dachverband_N = mkN dach_N verband_N ;
+lin damoklesschwert_N = mkN "Damokles" schwert_N ;
+lin dateiname_N = changeCompoundN "Dateinamen" (mkN datei_N name_N) ;
+lin dateityp_N = mkN datei_N typ_N ;
+lin dativobjekt_N = mkN dativ_N objekt_N ;
+lin deckadresse_N = changeCompoundN "Deckadressen" (mkN deck_N adresse_N) ;
+lin deckanschrift_N = mkN deck_N anschrift_N ;
+lin deckname_N = changeCompoundN "Decknamen" (mkN deck_N name_N) ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
