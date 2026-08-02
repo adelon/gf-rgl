@@ -219,6 +219,8 @@ concrete DictGer of DictGerAbs =
     , bakteriengift_N
     , bakterienkultur_N
     , bakteriensuspension_N
+    , bakterienvakzine_N
+    , bakterienzelle_N
     , balkenanker_N
     , balkendiagramm_N
     , balkenkopf_N
@@ -1048,6 +1050,8 @@ lin bakteriengeissel_N = mkN "Bakterien" geissel_N ;
 lin bakteriengift_N = mkN "Bakterien" gift_N ;
 lin bakterienkultur_N = mkN "Bakterien" kultur_N ;
 lin bakteriensuspension_N = mkN "Bakterien" suspension_N ;
+lin bakterienvakzine_N = mkN "Bakterien" vakzine_N ;
+lin bakterienzelle_N = mkN "Bakterien" zelle_N ;
 lin balkenanker_N = mkN "Balken" anker_N ;
 lin balkendiagramm_N = mkN "Balken" diagramm_N ;
 lin balkenkopf_N = mkN "Balken" kopf_N ;

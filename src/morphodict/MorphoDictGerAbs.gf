@@ -4182,8 +4182,6 @@ fun bakschisch_N : N ;
 fun bakteriaemie_N : N ;
 fun bakterie_N : N ;
 fun bakteriell_A : A ;
-fun bakterienvakzine_N : N ;
-fun bakterienzelle_N : N ;
 fun bakterin_N : N ;
 fun bakteriologe_N : N ;
 fun bakteriologie_N : N ;
