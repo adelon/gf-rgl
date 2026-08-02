@@ -75,6 +75,10 @@ oper
   additionalLoanNounForms : Str = nounValue DictGer.alter_ego_N
     ++ nounValue DictGer.native_speaker_N ++ nounValue DictGer.point_of_sale_N ;
 
+  englishConceptNounForms : Str = nounValue DictGer.big_bang_N
+    ++ nounValue DictGer.big_brother_N
+    ++ nounValue DictGer.corporate_identity_N ;
+
   fixedLoanNounForms : Str = nounValue DictGer.cordon_bleu_N
     ++ nounValue DictGer.enfant_terrible_N ++ nounValue DictGer.fait_accompli_N
     ++ nounValue DictGer.jour_fixe_N ;

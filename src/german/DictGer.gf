@@ -184,6 +184,9 @@ concrete DictGer of DictGerAbs =
     , badeschwamm_N
     , badewanne_N
     , badezimmer_N
+    , big_bang_N
+    , big_brother_N
+    , corporate_identity_N
     , bahnbus_N
     , bahndamm_N
     , bahnfahrt_N
@@ -700,6 +703,9 @@ lin atlas_N = mkN "Atlas" "Atlas" "Atlas" (variants {"Atlas" ; "Atlasses"}) "Atl
 lin ausser_betrieb_Adv = mkAdv "außer Betrieb" ;
 lin ausser_stande_Adv = mkAdv "außer Stande" ;
 lin bad_bank_N = mkN "Bad Bank" "Bad Banks" "Bad-Bank" feminine ;
+lin big_bang_N = changeCompoundN "Big-Bang" (mkN "Big Bang" "Big Bangs" masculine) ;
+lin big_brother_N = changeCompoundN "Big-Brother" (mkN "Big Brother" "Big Brothers" masculine) ;
+lin corporate_identity_N = changeCompoundN "Corporate-Identity" (mkN "Corporate Identity" "Corporate Identities" feminine) ;
 lin bauerngabel_N = mkN "Bauern" gabel_N ;
 lin bilgenoel_N = mkN "Bilgen" oel_N ;
 lin bilgenentoeler_N = mkN "Bilgen" entoeler_N ;

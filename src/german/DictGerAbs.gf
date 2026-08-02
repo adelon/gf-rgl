@@ -282,6 +282,9 @@ fun
   ausser_betrieb_Adv : Adv ;
   ausser_stande_Adv : Adv ;
   bad_bank_N : N ;
+  big_bang_N : N ;
+  big_brother_N : N ;
+  corporate_identity_N : N ;
   bauerngabel_N : N ;
   bilgenoel_N : N ;
   bilgenentoeler_N : N ;
