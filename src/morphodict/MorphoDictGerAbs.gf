@@ -5364,8 +5364,6 @@ fun bewenden_V : V ;
 fun bewerben_V : V ;
 fun bewerber_N : N ;
 fun bewerbung_N : N ;
-fun bewerbungsfrist_N : N ;
-fun bewerbungsgespraech_N : N ;
 fun bewerkstelligen_V : V ;
 fun bewertung_N : N ;
 fun bewirken_V : V ;

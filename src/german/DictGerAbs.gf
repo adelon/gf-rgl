@@ -717,6 +717,8 @@ fun
   bevoelkerungsdichte_N : N ;
   bevoelkerungspyramide_N : N ;
   bevoelkerungszahl_N : N ;
+  bewerbungsfrist_N : N ;
+  bewerbungsgespraech_N : N ;
   bergahorn_N : N ;
   bergarbeiter_N : N ;
   bergbaude_N : N ;
