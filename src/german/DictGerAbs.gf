@@ -510,4 +510,15 @@ fun
   totengelaeut__N : N ;
   type_token_relation__N : N ;
   type_token_verhaeltnis__N : N ;
+  babyklappe_N : N ;
+  babyspielzeug_N : N ;
+  babysprache_N : N ;
+  bachforelle_N : N ;
+  bachhund_N : N ;
+  bachstelze_N : N ;
+  backenbart_N : N ;
+  backenzahn_N : N ;
+  backfett_N : N ;
+  backform_N : N ;
+  backofen_N : N ;
 }

@@ -141,6 +141,17 @@ concrete DictGer of DictGerAbs =
     , totengelaeut__N
     , type_token_relation__N
     , type_token_verhaeltnis__N
+    , babyklappe_N
+    , babyspielzeug_N
+    , babysprache_N
+    , bachforelle_N
+    , bachhund_N
+    , bachstelze_N
+    , backenbart_N
+    , backenzahn_N
+    , backfett_N
+    , backform_N
+    , backofen_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -690,4 +701,15 @@ lin toerggelezeit__N = mkN "Törggele" zeit_N ;
 lin totengelaeut__N = mkN "Toten" gelaeut_N ;
 lin type_token_relation__N = mkHyphenN (mkHyphenN "Type" token_N) relation_N ;
 lin type_token_verhaeltnis__N = mkHyphenN (mkHyphenN "Type" token_N) verhaeltnis_N ;
+lin babyklappe_N = mkN baby_N klappe_N ;
+lin babyspielzeug_N = mkN baby_N spielzeug_N ;
+lin babysprache_N = mkN baby_N sprache_N ;
+lin bachforelle_N = mkN bach_N forelle_N ;
+lin bachhund_N = mkN bach_N hund_N ;
+lin bachstelze_N = mkN bach_N stelze_N ;
+lin backenbart_N = mkN backen_N bart_N ;
+lin backenzahn_N = mkN backen_N zahn_N ;
+lin backfett_N = mkN "Back" fett_N ;
+lin backform_N = mkN "Back" form_N ;
+lin backofen_N = mkN "Back" ofen_N ;
 }
