@@ -569,6 +569,10 @@ fun
   bauleiter_N : N ;
   bauarbeiter_N : N ;
   bauart_N : N ;
+  baubewilligung_N : N ;
+  bauchklatscher_N : N ;
+  bauchspeicheldruese_N : N ;
+  bauchspeicheldruesentumor_N : N ;
   berufsschullehrer_N : N ;
   basisdemokratie_N : N ;
   basismaterial_N : N ;

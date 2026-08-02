@@ -197,6 +197,10 @@ concrete DictGer of DictGerAbs =
     , bauleiter_N
     , bauarbeiter_N
     , bauart_N
+    , baubewilligung_N
+    , bauchklatscher_N
+    , bauchspeicheldruese_N
+    , bauchspeicheldruesentumor_N
     , berufsschullehrer_N
     , basisdemokratie_N
     , basismaterial_N
@@ -1041,6 +1045,10 @@ lin badezimmer_N = mkN "Bade" zimmer_N ;
 lin bauleiter_N = mkN "Bau" leiter_N ;
 lin bauarbeiter_N = mkN "Bau" arbeiter_N ;
 lin bauart_N = mkN "Bau" art_N ;
+lin baubewilligung_N = mkN "Bau" (mkN "Bewilligung" "Bewilligungen" feminine) ;
+lin bauchklatscher_N = mkN bauch_N (mkN "Klatscher" "Klatscher" masculine) ;
+lin bauchspeicheldruese_N = mkN bauch_N (mkN "Speicheldrüse" "Speicheldrüsen" feminine) ;
+lin bauchspeicheldruesentumor_N = mkN bauchspeicheldruese_N tumor_N ;
 lin berufsschullehrer_N = mkN berufsschule_N lehrer_N ;
 lin basisdemokratie_N = mkN basis_N demokratie_N ;
 lin basismaterial_N = mkN basis_N material_N ;
