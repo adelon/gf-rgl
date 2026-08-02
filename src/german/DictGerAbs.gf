@@ -404,6 +404,11 @@ fun
   eisbaerenfell_N : N ;
   eisbaerfell_N : N ;
   eisbergsalat_N : N ;
+  eizelle_N : N ;
+  elefantenfuss_N : N ;
+  elefantenhaus_N : N ;
+  elefantenrennen_N : N ;
+  elefantenrunde_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;
