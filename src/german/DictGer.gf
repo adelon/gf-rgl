@@ -1031,6 +1031,8 @@ concrete DictGer of DictGerAbs =
     , kanzlerkandidat_N
     , kanzlerkandidatin_N
     , kanzlermehrheit_N
+    , kanonenschuss_N
+    , kanonenturm_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1515,6 +1517,8 @@ lin kanzlerinkandidatin_N = mkN kanzlerin_N kandidatin_N ;
 lin kanzlerkandidat_N = mkN kanzler_N kandidat_N ;
 lin kanzlerkandidatin_N = mkN kanzler_N kandidatin_N ;
 lin kanzlermehrheit_N = mkN kanzler_N mehrheit_N ;
+lin kanonenschuss_N = mkN "Kanonen" schuss_N ;
+lin kanonenturm_N = mkN "Kanonen" turm_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

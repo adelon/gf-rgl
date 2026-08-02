@@ -536,6 +536,8 @@ fun
   kanzlerkandidat_N : N ;
   kanzlerkandidatin_N : N ;
   kanzlermehrheit_N : N ;
+  kanonenschuss_N : N ;
+  kanonenturm_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
