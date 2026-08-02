@@ -444,6 +444,11 @@ fun
   endsee_N : N ;
   endsilbe_N : N ;
   endteufe_N : N ;
+  energieausweis_N : N ;
+  energieberatung_N : N ;
+  energiebuendel_N : N ;
+  energiepass_N : N ;
+  energiequelle_N : N ;
   empfaengersprache_N : N ;
   empfaengerzelle_N : N ;
   empfangszimmer_N : N ;

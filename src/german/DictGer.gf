@@ -759,6 +759,11 @@ concrete DictGer of DictGerAbs =
     , endsee_N
     , endsilbe_N
     , endteufe_N
+    , energieausweis_N
+    , energieberatung_N
+    , energiebuendel_N
+    , energiepass_N
+    , energiequelle_N
     , empfaengersprache_N
     , empfaengerzelle_N
     , empfangszimmer_N
@@ -1228,6 +1233,11 @@ lin endreim_N = mkN "End" reim_N ;
 lin endsee_N = changeCompoundN "Endseen" (mkN "End" see_N) ;
 lin endsilbe_N = changeCompoundN "Endsilben" (mkN "End" silbe_N) ;
 lin endteufe_N = mkN "End" teufe_N ;
+lin energieausweis_N = mkN "Energie" ausweis_N ;
+lin energieberatung_N = mkN "Energie" beratung_N ;
+lin energiebuendel_N = mkN "Energie" buendel_N ;
+lin energiepass_N = mkN "Energie" pass_N ;
+lin energiequelle_N = changeCompoundN "Energiequellen" (mkN "Energie" quelle_N) ;
 lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger" sprache_N) ;
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
