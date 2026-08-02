@@ -232,6 +232,14 @@ concrete DictGer of DictGerAbs =
     , bauelement_N
     , baufirma_N
     , baugenehmigung_N
+    , bauernaufstand_N
+    , bauernbrot_N
+    , bauernendspiel_N
+    , bauernhaus_N
+    , bauernhof_N
+    , bauernopfer_N
+    , bauernregel_N
+    , bauernzug_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -872,4 +880,12 @@ lin baueinheit_N = mkN "Bau" einheit_N ;
 lin bauelement_N = mkN "Bau" element_N ;
 lin baufirma_N = mkN "Bau" firma_N ;
 lin baugenehmigung_N = mkN "Bau" genehmigung_N ;
+lin bauernaufstand_N = mkN "Bauern" aufstand_N ;
+lin bauernbrot_N = mkN "Bauern" brot_N ;
+lin bauernendspiel_N = mkN "Bauern" endspiel_N ;
+lin bauernhaus_N = mkN "Bauern" haus_N ;
+lin bauernhof_N = mkN "Bauern" hof_N ;
+lin bauernopfer_N = mkN "Bauern" opfer_N ;
+lin bauernregel_N = mkN "Bauern" regel_N ;
+lin bauernzug_N = mkN "Bauern" zug_N ;
 }

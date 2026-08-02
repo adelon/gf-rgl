@@ -601,4 +601,12 @@ fun
   bauelement_N : N ;
   baufirma_N : N ;
   baugenehmigung_N : N ;
+  bauernaufstand_N : N ;
+  bauernbrot_N : N ;
+  bauernendspiel_N : N ;
+  bauernhaus_N : N ;
+  bauernhof_N : N ;
+  bauernopfer_N : N ;
+  bauernregel_N : N ;
+  bauernzug_N : N ;
 }
