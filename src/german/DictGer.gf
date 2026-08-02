@@ -1044,6 +1044,27 @@ concrete DictGer of DictGerAbs =
     , karpfenteich_N
     , kartellamt_N
     , kartenhaus_N
+    , kinderarbeit_N
+    , kinderarzt_N
+    , kinderausweis_N
+    , kinderbuch_N
+    , kinderbuchautor_N
+    , kinderbuchautorin_N
+    , kinderbuchverlag_N
+    , kinderfilm_N
+    , kindergarten_N
+    , kinderheim_N
+    , kinderkrankheit_N
+    , kinderlied_N
+    , kinderpause_N
+    , kinderporno_N
+    , kindersicherung_N
+    , kindersitz_N
+    , kindersoldat_N
+    , kinderspiel_N
+    , kindersprache_N
+    , kindertheater_N
+    , kinderzimmer_N
     , katzenauge_N
     , katzenfell_N
     , katzenfrettfell_N
@@ -1550,6 +1571,27 @@ lin karpfenstein_N = mkN karpfen_N stein_N ;
 lin karpfenteich_N = mkN karpfen_N teich_N ;
 lin kartellamt_N = mkN kartell_N amt_N ;
 lin kartenhaus_N = mkN "Karten" haus_N ;
+lin kinderarbeit_N = mkN "Kinder" arbeit_N ;
+lin kinderarzt_N = mkN "Kinder" arzt_N ;
+lin kinderausweis_N = mkN "Kinder" ausweis_N ;
+lin kinderbuch_N = mkN "Kinder" buch_N ;
+lin kinderbuchautor_N = mkN kinderbuch_N autor_N ;
+lin kinderbuchautorin_N = mkN kinderbuch_N autorin_N ;
+lin kinderbuchverlag_N = mkN kinderbuch_N verlag_N ;
+lin kinderfilm_N = mkN "Kinder" film_N ;
+lin kindergarten_N = mkN "Kinder" garten_N ;
+lin kinderheim_N = mkN "Kinder" heim_N ;
+lin kinderkrankheit_N = mkN "Kinder" krankheit_N ;
+lin kinderlied_N = mkN "Kinder" lied_N ;
+lin kinderpause_N = mkN "Kinder" pause_N ;
+lin kinderporno_N = mkN "Kinder" porno_N ;
+lin kindersicherung_N = mkN "Kinder" sicherung_N ;
+lin kindersitz_N = mkN "Kinder" sitz_N ;
+lin kindersoldat_N = mkN "Kinder" soldat_N ;
+lin kinderspiel_N = mkN "Kinder" spiel_N ;
+lin kindersprache_N = changeCompoundN "Kindersprachen" (mkN "Kinder" sprache_N) ;
+lin kindertheater_N = mkN "Kinder" theater_N ;
+lin kinderzimmer_N = mkN "Kinder" zimmer_N ;
 lin katzenauge_N = mkN "Katzen" auge_N ;
 lin katzenfell_N = mkN "Katzen" fell_N ;
 lin katzenfrettfell_N = mkN "Katzenfrett" fell_N ;
