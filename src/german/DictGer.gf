@@ -133,6 +133,11 @@ concrete DictGer of DictGerAbs =
     , brustverkleinerung_N
     , brustwarze_N
     , brustwirbel_N
+    , backblech__N
+    , backpfeife_N
+    , backstein_N
+    , backstube_N
+    , backware_N
     , a_bombe_N
     , a_schwa_N
     , abc_buch_9_N
@@ -1937,6 +1942,11 @@ lin brustvergroesserung_N = mkN brust_N vergroesserung_N ;
 lin brustverkleinerung_N = mkN brust_N verkleinerung_N ;
 lin brustwarze_N = mkN brust_N warze_N ;
 lin brustwirbel_N = mkN brust_N wirbel_N ;
+lin backblech__N = mkN "Back" blech_N ;
+lin backpfeife_N = mkN "Back" pfeife_N ;
+lin backstein_N = mkN "Back" stein_N ;
+lin backstube_N = mkN "Back" stube_N ;
+lin backware_N = mkN "Back" ware_N ;
 lin abc_buch_9_N = mkHyphenN "Abc" buch_N ;
 lin abc_buch_N = mkHyphenN "ABC" buch_N ;
 lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;

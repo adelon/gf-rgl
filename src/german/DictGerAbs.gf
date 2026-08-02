@@ -1243,6 +1243,11 @@ fun
   brustverkleinerung_N : N ;
   brustwarze_N : N ;
   brustwirbel_N : N ;
+  backblech__N : N ;
+  backpfeife_N : N ;
+  backstein_N : N ;
+  backstube_N : N ;
+  backware_N : N ;
   a_bombe_N : N ;
   a_schwa_N : N ;
   abc_buch_9_N : N ;
