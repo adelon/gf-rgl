@@ -566,6 +566,9 @@ fun
   badeschwamm_N : N ;
   badewanne_N : N ;
   badezimmer_N : N ;
+  bahnhof_N : N ;
+  bahnhofsgaststaette_N : N ;
+  bahnhofsuhr_N : N ;
   bahnbus_N : N ;
   bahndamm_N : N ;
   bahnfahrt_N : N ;
@@ -573,6 +576,8 @@ fun
   bahnreise_N : N ;
   bahnschranke_N : N ;
   bahnsteig_N : N ;
+  bahnsteigkante_N : N ;
+  bahntarif_N : N ;
   bahnuebergang_N : N ;
   bakterienchromosom_N : N ;
   bakterienfilter_N : N ;

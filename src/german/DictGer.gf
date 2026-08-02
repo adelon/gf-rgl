@@ -194,6 +194,9 @@ concrete DictGer of DictGerAbs =
     , badeschwamm_N
     , badewanne_N
     , badezimmer_N
+    , bahnhof_N
+    , bahnhofsgaststaette_N
+    , bahnhofsuhr_N
     , big_bang_N
     , big_brother_N
     , corporate_identity_N
@@ -204,6 +207,8 @@ concrete DictGer of DictGerAbs =
     , bahnreise_N
     , bahnschranke_N
     , bahnsteig_N
+    , bahnsteigkante_N
+    , bahntarif_N
     , bahnuebergang_N
     , bakterienchromosom_N
     , bakterienfilter_N
@@ -1019,6 +1024,9 @@ lin badesalz_N = mkN "Bade" salz_N ;
 lin badeschwamm_N = mkN "Bade" schwamm_N ;
 lin badewanne_N = mkN "Bade" wanne_N ;
 lin badezimmer_N = mkN "Bade" zimmer_N ;
+lin bahnhof_N = mkN bahn_N hof_N ;
+lin bahnhofsgaststaette_N = mkN "Bahnhofs" gaststaette_N ;
+lin bahnhofsuhr_N = mkN "Bahnhofs" uhr_N ;
 lin bahnbus_N = mkN "Bahn" bus_N ;
 lin bahndamm_N = mkN "Bahn" damm_N ;
 lin bahnfahrt_N = mkN "Bahn" fahrt_N ;
@@ -1026,6 +1034,8 @@ lin bahngleis_N = mkN "Bahn" gleis_N ;
 lin bahnreise_N = mkN "Bahn" reise_N ;
 lin bahnschranke_N = mkN "Bahn" schranke_N ;
 lin bahnsteig_N = mkN "Bahn" steig_N ;
+lin bahnsteigkante_N = mkN bahnsteig_N kante_N ;
+lin bahntarif_N = mkN bahn_N tarif_N ;
 lin bahnuebergang_N = mkN "Bahn" uebergang_N ;
 lin bakterienchromosom_N = mkN "Bakterien" chromosom_N ;
 lin bakterienfilter_N = mkN "Bakterien" filter_N ;
