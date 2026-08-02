@@ -152,6 +152,7 @@ fun
   haarnetz_N : N ;
   haarsieb_N : N ;
   haarstern_N : N ;
+  haarnadel_N : N ;
   haaransatz_N : N ;
   haarersatz_N : N ;
   haarfollikel_N : N ;

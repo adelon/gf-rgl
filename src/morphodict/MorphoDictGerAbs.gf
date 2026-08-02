@@ -15067,7 +15067,6 @@ fun haarfaerbemittel_N : N ;
 fun haarfollikelzelle_N : N ;
 fun haargenau_A : A ;
 fun haarig_A : A ;
-fun haarnadel_N : N ;
 fun haarnadelkurve_N : N ;
 fun haarspalterei_N : N ;
 fun haarwaschmittel_N : N ;

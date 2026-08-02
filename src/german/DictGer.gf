@@ -977,6 +977,7 @@ lin haarersatz_N = mkN "Haar" ersatz_N ;
 lin haarfollikel_N = mkN "Haar" follikel_N ;
 lin haarriss_N = mkN "Haar" riss_N ;
 lin haartrockner_N = mkN "Haar" trockner_N ;
+lin haarnadel_N = mkN "Haar" nadel__N ;
 lin achselhoehle_N = mkN achsel_N hoehle_N ;
 lin achteckstempel_N = mkN achteck_N stempel_N ;
 lin achterbahn_N = mkN achter_N bahn_N ;

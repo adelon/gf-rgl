@@ -15072,7 +15072,6 @@ lin haarfaerbemittel_N = mkN "Haarfärbemittel" "Haarfärbemittel" neuter ;
 lin haarfollikelzelle_N = mkN "Haarfollikelzelle" "Haarfollikelzellen" feminine ;
 lin haargenau_A = regA "haargenau" ;
 lin haarig_A = mk3A "haarig" "haariger" "haarigste" ;
-lin haarnadel_N = mkN "Haarnadel" "Haarnadeln" feminine ;
 lin haarnadelkurve_N = mkN "Haarnadelkurve" "Haarnadelkurven" feminine ;
 lin haarspalterei_N = mkN "Haarspalterei" "Haarspaltereien" feminine ;
 lin haarwaschmittel_N = mkN "Haarwaschmittel" "Haarwaschmittel" neuter ;
