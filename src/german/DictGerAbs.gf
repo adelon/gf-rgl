@@ -596,4 +596,9 @@ fun
   bandnudel_N : N ;
   bandsaege_N : N ;
   bandsalat_N : N ;
+  baubude_N : N ;
+  baueinheit_N : N ;
+  bauelement_N : N ;
+  baufirma_N : N ;
+  baugenehmigung_N : N ;
 }

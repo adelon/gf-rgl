@@ -227,6 +227,11 @@ concrete DictGer of DictGerAbs =
     , bandnudel_N
     , bandsaege_N
     , bandsalat_N
+    , baubude_N
+    , baueinheit_N
+    , bauelement_N
+    , baufirma_N
+    , baugenehmigung_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -862,4 +867,9 @@ lin bandlaufwerk_N = mkN "Band" laufwerk_N ;
 lin bandnudel_N = mkN "Band" nudel_N ;
 lin bandsaege_N = mkN "Band" saege_N ;
 lin bandsalat_N = mkN "Band" salat_N ;
+lin baubude_N = mkN "Bau" bude_N ;
+lin baueinheit_N = mkN "Bau" einheit_N ;
+lin bauelement_N = mkN "Bau" element_N ;
+lin baufirma_N = mkN "Bau" firma_N ;
+lin baugenehmigung_N = mkN "Bau" genehmigung_N ;
 }
