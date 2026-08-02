@@ -520,6 +520,9 @@ fun
   kammerjaeger_N : N ;
   kammersonate_N : N ;
   kammlinie_N : N ;
+  kaninchenfell_N : N ;
+  kaninchenleber_N : N ;
+  kaninchenzuechter_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
