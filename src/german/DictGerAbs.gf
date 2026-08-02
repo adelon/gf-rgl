@@ -705,4 +705,9 @@ fun
   bergbaude_N : N ;
   bergetappe_N : N ;
   bergfilm_N : N ;
+  berggipfel_N : N ;
+  bergkette_N : N ;
+  bergkiefer_N : N ;
+  bergkristall_N : N ;
+  bergspitze_N : N ;
 }

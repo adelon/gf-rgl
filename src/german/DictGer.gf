@@ -336,6 +336,11 @@ concrete DictGer of DictGerAbs =
     , bergbaude_N
     , bergetappe_N
     , bergfilm_N
+    , berggipfel_N
+    , bergkette_N
+    , bergkiefer_N
+    , bergkristall_N
+    , bergspitze_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1080,4 +1085,9 @@ lin bergarbeiter_N = mkN berg_N arbeiter_N ;
 lin bergbaude_N = changeCompoundN "Bergbauden" (mkN berg_N baude_N) ;
 lin bergetappe_N = changeCompoundN "Bergetappen" (mkN berg_N etappe_N) ;
 lin bergfilm_N = mkN berg_N film_N ;
+lin berggipfel_N = mkN berg_N gipfel_N ;
+lin bergkette_N = mkN berg_N kette_N ;
+lin bergkiefer_N = mkN berg_N kiefer_N ;
+lin bergkristall_N = mkN berg_N kristall_N ;
+lin bergspitze_N = mkN berg_N spitze_N ;
 }
