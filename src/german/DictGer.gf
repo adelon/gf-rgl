@@ -504,6 +504,15 @@ concrete DictGer of DictGerAbs =
     , dachschaden_N
     , dachstuhl_N
     , dachwohnung_N
+    , damenbauer_N
+    , damenbinde_N
+    , damenendspiel_N
+    , damenlaeufer_N
+    , damenspringer_N
+    , damentaschentuch_N
+    , damenturm_N
+    , damenzug_N
+    , damespiel_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1416,4 +1425,13 @@ lin dachlawine_N = mkN dach_N lawine_N ;
 lin dachschaden_N = mkN dach_N schaden_N ;
 lin dachstuhl_N = mkN dach_N stuhl_N ;
 lin dachwohnung_N = mkN dach_N wohnung_N ;
+lin damenbauer_N = mkN dame_N bauer_N ;
+lin damenbinde_N = mkN dame_N binde_N ;
+lin damenendspiel_N = mkN dame_N endspiel_N ;
+lin damenlaeufer_N = mkN dame_N laeufer_N ;
+lin damenspringer_N = mkN dame_N springer_N ;
+lin damentaschentuch_N = mkN dame_N taschentuch_N ;
+lin damenturm_N = mkN dame_N turm_N ;
+lin damenzug_N = mkN dame_N zug_N ;
+lin damespiel_N = mkN dame_N spiel_N ;
 }

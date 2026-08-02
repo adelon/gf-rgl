@@ -873,4 +873,13 @@ fun
   dachschaden_N : N ;
   dachstuhl_N : N ;
   dachwohnung_N : N ;
+  damenbauer_N : N ;
+  damenbinde_N : N ;
+  damenendspiel_N : N ;
+  damenlaeufer_N : N ;
+  damenspringer_N : N ;
+  damentaschentuch_N : N ;
+  damenturm_N : N ;
+  damenzug_N : N ;
+  damespiel_N : N ;
 }
