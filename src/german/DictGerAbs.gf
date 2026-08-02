@@ -387,6 +387,13 @@ fun
   hybridomzellinie_N : N ;
   hybridomzelllinie_N : N ;
   hybridplasminogenaktivator_N : N ;
+  hydantoinderivat_N : N ;
+  hydratisierungsmittel_N : N ;
+  hydrazidgruppe_N : N ;
+  hydrobromide_N : N ;
+  hydrocarbylgruppe_N : N ;
+  hydrogenfumarate_N : N ;
+  hydrogensulfat_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;

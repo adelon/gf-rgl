@@ -882,6 +882,13 @@ concrete DictGer of DictGerAbs =
     , hybridomzellinie_N
     , hybridomzelllinie_N
     , hybridplasminogenaktivator_N
+    , hydantoinderivat_N
+    , hydratisierungsmittel_N
+    , hydrazidgruppe_N
+    , hydrobromide_N
+    , hydrocarbylgruppe_N
+    , hydrogenfumarate_N
+    , hydrogensulfat_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1217,6 +1224,13 @@ lin hybridomzelle_N = mkN hybridom_N zelle_N ;
 lin hybridomzellinie_N = mkN hybridom_N zellinie_N ;
 lin hybridomzelllinie_N = mkN hybridom_N zelllinie_N ;
 lin hybridplasminogenaktivator_N = mkN (mkN hybrid_N plasminogen_N) aktivator_N ;
+lin hydantoinderivat_N = mkN "Hydantoin" derivat_N ;
+lin hydratisierungsmittel_N = mkN "Hydratisierungs" mittel_N ;
+lin hydrazidgruppe_N = mkN "Hydrazid" gruppe_N ;
+lin hydrobromide_N = mkN "Hydro" bromid_N ;
+lin hydrocarbylgruppe_N = mkN "Hydrocarbyl" gruppe_N ;
+lin hydrogenfumarate_N = mkN wasserstoff_N fumarat_N ;
+lin hydrogensulfat_N = mkN "Hydrogen" sulfat_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;
