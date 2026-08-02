@@ -957,6 +957,12 @@ concrete DictGer of DictGerAbs =
     , kabelpritsche_N
     , kabelsalat_N
     , kabelschacht_N
+    , kaeseblatt_N
+    , kaesebroetchen_N
+    , kaeseglocke_N
+    , kaesehobel_N
+    , kaesekuchen_N
+    , kaesepappel_N
     , hydroxyapatit_N
     , hydroxylamin_N
     , hydroxylgruppensubstituent_N
@@ -1367,6 +1373,12 @@ lin kabelkanal_N = mkN kabel_N kanal_N ;
 lin kabelpritsche_N = mkN kabel_N pritsche_N ;
 lin kabelsalat_N = mkN kabel_N salat_N ;
 lin kabelschacht_N = mkN kabel_N schacht_N ;
+lin kaeseblatt_N = mkN kaese_N blatt_N ;
+lin kaesebroetchen_N = mkN kaese_N broetchen_N ;
+lin kaeseglocke_N = mkN kaese_N glocke_N ;
+lin kaesehobel_N = mkN kaese_N hobel_N ;
+lin kaesekuchen_N = mkN kaese_N kuchen_N ;
+lin kaesepappel_N = mkN kaese_N pappel_N ;
 lin hydratform_N = mkN hydrat_N form_N ;
 lin hydraulikpresse_N = changeCompoundN "Hydraulikpressen" (mkN hydraulik_N presse_N) ;
 lin hydrazingruppe_N = mkN hydrazin_N gruppe_N ;

@@ -462,6 +462,12 @@ fun
   kabelpritsche_N : N ;
   kabelsalat_N : N ;
   kabelschacht_N : N ;
+  kaeseblatt_N : N ;
+  kaesebroetchen_N : N ;
+  kaeseglocke_N : N ;
+  kaesehobel_N : N ;
+  kaesekuchen_N : N ;
+  kaesepappel_N : N ;
   hydroxygruppe_N : N ;
   hydroxylfunktion_N : N ;
   hydroxylgruppe_N : N ;
