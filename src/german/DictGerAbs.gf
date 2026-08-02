@@ -423,6 +423,8 @@ fun
   elektronengehirn_N : N ;
   elektronenmikroskop_N : N ;
   elektronenstrahl_N : N ;
+  elfenbeinmoewe_N : N ;
+  elfenbeinturm_N : N ;
   eiskalt_A : A ;
   enfant_terrible_N : N ;
   en_passant_Adv : Adv ;

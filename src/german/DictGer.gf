@@ -738,6 +738,8 @@ concrete DictGer of DictGerAbs =
     , elektronengehirn_N
     , elektronenmikroskop_N
     , elektronenstrahl_N
+    , elfenbeinmoewe_N
+    , elfenbeinturm_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -1183,6 +1185,8 @@ lin elektronendonator_N = mkN "Elektronen" donator_N ;
 lin elektronengehirn_N = mkN "Elektronen" gehirn_N ;
 lin elektronenmikroskop_N = mkN "Elektronen" mikroskop_N ;
 lin elektronenstrahl_N = mkN "Elektronen" strahl_N ;
+lin elfenbeinmoewe_N = mkN "Elfenbein" moewe_N ;
+lin elfenbeinturm_N = mkN "Elfenbein" turm_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
