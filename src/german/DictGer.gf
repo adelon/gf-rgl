@@ -1983,6 +1983,8 @@ concrete DictGer of DictGerAbs =
     , gruenflaeche_N
     , gruenkoepfchen_N
     , gruenschnabel_N
+    , grubenhund_N
+    , grubenlampe_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4066,6 +4068,8 @@ lin gruenfink_N = mkN gruen_N fink_N ;
 lin gruenflaeche_N = mkN gruen_N flaeche_N ;
 lin gruenkoepfchen_N = mkN gruen_N koepfchen_N ;
 lin gruenschnabel_N = mkN gruen_N schnabel_N ;
+lin grubenhund_N = mkN grube_N hund_N ;
+lin grubenlampe_N = mkN grube_N lampe_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
