@@ -3489,4 +3489,27 @@ fun
   herbig_haro_objekt_N : N ;
   hole_in_one_N : N ;
   hula_hoop_reifen_N : N ;
+  i_tuepfelchen_N : N ;
+  ic_analyse_N : N ;
+  ich_ag_N : N ;
+  ich_aktiengesellschaft_N : N ;
+  ich_laut_N : N ;
+  inline_skate_N : N ;
+  intercity_express_N : N ;
+  ip_adresse_N : N ;
+  it_service_N : N ;
+  isbn_nummer_N : N ;
+  it_system_N : N ;
+  italo_western_N : N ;
+  jojo_effekt_N : N ;
+  jumbo_jet_N : N ;
+  kam_tai_sprache_N : N ;
+  kap_verdier_N : N ;
+  kap_verdierin_N : N ;
+  key_visual_N : N ;
+  khoisan_sprache_N : N ;
+  kick_off_meeting_N : N ;
+  kick_off_N : N ;
+  knock_out_N : N ;
+  kompetenz_kompetenz_N : N ;
 }
