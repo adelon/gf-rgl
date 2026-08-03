@@ -2038,6 +2038,11 @@ concrete DictGer of DictGerAbs =
     , inselbegabung_N
     , inselgruppe_N
     , inselstaat_N
+    , insektenfresser_N
+    , insektenstich_N
+    , insektenvirusvektor_N
+    , insektenzelle_N
+    , insektenzelllinie_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4176,6 +4181,11 @@ lin industrieminute_N = mkN industrie_N minute_N ;
 lin inselbegabung_N = mkN insel_N begabung_N ;
 lin inselgruppe_N = mkN insel_N gruppe_N ;
 lin inselstaat_N = mkN insel_N staat_N ;
+lin insektenfresser_N = mkN "Insekten" fresser_N ;
+lin insektenstich_N = mkN "Insekten" stich_N ;
+lin insektenvirusvektor_N = mkN "Insekten" virusvektor_N ;
+lin insektenzelle_N = mkN "Insekten" zelle_N ;
+lin insektenzelllinie_N = mkN "Insekten" zelllinie_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
