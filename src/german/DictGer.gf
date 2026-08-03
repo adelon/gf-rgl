@@ -1094,6 +1094,18 @@ concrete DictGer of DictGerAbs =
     , festspiel_N
     , feststoff_N
     , festumzug_N
+    , filmatelier_N
+    , filmbildner_N
+    , filmemacher_N
+    , filmgeschichte_N
+    , filmhistoriker_N
+    , filmmaterial_N
+    , filmpalast_N
+    , filmpreis_N
+    , filmprojektor_N
+    , filmriss_N
+    , filmstudio_N
+    , filmtablette_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6826,4 +6838,16 @@ lin festpunkt_N = mkN "Fest" (mkN "Punkt" "Punkte" masculine) ;
 lin festspiel_N = mkN "Fest" (mkN "Spiel" "Spiele" neuter) ;
 lin feststoff_N = mkN "Fest" (mkN "Stoff" "Stoffe" masculine) ;
 lin festumzug_N = mkN "Fest" (mkN "Umzug" "Umzüge" masculine) ;
+lin filmatelier_N = mkN film_N (mkN "Atelier" "Ateliers" neuter) ;
+lin filmbildner_N = mkN film_N (mkN "Bildner" "Bildner" masculine) ;
+lin filmemacher_N = mkN "Filme" (mkN "Macher" "Macher" masculine) ;
+lin filmgeschichte_N = mkN film_N (mkN "Geschichte" "Geschichten" feminine) ;
+lin filmhistoriker_N = mkN film_N (mkN "Historiker" "Historiker" masculine) ;
+lin filmmaterial_N = mkN film_N (mkN "Material" "Materialien" neuter) ;
+lin filmpalast_N = mkN film_N (mkN "Palast" "Paläste" masculine) ;
+lin filmpreis_N = mkN film_N (mkN "Preis" "Preise" masculine) ;
+lin filmprojektor_N = mkN film_N (mkN "Projektor" "Projektoren" masculine) ;
+lin filmriss_N = mkN film_N (mkN "Riss" "Risse" masculine) ;
+lin filmstudio_N = mkN film_N (mkN "Studio" "Studios" neuter) ;
+lin filmtablette_N = mkN film_N (mkN "Tablette" "Tabletten" feminine) ;
 }

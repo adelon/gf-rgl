@@ -3945,4 +3945,16 @@ fun
   festspiel_N : N ;
   feststoff_N : N ;
   festumzug_N : N ;
+  filmatelier_N : N ;
+  filmbildner_N : N ;
+  filmemacher_N : N ;
+  filmgeschichte_N : N ;
+  filmhistoriker_N : N ;
+  filmmaterial_N : N ;
+  filmpalast_N : N ;
+  filmpreis_N : N ;
+  filmprojektor_N : N ;
+  filmriss_N : N ;
+  filmstudio_N : N ;
+  filmtablette_N : N ;
 }
