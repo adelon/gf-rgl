@@ -1454,6 +1454,13 @@ concrete DictGer of DictGerAbs =
     , fernsehsessel_N
     , fernsehturm_N
     , fernsehzuschauer_N
+    , fertiggericht_N
+    , fertighaus_N
+    , fertigsuppe_N
+    , fertigungsauftrag_N
+    , fertigungsinsel_N
+    , fertigungsleiter_N
+    , fertigungstiefe_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2813,6 +2820,13 @@ lin fernsehsender_N = mkN "Fernseh" sender_N ;
 lin fernsehsessel_N = mkN "Fernseh" sessel_N ;
 lin fernsehturm_N = mkN "Fernseh" turm_N ;
 lin fernsehzuschauer_N = mkN "Fernseh" zuschauer_N ;
+lin fertiggericht_N = mkN "Fertig" (mkN "Gericht" "Gerichte" "Gericht" neuter) ;
+lin fertighaus_N = mkN "Fertig" haus_N ;
+lin fertigsuppe_N = mkN "Fertig" suppe_N ;
+lin fertigungsauftrag_N = mkN "Fertigungs" auftrag_N ;
+lin fertigungsinsel_N = mkN "Fertigungs" insel_N ;
+lin fertigungsleiter_N = mkN "Fertigungs" (mkN "Leiter" "Leiter" masculine) ;
+lin fertigungstiefe_N = mkN "Fertigungs" tiefe_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;

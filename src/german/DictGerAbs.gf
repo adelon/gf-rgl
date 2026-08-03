@@ -1204,6 +1204,13 @@ fun
   fernsehsessel_N : N ;
   fernsehturm_N : N ;
   fernsehzuschauer_N : N ;
+  fertiggericht_N : N ;
+  fertighaus_N : N ;
+  fertigsuppe_N : N ;
+  fertigungsauftrag_N : N ;
+  fertigungsinsel_N : N ;
+  fertigungsleiter_N : N ;
+  fertigungstiefe_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;
