@@ -2012,6 +2012,10 @@ concrete DictGer of DictGerAbs =
     , hochwert_N
     , hochwald_N
     , hochschullehrer_N
+    , hahnenfuss_N
+    , hahnenkamm_N
+    , hahnenkampf_N
+    , hahnenschrei_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4124,6 +4128,10 @@ lin hochsommer_N = mkN hoch_N sommer_N ;
 lin hochwert_N = mkN hoch_N wert_N ;
 lin hochwald_N = mkN hoch_N wald_N ;
 lin hochschullehrer_N = mkN hochschule_N lehrer_N ;
+lin hahnenfuss_N = mkN "Hahnen" fuss_N ;
+lin hahnenkamm_N = mkN "Hahnen" kamm_N ;
+lin hahnenkampf_N = mkN "Hahnen" kampf_N ;
+lin hahnenschrei_N = mkN "Hahnen" schrei_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
