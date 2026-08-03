@@ -2016,6 +2016,11 @@ concrete DictGer of DictGerAbs =
     , hahnenkamm_N
     , hahnenkampf_N
     , hahnenschrei_N
+    , innenministerium_N
+    , innenseite_N
+    , innenskelett_N
+    , innenstadt_N
+    , innenwand_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4132,6 +4137,11 @@ lin hahnenfuss_N = mkN "Hahnen" fuss_N ;
 lin hahnenkamm_N = mkN "Hahnen" kamm_N ;
 lin hahnenkampf_N = mkN "Hahnen" kampf_N ;
 lin hahnenschrei_N = mkN "Hahnen" schrei_N ;
+lin innenministerium_N = mkN "Innen" ministerium_N ;
+lin innenseite_N = mkN "Innen" seite_N ;
+lin innenskelett_N = mkN "Innen" skelett_N ;
+lin innenstadt_N = mkN "Innen" stadt_N ;
+lin innenwand_N = mkN "Innen" wand_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
