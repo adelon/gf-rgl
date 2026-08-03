@@ -3156,4 +3156,23 @@ fun
   nussschokolade_N : N ;
   nussstrudel_N : N ;
   nusstorte_N : N ;
+  oberarm_N : N ;
+  oberarmbruch_N : N ;
+  oberarmknochen_N : N ;
+  oberbauch_N : N ;
+  oberbegriff_N : N ;
+  obergeschoss_N : N ;
+  obergrenze_N : N ;
+  oberhaupt_N : N ;
+  oberhaus_N : N ;
+  oberhemd_N : N ;
+  oberkoerper_N : N ;
+  oberleitung_N : N ;
+  obstbaum_N : N ;
+  obstgarten_N : N ;
+  obsthaendler_N : N ;
+  obsthaendlerin_N : N ;
+  obstsalat_N : N ;
+  obsttorte_N : N ;
+  obstwein_N : N ;
 }
