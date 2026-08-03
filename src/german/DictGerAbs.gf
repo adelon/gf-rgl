@@ -1761,6 +1761,10 @@ fun
   dessertschaelchen_N : N ;
   dessertteller_N : N ;
   dessertwein_N : N ;
+  dauerschach_N : N ;
+  daumenkino_N : N ;
+  daumenregel_N : N ;
+  davidstern_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
