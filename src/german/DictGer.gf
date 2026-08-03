@@ -2244,6 +2244,14 @@ concrete DictGer of DictGerAbs =
     , schuhmacher_N
     , schuhschachtel_N
     , schuhschnabel_N
+    , stahlbad_N
+    , stahlbetonbau_N
+    , stahldraht_N
+    , stahlfeder_N
+    , stahlhelm_N
+    , stahlrohr_N
+    , stahlsaite_N
+    , stahltraeger_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4590,6 +4598,14 @@ lin schuhloeffel_N = mkN schuh_N loeffel_N ;
 lin schuhmacher_N = mkN schuh_N (mkN "Macher" "Macher" masculine) ;
 lin schuhschachtel_N = mkN schuh_N schachtel_N ;
 lin schuhschnabel_N = mkN schuh_N schnabel_N ;
+lin stahlbad_N = mkN stahl_N bad_N ;
+lin stahlbetonbau_N = mkN stahl_N (mkN "Betonbau" "Betonbauten" masculine) ;
+lin stahldraht_N = mkN stahl_N draht_N ;
+lin stahlfeder_N = mkN stahl_N feder_N ;
+lin stahlhelm_N = mkN stahl_N helm_N ;
+lin stahlrohr_N = mkN stahl_N rohr_N ;
+lin stahlsaite_N = mkN stahl_N saite_N ;
+lin stahltraeger_N = mkN stahl_N traeger_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
