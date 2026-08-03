@@ -1339,6 +1339,17 @@ cc -all kuchenbrot_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuch
 cc -all kuchendiagramm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchendiagramm_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchendiagramm_N.co
 cc -all kuchengabel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchengabel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchengabel_N.co
 cc -all kuchenteller_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchenteller_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchenteller_N.co
+cc -all kunstflug_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstflug_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstflug_N.co
+cc -all kunstflugfigur_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstflugfigur_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstflugfigur_N.co
+cc -all kunstgeheimnis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstgeheimnis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstgeheimnis_N.co
+cc -all kunstgeschichte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstgeschichte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstgeschichte_N.co
+cc -all kunstgriff_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstgriff_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstgriff_N.co
+cc -all kunsthandwerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunsthandwerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunsthandwerk_N.co
+cc -all kunstlied_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstlied_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstlied_N.co
+cc -all kunstschule_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstschule_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstschule_N.co
+cc -all kunstsprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstsprache_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstsprache_N.co
+cc -all kunststoff_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunststoff_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunststoff_N.co
+cc -all kunstwerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kunstwerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kunstwerk_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co

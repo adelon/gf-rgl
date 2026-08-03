@@ -6617,4 +6617,15 @@ lin kuchenbrot_N = mkN "Kuchen" (mkN "Brot" "Brote" neuter) ;
 lin kuchendiagramm_N = mkN "Kuchen" (mkN "Diagramm" "Diagramme" neuter) ;
 lin kuchengabel_N = mkN "Kuchen" (mkN "Gabel" "Gabeln" feminine) ;
 lin kuchenteller_N = mkN "Kuchen" (mkN "Teller" "Teller" masculine) ;
+lin kunstflug_N = mkN "Kunst" (mkN "Flug" "Flüge" masculine) ;
+lin kunstflugfigur_N = mkN "Kunstflug" (mkN "Figur" "Figuren" feminine) ;
+lin kunstgeheimnis_N = mkN "Kunst" (mkN "Geheimnis" "Geheimnisse" neuter) ;
+lin kunstgeschichte_N = mkN "Kunst" (mkN "Geschichte" "Geschichten" feminine) ;
+lin kunstgriff_N = mkN "Kunst" (mkN "Griff" "Griffe" masculine) ;
+lin kunsthandwerk_N = mkN "Kunst" (mkN "Handwerk" "Handwerke" neuter) ;
+lin kunstlied_N = mkN "Kunst" (mkN "Lied" "Lieder" neuter) ;
+lin kunstschule_N = mkN "Kunst" (mkN "Schule" "Schulen" feminine) ;
+lin kunstsprache_N = mkN "Kunst" (mkN "Sprache" "Sprachen" feminine) ;
+lin kunststoff_N = mkN "Kunst" (mkN "Stoff" "Stoffe" masculine) ;
+lin kunstwerk_N = mkN "Kunst" (mkN "Werk" "Werke" neuter) ;
 }

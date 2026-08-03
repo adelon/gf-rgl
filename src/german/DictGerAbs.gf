@@ -3811,4 +3811,15 @@ fun
   kuchendiagramm_N : N ;
   kuchengabel_N : N ;
   kuchenteller_N : N ;
+  kunstflug_N : N ;
+  kunstflugfigur_N : N ;
+  kunstgeheimnis_N : N ;
+  kunstgeschichte_N : N ;
+  kunstgriff_N : N ;
+  kunsthandwerk_N : N ;
+  kunstlied_N : N ;
+  kunstschule_N : N ;
+  kunstsprache_N : N ;
+  kunststoff_N : N ;
+  kunstwerk_N : N ;
 }

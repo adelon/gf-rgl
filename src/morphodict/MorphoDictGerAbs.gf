@@ -19277,28 +19277,22 @@ fun kundschaft_N : N ;
 fun kundtun_V : V ;
 fun kungeln_V : V ;
 fun kunst_N : N ;
-fun kunstflug_N : N ;
-fun kunstflugfigur_N : N ;
-fun kunstgeheimnis_N : N ;
-fun kunstgeschichte_N : N ;
+
 fun kunstgeschichtlich_A : A ;
-fun kunstgriff_N : N ;
-fun kunsthandwerk_N : N ;
+
 fun kunsthistoriker_N : N ;
 fun kunsthistorikerin_N : N ;
 fun kunstlehrer_N : N ;
-fun kunstlied_N : N ;
-fun kunstschule_N : N ;
+
 fun kunstseiden_A : A ;
-fun kunstsprache_N : N ;
-fun kunststoff_N : N ;
+
 fun kunststoffbecher_N : N ;
 fun kunststoffflasche_N : N ;
 fun kunststofffolie_N : N ;
 fun kunststoffhammer_N : N ;
 fun kunststoffrohr_N : N ;
 fun kunsttherapie_N : N ;
-fun kunstwerk_N : N ;
+
 fun kunstwissenschaft_N : N ;
 fun kunstwort_N : N ;
 fun kupee_N : N ;

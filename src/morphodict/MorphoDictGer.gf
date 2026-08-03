@@ -19440,28 +19440,22 @@ lin kundschaft_N = mkN "Kundschaft" "Kundschaften" feminine ;
 lin kundtun_V = irregV "kundtun" "tut" "tat" "täte" "getan" ;
 lin kungeln_V = regV "kungeln" ;
 lin kunst_N = mkN "Kunst" "Künste" feminine ;
-lin kunstflug_N = mkN "Kunstflug" "Kunstflüge" masculine ;
-lin kunstflugfigur_N = mkN "Kunstflugfigur" "Kunstflugfiguren" feminine ;
-lin kunstgeheimnis_N = mkN "Kunstgeheimnis" "Kunstgeheimnisse" neuter ;
-lin kunstgeschichte_N = mkN "Kunstgeschichte" "Kunstgeschichten" feminine ;
+
 lin kunstgeschichtlich_A = regA "kunstgeschichtlich" ;
-lin kunstgriff_N = mkN "Kunstgriff" "Kunstgriffe" masculine ;
-lin kunsthandwerk_N = mkN "Kunsthandwerk" "Kunsthandwerke" neuter ;
+
 lin kunsthistoriker_N = mkN "Kunsthistoriker" "Kunsthistoriker" masculine ;
 lin kunsthistorikerin_N = mkN "Kunsthistorikerin" "Kunsthistorikerinnen" feminine ;
 lin kunstlehrer_N = mkN "Kunstlehrer" "Kunstlehrer" masculine ;
-lin kunstlied_N = mkN "Kunstlied" "Kunstlieder" neuter ;
-lin kunstschule_N = mkN "Kunstschule" "Kunstschulen" feminine ;
+
 lin kunstseiden_A = regA "kunstseiden" ;
-lin kunstsprache_N = mkN "Kunstsprache" "Kunstsprachen" feminine ;
-lin kunststoff_N = mkN "Kunststoff" "Kunststoffe" masculine ;
+
 lin kunststoffbecher_N = mkN "Kunststoffbecher" "Kunststoffbecher" masculine ;
 lin kunststoffflasche_N = mkN "Kunststoffflasche" "Kunststoffflaschen" feminine ;
 lin kunststofffolie_N = mkN "Kunststofffolie" "Kunststofffolien" feminine ;
 lin kunststoffhammer_N = mkN "Kunststoffhammer" "Kunststoffhämmer" masculine ;
 lin kunststoffrohr_N = mkN "Kunststoffrohr" "Kunststoffrohre" neuter ;
 lin kunsttherapie_N = mkN "Kunsttherapie" "Kunsttherapien" feminine ;
-lin kunstwerk_N = mkN "Kunstwerk" "Kunstwerke" neuter ;
+
 lin kunstwissenschaft_N = mkN "Kunstwissenschaft" "Kunstwissenschaften" feminine ;
 lin kunstwort_N = mkN "Kunstwort" "Kunstwörter" neuter ;
 lin kupee_N = mkN "Kupee" "Kupees" neuter ;
