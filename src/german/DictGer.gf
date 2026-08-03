@@ -2110,6 +2110,15 @@ concrete DictGer of DictGerAbs =
     , landstrasse_N
     , landtag_N
     , landwirtschaft_N
+    , langhaus_N
+    , langschiff_N
+    , langschrift_N
+    , langvokal_N
+    , lastabwurf_N
+    , lastenheft_N
+    , lastschrift_N
+    , laststrom_N
+    , lastwagen_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4322,6 +4331,15 @@ lin landrat_N = mkN "Land" rat_N ;
 lin landstrasse_N = mkN "Land" strasse_N ;
 lin landtag_N = mkN "Land" tag_N ;
 lin landwirtschaft_N = mkN "Land" wirtschaft_N ;
+lin langhaus_N = mkN "Lang" haus_N ;
+lin langschiff_N = mkN "Lang" schiff_N ;
+lin langschrift_N = mkN "Lang" schrift_N ;
+lin langvokal_N = mkN "Lang" vokal_N ;
+lin lastabwurf_N = mkN "Last" abwurf_N ;
+lin lastenheft_N = mkN "Lasten" heft_N ;
+lin lastschrift_N = mkN "Last" schrift_N ;
+lin laststrom_N = mkN "Last" strom_N ;
+lin lastwagen_N = mkN "Last" (mkN "Wagen" "Wagen" masculine) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
