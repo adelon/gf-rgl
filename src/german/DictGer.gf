@@ -910,10 +910,15 @@ concrete DictGer of DictGerAbs =
     , eiscafe_N
     , eisdecke_N
     , eisdiele_N
+    , eisenbahnbruecke_N
+    , eisenbahnfahrt_N
+    , eisenbahnunglueck_N
+    , eisenbahnwagen_N
     , eisenatom_N
     , eisenerz_N
     , eisengehalt_N
     , eisenhut_N
+    , eisenchelator_N
     , eisenrohr_N
     , eisensalz_N
     , eisenverbindung_N
@@ -921,6 +926,7 @@ concrete DictGer of DictGerAbs =
     , eishoernchen_N
     , eiskaffee_N
     , eiskasten_N
+    , eishockeytor_N
     , eiskeil_N
     , eiskratzer_N
     , eiskrem_N
@@ -3338,4 +3344,10 @@ lin einsatzmaterial_N = mkN einsatz_N material_N ;
 lin einwohnerzahl_N = mkN einwohner_N zahl_N ;
 lin einzahl_N = mkN "Ein" zahl_N ;
 lin einzelteil_N = mkN einzel_N teil_N ;
+lin eisenbahnbruecke_N = changeCompoundN "Eisenbahnbrücken" (mkN "Eisenbahn" bruecke_N) ;
+lin eisenbahnfahrt_N = mkN "Eisenbahn" fahrt_N ;
+lin eisenbahnunglueck_N = mkN "Eisenbahn" unglueck_N ;
+lin eisenbahnwagen_N = mkN "Eisenbahn" (mkN "Wagen" "Wagen" masculine) ;
+lin eisenchelator_N = mkN "Eisen" chelator_N ;
+lin eishockeytor_N = mkN "Eishockey" tor_N ;
 }

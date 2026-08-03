@@ -1787,6 +1787,12 @@ fun
   einwohnerzahl_N : N ;
   einzahl_N : N ;
   einzelteil_N : N ;
+  eisenbahnbruecke_N : N ;
+  eisenbahnfahrt_N : N ;
+  eisenbahnunglueck_N : N ;
+  eisenbahnwagen_N : N ;
+  eisenchelator_N : N ;
+  eishockeytor_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
