@@ -1396,6 +1396,20 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , feinbackware_N
+    , feindbild_N
+    , feindesland_N
+    , feindschaft_N
+    , feindwort_N
+    , feingeist_N
+    , feinkostgeschaeft_N
+    , feinmechanik_N
+    , feinschmecker__N
+    , feinstaub_N
+    , feinstaubbelastung_N
+    , feinstaubplakette_N
+    , feinstrumpfhose_N
+    , feinunze_N
     , fechtmaske_N
     , federrain_N
     , feenkreis_N
@@ -2683,6 +2697,20 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
+lin feindbild_N = mkN "Feind" bild_N ;
+lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
+lin feindschaft_N = mkN "Feind" (mkN "Schaft" "Schaften" feminine) ;
+lin feindwort_N = mkN "Feind" wort_N ;
+lin feingeist_N = mkN "Fein" (mkN "Geist" "Geister" masculine) ;
+lin feinkostgeschaeft_N = mkN "Feinkost" geschaeft_N ;
+lin feinmechanik_N = mkN "Fein" mechanik_N ;
+lin feinschmecker__N = mkN "Fein" (mkN "Schmecker" "Schmecker" masculine) ;
+lin feinstaub_N = mkN "Fein" staub_N ;
+lin feinstaubbelastung_N = mkN "Feinstaub" belastung_N ;
+lin feinstaubplakette_N = mkN "Feinstaub" plakette_N ;
+lin feinstrumpfhose_N = mkN "Feinstrumpf" hose_N ;
+lin feinunze_N = mkN "Fein" unze_N ;
 lin fechtmaske_N = mkN "Fecht" maske_N ;
 lin federrain_N = mkN "Feder" rain_N ;
 lin feenkreis_N = mkN "Feen" kreis_N ;
