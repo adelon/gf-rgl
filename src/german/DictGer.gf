@@ -1953,6 +1953,8 @@ concrete DictGer of DictGerAbs =
     , grabgewoelbe_N
     , grabstaette_N
     , grabstein_N
+    , granatapfel_N
+    , granatapfelbaum_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4006,6 +4008,8 @@ lin grabbau_N = mkN "Grab" (mkN "Bau" "Bauten" masculine) ;
 lin grabgewoelbe_N = changeCompoundN "Grabgewölben" (mkN grab_N gewoelbe_N) ;
 lin grabstaette_N = mkN grab_N staette_N ;
 lin grabstein_N = mkN grab_N stein_N ;
+lin granatapfel_N = mkN "Granat" apfel_N ;
+lin granatapfelbaum_N = mkN granatapfel_N baum_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
