@@ -1609,6 +1609,36 @@ concrete DictGer of DictGerAbs =
     , flugschule_N
     , flugsicherung_N
     , flugverbotszone_N
+    , fluchtgruppe_N
+    , fluchtwagen_N
+    , fluchtweg_N
+    , fluessiggas_N
+    , fluessigkeitsprobe_N
+    , fluessigkristallbildschirm_N
+    , fluessigseife_N
+    , flurbereinigung_N
+    , flurbuch_N
+    , flurgang_N
+    , flurgraben_N
+    , flurkarte_N
+    , flurname_N
+    , flurschaden_N
+    , flurschuetz_N
+    , flurstein_N
+    , flurstueck_N
+    , flurvermessung_N
+    , flurzaun_N
+    , flussbett_N
+    , flussgebietseinheit_N
+    , flusskrebs_N
+    , flusslauf_N
+    , flussmuendung_N
+    , flussname_N
+    , flusspferd_N
+    , flussregenpfeifer_N
+    , flussschiff_N
+    , flussseeschwalbe_N
+    , flusswasser_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3123,6 +3153,36 @@ lin flugschrift_N = mkN "Flug" schrift_N ;
 lin flugschule_N = mkN "Flug" schule_N ;
 lin flugsicherung_N = mkN "Flug" sicherung_N ;
 lin flugverbotszone_N = mkN "Flug" (mkN "Verbotszone" "Verbotszonen" feminine) ;
+lin fluchtgruppe_N = mkN "Flucht" gruppe_N ;
+lin fluchtwagen_N = mkN "Flucht" (mkN "Wagen" "Wagen" masculine) ;
+lin fluchtweg_N = mkN "Flucht" weg_N ;
+lin fluessiggas_N = mkN "Flüssig" gas_N ;
+lin fluessigkeitsprobe_N = mkN "Flüssigkeits" (mkN "Probe" "Proben" "Probe" feminine) ;
+lin fluessigkristallbildschirm_N = mkN "Flüssigkristall" bildschirm_N ;
+lin fluessigseife_N = mkN "Flüssig" seife_N ;
+lin flurbereinigung_N = mkN "Flur" (mkN "Bereinigung" "Bereinigungen" feminine) ;
+lin flurbuch_N = mkN "Flur" buch_N ;
+lin flurgang_N = mkN "Flur" gang_N ;
+lin flurgraben_N = mkN "Flur" graben_N ;
+lin flurkarte_N = mkN "Flur" karte_N ;
+lin flurname_N = mkN "Flur" name_N ;
+lin flurschaden_N = mkN "Flur" schaden_N ;
+lin flurschuetz_N = mkN "Flur" (mkN "Schütz" "Schützen" masculine) ;
+lin flurstein_N = mkN "Flur" stein_N ;
+lin flurstueck_N = mkN "Flur" stueck_N ;
+lin flurvermessung_N = mkN "Flur" (mkN "Vermessung" "Vermessungen" feminine) ;
+lin flurzaun_N = mkN "Flur" zaun_N ;
+lin flussbett_N = mkN "Fluss" bett_N ;
+lin flussgebietseinheit_N = mkN "Flussgebiets" einheit_N ;
+lin flusskrebs_N = mkN "Fluss" krebs_N ;
+lin flusslauf_N = mkN "Fluss" lauf_N ;
+lin flussmuendung_N = mkN "Fluss" muendung_N ;
+lin flussname_N = mkN "Fluss" name_N ;
+lin flusspferd_N = mkN "Fluss" pferd_N ;
+lin flussregenpfeifer_N = mkN "Fluss" regenpfeifer_N ;
+lin flussschiff_N = mkN "Fluss" schiff_N ;
+lin flussseeschwalbe_N = mkN "Fluss" seeschwalbe_N ;
+lin flusswasser_N = mkN "Fluss" (mkN "Wasser" "Wässer" neuter) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
