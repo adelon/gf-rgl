@@ -3471,4 +3471,22 @@ fun
   fulltime_job_N : N ;
   fussball_em_N : N ;
   fussball_europameisterschaft_N : N ;
+  g_punkt_N : N ;
+  geschirr_reiniger_N : N ;
+  gewinn_und_verlust_rechnung_N : N ;
+  golgi_apparat_N : N ;
+  golgi_vesikel_N : N ;
+  golgi_zisterne_N : N ;
+  guinea_bissauer_N : N ;
+  guinea_bissauerin_N : N ;
+  half_pipe_N : N ;
+  hals_nasen_ohren_aerztin_N : N ;
+  hals_nasen_ohren_arzt_N : N ;
+  hardware_abstraktions_schicht_N : N ;
+  hausa_frau_N : N ;
+  hecken_ausdruck_N : N ;
+  hemi_motor_N : N ;
+  herbig_haro_objekt_N : N ;
+  hole_in_one_N : N ;
+  hula_hoop_reifen_N : N ;
 }
