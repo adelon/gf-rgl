@@ -2238,6 +2238,12 @@ concrete DictGer of DictGerAbs =
     , radioteleskop_N
     , radiowecker_N
     , radiowelle_N
+    , schuhanzieher_N
+    , schuhgeschaeft_N
+    , schuhloeffel_N
+    , schuhmacher_N
+    , schuhschachtel_N
+    , schuhschnabel_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4578,6 +4584,12 @@ lin radiosonde_N = mkN "Radio" sonde_N ;
 lin radioteleskop_N = mkN "Radio" teleskop_N ;
 lin radiowecker_N = mkN "Radio" wecker_N ;
 lin radiowelle_N = mkN "Radio" welle_N ;
+lin schuhanzieher_N = mkN schuh_N (mkN "Anzieher" "Anzieher" masculine) ;
+lin schuhgeschaeft_N = mkN schuh_N geschaeft_N ;
+lin schuhloeffel_N = mkN schuh_N loeffel_N ;
+lin schuhmacher_N = mkN schuh_N (mkN "Macher" "Macher" masculine) ;
+lin schuhschachtel_N = mkN schuh_N schachtel_N ;
+lin schuhschnabel_N = mkN schuh_N schnabel_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
