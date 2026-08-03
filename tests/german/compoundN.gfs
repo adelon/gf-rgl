@@ -824,3 +824,9 @@ cc -all saeugerwirtszelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative 
 cc -all saeugerzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerzelle_N.co
 cc -all saeugerzellinie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerzellinie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerzellinie_N.co
 cc -all saeugerzelllinie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerzelllinie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerzelllinie_N.co
+cc -all tabakkaefer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakkaefer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakkaefer_N.co
+cc -all tabakkonsum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakkonsum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakkonsum_N.co
+cc -all tabakpfeife_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakpfeife_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakpfeife_N.co
+cc -all tabakplantage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakplantage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakplantage_N.co
+cc -all tabakspfeife_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakspfeife_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakspfeife_N.co
+cc -all tabaksteuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabaksteuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabaksteuer_N.co

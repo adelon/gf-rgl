@@ -2591,6 +2591,12 @@ concrete DictGer of DictGerAbs =
     , saeugerzelle_N
     , saeugerzellinie_N
     , saeugerzelllinie_N
+    , tabakkaefer_N
+    , tabakkonsum_N
+    , tabakpfeife_N
+    , tabakplantage_N
+    , tabakspfeife_N
+    , tabaksteuer_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5852,4 +5858,10 @@ lin saeugerwirtszelle_N = changeCompoundN "Säugerwirtszellen" (mkN saeuger_N wi
 lin saeugerzelle_N = mkN saeuger_N zelle_N ;
 lin saeugerzellinie_N = mkN saeuger_N zellinie_N ;
 lin saeugerzelllinie_N = mkN saeuger_N zelllinie_N ;
+lin tabakkaefer_N = mkN tabak_N kaefer_N ;
+lin tabakkonsum_N = mkN tabak_N (mkN "Konsum" "Konsums" masculine) ;
+lin tabakpfeife_N = mkN tabak_N pfeife_N ;
+lin tabakplantage_N = mkN tabak_N plantage_N ;
+lin tabakspfeife_N = mkN "Tabaks" pfeife_N ;
+lin tabaksteuer_N = mkN tabak_N steuer_N ;
 }

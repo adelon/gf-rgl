@@ -1886,6 +1886,12 @@ fun
   saeugerzelle_N : N ;
   saeugerzellinie_N : N ;
   saeugerzelllinie_N : N ;
+  tabakkaefer_N : N ;
+  tabakkonsum_N : N ;
+  tabakpfeife_N : N ;
+  tabakplantage_N : N ;
+  tabakspfeife_N : N ;
+  tabaksteuer_N : N ;
   schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;
