@@ -878,6 +878,8 @@ concrete DictGer of DictGerAbs =
     , eigenart_N
     , eigenfunktion_N
     , eigenheim_N
+    , eigenheimzulage_N
+    , eigentumswohnung_N
     , eigenname_N
     , eigenprotein_N
     , eigentor_N
@@ -889,16 +891,26 @@ concrete DictGer of DictGerAbs =
     , eigenviskositaet_N
     , einbahnstrasse_N
     , einblatt_N
+    , einbaupumpe_N
+    , einbuergerungstest_N
+    , einfallsreichtum_N
+    , einfriertemperatur_N
     , einnahmequelle_N
     , einfamilienhaus_N
     , einhorn_N
     , einraumwohnung_N
+    , eingabegeraet_N
+    , eingangsfrage_N
+    , eingangstuer_N
     , einsatzgebiet_N
     , einsatzleiter_N
     , einsatzmaterial_N
     , einwohnerzahl_N
     , einzahl_N
     , einzelteil_N
+    , einheitspreis_N
+    , einheitsschule_N
+    , einheitssprache_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -3350,4 +3362,16 @@ lin eisenbahnunglueck_N = mkN "Eisenbahn" unglueck_N ;
 lin eisenbahnwagen_N = mkN "Eisenbahn" (mkN "Wagen" "Wagen" masculine) ;
 lin eisenchelator_N = mkN "Eisen" chelator_N ;
 lin eishockeytor_N = mkN "Eishockey" tor_N ;
+lin eigenheimzulage_N = mkN "Eigenheim" (mkN "Zulage" "Zulagen" feminine) ;
+lin eigentumswohnung_N = mkN "Eigentums" wohnung_N ;
+lin einbaupumpe_N = changeCompoundN "Einbaupumpen" (mkN "Einbau" pumpe_N) ;
+lin einbuergerungstest_N = mkN "Einbürgerungs" (mkN "Test" "Tests" masculine) ;
+lin einfallsreichtum_N = mkN "Einfalls" reichtum_N ;
+lin einfriertemperatur_N = mkN "Einfrier" temperatur_N ;
+lin eingabegeraet_N = mkN eingabe_N geraet_N ;
+lin eingangsfrage_N = changeCompoundN "Eingangsfragen" (mkN "Eingangs" frage_N) ;
+lin eingangstuer_N = mkN "Eingangs" tuer_N ;
+lin einheitspreis_N = mkN einheit_N preis_N ;
+lin einheitsschule_N = changeCompoundN "Einheitsschulen" (mkN einheit_N schule_N) ;
+lin einheitssprache_N = changeCompoundN "Einheitssprachen" (mkN einheit_N sprache_N) ;
 }

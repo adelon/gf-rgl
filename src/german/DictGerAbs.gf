@@ -1793,6 +1793,18 @@ fun
   eisenbahnwagen_N : N ;
   eisenchelator_N : N ;
   eishockeytor_N : N ;
+  eigenheimzulage_N : N ;
+  eigentumswohnung_N : N ;
+  einbaupumpe_N : N ;
+  einbuergerungstest_N : N ;
+  einfallsreichtum_N : N ;
+  einfriertemperatur_N : N ;
+  eingabegeraet_N : N ;
+  eingangsfrage_N : N ;
+  eingangstuer_N : N ;
+  einheitspreis_N : N ;
+  einheitsschule_N : N ;
+  einheitssprache_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
