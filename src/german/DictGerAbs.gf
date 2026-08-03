@@ -2665,4 +2665,5 @@ fun
   u_bahnhof_N : N ;
   u_boot_N : N ;
   u_eisen_N : N ;
+  vae_dirham_N : N ;
 }

@@ -37310,7 +37310,6 @@ fun vabanquespiel_N : N ;
 fun vaccin_N : N ;
 fun vademecum_N : N ;
 fun vademekum_N : N ;
-fun vae_dirham_N : N ;
 fun vaetertheologie_N : N ;
 fun vagabund_N : N ;
 fun vagabundieren_V : V ;

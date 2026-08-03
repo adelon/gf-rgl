@@ -870,3 +870,4 @@ cc -all u_bahn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_bahn_N
 cc -all u_bahnhof_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_bahnhof_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_bahnhof_N.co
 cc -all u_boot_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_boot_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_boot_N.co
 cc -all u_eisen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_eisen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_eisen_N.co
+cc -all vae_dirham_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ vae_dirham_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ vae_dirham_N.co

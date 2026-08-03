@@ -2625,6 +2625,7 @@ concrete DictGer of DictGerAbs =
     , u_bahnhof_N
     , u_boot_N
     , u_eisen_N
+    , vae_dirham_N
     , taschenbuch_N
     , taschendieb_N
     , taschendiebin_N
@@ -5944,4 +5945,5 @@ lin u_bahn_N = mkHyphenN "U" bahn_N ;
 lin u_bahnhof_N = mkHyphenN "U" bahnhof_N ;
 lin u_boot_N = mkHyphenN "U" (mkN "Boot" "Boote" neuter) ;
 lin u_eisen_N = mkHyphenN "U" eisen_N ;
+lin vae_dirham_N = mkHyphenN "VAE" (mkN "Dirham" "Dirhams" masculine) ;
 }

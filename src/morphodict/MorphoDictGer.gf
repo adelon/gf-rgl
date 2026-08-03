@@ -36716,7 +36716,6 @@ lin vabanquespiel_N = mkN "Vabanquespiel" "Vabanquespiele" neuter ;
 lin vaccin_N = mkN "Vaccin" "Vaccine" neuter ;
 lin vademecum_N = mkN "Vademecum" "Vademecums" neuter ;
 lin vademekum_N = mkN "Vademekum" "Vademekums" neuter ;
-lin vae_dirham_N = mkN "VAE-Dirham" "VAE-Dirhams" masculine ;
 lin vaetertheologie_N = mkN "Vätertheologie" "Vätertheologien" feminine ;
 lin vagabund_N = mkN "Vagabund" "Vagabunden" masculine ;
 lin vagabundieren_V = regV "vagabundieren" ;
