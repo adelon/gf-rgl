@@ -2186,6 +2186,18 @@ concrete DictGer of DictGerAbs =
     , obstsalat_N
     , obsttorte_N
     , obstwein_N
+    , oberarm_N
+    , oberarmbruch_N
+    , oberarmknochen_N
+    , oberbauch_N
+    , oberbegriff_N
+    , obergeschoss_N
+    , obergrenze_N
+    , oberhaupt_N
+    , oberhaus_N
+    , oberhemd_N
+    , oberkoerper_N
+    , oberleitung_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4474,6 +4486,18 @@ lin obsthaendlerin_N = mkN "Obst" haendlerin_N ;
 lin obstsalat_N = mkN "Obst" salat_N ;
 lin obsttorte_N = mkN "Obst" torte_N ;
 lin obstwein_N = mkN "Obst" wein_N ;
+lin oberarm_N = mkN ober__N arm_N ;
+lin oberarmbruch_N = mkN oberarm_N bruch_N ;
+lin oberarmknochen_N = mkN oberarm_N knochen_N ;
+lin oberbauch_N = mkN ober__N bauch_N ;
+lin oberbegriff_N = mkN ober__N begriff_N ;
+lin obergeschoss_N = mkN ober__N geschoss_N ;
+lin obergrenze_N = changeCompoundN "Obergrenzen" (mkN ober__N grenze_N) ;
+lin oberhaupt_N = mkN ober__N haupt_N ;
+lin oberhaus_N = mkN ober__N haus_N ;
+lin oberhemd_N = mkN ober__N hemd_N ;
+lin oberkoerper_N = mkN ober__N koerper_N ;
+lin oberleitung_N = changeCompoundN "Oberleitungs" (mkN ober__N leitung_N) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
