@@ -657,6 +657,10 @@ concrete DictGer of DictGerAbs =
     , daumenkino_N
     , daumenregel_N
     , davidstern_N
+    , debattierclub_N
+    , debuetantinnenball_N
+    , demeritenhaus_N
+    , deppenapostroph_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3117,6 +3121,10 @@ lin dauerschach_N = mkN dauer_N schach_N ;
 lin daumenkino_N = mkN daumen_N kino_N ;
 lin daumenregel_N = mkN daumen_N regel_N ;
 lin davidstern_N = mkN "David" stern_N ;
+lin debattierclub_N = mkN "Debattier" club_N ;
+lin debuetantinnenball_N = mkN "Debütantinnen" ball_N ;
+lin demeritenhaus_N = mkN "Demeriten" haus_N ;
+lin deppenapostroph_N = mkN "Deppen" apostroph_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

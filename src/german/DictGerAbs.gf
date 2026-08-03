@@ -1765,6 +1765,10 @@ fun
   daumenkino_N : N ;
   daumenregel_N : N ;
   davidstern_N : N ;
+  debattierclub_N : N ;
+  debuetantinnenball_N : N ;
+  demeritenhaus_N : N ;
+  deppenapostroph_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
