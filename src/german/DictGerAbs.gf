@@ -2674,6 +2674,13 @@ fun
   x_haken_N : N ;
   y_chromosom_N : N ;
   z_boson_N : N ;
+  zahlendreher_N : N ;
+  zahlenraum_N : N ;
+  zahlensystem_N : N ;
+  zahltag_N : N ;
+  zahlungserinnerung_N : N ;
+  zahlungsfrist_N : N ;
+  zahlzeichen_N : N ;
   zahnaerztin_N : N ;
   zahnarzt_N : N ;
   zahnbohrer_N : N ;

@@ -879,6 +879,13 @@ cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_ein
 cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
 cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
 cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co
+cc -all zahlendreher_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlendreher_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlendreher_N.co
+cc -all zahlenraum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlenraum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlenraum_N.co
+cc -all zahlensystem_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlensystem_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlensystem_N.co
+cc -all zahltag_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahltag_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahltag_N.co
+cc -all zahlungserinnerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlungserinnerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlungserinnerung_N.co
+cc -all zahlungsfrist_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlungsfrist_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlungsfrist_N.co
+cc -all zahlzeichen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlzeichen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlzeichen_N.co
 cc -all zahnaerztin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahnaerztin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahnaerztin_N.co
 cc -all zahnarzt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahnarzt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahnarzt_N.co
 cc -all zahnbohrer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahnbohrer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahnbohrer_N.co

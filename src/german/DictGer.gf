@@ -2634,6 +2634,13 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zahlendreher_N
+    , zahlenraum_N
+    , zahlensystem_N
+    , zahltag_N
+    , zahlungserinnerung_N
+    , zahlungsfrist_N
+    , zahlzeichen_N
     , zahnaerztin_N
     , zahnarzt_N
     , zahnbohrer_N
@@ -5988,6 +5995,13 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zahlendreher_N = mkN "Zahlen" (mkN "Dreher" "Dreher" masculine) ;
+lin zahlenraum_N = mkN "Zahlen" raum_N ;
+lin zahlensystem_N = mkN "Zahlen" system_N ;
+lin zahltag_N = mkN zahl_N tag_N ;
+lin zahlungserinnerung_N = mkN zahlung_N erinnerung_N ;
+lin zahlungsfrist_N = mkN "Zahlungs" frist_N ;
+lin zahlzeichen_N = mkN zahl_N zeichen_N ;
 lin zahnaerztin_N = mkN zahn_N aerztin_N ;
 lin zahnarzt_N = mkN zahn_N arzt_N ;
 lin zahnbohrer_N = mkN zahn_N bohrer_N ;
