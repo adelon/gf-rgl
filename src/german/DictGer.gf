@@ -2100,6 +2100,16 @@ concrete DictGer of DictGerAbs =
     , lammfell_N
     , lammkeule_N
     , lampenschirm_N
+    , landebahn_N
+    , landeplatz_N
+    , landgang_N
+    , landgericht_N
+    , landkarte_N
+    , landmine_N
+    , landrat_N
+    , landstrasse_N
+    , landtag_N
+    , landwirtschaft_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4302,6 +4312,16 @@ lin lackschuh_N = mkN lack_N schuh_N ;
 lin lammfell_N = mkN "Lamm" fell_N ;
 lin lammkeule_N = mkN "Lamm" keule_N ;
 lin lampenschirm_N = mkN "Lampen" schirm_N ;
+lin landebahn_N = mkN "Lande" bahn_N ;
+lin landeplatz_N = mkN "Lande" platz_N ;
+lin landgang_N = mkN "Land" gang_N ;
+lin landgericht_N = mkN "Land" (mkN "Gericht" "Gerichte" neuter) ;
+lin landkarte_N = mkN "Land" karte_N ;
+lin landmine_N = mkN "Land" mine_N ;
+lin landrat_N = mkN "Land" rat_N ;
+lin landstrasse_N = mkN "Land" strasse_N ;
+lin landtag_N = mkN "Land" tag_N ;
+lin landwirtschaft_N = mkN "Land" wirtschaft_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
