@@ -1019,6 +1019,16 @@ concrete DictGer of DictGerAbs =
     , einheitspreis_N
     , einheitsschule_N
     , einheitssprache_N
+    , einheitsbilanz_N
+    , einheitsdose_N
+    , einheitsdosierung_N
+    , einheitsdosierungsform_N
+    , einheitsdosisform_N
+    , einheitspartei_N
+    , einstellungsgespraech_N
+    , eintrittsgeld_N
+    , eintrittskarte_N
+    , eintrittspreis_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6676,4 +6686,14 @@ lin doktorfisch_N = mkN "Doktor" (mkN "Fisch" "Fische" masculine) ;
 lin doktorgrad_N = mkN "Doktor" (mkN "Grad" "Grade" masculine) ;
 lin doktortitel_N = mkN "Doktor" (mkN "Titel" "Titel" masculine) ;
 lin dokusoap_N = mkN "Doku" (mkN "Soap" "Soaps" feminine) ;
+lin einheitsbilanz_N = mkN "Einheits" (mkN "Bilanz" "Bilanzen" feminine) ;
+lin einheitsdose_N = mkN "Einheits" (mkN "Dose" "Dosen" feminine) ;
+lin einheitsdosierung_N = mkN "Einheits" (mkN "Dosierung" "Dosierungen" feminine) ;
+lin einheitsdosierungsform_N = mkN "Einheitsdosierungs" (mkN "Form" "Formen" feminine) ;
+lin einheitsdosisform_N = mkN "Einheitsdosis" (mkN "Form" "Formen" feminine) ;
+lin einheitspartei_N = mkN "Einheits" (mkN "Partei" "Parteien" feminine) ;
+lin einstellungsgespraech_N = mkN "Einstellungs" (mkN "Gespräch" "Gespräche" neuter) ;
+lin eintrittsgeld_N = mkN "Eintritts" (mkN "Geld" "Gelder" neuter) ;
+lin eintrittskarte_N = mkN "Eintritts" (mkN "Karte" "Karten" feminine) ;
+lin eintrittspreis_N = mkN "Eintritts" (mkN "Preis" "Preise" masculine) ;
 }

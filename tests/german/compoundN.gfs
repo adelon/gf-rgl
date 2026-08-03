@@ -1430,6 +1430,16 @@ cc -all einkommenssteuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative +
 cc -all einkommensteuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkommensteuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkommensteuer_N.co
 cc -all einkommensteuererklaerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkommensteuererklaerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkommensteuererklaerung_N.co
 cc -all einrad_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einrad_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einrad_N.co
+cc -all einheitsbilanz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einheitsbilanz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einheitsbilanz_N.co
+cc -all einheitsdose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einheitsdose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einheitsdose_N.co
+cc -all einheitsdosierung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einheitsdosierung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einheitsdosierung_N.co
+cc -all einheitsdosierungsform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einheitsdosierungsform_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einheitsdosierungsform_N.co
+cc -all einheitsdosisform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einheitsdosisform_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einheitsdosisform_N.co
+cc -all einheitspartei_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einheitspartei_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einheitspartei_N.co
+cc -all einstellungsgespraech_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einstellungsgespraech_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einstellungsgespraech_N.co
+cc -all eintrittsgeld_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eintrittsgeld_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eintrittsgeld_N.co
+cc -all eintrittskarte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eintrittskarte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eintrittskarte_N.co
+cc -all eintrittspreis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eintrittspreis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eintrittspreis_N.co
 cc -all dachdecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dachdecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dachdecker_N.co
 cc -all daemmerstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ daemmerstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ daemmerstunde_N.co
 cc -all dankgebet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dankgebet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dankgebet_N.co

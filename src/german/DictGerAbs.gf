@@ -3870,4 +3870,14 @@ fun
   doktorgrad_N : N ;
   doktortitel_N : N ;
   dokusoap_N : N ;
+  einheitsbilanz_N : N ;
+  einheitsdose_N : N ;
+  einheitsdosierung_N : N ;
+  einheitsdosierungsform_N : N ;
+  einheitsdosisform_N : N ;
+  einheitspartei_N : N ;
+  einstellungsgespraech_N : N ;
+  eintrittsgeld_N : N ;
+  eintrittskarte_N : N ;
+  eintrittspreis_N : N ;
 }
