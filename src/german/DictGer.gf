@@ -1396,6 +1396,13 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , fadenkreuz_N
+    , faehrschiff_N
+    , faehrtensucher_N
+    , fahnenjunker_N
+    , fahnenmast_N
+    , fahnenstange_N
+    , fahnenwort_N
     , facharbeiterin_N
     , fachbuch_N
     , fachfrau_N
@@ -2611,6 +2618,13 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin fadenkreuz_N = mkN faden_N kreuz_N ;
+lin faehrschiff_N = mkN "Fähr" schiff_N ;
+lin faehrtensucher_N = mkN "Fährten" (mkN "Sucher" "Sucher" masculine) ;
+lin fahnenjunker_N = mkN "Fahnen" junker_N ;
+lin fahnenmast_N = mkN "Fahnen" (mkN "Mast" "Masten" masculine) ;
+lin fahnenstange_N = mkN "Fahnen" stange_N ;
+lin fahnenwort_N = mkN "Fahnen" wort_N ;
 lin facharbeiterin_N = mkN "Fach" arbeiterin_N ;
 lin fachbuch_N = mkN "Fach" buch_N ;
 lin fachfrau_N = mkN "Fach" frau_N ;

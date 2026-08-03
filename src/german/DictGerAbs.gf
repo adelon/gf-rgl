@@ -1146,6 +1146,13 @@ fun
   kind_gottes_CN : CN ;
   leipziger_allerlei_CN : CN ;
   familienschach_N : N ;
+  fadenkreuz_N : N ;
+  faehrschiff_N : N ;
+  faehrtensucher_N : N ;
+  fahnenjunker_N : N ;
+  fahnenmast_N : N ;
+  fahnenstange_N : N ;
+  fahnenwort_N : N ;
   facharbeiterin_N : N ;
   fachbuch_N : N ;
   fachfrau_N : N ;
