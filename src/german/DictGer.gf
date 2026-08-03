@@ -2060,6 +2060,7 @@ concrete DictGer of DictGerAbs =
     , jahrmarkt_N
     , jahrtausend_N
     , jahrzehnt_N
+    , jagdschloss_N
     , janusgesicht_N
     , januskopf_N
     , januswort_N
@@ -4223,6 +4224,7 @@ lin jahrhundertwende_N = changeCompoundN "Jahrhundertwenden" (mkN jahrhundert_N 
 lin jahrmarkt_N = mkN jahr_N markt_N ;
 lin jahrtausend_N = mkN jahr_N (mkN "Tausend" "Tausende" feminine) ;
 lin jahrzehnt_N = mkN jahr_N (mkN "Zehnt" "Zehnte" masculine) ;
+lin jagdschloss_N = mkN jagd_N (mkN "Schloss" "Schlösser" neuter) ;
 lin janusgesicht_N = mkN "Janus" (mkN "Gesicht" "Gesichter" neuter) ;
 lin januskopf_N = mkN "Janus" kopf_N ;
 lin januswort_N = mkN "Janus" (mkN "Wort" "Wörter" "Wort" neuter) ;

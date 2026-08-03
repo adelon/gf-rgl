@@ -16819,7 +16819,6 @@ lin jaenner_N = mkN "Jänner" "Jänner" masculine ;
 lin jaeten_V = irregV "jäten" "jätet" "jätete" "jätete" "gejätet" ;
 lin jagd_N = mkN "Jagd" "Jagden" feminine ;
 lin jagdbar_A = regA "jagdbar" ;
-lin jagdschloss_N = mkN "Jagdschloss" "Jagdschlösser" neuter ;
 lin jagellone_N = mkN "Jagellone" "Jagellonen" masculine ;
 lin jagen_V = regV "jagen" ;
 lin jaguar_N = mkN "Jaguar" "Jaguare" masculine ;
