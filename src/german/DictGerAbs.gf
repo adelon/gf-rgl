@@ -1137,6 +1137,9 @@ fun
   gefaessstenose_N : N ;
   gefaessstoerung_N : N ;
   gefaessverletzung_N : N ;
+  gefahrenzone_N : N ;
+  geizhals_N : N ;
+  geizkragen_N : N ;
   gewuerzgurke_N : N ;
   gewuerzmischung_N : N ;
   gewuerznelke_N : N ;

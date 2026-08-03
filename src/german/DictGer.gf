@@ -1840,6 +1840,9 @@ concrete DictGer of DictGerAbs =
     , gefaessstenose_N
     , gefaessstoerung_N
     , gefaessverletzung_N
+    , gefahrenzone_N
+    , geizhals_N
+    , geizkragen_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3753,6 +3756,9 @@ lin gefaessprothese_N = mkN "Gefäß" prothese_N ;
 lin gefaessstenose_N = mkN "Gefäß" stenose_N ;
 lin gefaessstoerung_N = mkN "Gefäß" stoerung_N ;
 lin gefaessverletzung_N = mkN "Gefäß" verletzung_N ;
+lin gefahrenzone_N = mkN "Gefahren" zone_N ;
+lin geizhals_N = mkN "Geiz" hals_N ;
+lin geizkragen_N = mkN "Geiz" kragen_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
