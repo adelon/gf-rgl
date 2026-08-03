@@ -874,3 +874,8 @@ cc -all vae_dirham_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ vae_
 cc -all w_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ w_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ w_boson_N.co
 cc -all w_frage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ w_frage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ w_frage_N.co
 cc -all w_wort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ w_wort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ w_wort_N.co
+cc -all x_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_chromosom_N.co
+cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_einheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_einheit_N.co
+cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
+cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
+cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co

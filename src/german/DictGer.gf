@@ -2629,6 +2629,11 @@ concrete DictGer of DictGerAbs =
     , w_boson_N
     , w_frage_N
     , w_wort_N
+    , x_chromosom_N
+    , x_einheit_N
+    , x_haken_N
+    , y_chromosom_N
+    , z_boson_N
     , taschenbuch_N
     , taschendieb_N
     , taschendiebin_N
@@ -5952,4 +5957,9 @@ lin vae_dirham_N = mkHyphenN "VAE" (mkN "Dirham" "Dirhams" masculine) ;
 lin w_boson_N = mkHyphenN "W" (mkN "Boson" "Bosonen" neuter) ;
 lin w_frage_N = changeCompoundN "W-Frage" (mkHyphenN "W" (mkN "Frage" "Fragen" feminine)) ;
 lin w_wort_N = mkHyphenN "W" (mkN "Wort" "Wörter" neuter) ;
+lin x_chromosom_N = mkHyphenN "X" (mkN "Chromosom" "Chromosomen" neuter) ;
+lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
+lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
+lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
+lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
 }

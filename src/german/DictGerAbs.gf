@@ -2669,4 +2669,9 @@ fun
   w_boson_N : N ;
   w_frage_N : N ;
   w_wort_N : N ;
+  x_chromosom_N : N ;
+  x_einheit_N : N ;
+  x_haken_N : N ;
+  y_chromosom_N : N ;
+  z_boson_N : N ;
 }
