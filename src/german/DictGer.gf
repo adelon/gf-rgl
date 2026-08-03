@@ -2054,6 +2054,12 @@ concrete DictGer of DictGerAbs =
     , informationstext_N
     , informationstheorie_N
     , informationswirtschaft_N
+    , jahrgang_N
+    , jahrhundert_N
+    , jahrhundertwende_N
+    , jahrmarkt_N
+    , jahrtausend_N
+    , jahrzehnt_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4208,6 +4214,12 @@ lin informationstechnologie_N = mkN "Informations" technologie_N ;
 lin informationstext_N = mkN "Informations" text_N ;
 lin informationstheorie_N = mkN "Informations" theorie_N ;
 lin informationswirtschaft_N = mkN "Informations" wirtschaft_N ;
+lin jahrgang_N = mkN jahr_N gang_N ;
+lin jahrhundert_N = mkN jahr_N (mkN "Hundert" "Hunderte" neuter) ;
+lin jahrhundertwende_N = changeCompoundN "Jahrhundertwenden" (mkN jahrhundert_N wende_N) ;
+lin jahrmarkt_N = mkN jahr_N markt_N ;
+lin jahrtausend_N = mkN jahr_N (mkN "Tausend" "Tausende" feminine) ;
+lin jahrzehnt_N = mkN jahr_N (mkN "Zehnt" "Zehnte" masculine) ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
