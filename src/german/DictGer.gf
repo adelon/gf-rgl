@@ -1396,6 +1396,30 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , feldahorn_N
+    , feldbett_N
+    , feldbluse_N
+    , feldegerling_N
+    , feldflasche_N
+    , feldflur_N
+    , feldgendarmerie_N
+    , feldhase_N
+    , feldhuhn_N
+    , feldjaeger_N
+    , feldlazarett_N
+    , feldmarschall_N
+    , feldmaus_N
+    , feldmesser_N
+    , feldpostbrief_N
+    , feldpostnummer_N
+    , feldspat_N
+    , feldspaten_N
+    , feldspital_N
+    , feldstaerke_N
+    , feldstecher_N
+    , feldsteinkirche_N
+    , feldweg_N
+    , feldzug_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2697,6 +2721,30 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin feldahorn_N = mkN "Feld" ahorn_N ;
+lin feldbett_N = mkN "Feld" bett_N ;
+lin feldbluse_N = mkN "Feld" bluse_N ;
+lin feldegerling_N = mkN "Feld" (mkN "Egerling" "Egerlinge" masculine) ;
+lin feldflasche_N = mkN "Feld" flasche_N ;
+lin feldflur_N = mkN "Feld" (mkN "Flur" "Fluren" feminine) ;
+lin feldgendarmerie_N = mkN "Feld" (mkN "Gendarmerie" "Gendarmerien" feminine) ;
+lin feldhase_N = mkN "Feld" hase_N ;
+lin feldhuhn_N = mkN "Feld" huhn_N ;
+lin feldjaeger_N = mkN "Feld" jaeger_N ;
+lin feldlazarett_N = mkN "Feld" lazarett_N ;
+lin feldmarschall_N = mkN "Feld" marschall_N ;
+lin feldmaus_N = mkN "Feld" (mkN "Maus" "Mäuse" feminine) ;
+lin feldmesser_N = mkN "Feld" messer_N ;
+lin feldpostbrief_N = mkN "Feldpost" (mkN "Brief" "Briefe" masculine) ;
+lin feldpostnummer_N = mkN "Feldpost" (mkN "Nummer" "Nummern" feminine) ;
+lin feldspat_N = mkN "Feld" (mkN "Spat" "Spate" masculine) ;
+lin feldspaten_N = mkN "Feld" spaten_N ;
+lin feldspital_N = mkN "Feld" spital_N ;
+lin feldstaerke_N = mkN "Feld" staerke_N ;
+lin feldstecher_N = mkN "Feld" (mkN "Stecher" "Stecher" masculine) ;
+lin feldsteinkirche_N = mkN "Feldstein" (mkN "Kirche" "Kirchen" feminine) ;
+lin feldweg_N = mkN "Feld" weg_N ;
+lin feldzug_N = mkN "Feld" zug_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
