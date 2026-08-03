@@ -6612,4 +6612,9 @@ lin kuechenschelle_N = mkN "Küchen" (mkN "Schelle" "Schellen" feminine) ;
 lin kuechenstuhl_N = mkN "Küchen" (mkN "Stuhl" "Stühle" masculine) ;
 lin kuechentisch_N = mkN "Küchen" (mkN "Tisch" "Tische" masculine) ;
 lin kuechenwaage_N = mkN "Küchen" (mkN "Waage" "Waagen" feminine) ;
+lin kuchenbroetchen_N = mkN "Kuchen" (mkN "Brötchen" "Brötchen" neuter) ;
+lin kuchenbrot_N = mkN "Kuchen" (mkN "Brot" "Brote" neuter) ;
+lin kuchendiagramm_N = mkN "Kuchen" (mkN "Diagramm" "Diagramme" neuter) ;
+lin kuchengabel_N = mkN "Kuchen" (mkN "Gabel" "Gabeln" feminine) ;
+lin kuchenteller_N = mkN "Kuchen" (mkN "Teller" "Teller" masculine) ;
 }

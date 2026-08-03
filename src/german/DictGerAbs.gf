@@ -3806,4 +3806,9 @@ fun
   kuechenstuhl_N : N ;
   kuechentisch_N : N ;
   kuechenwaage_N : N ;
+  kuchenbroetchen_N : N ;
+  kuchenbrot_N : N ;
+  kuchendiagramm_N : N ;
+  kuchengabel_N : N ;
+  kuchenteller_N : N ;
 }

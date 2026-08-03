@@ -1334,6 +1334,11 @@ cc -all kuechenschelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ 
 cc -all kuechenstuhl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenstuhl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenstuhl_N.co
 cc -all kuechentisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechentisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechentisch_N.co
 cc -all kuechenwaage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenwaage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenwaage_N.co
+cc -all kuchenbroetchen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchenbroetchen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchenbroetchen_N.co
+cc -all kuchenbrot_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchenbrot_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchenbrot_N.co
+cc -all kuchendiagramm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchendiagramm_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchendiagramm_N.co
+cc -all kuchengabel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchengabel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchengabel_N.co
+cc -all kuchenteller_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuchenteller_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuchenteller_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co
