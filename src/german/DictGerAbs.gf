@@ -3696,4 +3696,15 @@ fun
   abscessus_lienis_N : N ;
   achylia_gastrica_N : N ;
   alpha_privativum_N : N ;
+  best_ager_N : N ;
+  black_fungus_N : N ;
+  black_jack_N : N ;
+  blanc_de_blancs_N : N ;
+  blanc_de_noirs_N : N ;
+  cabernet_franc_N : N ;
+  cabernet_sauvignon_N : N ;
+  canadian_whisky_N : N ;
+  casus_obliquus_N : N ;
+  casus_rectus_N : N ;
+  circulus_vitiosus_N : N ;
 }

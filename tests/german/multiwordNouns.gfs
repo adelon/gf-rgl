@@ -45,3 +45,14 @@ cc -all abscessus_hepatis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative 
 cc -all abscessus_lienis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ abscessus_lienis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ abscessus_lienis_N.co
 cc -all achylia_gastrica_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ achylia_gastrica_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ achylia_gastrica_N.co
 cc -all alpha_privativum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ alpha_privativum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ alpha_privativum_N.co
+cc -all best_ager_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ best_ager_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ best_ager_N.co
+cc -all black_fungus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ black_fungus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ black_fungus_N.co
+cc -all black_jack_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ black_jack_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ black_jack_N.co
+cc -all blanc_de_blancs_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ blanc_de_blancs_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ blanc_de_blancs_N.co
+cc -all blanc_de_noirs_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ blanc_de_noirs_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ blanc_de_noirs_N.co
+cc -all cabernet_franc_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ cabernet_franc_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ cabernet_franc_N.co
+cc -all cabernet_sauvignon_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ cabernet_sauvignon_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ cabernet_sauvignon_N.co
+cc -all canadian_whisky_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ canadian_whisky_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ canadian_whisky_N.co
+cc -all casus_obliquus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ casus_obliquus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ casus_obliquus_N.co
+cc -all casus_rectus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ casus_rectus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ casus_rectus_N.co
+cc -all circulus_vitiosus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ circulus_vitiosus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ circulus_vitiosus_N.co

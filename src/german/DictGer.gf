@@ -6502,4 +6502,15 @@ lin abscessus_hepatis_N = changeCompoundN "Abscessus-hepatis" (invarN "Abscessus
 lin abscessus_lienis_N = changeCompoundN "Abscessus-lienis" (invarN "Abscessus lienis" masculine) ;
 lin achylia_gastrica_N = changeCompoundN "Achylia-gastrica" (mkN "Achylia gastrica" "Achyliae gastricae" feminine) ;
 lin alpha_privativum_N = changeCompoundN "Alpha-privativum" (invarN "Alpha privativum" "Alpha privativa" neuter) ;
+lin best_ager_N = changeCompoundN "Best-Ager" (mkN "Best Ager" "Best Ager" masculine) ;
+lin black_fungus_N = changeCompoundN "Black-Fungus" (invarN "Black Fungus" "Black Fungi" masculine) ;
+lin black_jack_N = changeCompoundN "Black-Jack" (invarN "Black Jack" neuter) ;
+lin blanc_de_blancs_N = changeCompoundN "Blanc-de-Blancs" (invarN "Blanc de Blancs" masculine) ;
+lin blanc_de_noirs_N = changeCompoundN "Blanc-de-Noirs" (invarN "Blanc de Noirs" masculine) ;
+lin cabernet_franc_N = changeCompoundN "Cabernet-Franc" (mkN "Cabernet Franc" "Cabernet Francs" masculine) ;
+lin cabernet_sauvignon_N = changeCompoundN "Cabernet-Sauvignon" (mkN "Cabernet Sauvignon" "Cabernet Sauvignons" masculine) ;
+lin canadian_whisky_N = changeCompoundN "Canadian-Whisky" (mkN "Canadian Whisky" "Canadian Whiskys" masculine) ;
+lin casus_obliquus_N = changeCompoundN "Casus-obliquus" (invarN "Casus obliquus" "Casus obliqui" masculine) ;
+lin casus_rectus_N = changeCompoundN "Casus-rectus" (invarN "Casus rectus" "Casus recti" masculine) ;
+lin circulus_vitiosus_N = changeCompoundN "Circulus-vitiosus" (invarN "Circulus vitiosus" "Circuli vitiosi" masculine) ;
 }
