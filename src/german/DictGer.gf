@@ -2226,6 +2226,18 @@ concrete DictGer of DictGerAbs =
     , papiertuete_N
     , quarzlampe_N
     , quarzuhr_N
+    , radioantenne_N
+    , radioapparat_N
+    , radiobutton_N
+    , radiogeraet_N
+    , radioisotop_N
+    , radiomarkierung_N
+    , radioprogramm_N
+    , radiosender_N
+    , radiosonde_N
+    , radioteleskop_N
+    , radiowecker_N
+    , radiowelle_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4554,6 +4566,18 @@ lin papiertiger_N = mkN papier_N tiger_N ;
 lin papiertuete_N = mkN papier_N tuete_N ;
 lin quarzlampe_N = mkN quarz_N lampe_N ;
 lin quarzuhr_N = mkN quarz_N uhr_N ;
+lin radioantenne_N = mkN "Radio" antenne_N ;
+lin radioapparat_N = mkN "Radio" apparat_N ;
+lin radiobutton_N = mkN "Radio" (mkN "Button" "Buttons" masculine) ;
+lin radiogeraet_N = mkN "Radio" geraet_N ;
+lin radioisotop_N = mkN "Radio" isotop_N ;
+lin radiomarkierung_N = mkN "Radio" markierung_N ;
+lin radioprogramm_N = mkN "Radio" programm_N ;
+lin radiosender_N = mkN "Radio" sender_N ;
+lin radiosonde_N = mkN "Radio" sonde_N ;
+lin radioteleskop_N = mkN "Radio" teleskop_N ;
+lin radiowecker_N = mkN "Radio" wecker_N ;
+lin radiowelle_N = mkN "Radio" welle_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
