@@ -3060,4 +3060,12 @@ fun
   jubeljahr_N : N ;
   jubelperser_N : N ;
   jubelschrei_N : N ;
+  kabinettskrieg_N : N ;
+  kahnbein_N : N ;
+  kahnbeinbruch_N : N ;
+  kalbsbries_N : N ;
+  kalbshachse_N : N ;
+  kalbshaxe_N : N ;
+  kammerton_N : N ;
+  kampfwort_N : N ;
 }
