@@ -1855,6 +1855,13 @@ concrete DictGer of DictGerAbs =
     , gewohnheitstier_N
     , gewitterflinte_N
     , gezeitenkraftwerk_N
+    , gifthaeubling_N
+    , giftlorchel_N
+    , giftpflanze_N
+    , giftring_N
+    , giftschlange_N
+    , giftspritze_N
+    , giftzwerg_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3783,6 +3790,13 @@ lin gewohnheitsmensch_N = mkN "Gewohnheits" mensch_N ;
 lin gewohnheitstier_N = mkN "Gewohnheits" tier_N ;
 lin gewitterflinte_N = mkN "Gewitter" flinte_N ;
 lin gezeitenkraftwerk_N = mkN "Gezeiten" kraftwerk_N ;
+lin gifthaeubling_N = mkN "Gift" (mkN "Häubling" "Häublinge" masculine) ;
+lin giftlorchel_N = mkN "Gift" (mkN "Lorchel" "Lorcheln" feminine) ;
+lin giftpflanze_N = mkN "Gift" pflanze_N ;
+lin giftring_N = mkN "Gift" ring_N ;
+lin giftschlange_N = mkN "Gift" schlange_N ;
+lin giftspritze_N = mkN "Gift" spritze_N ;
+lin giftzwerg_N = mkN "Gift" zwerg_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
