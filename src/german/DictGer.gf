@@ -1429,6 +1429,23 @@ concrete DictGer of DictGerAbs =
     , fensterputzer_N
     , fensterscheibe_N
     , fenstersturz_N
+    , fernbedienung_N
+    , fernbeziehung_N
+    , fernfahrer_N
+    , ferngespraech_N
+    , fernglas_N
+    , fernheizung_N
+    , fernleihe_N
+    , fernmeldeturm_N
+    , fernrohr_N
+    , fernschreiben_N
+    , fernschreiber_N
+    , fernschuss_N
+    , fernsicht_N
+    , fernsprecher_N
+    , fernthermometer_N
+    , fernverkehr_N
+    , fernwaermekraftwerk_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2763,6 +2780,23 @@ lin fensterhandwerker_N = mkN "Fenster" (mkN "Handwerker" "Handwerker" masculine
 lin fensterputzer_N = mkN "Fenster" (mkN "Putzer" "Putzer" masculine) ;
 lin fensterscheibe_N = mkN "Fenster" scheibe_N ;
 lin fenstersturz_N = mkN "Fenster" sturz_N ;
+lin fernbedienung_N = mkN "Fern" bedienung_N ;
+lin fernbeziehung_N = mkN "Fern" beziehung_N ;
+lin fernfahrer_N = mkN "Fern" fahrer_N ;
+lin ferngespraech_N = mkN "Fern" gespraech_N ;
+lin fernglas_N = mkN "Fern" glas_N ;
+lin fernheizung_N = mkN "Fern" heizung_N ;
+lin fernleihe_N = mkN "Fern" (mkN "Leihe" "Leihen" feminine) ;
+lin fernmeldeturm_N = mkN "Fern" (mkN "Meldeturm" "Meldetürme" masculine) ;
+lin fernrohr_N = mkN "Fern" rohr_N ;
+lin fernschreiben_N = mkN "Fern" schreiben_N ;
+lin fernschreiber_N = mkN "Fern" (mkN "Schreiber" "Schreiber" masculine) ;
+lin fernschuss_N = mkN "Fern" schuss_N ;
+lin fernsicht_N = mkN "Fern" sicht_N ;
+lin fernsprecher_N = mkN "Fern" (mkN "Sprecher" "Sprecher" masculine) ;
+lin fernthermometer_N = mkN "Fern" (mkN "Thermometer" "Thermometer" neuter) ;
+lin fernverkehr_N = mkN "Fern" verkehr_N ;
+lin fernwaermekraftwerk_N = mkN "Fernwärme" (mkN "Kraftwerk" "Kraftwerke" neuter) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
