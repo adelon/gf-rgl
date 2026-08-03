@@ -1740,6 +1740,8 @@ fun
   deckadresse_N : N ;
   deckanschrift_N : N ;
   deckname_N : N ;
+  demonstrationsbrett_N : N ;
+  demonstrationsschachbrett_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

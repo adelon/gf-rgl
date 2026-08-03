@@ -632,6 +632,8 @@ concrete DictGer of DictGerAbs =
     , deckadresse_N
     , deckanschrift_N
     , deckname_N
+    , demonstrationsbrett_N
+    , demonstrationsschachbrett_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3067,6 +3069,8 @@ lin dativobjekt_N = mkN dativ_N objekt_N ;
 lin deckadresse_N = changeCompoundN "Deckadressen" (mkN deck_N adresse_N) ;
 lin deckanschrift_N = mkN deck_N anschrift_N ;
 lin deckname_N = changeCompoundN "Decknamen" (mkN deck_N name_N) ;
+lin demonstrationsbrett_N = mkN "Demonstrations" brett_N ;
+lin demonstrationsschachbrett_N = mkN "Demonstrations" schachbrett_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

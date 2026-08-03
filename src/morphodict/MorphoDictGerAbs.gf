@@ -7581,8 +7581,6 @@ fun demokratur_N : N ;
 fun demolieren_V : V ;
 fun demonstrant_N : N ;
 fun demonstration_N : N ;
-fun demonstrationsbrett_N : N ;
-fun demonstrationsschachbrett_N : N ;
 fun demonstrativ_A : A ;
 fun demonstrativ_N : N ;
 fun demonstrativum_N : N ;
