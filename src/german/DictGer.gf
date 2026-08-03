@@ -1396,6 +1396,19 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , fehldiagnose_N
+    , fehleinschaetzung_N
+    , fehlentscheidung_N
+    , fehlgeburt_N
+    , fehlkonstruktion_N
+    , fehlpass_N
+    , fehlregulation_N
+    , fehlschlag_N
+    , fehlschluss_N
+    , fehlschuss_N
+    , fehlsteuerung_N
+    , fehltritt_N
+    , fehlzuendung_N
     , fakturierungswaehrung_N
     , fanart_N
     , fanclub_N
@@ -2667,6 +2680,19 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin fehldiagnose_N = changeCompoundN "Fehldiagnosen" (mkN "Fehl" diagnose_N) ;
+lin fehleinschaetzung_N = mkN "Fehl" einschaetzung_N ;
+lin fehlentscheidung_N = mkN "Fehl" entscheidung_N ;
+lin fehlgeburt_N = mkN "Fehl" geburt_N ;
+lin fehlkonstruktion_N = mkN "Fehl" konstruktion_N ;
+lin fehlpass_N = mkN "Fehl" pass_N ;
+lin fehlregulation_N = mkN "Fehl" (mkN "Regulation" "Regulationen" feminine) ;
+lin fehlschlag_N = mkN "Fehl" schlag_N ;
+lin fehlschluss_N = mkN "Fehl" schluss_N ;
+lin fehlschuss_N = mkN "Fehl" schuss_N ;
+lin fehlsteuerung_N = mkN "Fehl" steuerung_N ;
+lin fehltritt_N = mkN "Fehl" tritt_N ;
+lin fehlzuendung_N = mkN "Fehl" zuendung_N ;
 lin fakturierungswaehrung_N = mkN "Fakturierungs" waehrung_N ;
 lin fanart_N = mkN "Fan" (mkN "Art" "Arts" neuter) ;
 lin fanclub_N = mkN "Fan" club_N ;
