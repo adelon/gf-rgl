@@ -37,3 +37,4 @@ cc -all "zu_hause_Adv:" ++ DictGer.zu_hause_Adv.s
 cc -all "zu_stande_Adv:" ++ DictGer.zu_stande_Adv.s
 cc -all "zu_tage_Adv:" ++ DictGer.zu_tage_Adv.s
 cc -all "zu_viel_Adv:" ++ DictGer.zu_viel_Adv.s
+cc -all "vis_a_vis_Adv:" ++ DictGer.vis_a_vis_Adv.s
