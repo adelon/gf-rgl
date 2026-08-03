@@ -2270,6 +2270,20 @@ concrete DictGer of DictGerAbs =
     , sonnensystem_N
     , sonnentag_N
     , sonnenuhr_N
+    , steinadler_N
+    , steinbeisser_N
+    , steinbock_N
+    , steinbruch_N
+    , steinbutt_N
+    , steineiche_N
+    , steinfrucht_N
+    , steingarten_N
+    , steingut_N
+    , steinhaus_N
+    , steinkauz_N
+    , steinlaus_N
+    , steinmarder_N
+    , steinmarderfell_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4642,6 +4656,20 @@ lin sonnensturm_N = mkN sonne_N sturm_N ;
 lin sonnensystem_N = mkN sonne_N system_N ;
 lin sonnentag_N = mkN sonne_N tag_N ;
 lin sonnenuhr_N = mkN sonne_N uhr_N ;
+lin steinadler_N = mkN stein_N adler_N ;
+lin steinbeisser_N = mkN stein_N (mkN "Beißer" "Beißer" masculine) ;
+lin steinbock_N = mkN stein_N bock_N ;
+lin steinbruch_N = mkN stein_N bruch_N ;
+lin steinbutt_N = mkN stein_N (mkN "Butt" "Butte" masculine) ;
+lin steineiche_N = mkN stein_N eiche_N ;
+lin steinfrucht_N = mkN stein_N frucht_N ;
+lin steingarten_N = mkN stein_N garten_N ;
+lin steingut_N = mkN stein_N (mkN "Gut" "Gute" neuter) ;
+lin steinhaus_N = mkN stein_N haus_N ;
+lin steinkauz_N = mkN stein_N kauz_N ;
+lin steinlaus_N = mkN stein_N laus_N ;
+lin steinmarder_N = mkN stein_N marder_N ;
+lin steinmarderfell_N = mkN steinmarder_N fell_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
