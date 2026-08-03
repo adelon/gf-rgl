@@ -989,3 +989,14 @@ cc -all aussenspiegel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ a
 cc -all aussenwand_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenwand_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenwand_N.co
 cc -all aussenwelt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenwelt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenwelt_N.co
 cc -all aussenwerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenwerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenwerk_N.co
+cc -all atomangriff_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomangriff_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomangriff_N.co
+cc -all atomanlage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomanlage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomanlage_N.co
+cc -all atomantrieb_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomantrieb_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomantrieb_N.co
+cc -all atombindung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atombindung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atombindung_N.co
+cc -all atombombe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atombombe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atombombe_N.co
+cc -all atomgegner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomgegner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomgegner_N.co
+cc -all atomgewicht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomgewicht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomgewicht_N.co
+cc -all atomkern_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomkern_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomkern_N.co
+cc -all atomkrieg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomkrieg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomkrieg_N.co
+cc -all atommasse_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atommasse_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atommasse_N.co
+cc -all atomuhr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomuhr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomuhr_N.co

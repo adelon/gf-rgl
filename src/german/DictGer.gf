@@ -261,6 +261,17 @@ concrete DictGer of DictGerAbs =
     , aussenwand_N
     , aussenwelt_N
     , aussenwerk_N
+    , atomangriff_N
+    , atomanlage_N
+    , atomantrieb_N
+    , atombindung_N
+    , atombombe_N
+    , atomgegner_N
+    , atomgewicht_N
+    , atomkern_N
+    , atomkrieg_N
+    , atommasse_N
+    , atomuhr_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -3664,6 +3675,17 @@ lin aussenspiegel_N = mkN "Außen" spiegel_N ;
 lin aussenwand_N = mkN "Außen" wand_N ;
 lin aussenwelt_N = mkN "Außen" welt_N ;
 lin aussenwerk_N = mkN "Außen" werk_N ;
+lin atomangriff_N = mkN atom_N angriff_N ;
+lin atomanlage_N = mkN atom_N anlage_N ;
+lin atomantrieb_N = mkN atom_N antrieb_N ;
+lin atombindung_N = mkN atom_N bindung_N ;
+lin atombombe_N = mkN atom_N bombe_N ;
+lin atomgegner_N = mkN atom_N gegner_N ;
+lin atomgewicht_N = mkN atom_N gewicht_N ;
+lin atomkern_N = mkN atom_N kern_N ;
+lin atomkrieg_N = mkN atom_N krieg_N ;
+lin atommasse_N = mkN atom_N masse_N ;
+lin atomuhr_N = mkN atom_N uhr_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;

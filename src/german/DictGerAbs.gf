@@ -793,6 +793,17 @@ fun
   aussenwand_N : N ;
   aussenwelt_N : N ;
   aussenwerk_N : N ;
+  atomangriff_N : N ;
+  atomanlage_N : N ;
+  atomantrieb_N : N ;
+  atombindung_N : N ;
+  atombombe_N : N ;
+  atomgegner_N : N ;
+  atomgewicht_N : N ;
+  atomkern_N : N ;
+  atomkrieg_N : N ;
+  atommasse_N : N ;
+  atomuhr_N : N ;
   abstossungsreaktion_N : N ;
   a_battuta_Adv : Adv ;
   a_cappella_Adv : Adv ;
