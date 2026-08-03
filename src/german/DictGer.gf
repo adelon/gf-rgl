@@ -1869,6 +1869,13 @@ concrete DictGer of DictGerAbs =
     , gitarrensaite_N
     , gitarrenspieler_N
     , gitarrenspielerin_N
+    , glasampulle_N
+    , glasauge_N
+    , glasbaustein_N
+    , glasbecher_N
+    , glasflasche_N
+    , glasharfe_N
+    , glasharmonika_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3811,6 +3818,13 @@ lin gitarrenkoffer_N = mkN "Gitarren" koffer_N ;
 lin gitarrensaite_N = mkN "Gitarren" saite_N ;
 lin gitarrenspieler_N = mkN "Gitarren" spieler_N ;
 lin gitarrenspielerin_N = mkN "Gitarren" spielerin_N ;
+lin glasampulle_N = mkN "Glas" ampulle_N ;
+lin glasauge_N = mkN "Glas" auge_N ;
+lin glasbaustein_N = mkN "Glas" (mkN "Baustein" "Bausteine" masculine) ;
+lin glasbecher_N = mkN "Glas" becher_N ;
+lin glasflasche_N = mkN "Glas" flasche_N ;
+lin glasharfe_N = mkN "Glas" harfe_N ;
+lin glasharmonika_N = mkN "Glas" (mkN "Harmonika" "Harmonikas" feminine) ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
