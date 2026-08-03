@@ -1862,6 +1862,9 @@ concrete DictGer of DictGerAbs =
     , giftschlange_N
     , giftspritze_N
     , giftzwerg_N
+    , gipfelkreuz_N
+    , gipfelstuermer_N
+    , gipfeltreffen_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3797,6 +3800,9 @@ lin giftring_N = mkN "Gift" ring_N ;
 lin giftschlange_N = mkN "Gift" schlange_N ;
 lin giftspritze_N = mkN "Gift" spritze_N ;
 lin giftzwerg_N = mkN "Gift" zwerg_N ;
+lin gipfelkreuz_N = mkN "Gipfel" kreuz_N ;
+lin gipfelstuermer_N = mkN "Gipfel" stuermer_N ;
+lin gipfeltreffen_N = mkN "Gipfel" treffen_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
