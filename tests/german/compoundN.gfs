@@ -1324,6 +1324,16 @@ cc -all jugendsprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ j
 cc -all jungfernflug_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jungfernflug_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jungfernflug_N.co
 cc -all junikaefer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ junikaefer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ junikaefer_N.co
 cc -all jupitermond_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jupitermond_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jupitermond_N.co
+cc -all kuechengarten_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechengarten_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechengarten_N.co
+cc -all kuechengeraet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechengeraet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechengeraet_N.co
+cc -all kuechenmesser_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenmesser_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenmesser_N.co
+cc -all kuechenreibe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenreibe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenreibe_N.co
+cc -all kuechenrolle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenrolle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenrolle_N.co
+cc -all kuechenschabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenschabe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenschabe_N.co
+cc -all kuechenschelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenschelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenschelle_N.co
+cc -all kuechenstuhl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenstuhl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenstuhl_N.co
+cc -all kuechentisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechentisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechentisch_N.co
+cc -all kuechenwaage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kuechenwaage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kuechenwaage_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co

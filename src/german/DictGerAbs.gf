@@ -3796,4 +3796,14 @@ fun
   jungfernflug_N : N ;
   junikaefer_N : N ;
   jupitermond_N : N ;
+  kuechengarten_N : N ;
+  kuechengeraet_N : N ;
+  kuechenmesser_N : N ;
+  kuechenreibe_N : N ;
+  kuechenrolle_N : N ;
+  kuechenschabe_N : N ;
+  kuechenschelle_N : N ;
+  kuechenstuhl_N : N ;
+  kuechentisch_N : N ;
+  kuechenwaage_N : N ;
 }

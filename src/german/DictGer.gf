@@ -6602,4 +6602,14 @@ lin jugendsprache_N = mkN "Jugend" (mkN "Sprache" "Sprachen" feminine) ;
 lin jungfernflug_N = mkN "Jungfern" (mkN "Flug" "Flüge" masculine) ;
 lin junikaefer_N = mkN "Juni" (mkN "Käfer" "Käfer" masculine) ;
 lin jupitermond_N = mkN "Jupiter" (mkN "Mond" "Monde" masculine) ;
+lin kuechengarten_N = mkN "Küchen" (mkN "Garten" "Gärten" masculine) ;
+lin kuechengeraet_N = mkN "Küchen" (mkN "Gerät" "Geräte" neuter) ;
+lin kuechenmesser_N = mkN "Küchen" (mkN "Messer" "Messer" neuter) ;
+lin kuechenreibe_N = mkN "Küchen" (mkN "Reibe" "Reiben" feminine) ;
+lin kuechenrolle_N = mkN "Küchen" (mkN "Rolle" "Rollen" "Rollen" feminine) ;
+lin kuechenschabe_N = mkN "Küchen" (mkN "Schabe" "Schaben" feminine) ;
+lin kuechenschelle_N = mkN "Küchen" (mkN "Schelle" "Schellen" feminine) ;
+lin kuechenstuhl_N = mkN "Küchen" (mkN "Stuhl" "Stühle" masculine) ;
+lin kuechentisch_N = mkN "Küchen" (mkN "Tisch" "Tische" masculine) ;
+lin kuechenwaage_N = mkN "Küchen" (mkN "Waage" "Waagen" feminine) ;
 }
