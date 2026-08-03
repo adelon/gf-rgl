@@ -1905,6 +1905,10 @@ concrete DictGer of DictGerAbs =
     , gliedsatz_N
     , gliedteil_N
     , gliedteilsatz_N
+    , gliederfuesser_N
+    , gliedermassstab_N
+    , gliederungspartikel_N
+    , gliedmassenamputation_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3883,6 +3887,10 @@ lin gliedertier_N = mkN "Glieder" tier_N ;
 lin gliedsatz_N = mkN "Glied" satz_N ;
 lin gliedteil_N = mkN "Glied" teil_N ;
 lin gliedteilsatz_N = mkN "Gliedteil" satz_N ;
+lin gliederfuesser_N = mkN "Glieder" (mkN "Füßer" "Füßer" masculine) ;
+lin gliedermassstab_N = mkN "Glieder" massstab_N ;
+lin gliederungspartikel_N = mkN "Gliederungs" partikel_N ;
+lin gliedmassenamputation_N = mkN "Gliedmaßen" amputation_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
