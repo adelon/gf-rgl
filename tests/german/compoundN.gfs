@@ -879,6 +879,16 @@ cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_ein
 cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
 cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
 cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co
+cc -all zeitadverb_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitadverb_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitadverb_N.co
+cc -all zeitangabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitangabe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitangabe_N.co
+cc -all zeitarbeiter_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitarbeiter_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitarbeiter_N.co
+cc -all zeiteinheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeiteinheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeiteinheit_N.co
+cc -all zeiteisen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeiteisen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeiteisen_N.co
+cc -all zeitgeschichte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitgeschichte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitgeschichte_N.co
+cc -all zeitkapsel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitkapsel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitkapsel_N.co
+cc -all zeitmaschine_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitmaschine_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitmaschine_N.co
+cc -all zeitpunkt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitpunkt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitpunkt_N.co
+cc -all zeitraum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitraum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitraum_N.co
 cc -all zeichenfolge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichenfolge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichenfolge_N.co
 cc -all zeicheninventar_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeicheninventar_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeicheninventar_N.co
 cc -all zeichenkette_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichenkette_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichenkette_N.co

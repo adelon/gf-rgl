@@ -2674,6 +2674,16 @@ fun
   x_haken_N : N ;
   y_chromosom_N : N ;
   z_boson_N : N ;
+  zeitadverb_N : N ;
+  zeitangabe_N : N ;
+  zeitarbeiter_N : N ;
+  zeiteinheit_N : N ;
+  zeiteisen_N : N ;
+  zeitgeschichte_N : N ;
+  zeitkapsel_N : N ;
+  zeitmaschine_N : N ;
+  zeitpunkt_N : N ;
+  zeitraum_N : N ;
   zeichenfolge_N : N ;
   zeicheninventar_N : N ;
   zeichenkette_N : N ;

@@ -2634,6 +2634,16 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zeitadverb_N
+    , zeitangabe_N
+    , zeitarbeiter_N
+    , zeiteinheit_N
+    , zeiteisen_N
+    , zeitgeschichte_N
+    , zeitkapsel_N
+    , zeitmaschine_N
+    , zeitpunkt_N
+    , zeitraum_N
     , zeichenfolge_N
     , zeicheninventar_N
     , zeichenkette_N
@@ -6004,6 +6014,16 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zeitadverb_N = mkN zeit_N adverb_N ;
+lin zeitangabe_N = mkN zeit_N angabe_N ;
+lin zeitarbeiter_N = mkN zeit_N arbeiter_N ;
+lin zeiteinheit_N = mkN zeit_N einheit_N ;
+lin zeiteisen_N = mkN zeit_N eisen_N ;
+lin zeitgeschichte_N = changeCompoundN "Zeitgeschichten" (mkN zeit_N geschichte_N) ;
+lin zeitkapsel_N = mkN zeit_N kapsel_N ;
+lin zeitmaschine_N = mkN zeit_N maschine_N ;
+lin zeitpunkt_N = mkN zeit_N punkt_N ;
+lin zeitraum_N = mkN zeit_N raum_N ;
 lin zeichenfolge_N = changeCompoundN "Zeichenfolgen" (mkN zeichen_N folge_N) ;
 lin zeicheninventar_N = mkN zeichen_N inventar_N ;
 lin zeichenkette_N = changeCompoundN "Zeichenketten" (mkN zeichen_N kette_N) ;
