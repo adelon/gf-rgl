@@ -2003,6 +2003,9 @@ concrete DictGer of DictGerAbs =
     , herzschmerz_N
     , herzstoerung_N
     , herzwand_N
+    , himmelsbraut_N
+    , himmelskoerper_N
+    , himmelsrichtung_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4106,6 +4109,9 @@ lin herzmedikament_N = mkN herz_N medikament_N ;
 lin herzschmerz_N = mkN herz_N schmerz_N ;
 lin herzstoerung_N = mkN herz_N stoerung_N ;
 lin herzwand_N = mkN herz_N wand_N ;
+lin himmelsbraut_N = mkN "Himmels" braut_N ;
+lin himmelskoerper_N = mkN "Himmels" koerper_N ;
+lin himmelsrichtung_N = mkN "Himmels" richtung_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
