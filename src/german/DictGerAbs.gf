@@ -3145,4 +3145,15 @@ fun
   mutterliebe__N : N ;
   muttermal_N : N ;
   muttersprachler_N : N ;
+  nabelbruch_N : N ;
+  nabelschnur_N : N ;
+  nussbaum_N : N ;
+  nussknacker_N : N ;
+  nusspfirsich_N : N ;
+  nusspilz_N : N ;
+  nussschale_N : N ;
+  nussschinken_N : N ;
+  nussschokolade_N : N ;
+  nussstrudel_N : N ;
+  nusstorte_N : N ;
 }
