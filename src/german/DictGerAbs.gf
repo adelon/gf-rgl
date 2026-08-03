@@ -1140,6 +1140,8 @@ fun
   gewuerzgurke_N : N ;
   gewuerzmischung_N : N ;
   gewuerznelke_N : N ;
+  gewichtseinheit_N : N ;
+  gewichtsklasse_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;
