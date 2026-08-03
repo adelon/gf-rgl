@@ -2091,6 +2091,11 @@ concrete DictGer of DictGerAbs =
     , kalbshaxe_N
     , kammerton_N
     , kampfwort_N
+    , lagerfeuer_N
+    , lagerfuge_N
+    , lagerhaus_N
+    , lagerregal_N
+    , lagerschaden_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4284,6 +4289,11 @@ lin kalbshachse_N = mkN "Kalbs" hachse_N ;
 lin kalbshaxe_N = mkN "Kalbs" haxe_N ;
 lin kammerton_N = mkN "Kammer" (mkN "Ton" "Töne" masculine) ;
 lin kampfwort_N = mkN "Kampf" (mkN "Wort" "Wörter" "Wort" neuter) ;
+lin lagerfeuer_N = mkN "Lager" (mkN "Feuer" "Feuer" neuter) ;
+lin lagerfuge_N = mkN "Lager" fuge_N ;
+lin lagerhaus_N = mkN "Lager" haus_N ;
+lin lagerregal_N = mkN "Lager" (mkN "Regal" "Regale" neuter) ;
+lin lagerschaden_N = mkN "Lager" schaden_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
