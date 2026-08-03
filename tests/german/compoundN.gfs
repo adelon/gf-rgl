@@ -866,3 +866,7 @@ cc -all taschentrompete_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++
 cc -all taschentuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschentuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschentuch_N.co
 cc -all taschenuhr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenuhr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenuhr_N.co
 cc -all taschenwoerterbuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenwoerterbuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenwoerterbuch_N.co
+cc -all u_bahn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_bahn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_bahn_N.co
+cc -all u_bahnhof_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_bahnhof_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_bahnhof_N.co
+cc -all u_boot_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_boot_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_boot_N.co
+cc -all u_eisen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ u_eisen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ u_eisen_N.co

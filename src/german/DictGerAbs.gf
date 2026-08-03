@@ -2661,4 +2661,8 @@ fun
   taschentuch_N : N ;
   taschenuhr_N : N ;
   taschenwoerterbuch_N : N ;
+  u_bahn_N : N ;
+  u_bahnhof_N : N ;
+  u_boot_N : N ;
+  u_eisen_N : N ;
 }
