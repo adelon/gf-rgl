@@ -1793,6 +1793,19 @@ concrete DictGer of DictGerAbs =
     , guertellinie_N
     , guertelschnalle_N
     , guerteltier_N
+    , geldanlage_N
+    , geldautomat_N
+    , geldbaum_N
+    , geldbehaelter_N
+    , geldbeutel_N
+    , geldboerse_N
+    , geldbusse_N
+    , geldmenge_N
+    , geldmensch_N
+    , geldschein_N
+    , geldstrafe_N
+    , geldstueck_N
+    , geldtopf_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3652,6 +3665,19 @@ lin gurkentruppe_N = mkN "Gurken" truppe_N ;
 lin guertellinie_N = mkN guertel_N linie_N ;
 lin guertelschnalle_N = mkN guertel_N schnalle_N ;
 lin guerteltier_N = mkN guertel_N tier_N ;
+lin geldanlage_N = mkN "Geld" anlage_N ;
+lin geldautomat_N = mkN "Geld" automat_N ;
+lin geldbaum_N = mkN "Geld" baum_N ;
+lin geldbehaelter_N = mkN "Geld" behaelter_N ;
+lin geldbeutel_N = mkN "Geld" beutel_N ;
+lin geldboerse_N = mkN "Geld" boerse_N ;
+lin geldbusse_N = changeCompoundN "Geldbußen" (mkN "Geld" busse_N) ;
+lin geldmenge_N = mkN "Geld" menge_N ;
+lin geldmensch_N = mkN "Geld" mensch_N ;
+lin geldschein_N = mkN "Geld" schein_N ;
+lin geldstrafe_N = changeCompoundN "Geldstrafen" (mkN "Geld" strafe_N) ;
+lin geldstueck_N = mkN "Geld" stueck_N ;
+lin geldtopf_N = mkN "Geld" topf_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
