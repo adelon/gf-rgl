@@ -1287,6 +1287,16 @@ cc -all xenon_lampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ xen
 cc -all ylang_ylang_baum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.co
 cc -all zitzen_riesenschirmpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.co
 cc -all zwerg_blaeuling_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.co
+cc -all fackellauf_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fackellauf_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fackellauf_N.co
+cc -all faechergewoelbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faechergewoelbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faechergewoelbe_N.co
+cc -all faellungsmittel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faellungsmittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faellungsmittel_N.co
+cc -all faerberwaid_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faerberwaid_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faerberwaid_N.co
+cc -all faksimileausgabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faksimileausgabe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faksimileausgabe_N.co
+cc -all farnkraut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ farnkraut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ farnkraut_N.co
+cc -all faschingsmuffel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faschingsmuffel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faschingsmuffel_N.co
+cc -all fassettenauge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fassettenauge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fassettenauge_N.co
+cc -all fassonschnitt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fassonschnitt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fassonschnitt_N.co
+cc -all feierabend_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ feierabend_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ feierabend_N.co
 cc -all ehemann_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ehemann_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ehemann_N.co
 cc -all ehepartnerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ehepartnerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ehepartnerin_N.co
 cc -all eierstock_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eierstock_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eierstock_N.co

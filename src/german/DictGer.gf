@@ -6544,4 +6544,14 @@ lin einkommenssteuer_N = mkN "Einkommens" (mkN "Steuer" "Steuern" feminine) ;
 lin einkommensteuer_N = mkN "Einkommen" (mkN "Steuer" "Steuern" feminine) ;
 lin einkommensteuererklaerung_N = changeCompoundN "Einkommensteuererklärung" (mkN "Einkommensteuer" erklaerung_N) ;
 lin einrad_N = mkN "Ein" rad_N ;
+lin fackellauf_N = mkN "Fackel" lauf_N ;
+lin faechergewoelbe_N = mkN "Fächer" gewoelbe_N ;
+lin faellungsmittel_N = mkN "Fällungs" mittel_N ;
+lin faerberwaid_N = mkN "Färber" (mkN "Waid" "Waide" masculine) ;
+lin faksimileausgabe_N = changeCompoundN "Faksimileausgabe" (mkN "Faksimile" ausgabe_N) ;
+lin farnkraut_N = mkN "Farn" (mkN "Kraut" "Kräuter" neuter) ;
+lin faschingsmuffel_N = mkN "Faschings" (mkN "Muffel" "Muffel" masculine) ;
+lin fassettenauge_N = changeCompoundN "Fassettenauge" (mkN "Fassetten" auge_N) ;
+lin fassonschnitt_N = mkN "Fasson" schnitt_N ;
+lin feierabend_N = mkN feier_N abend_N ;
 }

@@ -3738,4 +3738,14 @@ fun
   einkommensteuer_N : N ;
   einkommensteuererklaerung_N : N ;
   einrad_N : N ;
+  fackellauf_N : N ;
+  faechergewoelbe_N : N ;
+  faellungsmittel_N : N ;
+  faerberwaid_N : N ;
+  faksimileausgabe_N : N ;
+  farnkraut_N : N ;
+  faschingsmuffel_N : N ;
+  fassettenauge_N : N ;
+  fassonschnitt_N : N ;
+  feierabend_N : N ;
 }
