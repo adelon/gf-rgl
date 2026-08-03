@@ -1672,6 +1672,33 @@ concrete DictGer of DictGerAbs =
     , gartenwalze_N
     , gartenzaun_N
     , gartenzwerg_N
+    , gasflasche_N
+    , gashahn_N
+    , gasheizung_N
+    , gasherd_N
+    , gaskammer_N
+    , gaskavitation_N
+    , gaskocher_N
+    , gaskraftwerk_N
+    , gaslampe_N
+    , gasleitung_N
+    , gasmaske_N
+    , gasofen_N
+    , gaspedal_N
+    , gasplanet_N
+    , gasrechnung_N
+    , gassenhauer_N
+    , gassenschenke_N
+    , gastflagge_N
+    , gastfreundschaft__N
+    , gastgeber_N
+    , gastgeberin_N
+    , gasthaus_N
+    , gasthof_N
+    , gastredner_N
+    , gastvortrag_N
+    , gastwirtschaft_N
+    , gaswagen_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3249,6 +3276,33 @@ lin gartentor_N = mkN "Garten" tor_N ;
 lin gartenwalze_N = mkN "Garten" walze_N ;
 lin gartenzaun_N = mkN "Garten" zaun_N ;
 lin gartenzwerg_N = mkN "Garten" zwerg_N ;
+lin gasflasche_N = mkN "Gas" flasche_N ;
+lin gashahn_N = mkN "Gas" hahn_N ;
+lin gasheizung_N = mkN "Gas" heizung_N ;
+lin gasherd_N = mkN "Gas" herd_N ;
+lin gaskammer_N = mkN "Gas" kammer_N ;
+lin gaskavitation_N = mkN "Gas" kavitation_N ;
+lin gaskocher_N = mkN "Gas" kocher_N ;
+lin gaskraftwerk_N = mkN "Gas" kraftwerk_N ;
+lin gaslampe_N = mkN "Gas" lampe_N ;
+lin gasleitung_N = mkN "Gas" leitung_N ;
+lin gasmaske_N = mkN "Gas" maske_N ;
+lin gasofen_N = mkN "Gas" ofen_N ;
+lin gaspedal_N = mkN "Gas" pedal_N ;
+lin gasplanet_N = mkN "Gas" planet_N ;
+lin gasrechnung_N = mkN "Gas" rechnung_N ;
+lin gassenhauer_N = mkN "Gassen" (mkN "Hauer" "Hauer" masculine) ;
+lin gassenschenke_N = mkN "Gassen" schenke_N ;
+lin gastflagge_N = mkN "Gast" flagge_N ;
+lin gastfreundschaft__N = mkN "Gast" freundschaft_N ;
+lin gastgeber_N = mkN "Gast" (mkN "Geber" "Geber" masculine) ;
+lin gastgeberin_N = mkN "Gast" (mkN "Geberin" "Geberinnen" feminine) ;
+lin gasthaus_N = mkN "Gast" haus_N ;
+lin gasthof_N = mkN "Gast" hof_N ;
+lin gastredner_N = mkN "Gast" redner_N ;
+lin gastvortrag_N = mkN "Gast" vortrag_N ;
+lin gastwirtschaft_N = mkN "Gast" wirtschaft_N ;
+lin gaswagen_N = mkN "Gas" (mkN "Wagen" "Wagen" masculine) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
