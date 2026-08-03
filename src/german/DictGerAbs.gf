@@ -1899,6 +1899,12 @@ fun
   tagesmenge_N : N ;
   tageszeit_N : N ;
   tageszeitung_N : N ;
+  tafelberg_N : N ;
+  tafelente_N : N ;
+  tafelklavier_N : N ;
+  tafelspitz_N : N ;
+  tafelwein_N : N ;
+  tafelwerk_N : N ;
   schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;

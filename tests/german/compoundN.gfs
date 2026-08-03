@@ -837,3 +837,9 @@ cc -all tageskarte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tage
 cc -all tagesmenge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tagesmenge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tagesmenge_N.co
 cc -all tageszeit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tageszeit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tageszeit_N.co
 cc -all tageszeitung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tageszeitung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tageszeitung_N.co
+cc -all tafelberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelberg_N.co
+cc -all tafelente_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelente_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelente_N.co
+cc -all tafelklavier_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelklavier_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelklavier_N.co
+cc -all tafelspitz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelspitz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelspitz_N.co
+cc -all tafelwein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelwein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelwein_N.co
+cc -all tafelwerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelwerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelwerk_N.co

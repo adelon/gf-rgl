@@ -2604,6 +2604,12 @@ concrete DictGer of DictGerAbs =
     , tagesmenge_N
     , tageszeit_N
     , tageszeitung_N
+    , tafelberg_N
+    , tafelente_N
+    , tafelklavier_N
+    , tafelspitz_N
+    , tafelwein_N
+    , tafelwerk_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5878,4 +5884,10 @@ lin tageskarte_N = mkN "Tages" karte_N ;
 lin tagesmenge_N = mkN "Tages" menge_N ;
 lin tageszeit_N = mkN "Tages" zeit_N ;
 lin tageszeitung_N = mkN "Tages" zeitung_N ;
+lin tafelberg_N = mkN "Tafel" berg_N ;
+lin tafelente_N = mkN "Tafel" ente_N ;
+lin tafelklavier_N = mkN "Tafel" klavier_N ;
+lin tafelspitz_N = mkN "Tafel" spitz_N ;
+lin tafelwein_N = mkN "Tafel" wein_N ;
+lin tafelwerk_N = mkN "Tafel" werk_N ;
 }
