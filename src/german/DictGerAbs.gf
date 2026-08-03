@@ -1508,6 +1508,12 @@ fun
   geburtsort_N : N ;
   geburtstagsgeschenk_N : N ;
   geburtstagskind_N : N ;
+  gedaechtnisdysfunktion_N : N ;
+  gedaechtnisfunktion_N : N ;
+  gedaechtnisfunktionsstoerung_N : N ;
+  gedaechtniskirche_N : N ;
+  gedaechtnisstoerung_N : N ;
+  gedaechtnisstuetze_N : N ;
   gegenangriff_N : N ;
   gegenbeweis_N : N ;
   gegenfahrbahn_N : N ;

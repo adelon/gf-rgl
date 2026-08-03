@@ -1721,6 +1721,12 @@ concrete DictGer of DictGerAbs =
     , geburtsort_N
     , geburtstagsgeschenk_N
     , geburtstagskind_N
+    , gedaechtnisdysfunktion_N
+    , gedaechtnisfunktion_N
+    , gedaechtnisfunktionsstoerung_N
+    , gedaechtniskirche_N
+    , gedaechtnisstoerung_N
+    , gedaechtnisstuetze_N
     , gegenangriff_N
     , gegenbeweis_N
     , gegenfahrbahn_N
@@ -3662,6 +3668,12 @@ lin gewebeverklebung_N = mkN gewebe_N verklebung_N ;
 lin gewebsverletzung_N = changeCompoundN "Gewebsverletzungs" (mkN "Gewebs" verletzung_N) ;
 lin geburtstag_N = changeCompoundN "Geburtstags" (mkN "Geburts" tag_N) ;
 lin geburtstagsfeier_N = mkN geburtstag_N feier_N ;
+lin gedaechtnisdysfunktion_N = mkN "Gedächtnis" dysfunktion_N ;
+lin gedaechtnisfunktion_N = mkN "Gedächtnis" funktion_N ;
+lin gedaechtnisfunktionsstoerung_N = mkN "Gedächtnisfunktions" stoerung_N ;
+lin gedaechtniskirche_N = mkN "Gedächtnis" kirche_N ;
+lin gedaechtnisstoerung_N = mkN "Gedächtnis" stoerung_N ;
+lin gedaechtnisstuetze_N = mkN "Gedächtnis" stuetze_N ;
 lin gummihandschuh_N = mkN "Gummi" handschuh_N ;
 lin gummibaer_N = mkN "Gummi" baer_N ;
 lin gummibaum_N = mkN "Gummi" baum_N ;
