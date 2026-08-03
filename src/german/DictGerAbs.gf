@@ -3931,4 +3931,18 @@ fun
   favoritenschreck_N : N ;
   feigenbaum_N : N ;
   feigenblatt_N : N ;
+  festbettreaktor_N : N ;
+  festessen_N : N ;
+  festgeld_N : N ;
+  festkommazahl_N : N ;
+  festland_N : N ;
+  festmacher_N : N ;
+  festmahl_N : N ;
+  festnetz_N : N ;
+  festphasenmethode_N : N ;
+  festplatte_N : N ;
+  festpunkt_N : N ;
+  festspiel_N : N ;
+  feststoff_N : N ;
+  festumzug_N : N ;
 }

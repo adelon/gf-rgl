@@ -1080,6 +1080,20 @@ concrete DictGer of DictGerAbs =
     , favoritenschreck_N
     , feigenbaum_N
     , feigenblatt_N
+    , festbettreaktor_N
+    , festessen_N
+    , festgeld_N
+    , festkommazahl_N
+    , festland_N
+    , festmacher_N
+    , festmahl_N
+    , festnetz_N
+    , festphasenmethode_N
+    , festplatte_N
+    , festpunkt_N
+    , festspiel_N
+    , feststoff_N
+    , festumzug_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6798,4 +6812,18 @@ lin fastenspeise_N = mkN "Fasten" (mkN "Speise" "Speisen" feminine) ;
 lin favoritenschreck_N = mkN "Favoriten" (mkN "Schreck" "Schrecke" masculine) ;
 lin feigenbaum_N = mkN "Feigen" (mkN "Baum" "Bäume" masculine) ;
 lin feigenblatt_N = mkN "Feigen" (mkN "Blatt" "Blätter" neuter) ;
+lin festbettreaktor_N = mkN "Festbett" (mkN "Reaktor" "Reaktoren" masculine) ;
+lin festessen_N = mkN "Fest" (mkN "Essen" "Essen" neuter) ;
+lin festgeld_N = mkN "Fest" (mkN "Geld" "Gelder" neuter) ;
+lin festkommazahl_N = mkN "Festkomma" (mkN "Zahl" "Zahlen" feminine) ;
+lin festland_N = mkN "Fest" (mkN "Land" "Länder" neuter) ;
+lin festmacher_N = mkN "Fest" (mkN "Macher" "Macher" masculine) ;
+lin festmahl_N = mkN "Fest" (mkN "Mahl" "Mahle" neuter) ;
+lin festnetz_N = mkN "Fest" (mkN "Netz" "Netze" neuter) ;
+lin festphasenmethode_N = mkN "Festphasen" (mkN "Methode" "Methoden" feminine) ;
+lin festplatte_N = mkN "Fest" (mkN "Platte" "Platten" feminine) ;
+lin festpunkt_N = mkN "Fest" (mkN "Punkt" "Punkte" masculine) ;
+lin festspiel_N = mkN "Fest" (mkN "Spiel" "Spiele" neuter) ;
+lin feststoff_N = mkN "Fest" (mkN "Stoff" "Stoffe" masculine) ;
+lin festumzug_N = mkN "Fest" (mkN "Umzug" "Umzüge" masculine) ;
 }
