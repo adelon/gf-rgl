@@ -1959,6 +1959,10 @@ concrete DictGer of DictGerAbs =
     , graeuelwort_N
     , grammatikregel_N
     , grammatiktheorie_N
+    , grasaffe_N
+    , grasflaeche_N
+    , grasglucke_N
+    , grasmuecke_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4018,6 +4022,10 @@ lin graeueltat_N = mkN graeuel_N tat_N ;
 lin graeuelwort_N = mkN graeuel_N (mkN "Wort" "Wörter" "Wort" neuter) ;
 lin grammatikregel_N = mkN grammatik_N regel_N ;
 lin grammatiktheorie_N = mkN grammatik_N theorie_N ;
+lin grasaffe_N = mkN gras_N affe_N ;
+lin grasflaeche_N = mkN gras_N flaeche_N ;
+lin grasglucke_N = mkN gras_N glucke_N ;
+lin grasmuecke_N = mkN gras_N muecke_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
