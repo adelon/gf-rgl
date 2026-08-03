@@ -1932,6 +1932,15 @@ concrete DictGer of DictGerAbs =
     , goldwaage_N
     , goldwaescher_N
     , goldzeisig_N
+    , goldammer_N
+    , goldbrakteat_N
+    , goldgespinst_N
+    , goldglas_N
+    , goldgrund_N
+    , goldschmied_N
+    , goldschnitt_N
+    , goldseife_N
+    , goldspitze_N
     , gottesanbeterin_N
     , gottesbeweis_N
     , gottesdienst_N
@@ -3952,6 +3961,15 @@ lin goldnugget_N = mkN "Gold" (mkN "Nugget" "Nuggets" neuter) ;
 lin goldwaage_N = changeCompoundN "Goldwaagen" (mkN "Gold" waage_N) ;
 lin goldwaescher_N = mkN "Gold" (mkN "Wäscher" "Wäscher" masculine) ;
 lin goldzeisig_N = mkN "Gold" zeisig_N ;
+lin goldammer_N = mkN "Gold" ammer_N ;
+lin goldbrakteat_N = mkN "Gold" brakteat_N ;
+lin goldgespinst_N = mkN "Gold" gespinst_N ;
+lin goldglas_N = mkN "Gold" glas_N ;
+lin goldgrund_N = mkN "Gold" grund_N ;
+lin goldschmied_N = mkN "Gold" schmied_N ;
+lin goldschnitt_N = mkN "Gold" schnitt_N ;
+lin goldseife_N = mkN "Gold" seife_N ;
+lin goldspitze_N = mkN "Gold" spitze_N ;
 lin gottesanbeterin_N = mkN "Gottes" (mkN "Anbeterin" "Anbeterinnen" feminine) ;
 lin gottesbeweis_N = mkN "Gottes" beweis_N ;
 lin gottesdienst_N = mkN "Gottes" dienst_N ;
