@@ -1718,6 +1718,25 @@ concrete DictGer of DictGerAbs =
     , geburtsort_N
     , geburtstagsgeschenk_N
     , geburtstagskind_N
+    , gegenangriff_N
+    , gegenbeweis_N
+    , gegenfahrbahn_N
+    , gegengambit_N
+    , gegengift_N
+    , gegenion_N
+    , gegenmassnahme_N
+    , gegenpapst_N
+    , gegenreaktion_N
+    , gegensatz_N
+    , gegensatzwort_N
+    , gegenschattierung_N
+    , gegenspieler_N
+    , gegenstandswort_N
+    , gegenstoss_N
+    , gegenteil_N
+    , gegentor_N
+    , gegenwert_N
+    , gegenwort_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3341,6 +3360,25 @@ lin geburtshelfer_N = mkN "Geburts" helfer_N ;
 lin geburtsort_N = mkN "Geburts" ort_N ;
 lin geburtstagsgeschenk_N = mkN "Geburtstags" geschenk_N ;
 lin geburtstagskind_N = mkN "Geburtstags" kind_N ;
+lin gegenangriff_N = mkN "Gegen" angriff_N ;
+lin gegenbeweis_N = mkN "Gegen" beweis_N ;
+lin gegenfahrbahn_N = mkN "Gegen" (mkN "Fahrbahn" "Fahrbahnen" feminine) ;
+lin gegengambit_N = mkN "Gegen" gambit_N ;
+lin gegengift_N = mkN "Gegen" gift_N ;
+lin gegenion_N = mkN "Gegen" ion_N ;
+lin gegenmassnahme_N = mkN "Gegen" massnahme_N ;
+lin gegenpapst_N = mkN "Gegen" papst_N ;
+lin gegenreaktion_N = mkN "Gegen" reaktion_N ;
+lin gegensatz_N = mkN "Gegen" satz_N ;
+lin gegensatzwort_N = mkN "Gegensatz" wort_N ;
+lin gegenschattierung_N = mkN "Gegen" schattierung_N ;
+lin gegenspieler_N = mkN "Gegen" spieler_N ;
+lin gegenstandswort_N = mkN "Gegenstands" wort_N ;
+lin gegenstoss_N = mkN "Gegen" stoss_N ;
+lin gegenteil_N = mkN "Gegen" teil_N ;
+lin gegentor_N = mkN "Gegen" tor_N ;
+lin gegenwert_N = mkN "Gegen" wert_N ;
+lin gegenwort_N = mkN "Gegen" wort_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
