@@ -6640,4 +6640,14 @@ lin codegenerator_N = mkN "Code" (mkN "Generator" "Generatoren" masculine) ;
 lin codewort_N = mkN "Code" (mkN "Wort" "Wörter" neuter) ;
 lin codierungssequenz_N = mkN "Codierungs" (mkN "Sequenz" "Sequenzen" feminine) ;
 lin codonsequenz_N = mkN "Codon" (mkN "Sequenz" "Sequenzen" feminine) ;
+lin castingshow_N = mkN "Casting" (mkN "Show" "Shows" feminine) ;
+lin chefsache_N = mkN "Chef" (mkN "Sache" "Sachen" feminine) ;
+lin coelomtheorie_N = mkN "Cölom" (mkN "Theorie" "Theorien" feminine) ;
+lin comiczeichner_N = mkN "Comic" (mkN "Zeichner" "Zeichner" masculine) ;
+lin comiczeichnerin_N = mkN "Comic" (mkN "Zeichnerin" "Zeichnerinnen" feminine) ;
+lin containerschiff_N = mkN "Container" (mkN "Schiff" "Schiffe" neuter) ;
+lin containerterminal__N = mkN "Container" (mkN "Terminal" "Terminals" masculine) ;
+lin couchtisch_N = mkN "Couch" (mkN "Tisch" "Tische" masculine) ;
+lin crashkurs_N = mkN "Crash" (mkN "Kurs" "Kurse" masculine) ;
+lin cremegrundlage_N = mkN "Creme" (mkN "Grundlage" "Grundlagen" feminine) ;
 }

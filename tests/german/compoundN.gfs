@@ -1362,6 +1362,16 @@ cc -all codegenerator_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ c
 cc -all codewort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ codewort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ codewort_N.co
 cc -all codierungssequenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ codierungssequenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ codierungssequenz_N.co
 cc -all codonsequenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ codonsequenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ codonsequenz_N.co
+cc -all castingshow_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ castingshow_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ castingshow_N.co
+cc -all chefsache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefsache_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ chefsache_N.co
+cc -all coelomtheorie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ coelomtheorie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ coelomtheorie_N.co
+cc -all comiczeichner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ comiczeichner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ comiczeichner_N.co
+cc -all comiczeichnerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ comiczeichnerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ comiczeichnerin_N.co
+cc -all containerschiff_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ containerschiff_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ containerschiff_N.co
+cc -all containerterminal__N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ containerterminal__N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ containerterminal__N.co
+cc -all couchtisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ couchtisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ couchtisch_N.co
+cc -all crashkurs_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ crashkurs_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ crashkurs_N.co
+cc -all cremegrundlage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ cremegrundlage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ cremegrundlage_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co

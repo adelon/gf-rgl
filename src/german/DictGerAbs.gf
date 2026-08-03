@@ -3834,4 +3834,14 @@ fun
   codewort_N : N ;
   codierungssequenz_N : N ;
   codonsequenz_N : N ;
+  castingshow_N : N ;
+  chefsache_N : N ;
+  coelomtheorie_N : N ;
+  comiczeichner_N : N ;
+  comiczeichnerin_N : N ;
+  containerschiff_N : N ;
+  containerterminal__N : N ;
+  couchtisch_N : N ;
+  crashkurs_N : N ;
+  cremegrundlage_N : N ;
 }
