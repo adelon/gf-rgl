@@ -1396,6 +1396,23 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , facharbeiterin_N
+    , fachbuch_N
+    , fachfrau_N
+    , fachhochschule_N
+    , fachidiot_N
+    , fachjargon_N
+    , fachkenntnis_N
+    , fachschaft_N
+    , fachschaftsrat_N
+    , fachschule_N
+    , fachsimpelei_N
+    , fachterminus_N
+    , fachwerk_N
+    , fachwerkhaus_N
+    , fachwerkkirche_N
+    , fachwoerterbuch_N
+    , fachwort_N
     , familienauto_N
     , familienbetrieb_N
     , familienchronik_N
@@ -2594,6 +2611,23 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin facharbeiterin_N = mkN "Fach" arbeiterin_N ;
+lin fachbuch_N = mkN "Fach" buch_N ;
+lin fachfrau_N = mkN "Fach" frau_N ;
+lin fachhochschule_N = mkN "Fach" (mkN "Hochschule" "Hochschulen" feminine) ;
+lin fachidiot_N = mkN "Fach" idiot_N ;
+lin fachjargon_N = mkN "Fach" jargon_N ;
+lin fachkenntnis_N = mkN "Fach" kenntnis_N ;
+lin fachschaft_N = mkN "Fach" (mkN "Schaft" "Schaften" masculine) ;
+lin fachschaftsrat_N = mkN "Fachschafts" rat_N ;
+lin fachschule_N = changeCompoundN "Fachschulen" (mkN "Fach" schule_N) ;
+lin fachsimpelei_N = mkN "Fach" (mkN "Simpelei" "Simpeleien" feminine) ;
+lin fachterminus_N = mkN "Fach" terminus_N ;
+lin fachwerk_N = mkN "Fach" werk_N ;
+lin fachwerkhaus_N = mkN "Fachwerk" haus_N ;
+lin fachwerkkirche_N = mkN "Fachwerk" kirche_N ;
+lin fachwoerterbuch_N = mkN "Fach" woerterbuch_N ;
+lin fachwort_N = mkN "Fach" wort_N ;
 lin familienauto_N = mkN "Familien" auto_N ;
 lin familienbetrieb_N = mkN "Familien" betrieb_N ;
 lin familienchronik_N = mkN "Familien" chronik_N ;
