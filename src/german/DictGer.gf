@@ -2224,6 +2224,8 @@ concrete DictGer of DictGerAbs =
     , papiermaske_N
     , papiertiger_N
     , papiertuete_N
+    , quarzlampe_N
+    , quarzuhr_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4550,6 +4552,8 @@ lin papierkorb_N = mkN papier_N korb_N ;
 lin papiermaske_N = mkN papier_N maske_N ;
 lin papiertiger_N = mkN papier_N tiger_N ;
 lin papiertuete_N = mkN papier_N tuete_N ;
+lin quarzlampe_N = mkN quarz_N lampe_N ;
+lin quarzuhr_N = mkN quarz_N uhr_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
