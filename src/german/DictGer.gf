@@ -1532,6 +1532,26 @@ concrete DictGer of DictGerAbs =
     , fingerspiel_N
     , fingerspitze_N
     , fingertier_N
+    , fischbruehe_N
+    , fischbude_N
+    , fischerboot_N
+    , fischerdorf_N
+    , fischerhuette_N
+    , fischersfrau_N
+    , fischfang_N
+    , fischgrund_N
+    , fischhaendler_N
+    , fischkutter_N
+    , fischmarkt_N
+    , fischmesser_N
+    , fischotterfell_N
+    , fischreiher_N
+    , fischschwarm_N
+    , fischstaebchen_N
+    , fischsuppe_N
+    , fischvergiftung_N
+    , fischzuechter_N
+    , fischzuechterin_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2969,6 +2989,26 @@ lin fingernagel_N = mkN "Finger" nagel_N ;
 lin fingerspiel_N = mkN "Finger" spiel_N ;
 lin fingerspitze_N = mkN "Finger" spitze_N ;
 lin fingertier_N = mkN "Finger" tier_N ;
+lin fischbruehe_N = mkN "Fisch" (mkN "Brühe" "Brühen" "Brühen" feminine) ;
+lin fischbude_N = mkN "Fisch" bude_N ;
+lin fischerboot_N = mkN "Fischer" (mkN "Boot" "Boote" neuter) ;
+lin fischerdorf_N = mkN "Fischer" dorf_N ;
+lin fischerhuette_N = mkN "Fischer" huette_N ;
+lin fischersfrau_N = mkN "Fischer" frau_N ;
+lin fischfang_N = mkN "Fisch" fang_N ;
+lin fischgrund_N = mkN "Fisch" grund_N ;
+lin fischhaendler_N = mkN "Fisch" haendler_N ;
+lin fischkutter_N = mkN "Fisch" kutter_N ;
+lin fischmarkt_N = mkN "Fisch" markt_N ;
+lin fischmesser_N = mkN "Fisch" messer_N ;
+lin fischotterfell_N = mkN "Fischotter" fell_N ;
+lin fischreiher_N = mkN "Fisch" reiher_N ;
+lin fischschwarm_N = mkN "Fisch" schwarm_N ;
+lin fischstaebchen_N = mkN "Fisch" staebchen_N ;
+lin fischsuppe_N = mkN "Fisch" suppe_N ;
+lin fischvergiftung_N = mkN "Fisch" vergiftung_N ;
+lin fischzuechter_N = mkN "Fisch" (mkN "Züchter" "Züchter" masculine) ;
+lin fischzuechterin_N = mkN "Fisch" (mkN "Züchterin" "Züchterinnen" feminine) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
