@@ -2626,6 +2626,9 @@ concrete DictGer of DictGerAbs =
     , u_boot_N
     , u_eisen_N
     , vae_dirham_N
+    , w_boson_N
+    , w_frage_N
+    , w_wort_N
     , taschenbuch_N
     , taschendieb_N
     , taschendiebin_N
@@ -5946,4 +5949,7 @@ lin u_bahnhof_N = mkHyphenN "U" bahnhof_N ;
 lin u_boot_N = mkHyphenN "U" (mkN "Boot" "Boote" neuter) ;
 lin u_eisen_N = mkHyphenN "U" eisen_N ;
 lin vae_dirham_N = mkHyphenN "VAE" (mkN "Dirham" "Dirhams" masculine) ;
+lin w_boson_N = mkHyphenN "W" (mkN "Boson" "Bosonen" neuter) ;
+lin w_frage_N = changeCompoundN "W-Frage" (mkHyphenN "W" (mkN "Frage" "Fragen" feminine)) ;
+lin w_wort_N = mkHyphenN "W" (mkN "Wort" "Wörter" neuter) ;
 }

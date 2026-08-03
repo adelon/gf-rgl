@@ -2666,4 +2666,7 @@ fun
   u_boot_N : N ;
   u_eisen_N : N ;
   vae_dirham_N : N ;
+  w_boson_N : N ;
+  w_frage_N : N ;
+  w_wort_N : N ;
 }
