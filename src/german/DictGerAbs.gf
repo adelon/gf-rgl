@@ -3880,4 +3880,18 @@ fun
   eintrittsgeld_N : N ;
   eintrittskarte_N : N ;
   eintrittspreis_N : N ;
+  eberesche_N : N ;
+  edelmetallkatalysator_N : N ;
+  effektorwirkung_N : N ;
+  effektorzelle_N : N ;
+  ehrenwort_N : N ;
+  eichelentzuendung_N : N ;
+  eichelhaeher_N : N ;
+  eichenprozessionsspinner_N : N ;
+  eichenrotkappe_N : N ;
+  eierkoepfer_N : N ;
+  eierstecher_N : N ;
+  eisbrecher_N : N ;
+  eiskunstlaeufer_N : N ;
+  eiskunstlaeuferin_N : N ;
 }

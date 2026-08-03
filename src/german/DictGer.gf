@@ -1029,6 +1029,20 @@ concrete DictGer of DictGerAbs =
     , eintrittsgeld_N
     , eintrittskarte_N
     , eintrittspreis_N
+    , eberesche_N
+    , edelmetallkatalysator_N
+    , effektorwirkung_N
+    , effektorzelle_N
+    , ehrenwort_N
+    , eichelentzuendung_N
+    , eichelhaeher_N
+    , eichenprozessionsspinner_N
+    , eichenrotkappe_N
+    , eierkoepfer_N
+    , eierstecher_N
+    , eisbrecher_N
+    , eiskunstlaeufer_N
+    , eiskunstlaeuferin_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6696,4 +6710,18 @@ lin einstellungsgespraech_N = mkN "Einstellungs" (mkN "Gespräch" "Gespräche" n
 lin eintrittsgeld_N = mkN "Eintritts" (mkN "Geld" "Gelder" neuter) ;
 lin eintrittskarte_N = mkN "Eintritts" (mkN "Karte" "Karten" feminine) ;
 lin eintrittspreis_N = mkN "Eintritts" (mkN "Preis" "Preise" masculine) ;
+lin eberesche_N = mkN "Eber" (mkN "Esche" "Eschen" feminine) ;
+lin edelmetallkatalysator_N = mkN edelmetall_N (mkN "Katalysator" "Katalysatoren" masculine) ;
+lin effektorwirkung_N = mkN effektor_N (mkN "Wirkung" "Wirkungen" feminine) ;
+lin effektorzelle_N = changeCompoundN "Effektorzellen" (mkN effektor_N (mkN "Zelle" "Zellen" feminine)) ;
+lin ehrenwort_N = mkN "Ehren" (mkN "Wort" "Worte" neuter) ;
+lin eichelentzuendung_N = mkN eichel_N (mkN "Entzündung" "Entzündungen" feminine) ;
+lin eichelhaeher_N = mkN eichel_N (mkN "Häher" "Häher" masculine) ;
+lin eichenprozessionsspinner_N = mkN "Eichen" (mkN "Prozessionsspinner" "Prozessionsspinner" masculine) ;
+lin eichenrotkappe_N = mkN "Eichen" (mkN "Rotkappe" "Rotkappen" feminine) ;
+lin eierkoepfer_N = mkN "Eier" (mkN "Köpfer" "Köpfer" masculine) ;
+lin eierstecher_N = mkN "Eier" (mkN "Stecher" "Stecher" masculine) ;
+lin eisbrecher_N = mkN eis_N (mkN "Brecher" "Brecher" masculine) ;
+lin eiskunstlaeufer_N = mkN "Eiskunst" (mkN "Läufer" "Läufer" masculine) ;
+lin eiskunstlaeuferin_N = mkN "Eiskunst" (mkN "Läuferin" "Läuferinnen" feminine) ;
 }
