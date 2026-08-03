@@ -2090,6 +2090,7 @@ concrete DictGer of DictGerAbs =
     , kalbshachse_N
     , kalbshaxe_N
     , kammerton_N
+    , kampfwort_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4282,6 +4283,7 @@ lin kalbsbries_N = mkN "Kalbs" bries_N ;
 lin kalbshachse_N = mkN "Kalbs" hachse_N ;
 lin kalbshaxe_N = mkN "Kalbs" haxe_N ;
 lin kammerton_N = mkN "Kammer" (mkN "Ton" "Töne" masculine) ;
+lin kampfwort_N = mkN "Kampf" (mkN "Wort" "Wörter" "Wort" neuter) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;

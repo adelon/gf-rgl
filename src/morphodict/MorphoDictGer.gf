@@ -17188,7 +17188,6 @@ lin kampfeslustig_A = mk3A "kampfeslustig" "kampfeslustiger" "kampfeslustigste" 
 lin kampfgase_N = mkN "Kampfgase" "Kampfgasen" feminine ;
 lin kampflos_A = regA "kampflos" ;
 lin kampfmittelraeumung_N = mkN "Kampfmittelräumung" ;
-lin kampfwort_N = mkN "Kampfwort" "Kampfwörter" neuter ;
 lin kampieren_V = irregV "kampieren" "kampiert" "kampierte" "kampierte" "kampiert" ;
 lin kanadagans_N = mkN "Kanadagans" "Kanadagänse" feminine ;
 lin kanadawaldsaenger_N = mkN "Kanadawaldsänger" "Kanadawaldsänger" masculine ;
