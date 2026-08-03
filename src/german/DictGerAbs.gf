@@ -1272,6 +1272,16 @@ fun
   finanzspritze_N : N ;
   finanztransaktionssteuer_N : N ;
   finanzvorstand_N : N ;
+  fingerabdruck_N : N ;
+  fingeralphabet_N : N ;
+  fingerdomaene_N : N ;
+  fingerhuetchen_N : N ;
+  fingerhut_N : N ;
+  fingerknoechel_N : N ;
+  fingernagel_N : N ;
+  fingerspiel_N : N ;
+  fingerspitze_N : N ;
+  fingertier_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;

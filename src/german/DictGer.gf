@@ -1522,6 +1522,16 @@ concrete DictGer of DictGerAbs =
     , finanzspritze_N
     , finanztransaktionssteuer_N
     , finanzvorstand_N
+    , fingerabdruck_N
+    , fingeralphabet_N
+    , fingerdomaene_N
+    , fingerhuetchen_N
+    , fingerhut_N
+    , fingerknoechel_N
+    , fingernagel_N
+    , fingerspiel_N
+    , fingerspitze_N
+    , fingertier_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2949,6 +2959,16 @@ lin finanzministerium_N = mkN "Finanz" ministerium_N ;
 lin finanzspritze_N = mkN "Finanz" spritze_N ;
 lin finanztransaktionssteuer_N = mkN "Finanz" (mkN "Transaktionssteuer" "Transaktionssteuern" feminine) ;
 lin finanzvorstand_N = mkN "Finanz" vorstand_N ;
+lin fingerabdruck_N = mkN "Finger" (mkN "Abdruck" "Abdrücke" masculine) ;
+lin fingeralphabet_N = mkN "Finger" alphabet_N ;
+lin fingerdomaene_N = mkN "Finger" domaene_N ;
+lin fingerhuetchen_N = mkN "Finger" (mkN "Hütchen" "Hütchen" neuter) ;
+lin fingerhut_N = mkN "Finger" hut_N ;
+lin fingerknoechel_N = mkN "Finger" knoechel_N ;
+lin fingernagel_N = mkN "Finger" nagel_N ;
+lin fingerspiel_N = mkN "Finger" spiel_N ;
+lin fingerspitze_N = mkN "Finger" spitze_N ;
+lin fingertier_N = mkN "Finger" tier_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
