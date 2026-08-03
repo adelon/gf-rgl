@@ -1115,6 +1115,9 @@ fun
   geldstrafe_N : N ;
   geldstueck_N : N ;
   geldtopf_N : N ;
+  gelenkerkrankung_N : N ;
+  gelenkschmerz_N : N ;
+  gelenkserkrankung_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;

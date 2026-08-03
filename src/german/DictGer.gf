@@ -1806,6 +1806,9 @@ concrete DictGer of DictGerAbs =
     , geldstrafe_N
     , geldstueck_N
     , geldtopf_N
+    , gelenkerkrankung_N
+    , gelenkschmerz_N
+    , gelenkserkrankung_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3678,6 +3681,9 @@ lin geldschein_N = mkN "Geld" schein_N ;
 lin geldstrafe_N = changeCompoundN "Geldstrafen" (mkN "Geld" strafe_N) ;
 lin geldstueck_N = mkN "Geld" stueck_N ;
 lin geldtopf_N = mkN "Geld" topf_N ;
+lin gelenkerkrankung_N = mkN gelenk_N erkrankung_N ;
+lin gelenkschmerz_N = mkN "Gelenk" schmerz_N ;
+lin gelenkserkrankung_N = mkN "Gelenks" erkrankung_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
