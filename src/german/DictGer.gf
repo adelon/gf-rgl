@@ -1988,6 +1988,11 @@ concrete DictGer of DictGerAbs =
     , grundausstattung_N
     , grundbestandteil_N
     , grundbuch_N
+    , herzattacke_N
+    , herzblatt_N
+    , herzinfarkt_N
+    , herzklappe_N
+    , herzkrankheit_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4076,6 +4081,11 @@ lin grubenlampe_N = mkN grube_N lampe_N ;
 lin grundausstattung_N = mkN grund_N ausstattung_N ;
 lin grundbestandteil_N = mkN grund_N bestandteil_N ;
 lin grundbuch_N = mkN grund_N buch_N ;
+lin herzattacke_N = mkN herz_N attacke_N ;
+lin herzblatt_N = mkN herz_N blatt_N ;
+lin herzinfarkt_N = mkN herz_N infarkt_N ;
+lin herzklappe_N = mkN herz_N klappe_N ;
+lin herzkrankheit_N = mkN herz_N krankheit_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
