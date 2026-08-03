@@ -1993,6 +1993,16 @@ concrete DictGer of DictGerAbs =
     , herzinfarkt_N
     , herzklappe_N
     , herzkrankheit_N
+    , herzarrhythmie_N
+    , herzerkrankung_N
+    , herzglykosid_N
+    , herzinsuffizienz_N
+    , herzkatheter_N
+    , herzleiden_N
+    , herzmedikament_N
+    , herzschmerz_N
+    , herzstoerung_N
+    , herzwand_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4086,6 +4096,16 @@ lin herzblatt_N = mkN herz_N blatt_N ;
 lin herzinfarkt_N = mkN herz_N infarkt_N ;
 lin herzklappe_N = mkN herz_N klappe_N ;
 lin herzkrankheit_N = mkN herz_N krankheit_N ;
+lin herzarrhythmie_N = mkN herz_N arrhythmie_N ;
+lin herzerkrankung_N = mkN herz_N erkrankung_N ;
+lin herzglykosid_N = mkN herz_N glykosid_N ;
+lin herzinsuffizienz_N = mkN herz_N insuffizienz_N ;
+lin herzkatheter_N = mkN herz_N katheter_N ;
+lin herzleiden_N = mkN herz_N leiden_N ;
+lin herzmedikament_N = mkN herz_N medikament_N ;
+lin herzschmerz_N = mkN herz_N schmerz_N ;
+lin herzstoerung_N = mkN herz_N stoerung_N ;
+lin herzwand_N = mkN herz_N wand_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
