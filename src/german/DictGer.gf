@@ -1509,6 +1509,19 @@ concrete DictGer of DictGerAbs =
     , fehleranalyse_N
     , fehlerprofil_N
     , fehlerstromschutzschalter_N
+    , finanzamt_N
+    , finanzexperte_N
+    , finanzjahr_N
+    , finanzkraft_N
+    , finanzkrise_N
+    , finanzmagnat_N
+    , finanzmarkt_N
+    , finanzminister_N
+    , finanzministerin_N
+    , finanzministerium_N
+    , finanzspritze_N
+    , finanztransaktionssteuer_N
+    , finanzvorstand_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2923,6 +2936,19 @@ lin feuerzeug_N = mkN "Feuer" (mkN "Zeug" "Zeuge" "Zeug" neuter) ;
 lin fehleranalyse_N = mkN "Fehler" analyse_N ;
 lin fehlerprofil_N = mkN "Fehler" profil_N ;
 lin fehlerstromschutzschalter_N = mkN "Fehlerstrom" (mkN "Schutzschalter" "Schutzschalter" masculine) ;
+lin finanzamt_N = mkN "Finanz" amt_N ;
+lin finanzexperte_N = mkN "Finanz" experte_N ;
+lin finanzjahr_N = mkN "Finanz" jahr_N ;
+lin finanzkraft_N = mkN "Finanz" kraft_N ;
+lin finanzkrise_N = mkN "Finanz" krise_N ;
+lin finanzmagnat_N = mkN "Finanz" (mkN "Magnat" "Magnaten" masculine) ;
+lin finanzmarkt_N = mkN "Finanz" markt_N ;
+lin finanzminister_N = mkN "Finanz" minister_N ;
+lin finanzministerin_N = mkN "Finanz" ministerin_N ;
+lin finanzministerium_N = mkN "Finanz" ministerium_N ;
+lin finanzspritze_N = mkN "Finanz" spritze_N ;
+lin finanztransaktionssteuer_N = mkN "Finanz" (mkN "Transaktionssteuer" "Transaktionssteuern" feminine) ;
+lin finanzvorstand_N = mkN "Finanz" vorstand_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
