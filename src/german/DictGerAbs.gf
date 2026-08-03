@@ -2649,4 +2649,16 @@ fun
   deformationsgeschwindigkeit_N : N ;
   deformationsgradient_N : N ;
   dehnungsfuge_N : N ;
+  taschenbuch_N : N ;
+  taschendieb_N : N ;
+  taschendiebin_N : N ;
+  taschengeld_N : N ;
+  taschenkrankheit_N : N ;
+  taschenlampe_N : N ;
+  taschenmesser_N : N ;
+  taschenrechner_N : N ;
+  taschentrompete_N : N ;
+  taschentuch_N : N ;
+  taschenuhr_N : N ;
+  taschenwoerterbuch_N : N ;
 }

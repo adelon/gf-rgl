@@ -2621,6 +2621,18 @@ concrete DictGer of DictGerAbs =
     , tanzschule_N
     , tanzstunde_N
     , tanztee_N
+    , taschenbuch_N
+    , taschendieb_N
+    , taschendiebin_N
+    , taschengeld_N
+    , taschenkrankheit_N
+    , taschenlampe_N
+    , taschenmesser_N
+    , taschenrechner_N
+    , taschentrompete_N
+    , taschentuch_N
+    , taschenuhr_N
+    , taschenwoerterbuch_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5570,7 +5582,7 @@ lin damenbinde_N = mkN dame_N binde_N ;
 lin damenendspiel_N = mkN dame_N endspiel_N ;
 lin damenlaeufer_N = mkN dame_N laeufer_N ;
 lin damenspringer_N = mkN dame_N springer_N ;
-lin damentaschentuch_N = mkN dame_N taschentuch_N ;
+lin damentaschentuch_N = mkN "Damentaschen" (mkN "Tuch" "Tücher" neuter) ;
 lin damenturm_N = mkN dame_N turm_N ;
 lin damenzug_N = mkN dame_N zug_N ;
 lin damespiel_N = mkN dame_N spiel_N ;
@@ -5912,4 +5924,16 @@ lin tanzschuh_N = mkN "Tanz" schuh_N ;
 lin tanzschule_N = mkN "Tanz" schule_N ;
 lin tanzstunde_N = mkN "Tanz" stunde_N ;
 lin tanztee_N = mkN "Tanz" tee_N ;
+lin taschenbuch_N = mkN "Taschen" buch_N ;
+lin taschendieb_N = mkN "Taschen" dieb_N ;
+lin taschendiebin_N = mkN "Taschen" diebin_N ;
+lin taschengeld_N = mkN "Taschen" geld_N ;
+lin taschenkrankheit_N = mkN "Taschen" krankheit_N ;
+lin taschenlampe_N = mkN "Taschen" lampe_N ;
+lin taschenmesser_N = mkN "Taschen" messer_N ;
+lin taschenrechner_N = mkN "Taschen" rechner_N ;
+lin taschentrompete_N = mkN "Taschen" trompete_N ;
+lin taschentuch_N = mkN "Taschen" (mkN "Tuch" "Tücher" neuter) ;
+lin taschenuhr_N = mkN "Taschen" uhr_N ;
+lin taschenwoerterbuch_N = mkN "Taschen" woerterbuch_N ;
 }

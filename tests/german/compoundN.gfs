@@ -854,3 +854,15 @@ cc -all tanzschuh_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzs
 cc -all tanzschule_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzschule_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzschule_N.co
 cc -all tanzstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzstunde_N.co
 cc -all tanztee_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanztee_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanztee_N.co
+cc -all taschenbuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenbuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenbuch_N.co
+cc -all taschendieb_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschendieb_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschendieb_N.co
+cc -all taschendiebin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschendiebin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschendiebin_N.co
+cc -all taschengeld_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschengeld_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschengeld_N.co
+cc -all taschenkrankheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenkrankheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenkrankheit_N.co
+cc -all taschenlampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenlampe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenlampe_N.co
+cc -all taschenmesser_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenmesser_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenmesser_N.co
+cc -all taschenrechner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenrechner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenrechner_N.co
+cc -all taschentrompete_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschentrompete_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschentrompete_N.co
+cc -all taschentuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschentuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschentuch_N.co
+cc -all taschenuhr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenuhr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenuhr_N.co
+cc -all taschenwoerterbuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ taschenwoerterbuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ taschenwoerterbuch_N.co
