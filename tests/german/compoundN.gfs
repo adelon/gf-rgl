@@ -1287,3 +1287,14 @@ cc -all xenon_lampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ xen
 cc -all ylang_ylang_baum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.co
 cc -all zitzen_riesenschirmpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.co
 cc -all zwerg_blaeuling_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.co
+cc -all dachdecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dachdecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dachdecker_N.co
+cc -all daemmerstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ daemmerstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ daemmerstunde_N.co
+cc -all dankgebet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dankgebet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dankgebet_N.co
+cc -all darreichungsform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ darreichungsform_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ darreichungsform_N.co
+cc -all deckungsmoeglichkeit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ deckungsmoeglichkeit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ deckungsmoeglichkeit_N.co
+cc -all dekubitusgeschwuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dekubitusgeschwuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dekubitusgeschwuer_N.co
+cc -all degenerationserkrankung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ degenerationserkrankung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ degenerationserkrankung_N.co
+cc -all druckbuchstabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ druckbuchstabe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ druckbuchstabe_N.co
+cc -all druesensekret_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ druesensekret_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ druesensekret_N.co
+cc -all durstgefuehl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ durstgefuehl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ durstgefuehl_N.co
+cc -all durststrecke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ durststrecke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ durststrecke_N.co

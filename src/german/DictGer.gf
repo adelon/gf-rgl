@@ -6522,4 +6522,15 @@ lin dativus_iudicantis_N = changeCompoundN "Dativus-Iudicantis" (invarN "Dativus
 lin dativus_possessivus_N = changeCompoundN "Dativus-possessivus" (invarN "Dativus possessivus" "Dativi possessivi" masculine) ;
 lin dativus_sympathicus_N = changeCompoundN "Dativus-sympathicus" (invarN "Dativus sympathicus" "Dativi sympathici" masculine) ;
 lin demodex_folliculorum_N = changeCompoundN "Demodex-folliculorum" (invarN "Demodex folliculorum" "Demodices folliculorum" masculine) ;
+lin dachdecker_N = mkN dach_N (mkN "Decker" "Decker" masculine) ;
+lin daemmerstunde_N = changeCompoundN "Dämmerstunde" (mkN "Dämmer" stunde_N) ;
+lin dankgebet_N = mkN "Dank" gebet_N ;
+lin darreichungsform_N = mkN "Darreichungs" form_N ;
+lin deckungsmoeglichkeit_N = changeCompoundN "Deckungsmöglichkeit" (mkN "Deckungs" moeglichkeit_N) ;
+lin dekubitusgeschwuer_N = mkN dekubitus_N geschwuer_N ;
+lin degenerationserkrankung_N = changeCompoundN "Degenerationserkrankung" (mkN "Degenerations" erkrankung_N) ;
+lin druckbuchstabe_N = changeCompoundN "Druckbuchstabe" (mkN "Druck" buchstabe_N) ;
+lin druesensekret_N = mkN druese_N sekret_N ;
+lin durstgefuehl_N = mkN "Durst" gefuehl_N ;
+lin durststrecke_N = changeCompoundN "Durststrecke" (mkN "Durst" strecke_N) ;
 }

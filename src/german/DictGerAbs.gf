@@ -3716,4 +3716,15 @@ fun
   dativus_possessivus_N : N ;
   dativus_sympathicus_N : N ;
   demodex_folliculorum_N : N ;
+  dachdecker_N : N ;
+  daemmerstunde_N : N ;
+  dankgebet_N : N ;
+  darreichungsform_N : N ;
+  deckungsmoeglichkeit_N : N ;
+  dekubitusgeschwuer_N : N ;
+  degenerationserkrankung_N : N ;
+  druckbuchstabe_N : N ;
+  druesensekret_N : N ;
+  durstgefuehl_N : N ;
+  durststrecke_N : N ;
 }
