@@ -2506,6 +2506,37 @@ concrete DictGer of DictGerAbs =
     , schlagwort_N
     , schlagzeile_N
     , schlagzeug_N
+    , schulabschluss_N
+    , schularbeit_N
+    , schulaufgabe_N
+    , schulbank_N
+    , schulbeginn_N
+    , schulbuch_N
+    , schulbus_N
+    , schulfach_N
+    , schulgarten_N
+    , schulgeld_N
+    , schulgrammatik_N
+    , schulhaus_N
+    , schulhof_N
+    , schuljahr_N
+    , schulklasse_N
+    , schulnote_N
+    , schulpolitik_N
+    , schulranzen_N
+    , schulreformer_N
+    , schulschiff_N
+    , schulschrift_N
+    , schulschwaenzer__N
+    , schulsystem_N
+    , schultraeger_N
+    , schultuete_N
+    , schuluniform_N
+    , schulversager_N
+    , schulweg_N
+    , schulwoerterbuch_N
+    , schulzeit_N
+    , schulzeugnis_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5682,4 +5713,35 @@ lin schlagwoerterbuch_N = mkN schlag_N woerterbuch_N ;
 lin schlagwort_N = mkN schlag_N (mkN "Wort" "Worte" neuter) ;
 lin schlagzeile_N = mkN schlag_N zeile_N ;
 lin schlagzeug_N = mkN schlag_N zeug_N ;
+lin schulabschluss_N = mkN schule_N abschluss_N ;
+lin schularbeit_N = mkN schule_N arbeit_N ;
+lin schulaufgabe_N = mkN schule_N aufgabe_N ;
+lin schulbank_N = mkN schule_N bank_N ;
+lin schulbeginn_N = mkN schule_N beginn_N ;
+lin schulbuch_N = mkN schule_N buch_N ;
+lin schulbus_N = mkN schule_N bus_N ;
+lin schulfach_N = mkN schule_N fach_N ;
+lin schulgarten_N = mkN schule_N garten_N ;
+lin schulgeld_N = mkN schule_N geld_N ;
+lin schulgrammatik_N = mkN schule_N grammatik_N ;
+lin schulhaus_N = mkN schule_N haus_N ;
+lin schulhof_N = mkN schule_N hof_N ;
+lin schuljahr_N = mkN schule_N jahr_N ;
+lin schulklasse_N = mkN schule_N klasse_N ;
+lin schulnote_N = mkN schule_N note_N ;
+lin schulpolitik_N = mkN schule_N politik_N ;
+lin schulranzen_N = mkN schule_N ranzen_N ;
+lin schulreformer_N = mkN schule_N reformer_N ;
+lin schulschiff_N = mkN schule_N schiff_N ;
+lin schulschrift_N = mkN schule_N schrift_N ;
+lin schulschwaenzer__N = mkN schule_N (mkN "Schwänzer" "Schwänzer" masculine) ;
+lin schulsystem_N = mkN schule_N system_N ;
+lin schultraeger_N = mkN schule_N traeger_N ;
+lin schultuete_N = mkN schule_N tuete_N ;
+lin schuluniform_N = mkN schule_N uniform_N ;
+lin schulversager_N = mkN schule_N versager_N ;
+lin schulweg_N = mkN schule_N weg_N ;
+lin schulwoerterbuch_N = mkN schule_N woerterbuch_N ;
+lin schulzeit_N = mkN schule_N zeit_N ;
+lin schulzeugnis_N = mkN schule_N zeugnis_N ;
 }
