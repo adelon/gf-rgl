@@ -193,6 +193,7 @@ concrete DictGer of DictGerAbs =
     , abc_schuetze_N
     , abc_schuetzin_N
     , abc_tafel_N
+    , aalbutt_N
     , aalbeere_N
     , aalfang_N
     , aalfischer_N
@@ -204,6 +205,8 @@ concrete DictGer of DictGerAbs =
     , aalmoewe_N
     , aalmolch_N
     , aalmutter_N
+    , aalquappe_N
+    , aalraeucherei_N
     , aalraupe_N
     , aalreuse_N
     , aalrute_N
@@ -212,6 +215,7 @@ concrete DictGer of DictGerAbs =
     , aalsuppe_N
     , aaltierchen_N
     , aalwehr_N
+    , aalstreif_N
     , aasblume_N
     , aasfliege_N
     , aasfresser_N
@@ -3557,6 +3561,7 @@ lin abc_code_N = changeCompoundN "Abc-Code" (mkHyphenN "Abc" code__N) ;
 lin abc_schuetze_N = mkHyphenN "Abc" schuetze_N ;
 lin abc_schuetzin_N = mkHyphenN "Abc" schuetzin_N ;
 lin abc_tafel_N = mkHyphenN "ABC" tafel_N ;
+lin aalbutt_N = mkN aal_N (mkN "Butt" "Butte" masculine) ;
 lin aalbeere_N = mkN aal_N beere_N ;
 lin aalfang_N = mkN aal_N fang_N ;
 lin aalfischer_N = mkN aal_N fischer_N ;
@@ -3568,6 +3573,8 @@ lin aalleiter_N = mkN aal_N leiter_N ;
 lin aalmoewe_N = mkN aal_N moewe_N ;
 lin aalmolch_N = mkN aal_N molch_N ;
 lin aalmutter_N = mkN aal_N mutter_N ;
+lin aalquappe_N = mkN aal_N (mkN "Quappe" "Quappen" feminine) ;
+lin aalraeucherei_N = mkN aal_N (mkN "Räucherei" "Räuchereien" feminine) ;
 lin aalraupe_N = mkN aal_N raupe_N ;
 lin aalreuse_N = mkN aal_N reuse_N ;
 lin aalrute_N = mkN aal_N rute_N ;
@@ -3576,6 +3583,7 @@ lin aalspeer_N = mkN aal_N speer_N ;
 lin aalsuppe_N = mkN aal_N suppe_N ;
 lin aaltierchen_N = mkN aal_N tierchen_N ;
 lin aalwehr_N = mkN aal_N wehr_N ;
+lin aalstreif_N = mkN aal_N (mkN "Streif" "Streife" masculine) ;
 lin aasblume_N = mkN aas_N blume_N ;
 lin aasfliege_N = mkN aas_N fliege_N ;
 lin aasfresser_N = mkN aas_N fresser_N ;

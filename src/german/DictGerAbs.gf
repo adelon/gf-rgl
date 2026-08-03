@@ -725,6 +725,7 @@ fun
   abc_waffen_N : N ;
   abc_waffen_frei_A : A ;
   a_achse_N : N ;
+  aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
   aalfischer_N : N ;
@@ -736,6 +737,8 @@ fun
   aalmoewe_N : N ;
   aalmolch_N : N ;
   aalmutter_N : N ;
+  aalquappe_N : N ;
+  aalraeucherei_N : N ;
   aalraupe_N : N ;
   aalreuse_N : N ;
   aalrute_N : N ;
@@ -744,6 +747,7 @@ fun
   aalsuppe_N : N ;
   aaltierchen_N : N ;
   aalwehr_N : N ;
+  aalstreif_N : N ;
   aasblume_N : N ;
   aasfliege_N : N ;
   aasfresser_N : N ;

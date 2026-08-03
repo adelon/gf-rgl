@@ -949,3 +949,7 @@ cc -all zauberspruch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ za
 cc -all zaubertrick_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zaubertrick_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zaubertrick_N.co
 cc -all zauberwort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberwort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberwort_N.co
 cc -all zauberwuerfel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberwuerfel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberwuerfel_N.co
+cc -all aalbutt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalbutt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalbutt_N.co
+cc -all aalquappe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalquappe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalquappe_N.co
+cc -all aalraeucherei_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalraeucherei_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalraeucherei_N.co
+cc -all aalstreif_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalstreif_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalstreif_N.co
