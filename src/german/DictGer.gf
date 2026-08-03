@@ -1940,6 +1940,13 @@ concrete DictGer of DictGerAbs =
     , gotteslaesterung_N
     , gottesurteil_N
     , gottkoenig_N
+    , grenzfluss_N
+    , grenzgaenger_N
+    , grenzmarke_N
+    , grenzschutzgruppe_N
+    , grenzstein_N
+    , grenzuebergang_N
+    , grenzwert_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3953,6 +3960,13 @@ lin gotteskrieger_N = mkN "Gottes" krieger_N ;
 lin gotteslaesterung_N = changeCompoundN "Gotteslästerungs" (mkN "Gottes" (mkN "Lästerung" "Lästerungen" feminine)) ;
 lin gottesurteil_N = mkN "Gottes" urteil_N ;
 lin gottkoenig_N = mkN "Gott" koenig_N ;
+lin grenzfluss_N = mkN grenze_N fluss_N ;
+lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
+lin grenzmarke_N = mkN grenze_N marke_N ;
+lin grenzschutzgruppe_N = changeCompoundN "Grenzschutzgruppen" (mkN grenze_N schutzgruppe_N) ;
+lin grenzstein_N = mkN grenze_N stein_N ;
+lin grenzuebergang_N = mkN grenze_N uebergang_N ;
+lin grenzwert_N = mkN grenze_N wert_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
