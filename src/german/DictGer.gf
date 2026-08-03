@@ -1841,6 +1841,9 @@ concrete DictGer of DictGerAbs =
     , gefaessstoerung_N
     , gefaessverletzung_N
     , feinbackware_N
+    , gewuerzgurke_N
+    , gewuerzmischung_N
+    , gewuerznelke_N
     , feindbild_N
     , feindesland_N
     , feindschaft_N
@@ -3746,6 +3749,9 @@ lin gefaessprothese_N = mkN "Gefäß" prothese_N ;
 lin gefaessstenose_N = mkN "Gefäß" stenose_N ;
 lin gefaessstoerung_N = mkN "Gefäß" stoerung_N ;
 lin gefaessverletzung_N = mkN "Gefäß" verletzung_N ;
+lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
+lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
+lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;

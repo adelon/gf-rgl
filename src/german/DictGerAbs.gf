@@ -1137,6 +1137,9 @@ fun
   gefaessstenose_N : N ;
   gefaessstoerung_N : N ;
   gefaessverletzung_N : N ;
+  gewuerzgurke_N : N ;
+  gewuerzmischung_N : N ;
+  gewuerznelke_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;
