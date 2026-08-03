@@ -3780,4 +3780,20 @@ fun
   immuneffektorzelle_N : N ;
   induktionskochfeld_N : N ;
   inhaltswort_N : N ;
+  jadebaum_N : N ;
+  jammertag_N : N ;
+  jammertal_N : N ;
+  jawort_N : N ;
+  jeanshose_N : N ;
+  jodeldiplom_N : N ;
+  juckpulver_N : N ;
+  judaskuss_N : N ;
+  judasohr_N : N ;
+  jugendamt_N : N ;
+  jugendbuch_N : N ;
+  jugendfilm_N : N ;
+  jugendsprache_N : N ;
+  jungfernflug_N : N ;
+  junikaefer_N : N ;
+  jupitermond_N : N ;
 }
