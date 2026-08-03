@@ -226,6 +226,21 @@ concrete DictGer of DictGerAbs =
     , aaskraehe_N
     , aasseite_N
     , aasvogel_N
+    , augenaerztin_N
+    , augenarzt_N
+    , augenaufschlag_N
+    , augenentzuendung_N
+    , augenfolie_N
+    , augenglas_N
+    , augeninfektion_N
+    , augenkrankheit_N
+    , augenlid_N
+    , augenlinse_N
+    , augenring_N
+    , augensalbe_N
+    , augenstoerung_N
+    , augenzeuge_N
+    , augenzeugin_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -3594,6 +3609,21 @@ lin aaskaefer_N = mkN aas_N kaefer_N ;
 lin aaskraehe_N = mkN aas_N kraehe_N ;
 lin aasseite_N = mkN aas_N seite_N ;
 lin aasvogel_N = mkN aas_N vogel_N ;
+lin augenaerztin_N = changeCompoundN "Augenärztinnen" (mkN auge_N aerztin_N) ;
+lin augenarzt_N = mkN auge_N arzt_N ;
+lin augenaufschlag_N = mkN auge_N aufschlag_N ;
+lin augenentzuendung_N = mkN auge_N entzuendung_N ;
+lin augenfolie_N = mkN auge_N folie_N ;
+lin augenglas_N = mkN auge_N glas_N ;
+lin augeninfektion_N = mkN auge_N infektion_N ;
+lin augenkrankheit_N = mkN auge_N krankheit_N ;
+lin augenlid_N = mkN auge_N lid_N ;
+lin augenlinse_N = mkN auge_N linse_N ;
+lin augenring_N = mkN auge_N ring_N ;
+lin augensalbe_N = mkN auge_N salbe_N ;
+lin augenstoerung_N = mkN auge_N stoerung_N ;
+lin augenzeuge_N = mkN auge_N zeuge_N ;
+lin augenzeugin_N = changeCompoundN "Augenzeuginnen" (mkN auge_N zeugin_N) ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;

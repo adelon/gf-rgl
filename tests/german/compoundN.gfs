@@ -953,3 +953,19 @@ cc -all aalbutt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalbutt
 cc -all aalquappe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalquappe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalquappe_N.co
 cc -all aalraeucherei_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalraeucherei_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalraeucherei_N.co
 cc -all aalstreif_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aalstreif_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aalstreif_N.co
+cc -all augenaerztin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenaerztin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenaerztin_N.co
+cc -all augenarzt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenarzt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenarzt_N.co
+cc -all augenaufschlag_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenaufschlag_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenaufschlag_N.co
+cc -all augenentzuendung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenentzuendung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenentzuendung_N.co
+cc -all augenfolie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenfolie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenfolie_N.co
+cc -all augenglas_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenglas_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenglas_N.co
+cc -all augeninfektion_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augeninfektion_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augeninfektion_N.co
+cc -all augenkrankheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenkrankheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenkrankheit_N.co
+cc -all augenlid_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenlid_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenlid_N.co
+cc -all augenlinse_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenlinse_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenlinse_N.co
+cc -all augenring_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenring_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenring_N.co
+cc -all augensalbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augensalbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augensalbe_N.co
+cc -all augensalbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augensalbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.accusative ++ augensalbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.dative ++ augensalbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.genitive ++ augensalbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augensalbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.accusative ++ augensalbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.dative ++ augensalbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.genitive ++ augensalbe_N.co
+cc -all augenstoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenstoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenstoerung_N.co
+cc -all augenzeuge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenzeuge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenzeuge_N.co
+cc -all augenzeugin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenzeugin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenzeugin_N.co
