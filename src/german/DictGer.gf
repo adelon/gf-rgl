@@ -1058,6 +1058,18 @@ concrete DictGer of DictGerAbs =
     , einzelwort_N
     , einzelzimmer_N
     , einzimmerwohnung_N
+    , einfachbindung_N
+    , einfachwohnung_N
+    , einmannpackung_N
+    , einradhockey_N
+    , einschaltknopf_N
+    , einschaltquote_N
+    , einschlusskomplex_N
+    , einschlussverbindung_N
+    , einwanderungsland_N
+    , einwegrasierer_N
+    , einwohnermeldeamt_N
+    , eisspatel_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6754,4 +6766,16 @@ lin einzelverb_N = mkN "Einzel" (mkN "Verb" "Verben" neuter) ;
 lin einzelwort_N = mkN "Einzel" (mkN "Wort" "Wörter" "Wort" neuter) ;
 lin einzelzimmer_N = mkN "Einzel" (mkN "Zimmer" "Zimmer" neuter) ;
 lin einzimmerwohnung_N = mkN "Einzimmer" (mkN "Wohnung" "Wohnungen" feminine) ;
+lin einfachbindung_N = mkN "Einfach" (mkN "Bindung" "Bindungen" feminine) ;
+lin einfachwohnung_N = mkN "Einfach" (mkN "Wohnung" "Wohnungen" feminine) ;
+lin einmannpackung_N = mkN "Einmann" (mkN "Packung" "Packungen" feminine) ;
+lin einradhockey_N = mkN "Einrad" (mkN "Hockey" "Hockeys" neuter) ;
+lin einschaltknopf_N = mkN "Einschalt" (mkN "Knopf" "Knöpfe" masculine) ;
+lin einschaltquote_N = mkN "Einschalt" (mkN "Quote" "Quoten" feminine) ;
+lin einschlusskomplex_N = mkN "Einschluss" (mkN "Komplex" "Komplexe" masculine) ;
+lin einschlussverbindung_N = mkN "Einschluß" (mkN "Verbindung" "Verbindungen" feminine) ;
+lin einwanderungsland_N = mkN "Einwanderungs" (mkN "Land" "Länder" neuter) ;
+lin einwegrasierer_N = mkN "Einweg" (mkN "Rasierer" "Rasierer" masculine) ;
+lin einwohnermeldeamt_N = mkN "Einwohner" (mkN "Meldeamt" "Meldeämter" neuter) ;
+lin eisspatel_N = mkN eis_N (mkN "Spatel" "Spatel" masculine) ;
 }

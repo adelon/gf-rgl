@@ -3909,4 +3909,16 @@ fun
   einzelwort_N : N ;
   einzelzimmer_N : N ;
   einzimmerwohnung_N : N ;
+  einfachbindung_N : N ;
+  einfachwohnung_N : N ;
+  einmannpackung_N : N ;
+  einradhockey_N : N ;
+  einschaltknopf_N : N ;
+  einschaltquote_N : N ;
+  einschlusskomplex_N : N ;
+  einschlussverbindung_N : N ;
+  einwanderungsland_N : N ;
+  einwegrasierer_N : N ;
+  einwohnermeldeamt_N : N ;
+  eisspatel_N : N ;
 }
