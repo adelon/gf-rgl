@@ -646,6 +646,13 @@ concrete DictGer of DictGerAbs =
     , denkschrift_N
     , denkweise_N
     , denkzettel_N
+    , dessertbesteck_N
+    , dessertgabel_N
+    , dessertloeffel_N
+    , dessertmesser_N
+    , dessertschaelchen_N
+    , dessertteller_N
+    , dessertwein_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3095,6 +3102,13 @@ lin denkgesetz_N = mkN "Denk" gesetz_N ;
 lin denkschrift_N = mkN "Denk" schrift_N ;
 lin denkweise_N = mkN "Denk" weise_N ;
 lin denkzettel_N = mkN "Denk" zettel_N ;
+lin dessertbesteck_N = mkN "Dessert" besteck_N ;
+lin dessertgabel_N = mkN "Dessert" gabel_N ;
+lin dessertloeffel_N = mkN "Dessert" loeffel_N ;
+lin dessertmesser_N = mkN "Dessert" messer_N ;
+lin dessertschaelchen_N = mkN "Dessert" (mkN "Schälchen" "Schälchen" neuter) ;
+lin dessertteller_N = mkN "Dessert" teller_N ;
+lin dessertwein_N = mkN "Dessert" wein_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

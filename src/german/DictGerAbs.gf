@@ -1754,6 +1754,13 @@ fun
   denkschrift_N : N ;
   denkweise_N : N ;
   denkzettel_N : N ;
+  dessertbesteck_N : N ;
+  dessertgabel_N : N ;
+  dessertloeffel_N : N ;
+  dessertmesser_N : N ;
+  dessertschaelchen_N : N ;
+  dessertteller_N : N ;
+  dessertwein_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
