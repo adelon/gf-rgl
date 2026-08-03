@@ -1843,6 +1843,9 @@ concrete DictGer of DictGerAbs =
     , gefahrenzone_N
     , geizhals_N
     , geizkragen_N
+    , gesellenbrief_N
+    , gesellschaftsspiel_N
+    , gesetzbuch_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3759,6 +3762,9 @@ lin gefaessverletzung_N = mkN "Gefäß" verletzung_N ;
 lin gefahrenzone_N = mkN "Gefahren" zone_N ;
 lin geizhals_N = mkN "Geiz" hals_N ;
 lin geizkragen_N = mkN "Geiz" kragen_N ;
+lin gesellenbrief_N = mkN "Gesellen" brief_N ;
+lin gesellschaftsspiel_N = mkN "Gesellschafts" spiel_N ;
+lin gesetzbuch_N = mkN "Gesetz" buch_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;

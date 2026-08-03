@@ -1140,6 +1140,9 @@ fun
   gefahrenzone_N : N ;
   geizhals_N : N ;
   geizkragen_N : N ;
+  gesellenbrief_N : N ;
+  gesellschaftsspiel_N : N ;
+  gesetzbuch_N : N ;
   gewuerzgurke_N : N ;
   gewuerzmischung_N : N ;
   gewuerznelke_N : N ;
