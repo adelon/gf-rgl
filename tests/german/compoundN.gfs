@@ -1526,6 +1526,17 @@ cc -all fichtensteinpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative +
 cc -all fichtenwaldsaenger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fichtenwaldsaenger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fichtenwaldsaenger_N.co
 cc -all fichtenzapfenruebling__N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fichtenzapfenruebling__N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fichtenzapfenruebling__N.co
 cc -all fieberthermometer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fieberthermometer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fieberthermometer_N.co
+cc -all feilenangel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ feilenangel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ feilenangel_N.co
+cc -all feilenblatt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ feilenblatt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ feilenblatt_N.co
+cc -all feilenheft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ feilenheft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ feilenheft_N.co
+cc -all felgenbremse_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ felgenbremse_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ felgenbremse_N.co
+cc -all felswand_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ felswand_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ felswand_N.co
+cc -all femurfraktur_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ femurfraktur_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ femurfraktur_N.co
+cc -all feriendomizil_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ feriendomizil_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ feriendomizil_N.co
+cc -all feriengebiet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ feriengebiet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ feriengebiet_N.co
+cc -all ferienwohnung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ferienwohnung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ferienwohnung_N.co
+cc -all fermentationsloesung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fermentationsloesung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fermentationsloesung_N.co
+cc -all fermentationsmedium_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fermentationsmedium_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fermentationsmedium_N.co
 cc -all dachdecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dachdecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dachdecker_N.co
 cc -all daemmerstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ daemmerstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ daemmerstunde_N.co
 cc -all dankgebet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dankgebet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dankgebet_N.co

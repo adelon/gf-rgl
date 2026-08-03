@@ -3966,4 +3966,15 @@ fun
   fichtenwaldsaenger_N : N ;
   fichtenzapfenruebling__N : N ;
   fieberthermometer_N : N ;
+  feilenangel_N : N ;
+  feilenblatt_N : N ;
+  feilenheft_N : N ;
+  felgenbremse_N : N ;
+  felswand_N : N ;
+  femurfraktur_N : N ;
+  feriendomizil_N : N ;
+  feriengebiet_N : N ;
+  ferienwohnung_N : N ;
+  fermentationsloesung_N : N ;
+  fermentationsmedium_N : N ;
 }

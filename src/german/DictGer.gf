@@ -1115,6 +1115,17 @@ concrete DictGer of DictGerAbs =
     , fichtenwaldsaenger_N
     , fichtenzapfenruebling__N
     , fieberthermometer_N
+    , feilenangel_N
+    , feilenblatt_N
+    , feilenheft_N
+    , felgenbremse_N
+    , felswand_N
+    , femurfraktur_N
+    , feriendomizil_N
+    , feriengebiet_N
+    , ferienwohnung_N
+    , fermentationsloesung_N
+    , fermentationsmedium_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6868,4 +6879,15 @@ lin fichtensteinpilz_N = mkN "Fichten" (mkN "Steinpilz" "Steinpilze" masculine) 
 lin fichtenwaldsaenger_N = mkN "Fichtenwald" (mkN "Sänger" "Sänger" masculine) ;
 lin fichtenzapfenruebling__N = mkN "Fichtenzapfen" (mkN "Rübling" "Rüblinge" masculine) ;
 lin fieberthermometer_N = mkN fieber_N (mkN "Thermometer" "Thermometer" neuter) ;
+lin feilenangel_N = mkN "Feilen" (mkN "Angel" "Angeln" feminine) ;
+lin feilenblatt_N = mkN "Feilen" (mkN "Blatt" "Blätter" neuter) ;
+lin feilenheft_N = mkN "Feilen" (mkN "Heft" "Hefte" neuter) ;
+lin felgenbremse_N = mkN "Felgen" (mkN "Bremse" "Bremsen" feminine) ;
+lin felswand_N = mkN "Fels" (mkN "Wand" "Wände" feminine) ;
+lin femurfraktur_N = mkN "Femur" (mkN "Fraktur" "Frakturen" feminine) ;
+lin feriendomizil_N = mkN "Ferien" (mkN "Domizil" "Domizile" neuter) ;
+lin feriengebiet_N = mkN "Ferien" (mkN "Gebiet" "Gebiete" neuter) ;
+lin ferienwohnung_N = mkN "Ferien" (mkN "Wohnung" "Wohnungen" feminine) ;
+lin fermentationsloesung_N = mkN "Fermentations" (mkN "Lösung" "Lösungen" feminine) ;
+lin fermentationsmedium_N = mkN "Fermentations" (mkN "Medium" "Medien" neuter) ;
 }
