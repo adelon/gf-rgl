@@ -1146,6 +1146,9 @@ fun
   kind_gottes_CN : CN ;
   leipziger_allerlei_CN : CN ;
   familienschach_N : N ;
+  fechtmaske_N : N ;
+  federrain_N : N ;
+  feenkreis_N : N ;
   fehldiagnose_N : N ;
   fehleinschaetzung_N : N ;
   fehlentscheidung_N : N ;
