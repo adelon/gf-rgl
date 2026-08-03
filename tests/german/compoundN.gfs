@@ -811,3 +811,11 @@ cc -all salzwerker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ salz
 cc -all salzwiese_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ salzwiese_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ salzwiese_N.co
 cc -all salzwirker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ salzwirker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ salzwirker_N.co
 cc -all salzwueste_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ salzwueste_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ salzwueste_N.co
+cc -all saalbau_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalbau_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalbau_N.co
+cc -all saalbuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalbuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalbuch_N.co
+cc -all saalewein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalewein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalewein_N.co
+cc -all saalkirche_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalkirche_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalkirche_N.co
+cc -all saalordner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalordner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalordner_N.co
+cc -all saalschlacht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalschlacht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalschlacht_N.co
+cc -all saaltochter_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saaltochter_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saaltochter_N.co
+cc -all saaltuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saaltuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saaltuer_N.co

@@ -2578,6 +2578,14 @@ concrete DictGer of DictGerAbs =
     , salzwiese_N
     , salzwirker_N
     , salzwueste_N
+    , saalbau_N
+    , saalbuch_N
+    , saalewein_N
+    , saalkirche_N
+    , saalordner_N
+    , saalschlacht_N
+    , saaltochter_N
+    , saaltuer_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5826,4 +5834,12 @@ lin salzwerker_N = mkN salz_N (mkN "Werker" "Werker" masculine) ;
 lin salzwiese_N = mkN salz_N wiese_N ;
 lin salzwirker_N = mkN salz_N (mkN "Wirker" "Wirker" masculine) ;
 lin salzwueste_N = mkN salz_N wueste_N ;
+lin saalbau_N = mkN saal_N (mkN "Bau" "Bauten" masculine) ;
+lin saalbuch_N = mkN saal_N buch_N ;
+lin saalewein_N = mkN "Saale" wein_N ;
+lin saalkirche_N = mkN saal_N kirche_N ;
+lin saalordner_N = mkN saal_N ordner_N ;
+lin saalschlacht_N = mkN saal_N schlacht_N ;
+lin saaltochter_N = mkN saal_N tochter_N ;
+lin saaltuer_N = mkN saal_N tuer_N ;
 }
