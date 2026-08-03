@@ -271,6 +271,21 @@ concrete DictGer of DictGerAbs =
     , fahrzeugfuehrer_N
     , fahrzeugpark_N
     , fahrzeugsaeule_N
+    , fallbeil_N
+    , fallgatter_N
+    , fallrueckzieher_N
+    , fallschirm_N
+    , fallschirmjaeger_N
+    , fallschirmspringer_N
+    , fallschirmspringerin_N
+    , falltuer_N
+    , fallturm_N
+    , falschfahrer_N
+    , falschschreibung_N
+    , faltblatt_N
+    , faltboot_N
+    , faltbuch_N
+    , faltrad_N
     , geschaeftsreise__N
     , maerzrevolution__N
     , sprachoekonomie__N
@@ -3460,4 +3475,19 @@ lin fahrzeug_N = mkN "Fahr" zeug_N ;
 lin fahrzeugfuehrer_N = mkN "Fahrzeug" fuehrer_N ;
 lin fahrzeugpark_N = mkN "Fahrzeug" (mkN "Park" "Parks" masculine) ;
 lin fahrzeugsaeule_N = mkN "Fahrzeug" saeule_N ;
+lin fallbeil_N = mkN "Fall" beil_N ;
+lin fallgatter_N = mkN "Fall" gatter_N ;
+lin fallrueckzieher_N = mkN "Fall" rueckzieher_N ;
+lin fallschirm_N = mkN "Fall" schirm_N ;
+lin fallschirmjaeger_N = mkN "Fallschirm" jaeger_N ;
+lin fallschirmspringer_N = mkN "Fallschirm" springer_N ;
+lin fallschirmspringerin_N = mkN "Fallschirm" (mkN "Springerin" "Springerinnen" feminine) ;
+lin falltuer_N = mkN "Fall" tuer_N ;
+lin fallturm_N = mkN "Fall" turm_N ;
+lin falschfahrer_N = mkN "Falsch" fahrer_N ;
+lin falschschreibung_N = mkN "Falsch" schreibung_N ;
+lin faltblatt_N = mkN "Falt" blatt_N ;
+lin faltboot_N = mkN "Falt" (mkN "Boot" "Boote" neuter) ;
+lin faltbuch_N = mkN "Falt" buch_N ;
+lin faltrad_N = mkN "Falt" rad_N ;
 }
