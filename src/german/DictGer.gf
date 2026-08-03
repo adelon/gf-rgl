@@ -2063,6 +2063,18 @@ concrete DictGer of DictGerAbs =
     , jagdschloss_N
     , ja_nein_frage_N
     , jam_session_N
+    , jakobsberg_N
+    , jakobsbirne_N
+    , jakobsblume_N
+    , jakobsbruder_N
+    , jakobskreuzkraut_N
+    , jakobslachs_N
+    , jakobsleiter_N
+    , jakobslilie_N
+    , jakobsmuschel_N
+    , jakobsstab_N
+    , jakobstaler_N
+    , jakobszwiebel_N
     , janusgesicht_N
     , januskopf_N
     , januswort_N
@@ -4231,6 +4243,18 @@ lin jahrzehnt_N = mkN jahr_N (mkN "Zehnt" "Zehnte" masculine) ;
 lin jagdschloss_N = mkN jagd_N (mkN "Schloss" "Schlösser" neuter) ;
 lin ja_nein_frage_N = mkN "Ja-Nein-Frage" "Ja-Nein-Fragen" "Ja-Nein-Frage" feminine ;
 lin jam_session_N = mkN "Jam-Session" ;
+lin jakobsberg_N = mkN "Jakobs" berg_N ;
+lin jakobsbirne_N = changeCompoundN "Jakobsbirnen" (mkN "Jakobs" birne_N) ;
+lin jakobsblume_N = mkN "Jakobs" blume_N ;
+lin jakobsbruder_N = mkN "Jakobs" bruder_N ;
+lin jakobskreuzkraut_N = mkN "Jakobs" (mkN "Kreuzkraut" "Kreuzkraute" neuter) ;
+lin jakobslachs_N = mkN "Jakobs" lachs_N ;
+lin jakobsleiter_N = mkN "Jakobs" leiter_N ;
+lin jakobslilie_N = mkN "Jakobs" lilie_N ;
+lin jakobsmuschel_N = mkN "Jakobs" muschel_N ;
+lin jakobsstab_N = mkN "Jakobs" stab_N ;
+lin jakobstaler_N = mkN "Jakobs" taler_N ;
+lin jakobszwiebel_N = mkN "Jakobs" zwiebel_N ;
 lin janusgesicht_N = mkN "Janus" (mkN "Gesicht" "Gesichter" neuter) ;
 lin januskopf_N = mkN "Janus" kopf_N ;
 lin januswort_N = mkN "Janus" (mkN "Wort" "Wörter" "Wort" neuter) ;
