@@ -1396,6 +1396,20 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , familienauto_N
+    , familienbetrieb_N
+    , familienchronik_N
+    , familiendrama_N
+    , familienfest_N
+    , familienkutsche_N
+    , familienmensch_N
+    , familienminister_N
+    , familienministerin_N
+    , familienmitglied_N
+    , familienname_N
+    , familiensprache_N
+    , familientragoedie_N
+    , familienvater_N
     , katzenauge_N
     , katzenfell_N
     , katzenfrettfell_N
@@ -2580,6 +2594,20 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin familienauto_N = mkN "Familien" auto_N ;
+lin familienbetrieb_N = mkN "Familien" betrieb_N ;
+lin familienchronik_N = mkN "Familien" chronik_N ;
+lin familiendrama_N = mkN "Familien" drama_N ;
+lin familienfest_N = mkN "Familien" fest_N ;
+lin familienkutsche_N = mkN "Familien" kutsche_N ;
+lin familienmensch_N = mkN "Familien" mensch_N ;
+lin familienminister_N = mkN "Familien" minister_N ;
+lin familienministerin_N = mkN "Familien" ministerin_N ;
+lin familienmitglied_N = mkN "Familien" mitglied_N ;
+lin familienname_N = changeCompoundN "Familiennamen" (mkN "Familien" name_N) ;
+lin familiensprache_N = changeCompoundN "Familiensprachen" (mkN "Familien" sprache_N) ;
+lin familientragoedie_N = mkN "Familien" tragoedie_N ;
+lin familienvater_N = mkN "Familien" vater_N ;
 lin familienschach_N = mkN "Familien" schach_N ;
 lin enfant_terrible_N = changeCompoundN "Enfant-terrible" (mkN "Enfant terrible" "Enfant terrible" "Enfant terrible" "Enfants terribles" "Enfants terribles" "Enfants terribles" neuter) ;
 lin en_passant_Adv = mkAdv "en passant" ;
