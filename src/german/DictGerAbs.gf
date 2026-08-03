@@ -1146,6 +1146,13 @@ fun
   kind_gottes_CN : CN ;
   leipziger_allerlei_CN : CN ;
   familienschach_N : N ;
+  fakturierungswaehrung_N : N ;
+  fanart_N : N ;
+  fanclub_N : N ;
+  fanmeile_N : N ;
+  fantasiezahl_N : N ;
+  fantasyfilm_N : N ;
+  fantasyroman_N : N ;
   fassbier_N : N ;
   fasswein_N : N ;
   faustballer_N : N ;

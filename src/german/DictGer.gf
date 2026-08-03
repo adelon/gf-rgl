@@ -1396,6 +1396,13 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , fakturierungswaehrung_N
+    , fanart_N
+    , fanclub_N
+    , fanmeile_N
+    , fantasiezahl_N
+    , fantasyfilm_N
+    , fantasyroman_N
     , fassbier_N
     , fasswein_N
     , faustballer_N
@@ -2660,6 +2667,13 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin fakturierungswaehrung_N = mkN "Fakturierungs" waehrung_N ;
+lin fanart_N = mkN "Fan" (mkN "Art" "Arts" neuter) ;
+lin fanclub_N = mkN "Fan" club_N ;
+lin fanmeile_N = mkN "Fan" meile_N ;
+lin fantasiezahl_N = mkN "Fantasie" zahl_N ;
+lin fantasyfilm_N = mkN "Fantasy" film_N ;
+lin fantasyroman_N = mkN "Fantasy" roman_N ;
 lin fassbier_N = mkN "Fass" bier_N ;
 lin fasswein_N = mkN "Fass" wein_N ;
 lin faustballer_N = mkN "Faust" (mkN "Baller" "Baller" masculine) ;
