@@ -2634,6 +2634,16 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zuckerbirke_N
+    , zuckerdose_N
+    , zuckereinheit_N
+    , zuckergruppe_N
+    , zuckerhut_N
+    , zuckerkette_N
+    , zuckerloesung_N
+    , zuckerrest_N
+    , zuckerrohr_N
+    , zuckerwuerfel_N
     , zellextrakt_N
     , zellfunktion_N
     , zellkonzentration_N
@@ -6022,6 +6032,16 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zuckerbirke_N = mkN zucker_N birke_N ;
+lin zuckerdose_N = mkN zucker_N dose_N ;
+lin zuckereinheit_N = mkN zucker_N einheit_N ;
+lin zuckergruppe_N = mkN zucker_N gruppe_N ;
+lin zuckerhut_N = mkN zucker_N hut_N ;
+lin zuckerkette_N = mkN zucker_N kette_N ;
+lin zuckerloesung_N = mkN zucker_N loesung_N ;
+lin zuckerrest_N = mkN zucker_N rest_N ;
+lin zuckerrohr_N = mkN zucker_N rohr_N ;
+lin zuckerwuerfel_N = mkN zucker_N wuerfel_N ;
 lin zellextrakt_N = mkN zelle_N extrakt_N ;
 lin zellfunktion_N = mkN zelle_N funktion_N ;
 lin zellkonzentration_N = mkN zelle_N konzentration_N ;

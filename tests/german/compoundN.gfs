@@ -879,6 +879,16 @@ cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_ein
 cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
 cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
 cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co
+cc -all zuckerbirke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerbirke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerbirke_N.co
+cc -all zuckerdose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerdose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerdose_N.co
+cc -all zuckereinheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckereinheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckereinheit_N.co
+cc -all zuckergruppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckergruppe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckergruppe_N.co
+cc -all zuckerhut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerhut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerhut_N.co
+cc -all zuckerkette_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerkette_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerkette_N.co
+cc -all zuckerloesung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerloesung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerloesung_N.co
+cc -all zuckerrest_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerrest_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerrest_N.co
+cc -all zuckerrohr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerrohr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerrohr_N.co
+cc -all zuckerwuerfel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zuckerwuerfel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zuckerwuerfel_N.co
 cc -all zellextrakt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellextrakt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellextrakt_N.co
 cc -all zellfunktion_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellfunktion_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellfunktion_N.co
 cc -all zellkonzentration_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellkonzentration_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellkonzentration_N.co

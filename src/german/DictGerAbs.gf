@@ -2674,6 +2674,16 @@ fun
   x_haken_N : N ;
   y_chromosom_N : N ;
   z_boson_N : N ;
+  zuckerbirke_N : N ;
+  zuckerdose_N : N ;
+  zuckereinheit_N : N ;
+  zuckergruppe_N : N ;
+  zuckerhut_N : N ;
+  zuckerkette_N : N ;
+  zuckerloesung_N : N ;
+  zuckerrest_N : N ;
+  zuckerrohr_N : N ;
+  zuckerwuerfel_N : N ;
   zellextrakt_N : N ;
   zellfunktion_N : N ;
   zellkonzentration_N : N ;
