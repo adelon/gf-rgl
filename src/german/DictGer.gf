@@ -6650,4 +6650,14 @@ lin containerterminal__N = mkN "Container" (mkN "Terminal" "Terminals" masculine
 lin couchtisch_N = mkN "Couch" (mkN "Tisch" "Tische" masculine) ;
 lin crashkurs_N = mkN "Crash" (mkN "Kurs" "Kurse" masculine) ;
 lin cremegrundlage_N = mkN "Creme" (mkN "Grundlage" "Grundlagen" feminine) ;
+lin dienstfahrt_N = mkN "Dienst" (mkN "Fahrt" "Fahrten" feminine) ;
+lin dienstfahrzeug_N = mkN "Dienst" (mkN "Fahrzeug" "Fahrzeuge" neuter) ;
+lin dienstgrad_N = mkN "Dienst" (mkN "Grad" "Grade" masculine) ;
+lin dienstleistung_N = mkN "Dienst" (mkN "Leistung" "Leistungen" feminine) ;
+lin dienstreise_N = mkN "Dienst" (mkN "Reise" "Reisen" feminine) ;
+lin dienststelle_N = mkN "Dienst" (mkN "Stelle" "Stellen" feminine) ;
+lin dienstwagen_N = mkN "Dienst" (mkN "Wagen" "Wagen" masculine) ;
+lin dienstwohnung_N = mkN "Dienst" (mkN "Wohnung" "Wohnungen" feminine) ;
+lin dienstwort_N = mkN "Dienst" (mkN "Wort" "Wörter" neuter) ;
+lin dienstzettel_N = mkN "Dienst" (mkN "Zettel" "Zettel" masculine) ;
 }

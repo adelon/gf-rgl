@@ -3844,4 +3844,14 @@ fun
   couchtisch_N : N ;
   crashkurs_N : N ;
   cremegrundlage_N : N ;
+  dienstfahrt_N : N ;
+  dienstfahrzeug_N : N ;
+  dienstgrad_N : N ;
+  dienstleistung_N : N ;
+  dienstreise_N : N ;
+  dienststelle_N : N ;
+  dienstwagen_N : N ;
+  dienstwohnung_N : N ;
+  dienstwort_N : N ;
+  dienstzettel_N : N ;
 }
