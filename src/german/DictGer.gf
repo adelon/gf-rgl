@@ -1552,6 +1552,24 @@ concrete DictGer of DictGerAbs =
     , fischvergiftung_N
     , fischzuechter_N
     , fischzuechterin_N
+    , flachbildschirm_N
+    , flachbogen_N
+    , flachdach_N
+    , flachetappe_N
+    , flachfeile_N
+    , flachglas_N
+    , flachland_N
+    , flachmoor_N
+    , flachpfeife_N
+    , flachschuss__N
+    , flachwichser_N
+    , flaschenbovist__N
+    , flaschenbuerste_N
+    , flaschenhals_N
+    , flaschenoeffner_N
+    , flaschenstaeubling__N
+    , flaschenwein_N
+    , flaschenzug__N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3009,6 +3027,24 @@ lin fischsuppe_N = mkN "Fisch" suppe_N ;
 lin fischvergiftung_N = mkN "Fisch" vergiftung_N ;
 lin fischzuechter_N = mkN "Fisch" (mkN "Züchter" "Züchter" masculine) ;
 lin fischzuechterin_N = mkN "Fisch" (mkN "Züchterin" "Züchterinnen" feminine) ;
+lin flachbildschirm_N = mkN "Flach" bildschirm_N ;
+lin flachbogen_N = mkN "Flach" (mkN "Bogen" "Bögen" masculine) ;
+lin flachdach_N = mkN "Flach" dach_N ;
+lin flachetappe_N = mkN "Flach" etappe_N ;
+lin flachfeile_N = mkN "Flach" feile_N ;
+lin flachglas_N = mkN "Flach" glas_N ;
+lin flachland_N = mkN "Flach" (mkN "Land" "Länder" neuter) ;
+lin flachmoor_N = mkN "Flach" (mkN "Moor" "Moore" neuter) ;
+lin flachpfeife_N = mkN "Flach" pfeife_N ;
+lin flachschuss__N = mkN "Flach" schuss_N ;
+lin flachwichser_N = mkN "Flach" wichser_N ;
+lin flaschenbovist__N = mkN "Flaschen" (mkN "Bovist" "Boviste" masculine) ;
+lin flaschenbuerste_N = mkN "Flaschen" buerste_N ;
+lin flaschenhals_N = mkN "Flaschen" hals_N ;
+lin flaschenoeffner_N = mkN "Flaschen" oeffner_N ;
+lin flaschenstaeubling__N = mkN "Flaschen" (mkN "Stäubling" "Stäublinge" masculine) ;
+lin flaschenwein_N = mkN "Flaschen" wein_N ;
+lin flaschenzug__N = mkN "Flaschen" zug_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
