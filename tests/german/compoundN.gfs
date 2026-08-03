@@ -1537,6 +1537,15 @@ cc -all feriengebiet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fe
 cc -all ferienwohnung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ferienwohnung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ferienwohnung_N.co
 cc -all fermentationsloesung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fermentationsloesung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fermentationsloesung_N.co
 cc -all fermentationsmedium_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fermentationsmedium_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fermentationsmedium_N.co
+cc -all austernfischer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ austernfischer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ austernfischer_N.co
+cc -all bratfisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bratfisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bratfisch_N.co
+cc -all clownfisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ clownfisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ clownfisch_N.co
+cc -all edelfisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelfisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelfisch_N.co
+cc -all haifisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haifisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haifisch_N.co
+cc -all haifischflosse_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haifischflosse_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haifischflosse_N.co
+cc -all haifischflossensuppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haifischflossensuppe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haifischflossensuppe_N.co
+cc -all knochenfisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ knochenfisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ knochenfisch_N.co
+cc -all meeresfisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ meeresfisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ meeresfisch_N.co
 cc -all dachdecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dachdecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dachdecker_N.co
 cc -all daemmerstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ daemmerstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ daemmerstunde_N.co
 cc -all dankgebet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dankgebet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dankgebet_N.co

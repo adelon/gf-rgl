@@ -3977,4 +3977,13 @@ fun
   ferienwohnung_N : N ;
   fermentationsloesung_N : N ;
   fermentationsmedium_N : N ;
+  austernfischer_N : N ;
+  bratfisch_N : N ;
+  clownfisch_N : N ;
+  edelfisch_N : N ;
+  haifisch_N : N ;
+  haifischflosse_N : N ;
+  haifischflossensuppe_N : N ;
+  knochenfisch_N : N ;
+  meeresfisch_N : N ;
 }

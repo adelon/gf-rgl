@@ -1126,6 +1126,15 @@ concrete DictGer of DictGerAbs =
     , ferienwohnung_N
     , fermentationsloesung_N
     , fermentationsmedium_N
+    , austernfischer_N
+    , bratfisch_N
+    , clownfisch_N
+    , edelfisch_N
+    , haifisch_N
+    , haifischflosse_N
+    , haifischflossensuppe_N
+    , knochenfisch_N
+    , meeresfisch_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6890,4 +6899,13 @@ lin feriengebiet_N = mkN "Ferien" (mkN "Gebiet" "Gebiete" neuter) ;
 lin ferienwohnung_N = mkN "Ferien" (mkN "Wohnung" "Wohnungen" feminine) ;
 lin fermentationsloesung_N = mkN "Fermentations" (mkN "Lösung" "Lösungen" feminine) ;
 lin fermentationsmedium_N = mkN "Fermentations" (mkN "Medium" "Medien" neuter) ;
+lin austernfischer_N = mkN "Austern" (mkN "Fischer" "Fischer" masculine) ;
+lin bratfisch_N = mkN "Brat" (mkN "Fisch" "Fische" masculine) ;
+lin clownfisch_N = mkN "Clown" (mkN "Fisch" "Fische" masculine) ;
+lin edelfisch_N = mkN "Edel" (mkN "Fisch" "Fische" masculine) ;
+lin haifisch_N = mkN "Hai" (mkN "Fisch" "Fische" masculine) ;
+lin haifischflosse_N = mkN "Haifisch" (mkN "Flosse" "Flossen" feminine) ;
+lin haifischflossensuppe_N = mkN "Haifischflossen" (mkN "Suppe" "Suppen" feminine) ;
+lin knochenfisch_N = mkN "Knochen" (mkN "Fisch" "Fische" masculine) ;
+lin meeresfisch_N = mkN "Meeres" (mkN "Fisch" "Fische" masculine) ;
 }
