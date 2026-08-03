@@ -1932,6 +1932,14 @@ concrete DictGer of DictGerAbs =
     , goldwaage_N
     , goldwaescher_N
     , goldzeisig_N
+    , gottesanbeterin_N
+    , gottesbeweis_N
+    , gottesdienst_N
+    , gotteshaus_N
+    , gotteskrieger_N
+    , gotteslaesterung_N
+    , gottesurteil_N
+    , gottkoenig_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3937,6 +3945,14 @@ lin goldnugget_N = mkN "Gold" (mkN "Nugget" "Nuggets" neuter) ;
 lin goldwaage_N = changeCompoundN "Goldwaagen" (mkN "Gold" waage_N) ;
 lin goldwaescher_N = mkN "Gold" (mkN "Wäscher" "Wäscher" masculine) ;
 lin goldzeisig_N = mkN "Gold" zeisig_N ;
+lin gottesanbeterin_N = mkN "Gottes" (mkN "Anbeterin" "Anbeterinnen" feminine) ;
+lin gottesbeweis_N = mkN "Gottes" beweis_N ;
+lin gottesdienst_N = mkN "Gottes" dienst_N ;
+lin gotteshaus_N = mkN "Gottes" haus_N ;
+lin gotteskrieger_N = mkN "Gottes" krieger_N ;
+lin gotteslaesterung_N = changeCompoundN "Gotteslästerungs" (mkN "Gottes" (mkN "Lästerung" "Lästerungen" feminine)) ;
+lin gottesurteil_N = mkN "Gottes" urteil_N ;
+lin gottkoenig_N = mkN "Gott" koenig_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
