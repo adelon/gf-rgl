@@ -3894,4 +3894,19 @@ fun
   eisbrecher_N : N ;
   eiskunstlaeufer_N : N ;
   eiskunstlaeuferin_N : N ;
+  einzelgespraech_N : N ;
+  einzelhaendler_N : N ;
+  einzelhaendlerin_N : N ;
+  einzelkaempfer_N : N ;
+  einzelkette_N : N ;
+  einzelkettenantikoerper_N : N ;
+  einzelkind_N : N ;
+  einzelkomponente_N : N ;
+  einzelsprache_N : N ;
+  einzelunternehmen_N : N ;
+  einzelunternehmer_N : N ;
+  einzelverb_N : N ;
+  einzelwort_N : N ;
+  einzelzimmer_N : N ;
+  einzimmerwohnung_N : N ;
 }

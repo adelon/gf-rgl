@@ -1043,6 +1043,21 @@ concrete DictGer of DictGerAbs =
     , eisbrecher_N
     , eiskunstlaeufer_N
     , eiskunstlaeuferin_N
+    , einzelgespraech_N
+    , einzelhaendler_N
+    , einzelhaendlerin_N
+    , einzelkaempfer_N
+    , einzelkette_N
+    , einzelkettenantikoerper_N
+    , einzelkind_N
+    , einzelkomponente_N
+    , einzelsprache_N
+    , einzelunternehmen_N
+    , einzelunternehmer_N
+    , einzelverb_N
+    , einzelwort_N
+    , einzelzimmer_N
+    , einzimmerwohnung_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6724,4 +6739,19 @@ lin eierstecher_N = mkN "Eier" (mkN "Stecher" "Stecher" masculine) ;
 lin eisbrecher_N = mkN eis_N (mkN "Brecher" "Brecher" masculine) ;
 lin eiskunstlaeufer_N = mkN "Eiskunst" (mkN "Läufer" "Läufer" masculine) ;
 lin eiskunstlaeuferin_N = mkN "Eiskunst" (mkN "Läuferin" "Läuferinnen" feminine) ;
+lin einzelgespraech_N = mkN "Einzel" (mkN "Gespräch" "Gespräche" neuter) ;
+lin einzelhaendler_N = mkN "Einzel" (mkN "Händler" "Händler" masculine) ;
+lin einzelhaendlerin_N = mkN "Einzel" (mkN "Händlerin" "Händlerinnen" feminine) ;
+lin einzelkaempfer_N = mkN "Einzel" (mkN "Kämpfer" "Kämpfer" masculine) ;
+lin einzelkette_N = mkN "Einzel" (mkN "Kette" "Ketten" feminine) ;
+lin einzelkettenantikoerper_N = mkN "Einzelketten" (mkN "Antikörper" "Antikörper" masculine) ;
+lin einzelkind_N = mkN "Einzel" (mkN "Kind" "Kinder" neuter) ;
+lin einzelkomponente_N = mkN "Einzel" (mkN "Komponente" "Komponenten" feminine) ;
+lin einzelsprache_N = mkN "Einzel" (mkN "Sprache" "Sprachen" feminine) ;
+lin einzelunternehmen_N = mkN "Einzel" (mkN "Unternehmen" "Unternehmen" neuter) ;
+lin einzelunternehmer_N = mkN "Einzel" (mkN "Unternehmer" "Unternehmer" masculine) ;
+lin einzelverb_N = mkN "Einzel" (mkN "Verb" "Verben" neuter) ;
+lin einzelwort_N = mkN "Einzel" (mkN "Wort" "Wörter" "Wort" neuter) ;
+lin einzelzimmer_N = mkN "Einzel" (mkN "Zimmer" "Zimmer" neuter) ;
+lin einzimmerwohnung_N = mkN "Einzimmer" (mkN "Wohnung" "Wohnungen" feminine) ;
 }
