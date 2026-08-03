@@ -2674,6 +2674,15 @@ fun
   x_haken_N : N ;
   y_chromosom_N : N ;
   z_boson_N : N ;
+  zeichenfolge_N : N ;
+  zeicheninventar_N : N ;
+  zeichenkette_N : N ;
+  zeichenreihe_N : N ;
+  zeichensetzung_N : N ;
+  zeichensprache_N : N ;
+  zeichensystem_N : N ;
+  zeichentrick_N : N ;
+  zeichentrickfilm_N : N ;
   zahlendreher_N : N ;
   zahlenraum_N : N ;
   zahlensystem_N : N ;

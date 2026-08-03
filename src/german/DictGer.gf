@@ -2634,6 +2634,15 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zeichenfolge_N
+    , zeicheninventar_N
+    , zeichenkette_N
+    , zeichenreihe_N
+    , zeichensetzung_N
+    , zeichensprache_N
+    , zeichensystem_N
+    , zeichentrick_N
+    , zeichentrickfilm_N
     , zahlendreher_N
     , zahlenraum_N
     , zahlensystem_N
@@ -5995,6 +6004,15 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zeichenfolge_N = changeCompoundN "Zeichenfolgen" (mkN zeichen_N folge_N) ;
+lin zeicheninventar_N = mkN zeichen_N inventar_N ;
+lin zeichenkette_N = changeCompoundN "Zeichenketten" (mkN zeichen_N kette_N) ;
+lin zeichenreihe_N = changeCompoundN "Zeichenreihen" (mkN zeichen_N reihe_N) ;
+lin zeichensetzung_N = mkN zeichen_N setzung_N ;
+lin zeichensprache_N = changeCompoundN "Zeichensprachen" (mkN zeichen_N sprache_N) ;
+lin zeichensystem_N = mkN zeichen_N system_N ;
+lin zeichentrick_N = mkN zeichen_N trick_N ;
+lin zeichentrickfilm_N = mkN zeichentrick_N film_N ;
 lin zahlendreher_N = mkN "Zahlen" (mkN "Dreher" "Dreher" masculine) ;
 lin zahlenraum_N = mkN "Zahlen" raum_N ;
 lin zahlensystem_N = mkN "Zahlen" system_N ;

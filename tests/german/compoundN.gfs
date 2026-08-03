@@ -879,6 +879,15 @@ cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_ein
 cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
 cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
 cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co
+cc -all zeichenfolge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichenfolge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichenfolge_N.co
+cc -all zeicheninventar_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeicheninventar_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeicheninventar_N.co
+cc -all zeichenkette_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichenkette_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichenkette_N.co
+cc -all zeichenreihe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichenreihe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichenreihe_N.co
+cc -all zeichensetzung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichensetzung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichensetzung_N.co
+cc -all zeichensprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichensprache_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichensprache_N.co
+cc -all zeichensystem_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichensystem_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichensystem_N.co
+cc -all zeichentrick_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichentrick_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichentrick_N.co
+cc -all zeichentrickfilm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeichentrickfilm_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeichentrickfilm_N.co
 cc -all zahlendreher_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlendreher_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlendreher_N.co
 cc -all zahlenraum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlenraum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlenraum_N.co
 cc -all zahlensystem_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zahlensystem_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zahlensystem_N.co
