@@ -2495,6 +2495,17 @@ concrete DictGer of DictGerAbs =
     , schneeschmelze_N
     , schneeschuh_N
     , schneesturm_N
+    , schlaganfall_N
+    , schlagbaum_N
+    , schlagfluss_N
+    , schlaglicht_N
+    , schlagloch_N
+    , schlagmann_N
+    , schlagseite_N
+    , schlagwoerterbuch_N
+    , schlagwort_N
+    , schlagzeile_N
+    , schlagzeug_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5660,4 +5671,15 @@ lin schneeschippe_N = mkN "Schnee" (mkN "Schippe" "Schippen" feminine) ;
 lin schneeschmelze_N = mkN "Schnee" (mkN "Schmelze" "Schmelzen" feminine) ;
 lin schneeschuh_N = mkN "Schnee" schuh_N ;
 lin schneesturm_N = mkN "Schnee" sturm_N ;
+lin schlaganfall_N = mkN schlag_N anfall_N ;
+lin schlagbaum_N = mkN schlag_N baum_N ;
+lin schlagfluss_N = mkN schlag_N fluss_N ;
+lin schlaglicht_N = mkN schlag_N (mkN "Licht" "Lichter" neuter) ;
+lin schlagloch_N = mkN schlag_N loch_N ;
+lin schlagmann_N = mkN schlag_N (mkN "Mann" "Männer" masculine) ;
+lin schlagseite_N = mkN schlag_N seite_N ;
+lin schlagwoerterbuch_N = mkN schlag_N woerterbuch_N ;
+lin schlagwort_N = mkN schlag_N (mkN "Wort" "Worte" neuter) ;
+lin schlagzeile_N = mkN schlag_N zeile_N ;
+lin schlagzeug_N = mkN schlag_N zeug_N ;
 }

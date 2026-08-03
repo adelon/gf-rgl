@@ -728,3 +728,14 @@ cc -all schneeschippe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ s
 cc -all schneeschmelze_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schneeschmelze_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schneeschmelze_N.co
 cc -all schneeschuh_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schneeschuh_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schneeschuh_N.co
 cc -all schneesturm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schneesturm_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schneesturm_N.co
+cc -all schlaganfall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlaganfall_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlaganfall_N.co
+cc -all schlagbaum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagbaum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagbaum_N.co
+cc -all schlagfluss_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagfluss_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagfluss_N.co
+cc -all schlaglicht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlaglicht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlaglicht_N.co
+cc -all schlagloch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagloch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagloch_N.co
+cc -all schlagmann_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagmann_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagmann_N.co
+cc -all schlagseite_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagseite_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagseite_N.co
+cc -all schlagwoerterbuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagwoerterbuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagwoerterbuch_N.co
+cc -all schlagwort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagwort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagwort_N.co
+cc -all schlagzeile_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagzeile_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagzeile_N.co
+cc -all schlagzeug_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ schlagzeug_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ schlagzeug_N.co
