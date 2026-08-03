@@ -1000,3 +1000,14 @@ cc -all atomkern_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomke
 cc -all atomkrieg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomkrieg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomkrieg_N.co
 cc -all atommasse_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atommasse_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atommasse_N.co
 cc -all atomuhr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ atomuhr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ atomuhr_N.co
+cc -all ad_hoc_kompositum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ad_hoc_kompositum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ad_hoc_kompositum_N.co
+cc -all aserbaidschan_manat_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aserbaidschan_manat_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aserbaidschan_manat_N.co
+cc -all audio_cd_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ audio_cd_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ audio_cd_N.co
+cc -all baden_wuerttemberger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ baden_wuerttemberger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ baden_wuerttemberger_N.co
+cc -all baden_wuerttembergerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ baden_wuerttembergerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ baden_wuerttembergerin_N.co
+cc -all bami_goreng_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bami_goreng_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bami_goreng_N.co
+cc -all bar_mizwa_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bar_mizwa_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bar_mizwa_N.co
+cc -all bass_saenger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bass_saenger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bass_saenger_N.co
+cc -all bass_stimme_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bass_stimme_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bass_stimme_N.co
+cc -all bat_mizwa_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bat_mizwa_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bat_mizwa_N.co
+cc -all beta_version_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ beta_version_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ beta_version_N.co

@@ -6202,4 +6202,15 @@ lin zauberspruch_N = mkN zauber_N spruch_N ;
 lin zaubertrick_N = mkN zauber_N trick_N ;
 lin zauberwort_N = mkN zauber_N wort_N ;
 lin zauberwuerfel_N = mkN zauber_N wuerfel_N ;
+lin ad_hoc_kompositum_N = mkHyphenN "Ad-hoc" (mkN "Kompositum" "Komposita" neuter) ;
+lin aserbaidschan_manat_N = mkHyphenN "Aserbaidschan" (mkN "Manat" "Manats" masculine) ;
+lin audio_cd_N = mkHyphenN "Audio" (mkN "CD" "CDs" feminine) ;
+lin baden_wuerttemberger_N = mkHyphenN "Baden" (mkN "Württemberger" "Württemberger" masculine) ;
+lin baden_wuerttembergerin_N = mkHyphenN "Baden" (mkN "Württembergerin" "Württembergerinnen" feminine) ;
+lin bami_goreng_N = mkHyphenN "Bami" (mkN "goreng" "gorengs" neuter) ;
+lin bar_mizwa_N = mkHyphenN "Bar" (mkN "Mizwa" "Mizwas" masculine) ;
+lin bass_saenger_N = mkHyphenN "Bass" saenger_N ;
+lin bass_stimme_N = mkHyphenN "Bass" stimme_N ;
+lin bat_mizwa_N = mkHyphenN "Bat" (mkN "Mizwa" "Mizwas" feminine) ;
+lin beta_version_N = mkHyphenN "Beta" version_N ;
 }

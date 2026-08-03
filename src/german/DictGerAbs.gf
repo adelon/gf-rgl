@@ -3396,4 +3396,15 @@ fun
   steinlaus_N : N ;
   steinmarder_N : N ;
   steinmarderfell_N : N ;
+  ad_hoc_kompositum_N : N ;
+  aserbaidschan_manat_N : N ;
+  audio_cd_N : N ;
+  baden_wuerttemberger_N : N ;
+  baden_wuerttembergerin_N : N ;
+  bami_goreng_N : N ;
+  bar_mizwa_N : N ;
+  bass_saenger_N : N ;
+  bass_stimme_N : N ;
+  bat_mizwa_N : N ;
+  beta_version_N : N ;
 }
