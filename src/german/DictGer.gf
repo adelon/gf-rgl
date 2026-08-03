@@ -1759,6 +1759,24 @@ concrete DictGer of DictGerAbs =
     , gehirntumorzelle_N
     , gehirnverletzung_N
     , gehirnwaesche_N
+    , geigensaite_N
+    , geigenspieler_N
+    , geigenspielerin_N
+    , geigenstunde_N
+    , geigerzaehler_N
+    , geisterbahn_N
+    , geisterfahrer_N
+    , geisterreich_N
+    , geisterschiff_N
+    , geisterspiel_N
+    , geisterstunde_N
+    , geistertrio_N
+    , geistesblitz_N
+    , geistesgabe_N
+    , geisteskrankheit_N
+    , geistesstoerung_N
+    , geisteswissenschaft_N
+    , geisteszustand_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3423,6 +3441,24 @@ lin gehirnischaemie_N = mkN "Gehirn" ischaemie_N ;
 lin gehirntumorzelle_N = mkN "Gehirn" tumorzelle_N ;
 lin gehirnverletzung_N = mkN "Gehirn" verletzung_N ;
 lin gehirnwaesche_N = mkN "Gehirn" waesche_N ;
+lin geigensaite_N = mkN "Geigen" saite_N ;
+lin geigenspieler_N = mkN "Geigen" spieler_N ;
+lin geigenspielerin_N = mkN "Geigen" spielerin_N ;
+lin geigenstunde_N = mkN "Geigen" stunde_N ;
+lin geigerzaehler_N = mkN "Geiger" zaehler_N ;
+lin geisterbahn_N = mkN "Geister" bahn_N ;
+lin geisterfahrer_N = mkN "Geister" fahrer_N ;
+lin geisterreich_N = mkN "Geister" reich_N ;
+lin geisterschiff_N = mkN "Geister" schiff_N ;
+lin geisterspiel_N = mkN "Geister" spiel_N ;
+lin geisterstunde_N = mkN "Geister" stunde_N ;
+lin geistertrio_N = mkN "Geister" trio_N ;
+lin geistesblitz_N = mkN "Geistes" blitz_N ;
+lin geistesgabe_N = mkN "Geistes" gabe_N ;
+lin geisteskrankheit_N = mkN "Geistes" krankheit_N ;
+lin geistesstoerung_N = mkN "Geistes" stoerung_N ;
+lin geisteswissenschaft_N = mkN "Geistes" wissenschaft_N ;
+lin geisteszustand_N = mkN "Geistes" zustand_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
