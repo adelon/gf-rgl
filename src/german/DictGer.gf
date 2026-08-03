@@ -2006,6 +2006,11 @@ concrete DictGer of DictGerAbs =
     , himmelsbraut_N
     , himmelskoerper_N
     , himmelsrichtung_N
+    , hochgenuss_N
+    , hochmoor_N
+    , hochsommer_N
+    , hochwert_N
+    , hochwald_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4112,6 +4117,11 @@ lin herzwand_N = mkN herz_N wand_N ;
 lin himmelsbraut_N = mkN "Himmels" braut_N ;
 lin himmelskoerper_N = mkN "Himmels" koerper_N ;
 lin himmelsrichtung_N = mkN "Himmels" richtung_N ;
+lin hochgenuss_N = mkN hoch_N genuss_N ;
+lin hochmoor_N = mkN hoch_N moor_N ;
+lin hochsommer_N = mkN hoch_N sommer_N ;
+lin hochwert_N = mkN hoch_N wert_N ;
+lin hochwald_N = mkN hoch_N wald_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
