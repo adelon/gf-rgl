@@ -2634,6 +2634,25 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zahnaerztin_N
+    , zahnarzt_N
+    , zahnbohrer_N
+    , zahnbuerste_N
+    , zahneisen_N
+    , zahnfee_N
+    , zahnformel_N
+    , zahnfries_N
+    , zahnimplantat_N
+    , zahnlaut_N
+    , zahnluecke_N
+    , zahnoberflaeche_N
+    , zahnpaste_N
+    , zahnrad_N
+    , zahnradbahn_N
+    , zahnschmerz_N
+    , zahnspange_N
+    , zahnstocher_N
+    , zahnwurzel_N
     , zauberbuch_N
     , zauberformel_N
     , zauberland_N
@@ -5969,6 +5988,25 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zahnaerztin_N = mkN zahn_N aerztin_N ;
+lin zahnarzt_N = mkN zahn_N arzt_N ;
+lin zahnbohrer_N = mkN zahn_N bohrer_N ;
+lin zahnbuerste_N = mkN zahn_N buerste_N ;
+lin zahneisen_N = mkN zahn_N eisen_N ;
+lin zahnfee_N = mkN zahn_N fee_N ;
+lin zahnformel_N = mkN zahn_N formel_N ;
+lin zahnfries_N = mkN zahn_N fries_N ;
+lin zahnimplantat_N = mkN zahn_N implantat_N ;
+lin zahnlaut_N = mkN zahn_N laut_N ;
+lin zahnluecke_N = mkN zahn_N luecke_N ;
+lin zahnoberflaeche_N = mkN zahn_N oberflaeche_N ;
+lin zahnpaste_N = mkN zahn_N paste_N ;
+lin zahnrad_N = mkN zahn_N rad_N ;
+lin zahnradbahn_N = mkN zahnrad_N bahn_N ;
+lin zahnschmerz_N = mkN zahn_N schmerz_N ;
+lin zahnspange_N = mkN zahn_N (mkN "Spange" "Spangen" feminine) ;
+lin zahnstocher_N = mkN zahn_N (mkN "Stocher" "Stocher" masculine) ;
+lin zahnwurzel_N = mkN zahn_N wurzel_N ;
 lin zauberbuch_N = mkN zauber_N buch_N ;
 lin zauberformel_N = mkN zauber_N formel_N ;
 lin zauberland_N = mkN "Zauber" (mkN "Land" "Länder" neuter) ;
