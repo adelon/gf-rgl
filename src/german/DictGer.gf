@@ -2217,6 +2217,13 @@ concrete DictGer of DictGerAbs =
     , pferdestaerke_N
     , pferdestall_N
     , pferdewurst_N
+    , papierbogen_N
+    , papierflieger_N
+    , papierherstellung_N
+    , papierkorb_N
+    , papiermaske_N
+    , papiertiger_N
+    , papiertuete_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4536,6 +4543,13 @@ lin pferdeschwanz_N = mkN "Pferde" schwanz_N ;
 lin pferdestaerke_N = mkN "Pferde" staerke_N ;
 lin pferdestall_N = mkN "Pferde" stall_N ;
 lin pferdewurst_N = mkN "Pferde" wurst_N ;
+lin papierbogen_N = mkN papier_N (mkN "Bogen" "Bögen" masculine) ;
+lin papierflieger_N = mkN papier_N flieger_N ;
+lin papierherstellung_N = mkN papier_N herstellung_N ;
+lin papierkorb_N = mkN papier_N korb_N ;
+lin papiermaske_N = mkN papier_N maske_N ;
+lin papiertiger_N = mkN papier_N tiger_N ;
+lin papiertuete_N = mkN papier_N tuete_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
