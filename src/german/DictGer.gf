@@ -1506,6 +1506,9 @@ concrete DictGer of DictGerAbs =
     , feuerwerker_N
     , feuerwerkskoerper_N
     , feuerzeug_N
+    , fehleranalyse_N
+    , fehlerprofil_N
+    , fehlerstromschutzschalter_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2917,6 +2920,9 @@ lin feuerwerk_N = mkN "Feuer" werk_N ;
 lin feuerwerker_N = mkN "Feuer" (mkN "Werker" "Werker" masculine) ;
 lin feuerwerkskoerper_N = mkN "Feuerwerks" (mkN "Körper" "Körper" masculine) ;
 lin feuerzeug_N = mkN "Feuer" (mkN "Zeug" "Zeuge" "Zeug" neuter) ;
+lin fehleranalyse_N = mkN "Fehler" analyse_N ;
+lin fehlerprofil_N = mkN "Fehler" profil_N ;
+lin fehlerstromschutzschalter_N = mkN "Fehlerstrom" (mkN "Schutzschalter" "Schutzschalter" masculine) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;

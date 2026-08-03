@@ -1256,6 +1256,9 @@ fun
   feuerwerker_N : N ;
   feuerwerkskoerper_N : N ;
   feuerzeug_N : N ;
+  fehleranalyse_N : N ;
+  fehlerprofil_N : N ;
+  fehlerstromschutzschalter_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;
