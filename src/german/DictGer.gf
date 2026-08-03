@@ -2155,6 +2155,11 @@ concrete DictGer of DictGerAbs =
     , mutterliebe__N
     , muttermal_N
     , muttersprachler_N
+    , magenerkrankung_N
+    , magenkarzinom_N
+    , magenkarzinomzelle_N
+    , magensaeure_N
+    , magensaft_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4412,6 +4417,11 @@ lin mutterlauge_N = mkN "Mutter" lauge_N ;
 lin mutterliebe__N = changeCompoundN "Mutterlieben" (mkN "Mutter" liebe_N) ;
 lin muttermal_N = mkN "Mutter" mal_N ;
 lin muttersprachler_N = mkN "Mutter" (mkN "Sprachler" "Sprachler" masculine) ;
+lin magenerkrankung_N = mkN "Magen" erkrankung_N ;
+lin magenkarzinom_N = mkN "Magen" karzinom_N ;
+lin magenkarzinomzelle_N = mkN "Magen" karzinomzelle_N ;
+lin magensaeure_N = changeCompoundN "Magensäuren" (mkN "Magen" saeure_N) ;
+lin magensaft_N = mkN "Magen" saft_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
