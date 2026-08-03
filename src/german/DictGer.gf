@@ -2083,6 +2083,8 @@ concrete DictGer of DictGerAbs =
     , jubeljahr_N
     , jubelperser_N
     , jubelschrei_N
+    , kahnbein_N
+    , kahnbeinbruch_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4268,6 +4270,8 @@ lin jubelgreis_N = mkN "Jubel" greis_N ;
 lin jubeljahr_N = mkN "Jubel" jahr_N ;
 lin jubelperser_N = mkN "Jubel" perser_N ;
 lin jubelschrei_N = mkN "Jubel" schrei_N ;
+lin kahnbein_N = mkN kahn_N bein_N ;
+lin kahnbeinbruch_N = mkN kahnbein_N bruch_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
