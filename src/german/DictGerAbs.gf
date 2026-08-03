@@ -1742,6 +1742,11 @@ fun
   deckname_N : N ;
   demonstrationsbrett_N : N ;
   demonstrationsschachbrett_N : N ;
+  decarboxylaseinhibitor_N : N ;
+  deklarationstext_N : N ;
+  deklarativsatz_N : N ;
+  dekongestionsmittel_N : N ;
+  demarkationslinie_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

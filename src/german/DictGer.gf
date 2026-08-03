@@ -634,6 +634,11 @@ concrete DictGer of DictGerAbs =
     , deckname_N
     , demonstrationsbrett_N
     , demonstrationsschachbrett_N
+    , decarboxylaseinhibitor_N
+    , deklarationstext_N
+    , deklarativsatz_N
+    , dekongestionsmittel_N
+    , demarkationslinie_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3071,6 +3076,11 @@ lin deckanschrift_N = mkN deck_N anschrift_N ;
 lin deckname_N = changeCompoundN "Decknamen" (mkN deck_N name_N) ;
 lin demonstrationsbrett_N = mkN "Demonstrations" brett_N ;
 lin demonstrationsschachbrett_N = mkN "Demonstrations" schachbrett_N ;
+lin decarboxylaseinhibitor_N = mkN "Decarboxylase" inhibitor_N ;
+lin deklarationstext_N = mkN "Deklarations" text_N ;
+lin deklarativsatz_N = mkN "Deklarativ" satz_N ;
+lin dekongestionsmittel_N = mkN "Dekongestions" mittel_N ;
+lin demarkationslinie_N = mkN "Demarkations" linie_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
