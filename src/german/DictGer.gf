@@ -1957,6 +1957,8 @@ concrete DictGer of DictGerAbs =
     , granatapfelbaum_N
     , graeueltat_N
     , graeuelwort_N
+    , grammatikregel_N
+    , grammatiktheorie_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4014,6 +4016,8 @@ lin granatapfel_N = mkN "Granat" apfel_N ;
 lin granatapfelbaum_N = mkN granatapfel_N baum_N ;
 lin graeueltat_N = mkN graeuel_N tat_N ;
 lin graeuelwort_N = mkN graeuel_N (mkN "Wort" "Wörter" "Wort" neuter) ;
+lin grammatikregel_N = mkN grammatik_N regel_N ;
+lin grammatiktheorie_N = mkN grammatik_N theorie_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
