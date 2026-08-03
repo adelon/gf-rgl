@@ -1446,6 +1446,14 @@ concrete DictGer of DictGerAbs =
     , fernthermometer_N
     , fernverkehr_N
     , fernwaermekraftwerk_N
+    , fernsehapparat_N
+    , fernsehduell_N
+    , fernsehmoderator_N
+    , fernsehroehre_N
+    , fernsehsender_N
+    , fernsehsessel_N
+    , fernsehturm_N
+    , fernsehzuschauer_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2797,6 +2805,14 @@ lin fernsprecher_N = mkN "Fern" (mkN "Sprecher" "Sprecher" masculine) ;
 lin fernthermometer_N = mkN "Fern" (mkN "Thermometer" "Thermometer" neuter) ;
 lin fernverkehr_N = mkN "Fern" verkehr_N ;
 lin fernwaermekraftwerk_N = mkN "Fernwärme" (mkN "Kraftwerk" "Kraftwerke" neuter) ;
+lin fernsehapparat_N = mkN "Fernseh" apparat_N ;
+lin fernsehduell_N = mkN "Fernseh" duell_N ;
+lin fernsehmoderator_N = mkN "Fernseh" moderator_N ;
+lin fernsehroehre_N = mkN "Fernseh" roehre_N ;
+lin fernsehsender_N = mkN "Fernseh" sender_N ;
+lin fernsehsessel_N = mkN "Fernseh" sessel_N ;
+lin fernsehturm_N = mkN "Fernseh" turm_N ;
+lin fernsehzuschauer_N = mkN "Fernseh" zuschauer_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;

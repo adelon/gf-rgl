@@ -1196,6 +1196,14 @@ fun
   fernthermometer_N : N ;
   fernverkehr_N : N ;
   fernwaermekraftwerk_N : N ;
+  fernsehapparat_N : N ;
+  fernsehduell_N : N ;
+  fernsehmoderator_N : N ;
+  fernsehroehre_N : N ;
+  fernsehsender_N : N ;
+  fernsehsessel_N : N ;
+  fernsehturm_N : N ;
+  fernsehzuschauer_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;
