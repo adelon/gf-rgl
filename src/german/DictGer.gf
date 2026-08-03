@@ -2252,6 +2252,8 @@ concrete DictGer of DictGerAbs =
     , stahlrohr_N
     , stahlsaite_N
     , stahltraeger_N
+    , speerwerfer_N
+    , speerwerferin_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4606,6 +4608,8 @@ lin stahlhelm_N = mkN stahl_N helm_N ;
 lin stahlrohr_N = mkN stahl_N rohr_N ;
 lin stahlsaite_N = mkN stahl_N saite_N ;
 lin stahltraeger_N = mkN stahl_N traeger_N ;
+lin speerwerfer_N = mkN speer_N (mkN "Werfer" "Werfer" masculine) ;
+lin speerwerferin_N = mkN speer_N (mkN "Werferin" "Werferinnen" feminine) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
