@@ -1570,6 +1570,12 @@ concrete DictGer of DictGerAbs =
     , flaschenstaeubling__N
     , flaschenwein_N
     , flaschenzug__N
+    , flaechenbombardement_N
+    , flaechenbrand_N
+    , flaecheninhalt_N
+    , flaechenland_N
+    , flaechenmass_N
+    , flaechennutzungsplan_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3045,6 +3051,12 @@ lin flaschenoeffner_N = mkN "Flaschen" oeffner_N ;
 lin flaschenstaeubling__N = mkN "Flaschen" (mkN "Stäubling" "Stäublinge" masculine) ;
 lin flaschenwein_N = mkN "Flaschen" wein_N ;
 lin flaschenzug__N = mkN "Flaschen" zug_N ;
+lin flaechenbombardement_N = mkN "Flächen" bombardement_N ;
+lin flaechenbrand_N = mkN "Flächen" brand_N ;
+lin flaecheninhalt_N = mkN "Flächen" inhalt_N ;
+lin flaechenland_N = mkN "Flächen" (mkN "Land" "Länder" neuter) ;
+lin flaechenmass_N = mkN "Flächen" mass_N ;
+lin flaechennutzungsplan_N = mkN "Flächen" (mkN "Nutzungsplan" "Nutzungspläne" masculine) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;

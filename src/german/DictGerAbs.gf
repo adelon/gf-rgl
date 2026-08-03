@@ -1320,6 +1320,12 @@ fun
   flaschenstaeubling__N : N ;
   flaschenwein_N : N ;
   flaschenzug__N : N ;
+  flaechenbombardement_N : N ;
+  flaechenbrand_N : N ;
+  flaecheninhalt_N : N ;
+  flaechenland_N : N ;
+  flaechenmass_N : N ;
+  flaechennutzungsplan_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;
