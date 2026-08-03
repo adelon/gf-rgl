@@ -1360,6 +1360,16 @@ fun
   fachwelt_N : N ;
   fachwortschatz_N : N ;
   fachzeitschrift_N : N ;
+  fahrbahn_N : N ;
+  fahrkarte_N : N ;
+  fahrplan_N : N ;
+  fahrpreis_N : N ;
+  fahrradreifen_N : N ;
+  fahrradschlauch_N : N ;
+  fahrradweg_N : N ;
+  fahrschule_N : N ;
+  fahrstuhl_N : N ;
+  fahrtenbuch_N : N ;
   geschaeftsreise__N : N ;
   maerzrevolution__N : N ;
   sprachoekonomie__N : N ;

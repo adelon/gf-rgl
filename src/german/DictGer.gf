@@ -249,6 +249,16 @@ concrete DictGer of DictGerAbs =
     , fachwelt_N
     , fachwortschatz_N
     , fachzeitschrift_N
+    , fahrbahn_N
+    , fahrkarte_N
+    , fahrplan_N
+    , fahrpreis_N
+    , fahrradreifen_N
+    , fahrradschlauch_N
+    , fahrradweg_N
+    , fahrschule_N
+    , fahrstuhl_N
+    , fahrtenbuch_N
     , geschaeftsreise__N
     , maerzrevolution__N
     , sprachoekonomie__N
@@ -3416,4 +3426,14 @@ lin fachsprache_N = changeCompoundN "Fachsprachen" (mkN "Fach" sprache_N) ;
 lin fachwelt_N = mkN "Fach" welt_N ;
 lin fachwortschatz_N = mkN "Fach" wortschatz_N ;
 lin fachzeitschrift_N = changeCompoundN "Fachzeitschriften" (mkN "Fach" zeitschrift_N) ;
+lin fahrbahn_N = mkN "Fahr" bahn_N ;
+lin fahrkarte_N = mkN "Fahr" karte_N ;
+lin fahrplan_N = mkN "Fahr" plan_N ;
+lin fahrpreis_N = mkN "Fahr" preis_N ;
+lin fahrradreifen_N = mkN "Fahrrad" reifen_N ;
+lin fahrradschlauch_N = mkN "Fahrrad" schlauch_N ;
+lin fahrradweg_N = mkN "Fahrrad" weg_N ;
+lin fahrschule_N = mkN "Fahr" schule_N ;
+lin fahrstuhl_N = mkN "Fahr" stuhl_N ;
+lin fahrtenbuch_N = mkN "Fahrten" buch_N ;
 }
