@@ -2537,6 +2537,47 @@ concrete DictGer of DictGerAbs =
     , schulwoerterbuch_N
     , schulzeit_N
     , schulzeugnis_N
+    , salzader_N
+    , salzbad_N
+    , salzbergwerk_N
+    , salzbildner_N
+    , salzbrezel_N
+    , salzbroetchen_N
+    , salzdiapir_N
+    , salzdom_N
+    , salzfaesschen_N
+    , salzfass_N
+    , salzform_N
+    , salzgarten_N
+    , salzgehalt_N
+    , salzgurke_N
+    , salzhering_N
+    , salzkartoffel_N
+    , salzkissen_N
+    , salzkonzentration_N
+    , salzkorn_N
+    , salzkruste_N
+    , salzlagerstaette_N
+    , salzlake_N
+    , salzlecke_N
+    , salzloesung_N
+    , salzmandel_N
+    , salzmantel_N
+    , salzmuehle_N
+    , salznapf_N
+    , salzsee_N
+    , salzsieder_N
+    , salzsoeder_N
+    , salzstange_N
+    , salzstock_N
+    , salzstreuer_N
+    , salzteig_N
+    , salztonebene_N
+    , salzwasserfisch_N
+    , salzwerker_N
+    , salzwiese_N
+    , salzwirker_N
+    , salzwueste_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5744,4 +5785,45 @@ lin schulweg_N = mkN schule_N weg_N ;
 lin schulwoerterbuch_N = mkN schule_N woerterbuch_N ;
 lin schulzeit_N = mkN schule_N zeit_N ;
 lin schulzeugnis_N = mkN schule_N zeugnis_N ;
+lin salzader_N = mkN salz_N ader_N ;
+lin salzbad_N = mkN salz_N bad_N ;
+lin salzbergwerk_N = mkN salz_N (mkN "Bergwerk" "Bergwerke" neuter) ;
+lin salzbildner_N = mkN salz_N (mkN "Bildner" "Bildner" masculine) ;
+lin salzbrezel_N = mkN salz_N (mkN "Brezel" "Brezeln" feminine) ;
+lin salzbroetchen_N = mkN salz_N broetchen_N ;
+lin salzdiapir_N = mkN salz_N (mkN "Diapir" "Diapire" masculine) ;
+lin salzdom_N = mkN salz_N dom_N ;
+lin salzfaesschen_N = mkN salz_N (mkN "Fässchen" "Fässchen" neuter) ;
+lin salzfass_N = mkN salz_N fass_N ;
+lin salzform_N = mkN salz_N form_N ;
+lin salzgarten_N = mkN salz_N garten_N ;
+lin salzgehalt_N = mkN salz_N (mkN "Gehalt" "Gehalte" masculine) ;
+lin salzgurke_N = mkN salz_N gurke_N ;
+lin salzhering_N = mkN salz_N hering_N ;
+lin salzkartoffel_N = mkN salz_N kartoffel_N ;
+lin salzkissen_N = mkN salz_N kissen_N ;
+lin salzkonzentration_N = mkN salz_N konzentration_N ;
+lin salzkorn_N = mkN salz_N korn_N ;
+lin salzkruste_N = mkN salz_N (mkN "Kruste" "Krusten" feminine) ;
+lin salzlagerstaette_N = mkN salz_N (mkN "Lagerstätte" "Lagerstätten" feminine) ;
+lin salzlake_N = mkN salz_N lake_N ;
+lin salzlecke_N = mkN salz_N (mkN "Lecke" "Lecken" feminine) ;
+lin salzloesung_N = mkN salz_N loesung_N ;
+lin salzmandel_N = mkN salz_N mandel_N ;
+lin salzmantel_N = mkN salz_N mantel_N ;
+lin salzmuehle_N = changeCompoundN "Salzmühlen" (mkN salz_N muehle_N) ;
+lin salznapf_N = mkN salz_N napf_N ;
+lin salzsee_N = changeCompoundN "Salzseen" (mkN salz_N see_N) ;
+lin salzsieder_N = mkN salz_N (mkN "Sieder" "Sieder" masculine) ;
+lin salzsoeder_N = mkN salz_N (mkN "Söder" "Söder" masculine) ;
+lin salzstange_N = mkN salz_N stange_N ;
+lin salzstock_N = mkN salz_N (mkN "Stock" "Stöcke" masculine) ;
+lin salzstreuer_N = mkN salz_N (mkN "Streuer" "Streuer" masculine) ;
+lin salzteig_N = mkN salz_N teig_N ;
+lin salztonebene_N = mkN salz_N (mkN "Tonebene" "Tonebenen" feminine) ;
+lin salzwasserfisch_N = mkN "Salzwasser" fisch_N ;
+lin salzwerker_N = mkN salz_N (mkN "Werker" "Werker" masculine) ;
+lin salzwiese_N = mkN salz_N wiese_N ;
+lin salzwirker_N = mkN salz_N (mkN "Wirker" "Wirker" masculine) ;
+lin salzwueste_N = mkN salz_N wueste_N ;
 }
