@@ -1886,6 +1886,10 @@ concrete DictGer of DictGerAbs =
     , gleichgewicht_N
     , gleichgewichtsstoerung_N
     , gleichheitsrecht_N
+    , gleichsetzungsakkusativ_N
+    , gleichsetzungsnominativ_N
+    , gleichstrom_N
+    , gleichungssystem_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3845,6 +3849,10 @@ lin glaubensrichtung_N = mkN "Glaubens" richtung_N ;
 lin gleichgewicht_N = mkN "Gleich" gewicht_N ;
 lin gleichgewichtsstoerung_N = mkN "Gleichgewichts" stoerung_N ;
 lin gleichheitsrecht_N = mkN "Gleichheits" recht_N ;
+lin gleichsetzungsakkusativ_N = mkN "Gleichsetzungs" akkusativ_N ;
+lin gleichsetzungsnominativ_N = mkN "Gleichsetzungs" nominativ_N ;
+lin gleichstrom_N = mkN "Gleich" strom_N ;
+lin gleichungssystem_N = mkN "Gleichungs" system_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
