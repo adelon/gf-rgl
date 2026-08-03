@@ -2586,6 +2586,11 @@ concrete DictGer of DictGerAbs =
     , saalschlacht_N
     , saaltochter_N
     , saaltuer_N
+    , saeugerart_N
+    , saeugerwirtszelle_N
+    , saeugerzelle_N
+    , saeugerzellinie_N
+    , saeugerzelllinie_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5842,4 +5847,9 @@ lin saalordner_N = mkN saal_N ordner_N ;
 lin saalschlacht_N = mkN saal_N schlacht_N ;
 lin saaltochter_N = mkN saal_N tochter_N ;
 lin saaltuer_N = mkN saal_N tuer_N ;
+lin saeugerart_N = mkN saeuger_N art_N ;
+lin saeugerwirtszelle_N = changeCompoundN "Säugerwirtszellen" (mkN saeuger_N wirtszelle_N) ;
+lin saeugerzelle_N = mkN saeuger_N zelle_N ;
+lin saeugerzellinie_N = mkN saeuger_N zellinie_N ;
+lin saeugerzelllinie_N = mkN saeuger_N zelllinie_N ;
 }

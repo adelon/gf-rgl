@@ -819,3 +819,8 @@ cc -all saalordner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saal
 cc -all saalschlacht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saalschlacht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saalschlacht_N.co
 cc -all saaltochter_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saaltochter_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saaltochter_N.co
 cc -all saaltuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saaltuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saaltuer_N.co
+cc -all saeugerart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerart_N.co
+cc -all saeugerwirtszelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerwirtszelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerwirtszelle_N.co
+cc -all saeugerzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerzelle_N.co
+cc -all saeugerzellinie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerzellinie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerzellinie_N.co
+cc -all saeugerzelllinie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ saeugerzelllinie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ saeugerzelllinie_N.co

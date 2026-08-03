@@ -1881,6 +1881,11 @@ fun
   radiokohlenstoffdatierung_N : N ;
   rotwein_N : N ;
   saegerau_A : A ;
+  saeugerart_N : N ;
+  saeugerwirtszelle_N : N ;
+  saeugerzelle_N : N ;
+  saeugerzellinie_N : N ;
+  saeugerzelllinie_N : N ;
   schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;
