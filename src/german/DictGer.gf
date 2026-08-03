@@ -2160,6 +2160,14 @@ concrete DictGer of DictGerAbs =
     , magenkarzinomzelle_N
     , magensaeure_N
     , magensaft_N
+    , manndecker_N
+    , manndeckung_N
+    , manneskraft_N
+    , mannjahr_N
+    , mannschaftskapitaen_N
+    , mannschaftsspiel_N
+    , mannstreu_N
+    , mannweib_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4422,6 +4430,14 @@ lin magenkarzinom_N = mkN "Magen" karzinom_N ;
 lin magenkarzinomzelle_N = mkN "Magen" karzinomzelle_N ;
 lin magensaeure_N = changeCompoundN "Magensäuren" (mkN "Magen" saeure_N) ;
 lin magensaft_N = mkN "Magen" saft_N ;
+lin manndecker_N = mkN "Mann" (mkN "Decker" "Decker" masculine) ;
+lin manndeckung_N = mkN "Mann" (mkN "Deckung" "Deckungen" feminine) ;
+lin manneskraft_N = mkN "Mannes" kraft_N ;
+lin mannjahr_N = mkN "Mann" jahr_N ;
+lin mannschaftskapitaen_N = mkN "Mannschafts" kapitaen_N ;
+lin mannschaftsspiel_N = mkN "Mannschafts" spiel_N ;
+lin mannstreu_N = mkN "Mann" (mkN "Streu" "Streue" "Streu" masculine) ;
+lin mannweib_N = mkN "Mann" (mkN "Weib" "Weiber" neuter) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
