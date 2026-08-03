@@ -1780,6 +1780,13 @@ fun
   eckpunkt_N : N ;
   effektorfunktion_N : N ;
   effektorgruppe_N : N ;
+  einnahmequelle_N : N ;
+  einsatzgebiet_N : N ;
+  einsatzleiter_N : N ;
+  einsatzmaterial_N : N ;
+  einwohnerzahl_N : N ;
+  einzahl_N : N ;
+  einzelteil_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

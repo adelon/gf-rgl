@@ -889,9 +889,16 @@ concrete DictGer of DictGerAbs =
     , eigenviskositaet_N
     , einbahnstrasse_N
     , einblatt_N
+    , einnahmequelle_N
     , einfamilienhaus_N
     , einhorn_N
     , einraumwohnung_N
+    , einsatzgebiet_N
+    , einsatzleiter_N
+    , einsatzmaterial_N
+    , einwohnerzahl_N
+    , einzahl_N
+    , einzelteil_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -3324,4 +3331,11 @@ lin datenverarbeitung_N = mkN "Daten" (mkN "Verarbeitung" "Verarbeitungen" femin
 lin deformationsgeschwindigkeit_N = mkN "Deformations" geschwindigkeit_N ;
 lin deformationsgradient_N = mkN "Deformations" gradient_N ;
 lin dehnungsfuge_N = mkN dehnung_N fuge_N ;
+lin einnahmequelle_N = changeCompoundN "Einnahmequellen" (mkN einnahme_N quelle_N) ;
+lin einsatzgebiet_N = mkN einsatz_N gebiet_N ;
+lin einsatzleiter_N = mkN einsatz_N (mkN "Leiter" "Leiter" masculine) ;
+lin einsatzmaterial_N = mkN einsatz_N material_N ;
+lin einwohnerzahl_N = mkN einwohner_N zahl_N ;
+lin einzahl_N = mkN "Ein" zahl_N ;
+lin einzelteil_N = mkN einzel_N teil_N ;
 }
