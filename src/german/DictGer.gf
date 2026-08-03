@@ -2148,6 +2148,13 @@ concrete DictGer of DictGerAbs =
     , maerchengestalt_N
     , maerchenonkel_N
     , maerchenwesen_N
+    , mutterbohrer_N
+    , muttergewinde_N
+    , mutterkorn_N
+    , mutterlauge_N
+    , mutterliebe__N
+    , muttermal_N
+    , muttersprachler_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4398,6 +4405,13 @@ lin maerchenfigur_N = mkN "Märchen" figur_N ;
 lin maerchengestalt_N = mkN "Märchen" gestalt_N ;
 lin maerchenonkel_N = mkN "Märchen" onkel_N ;
 lin maerchenwesen_N = mkN "Märchen" wesen_N ;
+lin mutterbohrer_N = mkN "Mutter" bohrer_N ;
+lin muttergewinde_N = mkN "Mutter" gewinde_N ;
+lin mutterkorn_N = mkN "Mutter" korn_N ;
+lin mutterlauge_N = mkN "Mutter" lauge_N ;
+lin mutterliebe__N = mkN "Mutter" liebe_N ;
+lin muttermal_N = mkN "Mutter" mal_N ;
+lin muttersprachler_N = mkN "Mutter" (mkN "Sprachler" "Sprachler" masculine) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
