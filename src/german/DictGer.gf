@@ -241,6 +241,17 @@ concrete DictGer of DictGerAbs =
     , augenstoerung_N
     , augenzeuge_N
     , augenzeugin_N
+    , autoantigen_N
+    , autoantikoerper_N
+    , autobahn_N
+    , autobesitzer_N
+    , autobombe_N
+    , autofahrer_N
+    , autofahrerin_N
+    , autohaus_N
+    , autoindustrie_N
+    , autokennzeichen_N
+    , autokino_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -3624,6 +3635,17 @@ lin augensalbe_N = mkN auge_N salbe_N ;
 lin augenstoerung_N = mkN auge_N stoerung_N ;
 lin augenzeuge_N = mkN auge_N zeuge_N ;
 lin augenzeugin_N = changeCompoundN "Augenzeuginnen" (mkN auge_N zeugin_N) ;
+lin autoantigen_N = mkN auto_N antigen_N ;
+lin autoantikoerper_N = mkN auto_N antikoerper_N ;
+lin autobahn_N = mkN auto_N bahn_N ;
+lin autobesitzer_N = mkN auto_N besitzer_N ;
+lin autobombe_N = mkN auto_N bombe_N ;
+lin autofahrer_N = mkN auto_N fahrer_N ;
+lin autofahrerin_N = changeCompoundN "Autofahrerinnen" (mkN auto_N fahrerin_N) ;
+lin autohaus_N = mkN auto_N haus_N ;
+lin autoindustrie_N = changeCompoundN "Autoindustrie" (mkN auto_N industrie_N) ;
+lin autokennzeichen_N = mkN auto_N kennzeichen_N ;
+lin autokino_N = mkN auto_N kino_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;

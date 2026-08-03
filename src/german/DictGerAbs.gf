@@ -773,6 +773,17 @@ fun
   augenstoerung_N : N ;
   augenzeuge_N : N ;
   augenzeugin_N : N ;
+  autoantigen_N : N ;
+  autoantikoerper_N : N ;
+  autobahn_N : N ;
+  autobesitzer_N : N ;
+  autobombe_N : N ;
+  autofahrer_N : N ;
+  autofahrerin_N : N ;
+  autohaus_N : N ;
+  autoindustrie_N : N ;
+  autokennzeichen_N : N ;
+  autokino_N : N ;
   abstossungsreaktion_N : N ;
   a_battuta_Adv : Adv ;
   a_cappella_Adv : Adv ;

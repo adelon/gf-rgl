@@ -969,3 +969,14 @@ cc -all augensalbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ auge
 cc -all augenstoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenstoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenstoerung_N.co
 cc -all augenzeuge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenzeuge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenzeuge_N.co
 cc -all augenzeugin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ augenzeugin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ augenzeugin_N.co
+cc -all autoantigen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autoantigen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autoantigen_N.co
+cc -all autoantikoerper_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autoantikoerper_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autoantikoerper_N.co
+cc -all autobahn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahn_N.co
+cc -all autobesitzer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobesitzer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobesitzer_N.co
+cc -all autobombe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobombe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobombe_N.co
+cc -all autofahrer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autofahrer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autofahrer_N.co
+cc -all autofahrerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autofahrerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autofahrerin_N.co
+cc -all autohaus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autohaus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autohaus_N.co
+cc -all autoindustrie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autoindustrie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autoindustrie_N.co
+cc -all autokennzeichen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autokennzeichen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autokennzeichen_N.co
+cc -all autokino_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autokino_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autokino_N.co
