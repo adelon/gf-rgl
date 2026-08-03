@@ -6660,4 +6660,14 @@ lin dienstwagen_N = mkN "Dienst" (mkN "Wagen" "Wagen" masculine) ;
 lin dienstwohnung_N = mkN "Dienst" (mkN "Wohnung" "Wohnungen" feminine) ;
 lin dienstwort_N = mkN "Dienst" (mkN "Wort" "Wörter" neuter) ;
 lin dienstzettel_N = mkN "Dienst" (mkN "Zettel" "Zettel" masculine) ;
+lin dosenlocher_N = mkN "Dosen" (mkN "Locher" "Locher" masculine) ;
+lin dosenoeffner_N = mkN "Dosen" (mkN "Öffner" "Öffner" masculine) ;
+lin dosenstecher_N = mkN "Dosen" (mkN "Stecher" "Stecher" masculine) ;
+lin dosensuppe_N = mkN "Dosen" (mkN "Suppe" "Suppen" feminine) ;
+lin dosierinhalator_N = mkN "Dosier" (mkN "Inhalator" "Inhalatoren" masculine) ;
+lin dosierungseinheit_N = mkN "Dosierungs" (mkN "Einheit" "Einheiten" feminine) ;
+lin dosierungseinheitsform_N = mkN "Dosierungseinheits" (mkN "Form" "Formen" feminine) ;
+lin dosierungsform_N = mkN "Dosierungs" (mkN "Form" "Formen" feminine) ;
+lin dosierungsmenge_N = mkN "Dosierungs" (mkN "Menge" "Mengen" feminine) ;
+lin dosierventil_N = mkN "Dosier" (mkN "Ventil" "Ventile" neuter) ;
 }

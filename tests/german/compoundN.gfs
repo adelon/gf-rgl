@@ -1382,6 +1382,16 @@ cc -all dienstwagen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ die
 cc -all dienstwohnung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dienstwohnung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dienstwohnung_N.co
 cc -all dienstwort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dienstwort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dienstwort_N.co
 cc -all dienstzettel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dienstzettel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dienstzettel_N.co
+cc -all dosenlocher_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosenlocher_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosenlocher_N.co
+cc -all dosenoeffner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosenoeffner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosenoeffner_N.co
+cc -all dosenstecher_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosenstecher_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosenstecher_N.co
+cc -all dosensuppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosensuppe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosensuppe_N.co
+cc -all dosierinhalator_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierinhalator_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierinhalator_N.co
+cc -all dosierungseinheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierungseinheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierungseinheit_N.co
+cc -all dosierungseinheitsform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierungseinheitsform_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierungseinheitsform_N.co
+cc -all dosierungsform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierungsform_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierungsform_N.co
+cc -all dosierungsmenge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierungsmenge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierungsmenge_N.co
+cc -all dosierventil_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierventil_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierventil_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co

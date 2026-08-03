@@ -3854,4 +3854,14 @@ fun
   dienstwohnung_N : N ;
   dienstwort_N : N ;
   dienstzettel_N : N ;
+  dosenlocher_N : N ;
+  dosenoeffner_N : N ;
+  dosenstecher_N : N ;
+  dosensuppe_N : N ;
+  dosierinhalator_N : N ;
+  dosierungseinheit_N : N ;
+  dosierungseinheitsform_N : N ;
+  dosierungsform_N : N ;
+  dosierungsmenge_N : N ;
+  dosierventil_N : N ;
 }
