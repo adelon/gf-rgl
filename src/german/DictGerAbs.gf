@@ -1514,6 +1514,9 @@ fun
   gedaechtniskirche_N : N ;
   gedaechtnisstoerung_N : N ;
   gedaechtnisstuetze_N : N ;
+  gedenkminute_N : N ;
+  gedenkmuenze_N : N ;
+  gedenktag_N : N ;
   gegenangriff_N : N ;
   gegenbeweis_N : N ;
   gegenfahrbahn_N : N ;

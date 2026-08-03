@@ -1727,6 +1727,9 @@ concrete DictGer of DictGerAbs =
     , gedaechtniskirche_N
     , gedaechtnisstoerung_N
     , gedaechtnisstuetze_N
+    , gedenkminute_N
+    , gedenkmuenze_N
+    , gedenktag_N
     , gegenangriff_N
     , gegenbeweis_N
     , gegenfahrbahn_N
@@ -3674,6 +3677,9 @@ lin gedaechtnisfunktionsstoerung_N = mkN "Gedächtnisfunktions" stoerung_N ;
 lin gedaechtniskirche_N = mkN "Gedächtnis" kirche_N ;
 lin gedaechtnisstoerung_N = mkN "Gedächtnis" stoerung_N ;
 lin gedaechtnisstuetze_N = mkN "Gedächtnis" stuetze_N ;
+lin gedenkminute_N = mkN "Gedenk" minute_N ;
+lin gedenkmuenze_N = mkN "Gedenk" muenze_N ;
+lin gedenktag_N = mkN "Gedenk" tag_N ;
 lin gummihandschuh_N = mkN "Gummi" handschuh_N ;
 lin gummibaer_N = mkN "Gummi" baer_N ;
 lin gummibaum_N = mkN "Gummi" baum_N ;
