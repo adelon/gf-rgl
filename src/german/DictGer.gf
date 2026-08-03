@@ -2254,6 +2254,22 @@ concrete DictGer of DictGerAbs =
     , stahltraeger_N
     , speerwerfer_N
     , speerwerferin_N
+    , sonnenaufgang_N
+    , sonnenbad_N
+    , sonnenbank_N
+    , sonnenblatt_N
+    , sonnenblume_N
+    , sonnenbrille_N
+    , sonnenliege_N
+    , sonnenoel_N
+    , sonnenschirm_N
+    , sonnenschutzmittel_N
+    , sonnenstich_N
+    , sonnenstrahl_N
+    , sonnensturm_N
+    , sonnensystem_N
+    , sonnentag_N
+    , sonnenuhr_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4610,6 +4626,22 @@ lin stahlsaite_N = mkN stahl_N saite_N ;
 lin stahltraeger_N = mkN stahl_N traeger_N ;
 lin speerwerfer_N = mkN speer_N (mkN "Werfer" "Werfer" masculine) ;
 lin speerwerferin_N = mkN speer_N (mkN "Werferin" "Werferinnen" feminine) ;
+lin sonnenaufgang_N = mkN sonne_N aufgang_N ;
+lin sonnenbad_N = mkN sonne_N bad_N ;
+lin sonnenbank_N = mkN sonne_N bank_N ;
+lin sonnenblatt_N = mkN sonne_N blatt_N ;
+lin sonnenblume_N = mkN sonne_N blume_N ;
+lin sonnenbrille_N = mkN sonne_N brille_N ;
+lin sonnenliege_N = mkN sonne_N liege_N ;
+lin sonnenoel_N = mkN sonne_N oel_N ;
+lin sonnenschirm_N = mkN sonne_N schirm_N ;
+lin sonnenschutzmittel_N = mkN sonne_N schutzmittel_N ;
+lin sonnenstich_N = mkN sonne_N stich_N ;
+lin sonnenstrahl_N = mkN sonne_N strahl_N ;
+lin sonnensturm_N = mkN sonne_N sturm_N ;
+lin sonnensystem_N = mkN sonne_N system_N ;
+lin sonnentag_N = mkN sonne_N tag_N ;
+lin sonnenuhr_N = mkN sonne_N uhr_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
