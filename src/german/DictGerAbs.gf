@@ -3921,4 +3921,14 @@ fun
   einwegrasierer_N : N ;
   einwohnermeldeamt_N : N ;
   eisspatel_N : N ;
+  fahrdienstleiter_N : N ;
+  fahrdienstleiterin_N : N ;
+  fahrdynamik_N : N ;
+  fallblaettchen_N : N ;
+  faltentintling__N : N ;
+  farnesylproteintransferaseinhibitor_N : N ;
+  fastenspeise_N : N ;
+  favoritenschreck_N : N ;
+  feigenbaum_N : N ;
+  feigenblatt_N : N ;
 }

@@ -1070,6 +1070,16 @@ concrete DictGer of DictGerAbs =
     , einwegrasierer_N
     , einwohnermeldeamt_N
     , eisspatel_N
+    , fahrdienstleiter_N
+    , fahrdienstleiterin_N
+    , fahrdynamik_N
+    , fallblaettchen_N
+    , faltentintling__N
+    , farnesylproteintransferaseinhibitor_N
+    , fastenspeise_N
+    , favoritenschreck_N
+    , feigenbaum_N
+    , feigenblatt_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6778,4 +6788,14 @@ lin einwanderungsland_N = mkN "Einwanderungs" (mkN "Land" "Länder" neuter) ;
 lin einwegrasierer_N = mkN "Einweg" (mkN "Rasierer" "Rasierer" masculine) ;
 lin einwohnermeldeamt_N = mkN "Einwohner" (mkN "Meldeamt" "Meldeämter" neuter) ;
 lin eisspatel_N = mkN eis_N (mkN "Spatel" "Spatel" masculine) ;
+lin fahrdienstleiter_N = mkN "Fahrdienst" (mkN "Leiter" "Leiter" masculine) ;
+lin fahrdienstleiterin_N = mkN "Fahrdienst" (mkN "Leiterin" "Leiterinnen" feminine) ;
+lin fahrdynamik_N = mkN "Fahr" (mkN "Dynamik" "Dynamiken" feminine) ;
+lin fallblaettchen_N = mkN "Fall" (mkN "Blättchen" "Blättchen" neuter) ;
+lin faltentintling__N = mkN "Falten" (mkN "Tintling" "Tintlinge" masculine) ;
+lin farnesylproteintransferaseinhibitor_N = mkN "Farnesylproteintransferase" (mkN "Inhibitor" "Inhibitoren" masculine) ;
+lin fastenspeise_N = mkN "Fasten" (mkN "Speise" "Speisen" feminine) ;
+lin favoritenschreck_N = mkN "Favoriten" (mkN "Schreck" "Schrecke" masculine) ;
+lin feigenbaum_N = mkN "Feigen" (mkN "Baum" "Bäume" masculine) ;
+lin feigenblatt_N = mkN "Feigen" (mkN "Blatt" "Blätter" neuter) ;
 }
