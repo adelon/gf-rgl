@@ -1958,14 +1958,24 @@ concrete DictGer of DictGerAbs =
     , grenzwert_N
     , grossbuchstabe_N
     , grossfamilie_N
+    , grossherzogtum_N
     , grosskatze_N
     , grossmarkt_N
     , grossmaul_N
     , grossmutter_N
     , grossneffe_N
     , grossnichte_N
+    , grossonkel_N
+    , grosspferd_N
+    , grossraum_N
+    , grossrechner_N
+    , grosssprecher_N
     , grossstadt_N
+    , grosssteingrab_N
+    , grosstante_N
     , grossteil_N
+    , grossvater_N
+    , grossverband_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3997,14 +4007,24 @@ lin grenzuebergang_N = mkN grenze_N uebergang_N ;
 lin grenzwert_N = mkN grenze_N wert_N ;
 lin grossbuchstabe_N = mkN "Groß" buchstabe_N ;
 lin grossfamilie_N = mkN "Groß" familie_N ;
+lin grossherzogtum_N = mkN "Groß" (mkN "Herzogtum" "Herzogtümer" neuter) ;
 lin grosskatze_N = mkN "Groß" katze_N ;
 lin grossmarkt_N = mkN "Groß" markt_N ;
 lin grossmaul_N = mkN "Groß" (mkN "Maul" "Mäuler" neuter) ;
 lin grossmutter_N = mkN "Groß" mutter_N ;
 lin grossneffe_N = mkN "Groß" (mkN "Neffe" "Neffen" masculine) ;
 lin grossnichte_N = mkN "Groß" (mkN "Nichte" "Nichten" feminine) ;
+lin grossonkel_N = mkN "Groß" (mkN "Onkel" "Onkel" masculine) ;
+lin grosspferd_N = mkN "Groß" (mkN "Pferd" "Pferde" neuter) ;
+lin grossraum_N = mkN "Groß" raum_N ;
+lin grossrechner_N = mkN "Groß" (mkN "Rechner" "Rechner" masculine) ;
+lin grosssprecher_N = mkN "Groß" (mkN "Sprecher" "Sprecher" masculine) ;
 lin grossstadt_N = mkN "Groß" stadt_N ;
+lin grosssteingrab_N = mkN "Groß" (mkN "Steingrab" "Steingräber" neuter) ;
+lin grosstante_N = mkN "Groß" (mkN "Tante" "Tanten" feminine) ;
 lin grossteil_N = mkN "Groß" teil_N ;
+lin grossvater_N = mkN "Groß" vater_N ;
+lin grossverband_N = mkN "Groß" (mkN "Verband" "Verbände" masculine) ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
