@@ -2451,6 +2451,18 @@ concrete DictGer of DictGerAbs =
     , hydroxylgruppensubstituent_N
     , hydroxylysine_N
     , hydroxymethylpropylcellulose_N
+    , schiffbruch_N
+    , schiffbruecke_N
+    , schifferpruefung_N
+    , schifferschule_N
+    , schiffsarzt_N
+    , schiffsbauch_N
+    , schiffsbruecke_N
+    , schiffskoch_N
+    , schiffskueche_N
+    , schiffsreise_N
+    , schiffsschraube_N
+    , schiffsunglueck_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5572,4 +5584,16 @@ lin faltblatt_N = mkN "Falt" blatt_N ;
 lin faltboot_N = mkN "Falt" (mkN "Boot" "Boote" neuter) ;
 lin faltbuch_N = mkN "Falt" buch_N ;
 lin faltrad_N = mkN "Falt" rad_N ;
+lin schiffbruch_N = mkN "Schiff" bruch_N ;
+lin schiffbruecke_N = changeCompoundN "Schiffbrücken" (mkN "Schiff" bruecke_N) ;
+lin schifferpruefung_N = changeCompoundN "Schifferprüfungs" (mkN "Schiffer" pruefung_N) ;
+lin schifferschule_N = changeCompoundN "Schifferschulen" (mkN "Schiffer" schule_N) ;
+lin schiffsarzt_N = mkN "Schiffs" arzt_N ;
+lin schiffsbauch_N = mkN "Schiffs" bauch_N ;
+lin schiffsbruecke_N = changeCompoundN "Schiffsbrücken" (mkN "Schiffs" bruecke_N) ;
+lin schiffskoch_N = mkN "Schiffs" koch_N ;
+lin schiffskueche_N = changeCompoundN "Schiffsküchen" (mkN "Schiffs" kueche_N) ;
+lin schiffsreise_N = changeCompoundN "Schiffsreisen" (mkN "Schiffs" reise_N) ;
+lin schiffsschraube_N = changeCompoundN "Schiffsschrauben" (mkN "Schiffs" schraube_N) ;
+lin schiffsunglueck_N = mkN "Schiffs" unglueck_N ;
 }
