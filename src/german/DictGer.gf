@@ -2463,6 +2463,38 @@ concrete DictGer of DictGerAbs =
     , schiffsreise_N
     , schiffsschraube_N
     , schiffsunglueck_N
+    , schneeammer_N
+    , schneeball_N
+    , schneeballahorn_N
+    , schneeballschlacht_N
+    , schneebesen_N
+    , schneebruch_N
+    , schneedichte_N
+    , schneeerzeuger_N
+    , schneefall_N
+    , schneefallgrenze_N
+    , schneeflocke_N
+    , schneegans_N
+    , schneegestoeber_N
+    , schneegloeckchen_N
+    , schneegrenze_N
+    , schneegriesel_N
+    , schneekanone_N
+    , schneekette_N
+    , schneekoenig_N
+    , schneekreuz_N
+    , schneelandschaft_N
+    , schneemann_N
+    , schneemonat_N
+    , schneepflug_N
+    , schneepilz_N
+    , schneeregen_N
+    , schneeschaufel_N
+    , schneeschieber_N
+    , schneeschippe_N
+    , schneeschmelze_N
+    , schneeschuh_N
+    , schneesturm_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5596,4 +5628,36 @@ lin schiffskueche_N = changeCompoundN "Schiffsküchen" (mkN "Schiffs" kueche_N) 
 lin schiffsreise_N = changeCompoundN "Schiffsreisen" (mkN "Schiffs" reise_N) ;
 lin schiffsschraube_N = changeCompoundN "Schiffsschrauben" (mkN "Schiffs" schraube_N) ;
 lin schiffsunglueck_N = mkN "Schiffs" unglueck_N ;
+lin schneeammer_N = mkN "Schnee" ammer_N ;
+lin schneeball_N = mkN "Schnee" ball_N ;
+lin schneeballahorn_N = mkN "Schneeballa" horn_N ;
+lin schneeballschlacht_N = mkN schneeball_N schlacht_N ;
+lin schneebesen_N = mkN "Schnee" besen_N ;
+lin schneebruch_N = mkN "Schnee" bruch_N ;
+lin schneedichte_N = mkN "Schnee" dichte_N ;
+lin schneeerzeuger_N = mkN "Schnee" erzeuger_N ;
+lin schneefall_N = mkN "Schnee" fall_N ;
+lin schneefallgrenze_N = changeCompoundN "Schneefallgrenzen" (mkN schneefall_N grenze_N) ;
+lin schneeflocke_N = mkN "Schnee" flocke_N ;
+lin schneegans_N = mkN "Schnee" gans_N ;
+lin schneegestoeber_N = mkN "Schnee" (mkN "Gestöber" "Gestöber" neuter) ;
+lin schneegloeckchen_N = mkN "Schnee" gloeckchen_N ;
+lin schneegrenze_N = changeCompoundN "Schneegrenzen" (mkN "Schnee" grenze_N) ;
+lin schneegriesel_N = mkN "Schnee" (mkN "Griesel" "Griesel" masculine) ;
+lin schneekanone_N = mkN "Schnee" kanone_N ;
+lin schneekette_N = mkN "Schnee" kette_N ;
+lin schneekoenig_N = mkN "Schnee" koenig_N ;
+lin schneekreuz_N = mkN "Schnee" kreuz_N ;
+lin schneelandschaft_N = mkN "Schnee" landschaft_N ;
+lin schneemann_N = mkN "Schnee" (mkN "Mann" "Männer" masculine) ;
+lin schneemonat_N = mkN "Schnee" monat_N ;
+lin schneepflug_N = mkN "Schnee" pflug_N ;
+lin schneepilz_N = mkN "Schnee" pilz_N ;
+lin schneeregen_N = mkN "Schnee" regen_N ;
+lin schneeschaufel_N = mkN "Schnee" schaufel_N ;
+lin schneeschieber_N = mkN "Schnee" schieber_N ;
+lin schneeschippe_N = mkN "Schnee" (mkN "Schippe" "Schippen" feminine) ;
+lin schneeschmelze_N = mkN "Schnee" (mkN "Schmelze" "Schmelzen" feminine) ;
+lin schneeschuh_N = mkN "Schnee" schuh_N ;
+lin schneesturm_N = mkN "Schnee" sturm_N ;
 }
