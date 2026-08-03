@@ -2021,6 +2021,12 @@ concrete DictGer of DictGerAbs =
     , innenskelett_N
     , innenstadt_N
     , innenwand_N
+    , inhaltsanalyse_N
+    , inhaltsangabe_N
+    , inhaltssatz_N
+    , inhaltsseite_N
+    , inhaltsstoff_N
+    , inhaltsverzeichnis_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4142,6 +4148,12 @@ lin innenseite_N = mkN "Innen" seite_N ;
 lin innenskelett_N = mkN "Innen" skelett_N ;
 lin innenstadt_N = mkN "Innen" stadt_N ;
 lin innenwand_N = mkN "Innen" wand_N ;
+lin inhaltsanalyse_N = mkN "Inhalts" analyse_N ;
+lin inhaltsangabe_N = mkN "Inhalts" angabe_N ;
+lin inhaltssatz_N = mkN "Inhalts" satz_N ;
+lin inhaltsseite_N = mkN "Inhalts" seite_N ;
+lin inhaltsstoff_N = mkN "Inhalts" stoff_N ;
+lin inhaltsverzeichnis_N = mkN "Inhalts" verzeichnis_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
