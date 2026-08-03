@@ -2634,6 +2634,14 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zellextrakt_N
+    , zellfunktion_N
+    , zellkonzentration_N
+    , zellkultur_N
+    , zellkulturmedium_N
+    , zellmaterial_N
+    , zellmembran_N
+    , zelloberflaeche_N
     , zeitadverb_N
     , zeitangabe_N
     , zeitarbeiter_N
@@ -6014,6 +6022,14 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zellextrakt_N = mkN zelle_N extrakt_N ;
+lin zellfunktion_N = mkN zelle_N funktion_N ;
+lin zellkonzentration_N = mkN zelle_N konzentration_N ;
+lin zellkultur_N = mkN zelle_N kultur_N ;
+lin zellkulturmedium_N = mkN zellkultur_N medium_N ;
+lin zellmaterial_N = mkN zelle_N material_N ;
+lin zellmembran_N = mkN zelle_N (mkN "Membran" "Membranen" feminine) ;
+lin zelloberflaeche_N = mkN zelle_N oberflaeche_N ;
 lin zeitadverb_N = mkN zeit_N adverb_N ;
 lin zeitangabe_N = mkN zeit_N angabe_N ;
 lin zeitarbeiter_N = mkN zeit_N arbeiter_N ;

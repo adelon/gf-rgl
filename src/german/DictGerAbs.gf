@@ -2674,6 +2674,14 @@ fun
   x_haken_N : N ;
   y_chromosom_N : N ;
   z_boson_N : N ;
+  zellextrakt_N : N ;
+  zellfunktion_N : N ;
+  zellkonzentration_N : N ;
+  zellkultur_N : N ;
+  zellkulturmedium_N : N ;
+  zellmaterial_N : N ;
+  zellmembran_N : N ;
+  zelloberflaeche_N : N ;
   zeitadverb_N : N ;
   zeitangabe_N : N ;
   zeitarbeiter_N : N ;

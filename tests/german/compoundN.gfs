@@ -879,6 +879,14 @@ cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_ein
 cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
 cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
 cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co
+cc -all zellextrakt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellextrakt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellextrakt_N.co
+cc -all zellfunktion_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellfunktion_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellfunktion_N.co
+cc -all zellkonzentration_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellkonzentration_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellkonzentration_N.co
+cc -all zellkultur_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellkultur_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellkultur_N.co
+cc -all zellkulturmedium_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellkulturmedium_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellkulturmedium_N.co
+cc -all zellmaterial_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellmaterial_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellmaterial_N.co
+cc -all zellmembran_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zellmembran_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zellmembran_N.co
+cc -all zelloberflaeche_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zelloberflaeche_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zelloberflaeche_N.co
 cc -all zeitadverb_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitadverb_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitadverb_N.co
 cc -all zeitangabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitangabe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitangabe_N.co
 cc -all zeitarbeiter_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zeitarbeiter_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zeitarbeiter_N.co
