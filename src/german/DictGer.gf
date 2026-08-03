@@ -1587,6 +1587,28 @@ concrete DictGer of DictGerAbs =
     , fliegenklatsche_N
     , fliegenpilz_N
     , fliegenraum_N
+    , fliegerabwehrkanone__N
+    , fliegeralarm_N
+    , fliegerbombe_N
+    , fliegerhorst_N
+    , flugabwehrkanone_N
+    , flugabwehrrakete_N
+    , flugbegleiterin_N
+    , flugbild_N
+    , flugblatt_N
+    , flugboot__N
+    , flugente_N
+    , fluggesellschaft_N
+    , flughafen_N
+    , flughund_N
+    , fluglotse_N
+    , flugplatz_N
+    , flugreise_N
+    , flugsaurier_N
+    , flugschrift_N
+    , flugschule_N
+    , flugsicherung_N
+    , flugverbotszone_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3079,6 +3101,28 @@ lin fliegenfaenger_N = mkN "Fliegen" (mkN "Fänger" "Fänger" masculine) ;
 lin fliegenklatsche_N = mkN "Fliegen" klatsche_N ;
 lin fliegenpilz_N = mkN "Fliegen" pilz_N ;
 lin fliegenraum_N = mkN "Fliegen" raum_N ;
+lin fliegerabwehrkanone__N = mkN "Flieger" (mkN "Abwehrkanone" "Abwehrkanonen" feminine) ;
+lin fliegeralarm_N = mkN "Flieger" alarm_N ;
+lin fliegerbombe_N = mkN "Flieger" bombe_N ;
+lin fliegerhorst_N = mkN "Flieger" horst_N ;
+lin flugabwehrkanone_N = mkN "Flug" (mkN "Abwehrkanone" "Abwehrkanonen" feminine) ;
+lin flugabwehrrakete_N = mkN "Flug" (mkN "Abwehrrakete" "Abwehrraketen" feminine) ;
+lin flugbegleiterin_N = mkN "Flug" (mkN "Begleiterin" "Begleiterinnen" feminine) ;
+lin flugbild_N = mkN "Flug" bild_N ;
+lin flugblatt_N = mkN "Flug" blatt_N ;
+lin flugboot__N = mkN "Flug" (mkN "Boot" "Boote" neuter) ;
+lin flugente_N = mkN "Flug" ente_N ;
+lin fluggesellschaft_N = mkN "Flug" gesellschaft_N ;
+lin flughafen_N = mkN "Flug" hafen_N ;
+lin flughund_N = mkN "Flug" hund_N ;
+lin fluglotse_N = mkN "Flug" lotse_N ;
+lin flugplatz_N = mkN "Flug" platz_N ;
+lin flugreise_N = mkN "Flug" reise_N ;
+lin flugsaurier_N = mkN "Flug" (mkN "Saurier" "Saurier" masculine) ;
+lin flugschrift_N = mkN "Flug" schrift_N ;
+lin flugschule_N = mkN "Flug" schule_N ;
+lin flugsicherung_N = mkN "Flug" sicherung_N ;
+lin flugverbotszone_N = mkN "Flug" (mkN "Verbotszone" "Verbotszonen" feminine) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
