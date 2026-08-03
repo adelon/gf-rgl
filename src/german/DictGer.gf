@@ -661,6 +661,11 @@ concrete DictGer of DictGerAbs =
     , debuetantinnenball_N
     , demeritenhaus_N
     , deppenapostroph_N
+    , designerdroge_N
+    , desinfektionsmittel_N
+    , dezimalzahl_N
+    , drehzahl_N
+    , drehzahlmesser_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3125,6 +3130,11 @@ lin debattierclub_N = mkN "Debattier" club_N ;
 lin debuetantinnenball_N = mkN "Debütantinnen" ball_N ;
 lin demeritenhaus_N = mkN "Demeriten" haus_N ;
 lin deppenapostroph_N = mkN "Deppen" apostroph_N ;
+lin designerdroge_N = mkN designer_N droge_N ;
+lin desinfektionsmittel_N = mkN "Desinfektions" mittel_N ;
+lin dezimalzahl_N = mkN "Dezimal" zahl_N ;
+lin drehzahl_N = mkN "Dreh" zahl_N ;
+lin drehzahlmesser_N = mkN "Drehzahl" messer_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

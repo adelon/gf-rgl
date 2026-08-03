@@ -1769,6 +1769,11 @@ fun
   debuetantinnenball_N : N ;
   demeritenhaus_N : N ;
   deppenapostroph_N : N ;
+  designerdroge_N : N ;
+  desinfektionsmittel_N : N ;
+  dezimalzahl_N : N ;
+  drehzahl_N : N ;
+  drehzahlmesser_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
