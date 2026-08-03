@@ -2047,6 +2047,13 @@ concrete DictGer of DictGerAbs =
     , impfserum_N
     , impfstelle_N
     , impfstoff_N
+    , informationseinheit_N
+    , informationsfunktion_N
+    , informationsportal_N
+    , informationstechnologie_N
+    , informationstext_N
+    , informationstheorie_N
+    , informationswirtschaft_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4194,6 +4201,13 @@ lin impfpass_N = mkN "Impf" pass_N ;
 lin impfserum_N = mkN "Impf" serum_N ;
 lin impfstelle_N = mkN "Impf" stelle_N ;
 lin impfstoff_N = mkN "Impf" stoff_N ;
+lin informationseinheit_N = mkN "Informations" einheit_N ;
+lin informationsfunktion_N = mkN "Informations" funktion_N ;
+lin informationsportal_N = mkN "Informations" portal_N ;
+lin informationstechnologie_N = mkN "Informations" technologie_N ;
+lin informationstext_N = mkN "Informations" text_N ;
+lin informationstheorie_N = mkN "Informations" theorie_N ;
+lin informationswirtschaft_N = mkN "Informations" wirtschaft_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
