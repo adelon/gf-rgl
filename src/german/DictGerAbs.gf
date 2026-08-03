@@ -1747,6 +1747,13 @@ fun
   deklarativsatz_N : N ;
   dekongestionsmittel_N : N ;
   demarkationslinie_N : N ;
+  denkanstoss_N : N ;
+  denkart_N : N ;
+  denkfehler_N : N ;
+  denkgesetz_N : N ;
+  denkschrift_N : N ;
+  denkweise_N : N ;
+  denkzettel_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;

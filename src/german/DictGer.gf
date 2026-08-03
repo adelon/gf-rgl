@@ -639,6 +639,13 @@ concrete DictGer of DictGerAbs =
     , deklarativsatz_N
     , dekongestionsmittel_N
     , demarkationslinie_N
+    , denkanstoss_N
+    , denkart_N
+    , denkfehler_N
+    , denkgesetz_N
+    , denkschrift_N
+    , denkweise_N
+    , denkzettel_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3081,6 +3088,13 @@ lin deklarationstext_N = mkN "Deklarations" text_N ;
 lin deklarativsatz_N = mkN "Deklarativ" satz_N ;
 lin dekongestionsmittel_N = mkN "Dekongestions" mittel_N ;
 lin demarkationslinie_N = mkN "Demarkations" linie_N ;
+lin denkanstoss_N = mkN "Denk" anstoss_N ;
+lin denkart_N = mkN "Denk" art_N ;
+lin denkfehler_N = mkN "Denk" fehler_N ;
+lin denkgesetz_N = mkN "Denk" gesetz_N ;
+lin denkschrift_N = mkN "Denk" schrift_N ;
+lin denkweise_N = mkN "Denk" weise_N ;
+lin denkzettel_N = mkN "Denk" zettel_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;
