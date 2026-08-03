@@ -1396,6 +1396,19 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , farbbuch_N
+    , farbenspiel_N
+    , farbfernseher_N
+    , farbfilm_N
+    , farbmuster_N
+    , farbreaktion_N
+    , farbstabilisator_N
+    , farbstift_N
+    , farbstoff_N
+    , farbtemperatur_N
+    , farbton_N
+    , farbtopf_N
+    , farbwort_N
     , fahrerlaubnis_N
     , fahrfehler_N
     , fahrgast_N
@@ -2631,6 +2644,19 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin farbbuch_N = mkN "Farb" buch_N ;
+lin farbenspiel_N = mkN "Farben" spiel_N ;
+lin farbfernseher_N = mkN "Farb" fernseher_N ;
+lin farbfilm_N = mkN "Farb" film_N ;
+lin farbmuster_N = mkN "Farb" muster_N ;
+lin farbreaktion_N = changeCompoundN "Farbreaktion" (mkN "Farb" reaktion_N) ;
+lin farbstabilisator_N = mkN "Farb" stabilisator_N ;
+lin farbstift_N = mkN "Farb" stift_N ;
+lin farbstoff_N = mkN "Farb" stoff_N ;
+lin farbtemperatur_N = mkN "Farb" temperatur_N ;
+lin farbton_N = mkN "Farb" (mkN "Ton" "Töne" masculine) ;
+lin farbtopf_N = mkN "Farb" topf_N ;
+lin farbwort_N = mkN "Farb" wort_N ;
 lin fahrerlaubnis_N = mkN "Fahr" erlaubnis_N ;
 lin fahrfehler_N = mkN "Fahr" fehler_N ;
 lin fahrgast_N = mkN "Fahr" gast_N ;
