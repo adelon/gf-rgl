@@ -1420,6 +1420,15 @@ concrete DictGer of DictGerAbs =
     , feldsteinkirche_N
     , feldweg_N
     , feldzug_N
+    , felsenbirne_N
+    , felsenfest_A
+    , felsenpinguin_N
+    , felsentempel_N
+    , fensterbrett_N
+    , fensterhandwerker_N
+    , fensterputzer_N
+    , fensterscheibe_N
+    , fenstersturz_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2745,6 +2754,15 @@ lin feldstecher_N = mkN "Feld" (mkN "Stecher" "Stecher" masculine) ;
 lin feldsteinkirche_N = mkN "Feldstein" (mkN "Kirche" "Kirchen" feminine) ;
 lin feldweg_N = mkN "Feld" weg_N ;
 lin feldzug_N = mkN "Feld" zug_N ;
+lin felsenbirne_N = mkN "Felsen" (mkN "Birne" "Birnen" "Birnen" feminine) ;
+lin felsenfest_A = mkA felsen_N fest_A ;
+lin felsenpinguin_N = mkN "Felsen" pinguin_N ;
+lin felsentempel_N = mkN "Felsen" tempel_N ;
+lin fensterbrett_N = mkN "Fenster" (mkN "Brett" "Bretter" neuter) ;
+lin fensterhandwerker_N = mkN "Fenster" (mkN "Handwerker" "Handwerker" masculine) ;
+lin fensterputzer_N = mkN "Fenster" (mkN "Putzer" "Putzer" masculine) ;
+lin fensterscheibe_N = mkN "Fenster" scheibe_N ;
+lin fenstersturz_N = mkN "Fenster" sturz_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;

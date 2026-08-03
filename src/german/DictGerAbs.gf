@@ -1170,6 +1170,15 @@ fun
   feldsteinkirche_N : N ;
   feldweg_N : N ;
   feldzug_N : N ;
+  felsenbirne_N : N ;
+  felsenfest_A : A ;
+  felsenpinguin_N : N ;
+  felsentempel_N : N ;
+  fensterbrett_N : N ;
+  fensterhandwerker_N : N ;
+  fensterputzer_N : N ;
+  fensterscheibe_N : N ;
+  fenstersturz_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;

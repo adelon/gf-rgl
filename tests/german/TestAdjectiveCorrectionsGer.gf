@@ -74,7 +74,8 @@ oper
     ++ DictGer.wenig_A.s ! Posit ! APred ++ DictGer.wenig_A.s ! Compar ! APred ++ DictGer.wenig_A.s ! Superl ! APred ;
 
   compounds : Str =
-    DictGer.saegerau_A.s ! Posit ! APred ++ DictGer.saegerau_A.s ! Compar ! APred ++ DictGer.saegerau_A.s ! Superl ! APred
+    DictGer.felsenfest_A.s ! Posit ! APred ++ DictGer.felsenfest_A.s ! Compar ! APred ++ DictGer.felsenfest_A.s ! Superl ! APred
+    ++ DictGer.saegerau_A.s ! Posit ! APred ++ DictGer.saegerau_A.s ! Compar ! APred ++ DictGer.saegerau_A.s ! Superl ! APred
     ++ DictGer.schadenfroh_A.s ! Posit ! APred ++ DictGer.schadenfroh_A.s ! Compar ! APred ++ DictGer.schadenfroh_A.s ! Superl ! APred
     ++ DictGer.wortkarg_A.s ! Posit ! APred ++ DictGer.wortkarg_A.s ! Compar ! APred ++ DictGer.wortkarg_A.s ! Superl ! APred ;
 }
