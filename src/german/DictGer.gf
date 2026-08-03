@@ -2096,6 +2096,10 @@ concrete DictGer of DictGerAbs =
     , lagerhaus_N
     , lagerregal_N
     , lagerschaden_N
+    , lackschuh_N
+    , lammfell_N
+    , lammkeule_N
+    , lampenschirm_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4294,6 +4298,10 @@ lin lagerfuge_N = mkN "Lager" fuge_N ;
 lin lagerhaus_N = mkN "Lager" haus_N ;
 lin lagerregal_N = mkN "Lager" (mkN "Regal" "Regale" neuter) ;
 lin lagerschaden_N = mkN "Lager" schaden_N ;
+lin lackschuh_N = mkN lack_N schuh_N ;
+lin lammfell_N = mkN "Lamm" fell_N ;
+lin lammkeule_N = mkN "Lamm" keule_N ;
+lin lampenschirm_N = mkN "Lampen" schirm_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
