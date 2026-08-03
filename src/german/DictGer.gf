@@ -1737,6 +1737,28 @@ concrete DictGer of DictGerAbs =
     , gegentor_N
     , gegenwert_N
     , gegenwort_N
+    , geheimbund_N
+    , geheimcode__N
+    , geheimdienst_N
+    , geheimgesellschaft_N
+    , geheimnachricht_N
+    , geheimrune_N
+    , geheimschrift_N
+    , geheimsprache_N
+    , geheimtext_N
+    , geheimwaffe_N
+    , geheimwissenschaft_N
+    , geheimzahl_N
+    , geheimzeichen_N
+    , gehirnentzuendung_N
+    , gehirnerkrankung_N
+    , gehirnerschuetterung_N
+    , gehirnfibroblastwachstumsfaktor_N
+    , gehirnfunktion_N
+    , gehirnischaemie_N
+    , gehirntumorzelle_N
+    , gehirnverletzung_N
+    , gehirnwaesche_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3379,6 +3401,28 @@ lin gegenteil_N = mkN "Gegen" teil_N ;
 lin gegentor_N = mkN "Gegen" tor_N ;
 lin gegenwert_N = mkN "Gegen" wert_N ;
 lin gegenwort_N = mkN "Gegen" wort_N ;
+lin geheimbund_N = mkN "Geheim" bund_N ;
+lin geheimcode__N = mkN "Geheim" (mkN "Code" "Codes" masculine) ;
+lin geheimdienst_N = mkN "Geheim" dienst_N ;
+lin geheimgesellschaft_N = mkN "Geheim" gesellschaft_N ;
+lin geheimnachricht_N = mkN "Geheim" nachricht_N ;
+lin geheimrune_N = mkN "Geheim" rune_N ;
+lin geheimschrift_N = mkN "Geheim" schrift_N ;
+lin geheimsprache_N = mkN "Geheim" sprache_N ;
+lin geheimtext_N = mkN "Geheim" text_N ;
+lin geheimwaffe_N = mkN "Geheim" waffe_N ;
+lin geheimwissenschaft_N = mkN "Geheim" wissenschaft_N ;
+lin geheimzahl_N = mkN "Geheim" zahl_N ;
+lin geheimzeichen_N = mkN "Geheim" zeichen_N ;
+lin gehirnentzuendung_N = mkN "Gehirn" entzuendung_N ;
+lin gehirnerkrankung_N = mkN "Gehirn" erkrankung_N ;
+lin gehirnerschuetterung_N = mkN "Gehirn" (mkN "Erschütterung" "Erschütterungen" feminine) ;
+lin gehirnfibroblastwachstumsfaktor_N = mkN "Gehirn" fibroblastwachstumsfaktor_N ;
+lin gehirnfunktion_N = mkN "Gehirn" funktion_N ;
+lin gehirnischaemie_N = mkN "Gehirn" ischaemie_N ;
+lin gehirntumorzelle_N = mkN "Gehirn" tumorzelle_N ;
+lin gehirnverletzung_N = mkN "Gehirn" verletzung_N ;
+lin gehirnwaesche_N = mkN "Gehirn" waesche_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
