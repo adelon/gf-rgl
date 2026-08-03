@@ -2136,6 +2136,18 @@ concrete DictGer of DictGerAbs =
     , luftgewehr_N
     , luftkampf_N
     , luftkrieg_N
+    , maedchenmord_N
+    , maedchenname_N
+    , maedchenpensionat_N
+    , maehnenwolf_N
+    , maennerdomaene_N
+    , maennersprache_N
+    , maennerwelt_N
+    , maerchenbuch_N
+    , maerchenfigur_N
+    , maerchengestalt_N
+    , maerchenonkel_N
+    , maerchenwesen_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4374,6 +4386,18 @@ lin luftfracht_N = mkN "Luft" fracht_N ;
 lin luftgewehr_N = mkN "Luft" gewehr_N ;
 lin luftkampf_N = mkN "Luft" kampf_N ;
 lin luftkrieg_N = mkN "Luft" krieg_N ;
+lin maedchenmord_N = mkN "Mädchen" mord_N ;
+lin maedchenname_N = mkN "Mädchen" name_N ;
+lin maedchenpensionat_N = mkN "Mädchen" pensionat_N ;
+lin maehnenwolf_N = mkN "Mähnen" wolf_N ;
+lin maennerdomaene_N = mkN "Männer" domaene_N ;
+lin maennersprache_N = mkN "Männer" sprache_N ;
+lin maennerwelt_N = mkN "Männer" welt_N ;
+lin maerchenbuch_N = mkN "Märchen" buch_N ;
+lin maerchenfigur_N = mkN "Märchen" figur_N ;
+lin maerchengestalt_N = mkN "Märchen" gestalt_N ;
+lin maerchenonkel_N = mkN "Märchen" onkel_N ;
+lin maerchenwesen_N = mkN "Märchen" wesen_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
