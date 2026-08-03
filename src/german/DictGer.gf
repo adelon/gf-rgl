@@ -1396,6 +1396,22 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , fassbier_N
+    , fasswein_N
+    , faustballer_N
+    , faustkeil_N
+    , faustpfand_N
+    , faustregel_N
+    , faustschlag_N
+    , federball_N
+    , federflur_N
+    , federhalter_N
+    , federkleid_N
+    , federschaft_N
+    , federstrich_N
+    , federwaage_N
+    , federwolke_N
+    , federzeichnung_N
     , farbbuch_N
     , farbenspiel_N
     , farbfernseher_N
@@ -2644,6 +2660,22 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin fassbier_N = mkN "Fass" bier_N ;
+lin fasswein_N = mkN "Fass" wein_N ;
+lin faustballer_N = mkN "Faust" (mkN "Baller" "Baller" masculine) ;
+lin faustkeil_N = mkN "Faust" keil_N ;
+lin faustpfand_N = mkN "Faust" (mkN "Pfand" "Pfän" neuter) ;
+lin faustregel_N = mkN "Faust" regel_N ;
+lin faustschlag_N = mkN "Faust" schlag_N ;
+lin federball_N = mkN "Feder" ball_N ;
+lin federflur_N = mkN "Feder" (mkN "Flur" "Fluren" feminine) ;
+lin federhalter_N = mkN "Feder" (mkN "Halter" "Halter" masculine) ;
+lin federkleid_N = mkN "Feder" kleid_N ;
+lin federschaft_N = mkN "Feder" schaft_N ;
+lin federstrich_N = mkN "Feder" strich_N ;
+lin federwaage_N = changeCompoundN "Federwaagen" (mkN "Feder" waage_N) ;
+lin federwolke_N = changeCompoundN "Federwolken" (mkN "Feder" wolke_N) ;
+lin federzeichnung_N = mkN "Feder" zeichnung_N ;
 lin farbbuch_N = mkN "Farb" buch_N ;
 lin farbenspiel_N = mkN "Farben" spiel_N ;
 lin farbfernseher_N = mkN "Farb" fernseher_N ;
