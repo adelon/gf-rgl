@@ -2634,6 +2634,13 @@ concrete DictGer of DictGerAbs =
     , x_haken_N
     , y_chromosom_N
     , z_boson_N
+    , zauberbuch_N
+    , zauberformel_N
+    , zauberland_N
+    , zauberspruch_N
+    , zaubertrick_N
+    , zauberwort_N
+    , zauberwuerfel_N
     , taschenbuch_N
     , taschendieb_N
     , taschendiebin_N
@@ -5962,4 +5969,11 @@ lin x_einheit_N = mkHyphenN "X" (mkN "Einheit" "Einheiten" feminine) ;
 lin x_haken_N = mkHyphenN "X" (mkN "Haken" "Haken" masculine) ;
 lin y_chromosom_N = mkHyphenN "Y" (mkN "Chromosom" "Chromosomen" neuter) ;
 lin z_boson_N = mkHyphenN "Z" (mkN "Boson" "Bosonen" neuter) ;
+lin zauberbuch_N = mkN zauber_N buch_N ;
+lin zauberformel_N = mkN zauber_N formel_N ;
+lin zauberland_N = mkN "Zauber" (mkN "Land" "Länder" neuter) ;
+lin zauberspruch_N = mkN zauber_N spruch_N ;
+lin zaubertrick_N = mkN zauber_N trick_N ;
+lin zauberwort_N = mkN zauber_N wort_N ;
+lin zauberwuerfel_N = mkN zauber_N wuerfel_N ;
 }

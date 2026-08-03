@@ -879,3 +879,10 @@ cc -all x_einheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_ein
 cc -all x_haken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ x_haken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ x_haken_N.co
 cc -all y_chromosom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ y_chromosom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ y_chromosom_N.co
 cc -all z_boson_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ z_boson_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ z_boson_N.co
+cc -all zauberbuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberbuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberbuch_N.co
+cc -all zauberformel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberformel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberformel_N.co
+cc -all zauberland_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberland_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberland_N.co
+cc -all zauberspruch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberspruch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberspruch_N.co
+cc -all zaubertrick_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zaubertrick_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zaubertrick_N.co
+cc -all zauberwort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberwort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberwort_N.co
+cc -all zauberwuerfel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zauberwuerfel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zauberwuerfel_N.co

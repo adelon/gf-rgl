@@ -2674,4 +2674,11 @@ fun
   x_haken_N : N ;
   y_chromosom_N : N ;
   z_boson_N : N ;
+  zauberbuch_N : N ;
+  zauberformel_N : N ;
+  zauberland_N : N ;
+  zauberspruch_N : N ;
+  zaubertrick_N : N ;
+  zauberwort_N : N ;
+  zauberwuerfel_N : N ;
 }
