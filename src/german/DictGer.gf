@@ -1865,6 +1865,10 @@ concrete DictGer of DictGerAbs =
     , gipfelkreuz_N
     , gipfelstuermer_N
     , gipfeltreffen_N
+    , gitarrenkoffer_N
+    , gitarrensaite_N
+    , gitarrenspieler_N
+    , gitarrenspielerin_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3803,6 +3807,10 @@ lin giftzwerg_N = mkN "Gift" zwerg_N ;
 lin gipfelkreuz_N = mkN "Gipfel" kreuz_N ;
 lin gipfelstuermer_N = mkN "Gipfel" stuermer_N ;
 lin gipfeltreffen_N = mkN "Gipfel" treffen_N ;
+lin gitarrenkoffer_N = mkN "Gitarren" koffer_N ;
+lin gitarrensaite_N = mkN "Gitarren" saite_N ;
+lin gitarrenspieler_N = mkN "Gitarren" spieler_N ;
+lin gitarrenspielerin_N = mkN "Gitarren" spielerin_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
