@@ -1846,6 +1846,8 @@ concrete DictGer of DictGerAbs =
     , gewuerznelke_N
     , gewichtseinheit_N
     , gewichtsklasse_N
+    , gewinnquote_N
+    , gewinnspiel_N
     , feindbild_N
     , feindesland_N
     , feindschaft_N
@@ -3756,6 +3758,8 @@ lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
 lin gewichtseinheit_N = mkN "Gewichts" einheit_N ;
 lin gewichtsklasse_N = mkN "Gewichts" klasse_N ;
+lin gewinnquote_N = mkN "Gewinn" quote_N ;
+lin gewinnspiel_N = mkN "Gewinn" spiel_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
