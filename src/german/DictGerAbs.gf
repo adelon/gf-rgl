@@ -1370,6 +1370,18 @@ fun
   fahrschule_N : N ;
   fahrstuhl_N : N ;
   fahrtenbuch_N : N ;
+  fahrgastschiff_N : N ;
+  fahrgemeinschaft_N : N ;
+  fahrgestell_N : N ;
+  fahrplanwechsel_N : N ;
+  fahrstuhlschacht_N : N ;
+  fahrstunde_N : N ;
+  fahrvergnuegen_N : N ;
+  fahrwasser_N : N ;
+  fahrzeug_N : N ;
+  fahrzeugfuehrer_N : N ;
+  fahrzeugpark_N : N ;
+  fahrzeugsaeule_N : N ;
   geschaeftsreise__N : N ;
   maerzrevolution__N : N ;
   sprachoekonomie__N : N ;

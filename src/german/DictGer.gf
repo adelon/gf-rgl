@@ -259,6 +259,18 @@ concrete DictGer of DictGerAbs =
     , fahrschule_N
     , fahrstuhl_N
     , fahrtenbuch_N
+    , fahrgastschiff_N
+    , fahrgemeinschaft_N
+    , fahrgestell_N
+    , fahrplanwechsel_N
+    , fahrstuhlschacht_N
+    , fahrstunde_N
+    , fahrvergnuegen_N
+    , fahrwasser_N
+    , fahrzeug_N
+    , fahrzeugfuehrer_N
+    , fahrzeugpark_N
+    , fahrzeugsaeule_N
     , geschaeftsreise__N
     , maerzrevolution__N
     , sprachoekonomie__N
@@ -3436,4 +3448,16 @@ lin fahrradweg_N = mkN "Fahrrad" weg_N ;
 lin fahrschule_N = mkN "Fahr" schule_N ;
 lin fahrstuhl_N = mkN "Fahr" stuhl_N ;
 lin fahrtenbuch_N = mkN "Fahrten" buch_N ;
+lin fahrgastschiff_N = mkN "Fahrgast" schiff_N ;
+lin fahrgemeinschaft_N = mkN "Fahr" gemeinschaft_N ;
+lin fahrgestell_N = mkN "Fahr" (mkN "Gestell" "Gestelle" neuter) ;
+lin fahrplanwechsel_N = mkN "Fahrplan" wechsel_N ;
+lin fahrstuhlschacht_N = mkN "Fahrstuhl" schacht_N ;
+lin fahrstunde_N = mkN "Fahr" stunde_N ;
+lin fahrvergnuegen_N = mkN "Fahr" (mkN "Vergnügen" "Vergnügen" neuter) ;
+lin fahrwasser_N = mkN "Fahr" (mkN "Wasser" "Wasser" neuter) ;
+lin fahrzeug_N = mkN "Fahr" zeug_N ;
+lin fahrzeugfuehrer_N = mkN "Fahrzeug" fuehrer_N ;
+lin fahrzeugpark_N = mkN "Fahrzeug" (mkN "Park" "Parks" masculine) ;
+lin fahrzeugsaeule_N = mkN "Fahrzeug" saeule_N ;
 }
