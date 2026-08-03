@@ -1653,6 +1653,25 @@ concrete DictGer of DictGerAbs =
     , gaensewein_N
     , gaestebuch_N
     , gaesteliste_N
+    , galgenberg_N
+    , galgenfrist_N
+    , galgenvogel_N
+    , gallenblase_N
+    , gallenkolik_N
+    , gallenroehrling_N
+    , gallensaeure_N
+    , gallenstein_N
+    , gartenarbeit_N
+    , gartenhaus_N
+    , gartenkreuzspinne_N
+    , gartenmelde_N
+    , gartenparty_N
+    , gartenpflanze_N
+    , gartenpforte_N
+    , gartentor_N
+    , gartenwalze_N
+    , gartenzaun_N
+    , gartenzwerg_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3211,6 +3230,25 @@ lin gaensestopfleber_N = mkN "Gänse" (mkN "Stopfleber" "Stopflebern" feminine) 
 lin gaensewein_N = mkN "Gänse" wein_N ;
 lin gaestebuch_N = mkN "Gäste" buch_N ;
 lin gaesteliste_N = mkN "Gäste" liste_N ;
+lin galgenberg_N = mkN "Galgen" berg_N ;
+lin galgenfrist_N = mkN "Galgen" frist_N ;
+lin galgenvogel_N = mkN "Galgen" vogel_N ;
+lin gallenblase_N = mkN "Gallen" blase_N ;
+lin gallenkolik_N = mkN "Gallen" kolik_N ;
+lin gallenroehrling_N = mkN "Gallen" (mkN "Röhrling" "Röhrlinge" masculine) ;
+lin gallensaeure_N = mkN "Gallen" saeure_N ;
+lin gallenstein_N = mkN "Gallen" stein_N ;
+lin gartenarbeit_N = mkN "Garten" arbeit_N ;
+lin gartenhaus_N = mkN "Garten" haus_N ;
+lin gartenkreuzspinne_N = mkN "Garten" kreuzspinne_N ;
+lin gartenmelde_N = mkN "Garten" melde_N ;
+lin gartenparty_N = mkN "Garten" party_N ;
+lin gartenpflanze_N = mkN "Garten" pflanze_N ;
+lin gartenpforte_N = mkN "Garten" pforte_N ;
+lin gartentor_N = mkN "Garten" tor_N ;
+lin gartenwalze_N = mkN "Garten" walze_N ;
+lin gartenzaun_N = mkN "Garten" zaun_N ;
+lin gartenzwerg_N = mkN "Garten" zwerg_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
