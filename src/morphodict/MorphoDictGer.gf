@@ -13744,7 +13744,6 @@ lin greis_A = mk3A "greis" "greiser" "greiseste" ;
 lin greis_N = mkN "Greis" "Greise" masculine ;
 lin greisin_N = mkN "Greisin" "Greisinnen" feminine ;
 lin greissler_N = mkN "Greißler" "Greißler" masculine ;
-lin greisslermentalitaet_N = mkN "Greißlermentalität" "Greißlermentalitäten" feminine ;
 lin grell_A = mk3A "grell" "greller" "grellste" ;
 lin grellfarben_A = regA "grellfarben" ;
 lin gremium_N = mkN "Gremium" "Gremien" neuter ;
