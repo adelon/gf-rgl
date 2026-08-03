@@ -1876,6 +1876,11 @@ concrete DictGer of DictGerAbs =
     , glasflasche_N
     , glasharfe_N
     , glasharmonika_N
+    , glaskoerper_N
+    , glasnudel_N
+    , glasscheibe_N
+    , glasschneider_N
+    , glastemperatur_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3825,6 +3830,11 @@ lin glasbecher_N = mkN "Glas" becher_N ;
 lin glasflasche_N = mkN "Glas" flasche_N ;
 lin glasharfe_N = mkN "Glas" harfe_N ;
 lin glasharmonika_N = mkN "Glas" (mkN "Harmonika" "Harmonikas" feminine) ;
+lin glaskoerper_N = mkN "Glas" koerper_N ;
+lin glasnudel_N = mkN "Glas" nudel_N ;
+lin glasscheibe_N = mkN "Glas" scheibe_N ;
+lin glasschneider_N = mkN "Glas" schneider_N ;
+lin glastemperatur_N = mkN "Glas" temperatur_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
