@@ -1086,6 +1086,13 @@ fun
   geburtstag_N : N ;
   geburtstagsfeier_N : N ;
   gummihandschuh_N : N ;
+  gummibaer_N : N ;
+  gummibaum_N : N ;
+  gummihammer_N : N ;
+  gummiparagraf_N : N ;
+  gummiparagraph_N : N ;
+  gummiring_N : N ;
+  gummistiefel_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;

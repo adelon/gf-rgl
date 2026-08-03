@@ -1777,6 +1777,13 @@ concrete DictGer of DictGerAbs =
     , geistesstoerung_N
     , geisteswissenschaft_N
     , geisteszustand_N
+    , gummibaer_N
+    , gummibaum_N
+    , gummihammer_N
+    , gummiparagraf_N
+    , gummiparagraph_N
+    , gummiring_N
+    , gummistiefel_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3620,6 +3627,13 @@ lin gewebsverletzung_N = changeCompoundN "Gewebsverletzungs" (mkN "Gewebs" verle
 lin geburtstag_N = changeCompoundN "Geburtstags" (mkN "Geburts" tag_N) ;
 lin geburtstagsfeier_N = mkN geburtstag_N feier_N ;
 lin gummihandschuh_N = mkN "Gummi" handschuh_N ;
+lin gummibaer_N = mkN "Gummi" baer_N ;
+lin gummibaum_N = mkN "Gummi" baum_N ;
+lin gummihammer_N = mkN "Gummi" hammer_N ;
+lin gummiparagraf_N = mkN "Gummi" paragraf_N ;
+lin gummiparagraph_N = mkN "Gummi" paragraph_N ;
+lin gummiring_N = mkN "Gummi" ring_N ;
+lin gummistiefel_N = mkN "Gummi" stiefel_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
