@@ -1576,6 +1576,17 @@ concrete DictGer of DictGerAbs =
     , flaechenland_N
     , flaechenmass_N
     , flaechennutzungsplan_N
+    , flaggschiff_N
+    , flakturm_N
+    , flammenwerfer_N
+    , fleischerhund_N
+    , fleischfresser_N
+    , fleischgericht_N
+    , fleischwolf_N
+    , fliegenfaenger_N
+    , fliegenklatsche_N
+    , fliegenpilz_N
+    , fliegenraum_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3057,6 +3068,17 @@ lin flaecheninhalt_N = mkN "Flächen" inhalt_N ;
 lin flaechenland_N = mkN "Flächen" (mkN "Land" "Länder" neuter) ;
 lin flaechenmass_N = mkN "Flächen" mass_N ;
 lin flaechennutzungsplan_N = mkN "Flächen" (mkN "Nutzungsplan" "Nutzungspläne" masculine) ;
+lin flaggschiff_N = mkN "Flagg" schiff_N ;
+lin flakturm_N = mkN "Flak" turm_N ;
+lin flammenwerfer_N = mkN "Flammen" (mkN "Werfer" "Werfer" masculine) ;
+lin fleischerhund_N = mkN "Fleischer" hund_N ;
+lin fleischfresser_N = mkN "Fleisch" fresser_N ;
+lin fleischgericht_N = mkN "Fleisch" gericht_N ;
+lin fleischwolf_N = mkN "Fleisch" wolf_N ;
+lin fliegenfaenger_N = mkN "Fliegen" (mkN "Fänger" "Fänger" masculine) ;
+lin fliegenklatsche_N = mkN "Fliegen" klatsche_N ;
+lin fliegenpilz_N = mkN "Fliegen" pilz_N ;
+lin fliegenraum_N = mkN "Fliegen" raum_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;

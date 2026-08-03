@@ -1326,6 +1326,17 @@ fun
   flaechenland_N : N ;
   flaechenmass_N : N ;
   flaechennutzungsplan_N : N ;
+  flaggschiff_N : N ;
+  flakturm_N : N ;
+  flammenwerfer_N : N ;
+  fleischerhund_N : N ;
+  fleischfresser_N : N ;
+  fleischgericht_N : N ;
+  fleischwolf_N : N ;
+  fliegenfaenger_N : N ;
+  fliegenklatsche_N : N ;
+  fliegenpilz_N : N ;
+  fliegenraum_N : N ;
   feinbackware_N : N ;
   feindbild_N : N ;
   feindesland_N : N ;
