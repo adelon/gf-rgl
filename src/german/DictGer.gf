@@ -1461,6 +1461,23 @@ concrete DictGer of DictGerAbs =
     , fertigungsinsel_N
     , fertigungsleiter_N
     , fertigungstiefe_N
+    , fettablagerung_N
+    , fettalkohol_N
+    , fettaufstrich_N
+    , fettemulsion_N
+    , fettfleck_N
+    , fettflecken_N
+    , fetthenne_N
+    , fettkette_N
+    , fettnaepfchen_N
+    , fettsack_N
+    , fettsaeureeinheit_N
+    , fettsaeureester_N
+    , fettsaeurekette_N
+    , fettsaeurenausgangsmaterial_N
+    , fettsubstanz_N
+    , fettwanst_N
+    , fettzelle_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2827,6 +2844,23 @@ lin fertigungsauftrag_N = mkN "Fertigungs" auftrag_N ;
 lin fertigungsinsel_N = mkN "Fertigungs" insel_N ;
 lin fertigungsleiter_N = mkN "Fertigungs" (mkN "Leiter" "Leiter" masculine) ;
 lin fertigungstiefe_N = mkN "Fertigungs" tiefe_N ;
+lin fettablagerung_N = mkN "Fett" ablagerung_N ;
+lin fettalkohol_N = mkN "Fett" alkohol_N ;
+lin fettaufstrich_N = mkN "Fett" aufstrich_N ;
+lin fettemulsion_N = mkN "Fett" emulsion_N ;
+lin fettfleck_N = mkN "Fett" fleck_N ;
+lin fettflecken_N = mkN "Fett" flecken_N ;
+lin fetthenne_N = mkN "Fett" henne_N ;
+lin fettkette_N = mkN "Fett" kette_N ;
+lin fettnaepfchen_N = mkN "Fett" (mkN "Näpfchen" "Näpfchen" neuter) ;
+lin fettsack_N = mkN "Fett" sack_N ;
+lin fettsaeureeinheit_N = mkN "Fettsäure" einheit_N ;
+lin fettsaeureester_N = mkN "Fettsäure" ester_N ;
+lin fettsaeurekette_N = mkN "Fettsäure" kette_N ;
+lin fettsaeurenausgangsmaterial_N = mkN "Fettsäuren" ausgangsmaterial_N ;
+lin fettsubstanz_N = mkN "Fett" substanz_N ;
+lin fettwanst_N = mkN "Fett" wanst_N ;
+lin fettzelle_N = mkN "Fett" (mkN "Zelle" "Zellen" "Zellen" feminine) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
