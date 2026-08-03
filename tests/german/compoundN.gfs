@@ -1287,6 +1287,17 @@ cc -all xenon_lampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ xen
 cc -all ylang_ylang_baum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.co
 cc -all zitzen_riesenschirmpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.co
 cc -all zwerg_blaeuling_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.co
+cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
+cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
+cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co
+cc -all garagentor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ garagentor_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ garagentor_N.co
+cc -all gardinenpredigt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gardinenpredigt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gardinenpredigt_N.co
+cc -all garnisonsstadt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ garnisonsstadt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ garnisonsstadt_N.co
+cc -all gaumensegel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaumensegel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaumensegel_N.co
+cc -all gaumensegellaut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaumensegellaut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaumensegellaut_N.co
+cc -all gedankengang_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gedankengang_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gedankengang_N.co
+cc -all gedankenstrich_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gedankenstrich_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gedankenstrich_N.co
+cc -all gedichtsammlung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gedichtsammlung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gedichtsammlung_N.co
 cc -all fackellauf_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fackellauf_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fackellauf_N.co
 cc -all faechergewoelbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faechergewoelbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faechergewoelbe_N.co
 cc -all faellungsmittel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ faellungsmittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ faellungsmittel_N.co

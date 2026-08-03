@@ -3748,4 +3748,15 @@ fun
   fassettenauge_N : N ;
   fassonschnitt_N : N ;
   feierabend_N : N ;
+  gaemshorn_N : N ;
+  gamsbart_N : N ;
+  gamsberg_N : N ;
+  garagentor_N : N ;
+  gardinenpredigt_N : N ;
+  garnisonsstadt_N : N ;
+  gaumensegel_N : N ;
+  gaumensegellaut_N : N ;
+  gedankengang_N : N ;
+  gedankenstrich_N : N ;
+  gedichtsammlung_N : N ;
 }

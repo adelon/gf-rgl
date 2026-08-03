@@ -6554,4 +6554,15 @@ lin faschingsmuffel_N = mkN "Faschings" (mkN "Muffel" "Muffel" masculine) ;
 lin fassettenauge_N = changeCompoundN "Fassettenauge" (mkN "Fassetten" auge_N) ;
 lin fassonschnitt_N = mkN "Fasson" schnitt_N ;
 lin feierabend_N = mkN feier_N abend_N ;
+lin gaemshorn_N = mkN "Gäms" (mkN "Horn" "Hörner" neuter) ;
+lin gamsbart_N = mkN "Gams" (mkN "Bart" "Bärte" masculine) ;
+lin gamsberg_N = mkN "Gams" (mkN "Berg" "Berge" masculine) ;
+lin garagentor_N = mkN "Garagen" (mkN "Tor" "Tore" neuter) ;
+lin gardinenpredigt_N = mkN "Gardinen" (mkN "Predigt" "Predigten" feminine) ;
+lin garnisonsstadt_N = mkN "Garnisons" (mkN "Stadt" "Städte" feminine) ;
+lin gaumensegel_N = mkN "Gaumen" (mkN "Segel" "Segel" neuter) ;
+lin gaumensegellaut_N = mkN "Gaumensegel" (mkN "Laut" "Laute" masculine) ;
+lin gedankengang_N = mkN "Gedanken" (mkN "Gang" "Gänge" masculine) ;
+lin gedankenstrich_N = mkN "Gedanken" (mkN "Strich" "Striche" masculine) ;
+lin gedichtsammlung_N = changeCompoundN "Gedichtsammlung" (mkN "Gedicht" (mkN "Sammlung" "Sammlungen" feminine)) ;
 }
