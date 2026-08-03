@@ -2035,6 +2035,9 @@ concrete DictGer of DictGerAbs =
     , industriebank_N
     , industriegebiet_N
     , industrieminute_N
+    , inselbegabung_N
+    , inselgruppe_N
+    , inselstaat_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4170,6 +4173,9 @@ lin internetzugang_N = mkN "Internet" zugang_N ;
 lin industriebank_N = mkN industrie_N bank_N ;
 lin industriegebiet_N = mkN industrie_N gebiet_N ;
 lin industrieminute_N = mkN industrie_N minute_N ;
+lin inselbegabung_N = mkN insel_N begabung_N ;
+lin inselgruppe_N = mkN insel_N gruppe_N ;
+lin inselstaat_N = mkN insel_N staat_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
