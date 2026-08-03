@@ -1895,6 +1895,12 @@ concrete DictGer of DictGerAbs =
     , gleitkommazahl_N
     , gleitlaut_N
     , gleitschirm_N
+    , gletscherbrand_N
+    , gletscherbrille_N
+    , gletscherfalter_N
+    , gletscherfluss_N
+    , gletscherschliff_N
+    , gletscherwein_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3863,6 +3869,12 @@ lin gleithoernchen_N = mkN "Gleit" hoernchen_N ;
 lin gleitkommazahl_N = mkN "Gleitkomma" zahl_N ;
 lin gleitlaut_N = mkN "Gleit" laut_N ;
 lin gleitschirm_N = mkN "Gleit" schirm_N ;
+lin gletscherbrand_N = mkN "Gletscher" brand_N ;
+lin gletscherbrille_N = mkN "Gletscher" (mkN "Brille" "Brillen" feminine) ;
+lin gletscherfalter_N = mkN "Gletscher" (mkN "Falter" "Falter" masculine) ;
+lin gletscherfluss_N = mkN "Gletscher" fluss_N ;
+lin gletscherschliff_N = mkN "Gletscher" (mkN "Schliff" "Schliffe" masculine) ;
+lin gletscherwein_N = mkN "Gletscher" wein_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
