@@ -666,6 +666,12 @@ concrete DictGer of DictGerAbs =
     , dezimalzahl_N
     , drehzahl_N
     , drehzahlmesser_N
+    , eckball_N
+    , eckballmarke_N
+    , eckhaus_N
+    , eckpunkt_N
+    , effektorfunktion_N
+    , effektorgruppe_N
     , cafehaus_N
     , campingbus_N
     , campingplatz_N
@@ -3135,6 +3141,12 @@ lin desinfektionsmittel_N = mkN "Desinfektions" mittel_N ;
 lin dezimalzahl_N = mkN "Dezimal" zahl_N ;
 lin drehzahl_N = mkN "Dreh" zahl_N ;
 lin drehzahlmesser_N = mkN "Drehzahl" messer_N ;
+lin eckball_N = mkN "Eck" ball_N ;
+lin eckballmarke_N = mkN "Eckball" marke_N ;
+lin eckhaus_N = mkN "Eck" haus_N ;
+lin eckpunkt_N = mkN "Eck" punkt_N ;
+lin effektorfunktion_N = mkN effektor_N funktion_N ;
+lin effektorgruppe_N = mkN effektor_N gruppe_N ;
 lin cafehaus_N = mkN cafe_N haus_N ;
 lin campingbus_N = mkN "Camping" bus_N ;
 lin campingplatz_N = mkN "Camping" platz_N ;

@@ -1774,6 +1774,12 @@ fun
   dezimalzahl_N : N ;
   drehzahl_N : N ;
   drehzahlmesser_N : N ;
+  eckball_N : N ;
+  eckballmarke_N : N ;
+  eckhaus_N : N ;
+  eckpunkt_N : N ;
+  effektorfunktion_N : N ;
+  effektorgruppe_N : N ;
   cafehaus_N : N ;
   campingbus_N : N ;
   campingplatz_N : N ;
