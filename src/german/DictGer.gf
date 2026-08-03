@@ -252,6 +252,15 @@ concrete DictGer of DictGerAbs =
     , autoindustrie_N
     , autokennzeichen_N
     , autokino_N
+    , aussenbereich_N
+    , aussenbezirk_N
+    , aussenflaeche_N
+    , aussenministerium_N
+    , aussenseite_N
+    , aussenspiegel_N
+    , aussenwand_N
+    , aussenwelt_N
+    , aussenwerk_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -3646,6 +3655,15 @@ lin autohaus_N = mkN auto_N haus_N ;
 lin autoindustrie_N = changeCompoundN "Autoindustrie" (mkN auto_N industrie_N) ;
 lin autokennzeichen_N = mkN auto_N kennzeichen_N ;
 lin autokino_N = mkN auto_N kino_N ;
+lin aussenbereich_N = mkN "Außen" bereich_N ;
+lin aussenbezirk_N = mkN "Außen" bezirk_N ;
+lin aussenflaeche_N = mkN "Außen" flaeche_N ;
+lin aussenministerium_N = mkN "Außen" ministerium_N ;
+lin aussenseite_N = mkN "Außen" seite_N ;
+lin aussenspiegel_N = mkN "Außen" spiegel_N ;
+lin aussenwand_N = mkN "Außen" wand_N ;
+lin aussenwelt_N = mkN "Außen" welt_N ;
+lin aussenwerk_N = mkN "Außen" werk_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;

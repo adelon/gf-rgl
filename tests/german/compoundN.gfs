@@ -980,3 +980,12 @@ cc -all autohaus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autoha
 cc -all autoindustrie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autoindustrie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autoindustrie_N.co
 cc -all autokennzeichen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autokennzeichen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autokennzeichen_N.co
 cc -all autokino_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autokino_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autokino_N.co
+cc -all aussenbereich_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenbereich_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenbereich_N.co
+cc -all aussenbezirk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenbezirk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenbezirk_N.co
+cc -all aussenflaeche_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenflaeche_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenflaeche_N.co
+cc -all aussenministerium_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenministerium_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenministerium_N.co
+cc -all aussenseite_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenseite_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenseite_N.co
+cc -all aussenspiegel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenspiegel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenspiegel_N.co
+cc -all aussenwand_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenwand_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenwand_N.co
+cc -all aussenwelt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenwelt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenwelt_N.co
+cc -all aussenwerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aussenwerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aussenwerk_N.co

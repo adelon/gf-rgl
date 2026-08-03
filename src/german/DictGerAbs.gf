@@ -784,6 +784,15 @@ fun
   autoindustrie_N : N ;
   autokennzeichen_N : N ;
   autokino_N : N ;
+  aussenbereich_N : N ;
+  aussenbezirk_N : N ;
+  aussenflaeche_N : N ;
+  aussenministerium_N : N ;
+  aussenseite_N : N ;
+  aussenspiegel_N : N ;
+  aussenwand_N : N ;
+  aussenwelt_N : N ;
+  aussenwerk_N : N ;
   abstossungsreaktion_N : N ;
   a_battuta_Adv : Adv ;
   a_cappella_Adv : Adv ;
