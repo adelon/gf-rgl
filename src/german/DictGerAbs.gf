@@ -1892,6 +1892,13 @@ fun
   tabakplantage_N : N ;
   tabakspfeife_N : N ;
   tabaksteuer_N : N ;
+  tagebuch_N : N ;
+  tagesgeld_N : N ;
+  tagesgespraech_N : N ;
+  tageskarte_N : N ;
+  tagesmenge_N : N ;
+  tageszeit_N : N ;
+  tageszeitung_N : N ;
   schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;

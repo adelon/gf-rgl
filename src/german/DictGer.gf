@@ -2597,6 +2597,13 @@ concrete DictGer of DictGerAbs =
     , tabakplantage_N
     , tabakspfeife_N
     , tabaksteuer_N
+    , tagebuch_N
+    , tagesgeld_N
+    , tagesgespraech_N
+    , tageskarte_N
+    , tagesmenge_N
+    , tageszeit_N
+    , tageszeitung_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5864,4 +5871,11 @@ lin tabakpfeife_N = mkN tabak_N pfeife_N ;
 lin tabakplantage_N = mkN tabak_N plantage_N ;
 lin tabakspfeife_N = mkN "Tabaks" pfeife_N ;
 lin tabaksteuer_N = mkN tabak_N steuer_N ;
+lin tagebuch_N = mkN "Tage" buch_N ;
+lin tagesgeld_N = mkN "Tages" geld_N ;
+lin tagesgespraech_N = mkN "Tages" gespraech_N ;
+lin tageskarte_N = mkN "Tages" karte_N ;
+lin tagesmenge_N = mkN "Tages" menge_N ;
+lin tageszeit_N = mkN "Tages" zeit_N ;
+lin tageszeitung_N = mkN "Tages" zeitung_N ;
 }

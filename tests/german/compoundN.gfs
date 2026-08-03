@@ -830,3 +830,10 @@ cc -all tabakpfeife_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tab
 cc -all tabakplantage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakplantage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakplantage_N.co
 cc -all tabakspfeife_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabakspfeife_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabakspfeife_N.co
 cc -all tabaksteuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tabaksteuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tabaksteuer_N.co
+cc -all tagebuch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tagebuch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tagebuch_N.co
+cc -all tagesgeld_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tagesgeld_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tagesgeld_N.co
+cc -all tagesgespraech_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tagesgespraech_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tagesgespraech_N.co
+cc -all tageskarte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tageskarte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tageskarte_N.co
+cc -all tagesmenge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tagesmenge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tagesmenge_N.co
+cc -all tageszeit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tageszeit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tageszeit_N.co
+cc -all tageszeitung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tageszeitung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tageszeitung_N.co
