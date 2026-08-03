@@ -1699,6 +1699,25 @@ concrete DictGer of DictGerAbs =
     , gastvortrag_N
     , gastwirtschaft_N
     , gaswagen_N
+    , gebaerdensprache_N
+    , gebetbuch_N
+    , gebetshaus_N
+    , gebetsteppich_N
+    , gebietskoerperschaft_N
+    , gebirgsjaeger_N
+    , gebirgspass_N
+    , gebirgsschlucht_N
+    , gebirgssee_N
+    , gebrauchsanweisung_N
+    , gebrauchtwagen_N
+    , gebrauchtwagenmarkt_N
+    , gebrauchtwagenverkaeufer_N
+    , gebrauchtware_N
+    , geburtsdatum_N
+    , geburtshelfer_N
+    , geburtsort_N
+    , geburtstagsgeschenk_N
+    , geburtstagskind_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3303,6 +3322,25 @@ lin gastredner_N = mkN "Gast" redner_N ;
 lin gastvortrag_N = mkN "Gast" vortrag_N ;
 lin gastwirtschaft_N = mkN "Gast" wirtschaft_N ;
 lin gaswagen_N = mkN "Gas" (mkN "Wagen" "Wagen" masculine) ;
+lin gebaerdensprache_N = mkN "Gebärden" sprache_N ;
+lin gebetbuch_N = mkN "Gebet" buch_N ;
+lin gebetshaus_N = mkN "Gebets" haus_N ;
+lin gebetsteppich_N = mkN "Gebets" teppich_N ;
+lin gebietskoerperschaft_N = mkN "Gebiets" koerperschaft_N ;
+lin gebirgsjaeger_N = mkN "Gebirgs" jaeger_N ;
+lin gebirgspass_N = mkN "Gebirgs" pass_N ;
+lin gebirgsschlucht_N = mkN "Gebirgs" schlucht_N ;
+lin gebirgssee_N = mkN "Gebirgs" see_N ;
+lin gebrauchsanweisung_N = mkN "Gebrauchs" anweisung_N ;
+lin gebrauchtwagen_N = mkN "Gebraucht" (mkN "Wagen" "Wagen" masculine) ;
+lin gebrauchtwagenmarkt_N = mkN "Gebrauchtwagen" markt_N ;
+lin gebrauchtwagenverkaeufer_N = mkN "Gebrauchtwagen" verkaeufer_N ;
+lin gebrauchtware_N = mkN "Gebraucht" ware_N ;
+lin geburtsdatum_N = mkN "Geburts" datum_N ;
+lin geburtshelfer_N = mkN "Geburts" helfer_N ;
+lin geburtsort_N = mkN "Geburts" ort_N ;
+lin geburtstagsgeschenk_N = mkN "Geburtstags" geschenk_N ;
+lin geburtstagskind_N = mkN "Geburtstags" kind_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
