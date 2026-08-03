@@ -1790,6 +1790,9 @@ concrete DictGer of DictGerAbs =
     , gurkensalat_N
     , gurkensuppe_N
     , gurkentruppe_N
+    , guertellinie_N
+    , guertelschnalle_N
+    , guerteltier_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3646,6 +3649,9 @@ lin gurkenpflanze_N = mkN "Gurken" pflanze_N ;
 lin gurkensalat_N = mkN "Gurken" salat_N ;
 lin gurkensuppe_N = mkN "Gurken" suppe_N ;
 lin gurkentruppe_N = mkN "Gurken" truppe_N ;
+lin guertellinie_N = mkN guertel_N linie_N ;
+lin guertelschnalle_N = mkN guertel_N schnalle_N ;
+lin guerteltier_N = mkN guertel_N tier_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;

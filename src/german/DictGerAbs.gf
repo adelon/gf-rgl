@@ -1099,6 +1099,9 @@ fun
   gurkensalat_N : N ;
   gurkensuppe_N : N ;
   gurkentruppe_N : N ;
+  guertellinie_N : N ;
+  guertelschnalle_N : N ;
+  guerteltier_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;
