@@ -1826,6 +1826,20 @@ concrete DictGer of DictGerAbs =
     , gefrierpunkt_N
     , gefrierschrank_N
     , gefriertruhe_N
+    , gefaessbett_N
+    , gefaessbildung_N
+    , gefaessblutung_N
+    , gefaessentzuendung_N
+    , gefaesserkrankung_N
+    , gefaessfloete_N
+    , gefaesskrankheit_N
+    , gefaessmuskelzelle_N
+    , gefaessoberflaeche_N
+    , gefaessplastik_N
+    , gefaessprothese_N
+    , gefaessstenose_N
+    , gefaessstoerung_N
+    , gefaessverletzung_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3718,6 +3732,20 @@ lin gefrierfach_N = mkN "Gefrier" fach_N ;
 lin gefrierpunkt_N = mkN "Gefrier" punkt_N ;
 lin gefrierschrank_N = mkN "Gefrier" schrank_N ;
 lin gefriertruhe_N = mkN "Gefrier" truhe_N ;
+lin gefaessbett_N = mkN "Gefäß" bett_N ;
+lin gefaessbildung_N = mkN "Gefäß" bildung_N ;
+lin gefaessblutung_N = mkN "Gefäß" blutung_N ;
+lin gefaessentzuendung_N = mkN "Gefäß" entzuendung_N ;
+lin gefaesserkrankung_N = mkN "Gefäß" erkrankung_N ;
+lin gefaessfloete_N = mkN "Gefäß" floete_N ;
+lin gefaesskrankheit_N = mkN "Gefäß" krankheit_N ;
+lin gefaessmuskelzelle_N = mkN "Gefäß" muskelzelle_N ;
+lin gefaessoberflaeche_N = mkN "Gefäß" oberflaeche_N ;
+lin gefaessplastik_N = mkN "Gefäß" plastik_N ;
+lin gefaessprothese_N = mkN "Gefäß" prothese_N ;
+lin gefaessstenose_N = mkN "Gefäß" stenose_N ;
+lin gefaessstoerung_N = mkN "Gefäß" stoerung_N ;
+lin gefaessverletzung_N = mkN "Gefäß" verletzung_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
