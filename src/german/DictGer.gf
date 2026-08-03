@@ -2061,9 +2061,13 @@ concrete DictGer of DictGerAbs =
     , jahrtausend_N
     , jahrzehnt_N
     , jagdschloss_N
+    , ja_nein_frage_N
+    , jam_session_N
     , janusgesicht_N
     , januskopf_N
     , januswort_N
+    , jo_jo_effekt_N
+    , jo_jo_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4225,9 +4229,13 @@ lin jahrmarkt_N = mkN jahr_N markt_N ;
 lin jahrtausend_N = mkN jahr_N (mkN "Tausend" "Tausende" feminine) ;
 lin jahrzehnt_N = mkN jahr_N (mkN "Zehnt" "Zehnte" masculine) ;
 lin jagdschloss_N = mkN jagd_N (mkN "Schloss" "Schlösser" neuter) ;
+lin ja_nein_frage_N = mkN "Ja-Nein-Frage" "Ja-Nein-Fragen" "Ja-Nein-Frage" feminine ;
+lin jam_session_N = mkN "Jam-Session" ;
 lin janusgesicht_N = mkN "Janus" (mkN "Gesicht" "Gesichter" neuter) ;
 lin januskopf_N = mkN "Janus" kopf_N ;
 lin januswort_N = mkN "Janus" (mkN "Wort" "Wörter" "Wort" neuter) ;
+lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
+lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;

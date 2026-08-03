@@ -34,3 +34,4 @@ cc -all "Latin phrase noun:" ++ TestMultiwordNounsGer.latinPhraseForms
 cc -all "Kind Gottes:" ++ TestMultiwordNounsGer.childOfGodForms
 cc -all "Proper names:" ++ TestMultiwordNounsGer.properNameForms
 cc -all "Knollenblätterpilz family:" ++ TestMultiwordNounsGer.fungusFamily
+cc -all "Hyphenated J noun forms:" ++ TestMultiwordNounsGer.hyphenatedJNounForms

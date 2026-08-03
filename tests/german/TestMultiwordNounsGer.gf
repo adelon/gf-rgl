@@ -83,6 +83,10 @@ oper
     ++ nounValue DictGer.enfant_terrible_N ++ nounValue DictGer.fait_accompli_N
     ++ nounValue DictGer.jour_fixe_N ;
 
+  hyphenatedJNounForms : Str = nounValue DictGer.ja_nein_frage_N
+    ++ nounValue DictGer.jam_session_N ++ nounValue DictGer.jo_jo_effekt_N
+    ++ nounValue DictGer.jo_jo_N ;
+
   frenchCulinaryNounForms : Str = nounValue DictGer.creme_brulee_3_N
     ++ nounValue DictGer.creme_brulee_N ;
 
