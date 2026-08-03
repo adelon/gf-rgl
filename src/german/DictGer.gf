@@ -1846,10 +1846,15 @@ concrete DictGer of DictGerAbs =
     , gesellenbrief_N
     , gesellschaftsspiel_N
     , gesetzbuch_N
+    , gewerbegebiet_N
+    , gewerbeschein_N
+    , gewerkschaftsmitglied_N
     , gewindebohrer_N
     , gewindeschneider_N
     , gewohnheitsmensch_N
     , gewohnheitstier_N
+    , gewitterflinte_N
+    , gezeitenkraftwerk_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3769,10 +3774,15 @@ lin geizkragen_N = mkN "Geiz" kragen_N ;
 lin gesellenbrief_N = mkN "Gesellen" brief_N ;
 lin gesellschaftsspiel_N = mkN "Gesellschafts" spiel_N ;
 lin gesetzbuch_N = mkN "Gesetz" buch_N ;
+lin gewerbegebiet_N = mkN "Gewerbe" gebiet_N ;
+lin gewerbeschein_N = mkN "Gewerbe" schein_N ;
+lin gewerkschaftsmitglied_N = mkN "Gewerkschafts" mitglied_N ;
 lin gewindebohrer_N = mkN "Gewinde" bohrer_N ;
 lin gewindeschneider_N = mkN "Gewinde" schneider_N ;
 lin gewohnheitsmensch_N = mkN "Gewohnheits" mensch_N ;
 lin gewohnheitstier_N = mkN "Gewohnheits" tier_N ;
+lin gewitterflinte_N = mkN "Gewitter" flinte_N ;
+lin gezeitenkraftwerk_N = mkN "Gezeiten" kraftwerk_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
