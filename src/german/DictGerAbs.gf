@@ -3707,4 +3707,13 @@ fun
   casus_obliquus_N : N ;
   casus_rectus_N : N ;
   circulus_vitiosus_N : N ;
+  constructio_ad_sensum_N : N ;
+  contradictio_in_adiecto_N : N ;
+  dativus_commodi_N : N ;
+  dativus_ethicus_N : N ;
+  dativus_incommodi_N : N ;
+  dativus_iudicantis_N : N ;
+  dativus_possessivus_N : N ;
+  dativus_sympathicus_N : N ;
+  demodex_folliculorum_N : N ;
 }

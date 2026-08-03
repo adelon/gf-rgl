@@ -56,3 +56,12 @@ cc -all canadian_whisky_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++
 cc -all casus_obliquus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ casus_obliquus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ casus_obliquus_N.co
 cc -all casus_rectus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ casus_rectus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ casus_rectus_N.co
 cc -all circulus_vitiosus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ circulus_vitiosus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ circulus_vitiosus_N.co
+cc -all constructio_ad_sensum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ constructio_ad_sensum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ constructio_ad_sensum_N.co
+cc -all contradictio_in_adiecto_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ contradictio_in_adiecto_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ contradictio_in_adiecto_N.co
+cc -all dativus_commodi_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dativus_commodi_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dativus_commodi_N.co
+cc -all dativus_ethicus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dativus_ethicus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dativus_ethicus_N.co
+cc -all dativus_incommodi_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dativus_incommodi_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dativus_incommodi_N.co
+cc -all dativus_iudicantis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dativus_iudicantis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dativus_iudicantis_N.co
+cc -all dativus_possessivus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dativus_possessivus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dativus_possessivus_N.co
+cc -all dativus_sympathicus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dativus_sympathicus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dativus_sympathicus_N.co
+cc -all demodex_folliculorum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ demodex_folliculorum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ demodex_folliculorum_N.co

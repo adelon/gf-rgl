@@ -6513,4 +6513,13 @@ lin canadian_whisky_N = changeCompoundN "Canadian-Whisky" (mkN "Canadian Whisky"
 lin casus_obliquus_N = changeCompoundN "Casus-obliquus" (invarN "Casus obliquus" "Casus obliqui" masculine) ;
 lin casus_rectus_N = changeCompoundN "Casus-rectus" (invarN "Casus rectus" "Casus recti" masculine) ;
 lin circulus_vitiosus_N = changeCompoundN "Circulus-vitiosus" (invarN "Circulus vitiosus" "Circuli vitiosi" masculine) ;
+lin constructio_ad_sensum_N = changeCompoundN "Constructio-ad-Sensum" (invarN "Constructio ad Sensum" "Constructiones ad Sensum" feminine) ;
+lin contradictio_in_adiecto_N = changeCompoundN "Contradictio-in-adiecto" (mkN "Contradictio in adiecto" "Contradictiones in adiecto" feminine) ;
+lin dativus_commodi_N = changeCompoundN "Dativus-Commodi" (invarN "Dativus Commodi" "Dativi Commodi" masculine) ;
+lin dativus_ethicus_N = changeCompoundN "Dativus-ethicus" (invarN "Dativus ethicus" "Dativi ethici" masculine) ;
+lin dativus_incommodi_N = changeCompoundN "Dativus-Incommodi" (invarN "Dativus Incommodi" "Dativi Incommodi" masculine) ;
+lin dativus_iudicantis_N = changeCompoundN "Dativus-Iudicantis" (invarN "Dativus Iudicantis" "Dativi Iudicantis" masculine) ;
+lin dativus_possessivus_N = changeCompoundN "Dativus-possessivus" (invarN "Dativus possessivus" "Dativi possessivi" masculine) ;
+lin dativus_sympathicus_N = changeCompoundN "Dativus-sympathicus" (invarN "Dativus sympathicus" "Dativi sympathici" masculine) ;
+lin demodex_folliculorum_N = changeCompoundN "Demodex-folliculorum" (invarN "Demodex folliculorum" "Demodices folliculorum" masculine) ;
 }
