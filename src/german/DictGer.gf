@@ -1881,6 +1881,8 @@ concrete DictGer of DictGerAbs =
     , glasscheibe_N
     , glasschneider_N
     , glastemperatur_N
+    , glaubensbekenntnis_N
+    , glaubensrichtung_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3835,6 +3837,8 @@ lin glasnudel_N = mkN "Glas" nudel_N ;
 lin glasscheibe_N = mkN "Glas" scheibe_N ;
 lin glasschneider_N = mkN "Glas" schneider_N ;
 lin glastemperatur_N = mkN "Glas" temperatur_N ;
+lin glaubensbekenntnis_N = mkN "Glaubens" bekenntnis_N ;
+lin glaubensrichtung_N = mkN "Glaubens" richtung_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
