@@ -2011,6 +2011,7 @@ concrete DictGer of DictGerAbs =
     , hochsommer_N
     , hochwert_N
     , hochwald_N
+    , hochschullehrer_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4122,6 +4123,7 @@ lin hochmoor_N = mkN hoch_N moor_N ;
 lin hochsommer_N = mkN hoch_N sommer_N ;
 lin hochwert_N = mkN hoch_N wert_N ;
 lin hochwald_N = mkN hoch_N wald_N ;
+lin hochschullehrer_N = mkN hochschule_N lehrer_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;

@@ -15232,7 +15232,6 @@ lin hochrechnung_N = mkN "Hochrechnung" ;
 lin hochrein_A = regA "hochrein" ;
 lin hochrisikospiel_N = mkN "Hochrisikospiel" "Hochrisikospiele" neuter ;
 lin hochschrank_N = mkN "Hochschrank" "Hochschränke" masculine ;
-lin hochschullehrer_N = mkN "Hochschullehrer" "Hochschullehrer" masculine ;
 lin hochseeschlepper_N = mkN "Hochseeschlepper" "Hochseeschlepper" masculine ;
 lin hochseilakt_N = mkN "Hochseilakt" "Hochseilakte" masculine ;
 lin hochseilartist_N = mkN "Hochseilartist" "Hochseilartiste" masculine ;
