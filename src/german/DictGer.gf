@@ -1809,6 +1809,11 @@ concrete DictGer of DictGerAbs =
     , gelenkerkrankung_N
     , gelenkschmerz_N
     , gelenkserkrankung_N
+    , gefrierbrand_N
+    , gefrierfach_N
+    , gefrierpunkt_N
+    , gefrierschrank_N
+    , gefriertruhe_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3684,6 +3689,11 @@ lin geldtopf_N = mkN "Geld" topf_N ;
 lin gelenkerkrankung_N = mkN gelenk_N erkrankung_N ;
 lin gelenkschmerz_N = mkN "Gelenk" schmerz_N ;
 lin gelenkserkrankung_N = mkN "Gelenks" erkrankung_N ;
+lin gefrierbrand_N = mkN "Gefrier" brand_N ;
+lin gefrierfach_N = mkN "Gefrier" fach_N ;
+lin gefrierpunkt_N = mkN "Gefrier" punkt_N ;
+lin gefrierschrank_N = mkN "Gefrier" schrank_N ;
+lin gefriertruhe_N = mkN "Gefrier" truhe_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;

@@ -1118,6 +1118,11 @@ fun
   gelenkerkrankung_N : N ;
   gelenkschmerz_N : N ;
   gelenkserkrankung_N : N ;
+  gefrierbrand_N : N ;
+  gefrierfach_N : N ;
+  gefrierpunkt_N : N ;
+  gefrierschrank_N : N ;
+  gefriertruhe_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;
