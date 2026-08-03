@@ -2206,6 +2206,17 @@ concrete DictGer of DictGerAbs =
     , pfefferroehrling__N
     , pfefferspray_N
     , pfefferstreuer_N
+    , pferdeapfel_N
+    , pferdefuhrwerk__N
+    , pferdehuf_N
+    , pferdekutsche_N
+    , pferdemetzger_N
+    , pferdeoper_N
+    , pferdeschlitten_N
+    , pferdeschwanz_N
+    , pferdestaerke_N
+    , pferdestall_N
+    , pferdewurst_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4514,6 +4525,17 @@ lin pfeffermuehle_N = changeCompoundN "Pfeffermühlen" (mkN pfeffer_N muehle_N) 
 lin pfefferroehrling__N = mkN pfeffer_N (mkN "Röhrling" "Röhrlinge" masculine) ;
 lin pfefferspray_N = mkN pfeffer_N spray_N ;
 lin pfefferstreuer_N = mkN pfeffer_N (mkN "Streuer" "Streuer" masculine) ;
+lin pferdeapfel_N = mkN "Pferde" apfel_N ;
+lin pferdefuhrwerk__N = mkN "Pferde" (mkN "Fuhrwerk" "Fuhrwerke" neuter) ;
+lin pferdehuf_N = mkN "Pferde" huf_N ;
+lin pferdekutsche_N = mkN "Pferde" kutsche_N ;
+lin pferdemetzger_N = mkN "Pferde" metzger_N ;
+lin pferdeoper_N = mkN "Pferde" oper_N ;
+lin pferdeschlitten_N = mkN "Pferde" schlitten_N ;
+lin pferdeschwanz_N = mkN "Pferde" schwanz_N ;
+lin pferdestaerke_N = mkN "Pferde" staerke_N ;
+lin pferdestall_N = mkN "Pferde" stall_N ;
+lin pferdewurst_N = mkN "Pferde" wurst_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
