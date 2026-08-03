@@ -2119,6 +2119,14 @@ concrete DictGer of DictGerAbs =
     , lastschrift_N
     , laststrom_N
     , lastwagen_N
+    , laufbahn_N
+    , lauffeuer_N
+    , laufgraben_N
+    , laufknoten_N
+    , laufstall_N
+    , laufsteg_N
+    , laufvogel_N
+    , laufzeit_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4340,6 +4348,14 @@ lin lastenheft_N = mkN "Lasten" heft_N ;
 lin lastschrift_N = mkN "Last" schrift_N ;
 lin laststrom_N = mkN "Last" strom_N ;
 lin lastwagen_N = mkN "Last" (mkN "Wagen" "Wagen" masculine) ;
+lin laufbahn_N = mkN "Lauf" bahn_N ;
+lin lauffeuer_N = mkN "Lauf" feuer_N ;
+lin laufgraben_N = mkN "Lauf" graben_N ;
+lin laufknoten_N = mkN "Lauf" knoten_N ;
+lin laufstall_N = mkN "Lauf" stall_N ;
+lin laufsteg_N = mkN "Lauf" steg_N ;
+lin laufvogel_N = mkN "Lauf" vogel_N ;
+lin laufzeit_N = mkN "Lauf" zeit_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
