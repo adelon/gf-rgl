@@ -13797,7 +13797,6 @@ lin grislibaer_N = mkN "Grislibär" "Grislibären" masculine ;
 lin grob_A = mk3A "grob" "gröber" "gröbste" ;
 lin grobgemahlen_A = mk3A "grobgemahlen" "gröber gemahlen" "gröbsten gemahle" ;
 lin grobporig_A = mk3A "grobporig" "grobporiger" "grobporigste" ;
-lin grobziel_N = mkN "Grobziel" "Grobziele" neuter ;
 lin groden_N = mkN "Groden" "Groden" masculine ;
 lin groelen_V = regV "grölen" ;
 lin groenlaender_N = mkN "Grönländer" "Grönländer" masculine ;

@@ -1975,6 +1975,7 @@ concrete DictGer of DictGerAbs =
     , greifvogel_N
     , gretchenfrage_N
     , greisslermentalitaet_N
+    , grobziel_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4050,6 +4051,7 @@ lin griessnockerl_N = mkN griess_N nockerl_N ;
 lin greifvogel_N = mkN "Greif" vogel_N ;
 lin gretchenfrage_N = mkN "Gretchen" frage_N ;
 lin greisslermentalitaet_N = mkN greissler_N mentalitaet_N ;
+lin grobziel_N = mkN "Grob" ziel_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
