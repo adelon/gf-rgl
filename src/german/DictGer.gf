@@ -1949,6 +1949,10 @@ concrete DictGer of DictGerAbs =
     , gotteslaesterung_N
     , gottesurteil_N
     , gottkoenig_N
+    , grabbau_N
+    , grabgewoelbe_N
+    , grabstaette_N
+    , grabstein_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -3998,6 +4002,10 @@ lin gotteskrieger_N = mkN "Gottes" krieger_N ;
 lin gotteslaesterung_N = changeCompoundN "Gotteslästerungs" (mkN "Gottes" (mkN "Lästerung" "Lästerungen" feminine)) ;
 lin gottesurteil_N = mkN "Gottes" urteil_N ;
 lin gottkoenig_N = mkN "Gott" koenig_N ;
+lin grabbau_N = mkN "Grab" (mkN "Bau" "Bauten" masculine) ;
+lin grabgewoelbe_N = mkN grab_N gewoelbe_N ;
+lin grabstaette_N = mkN grab_N staette_N ;
+lin grabstein_N = mkN grab_N stein_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
