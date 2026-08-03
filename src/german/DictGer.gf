@@ -1639,6 +1639,20 @@ concrete DictGer of DictGerAbs =
     , flussschiff_N
     , flussseeschwalbe_N
     , flusswasser_N
+    , gabelschluessel_N
+    , gabelstapler_N
+    , gabelstaplerfahrer_N
+    , gabelstaplerfahrerin_N
+    , gaensebluemchen_N
+    , gaensefeder_N
+    , gaensefuesschen_N
+    , gaensefuss_N
+    , gaenseleber_N
+    , gaensemarsch_N
+    , gaensestopfleber_N
+    , gaensewein_N
+    , gaestebuch_N
+    , gaesteliste_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3183,6 +3197,20 @@ lin flussregenpfeifer_N = mkN "Fluss" regenpfeifer_N ;
 lin flussschiff_N = mkN "Fluss" schiff_N ;
 lin flussseeschwalbe_N = mkN "Fluss" seeschwalbe_N ;
 lin flusswasser_N = mkN "Fluss" (mkN "Wasser" "Wässer" neuter) ;
+lin gabelschluessel_N = mkN "Gabel" schluessel_N ;
+lin gabelstapler_N = mkN "Gabel" (mkN "Stapler" "Stapler" masculine) ;
+lin gabelstaplerfahrer_N = mkN "Gabelstapler" fahrer_N ;
+lin gabelstaplerfahrerin_N = mkN "Gabelstapler" fahrerin_N ;
+lin gaensebluemchen_N = mkN "Gänse" bluemchen_N ;
+lin gaensefeder_N = mkN "Gänse" feder_N ;
+lin gaensefuesschen_N = mkN "Gänse" (mkN "Füßchen" "Füßchen" neuter) ;
+lin gaensefuss_N = mkN "Gänse" fuss_N ;
+lin gaenseleber_N = mkN "Gänse" leber_N ;
+lin gaensemarsch_N = mkN "Gänse" (mkN "Marsch" "Märsche" masculine) ;
+lin gaensestopfleber_N = mkN "Gänse" (mkN "Stopfleber" "Stopflebern" feminine) ;
+lin gaensewein_N = mkN "Gänse" wein_N ;
+lin gaestebuch_N = mkN "Gäste" buch_N ;
+lin gaesteliste_N = mkN "Gäste" liste_N ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
