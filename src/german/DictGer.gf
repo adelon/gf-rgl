@@ -2168,6 +2168,17 @@ concrete DictGer of DictGerAbs =
     , mannschaftsspiel_N
     , mannstreu_N
     , mannweib_N
+    , nabelbruch_N
+    , nabelschnur_N
+    , nussbaum_N
+    , nussknacker_N
+    , nusspfirsich_N
+    , nusspilz_N
+    , nussschale_N
+    , nussschinken_N
+    , nussschokolade_N
+    , nussstrudel_N
+    , nusstorte_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4438,6 +4449,17 @@ lin mannschaftskapitaen_N = mkN "Mannschafts" kapitaen_N ;
 lin mannschaftsspiel_N = mkN "Mannschafts" spiel_N ;
 lin mannstreu_N = mkN "Mann" (mkN "Streu" "Streue" "Streu" masculine) ;
 lin mannweib_N = mkN "Mann" (mkN "Weib" "Weiber" neuter) ;
+lin nabelbruch_N = mkN nabel_N (mkN "Bruch" "Brüche" masculine) ;
+lin nabelschnur_N = mkN nabel_N schnur_N ;
+lin nussbaum_N = mkN nuss_N baum_N ;
+lin nussknacker_N = mkN nuss_N (mkN "Knacker" "Knacker" masculine) ;
+lin nusspfirsich_N = mkN nuss_N pfirsich_N ;
+lin nusspilz_N = mkN nuss_N pilz_N ;
+lin nussschale_N = mkN nuss_N schale_N ;
+lin nussschinken_N = mkN nuss_N schinken_N ;
+lin nussschokolade_N = mkN nuss_N schokolade_N ;
+lin nussstrudel_N = mkN nuss_N strudel_N ;
+lin nusstorte_N = mkN nuss_N torte_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
