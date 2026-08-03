@@ -2198,6 +2198,14 @@ concrete DictGer of DictGerAbs =
     , oberhemd_N
     , oberkoerper_N
     , oberleitung_N
+    , pfefferkuchen_N
+    , pfefferkuchenhaus_N
+    , pfefferminz_N
+    , pfefferminztee_N
+    , pfeffermuehle_N
+    , pfefferroehrling__N
+    , pfefferspray_N
+    , pfefferstreuer_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4498,6 +4506,14 @@ lin oberhaus_N = mkN ober__N haus_N ;
 lin oberhemd_N = mkN ober__N hemd_N ;
 lin oberkoerper_N = mkN ober__N koerper_N ;
 lin oberleitung_N = changeCompoundN "Oberleitungs" (mkN ober__N leitung_N) ;
+lin pfefferkuchen_N = mkN pfeffer_N kuchen_N ;
+lin pfefferkuchenhaus_N = mkN pfefferkuchen_N haus_N ;
+lin pfefferminz_N = mkN pfeffer_N (mkN "Minz" "Minze" neuter) ;
+lin pfefferminztee_N = mkN pfefferminz_N tee_N ;
+lin pfeffermuehle_N = changeCompoundN "Pfeffermühlen" (mkN pfeffer_N muehle_N) ;
+lin pfefferroehrling__N = mkN pfeffer_N (mkN "Röhrling" "Röhrlinge" masculine) ;
+lin pfefferspray_N = mkN pfeffer_N spray_N ;
+lin pfefferstreuer_N = mkN pfeffer_N (mkN "Streuer" "Streuer" masculine) ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
