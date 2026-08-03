@@ -6565,4 +6565,15 @@ lin gaumensegellaut_N = mkN "Gaumensegel" (mkN "Laut" "Laute" masculine) ;
 lin gedankengang_N = mkN "Gedanken" (mkN "Gang" "Gänge" masculine) ;
 lin gedankenstrich_N = mkN "Gedanken" (mkN "Strich" "Striche" masculine) ;
 lin gedichtsammlung_N = changeCompoundN "Gedichtsammlung" (mkN "Gedicht" (mkN "Sammlung" "Sammlungen" feminine)) ;
+lin haaresbreite_N = changeCompoundN "Haaresbreite" (mkN "Haares" (mkN "Breite" "Breiten" feminine)) ;
+lin haarfaerbemittel_N = mkN "Haarfärbe" (mkN "Mittel" "Mittel" neuter) ;
+lin haarspalterei_N = mkN "Haar" (mkN "Spalterei" "Spaltereien" feminine) ;
+lin haarwaschmittel_N = mkN "Haar" (mkN "Waschmittel" "Waschmittel" neuter) ;
+lin habichtskraut_N = mkN "Habichts" (mkN "Kraut" "Kräuter" neuter) ;
+lin habichtspilz_N = mkN "Habichts" (mkN "Pilz" "Pilze" masculine) ;
+lin hackbrett_N = mkN "Hack" (mkN "Brett" "Bretter" neuter) ;
+lin hackfrucht_N = mkN "Hack" (mkN "Frucht" "Früchte" feminine) ;
+lin hafenrundfahrt_N = mkN "Hafen" (mkN "Rundfahrt" "Rundfahrten" feminine) ;
+lin haftbefehl_N = mkN "Haft" (mkN "Befehl" "Befehle" masculine) ;
+lin hagebuttentee_N = changeCompoundN "Hagebuttentee" (mkN "Hagebutten" (mkN "Tee" "Tees" masculine)) ;
 }

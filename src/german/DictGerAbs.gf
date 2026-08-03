@@ -3759,4 +3759,15 @@ fun
   gedankengang_N : N ;
   gedankenstrich_N : N ;
   gedichtsammlung_N : N ;
+  haaresbreite_N : N ;
+  haarfaerbemittel_N : N ;
+  haarspalterei_N : N ;
+  haarwaschmittel_N : N ;
+  habichtskraut_N : N ;
+  habichtspilz_N : N ;
+  hackbrett_N : N ;
+  hackfrucht_N : N ;
+  hafenrundfahrt_N : N ;
+  haftbefehl_N : N ;
+  hagebuttentee_N : N ;
 }

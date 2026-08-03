@@ -1287,6 +1287,17 @@ cc -all xenon_lampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ xen
 cc -all ylang_ylang_baum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.co
 cc -all zitzen_riesenschirmpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.co
 cc -all zwerg_blaeuling_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.co
+cc -all haaresbreite_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haaresbreite_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haaresbreite_N.co
+cc -all haarfaerbemittel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haarfaerbemittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haarfaerbemittel_N.co
+cc -all haarspalterei_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haarspalterei_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haarspalterei_N.co
+cc -all haarwaschmittel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haarwaschmittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haarwaschmittel_N.co
+cc -all habichtskraut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ habichtskraut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ habichtskraut_N.co
+cc -all habichtspilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ habichtspilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ habichtspilz_N.co
+cc -all hackbrett_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hackbrett_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hackbrett_N.co
+cc -all hackfrucht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hackfrucht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hackfrucht_N.co
+cc -all hafenrundfahrt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hafenrundfahrt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hafenrundfahrt_N.co
+cc -all haftbefehl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haftbefehl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haftbefehl_N.co
+cc -all hagebuttentee_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hagebuttentee_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hagebuttentee_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co
