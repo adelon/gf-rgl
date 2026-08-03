@@ -3671,4 +3671,19 @@ fun
   wiesen_sauerampfer_N : N ;
   wortfamilien_woerterbuch_N : N ;
   vis_a_vis_Adv : Adv ;
+  bild_austast_synchronsignal_N : N ;
+  bird_eroeffnung_N : N ;
+  bootsmanns_maaten_pfeife_N : N ;
+  brauen_glattstirnkaiman_N : N ;
+  brenn_nessel_N : N ;
+  brombeer_perlmutterfalter_N : N ;
+  c_kommando_N : N ;
+  fugen_s_N : N ;
+  genitiv_s_N : N ;
+  super_acht_film_N : N ;
+  synthese_index_N : N ;
+  xenon_lampe_N : N ;
+  ylang_ylang_baum_N : N ;
+  zitzen_riesenschirmpilz_N : N ;
+  zwerg_blaeuling_N : N ;
 }
