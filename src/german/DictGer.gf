@@ -2043,6 +2043,10 @@ concrete DictGer of DictGerAbs =
     , insektenvirusvektor_N
     , insektenzelle_N
     , insektenzelllinie_N
+    , impfpass_N
+    , impfserum_N
+    , impfstelle_N
+    , impfstoff_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4186,6 +4190,10 @@ lin insektenstich_N = mkN "Insekten" stich_N ;
 lin insektenvirusvektor_N = mkN "Insekten" virusvektor_N ;
 lin insektenzelle_N = mkN "Insekten" zelle_N ;
 lin insektenzelllinie_N = mkN "Insekten" zelllinie_N ;
+lin impfpass_N = mkN "Impf" pass_N ;
+lin impfserum_N = mkN "Impf" serum_N ;
+lin impfstelle_N = mkN "Impf" stelle_N ;
+lin impfstoff_N = mkN "Impf" stoff_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
