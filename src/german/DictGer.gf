@@ -2032,6 +2032,9 @@ concrete DictGer of DictGerAbs =
     , internetportal_N
     , internetseite_N
     , internetzugang_N
+    , industriebank_N
+    , industriegebiet_N
+    , industrieminute_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4164,6 +4167,9 @@ lin internetfirma_N = mkN "Internet" firma_N ;
 lin internetportal_N = mkN "Internet" portal_N ;
 lin internetseite_N = mkN "Internet" seite_N ;
 lin internetzugang_N = mkN "Internet" zugang_N ;
+lin industriebank_N = mkN industrie_N bank_N ;
+lin industriegebiet_N = mkN industrie_N gebiet_N ;
+lin industrieminute_N = mkN industrie_N minute_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
