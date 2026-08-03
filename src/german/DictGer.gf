@@ -1918,6 +1918,20 @@ concrete DictGer of DictGerAbs =
     , glockenturm_N
     , glockenwand_N
     , glockenweihe_N
+    , goldbarren_N
+    , goldbergwerk_N
+    , goldbirke_N
+    , golddraht_N
+    , golddruck_N
+    , goldfisch_N
+    , goldkette_N
+    , goldmedaille_N
+    , goldmine_N
+    , goldmuenze_N
+    , goldnugget_N
+    , goldwaage_N
+    , goldwaescher_N
+    , goldzeisig_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3909,6 +3923,20 @@ lin glockenstuhl_N = mkN "Glocken" stuhl_N ;
 lin glockenturm_N = mkN "Glocken" turm_N ;
 lin glockenwand_N = mkN "Glocken" wand_N ;
 lin glockenweihe_N = mkN "Glocken" weihe_N ;
+lin goldbarren_N = mkN "Gold" barren_N ;
+lin goldbergwerk_N = mkN "Gold" bergwerk_N ;
+lin goldbirke_N = mkN "Gold" birke_N ;
+lin golddraht_N = mkN "Gold" draht_N ;
+lin golddruck_N = mkN "Gold" (mkN "Druck" "Drucke" masculine) ;
+lin goldfisch_N = mkN "Gold" fisch_N ;
+lin goldkette_N = mkN "Gold" kette_N ;
+lin goldmedaille_N = mkN "Gold" medaille_N ;
+lin goldmine_N = mkN "Gold" mine_N ;
+lin goldmuenze_N = mkN "Gold" muenze_N ;
+lin goldnugget_N = mkN "Gold" (mkN "Nugget" "Nuggets" neuter) ;
+lin goldwaage_N = changeCompoundN "Goldwaagen" (mkN "Gold" waage_N) ;
+lin goldwaescher_N = mkN "Gold" (mkN "Wäscher" "Wäscher" masculine) ;
+lin goldzeisig_N = mkN "Gold" zeisig_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
