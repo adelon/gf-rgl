@@ -2610,6 +2610,17 @@ concrete DictGer of DictGerAbs =
     , tafelspitz_N
     , tafelwein_N
     , tafelwerk_N
+    , tanzbaer_N
+    , tanzflaeche_N
+    , tanzlehrer_N
+    , tanzlehrerin_N
+    , tanzlokal_N
+    , tanzmatte_N
+    , tanzorchester_N
+    , tanzschuh_N
+    , tanzschule_N
+    , tanzstunde_N
+    , tanztee_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -5890,4 +5901,15 @@ lin tafelklavier_N = mkN "Tafel" klavier_N ;
 lin tafelspitz_N = mkN "Tafel" spitz_N ;
 lin tafelwein_N = mkN "Tafel" wein_N ;
 lin tafelwerk_N = mkN "Tafel" werk_N ;
+lin tanzbaer_N = mkN "Tanz" baer_N ;
+lin tanzflaeche_N = mkN "Tanz" flaeche_N ;
+lin tanzlehrer_N = mkN "Tanz" lehrer_N ;
+lin tanzlehrerin_N = mkN "Tanz" lehrerin_N ;
+lin tanzlokal_N = mkN "Tanz" lokal_N ;
+lin tanzmatte_N = mkN "Tanz" matte_N ;
+lin tanzorchester_N = mkN "Tanz" orchester_N ;
+lin tanzschuh_N = mkN "Tanz" schuh_N ;
+lin tanzschule_N = mkN "Tanz" schule_N ;
+lin tanzstunde_N = mkN "Tanz" stunde_N ;
+lin tanztee_N = mkN "Tanz" tee_N ;
 }

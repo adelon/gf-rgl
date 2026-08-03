@@ -843,3 +843,14 @@ cc -all tafelklavier_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ta
 cc -all tafelspitz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelspitz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelspitz_N.co
 cc -all tafelwein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelwein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelwein_N.co
 cc -all tafelwerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tafelwerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tafelwerk_N.co
+cc -all tanzbaer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzbaer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzbaer_N.co
+cc -all tanzflaeche_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzflaeche_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzflaeche_N.co
+cc -all tanzlehrer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzlehrer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzlehrer_N.co
+cc -all tanzlehrerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzlehrerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzlehrerin_N.co
+cc -all tanzlokal_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzlokal_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzlokal_N.co
+cc -all tanzmatte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzmatte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzmatte_N.co
+cc -all tanzorchester_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzorchester_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzorchester_N.co
+cc -all tanzschuh_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzschuh_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzschuh_N.co
+cc -all tanzschule_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzschule_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzschule_N.co
+cc -all tanzstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanzstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanzstunde_N.co
+cc -all tanztee_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ tanztee_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ tanztee_N.co

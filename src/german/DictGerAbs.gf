@@ -1905,6 +1905,17 @@ fun
   tafelspitz_N : N ;
   tafelwein_N : N ;
   tafelwerk_N : N ;
+  tanzbaer_N : N ;
+  tanzflaeche_N : N ;
+  tanzlehrer_N : N ;
+  tanzlehrerin_N : N ;
+  tanzlokal_N : N ;
+  tanzmatte_N : N ;
+  tanzorchester_N : N ;
+  tanzschuh_N : N ;
+  tanzschule_N : N ;
+  tanzstunde_N : N ;
+  tanztee_N : N ;
   schadenfroh_A : A ;
   sans_phrase_Adv : Adv ;
   sauce_hollandaise_N : N ;
