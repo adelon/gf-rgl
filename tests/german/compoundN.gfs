@@ -1517,6 +1517,15 @@ cc -all filmprojektor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ f
 cc -all filmriss_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ filmriss_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ filmriss_N.co
 cc -all filmstudio_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ filmstudio_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ filmstudio_N.co
 cc -all filmtablette_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ filmtablette_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ filmtablette_N.co
+cc -all fibroblastenwachstumsfaktor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fibroblastenwachstumsfaktor_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fibroblastenwachstumsfaktor_N.co
+cc -all fibroblastenzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fibroblastenzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fibroblastenzelle_N.co
+cc -all fibroblastwachstumsfaktor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fibroblastwachstumsfaktor_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fibroblastwachstumsfaktor_N.co
+cc -all fibroseerkrankung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fibroseerkrankung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fibroseerkrankung_N.co
+cc -all fichtenmarderfell_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fichtenmarderfell_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fichtenmarderfell_N.co
+cc -all fichtensteinpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fichtensteinpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fichtensteinpilz_N.co
+cc -all fichtenwaldsaenger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fichtenwaldsaenger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fichtenwaldsaenger_N.co
+cc -all fichtenzapfenruebling__N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fichtenzapfenruebling__N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fichtenzapfenruebling__N.co
+cc -all fieberthermometer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fieberthermometer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fieberthermometer_N.co
 cc -all dachdecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dachdecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dachdecker_N.co
 cc -all daemmerstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ daemmerstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ daemmerstunde_N.co
 cc -all dankgebet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dankgebet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dankgebet_N.co

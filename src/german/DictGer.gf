@@ -1106,6 +1106,15 @@ concrete DictGer of DictGerAbs =
     , filmriss_N
     , filmstudio_N
     , filmtablette_N
+    , fibroblastenwachstumsfaktor_N
+    , fibroblastenzelle_N
+    , fibroblastwachstumsfaktor_N
+    , fibroseerkrankung_N
+    , fichtenmarderfell_N
+    , fichtensteinpilz_N
+    , fichtenwaldsaenger_N
+    , fichtenzapfenruebling__N
+    , fieberthermometer_N
     , eintagsfliege_N
     , eisaufguss_N
     , eisbahn_N
@@ -6850,4 +6859,13 @@ lin filmprojektor_N = mkN film_N (mkN "Projektor" "Projektoren" masculine) ;
 lin filmriss_N = mkN film_N (mkN "Riss" "Risse" masculine) ;
 lin filmstudio_N = mkN film_N (mkN "Studio" "Studios" neuter) ;
 lin filmtablette_N = mkN film_N (mkN "Tablette" "Tabletten" feminine) ;
+lin fibroblastenwachstumsfaktor_N = mkN "Fibroblasten" (mkN "Wachstumsfaktor" "Wachstumsfaktoren" masculine) ;
+lin fibroblastenzelle_N = mkN "Fibroblasten" (mkN "Zelle" "Zellen" feminine) ;
+lin fibroblastwachstumsfaktor_N = mkN "Fibroblast" (mkN "Wachstumsfaktor" "Wachstumsfaktoren" masculine) ;
+lin fibroseerkrankung_N = mkN fibrose_N (mkN "Erkrankung" "Erkrankungen" feminine) ;
+lin fichtenmarderfell_N = mkN "Fichten" (mkN "Marderfell" "Marderfelle" neuter) ;
+lin fichtensteinpilz_N = mkN "Fichten" (mkN "Steinpilz" "Steinpilze" masculine) ;
+lin fichtenwaldsaenger_N = mkN "Fichtenwald" (mkN "Sänger" "Sänger" masculine) ;
+lin fichtenzapfenruebling__N = mkN "Fichtenzapfen" (mkN "Rübling" "Rüblinge" masculine) ;
+lin fieberthermometer_N = mkN fieber_N (mkN "Thermometer" "Thermometer" neuter) ;
 }

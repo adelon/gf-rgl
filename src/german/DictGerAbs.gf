@@ -3957,4 +3957,13 @@ fun
   filmriss_N : N ;
   filmstudio_N : N ;
   filmtablette_N : N ;
+  fibroblastenwachstumsfaktor_N : N ;
+  fibroblastenzelle_N : N ;
+  fibroblastwachstumsfaktor_N : N ;
+  fibroseerkrankung_N : N ;
+  fichtenmarderfell_N : N ;
+  fichtensteinpilz_N : N ;
+  fichtenwaldsaenger_N : N ;
+  fichtenzapfenruebling__N : N ;
+  fieberthermometer_N : N ;
 }
