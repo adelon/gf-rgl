@@ -1093,6 +1093,12 @@ fun
   gummiparagraph_N : N ;
   gummiring_N : N ;
   gummistiefel_N : N ;
+  gurkenglas_N : N ;
+  gurkenpass_N : N ;
+  gurkenpflanze_N : N ;
+  gurkensalat_N : N ;
+  gurkensuppe_N : N ;
+  gurkentruppe_N : N ;
   gruener_knollenblaetterpilz_CN : CN ;
   halogenkohlenwasserstoff_N : N ;
   handschuh_N : N ;

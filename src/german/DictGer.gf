@@ -1784,6 +1784,12 @@ concrete DictGer of DictGerAbs =
     , gummiparagraph_N
     , gummiring_N
     , gummistiefel_N
+    , gurkenglas_N
+    , gurkenpass_N
+    , gurkenpflanze_N
+    , gurkensalat_N
+    , gurkensuppe_N
+    , gurkentruppe_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -3634,6 +3640,12 @@ lin gummiparagraf_N = mkN "Gummi" paragraf_N ;
 lin gummiparagraph_N = mkN "Gummi" paragraph_N ;
 lin gummiring_N = mkN "Gummi" ring_N ;
 lin gummistiefel_N = mkN "Gummi" stiefel_N ;
+lin gurkenglas_N = mkN "Gurken" glas_N ;
+lin gurkenpass_N = mkN "Gurken" pass_N ;
+lin gurkenpflanze_N = mkN "Gurken" pflanze_N ;
+lin gurkensalat_N = mkN "Gurken" salat_N ;
+lin gurkensuppe_N = mkN "Gurken" suppe_N ;
+lin gurkentruppe_N = mkN "Gurken" truppe_N ;
 lin gewebe_N = mkN "Gewebe" "Gewebe" ("Gewebe" | "Gewebs") neuter ;
 lin gruener_knollenblaetterpilz_CN = S.mkCN (capitalizeA gruen_A) knollenblaetterpilz_N ;
 lin halogenkohlenwasserstoff_N = mkN halogen_N (mkN "Kohlen" wasserstoff_N) ;
