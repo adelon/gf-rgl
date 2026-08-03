@@ -2078,6 +2078,11 @@ concrete DictGer of DictGerAbs =
     , janusgesicht_N
     , januskopf_N
     , januswort_N
+    , jubel_perser_N
+    , jubelgreis_N
+    , jubeljahr_N
+    , jubelperser_N
+    , jubelschrei_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4258,6 +4263,11 @@ lin jakobszwiebel_N = mkN "Jakobs" zwiebel_N ;
 lin janusgesicht_N = mkN "Janus" (mkN "Gesicht" "Gesichter" neuter) ;
 lin januskopf_N = mkN "Janus" kopf_N ;
 lin januswort_N = mkN "Janus" (mkN "Wort" "Wörter" "Wort" neuter) ;
+lin jubel_perser_N = mkHyphenN "Jubel" perser_N ;
+lin jubelgreis_N = mkN "Jubel" greis_N ;
+lin jubeljahr_N = mkN "Jubel" jahr_N ;
+lin jubelperser_N = mkN "Jubel" perser_N ;
+lin jubelschrei_N = mkN "Jubel" schrei_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
