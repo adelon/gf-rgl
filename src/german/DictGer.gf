@@ -1972,6 +1972,8 @@ concrete DictGer of DictGerAbs =
     , grauzone_N
     , griessbrei_N
     , griessnockerl_N
+    , greifvogel_N
+    , gretchenfrage_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4044,6 +4046,8 @@ lin grauweide_N = changeCompoundN "Grauweiden" (mkN "Grau" weide_N) ;
 lin grauzone_N = mkN "Grau" zone_N ;
 lin griessbrei_N = mkN griess_N brei_N ;
 lin griessnockerl_N = mkN griess_N nockerl_N ;
+lin greifvogel_N = mkN "Greif" vogel_N ;
+lin gretchenfrage_N = mkN "Gretchen" frage_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
