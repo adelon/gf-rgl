@@ -35,3 +35,13 @@ cc -all "Kind Gottes:" ++ TestMultiwordNounsGer.childOfGodForms
 cc -all "Proper names:" ++ TestMultiwordNounsGer.properNameForms
 cc -all "Knollenblätterpilz family:" ++ TestMultiwordNounsGer.fungusFamily
 cc -all "Hyphenated J noun forms:" ++ TestMultiwordNounsGer.hyphenatedJNounForms
+cc -all aberratio_ictus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aberratio_ictus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aberratio_ictus_N.co
+cc -all aberratio_testis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aberratio_testis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aberratio_testis_N.co
+cc -all ablatio_placentae_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ablatio_placentae_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ablatio_placentae_N.co
+cc -all ablatio_retinae_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ablatio_retinae_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ablatio_retinae_N.co
+cc -all abrasio_uteri_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ abrasio_uteri_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ abrasio_uteri_N.co
+cc -all abscessus_cerebri_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ abscessus_cerebri_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ abscessus_cerebri_N.co
+cc -all abscessus_hepatis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ abscessus_hepatis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ abscessus_hepatis_N.co
+cc -all abscessus_lienis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ abscessus_lienis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ abscessus_lienis_N.co
+cc -all achylia_gastrica_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ achylia_gastrica_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ achylia_gastrica_N.co
+cc -all alpha_privativum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ alpha_privativum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ alpha_privativum_N.co

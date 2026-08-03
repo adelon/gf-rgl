@@ -3686,4 +3686,14 @@ fun
   ylang_ylang_baum_N : N ;
   zitzen_riesenschirmpilz_N : N ;
   zwerg_blaeuling_N : N ;
+  aberratio_ictus_N : N ;
+  aberratio_testis_N : N ;
+  ablatio_placentae_N : N ;
+  ablatio_retinae_N : N ;
+  abrasio_uteri_N : N ;
+  abscessus_cerebri_N : N ;
+  abscessus_hepatis_N : N ;
+  abscessus_lienis_N : N ;
+  achylia_gastrica_N : N ;
+  alpha_privativum_N : N ;
 }

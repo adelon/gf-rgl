@@ -6492,4 +6492,14 @@ lin xenon_lampe_N = mkHyphenN "Xenon" (mkN "Lampe" "Lampen" "Lampen" feminine) ;
 lin ylang_ylang_baum_N = mkHyphenN "Ylang-Ylang" (mkN "Baum" "Bäume" "Baum" masculine) ;
 lin zitzen_riesenschirmpilz_N = mkHyphenN "Zitzen" (mkN "Riesenschirmpilz" "Riesenschirmpilze" "Riesenschirmpilz" masculine) ;
 lin zwerg_blaeuling_N = mkHyphenN "Zwerg" (mkN "Bläuling" "Bläulinge" "Bläuling" masculine) ;
+lin aberratio_ictus_N = changeCompoundN "aberratio-ictus" (mkN "aberratio ictus" "aberrationes ictus" feminine) ;
+lin aberratio_testis_N = changeCompoundN "Aberratio-testis" (mkN "Aberratio testis" "Aberrationes testis" feminine) ;
+lin ablatio_placentae_N = changeCompoundN "Ablatio-placentae" (mkN "Ablatio placentae" "Ablationes placentae" feminine) ;
+lin ablatio_retinae_N = changeCompoundN "Ablatio-retinae" (mkN "Ablatio retinae" "Ablationes retinae" feminine) ;
+lin abrasio_uteri_N = changeCompoundN "Abrasio-uteri" (mkN "Abrasio uteri" "Abrasiones uteri" feminine) ;
+lin abscessus_cerebri_N = changeCompoundN "Abscessus-cerebri" (invarN "Abscessus cerebri" masculine) ;
+lin abscessus_hepatis_N = changeCompoundN "Abscessus-hepatis" (invarN "Abscessus hepatis" masculine) ;
+lin abscessus_lienis_N = changeCompoundN "Abscessus-lienis" (invarN "Abscessus lienis" masculine) ;
+lin achylia_gastrica_N = changeCompoundN "Achylia-gastrica" (mkN "Achylia gastrica" "Achyliae gastricae" feminine) ;
+lin alpha_privativum_N = changeCompoundN "Alpha-privativum" (invarN "Alpha privativum" "Alpha privativa" neuter) ;
 }
