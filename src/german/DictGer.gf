@@ -6628,4 +6628,16 @@ lin kunstschule_N = mkN "Kunst" (mkN "Schule" "Schulen" feminine) ;
 lin kunstsprache_N = mkN "Kunst" (mkN "Sprache" "Sprachen" feminine) ;
 lin kunststoff_N = mkN "Kunst" (mkN "Stoff" "Stoffe" masculine) ;
 lin kunstwerk_N = mkN "Kunst" (mkN "Werk" "Werke" neuter) ;
+lin chemielaborant_N = mkN "Chemie" (mkN "Laborant" "Laboranten" masculine) ;
+lin chemielaborantin_N = mkN "Chemie" (mkN "Laborantin" "Laborantinnen" feminine) ;
+lin chemielehrer_N = mkN "Chemie" (mkN "Lehrer" "Lehrer" masculine) ;
+lin chemielehrerin_N = mkN "Chemie" (mkN "Lehrerin" "Lehrerinnen" feminine) ;
+lin chinarindenbaum_N = mkN "Chinarinden" (mkN "Baum" "Bäume" masculine) ;
+lin chinolinderivat_N = mkN "Chinolin" (mkN "Derivat" "Derivate" neuter) ;
+lin chinoloncarbonsaeure_N = mkN "Chinolon" (mkN "Carbonsäure" "Carbonsäuren" feminine) ;
+lin clonierungsvektor_N = mkN "Clonierungs" (mkN "Vektor" "Vektoren" masculine) ;
+lin codegenerator_N = mkN "Code" (mkN "Generator" "Generatoren" masculine) ;
+lin codewort_N = mkN "Code" (mkN "Wort" "Wörter" neuter) ;
+lin codierungssequenz_N = mkN "Codierungs" (mkN "Sequenz" "Sequenzen" feminine) ;
+lin codonsequenz_N = mkN "Codon" (mkN "Sequenz" "Sequenzen" feminine) ;
 }

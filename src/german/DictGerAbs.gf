@@ -3822,4 +3822,16 @@ fun
   kunstsprache_N : N ;
   kunststoff_N : N ;
   kunstwerk_N : N ;
+  chemielaborant_N : N ;
+  chemielaborantin_N : N ;
+  chemielehrer_N : N ;
+  chemielehrerin_N : N ;
+  chinarindenbaum_N : N ;
+  chinolinderivat_N : N ;
+  chinoloncarbonsaeure_N : N ;
+  clonierungsvektor_N : N ;
+  codegenerator_N : N ;
+  codewort_N : N ;
+  codierungssequenz_N : N ;
+  codonsequenz_N : N ;
 }
