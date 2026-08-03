@@ -1890,6 +1890,7 @@ concrete DictGer of DictGerAbs =
     , gleichsetzungsnominativ_N
     , gleichstrom_N
     , gleichungssystem_N
+    , gleisblockade_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3853,6 +3854,7 @@ lin gleichsetzungsakkusativ_N = mkN "Gleichsetzungs" akkusativ_N ;
 lin gleichsetzungsnominativ_N = mkN "Gleichsetzungs" nominativ_N ;
 lin gleichstrom_N = mkN "Gleich" strom_N ;
 lin gleichungssystem_N = mkN "Gleichungs" system_N ;
+lin gleisblockade_N = mkN "Gleis" blockade_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;

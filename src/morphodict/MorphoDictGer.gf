@@ -13388,7 +13388,6 @@ lin gleichwertig_A = mk3A "gleichwertig" "gleichwertiger" "gleichwertigste" ;
 lin gleichwohl_Adv = mkAdv "gleichwohl" ;
 lin gleichzeitig_A = regA "gleichzeitig" ;
 lin gleis_N = mkN "Gleis" "Gleise" neuter ;
-lin gleisblockade_N = mkN "Gleisblockade" "Gleisblockaden" feminine ;
 lin gleiswaage_N = mkN "Gleiswaage" "Gleiswaagen" feminine ;
 lin gleiten_V = irregV "gleiten" "gleitet" "glitt" "glitt" "geglitten" ;
 lin gleithoernchen_N = mkN "Gleithörnchen" "Gleithörnchen" neuter ;
