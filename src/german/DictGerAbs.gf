@@ -1339,6 +1339,14 @@ fun
   zu_tage_Adv : Adv ;
   zu_viel_Adv : Adv ;
   fussballplatz__N : N ;
+  fabrikationsfehler_N : N ;
+  fabrikationsprozess_N : N ;
+  fachaerztin_N : N ;
+  facharbeiter_N : N ;
+  facharzt_N : N ;
+  fachausdruck_N : N ;
+  fachbegriff_N : N ;
+  fachbereich_N : N ;
   geschaeftsreise__N : N ;
   maerzrevolution__N : N ;
   sprachoekonomie__N : N ;

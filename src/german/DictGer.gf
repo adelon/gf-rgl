@@ -228,6 +228,14 @@ concrete DictGer of DictGerAbs =
     , weiterfuehrende_nebensatz_N
     , ziegelrote_risspilz__N
     , fussballplatz__N
+    , fabrikationsfehler_N
+    , fabrikationsprozess_N
+    , fachaerztin_N
+    , facharbeiter_N
+    , facharzt_N
+    , fachausdruck_N
+    , fachbegriff_N
+    , fachbereich_N
     , geschaeftsreise__N
     , maerzrevolution__N
     , sprachoekonomie__N
@@ -3374,4 +3382,12 @@ lin eingangstuer_N = mkN "Eingangs" tuer_N ;
 lin einheitspreis_N = mkN einheit_N preis_N ;
 lin einheitsschule_N = changeCompoundN "Einheitsschulen" (mkN einheit_N schule_N) ;
 lin einheitssprache_N = changeCompoundN "Einheitssprachen" (mkN einheit_N sprache_N) ;
+lin fabrikationsfehler_N = mkN "Fabrikations" fehler_N ;
+lin fabrikationsprozess_N = mkN "Fabrikations" prozess_N ;
+lin fachaerztin_N = mkN "Fach" aerztin_N ;
+lin facharbeiter_N = mkN "Fach" arbeiter_N ;
+lin facharzt_N = mkN "Fach" arzt_N ;
+lin fachausdruck_N = mkN "Fach" (mkN "Ausdruck" "Ausdrücke" masculine) ;
+lin fachbegriff_N = mkN "Fach" begriff_N ;
+lin fachbereich_N = mkN "Fach" bereich_N ;
 }
