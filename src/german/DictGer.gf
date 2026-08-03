@@ -2179,6 +2179,13 @@ concrete DictGer of DictGerAbs =
     , nussschokolade_N
     , nussstrudel_N
     , nusstorte_N
+    , obstbaum_N
+    , obstgarten_N
+    , obsthaendler_N
+    , obsthaendlerin_N
+    , obstsalat_N
+    , obsttorte_N
+    , obstwein_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4460,6 +4467,13 @@ lin nussschinken_N = mkN nuss_N schinken_N ;
 lin nussschokolade_N = mkN nuss_N schokolade_N ;
 lin nussstrudel_N = mkN nuss_N strudel_N ;
 lin nusstorte_N = mkN nuss_N torte_N ;
+lin obstbaum_N = mkN "Obst" baum_N ;
+lin obstgarten_N = mkN "Obst" garten_N ;
+lin obsthaendler_N = mkN "Obst" haendler_N ;
+lin obsthaendlerin_N = mkN "Obst" haendlerin_N ;
+lin obstsalat_N = mkN "Obst" salat_N ;
+lin obsttorte_N = mkN "Obst" torte_N ;
+lin obstwein_N = mkN "Obst" wein_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
