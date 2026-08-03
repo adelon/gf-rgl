@@ -6576,4 +6576,14 @@ lin hackfrucht_N = mkN "Hack" (mkN "Frucht" "Früchte" feminine) ;
 lin hafenrundfahrt_N = mkN "Hafen" (mkN "Rundfahrt" "Rundfahrten" feminine) ;
 lin haftbefehl_N = mkN "Haft" (mkN "Befehl" "Befehle" masculine) ;
 lin hagebuttentee_N = changeCompoundN "Hagebuttentee" (mkN "Hagebutten" (mkN "Tee" "Tees" masculine)) ;
+lin icherzaehler_N = mkN "Ich" (mkN "Erzähler" "Erzähler" masculine) ;
+lin ichlaut_N = mkN "Ich" (mkN "Laut" "Laute" masculine) ;
+lin ichroman_N = mkN "Ich" (mkN "Roman" "Romane" masculine) ;
+lin idiotentest_N = mkN "Idioten" (mkN "Test" "Tests" masculine) ;
+lin ikonizitaetsgrad_N = mkN "Ikonizitäts" (mkN "Grad" "Grade" masculine) ;
+lin immatrikulationsbescheinigung__N = changeCompoundN "Immatrikulationsbescheinigung" (mkN "Immatrikulations" (mkN "Bescheinigung" "Bescheinigungen" feminine)) ;
+lin immunantwortmodifikator_N = mkN "Immunantwort" (mkN "Modifikator" "Modifikatoren" masculine) ;
+lin immuneffektorzelle_N = mkN "Immuneffektor" (mkN "Zelle" "Zellen" feminine) ;
+lin induktionskochfeld_N = mkN "Induktions" (mkN "Kochfeld" "Kochfelder" neuter) ;
+lin inhaltswort_N = mkN "Inhalts" (mkN "Wort" "Wörter" neuter) ;
 }

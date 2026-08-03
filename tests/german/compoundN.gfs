@@ -1298,6 +1298,16 @@ cc -all hackfrucht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hack
 cc -all hafenrundfahrt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hafenrundfahrt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hafenrundfahrt_N.co
 cc -all haftbefehl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ haftbefehl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ haftbefehl_N.co
 cc -all hagebuttentee_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hagebuttentee_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hagebuttentee_N.co
+cc -all icherzaehler_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ icherzaehler_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ icherzaehler_N.co
+cc -all ichlaut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ichlaut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ichlaut_N.co
+cc -all ichroman_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ichroman_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ichroman_N.co
+cc -all idiotentest_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ idiotentest_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ idiotentest_N.co
+cc -all ikonizitaetsgrad_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ikonizitaetsgrad_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ikonizitaetsgrad_N.co
+cc -all immatrikulationsbescheinigung__N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ immatrikulationsbescheinigung__N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ immatrikulationsbescheinigung__N.co
+cc -all immunantwortmodifikator_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ immunantwortmodifikator_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ immunantwortmodifikator_N.co
+cc -all immuneffektorzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ immuneffektorzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ immuneffektorzelle_N.co
+cc -all induktionskochfeld_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ induktionskochfeld_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ induktionskochfeld_N.co
+cc -all inhaltswort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ inhaltswort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ inhaltswort_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co

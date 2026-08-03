@@ -3770,4 +3770,14 @@ fun
   hafenrundfahrt_N : N ;
   haftbefehl_N : N ;
   hagebuttentee_N : N ;
+  icherzaehler_N : N ;
+  ichlaut_N : N ;
+  ichroman_N : N ;
+  idiotentest_N : N ;
+  ikonizitaetsgrad_N : N ;
+  immatrikulationsbescheinigung__N : N ;
+  immunantwortmodifikator_N : N ;
+  immuneffektorzelle_N : N ;
+  induktionskochfeld_N : N ;
+  inhaltswort_N : N ;
 }

@@ -15520,9 +15520,7 @@ fun ibis_N : N ;
 fun ibuprofen_N : N ;
 fun ice_N : N ;
 fun ich_synton_A : A ;
-fun icherzaehler_N : N ;
-fun ichlaut_N : N ;
-fun ichroman_N : N ;
+
 fun ichthyose_N : N ;
 fun ichthyosis_N : N ;
 fun ichtyose_N : N ;
@@ -15560,7 +15558,7 @@ fun idiosynkrasie_N : N ;
 fun idiosynkratisch_A : A ;
 fun idiot_N : N ;
 fun idiotensicher_A : A ;
-fun idiotentest_N : N ;
+
 fun idol_N : N ;
 fun idolatrie_N : N ;
 fun idyll_N : N ;
@@ -15577,7 +15575,7 @@ fun ikonisch_A : A ;
 fun ikonische_zeichen_N : N ;
 fun ikonismus_N : N ;
 fun ikonizitaet_N : N ;
-fun ikonizitaetsgrad_N : N ;
+
 fun ikonoklasmus_N : N ;
 fun ikonophore_N : N ;
 fun ikosaeder_N : N ;
@@ -15616,7 +15614,7 @@ fun imker_N : N ;
 fun imkern_V : V ;
 fun immanent_A : A ;
 fun immatrikulation_N : N ;
-fun immatrikulationsbescheinigung__N : N ;
+
 fun immatrikulieren_V : V ;
 fun immatur_A : A ;
 fun imme_N : N ;
@@ -15638,14 +15636,14 @@ fun immortalisiert_A : A ;
 fun immortelle_N : N ;
 fun immun_A : A ;
 fun immunaktivierend_A : A ;
-fun immunantwortmodifikator_N : N ;
+
 fun immunchemisch_A : A ;
 fun immundefizienz_N : N ;
 fun immundefizit_N : N ;
 fun immundeterminant_N : N ;
 fun immundiagnostisch_A : A ;
 fun immundominant_A : A ;
-fun immuneffektorzelle_N : N ;
+
 fun immunerkrankung_N : N ;
 fun immungeschwaecht_A : A ;
 fun immunglobulin_N : N ;
@@ -15830,7 +15828,7 @@ fun indossament_N : N ;
 fun indossierbar_A : A ;
 fun indossieren_V : V ;
 fun induktion_N : N ;
-fun induktionskochfeld_N : N ;
+
 fun induktionsspannung_N : N ;
 fun induktiv_A : A ;
 fun induktor_N : N ;
@@ -15933,7 +15931,7 @@ fun inhalieren_V : V ;
 fun inhalt_N : N ;
 fun inhaltlich_A : A ;
 fun inhaltslos_A : A ;
-fun inhaltswort_N : N ;
+
 fun inhibieren_V : V ;
 fun inhibierend_A : A ;
 fun inhibition_N : N ;

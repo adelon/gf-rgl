@@ -15660,9 +15660,7 @@ lin ich_ag_N = mkN "Ich-AG" "Ich-AGs" feminine ;
 lin ich_aktiengesellschaft_N = mkN "Ich-Aktiengesellschaft" "Ich-Aktiengesellschaften" feminine ;
 lin ich_laut_N = mkN "Ich-Laut" "Ich-Laute" masculine ;
 lin ich_synton_A = mk3A "ich-synton" "ich-syntoner" "ich-syntonste" ;
-lin icherzaehler_N = mkN "Icherzähler" "Icherzähler" masculine ;
-lin ichlaut_N = mkN "Ichlaut" "Ichlaute" masculine ;
-lin ichroman_N = mkN "Ichroman" "Ichromane" masculine ;
+
 lin ichthyose_N = mkN "Ichthyose" "Ichthyosen" feminine ;
 lin ichthyosis_N = mkN "Ichthyosis" "Ichthyosen" feminine ;
 lin ichtyose_N = mkN "Ichtyose" "Ichtyosen" feminine ;
@@ -15700,7 +15698,7 @@ lin idiosynkrasie_N = mkN "Idiosynkrasie" "Idiosynkrasien" feminine ;
 lin idiosynkratisch_A = mk3A "idiosynkratisch" "idiosynkratischer" "idiosynkratischste" ;
 lin idiot_N = mkN "Idiot" "Idioten" masculine ;
 lin idiotensicher_A = mk3A "idiotensicher" "idiotensicherer" "idiotensicherste" ;
-lin idiotentest_N = mkN "Idiotentest" "Idiotentests" masculine ;
+
 lin idol_N = mkN "Idol" "Idole" neuter ;
 lin idolatrie_N = mkN "Idolatrie" "Idolatrien" feminine ;
 lin idyll_N = mkN "Idyll" "Idylle" neuter ;
@@ -15717,7 +15715,7 @@ lin ikonisch_A = regA "ikonisch" ;
 lin ikonische_zeichen_N = mkN "ikonische Zeichen" "ikonischen Zeichen" neuter ;
 lin ikonismus_N = mkN "Ikonismus" "Ikonismen" masculine ;
 lin ikonizitaet_N = mkN "Ikonizität" "Ikonizitäten" feminine ;
-lin ikonizitaetsgrad_N = mkN "Ikonizitätsgrad" "Ikonizitätsgrade" masculine ;
+
 lin ikonoklasmus_N = mkN "Ikonoklasmus" "Ikonoklasmen" masculine ;
 lin ikonophore_N = mkN "Ikonophore" "Ikonophoren" feminine ;
 lin ikosaeder_N = mkN "Ikosaeder" "Ikosaeder" neuter ;
@@ -15756,7 +15754,7 @@ lin imker_N = mkN "Imker" "Imker" masculine ;
 lin imkern_V = irregV "imkern" "imkert" "imkerte" "imkerte" "imkert" ;
 lin immanent_A = regA "immanent" ;
 lin immatrikulation_N = mkN "Immatrikulation" ;
-lin immatrikulationsbescheinigung__N = mkN "Immatrikulationsbescheinigung" "Immatrikulationsbescheinigungen" feminine ;
+
 lin immatrikulieren_V = irregV "immatrikulieren" "immatrikuliert" "immatrikulierte" "immatrikulierte" "immatrikuliert" ;
 lin immatur_A = regA "immatur" ;
 lin imme_N = mkN "Imme" "Immen" feminine ;
@@ -15778,14 +15776,14 @@ lin immortalisiert_A = regA "immortalisiert" ;
 lin immortelle_N = mkN "Immortelle" "Immortellen" feminine ;
 lin immun_A = mk3A "immun" "immuner" "immunste" ;
 lin immunaktivierend_A = regA "immunaktivierend" ;
-lin immunantwortmodifikator_N = mkN "Immunantwortmodifikator" "Immunantwortmodifikatoren" masculine ;
+
 lin immunchemisch_A = regA "immunchemisch" ;
 lin immundefizienz_N = mkN "Immundefizienz" "Immundefizienzen" feminine ;
 lin immundefizit_N = mkN "Immundefizit" "Immundefizite" neuter ;
 lin immundeterminant_N = mkN "Immundeterminant" "Immundeterminanten" masculine ;
 lin immundiagnostisch_A = regA "immundiagnostisch" ;
 lin immundominant_A = regA "immundominant" ;
-lin immuneffektorzelle_N = mkN "Immuneffektorzelle" "Immuneffektorzellen" feminine ;
+
 lin immunerkrankung_N = mkN "Immunerkrankung" "Immunerkrankungen" feminine ;
 lin immungeschwaecht_A = regA "immungeschwächt" ;
 lin immunglobulin_N = mkN "Immunglobulin" "Immunglobuline" neuter ;
@@ -15970,7 +15968,7 @@ lin indossament_N = mkN "Indossament" "Indossamente" neuter ;
 lin indossierbar_A = regA "indossierbar" ;
 lin indossieren_V = irregV "indossieren" "indossiert" "indossierte" "indossierte" "indossiert" ;
 lin induktion_N = mkN "Induktion" ;
-lin induktionskochfeld_N = mkN "Induktionskochfeld" "Induktionskochfelder" neuter ;
+
 lin induktionsspannung_N = mkN "Induktionsspannung" ;
 lin induktiv_A = regA "induktiv" ;
 lin induktor_N = mkN "Induktor" "Induktoren" masculine ;
@@ -16073,7 +16071,7 @@ lin inhalieren_V = irregV "inhalieren" "inhaliert" "inhalierte" "inhalierte" "in
 lin inhalt_N = mkN "Inhalt" "Inhalte" masculine ;
 lin inhaltlich_A = regA "inhaltlich" ;
 lin inhaltslos_A = regA "inhaltslos" ;
-lin inhaltswort_N = mkN "Inhaltswort" "Inhaltswörter" neuter ;
+
 lin inhibieren_V = irregV "inhibieren" "inhibiert" "inhibierte" "inhibierte" "inhibiert" ;
 lin inhibierend_A = regA "inhibierend" ;
 lin inhibition_N = regN "Hemmung" ;
