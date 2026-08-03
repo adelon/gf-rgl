@@ -3727,4 +3727,15 @@ fun
   druesensekret_N : N ;
   durstgefuehl_N : N ;
   durststrecke_N : N ;
+  ehemann_N : N ;
+  ehepartnerin_N : N ;
+  eierstock_N : N ;
+  eierstockzelle_N : N ;
+  eignungstest_N : N ;
+  einkaufswagen_N : N ;
+  einkochglas_N : N ;
+  einkommenssteuer_N : N ;
+  einkommensteuer_N : N ;
+  einkommensteuererklaerung_N : N ;
+  einrad_N : N ;
 }

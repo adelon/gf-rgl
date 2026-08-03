@@ -1287,6 +1287,17 @@ cc -all xenon_lampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ xen
 cc -all ylang_ylang_baum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ylang_ylang_baum_N.co
 cc -all zitzen_riesenschirmpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zitzen_riesenschirmpilz_N.co
 cc -all zwerg_blaeuling_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ zwerg_blaeuling_N.co
+cc -all ehemann_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ehemann_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ehemann_N.co
+cc -all ehepartnerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ehepartnerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ehepartnerin_N.co
+cc -all eierstock_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eierstock_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eierstock_N.co
+cc -all eierstockzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eierstockzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eierstockzelle_N.co
+cc -all eignungstest_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eignungstest_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eignungstest_N.co
+cc -all einkaufswagen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkaufswagen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkaufswagen_N.co
+cc -all einkochglas_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkochglas_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkochglas_N.co
+cc -all einkommenssteuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkommenssteuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkommenssteuer_N.co
+cc -all einkommensteuer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkommensteuer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkommensteuer_N.co
+cc -all einkommensteuererklaerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkommensteuererklaerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkommensteuererklaerung_N.co
+cc -all einrad_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einrad_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einrad_N.co
 cc -all dachdecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dachdecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dachdecker_N.co
 cc -all daemmerstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ daemmerstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ daemmerstunde_N.co
 cc -all dankgebet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dankgebet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dankgebet_N.co

@@ -6533,4 +6533,15 @@ lin druckbuchstabe_N = changeCompoundN "Druckbuchstabe" (mkN "Druck" buchstabe_N
 lin druesensekret_N = mkN druese_N sekret_N ;
 lin durstgefuehl_N = mkN "Durst" gefuehl_N ;
 lin durststrecke_N = changeCompoundN "Durststrecke" (mkN "Durst" strecke_N) ;
+lin ehemann_N = mkN ehe_N (mkN "Mann" "Männer" masculine) ;
+lin ehepartnerin_N = mkN ehe_N (mkN "Partnerin" "Partnerinnen" feminine) ;
+lin eierstock_N = mkN "Eier" (mkN "Stock" "Stöcke" masculine) ;
+lin eierstockzelle_N = changeCompoundN "Eierstockzelle" (mkN "Eierstock" zelle_N) ;
+lin eignungstest_N = mkN "Eignungs" (mkN "Test" "Tests" masculine) ;
+lin einkaufswagen_N = mkN "Einkaufs" (mkN "Wagen" "Wagen" masculine) ;
+lin einkochglas_N = mkN "Einkoch" glas_N ;
+lin einkommenssteuer_N = mkN "Einkommens" (mkN "Steuer" "Steuern" feminine) ;
+lin einkommensteuer_N = mkN "Einkommen" (mkN "Steuer" "Steuern" feminine) ;
+lin einkommensteuererklaerung_N = changeCompoundN "Einkommensteuererklärung" (mkN "Einkommensteuer" erklaerung_N) ;
+lin einrad_N = mkN "Ein" rad_N ;
 }
