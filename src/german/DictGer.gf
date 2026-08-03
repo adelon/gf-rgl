@@ -1396,6 +1396,19 @@ concrete DictGer of DictGerAbs =
     , mutterkuchen_N
     , muttersprache_N
     , muttertag_N
+    , fahrerlaubnis_N
+    , fahrfehler_N
+    , fahrgast_N
+    , fahrgefuehl_N
+    , fahrlader_N
+    , fahrlehrer_N
+    , fahrradbremse_N
+    , fahrradfahrerin_N
+    , fahrradhaendler_N
+    , fahrschein_N
+    , fahrscheinkontrolle_N
+    , fahrschueler_N
+    , fahrschullehrer_N
     , fadenkreuz_N
     , faehrschiff_N
     , faehrtensucher_N
@@ -2618,6 +2631,19 @@ lin empfaengersprache_N = changeCompoundN "Empfängersprachen" (mkN "Empfänger"
 lin empfaengerzelle_N = changeCompoundN "Empfängerzellen" (mkN "Empfänger" zelle_N) ;
 lin empfangszimmer_N = mkN "Empfangs" zimmer_N ;
 lin eiskalt_A = mkA eis_N kalt_A ;
+lin fahrerlaubnis_N = mkN "Fahr" erlaubnis_N ;
+lin fahrfehler_N = mkN "Fahr" fehler_N ;
+lin fahrgast_N = mkN "Fahr" gast_N ;
+lin fahrgefuehl_N = mkN "Fahr" gefuehl_N ;
+lin fahrlader_N = mkN "Fahr" lader_N ;
+lin fahrlehrer_N = mkN "Fahr" lehrer_N ;
+lin fahrradbremse_N = changeCompoundN "Fahrradbremsen" (mkN fahrrad_N bremse_N) ;
+lin fahrradfahrerin_N = mkN fahrrad_N fahrerin_N ;
+lin fahrradhaendler_N = mkN fahrrad_N haendler_N ;
+lin fahrschein_N = mkN "Fahr" schein_N ;
+lin fahrscheinkontrolle_N = changeCompoundN "Fahrscheinkontrollen" (mkN "Fahrschein" kontrolle_N) ;
+lin fahrschueler_N = mkN "Fahr" schueler_N ;
+lin fahrschullehrer_N = mkN "Fahrschul" lehrer_N ;
 lin fadenkreuz_N = mkN faden_N kreuz_N ;
 lin faehrschiff_N = mkN "Fähr" schiff_N ;
 lin faehrtensucher_N = mkN "Fährten" (mkN "Sucher" "Sucher" masculine) ;
