@@ -1963,6 +1963,8 @@ concrete DictGer of DictGerAbs =
     , grasflaeche_N
     , grasglucke_N
     , grasmuecke_N
+    , gratgewoelbe_N
+    , gratwanderung_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4026,6 +4028,8 @@ lin grasaffe_N = mkN gras_N affe_N ;
 lin grasflaeche_N = mkN gras_N flaeche_N ;
 lin grasglucke_N = mkN gras_N glucke_N ;
 lin grasmuecke_N = mkN gras_N muecke_N ;
+lin gratgewoelbe_N = changeCompoundN "Gratgewölben" (mkN grat_N gewoelbe_N) ;
+lin gratwanderung_N = mkN grat_N wanderung_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
