@@ -2127,6 +2127,15 @@ concrete DictGer of DictGerAbs =
     , laufsteg_N
     , laufvogel_N
     , laufzeit_N
+    , luftangriff_N
+    , luftaufnahme_N
+    , luftbild_N
+    , luftblase_N
+    , luftbruecke_N
+    , luftfracht_N
+    , luftgewehr_N
+    , luftkampf_N
+    , luftkrieg_N
     , jo_jo_effekt_N
     , jo_jo_N
     , grenzfluss_N
@@ -4356,6 +4365,15 @@ lin laufstall_N = mkN "Lauf" stall_N ;
 lin laufsteg_N = mkN "Lauf" steg_N ;
 lin laufvogel_N = mkN "Lauf" vogel_N ;
 lin laufzeit_N = mkN "Lauf" zeit_N ;
+lin luftangriff_N = mkN "Luft" angriff_N ;
+lin luftaufnahme_N = changeCompoundN "Luftaufnahmen" (mkN "Luft" aufnahme_N) ;
+lin luftbild_N = mkN "Luft" bild_N ;
+lin luftblase_N = mkN "Luft" blase_N ;
+lin luftbruecke_N = mkN "Luft" bruecke_N ;
+lin luftfracht_N = mkN "Luft" fracht_N ;
+lin luftgewehr_N = mkN "Luft" gewehr_N ;
+lin luftkampf_N = mkN "Luft" kampf_N ;
+lin luftkrieg_N = mkN "Luft" krieg_N ;
 lin jo_jo_effekt_N = mkN "Jo-Jo-Effekt" "Jo-Jo-Effekte" masculine ;
 lin jo_jo_N = mkN "Jo-Jo" "Jo-Jos" neuter ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
