@@ -8198,16 +8198,13 @@ lin dokosahexaensaeure_N = mkN "Dokosahexaensäure" "Dokosahexaensäuren" femini
 lin doktor_N = mkN "Doktor" "Doktoren" masculine ;
 lin doktorand_N = mkN "Doktorand" "Doktoranden" masculine ;
 lin doktorandin_N = mkN "Doktorandin" "Doktorandinnen" feminine ;
-lin doktorarbeit_N = mkN "Doktorarbeit" "Doktorarbeiten" feminine ;
-lin doktorfisch_N = mkN "Doktorfisch" "Doktorfische" masculine ;
-lin doktorgrad_N = mkN "Doktorgrad" "Doktorgrade" masculine ;
-lin doktortitel_N = mkN "Doktortitel" "Doktortitel" masculine ;
+
 lin doktrin_N = mkN "Doktrin" "Doktrinen" feminine ;
 lin dokument_N = mkN "Dokument" "Dokumente" neuter ;
 lin dokumentation_N = mkN "Dokumentation" ;
-lin dokumentationslizenz_N = mkN "Dokumentationslizenz" "Dokumentationslizenzen" feminine ;
+
 lin dokumentieren_V = irregV "dokumentieren" "dokumentiert" "dokumentierte" "dokumentierte" "dokumentiert" ;
-lin dokusoap_N = mkN "Dokusoap" "Dokusoaps" feminine ;
+
 lin dolcetto_N = mkN "Dolcetto" "Dolcettos" masculine ;
 lin dolch_N = mkN "Dolch" "Dolche" masculine ;
 lin dolchstosslegende_N = mkN "Dolchstoßlegende" "Dolchstoßlegenden" feminine ;

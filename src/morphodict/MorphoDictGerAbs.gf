@@ -8116,16 +8116,13 @@ fun dokosahexaensaeure_N : N ;
 fun doktor_N : N ;
 fun doktorand_N : N ;
 fun doktorandin_N : N ;
-fun doktorarbeit_N : N ;
-fun doktorfisch_N : N ;
-fun doktorgrad_N : N ;
-fun doktortitel_N : N ;
+
 fun doktrin_N : N ;
 fun dokument_N : N ;
 fun dokumentation_N : N ;
-fun dokumentationslizenz_N : N ;
+
 fun dokumentieren_V : V ;
-fun dokusoap_N : N ;
+
 fun dolcetto_N : N ;
 fun dolch_N : N ;
 fun dolchstosslegende_N : N ;

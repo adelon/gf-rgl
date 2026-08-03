@@ -1392,6 +1392,12 @@ cc -all dosierungseinheitsform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nomina
 cc -all dosierungsform_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierungsform_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierungsform_N.co
 cc -all dosierungsmenge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierungsmenge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierungsmenge_N.co
 cc -all dosierventil_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dosierventil_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dosierventil_N.co
+cc -all dokumentationslizenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dokumentationslizenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dokumentationslizenz_N.co
+cc -all doktorarbeit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ doktorarbeit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ doktorarbeit_N.co
+cc -all doktorfisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ doktorfisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ doktorfisch_N.co
+cc -all doktorgrad_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ doktorgrad_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ doktorgrad_N.co
+cc -all doktortitel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ doktortitel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ doktortitel_N.co
+cc -all dokusoap_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dokusoap_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dokusoap_N.co
 cc -all gaemshorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gaemshorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gaemshorn_N.co
 cc -all gamsbart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsbart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsbart_N.co
 cc -all gamsberg_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gamsberg_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gamsberg_N.co

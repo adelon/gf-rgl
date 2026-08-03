@@ -3864,4 +3864,10 @@ fun
   dosierungsform_N : N ;
   dosierungsmenge_N : N ;
   dosierventil_N : N ;
+  dokumentationslizenz_N : N ;
+  doktorarbeit_N : N ;
+  doktorfisch_N : N ;
+  doktorgrad_N : N ;
+  doktortitel_N : N ;
+  dokusoap_N : N ;
 }

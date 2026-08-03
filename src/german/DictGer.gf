@@ -6670,4 +6670,10 @@ lin dosierungseinheitsform_N = mkN "Dosierungseinheits" (mkN "Form" "Formen" fem
 lin dosierungsform_N = mkN "Dosierungs" (mkN "Form" "Formen" feminine) ;
 lin dosierungsmenge_N = mkN "Dosierungs" (mkN "Menge" "Mengen" feminine) ;
 lin dosierventil_N = mkN "Dosier" (mkN "Ventil" "Ventile" neuter) ;
+lin dokumentationslizenz_N = mkN "Dokumentations" (mkN "Lizenz" "Lizenzen" feminine) ;
+lin doktorarbeit_N = mkN "Doktor" (mkN "Arbeit" "Arbeiten" feminine) ;
+lin doktorfisch_N = mkN "Doktor" (mkN "Fisch" "Fische" masculine) ;
+lin doktorgrad_N = mkN "Doktor" (mkN "Grad" "Grade" masculine) ;
+lin doktortitel_N = mkN "Doktor" (mkN "Titel" "Titel" masculine) ;
+lin dokusoap_N = mkN "Doku" (mkN "Soap" "Soaps" feminine) ;
 }
