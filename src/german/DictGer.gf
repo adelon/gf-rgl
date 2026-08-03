@@ -1909,6 +1909,15 @@ concrete DictGer of DictGerAbs =
     , gliedermassstab_N
     , gliederungspartikel_N
     , gliedmassenamputation_N
+    , glockengeruest_N
+    , glockenmauer_N
+    , glockenspeise_N
+    , glockenspiel_N
+    , glockenstube_N
+    , glockenstuhl_N
+    , glockenturm_N
+    , glockenwand_N
+    , glockenweihe_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3891,6 +3900,15 @@ lin gliederfuesser_N = mkN "Glieder" (mkN "Füßer" "Füßer" masculine) ;
 lin gliedermassstab_N = mkN "Glieder" massstab_N ;
 lin gliederungspartikel_N = mkN "Gliederungs" partikel_N ;
 lin gliedmassenamputation_N = mkN "Gliedmaßen" amputation_N ;
+lin glockengeruest_N = mkN "Glocken" geruest_N ;
+lin glockenmauer_N = mkN "Glocken" mauer_N ;
+lin glockenspeise_N = changeCompoundN "Glockenspeisen" (mkN "Glocken" (mkN "Speise" "Speisen" feminine)) ;
+lin glockenspiel_N = mkN "Glocken" spiel_N ;
+lin glockenstube_N = mkN "Glocken" stube_N ;
+lin glockenstuhl_N = mkN "Glocken" stuhl_N ;
+lin glockenturm_N = mkN "Glocken" turm_N ;
+lin glockenwand_N = mkN "Glocken" wand_N ;
+lin glockenweihe_N = mkN "Glocken" weihe_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
