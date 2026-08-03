@@ -1901,6 +1901,10 @@ concrete DictGer of DictGerAbs =
     , gletscherfluss_N
     , gletscherschliff_N
     , gletscherwein_N
+    , gliedertier_N
+    , gliedsatz_N
+    , gliedteil_N
+    , gliedteilsatz_N
     , feinbackware_N
     , gewuerzgurke_N
     , gewuerzmischung_N
@@ -3875,6 +3879,10 @@ lin gletscherfalter_N = mkN "Gletscher" (mkN "Falter" "Falter" masculine) ;
 lin gletscherfluss_N = mkN "Gletscher" fluss_N ;
 lin gletscherschliff_N = mkN "Gletscher" (mkN "Schliff" "Schliffe" masculine) ;
 lin gletscherwein_N = mkN "Gletscher" wein_N ;
+lin gliedertier_N = mkN "Glieder" tier_N ;
+lin gliedsatz_N = mkN "Glied" satz_N ;
+lin gliedteil_N = mkN "Glied" teil_N ;
+lin gliedteilsatz_N = mkN "Gliedteil" satz_N ;
 lin gewuerzgurke_N = mkN "Gewürz" gurke_N ;
 lin gewuerzmischung_N = mkN "Gewürz" mischung_N ;
 lin gewuerznelke_N = mkN "Gewürz" nelke_N ;
