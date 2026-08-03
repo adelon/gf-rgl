@@ -1478,6 +1478,34 @@ concrete DictGer of DictGerAbs =
     , fettsubstanz_N
     , fettwanst_N
     , fettzelle_N
+    , feueralarm_N
+    , feuerberg_N
+    , feuerbestattung_N
+    , feuergefahr_N
+    , feuerleiter_N
+    , feuerloescher_N
+    , feuerloeschteich_N
+    , feuerloeschzug_N
+    , feuermelder_N
+    , feuersalamander_N
+    , feuerschiff_N
+    , feuerspiegel_N
+    , feuerstein_N
+    , feuerstoss_N
+    , feuersturm_N
+    , feuerteufel_N
+    , feuertreppe_N
+    , feuerueberfall_N
+    , feuerversicherung_N
+    , feuerwache_N
+    , feuerwaffe_N
+    , feuerwehr_N
+    , feuerwehrauto_N
+    , feuerwehrzufahrt_N
+    , feuerwerk_N
+    , feuerwerker_N
+    , feuerwerkskoerper_N
+    , feuerzeug_N
     , feinbackware_N
     , feindbild_N
     , feindesland_N
@@ -2861,6 +2889,34 @@ lin fettsaeurenausgangsmaterial_N = mkN "Fettsäuren" ausgangsmaterial_N ;
 lin fettsubstanz_N = mkN "Fett" substanz_N ;
 lin fettwanst_N = mkN "Fett" wanst_N ;
 lin fettzelle_N = mkN "Fett" (mkN "Zelle" "Zellen" "Zellen" feminine) ;
+lin feueralarm_N = mkN "Feuer" alarm_N ;
+lin feuerberg_N = mkN "Feuer" berg_N ;
+lin feuerbestattung_N = mkN "Feuer" bestattung_N ;
+lin feuergefahr_N = mkN "Feuer" gefahr_N ;
+lin feuerleiter_N = mkN "Feuer" (mkN "Leiter" "Leitern" feminine) ;
+lin feuerloescher_N = mkN "Feuer" (mkN "Löscher" "Löscher" masculine) ;
+lin feuerloeschteich_N = mkN "Feuerlösch" (mkN "Teich" "Teiche" masculine) ;
+lin feuerloeschzug_N = mkN "Feuerlösch" (mkN "Zug" "Züge" masculine) ;
+lin feuermelder_N = mkN "Feuer" (mkN "Melder" "Melder" masculine) ;
+lin feuersalamander_N = mkN "Feuer" salamander_N ;
+lin feuerschiff_N = mkN "Feuer" schiff_N ;
+lin feuerspiegel_N = mkN "Feuer" spiegel_N ;
+lin feuerstein_N = mkN "Feuer" stein_N ;
+lin feuerstoss_N = mkN "Feuer" stoss_N ;
+lin feuersturm_N = mkN "Feuer" sturm_N ;
+lin feuerteufel_N = mkN "Feuer" teufel_N ;
+lin feuertreppe_N = mkN "Feuer" treppe_N ;
+lin feuerueberfall_N = mkN "Feuer" ueberfall_N ;
+lin feuerversicherung_N = mkN "Feuer" versicherung_N ;
+lin feuerwache_N = mkN "Feuer" (mkN "Wache" "Wachen" "Wachen" feminine) ;
+lin feuerwaffe_N = mkN "Feuer" waffe_N ;
+lin feuerwehr_N = mkN "Feuer" (mkN "Wehr" "Wehren" "Wehr" neuter) ;
+lin feuerwehrauto_N = mkN "Feuerwehr" (mkN "Auto" "Autos" neuter) ;
+lin feuerwehrzufahrt_N = mkN "Feuerwehr" (mkN "Zufahrt" "Zufahrten" feminine) ;
+lin feuerwerk_N = mkN "Feuer" werk_N ;
+lin feuerwerker_N = mkN "Feuer" (mkN "Werker" "Werker" masculine) ;
+lin feuerwerkskoerper_N = mkN "Feuerwerks" (mkN "Körper" "Körper" masculine) ;
+lin feuerzeug_N = mkN "Feuer" (mkN "Zeug" "Zeuge" "Zeug" neuter) ;
 lin feinbackware_N = mkN "Fein" (mkN "Backware" "Backwaren" feminine) ;
 lin feindbild_N = mkN "Feind" bild_N ;
 lin feindesland_N = mkN "Feindes" (mkN "Land" "Länder" neuter) ;
