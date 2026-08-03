@@ -2027,6 +2027,11 @@ concrete DictGer of DictGerAbs =
     , inhaltsseite_N
     , inhaltsstoff_N
     , inhaltsverzeichnis_N
+    , internetauktion_N
+    , internetfirma_N
+    , internetportal_N
+    , internetseite_N
+    , internetzugang_N
     , grenzfluss_N
     , grenzgaenger_N
     , grenzmarke_N
@@ -4154,6 +4159,11 @@ lin inhaltssatz_N = mkN "Inhalts" satz_N ;
 lin inhaltsseite_N = mkN "Inhalts" seite_N ;
 lin inhaltsstoff_N = mkN "Inhalts" stoff_N ;
 lin inhaltsverzeichnis_N = mkN "Inhalts" verzeichnis_N ;
+lin internetauktion_N = mkN "Internet" auktion_N ;
+lin internetfirma_N = mkN "Internet" firma_N ;
+lin internetportal_N = mkN "Internet" portal_N ;
+lin internetseite_N = mkN "Internet" seite_N ;
+lin internetzugang_N = mkN "Internet" zugang_N ;
 lin grenzfluss_N = mkN grenze_N fluss_N ;
 lin grenzgaenger_N = mkN grenze_N (mkN "Gänger" "Gänger" masculine) ;
 lin grenzmarke_N = mkN grenze_N marke_N ;
