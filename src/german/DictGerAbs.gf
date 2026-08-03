@@ -1487,6 +1487,9 @@ fun
   gastwirtschaft_N : N ;
   gaswagen_N : N ;
   gebaerdensprache_N : N ;
+  gebaermutterhals_N : N ;
+  gebaermutterhalskrebszelle_N : N ;
+  gebaermutterschleimhauttumor_N : N ;
   gebetbuch_N : N ;
   gebetshaus_N : N ;
   gebetsteppich_N : N ;

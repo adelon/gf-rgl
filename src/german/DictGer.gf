@@ -1700,6 +1700,9 @@ concrete DictGer of DictGerAbs =
     , gastwirtschaft_N
     , gaswagen_N
     , gebaerdensprache_N
+    , gebaermutterhals_N
+    , gebaermutterhalskrebszelle_N
+    , gebaermutterschleimhauttumor_N
     , gebetbuch_N
     , gebetshaus_N
     , gebetsteppich_N
@@ -3419,6 +3422,9 @@ lin gastvortrag_N = mkN "Gast" vortrag_N ;
 lin gastwirtschaft_N = mkN "Gast" wirtschaft_N ;
 lin gaswagen_N = mkN "Gas" (mkN "Wagen" "Wagen" masculine) ;
 lin gebaerdensprache_N = mkN "Gebärden" sprache_N ;
+lin gebaermutterhals_N = mkN "Gebärmutter" hals_N ;
+lin gebaermutterhalskrebszelle_N = mkN "Gebärmutterhals" krebszelle_N ;
+lin gebaermutterschleimhauttumor_N = mkN "Gebärmutterschleimhaut" tumor_N ;
 lin gebetbuch_N = mkN "Gebet" buch_N ;
 lin gebetshaus_N = mkN "Gebets" haus_N ;
 lin gebetsteppich_N = mkN "Gebets" teppich_N ;
