@@ -230,12 +230,25 @@ concrete DictGer of DictGerAbs =
     , fussballplatz__N
     , fabrikationsfehler_N
     , fabrikationsprozess_N
+    , fabelrekord_N
+    , fabeltier_N
+    , fabelweltrekord_N
+    , fabelwesen_N
+    , facettenauge_N
     , fachaerztin_N
     , facharbeiter_N
     , facharzt_N
     , fachausdruck_N
     , fachbegriff_N
     , fachbereich_N
+    , fachgebiet_N
+    , fachgeschaeft_N
+    , fachkraft_N
+    , fachliteratur_N
+    , fachsprache_N
+    , fachwelt_N
+    , fachwortschatz_N
+    , fachzeitschrift_N
     , geschaeftsreise__N
     , maerzrevolution__N
     , sprachoekonomie__N
@@ -3390,4 +3403,17 @@ lin facharzt_N = mkN "Fach" arzt_N ;
 lin fachausdruck_N = mkN "Fach" (mkN "Ausdruck" "Ausdrücke" masculine) ;
 lin fachbegriff_N = mkN "Fach" begriff_N ;
 lin fachbereich_N = mkN "Fach" bereich_N ;
+lin fabelrekord_N = mkN fabel_N rekord_N ;
+lin fabeltier_N = mkN fabel_N tier_N ;
+lin fabelweltrekord_N = mkN fabel_N weltrekord_N ;
+lin fabelwesen_N = mkN fabel_N wesen_N ;
+lin facettenauge_N = mkN "Facetten" auge_N ;
+lin fachgebiet_N = mkN "Fach" gebiet_N ;
+lin fachgeschaeft_N = mkN "Fach" geschaeft_N ;
+lin fachkraft_N = mkN "Fach" kraft_N ;
+lin fachliteratur_N = changeCompoundN "Fachliteraturen" (mkN "Fach" literatur_N) ;
+lin fachsprache_N = changeCompoundN "Fachsprachen" (mkN "Fach" sprache_N) ;
+lin fachwelt_N = mkN "Fach" welt_N ;
+lin fachwortschatz_N = mkN "Fach" wortschatz_N ;
+lin fachzeitschrift_N = changeCompoundN "Fachzeitschriften" (mkN "Fach" zeitschrift_N) ;
 }
