@@ -2272,13 +2272,12 @@ fun antifungal_A : A ;
 fun antifungisch_A : A ;
 fun antigen_N : N ;
 fun antigenbindend_A : A ;
-fun antigenbindungsstelle_N : N ;
-fun antigendeterminante_N : N ;
+
 fun antigenerkennend_A : A ;
 fun antigenisch_A : A ;
-fun antigenkomponente_N : N ;
+
 fun antigenome_N : N ;
-fun antigensequenz_N : N ;
+
 fun antigenspezifisch_A : A ;
 fun antigestagen_N : N ;
 fun antiguaner_N : N ;

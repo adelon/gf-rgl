@@ -814,6 +814,10 @@ fun
   ananassaft_N : N ;
   ananasschneider_N : N ;
   ankerplatz_N : N ;
+  antigenbindungsstelle_N : N ;
+  antigendeterminante_N : N ;
+  antigenkomponente_N : N ;
+  antigensequenz_N : N ;
   angstgegner_N : N ;
   angsthase_N : N ;
   angstneurose_N : N ;

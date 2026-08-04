@@ -2278,13 +2278,12 @@ lin antifungal_A = regA "antifungal" ;
 lin antifungisch_A = regA "antifungisch" ;
 lin antigen_N = mkN "Antigen" "Antigene" neuter ;
 lin antigenbindend_A = regA "antigenbindend" ;
-lin antigenbindungsstelle_N = mkN "Antigenbindungsstelle" "Antigenbindungsstellen" feminine ;
-lin antigendeterminante_N = mkN "Antigendeterminante" "Antigendeterminanten" feminine ;
+
 lin antigenerkennend_A = regA "antigenerkennend" ;
 lin antigenisch_A = regA "antigenisch" ;
-lin antigenkomponente_N = mkN "Antigenkomponente" "Antigenkomponenten" feminine ;
+
 lin antigenome_N = mkN "Antigenom" "Antigenome" neuter ;
-lin antigensequenz_N = mkN "Antigensequenz" "Antigensequenzen" feminine ;
+
 lin antigenspezifisch_A = regA "antigenspezifisch" ;
 lin antigestagen_N = mkN "Antigestagen" "Antigestagene" neuter ;
 lin antiguaner_N = mkN "Antiguaner" "Antiguaner" masculine ;

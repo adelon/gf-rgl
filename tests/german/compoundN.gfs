@@ -7,6 +7,10 @@ cc -all ampelkoalition_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ 
 cc -all ananassaft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ananassaft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ananassaft_N.co
 cc -all ananasschneider_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ananasschneider_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ananasschneider_N.co
 cc -all ankerplatz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ankerplatz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ankerplatz_N.co
+cc -all antigenbindungsstelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigenbindungsstelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigenbindungsstelle_N.co
+cc -all antigendeterminante_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigendeterminante_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigendeterminante_N.co
+cc -all antigenkomponente_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigenkomponente_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigenkomponente_N.co
+cc -all antigensequenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigensequenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigensequenz_N.co
 cc -all angstgegner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstgegner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstgegner_N.co
 cc -all angsthase_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angsthase_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angsthase_N.co
 cc -all angstneurose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstneurose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstneurose_N.co
