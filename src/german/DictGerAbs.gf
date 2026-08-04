@@ -813,6 +813,8 @@ fun
   ad_acta_Adv : Adv ;
   ad_nauseam_Adv : Adv ;
   agglutinierende_sprache_CN : CN ;
+  analytische_sprache_CN : CN ;
+  ausgestorbene_sprache_CN : CN ;
   alter_ego_N : N ;
   augenblicksbildung_N : N ;
   arbeitslosengeld_N : N ;
@@ -1105,6 +1107,11 @@ fun
   flektierende_sprache_CN : CN ;
   fluorchlorkohlenwasserstoff_N : N ;
   formale_sprache_CN : CN ;
+  baltische_sprache_CN : CN ;
+  germanische_sprache_CN : CN ;
+  iranische_sprache_CN : CN ;
+  keltische_sprache_CN : CN ;
+  romanische_sprache_CN : CN ;
   grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;
