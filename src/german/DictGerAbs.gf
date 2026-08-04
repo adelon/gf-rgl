@@ -2944,6 +2944,17 @@ fun
   fliesstext_N : N ;
   floetenquartett_N : N ;
   flohmarkt_N : N ;
+  gemeindeamt_N : N ;
+  gemeindebote_N : N ;
+  gemeindehaus_N : N ;
+  gemeinderat_N : N ;
+  gemuesebeet_N : N ;
+  gemuesegarten_N : N ;
+  gemuesehaendler_N : N ;
+  gemuesehobel_N : N ;
+  gemuesesaft_N : N ;
+  gemueseschale_N : N ;
+  gemuesesuppe_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

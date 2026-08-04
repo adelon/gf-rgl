@@ -1132,6 +1132,17 @@ concrete DictGer of DictGerAbs =
     , fliesstext_N
     , floetenquartett_N
     , flohmarkt_N
+    , gemeindeamt_N
+    , gemeindebote_N
+    , gemeindehaus_N
+    , gemeinderat_N
+    , gemuesebeet_N
+    , gemuesegarten_N
+    , gemuesehaendler_N
+    , gemuesehobel_N
+    , gemuesesaft_N
+    , gemueseschale_N
+    , gemuesesuppe_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6452,6 +6463,17 @@ lin fliessgewaesser_N = mkN "Fließ" gewaesser_N ;
 lin fliesstext_N = mkN "Fließ" text_N ;
 lin floetenquartett_N = mkN "Flöten" quartett_N ;
 lin flohmarkt_N = mkN floh_N markt_N ;
+lin gemeindeamt_N = mkN gemeinde_N amt_N ;
+lin gemeindebote_N = mkN gemeinde_N bote_N ;
+lin gemeindehaus_N = mkN gemeinde_N haus_N ;
+lin gemeinderat_N = mkN gemeinde_N rat_N ;
+lin gemuesebeet_N = mkN gemuese_N beet_N ;
+lin gemuesegarten_N = mkN gemuese_N garten_N ;
+lin gemuesehaendler_N = mkN gemuese_N haendler_N ;
+lin gemuesehobel_N = mkN gemuese_N hobel_N ;
+lin gemuesesaft_N = mkN gemuese_N saft_N ;
+lin gemueseschale_N = mkN gemuese_N schale_N ;
+lin gemuesesuppe_N = mkN gemuese_N suppe_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

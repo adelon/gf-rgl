@@ -1770,3 +1770,14 @@ cc -all fliessgewaesser_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++
 cc -all fliesstext_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fliesstext_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fliesstext_N.co
 cc -all floetenquartett_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ floetenquartett_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ floetenquartett_N.co
 cc -all flohmarkt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ flohmarkt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ flohmarkt_N.co
+cc -all gemeindeamt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemeindeamt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemeindeamt_N.co
+cc -all gemeindebote_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemeindebote_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemeindebote_N.co
+cc -all gemeindehaus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemeindehaus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemeindehaus_N.co
+cc -all gemeinderat_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemeinderat_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemeinderat_N.co
+cc -all gemuesebeet_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesebeet_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesebeet_N.co
+cc -all gemuesegarten_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesegarten_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesegarten_N.co
+cc -all gemuesehaendler_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesehaendler_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesehaendler_N.co
+cc -all gemuesehobel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesehobel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesehobel_N.co
+cc -all gemuesesaft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesesaft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesesaft_N.co
+cc -all gemueseschale_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemueseschale_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemueseschale_N.co
+cc -all gemuesesuppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesesuppe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesesuppe_N.co
