@@ -230,6 +230,10 @@ concrete DictGer of DictGerAbs =
     , ameisenpuppe_N
     , ameisenstaat_N
     , ameisenstrasse_N
+    , alpenampfer_N
+    , alpenbock_N
+    , alpenrose_N
+    , alpenveilchen_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3751,6 +3755,10 @@ lin ameisenloewe_N = mkN ameise_N loewe_N ;
 lin ameisenpuppe_N = mkN ameise_N puppe_N ;
 lin ameisenstaat_N = mkN ameise_N staat_N ;
 lin ameisenstrasse_N = mkN ameise_N strasse_N ;
+lin alpenampfer_N = mkN "Alpen" ampfer_N ;
+lin alpenbock_N = mkN "Alpen" bock_N ;
+lin alpenrose_N = mkN "Alpen" rose_N ;
+lin alpenveilchen_N = mkN "Alpen" veilchen_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

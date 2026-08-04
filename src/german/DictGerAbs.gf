@@ -769,6 +769,10 @@ fun
   ameisenpuppe_N : N ;
   ameisenstaat_N : N ;
   ameisenstrasse_N : N ;
+  alpenampfer_N : N ;
+  alpenbock_N : N ;
+  alpenrose_N : N ;
+  alpenveilchen_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
