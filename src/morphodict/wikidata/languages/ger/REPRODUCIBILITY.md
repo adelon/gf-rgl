@@ -122,7 +122,7 @@ The primary and repeat report bytes were identical:
 |---|---|---:|---:|
 | `noun-sample.tsv` | `a97a43ea48bb07140dffd34aa844bb6ae53b151c4195b9fa43cabbe9f2c443c7` | 273348 | 352 |
 | `noun-fit.tsv` | `8370b5983c0575eb2ec336679f4a874e658328a9d4f1c60825b23a4c0c306385` | 412017 | 261 |
-| `noun-rejections.tsv` | `67acee3e41bdba84ed9e8e81e153adc4ef31152e38259567e780aa785ecbcfa3` | 47967 | 91 |
+| `noun-rejections.tsv` | `c23cedc5d3480322adcf12181254f2aca689dbf6e4e9da228f07bae034a1d48c` | 47914 | 91 |
 
 The disposable abstract module, concrete module, proposal manifest, structured
 probe output, detailed fit JSON, and PGF were also byte-identical between the
@@ -149,19 +149,34 @@ The 91 rejections were:
 | Reason | Nouns |
 |---|---:|
 | singular-only residual API gap | 20 |
-| uncorrelated multiple genders | 20 |
+| unresolved multiple-gender alternatives | 20 |
 | conflicting source slots | 20 |
 | unsupported form feature | 10 |
 | multiword outside the atomic pilot | 10 |
-| no public constructor matched | 7 |
+| missing gender evidence | 5 |
+| missing required forms | 1 |
+| adjectival-declension category mismatch | 1 |
 | multiple unsupported combining forms | 3 |
 | forms conflict with number restriction | 1 |
 
-The residual public-API populations are therefore 20 singular-only nouns that
-need a public singular-only constructor and seven records not reproduced by the
-current public noun constructors. Phase 2 does not add either API. The sample
-also forces four pinned dump-derived Lexemes: `L3146`, `L10227`, `L40399`, and
-`L295104`; all four obtained complete-record fits.
+The only demonstrated residual public-API population is therefore the 20
+singular-only nouns that need a public singular-only constructor. Five
+previously unmatched records lacked gender evidence, one plural-only record
+lacked forms, and the adjectivally declined `Verwandte` is a category/modelling
+mismatch rather than an ordinary noun-constructor gap. Phase 2 does not add an
+API. The sample also forces four pinned dump-derived Lexemes: `L3146`, `L10227`,
+`L40399`, and `L295104`; all four obtained complete-record fits.
+
+Report status terms have the following frozen meanings:
+
+| Term | Meaning |
+|---|---|
+| `automatic` | Extracted and classified by frozen policy; no individual linguistic judgement is claimed. |
+| `sampled` | Included in the deterministic pilot and structurally probed; not thereby individually reviewed. |
+| `individually_reviewed` | A human reviewer has adjudicated the cited morphology or structural evidence. |
+| `reviewed_inference` | Supplied by an explicitly frozen productive rule or recorded individual adjudication. |
+| `provisional_inference` | Compatible GF output without source or frozen reviewed support. |
+| `rejected` | Excluded under a recorded source-gap, ambiguity, category, or representation policy. |
 
 The focused Python suite, warning-clean Haskell typecheck, disposable GF module
 compile, structured PGF probe, and byte-repeat checks passed. No broad RGL build

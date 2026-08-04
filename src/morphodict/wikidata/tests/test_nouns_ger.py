@@ -9,17 +9,21 @@ from dataclasses import replace
 from pathlib import Path
 
 from wd2gf.nouns_ger import (
+    ADJECTIVAL_DECLENSION_QID,
     AbbrevN,
+    ClaimEvidence,
     DEFAULT_NOUN_POLICY,
     PROBE_FIELDS,
     PluralOnlyN,
     STRATA,
+    SourceCompleteness,
     load_noun_policy,
     noun_sample_bytes,
     proposal_blocker,
     proposals_for_candidate,
     render_proposal_modules,
     select_noun_sample,
+    unfitted_candidate_reason,
 )
 from wd2gf.profile_ger import DEFAULT_FEATURE_POLICY, load_feature_policy
 from wd2gf.probe_ger import (
@@ -350,7 +354,43 @@ class NounCandidateTests(unittest.TestCase):
             )
             self.assertEqual(
                 proposal_blocker(by_source["L5"]),
-                "uncorrelated_multiple_genders",
+                "unresolved_multiple_gender_alternatives",
+            )
+            self.assertEqual(
+                unfitted_candidate_reason(
+                    replace(
+                        by_source["L13"],
+                        paradigm_claims=(
+                            ClaimEvidence(
+                                1,
+                                "L13$P5911-adjectival",
+                                "normal",
+                                ADJECTIVAL_DECLENSION_QID,
+                            ),
+                        ),
+                    )
+                ),
+                "category_mismatch_adjectival_declension",
+            )
+            self.assertEqual(
+                unfitted_candidate_reason(
+                    replace(
+                        by_source["L13"],
+                        genders=(),
+                        gender_claims=(),
+                    )
+                ),
+                "source_evidence_gap_missing_gender",
+            )
+            self.assertEqual(
+                unfitted_candidate_reason(
+                    replace(
+                        by_source["L2"],
+                        slots=(),
+                        source_completeness=SourceCompleteness.NONE,
+                    )
+                ),
+                "source_evidence_gap_missing_required_forms",
             )
             abbreviation_options = proposals_for_candidate(
                 sampled_by_source["L12"], noun_policy

@@ -26,6 +26,7 @@ from wd2gf.nouns_ger import (
     _write_bytes,
     proposal_blocker,
     render_proposal_modules,
+    unfitted_candidate_reason,
 )
 from wd2gf.store import canonical_json
 
@@ -403,7 +404,7 @@ def fit_candidates(
             reason = (
                 "ambiguous_gf_record_variants"
                 if ambiguous_options
-                else "no_public_constructor_matches_source_evidence"
+                else unfitted_candidate_reason(candidate)
             )
             fits.append(CandidateFit(sampled, None, reason, compared, ambiguous_options))
     return tuple(fits)
@@ -552,7 +553,6 @@ def noun_fit_bytes(fits: Sequence[CandidateFit], pgf_sha256: str) -> bytes:
 def _residual_api_gap(reason: str | None) -> str:
     return {
         "residual_api_gap_singular_only": "missing_public_singular_only_noun_constructor",
-        "no_public_constructor_matches_source_evidence": "public_noun_constructor_gap",
     }.get(reason or "", "")
 
 

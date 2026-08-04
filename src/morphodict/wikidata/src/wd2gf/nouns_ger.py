@@ -125,6 +125,8 @@ PROBE_FIELDS = (
     "csep",
 )
 
+ADJECTIVAL_DECLENSION_QID = "Q103383087"
+
 
 @dataclass(frozen=True)
 class ClaimEvidence:
@@ -965,7 +967,7 @@ def select_noun_sample(
 def proposal_blocker(candidate: NounCandidate) -> str | None:
     diagnostics = set(candidate.diagnostics)
     if candidate.lemma is None:
-        return "missing_de_lemma"
+        return "source_evidence_gap_missing_de_lemma"
     if diagnostics & {
         "rejected_noun_form_feature",
         "unclassified_noun_form_feature",
@@ -978,7 +980,7 @@ def proposal_blocker(candidate: NounCandidate) -> str | None:
     if "forms_conflict_with_number_restriction" in diagnostics:
         return "forms_conflict_with_number_restriction"
     if len(candidate.genders) > 1:
-        return "uncorrelated_multiple_genders"
+        return "unresolved_multiple_gender_alternatives"
     if "whitespace" in candidate.orthography:
         return "multiword_outside_atomic_noun_pilot"
     if candidate.number_restriction is NumberRestriction.SINGULAR_ONLY:
@@ -986,6 +988,20 @@ def proposal_blocker(candidate: NounCandidate) -> str | None:
     if len({form.value for form in candidate.combining_forms}) > 1:
         return "ambiguous_multiple_combining_forms"
     return None
+
+
+def unfitted_candidate_reason(candidate: NounCandidate) -> str:
+    """Classify an otherwise unblocked candidate after no proposal fits."""
+    if any(
+        claim.value_id == ADJECTIVAL_DECLENSION_QID
+        for claim in candidate.paradigm_claims
+    ):
+        return "category_mismatch_adjectival_declension"
+    if candidate.source_completeness is SourceCompleteness.NONE:
+        return "source_evidence_gap_missing_required_forms"
+    if not candidate.genders:
+        return "source_evidence_gap_missing_gender"
+    return "unclassified_constructor_mismatch"
 
 
 def _gf_quote(value: str) -> str:
