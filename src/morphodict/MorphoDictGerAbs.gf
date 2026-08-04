@@ -1727,8 +1727,6 @@ fun analytikerin_N : N ;
 fun analytisch_A : A ;
 fun anamnese_N : N ;
 fun anamorph_A : A ;
-fun ananassaft_N : N ;
-fun ananasschneider_N : N ;
 fun anankastisch_A : A ;
 fun anapaest_N : N ;
 fun anapaestisch_A : A ;

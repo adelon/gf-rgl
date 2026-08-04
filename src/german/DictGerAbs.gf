@@ -811,6 +811,8 @@ fun
   aminosulfonsaeure_N : N ;
   aminoverbindung_N : N ;
   aminozucker_N : N ;
+  ananassaft_N : N ;
+  ananasschneider_N : N ;
   ampelfrau_N : N ;
   ampelkoalition_N : N ;
   amtsanmassung_N : N ;
