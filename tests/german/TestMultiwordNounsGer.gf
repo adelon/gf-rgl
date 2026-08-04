@@ -241,7 +241,14 @@ oper
     ++ DictGer.syntaktische_kategorie_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.syntaktische_relation_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.syntaktische_umsetzung_CN.s ! Strong ! Sg ! Nom
-    ++ DictGer.syntaktisches_wort_CN.s ! Strong ! Sg ! Nom ;
+    ++ DictGer.syntaktisches_wort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonetischer_akt_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonetische_transkription_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonetische_umschrift_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonetisches_wort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonologische_transkription_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonologisches_woerterbuch_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.phonologisches_wort_CN.s ! Strong ! Sg ! Nom ;
   fusionSg = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
     DictGer.fusionierende_sprache_CN ;
   fusionDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
@@ -277,7 +284,13 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.morphologisches_merkmal_CN).s ! False ! Dat
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
-      DictGer.syntaktisches_wort_CN).s ! False ! Dat ;
+      DictGer.syntaktisches_wort_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.phonetischer_akt_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.phonetisches_wort_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.phonologisches_wort_CN).s ! False ! Dat ;
 
   reportedSpeechCitations : Str =
     DictGer.direkte_rede_CN.s ! Strong ! Sg ! Nom

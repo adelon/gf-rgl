@@ -1145,6 +1145,13 @@ fun
   syntaktische_relation_CN : CN ;
   syntaktische_umsetzung_CN : CN ;
   syntaktisches_wort_CN : CN ;
+  phonetischer_akt_CN : CN ;
+  phonetische_transkription_CN : CN ;
+  phonetische_umschrift_CN : CN ;
+  phonetisches_wort_CN : CN ;
+  phonologische_transkription_CN : CN ;
+  phonologisches_woerterbuch_CN : CN ;
+  phonologisches_wort_CN : CN ;
   grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;

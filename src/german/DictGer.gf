@@ -2922,6 +2922,13 @@ concrete DictGer of DictGerAbs =
     , syntaktische_relation__N
     , syntaktische_umsetzung_N
     , syntaktische_wort_N
+    , phonetische_akt_N
+    , phonetische_transkription_N
+    , phonetische_umschrift_N
+    , phonetische_wort_N
+    , phonologische_transkription_N
+    , phonologische_woerterbuch_N
+    , phonologische_wort_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -4691,6 +4698,13 @@ lin syntaktische_kategorie_CN = S.mkCN syntaktisch_A kategorie_N ;
 lin syntaktische_relation_CN = S.mkCN syntaktisch_A relation_N ;
 lin syntaktische_umsetzung_CN = S.mkCN syntaktisch_A umsetzung_N ;
 lin syntaktisches_wort_CN = S.mkCN syntaktisch_A wort_N ;
+lin phonetischer_akt_CN = S.mkCN phonetisch_A akt_N ;
+lin phonetische_transkription_CN = S.mkCN phonetisch_A transkription_N ;
+lin phonetische_umschrift_CN = S.mkCN phonetisch_A umschrift_N ;
+lin phonetisches_wort_CN = S.mkCN phonetisch_A wort_N ;
+lin phonologische_transkription_CN = S.mkCN phonologisch_A transkription_N ;
+lin phonologisches_woerterbuch_CN = S.mkCN phonologisch_A woerterbuch_N ;
+lin phonologisches_wort_CN = S.mkCN phonologisch_A wort_N ;
 lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
 lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
 lin ewige_schach_N = changeCompoundN "Ewiges-Schach"
