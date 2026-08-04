@@ -2875,6 +2875,16 @@ fun
   durchblutungsstoerung_N : N ;
   drittelstunde_N : N ;
   druckgradient_N : N ;
+  ebenbild_N : N ;
+  ebenholz_N : N ;
+  echofrage_N : N ;
+  echolot_N : N ;
+  ecktisch_N : N ;
+  eckzahn_N : N ;
+  edelgas_N : N ;
+  edelmetall_N : N ;
+  edelstein_N : N ;
+  egotrip_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

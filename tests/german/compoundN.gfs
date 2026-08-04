@@ -1701,3 +1701,13 @@ cc -all dunkelziffer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ du
 cc -all durchblutungsstoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ durchblutungsstoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ durchblutungsstoerung_N.co
 cc -all drittelstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ drittelstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ drittelstunde_N.co
 cc -all druckgradient_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ druckgradient_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ druckgradient_N.co
+cc -all ebenbild_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ebenbild_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ebenbild_N.co
+cc -all ebenholz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ebenholz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ebenholz_N.co
+cc -all echofrage_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ echofrage_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ echofrage_N.co
+cc -all echolot_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ echolot_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ echolot_N.co
+cc -all ecktisch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ecktisch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ecktisch_N.co
+cc -all eckzahn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eckzahn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eckzahn_N.co
+cc -all edelgas_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelgas_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelgas_N.co
+cc -all edelmetall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelmetall_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelmetall_N.co
+cc -all edelstein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelstein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelstein_N.co
+cc -all egotrip_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ egotrip_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ egotrip_N.co

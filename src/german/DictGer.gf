@@ -1063,6 +1063,16 @@ concrete DictGer of DictGerAbs =
     , durchblutungsstoerung_N
     , drittelstunde_N
     , druckgradient_N
+    , ebenbild_N
+    , ebenholz_N
+    , echofrage_N
+    , echolot_N
+    , ecktisch_N
+    , eckzahn_N
+    , edelgas_N
+    , edelmetall_N
+    , edelstein_N
+    , egotrip_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6314,6 +6324,16 @@ lin dunkelziffer_N = mkN "Dunkel" ziffer_N ;
 lin durchblutungsstoerung_N = mkN "Durchblutungs" stoerung_N ;
 lin drittelstunde_N = mkN drittel_N stunde_N ;
 lin druckgradient_N = mkN "Druck" gradient_N ;
+lin ebenbild_N = mkN "Eben" bild_N ;
+lin ebenholz_N = mkN "Eben" holz_N ;
+lin echofrage_N = mkN echo_N frage_N ;
+lin echolot_N = mkN echo_N lot_N ;
+lin ecktisch_N = mkN ecke_N tisch_N ;
+lin eckzahn_N = mkN ecke_N zahn_N ;
+lin edelgas_N = mkN "Edel" gas_N ;
+lin edelmetall_N = mkN "Edel" metall_N ;
+lin edelstein_N = mkN "Edel" stein_N ;
+lin egotrip_N = mkN ego_N trip_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
