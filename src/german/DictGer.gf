@@ -162,11 +162,19 @@ concrete DictGer of DictGerAbs =
     , bankkundin_N
     , banknote_N
     , bankraub_N
+    , baeckerbock_N
+    , badmintonschlaeger_N
+    , baenderriss_N
+    , baenkellied_N
+    , bankleitzahl_N
     , baptistengemeinde_N
     , bajonettverschluss_N
     , banjospieler_N
     , bankomatkarte_N
     , basisueberzugsschicht_N
+    , baumwollpfluecker_N
+    , baustellenzufahrt_N
+    , bauwagen_N
     , bannwald_N
     , bantamgewicht_N
     , bantusprache_N
@@ -4198,10 +4206,18 @@ lin autobahnmaut_N = mkN autobahn_N maut_N ;
 lin bankdruecker_N = mkN bank_N druecker_N ;
 lin bankueberfall_N = mkN bank_N ueberfall_N ;
 lin baptistengemeinde_N = mkN "Baptisten" gemeinde_N ;
+lin baeckerbock_N = mkN baecker_N bock_N ;
+lin badmintonschlaeger_N = mkN "Badminton" (mkN "Schläger" "Schläger" masculine) ;
+lin baenderriss_N = mkN "Bänder" riss_N ;
+lin baenkellied_N = mkN "Bänkel" (mkN "Lied" "Lieder" neuter) ;
+lin bankleitzahl_N = mkN bank_N (mkN "Leitzahl" "Leitzahlen" feminine) ;
 lin bajonettverschluss_N = mkN bajonett_N verschluss_N ;
 lin banjospieler_N = mkN banjo_N spieler_N ;
 lin bankomatkarte_N = mkN bankomat_N karte_N ;
 lin basisueberzugsschicht_N = changeCompoundN "Basisüberzugsschicht" (mkN basis_N ueberzugsschicht_N) ;
+lin baumwollpfluecker_N = mkN baumwolle_N (mkN "Pflücker" "Pflücker" masculine) ;
+lin baustellenzufahrt_N = mkN "Baustellen" (mkN "Zufahrt" "Zufahrten" feminine) ;
+lin bauwagen_N = mkN "Bau" (mkN "Wagen" "Wagen" masculine) ;
 lin angstgegner_N = mkN angst_N gegner_N ;
 lin angsthase_N = mkN angst_N hase_N ;
 lin angstneurose_N = mkN angst_N neurose_N ;

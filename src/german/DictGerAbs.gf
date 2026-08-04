@@ -909,10 +909,18 @@ fun
   bankdruecker_N : N ;
   bankueberfall_N : N ;
   baptistengemeinde_N : N ;
+  baeckerbock_N : N ;
+  badmintonschlaeger_N : N ;
+  baenderriss_N : N ;
+  baenkellied_N : N ;
+  bankleitzahl_N : N ;
   bajonettverschluss_N : N ;
   banjospieler_N : N ;
   bankomatkarte_N : N ;
   basisueberzugsschicht_N : N ;
+  baumwollpfluecker_N : N ;
+  baustellenzufahrt_N : N ;
+  bauwagen_N : N ;
   angstgegner_N : N ;
   angsthase_N : N ;
   angstneurose_N : N ;
