@@ -4447,4 +4447,14 @@ fun
   garantenstellung_N : N ;
   gattungsbezeichnung_N : N ;
   gattungsname_N : N ;
+  haehnchenhaxe_N : N ;
+  haehnchenkeule_N : N ;
+  haengebauchschwein_N : N ;
+  haengebruecke_N : N ;
+  haengegleiter_N : N ;
+  haengematte_N : N ;
+  haengepartie_N : N ;
+  haengetal_N : N ;
+  haeuserkampf_N : N ;
+  haeufigkeitsverteilung_N : N ;
 }

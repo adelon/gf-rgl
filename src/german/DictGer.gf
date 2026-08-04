@@ -3320,6 +3320,16 @@ concrete DictGer of DictGerAbs =
     , garantenstellung_N
     , gattungsbezeichnung_N
     , gattungsname_N
+    , haehnchenhaxe_N
+    , haehnchenkeule_N
+    , haengebauchschwein_N
+    , haengebruecke_N
+    , haengegleiter_N
+    , haengematte_N
+    , haengepartie_N
+    , haengetal_N
+    , haeuserkampf_N
+    , haeufigkeitsverteilung_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -7798,6 +7808,16 @@ lin ganzzahl_N = mkN "Ganz" (mkN "Zahl" "Zahlen" feminine) ;
 lin garantenstellung_N = mkN "Garanten" stellung_N ;
 lin gattungsbezeichnung_N = mkN gattung_N bezeichnung_N ;
 lin gattungsname_N = changeCompoundN "Gattungsnamen" (mkN gattung_N name_N) ;
+lin haehnchenhaxe_N = mkN haehnchen_N haxe_N ;
+lin haehnchenkeule_N = mkN haehnchen_N keule_N ;
+lin haengebauchschwein_N = mkN "Hängebauch" (mkN "Schwein" "Schweine" neuter) ;
+lin haengebruecke_N = mkN "Hänge" bruecke_N ;
+lin haengegleiter_N = mkN "Hänge" (mkN "Gleiter" "Gleiter" masculine) ;
+lin haengematte_N = mkN "Hänge" matte_N ;
+lin haengepartie_N = mkN "Hänge" (mkN "Partie" "Partien" feminine) ;
+lin haengetal_N = mkN "Hänge" tal_N ;
+lin haeuserkampf_N = mkN "Häuser" kampf_N ;
+lin haeufigkeitsverteilung_N = mkN haeufigkeit_N verteilung_N ;
 lin austernfischer_N = mkN "Austern" (mkN "Fischer" "Fischer" masculine) ;
 lin bratfisch_N = mkN "Brat" (mkN "Fisch" "Fische" masculine) ;
 lin clownfisch_N = mkN "Clown" (mkN "Fisch" "Fische" masculine) ;
