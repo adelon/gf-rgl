@@ -212,6 +212,15 @@ oper
     ++ DictGer.lebende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.natuerliche_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.romanische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.mikronesische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.mongolische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.nordgermanische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.ostgermanische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.plurizentrische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.skandinavische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.slawische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.synthetische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.westgermanische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.kurdische_sprache_CN.s ! Strong ! Sg ! Nom ;
   fusionSg = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
     DictGer.fusionierende_sprache_CN ;
@@ -232,7 +241,11 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.indogermanische_sprache_CN).s ! False ! Dat
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
-      DictGer.kurdische_sprache_CN).s ! False ! Dat ;
+      DictGer.kurdische_sprache_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.mikronesische_sprache_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.westgermanische_sprache_CN).s ! False ! Dat ;
 
   reportedSpeechCitations : Str =
     DictGer.direkte_rede_CN.s ! Strong ! Sg ! Nom

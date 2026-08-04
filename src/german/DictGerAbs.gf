@@ -1116,6 +1116,15 @@ fun
   indoeuropaeische_sprache_CN : CN ;
   indogermanische_sprache_CN : CN ;
   kurdische_sprache_CN : CN ;
+  mikronesische_sprache_CN : CN ;
+  mongolische_sprache_CN : CN ;
+  nordgermanische_sprache_CN : CN ;
+  ostgermanische_sprache_CN : CN ;
+  plurizentrische_sprache_CN : CN ;
+  skandinavische_sprache_CN : CN ;
+  slawische_sprache_CN : CN ;
+  synthetische_sprache_CN : CN ;
+  westgermanische_sprache_CN : CN ;
   grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;

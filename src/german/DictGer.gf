@@ -2893,6 +2893,15 @@ concrete DictGer of DictGerAbs =
     , indoeuropaeische_sprache_N
     , indogermanische_sprache_N
     , kurdische_sprache_N
+    , mikronesische_sprache_N
+    , mongolische_sprache_N
+    , nordgermanische_sprache_N
+    , ostgermanische_sprache_N
+    , plurizentrische_sprache_N
+    , skandinavische_sprache_N
+    , slawische_sprache_N
+    , synthetische_sprache_N
+    , westgermanische_sprache_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -4633,6 +4642,15 @@ lin romanische_sprache_CN = S.mkCN romanisch_A sprache_N ;
 lin indoeuropaeische_sprache_CN = S.mkCN indoeuropaeisch_A sprache_N ;
 lin indogermanische_sprache_CN = S.mkCN indogermanisch_A sprache_N ;
 lin kurdische_sprache_CN = S.mkCN kurdisch_A sprache_N ;
+lin mikronesische_sprache_CN = S.mkCN mikronesisch_A sprache_N ;
+lin mongolische_sprache_CN = S.mkCN mongolisch_A sprache_N ;
+lin nordgermanische_sprache_CN = S.mkCN nordgermanisch_A sprache_N ;
+lin ostgermanische_sprache_CN = S.mkCN ostgermanisch_A sprache_N ;
+lin plurizentrische_sprache_CN = S.mkCN plurizentrisch_A sprache_N ;
+lin skandinavische_sprache_CN = S.mkCN skandinavisch_A sprache_N ;
+lin slawische_sprache_CN = S.mkCN slawisch_A sprache_N ;
+lin synthetische_sprache_CN = S.mkCN synthetisch_A sprache_N ;
+lin westgermanische_sprache_CN = S.mkCN westgermanisch_A sprache_N ;
 lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
 lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
 lin ewige_schach_N = changeCompoundN "Ewiges-Schach"
