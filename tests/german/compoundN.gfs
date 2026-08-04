@@ -19,6 +19,11 @@ cc -all autobahnkreuz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ a
 cc -all autobahnmaut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahnmaut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahnmaut_N.co
 cc -all bankdruecker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bankdruecker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bankdruecker_N.co
 cc -all bankueberfall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bankueberfall_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bankueberfall_N.co
+cc -all baptistengemeinde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ baptistengemeinde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ baptistengemeinde_N.co
+cc -all bajonettverschluss_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bajonettverschluss_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bajonettverschluss_N.co
+cc -all banjospieler_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ banjospieler_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ banjospieler_N.co
+cc -all bankomatkarte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ bankomatkarte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ bankomatkarte_N.co
+cc -all basisueberzugsschicht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ basisueberzugsschicht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ basisueberzugsschicht_N.co
 cc -all angstgegner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstgegner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstgegner_N.co
 cc -all angsthase_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angsthase_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angsthase_N.co
 cc -all angstneurose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstneurose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstneurose_N.co

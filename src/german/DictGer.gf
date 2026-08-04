@@ -158,6 +158,11 @@ concrete DictGer of DictGerAbs =
     , bankkundin_N
     , banknote_N
     , bankraub_N
+    , baptistengemeinde_N
+    , bajonettverschluss_N
+    , banjospieler_N
+    , bankomatkarte_N
+    , basisueberzugsschicht_N
     , bannwald_N
     , bantamgewicht_N
     , bantusprache_N
@@ -3863,6 +3868,11 @@ lin autobahnkreuz_N = mkN autobahn_N kreuz_N ;
 lin autobahnmaut_N = mkN autobahn_N maut_N ;
 lin bankdruecker_N = mkN bank_N druecker_N ;
 lin bankueberfall_N = mkN bank_N ueberfall_N ;
+lin baptistengemeinde_N = mkN "Baptisten" gemeinde_N ;
+lin bajonettverschluss_N = mkN bajonett_N verschluss_N ;
+lin banjospieler_N = mkN banjo_N spieler_N ;
+lin bankomatkarte_N = mkN bankomat_N karte_N ;
+lin basisueberzugsschicht_N = changeCompoundN "Basisüberzugsschicht" (mkN basis_N ueberzugsschicht_N) ;
 lin angstgegner_N = mkN angst_N gegner_N ;
 lin angsthase_N = mkN angst_N hase_N ;
 lin angstneurose_N = mkN angst_N neurose_N ;

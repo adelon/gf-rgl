@@ -826,6 +826,11 @@ fun
   autobahnmaut_N : N ;
   bankdruecker_N : N ;
   bankueberfall_N : N ;
+  baptistengemeinde_N : N ;
+  bajonettverschluss_N : N ;
+  banjospieler_N : N ;
+  bankomatkarte_N : N ;
+  basisueberzugsschicht_N : N ;
   angstgegner_N : N ;
   angsthase_N : N ;
   angstneurose_N : N ;
