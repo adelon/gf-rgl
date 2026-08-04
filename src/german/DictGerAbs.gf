@@ -2907,6 +2907,13 @@ fun
   elementarteilchen_N : N ;
   elementarzelle_N : N ;
   elementsymbol_N : N ;
+  elbsegler_N : N ;
+  elektrisiermaschine_N : N ;
+  elendsviertel_N : N ;
+  eleonorenfalke_N : N ;
+  ellbogengelenk_N : N ;
+  ellenbogengesellschaft_N : N ;
+  elutionsmedium_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

@@ -1733,3 +1733,10 @@ cc -all elementarschule_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++
 cc -all elementarteilchen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementarteilchen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementarteilchen_N.co
 cc -all elementarzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementarzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementarzelle_N.co
 cc -all elementsymbol_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementsymbol_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementsymbol_N.co
+cc -all elbsegler_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elbsegler_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elbsegler_N.co
+cc -all elektrisiermaschine_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elektrisiermaschine_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elektrisiermaschine_N.co
+cc -all elendsviertel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elendsviertel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elendsviertel_N.co
+cc -all eleonorenfalke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eleonorenfalke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eleonorenfalke_N.co
+cc -all ellbogengelenk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ellbogengelenk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ellbogengelenk_N.co
+cc -all ellenbogengesellschaft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ellenbogengesellschaft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ellenbogengesellschaft_N.co
+cc -all elutionsmedium_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elutionsmedium_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elutionsmedium_N.co

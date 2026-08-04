@@ -1095,6 +1095,13 @@ concrete DictGer of DictGerAbs =
     , elementarteilchen_N
     , elementarzelle_N
     , elementsymbol_N
+    , elbsegler_N
+    , elektrisiermaschine_N
+    , elendsviertel_N
+    , eleonorenfalke_N
+    , ellbogengelenk_N
+    , ellenbogengesellschaft_N
+    , elutionsmedium_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6378,6 +6385,13 @@ lin elementarschule_N = changeCompoundN "Elementarschulen" (mkN "Elementar" schu
 lin elementarteilchen_N = mkN "Elementar" teilchen_N ;
 lin elementarzelle_N = changeCompoundN "Elementarzellen" (mkN "Elementar" zelle_N) ;
 lin elementsymbol_N = mkN "Element" symbol_N ;
+lin elbsegler_N = mkN "Elb" segler_N ;
+lin elektrisiermaschine_N = mkN "Elektrisier" maschine_N ;
+lin elendsviertel_N = mkN "Elends" viertel_N ;
+lin eleonorenfalke_N = mkN "Eleonoren" falke_N ;
+lin ellbogengelenk_N = mkN ellbogen_N gelenk_N ;
+lin ellenbogengesellschaft_N = mkN ellenbogen_N gesellschaft_N ;
+lin elutionsmedium_N = mkN "Elutions" medium_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
