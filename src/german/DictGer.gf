@@ -391,9 +391,16 @@ concrete DictGer of DictGerAbs =
     , aussenbereich_N
     , aussenbezirk_N
     , aussenflaeche_N
+    , aussenmembran_N
+    , aussenmembranvesikel_N
+    , aussenminister_N
+    , aussenministerin_N
     , aussenministerium_N
     , aussenseite_N
     , aussenspiegel_N
+    , aussenskelett_N
+    , aussensteg_N
+    , aussenverteidiger_N
     , aussenwand_N
     , aussenwelt_N
     , aussenwerk_N
@@ -4403,9 +4410,16 @@ lin autokino_N = mkN auto_N kino_N ;
 lin aussenbereich_N = mkN "Außen" bereich_N ;
 lin aussenbezirk_N = mkN "Außen" bezirk_N ;
 lin aussenflaeche_N = mkN "Außen" flaeche_N ;
+lin aussenmembran_N = mkN "Außen" (mkN "Membran" "Membranen" feminine) ;
+lin aussenmembranvesikel_N = mkN "Außenmembran" (mkN "Vesikel" "Vesikel" feminine) ;
+lin aussenminister_N = mkN "Außen" (mkN "Minister" "Minister" masculine) ;
+lin aussenministerin_N = mkN "Außen" (mkN "Ministerin" "Ministerinnen" feminine) ;
 lin aussenministerium_N = mkN "Außen" ministerium_N ;
 lin aussenseite_N = mkN "Außen" seite_N ;
 lin aussenspiegel_N = mkN "Außen" spiegel_N ;
+lin aussenskelett_N = mkN "Außen" (mkN "Skelett" "Skelette" neuter) ;
+lin aussensteg_N = mkN "Außen" (mkN "Steg" "Stege" masculine) ;
+lin aussenverteidiger_N = mkN "Außen" (mkN "Verteidiger" "Verteidiger" masculine) ;
 lin aussenwand_N = mkN "Außen" wand_N ;
 lin aussenwelt_N = mkN "Außen" welt_N ;
 lin aussenwerk_N = mkN "Außen" werk_N ;

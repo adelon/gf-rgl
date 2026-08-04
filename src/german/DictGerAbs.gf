@@ -1024,9 +1024,16 @@ fun
   aussenbereich_N : N ;
   aussenbezirk_N : N ;
   aussenflaeche_N : N ;
+  aussenmembran_N : N ;
+  aussenmembranvesikel_N : N ;
+  aussenminister_N : N ;
+  aussenministerin_N : N ;
   aussenministerium_N : N ;
   aussenseite_N : N ;
   aussenspiegel_N : N ;
+  aussenskelett_N : N ;
+  aussensteg_N : N ;
+  aussenverteidiger_N : N ;
   aussenwand_N : N ;
   aussenwelt_N : N ;
   aussenwerk_N : N ;
