@@ -220,6 +220,9 @@ concrete DictGer of DictGerAbs =
     , aktienkurs_N
     , akkusativobjekt_N
     , akkuwerkzeug_N
+    , akronymwoerterbuch_N
+    , alarmanlage_N
+    , alarmladung_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3731,6 +3734,9 @@ lin aktieninhaber_N = mkN "Aktien" inhaber_N ;
 lin aktienkurs_N = mkN "Aktien" kurs__N ;
 lin akkusativobjekt_N = mkN "Akkusativ" objekt_N ;
 lin akkuwerkzeug_N = mkN "Akku" werkzeug_N ;
+lin akronymwoerterbuch_N = mkN "Akronym" woerterbuch_N ;
+lin alarmanlage_N = mkN "Alarm" anlage_N ;
+lin alarmladung_N = mkN "Alarm" ladung_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

@@ -759,6 +759,9 @@ fun
   aktienkurs_N : N ;
   akkusativobjekt_N : N ;
   akkuwerkzeug_N : N ;
+  akronymwoerterbuch_N : N ;
+  alarmanlage_N : N ;
+  alarmladung_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
