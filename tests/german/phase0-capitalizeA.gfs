@@ -1,0 +1,3 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -all "capitalizeA s:" ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Posit ! APred ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Posit ! AMod (GSg Masc) Nom ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Posit ! AMod (GSg Neutr) Nom ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Posit ! AMod GPl Dat ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Compar ! APred ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Compar ! AMod (GSg Fem) Acc ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Superl ! APred ++ (capitalizeA (mkA "klar" "klarer" "klarste")).s ! Superl ! AMod GPl Gen
