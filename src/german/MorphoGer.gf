@@ -53,6 +53,11 @@ oper
     _ + "en" => hund ;
     _ => hund + "en"
     } ;
+  dativePluralN : Str -> Str = \hunde -> case hunde of {
+    _ + ("n" | "s" | "a" | "ae" | "i" | "o" | "u" | "x" |
+         "im" | "ot" | "oth") => hunde ;
+    _ => hunde + "n"
+    } ;
   dativE : Bool -> Str -> Str = \flag,hund -> case hund of {
     _ + ("el" | "en" | "er" | "e") => hund ;
     _ => case flag of {True => hund; False => hund + "e"}

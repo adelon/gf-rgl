@@ -482,7 +482,7 @@ mkV2 : overload {
     } ;
 
   reg2N : (x1,x2 : Str) -> Gender -> N = \hund,hunde,g -> 
-    let hunden = pluralN hunde
+    let hunden = dativePluralN hunde
     in
     case <hund,hunde,g> of {                                        -- Duden p. 223
       <_,_ + ("e" | "er"), Masc | Neutr> =>                         -- I,IV 
@@ -500,9 +500,17 @@ mkV2 : overload {
         mk6N hund hund hund hund hunde hunden g ;
       <_,_ + ("n" | "s"), Fem> =>                                   -- IX,X 
         mk6N hund hund hund hund hunde hunde g ;
+      <_,_ + "a", Neutr> =>
+        mk6N hund hund hund (genitS True hund) hunde hunden g ;
       <_,_ + ("n" | "s"), Neutr> =>                                 --- not mentioned; Konto-Kontos
         mk6N hund hund hund hund hunde hunde g ;
-      _ => regN hund ** {g = g}
+      _ =>
+        let n = reg1N hund g
+        in mk6N hund
+             (n.s ! Sg ! Acc)
+             (n.s ! Sg ! Dat)
+             (n.s ! Sg ! Gen)
+             hunde hunden g
     } ;
    
   changeCompoundN : Str -> N -> N = \co,n -> n ** {
