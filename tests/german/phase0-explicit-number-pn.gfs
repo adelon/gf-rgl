@@ -1,0 +1,4 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -all "Explicit-number PN [s g n]:" ++ (mkPN "Test-Nom" "Test-Acc" "Test-Dat" "Test-Gen" feminine plural).s ! nominative ++ (mkPN "Test-Nom" "Test-Acc" "Test-Dat" "Test-Gen" feminine plural).s ! accusative ++ (mkPN "Test-Nom" "Test-Acc" "Test-Dat" "Test-Gen" feminine plural).s ! dative ++ (mkPN "Test-Nom" "Test-Acc" "Test-Dat" "Test-Gen" feminine plural).s ! genitive ++ case (mkPN "Test-Nom" "Test-Acc" "Test-Dat" "Test-Gen" feminine plural).g of {Fem => "feminine" ; _ => "wrong"} ++ case (mkPN "Test-Nom" "Test-Acc" "Test-Dat" "Test-Gen" feminine plural).n of {Pl => "plural" ; _ => "wrong"}
+cc -all "Existing explicit-case PN number:" ++ case (mkPN "Legacy-Nom" "Legacy-Acc" "Legacy-Dat" "Legacy-Gen" masculine).n of {Sg => "singular" ; _ => "wrong"}
