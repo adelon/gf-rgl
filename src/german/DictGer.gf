@@ -1775,6 +1775,19 @@ concrete DictGer of DictGerAbs =
     , kasusgrammatik_N
     , kasusrektion_N
     , kasusrolle_N
+    , kegelclub_N
+    , kegelgewoelbe_N
+    , kegelklub_N
+    , kegelrad_N
+    , kehlbalken_N
+    , kehlkopf_N
+    , kehlkopflaut_N
+    , kehlkopfverschlusslaut_N
+    , keimdruese_N
+    , keimlinie_N
+    , keimmonat_N
+    , keimplasmatheorie_N
+    , keimzelle_N
     , kapselhuelse_N
     , kapsidpartikel_N
     , kapsidprotein_N
@@ -3728,6 +3741,19 @@ lin kastenfuss_N = mkN kasten_N fuss_N ;
 lin kasusgrammatik_N = mkN kasus_N grammatik_N ;
 lin kasusrektion_N = mkN kasus_N rektion_N ;
 lin kasusrolle_N = mkN kasus_N rolle_N ;
+lin kegelclub_N = mkN kegel_N club_N ;
+lin kegelgewoelbe_N = changeCompoundN "Kegelgewölben" (mkN kegel_N gewoelbe_N) ;
+lin kegelklub_N = mkN kegel_N klub_N ;
+lin kegelrad_N = mkN kegel_N rad_N ;
+lin kehlbalken_N = mkN "Kehl" balken_N ;
+lin kehlkopf_N = mkN "Kehl" kopf_N ;
+lin kehlkopflaut_N = mkN kehlkopf_N laut_N ;
+lin kehlkopfverschlusslaut_N = mkN kehlkopf_N verschlusslaut_N ;
+lin keimdruese_N = mkN keim_N druese_N ;
+lin keimlinie_N = mkN keim_N linie_N ;
+lin keimmonat_N = mkN keim_N monat_N ;
+lin keimplasmatheorie_N = mkN (mkN keim_N plasma_N) theorie_N ;
+lin keimzelle_N = changeCompoundN "Keimzellen" (mkN keim_N zelle_N) ;
 lin kapselhuelse_N = mkN kapsel_N huelse_N ;
 lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
 lin kapsidprotein_N = mkN kapsid_N protein_N ;

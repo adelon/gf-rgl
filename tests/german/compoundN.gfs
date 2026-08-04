@@ -1850,3 +1850,16 @@ cc -all kastenfuss_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kast
 cc -all kasusgrammatik_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kasusgrammatik_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kasusgrammatik_N.co
 cc -all kasusrektion_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kasusrektion_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kasusrektion_N.co
 cc -all kasusrolle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kasusrolle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kasusrolle_N.co
+cc -all kegelclub_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kegelclub_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kegelclub_N.co
+cc -all kegelgewoelbe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kegelgewoelbe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kegelgewoelbe_N.co
+cc -all kegelklub_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kegelklub_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kegelklub_N.co
+cc -all kegelrad_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kegelrad_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kegelrad_N.co
+cc -all kehlbalken_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kehlbalken_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kehlbalken_N.co
+cc -all kehlkopf_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kehlkopf_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kehlkopf_N.co
+cc -all kehlkopflaut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kehlkopflaut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kehlkopflaut_N.co
+cc -all kehlkopfverschlusslaut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kehlkopfverschlusslaut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kehlkopfverschlusslaut_N.co
+cc -all keimdruese_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ keimdruese_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ keimdruese_N.co
+cc -all keimlinie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ keimlinie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ keimlinie_N.co
+cc -all keimmonat_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ keimmonat_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ keimmonat_N.co
+cc -all keimplasmatheorie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ keimplasmatheorie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ keimplasmatheorie_N.co
+cc -all keimzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ keimzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ keimzelle_N.co
