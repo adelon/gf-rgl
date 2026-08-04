@@ -1645,6 +1645,7 @@ concrete DictGer of DictGerAbs =
     , jagdhund_N
     , jagdschein_N
     , jagdstrecke_N
+    , kaeuferreichweite_N
     , kabelbinder_N
     , kabelbrand_N
     , kabelkanal_N
@@ -1665,6 +1666,7 @@ concrete DictGer of DictGerAbs =
     , kaffeemaschine_N
     , kaffeemuehle_N
     , kaffeepause_N
+    , kaffeeroesterei_N
     , kaffeesachse_N
     , kaffeetasse_N
     , kakaobaum_N
@@ -1680,6 +1682,7 @@ concrete DictGer of DictGerAbs =
     , kaiserreich_N
     , kaiserschmarren_N
     , kaiserschnitt_N
+    , kameradschaftsehe_N
     , kaelteeinbruch_N
     , kaeltekopfschmerz_N
     , kaeltepol_N
@@ -1692,6 +1695,7 @@ concrete DictGer of DictGerAbs =
     , kaenguruleder_N
     , kaliumbicarbonat_N
     , kaliumion_N
+    , kaliumkanaloeffner_N
     , kaliumsalz_N
     , kamillentee_N
     , kamerafrau_N
@@ -1705,7 +1709,10 @@ concrete DictGer of DictGerAbs =
     , kampfpanzer_N
     , kampfplatz_N
     , kampfpreis_N
+    , kampfmittelraeumung_N
+    , kanadawaldsaenger_N
     , kanalgas_N
+    , kanuslalom_N
     , kammerjaeger_N
     , kammersonate_N
     , kammlinie_N
@@ -1729,6 +1736,7 @@ concrete DictGer of DictGerAbs =
     , kanonenturm_N
     , kapitaensbinde_N
     , kapitalismusanalyse_N
+    , kapitalzinsfuss_N
     , kapselhuelse_N
     , kapsidpartikel_N
     , kapsidprotein_N
@@ -3552,6 +3560,7 @@ lin jagdflugzeug_N = mkN jagd_N flugzeug_N ;
 lin jagdhund_N = mkN jagd_N hund_N ;
 lin jagdschein_N = mkN jagd_N schein_N ;
 lin jagdstrecke_N = mkN jagd_N strecke_N ;
+lin kaeuferreichweite_N = mkN kaeufer_N reichweite_N ;
 lin kabelbinder_N = mkN kabel_N binder_N ;
 lin kabelbrand_N = mkN kabel_N brand_N ;
 lin kabelkanal_N = mkN kabel_N kanal_N ;
@@ -3572,6 +3581,7 @@ lin kaffeekasse_N = mkN kaffee_N kasse_N ;
 lin kaffeemaschine_N = mkN kaffee_N maschine_N ;
 lin kaffeemuehle_N = mkN kaffee_N muehle_N ;
 lin kaffeepause_N = mkN kaffee_N pause_N ;
+lin kaffeeroesterei_N = mkN kaffee_N (mkN "Rösterei" "Röstereien" feminine) ;
 lin kaffeesachse_N = mkN kaffee_N sachse_N ;
 lin kaffeetasse_N = mkN kaffee_N tasse_N ;
 lin kakaobaum_N = mkN "Kakao" baum_N ;
@@ -3587,6 +3597,7 @@ lin kaiserpinguin_N = mkN kaiser_N pinguin_N ;
 lin kaiserreich_N = mkN kaiser_N reich_N ;
 lin kaiserschmarren_N = mkN kaiser_N schmarren_N ;
 lin kaiserschnitt_N = mkN kaiser_N schnitt_N ;
+lin kameradschaftsehe_N = mkN "Kameradschafts" (mkN "Ehe" "Ehen" feminine) ;
 lin kaelteeinbruch_N = mkN "Kälte" einbruch_N ;
 lin kaeltekopfschmerz_N = mkN "Kälte" kopfschmerz_N ;
 lin kaeltepol_N = mkN "Kälte" pol_N ;
@@ -3599,6 +3610,7 @@ lin kaempferholz_N = mkN kaempfer_N holz_N ;
 lin kaenguruleder_N = mkN kaenguru_N leder_N ;
 lin kaliumbicarbonat_N = mkN "Kalium" bicarbonat_N ;
 lin kaliumion_N = mkN "Kalium" ion_N ;
+lin kaliumkanaloeffner_N = mkN "Kalium" (mkN kanal_N oeffner_N) ;
 lin kaliumsalz_N = mkN "Kalium" salz_N ;
 lin kamillentee_N = mkN kamille_N tee_N ;
 lin kamerafrau_N = mkN kamera_N frau_N ;
@@ -3612,7 +3624,10 @@ lin kampfname_N = mkN kampf_N name_N ;
 lin kampfpanzer_N = mkN kampf_N panzer_N ;
 lin kampfplatz_N = mkN kampf_N platz_N ;
 lin kampfpreis_N = mkN kampf_N preis_N ;
+lin kampfmittelraeumung_N = mkN "Kampfmittel" (mkN "Räumung" "Räumungen" feminine) ;
+lin kanadawaldsaenger_N = mkN "Kanada" (mkN "Waldsänger" "Waldsänger" masculine) ;
 lin kanalgas_N = mkN kanal_N gas_N ;
+lin kanuslalom_N = mkN kanu_N (mkN "Slalom" "Slaloms" masculine) ;
 lin kammerjaeger_N = mkN kammer_N jaeger_N ;
 lin kammersonate_N = mkN kammer_N sonate_N ;
 lin kammlinie_N = mkN kamm_N linie_N ;
@@ -3636,6 +3651,7 @@ lin kanonenschuss_N = mkN "Kanonen" schuss_N ;
 lin kanonenturm_N = mkN "Kanonen" turm_N ;
 lin kapitaensbinde_N = mkN "Kapitäns" binde_N ;
 lin kapitalismusanalyse_N = mkN "Kapitalismus" analyse_N ;
+lin kapitalzinsfuss_N = mkN "Kapital" (mkN "Zinsfuß" "Zinsfüße" masculine) ;
 lin kapselhuelse_N = mkN kapsel_N huelse_N ;
 lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
 lin kapsidprotein_N = mkN kapsid_N protein_N ;

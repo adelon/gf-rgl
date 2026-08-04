@@ -458,6 +458,7 @@ fun
   jagdhund_N : N ;
   jagdschein_N : N ;
   jagdstrecke_N : N ;
+  kaeuferreichweite_N : N ;
   kabelbinder_N : N ;
   kabelbrand_N : N ;
   kabelkanal_N : N ;
@@ -478,6 +479,7 @@ fun
   kaffeemaschine_N : N ;
   kaffeemuehle_N : N ;
   kaffeepause_N : N ;
+  kaffeeroesterei_N : N ;
   kaffeesachse_N : N ;
   kaffeetasse_N : N ;
   kakaobaum_N : N ;
@@ -493,6 +495,7 @@ fun
   kaiserreich_N : N ;
   kaiserschmarren_N : N ;
   kaiserschnitt_N : N ;
+  kameradschaftsehe_N : N ;
   kaelteeinbruch_N : N ;
   kaeltekopfschmerz_N : N ;
   kaeltepol_N : N ;
@@ -505,6 +508,7 @@ fun
   kaenguruleder_N : N ;
   kaliumbicarbonat_N : N ;
   kaliumion_N : N ;
+  kaliumkanaloeffner_N : N ;
   kaliumsalz_N : N ;
   kamillentee_N : N ;
   kamerafrau_N : N ;
@@ -518,7 +522,10 @@ fun
   kampfpanzer_N : N ;
   kampfplatz_N : N ;
   kampfpreis_N : N ;
+  kampfmittelraeumung_N : N ;
+  kanadawaldsaenger_N : N ;
   kanalgas_N : N ;
+  kanuslalom_N : N ;
   kammerjaeger_N : N ;
   kammersonate_N : N ;
   kammlinie_N : N ;
@@ -542,6 +549,7 @@ fun
   kanonenturm_N : N ;
   kapitaensbinde_N : N ;
   kapitalismusanalyse_N : N ;
+  kapitalzinsfuss_N : N ;
   kapselhuelse_N : N ;
   kapsidpartikel_N : N ;
   kapsidprotein_N : N ;

@@ -1804,3 +1804,11 @@ cc -all jugendfeuerwehr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++
 cc -all jugendherberge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jugendherberge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jugendherberge_N.co
 cc -all junggesellenabschied_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ junggesellenabschied_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ junggesellenabschied_N.co
 cc -all jutesack_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jutesack_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jutesack_N.co
+cc -all kaeuferreichweite_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaeuferreichweite_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaeuferreichweite_N.co
+cc -all kaffeeroesterei_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaffeeroesterei_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaffeeroesterei_N.co
+cc -all kaliumkanaloeffner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaliumkanaloeffner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaliumkanaloeffner_N.co
+cc -all kameradschaftsehe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kameradschaftsehe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kameradschaftsehe_N.co
+cc -all kanadawaldsaenger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kanadawaldsaenger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kanadawaldsaenger_N.co
+cc -all kanuslalom_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kanuslalom_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kanuslalom_N.co
+cc -all kampfmittelraeumung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kampfmittelraeumung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kampfmittelraeumung_N.co
+cc -all kapitalzinsfuss_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kapitalzinsfuss_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kapitalzinsfuss_N.co
