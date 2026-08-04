@@ -43,6 +43,7 @@ GENDERS = {
 @dataclass(frozen=True)
 class SyntheticNouns:
     root: Path
+    database: Path
     policy: NounPolicy
     first: tuple[SampledCandidate, ...]
     second: tuple[SampledCandidate, ...]
@@ -314,7 +315,7 @@ def synthetic_nouns() -> Iterator[SyntheticNouns]:
         with closing(sqlite3.connect(database)) as connection:
             first = select_noun_sample(connection, policy, feature_policy)
             second = select_noun_sample(connection, policy, feature_policy)
-        yield SyntheticNouns(root, policy, first, second)
+        yield SyntheticNouns(root, database, policy, first, second)
 
 
 def pinned_sample() -> tuple[NounPolicy, tuple[SampledCandidate, ...]]:

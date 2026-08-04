@@ -183,3 +183,30 @@ compile, structured PGF probe, and byte-repeat checks passed. No broad RGL build
 was run because no RGL source changed. No canonical dictionary entries,
 compounds, public names, placement rules, or generated GF artifacts were
 committed.
+
+## Phase 3 full-population noun census
+
+The compile-free census was generated from the verified primary store with:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli noun census --output languages/ger/noun-census.md --details .work/phase3/census/noun-census.tsv
+```
+
+An independent repeat used separate output paths:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli noun census --output .work/phase3/census-repeat/noun-census.md --details .work/phase3/census-repeat/noun-census.tsv
+cmp languages/ger/noun-census.md .work/phase3/census-repeat/noun-census.md
+cmp .work/phase3/census/noun-census.tsv .work/phase3/census-repeat/noun-census.tsv
+```
+
+Both the compact report and the 188942-row local detail file were
+byte-identical. `noun-census.md` is 6495 bytes with SHA-256
+`2d822f22a682c49d748dc1d596e93ba8a88a6e91b82e4c33a11f799baa09152b`;
+the local detail is 48113280 bytes with SHA-256
+`526a34af000af0ef739d75e922f4accbe685205583e2023292dabaa5aaf4f688`.
+The census compiled no GF and did not inspect `ger` or `ger-fixes` placement.
+Candidates without a source component analysis remain structurally unresolved
+rather than being counted as atomic. Counts, acceptance tiers, multi-gender
+correlation findings, ambiguity and quarantine reasons, and placement-neutral
+cohorts are recorded in `noun-census.md`.

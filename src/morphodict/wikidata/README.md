@@ -39,6 +39,7 @@ PYTHONPATH=src python3 -m wd2gf.cli noun sample
 PYTHONPATH=src python3 -m wd2gf.cli noun render
 PYTHONPATH=src python3 -m wd2gf.cli noun probe --gf="$GF"
 PYTHONPATH=src python3 -m wd2gf.cli noun pilot --gf="$GF"
+PYTHONPATH=src python3 -m wd2gf.cli noun census
 ```
 
 Snapshot acquisition and profile commands are documented by the CLI itself.

@@ -965,54 +965,13 @@ def select_noun_sample(
     noun_policy: NounPolicy,
     feature_policy: FeaturePolicy,
 ) -> tuple[SampledCandidate, ...]:
-    noun_qid = _one_id(feature_policy.lexical_categories, "N")
-    ids = _candidate_ids(feature_policy)
-    properties = tuple(
-        _one_id(feature_policy.properties, label)
-        for label in (
-            "grammatical_gender",
-            "instance_of",
-            "paradigm_class",
-            "combines_lexemes",
-        )
-    )
-    claim_maps = _claim_maps(connection, noun_qid, properties)
-    sense_statements = _sense_statement_map(connection, properties)
-    component_targets, object_forms = _compound_indexes(
-        connection,
-        ids.compound_property,
-        _one_id(feature_policy.properties, "object_form"),
-    )
-    forms_iterator = iter(_iter_forms(connection, noun_qid))
-    current_forms = next(forms_iterator, None)
     heaps: dict[str, list[tuple[int, str, NounCandidate]]] = {
         stratum: [] for stratum in STRATA
     }
     pinned_candidates: dict[str, NounCandidate] = {}
-    rows = connection.execute(
-        "SELECT l.lexeme_id, l.entity_sha256, m.value FROM lexeme l "
-        "LEFT JOIN lemma m ON m.lexeme_id = l.lexeme_id AND m.language_tag = 'de' "
-        "WHERE l.lexical_category_qid = ? ORDER BY l.lexeme_id",
-        (noun_qid,),
-    )
-    for lexeme_id, entity_sha256, lemma in rows:
-        forms: tuple[FormEvidence, ...] = ()
-        if current_forms is not None and current_forms[0] == lexeme_id:
-            forms = current_forms[1]
-            current_forms = next(forms_iterator, None)
-        candidate = _candidate(
-            lexeme_id=lexeme_id,
-            entity_sha256=entity_sha256,
-            lemma=lemma,
-            forms=forms,
-            claims=claim_maps.get(lexeme_id, {}),
-            sense_statement_keys=sense_statements.get(lexeme_id, ()),
-            component_statement_keys=component_targets.get(lexeme_id, ()),
-            object_form_evidence=object_forms.get(lexeme_id, ()),
-            ids=ids,
-        )
-        if lexeme_id in noun_policy.pinned_lexemes:
-            pinned_candidates[lexeme_id] = candidate
+    for candidate in iter_noun_candidates(connection, feature_policy):
+        if candidate.source_key in noun_policy.pinned_lexemes:
+            pinned_candidates[candidate.source_key] = candidate
         quota = noun_policy.quotas[candidate.stratum]
         if quota == 0:
             continue
@@ -1043,6 +1002,55 @@ def select_noun_sample(
         )
         for index, candidate in enumerate(ordered, start=1)
     )
+
+
+def iter_noun_candidates(
+    connection: sqlite3.Connection,
+    feature_policy: FeaturePolicy,
+) -> Iterator[NounCandidate]:
+    """Yield every German noun candidate in stable Lexeme order."""
+    noun_qid = _one_id(feature_policy.lexical_categories, "N")
+    ids = _candidate_ids(feature_policy)
+    properties = tuple(
+        _one_id(feature_policy.properties, label)
+        for label in (
+            "grammatical_gender",
+            "instance_of",
+            "paradigm_class",
+            "combines_lexemes",
+        )
+    )
+    claim_maps = _claim_maps(connection, noun_qid, properties)
+    sense_statements = _sense_statement_map(connection, properties)
+    component_targets, object_forms = _compound_indexes(
+        connection,
+        ids.compound_property,
+        _one_id(feature_policy.properties, "object_form"),
+    )
+    forms_iterator = iter(_iter_forms(connection, noun_qid))
+    current_forms = next(forms_iterator, None)
+    rows = connection.execute(
+        "SELECT l.lexeme_id, l.entity_sha256, m.value FROM lexeme l "
+        "LEFT JOIN lemma m ON m.lexeme_id = l.lexeme_id AND m.language_tag = 'de' "
+        "WHERE l.lexical_category_qid = ? ORDER BY l.lexeme_id",
+        (noun_qid,),
+    )
+    for lexeme_id, entity_sha256, lemma in rows:
+        forms: tuple[FormEvidence, ...] = ()
+        if current_forms is not None and current_forms[0] == lexeme_id:
+            forms = current_forms[1]
+            current_forms = next(forms_iterator, None)
+        yield _candidate(
+            lexeme_id=lexeme_id,
+            entity_sha256=entity_sha256,
+            lemma=lemma,
+            forms=forms,
+            claims=claim_maps.get(lexeme_id, {}),
+            sense_statement_keys=sense_statements.get(lexeme_id, ()),
+            component_statement_keys=component_targets.get(lexeme_id, ()),
+            object_form_evidence=object_forms.get(lexeme_id, ()),
+            ids=ids,
+        )
 
 
 def proposal_blocker(candidate: NounCandidate) -> str | None:

@@ -8,6 +8,11 @@ import sys
 from pathlib import Path
 
 from wd2gf import __version__
+from wd2gf.census_ger import (
+    DEFAULT_CENSUS_DETAILS,
+    DEFAULT_NOUN_CENSUS,
+    generate_noun_census,
+)
 from wd2gf.nouns_ger import (
     DEFAULT_NOUN_POLICY,
     DEFAULT_NOUN_SAMPLE,
@@ -239,6 +244,23 @@ def _noun_pilot(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_census(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    run = generate_noun_census(
+        database_path=args.database,
+        noun_policy_path=args.noun_policy,
+        feature_policy_path=args.feature_policy,
+        report_path=args.output,
+        details_path=args.details,
+        expected_snapshot=snapshot_metadata,
+    )
+    for artifact in (run.report, run.details):
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    print(f"noun_candidates={run.total_candidates}")
+    print(_metadata_json(run.tier_counts))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -407,6 +429,23 @@ def build_parser() -> argparse.ArgumentParser:
     noun_pilot_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     noun_pilot_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     noun_pilot_parser.set_defaults(handler=_noun_pilot)
+    noun_census_parser = noun_commands.add_parser(
+        "census", help="classify the full noun population without compiling GF"
+    )
+    noun_census_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    noun_census_parser.add_argument(
+        "--noun-policy", type=Path, default=DEFAULT_NOUN_POLICY
+    )
+    noun_census_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    noun_census_parser.add_argument("--output", type=Path, default=DEFAULT_NOUN_CENSUS)
+    noun_census_parser.add_argument(
+        "--details", type=Path, default=DEFAULT_CENSUS_DETAILS
+    )
+    noun_census_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    noun_census_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    noun_census_parser.set_defaults(handler=_noun_census)
     return parser
 
 
