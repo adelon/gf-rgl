@@ -1684,3 +1684,8 @@ cc -all druckbuchstabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ 
 cc -all druesensekret_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ druesensekret_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ druesensekret_N.co
 cc -all durstgefuehl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ durstgefuehl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ durstgefuehl_N.co
 cc -all durststrecke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ durststrecke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ durststrecke_N.co
+cc -all calciumhydrogen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ calciumhydrogen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ calciumhydrogen_N.co
+cc -all calciumkanalantagonist_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ calciumkanalantagonist_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ calciumkanalantagonist_N.co
+cc -all calciumkanalblocker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ calciumkanalblocker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ calciumkanalblocker_N.co
+cc -all chefarzt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefarzt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ chefarzt_N.co
+cc -all chefredakteur_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefredakteur_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ chefredakteur_N.co

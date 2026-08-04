@@ -2539,6 +2539,9 @@ fun
   berghaenfling_N : N ;
   bergstation_N : N ;
   calcium_N : N ;
+  calciumhydrogen_N : N ;
+  calciumkanalantagonist_N : N ;
+  calciumkanalblocker_N : N ;
   calciumantagonist_N : N ;
   calciumchelator_N : N ;
   calciumcitrat_N : N ;
@@ -2700,6 +2703,8 @@ fun
   campingbus_N : N ;
   campingplatz_N : N ;
   campingstuhl_N : N ;
+  chefarzt_N : N ;
+  chefredakteur_N : N ;
   cellokonzert_N : N ;
   cellospieler_N : N ;
   cellospielerin_N : N ;

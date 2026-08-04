@@ -752,6 +752,9 @@ concrete DictGer of DictGerAbs =
     , berghaenfling_N
     , bergstation_N
     , calcium_N
+    , calciumhydrogen_N
+    , calciumkanalantagonist_N
+    , calciumkanalblocker_N
     , calciumantagonist_N
     , calciumchelator_N
     , calciumcitrat_N
@@ -888,6 +891,8 @@ concrete DictGer of DictGerAbs =
     , campingbus_N
     , campingplatz_N
     , campingstuhl_N
+    , chefarzt_N
+    , chefredakteur_N
     , cellokonzert_N
     , cellospieler_N
     , cellospielerin_N
@@ -5986,6 +5991,9 @@ lin bergfink_N = mkN berg_N fink_N ;
 lin berghaenfling_N = mkN berg_N haenfling_N ;
 lin bergstation_N = mkN berg_N station_N ;
 lin calcium_N = mkN "Calcium" "Calcien" neuter ;
+lin calciumhydrogen_N = mkN calcium_N wasserstoff_N ;
+lin calciumkanalantagonist_N = changeCompoundN "Calciumkanalantagonisten" (mkN (mkN calcium_N kanal_N) antagonist_N) ;
+lin calciumkanalblocker_N = mkN (mkN calcium_N kanal_N) blocker_N ;
 lin calciumantagonist_N = mkN calcium_N antagonist_N ;
 lin calciumchelator_N = mkN calcium_N chelator_N ;
 lin calciumcitrat_N = mkN calcium_N citrat_N ;
@@ -5998,6 +6006,8 @@ lin calciumsalz_N = mkN calcium_N salz_N ;
 lin calciumspiegel_N = mkN calcium_N spiegel_N ;
 lin calciumverbindung_N = mkN calcium_N verbindung_N ;
 lin calziumverbindung_N = mkN calzium_N verbindung_N ;
+lin chefarzt_N = mkN chef_N arzt_N ;
+lin chefredakteur_N = mkN chef_N redakteur_N ;
 lin carboxylfunktion_N = mkN "Carboxyl" funktion_N ;
 lin carboxylgruppe_N = mkN "Carboxyl" gruppe_N ;
 lin carboxylgruppierung_N = mkN "Carboxyl" gruppierung_N ;
