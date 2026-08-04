@@ -3040,6 +3040,10 @@ fun
   edelknabe_N : N ;
   edelmarderfell_N : N ;
   edelpilz_N : N ;
+  easteregg_N : N ;
+  edelfraeulein_N : N ;
+  edelmann_N : N ;
+  effektenhaendler_N : N ;
   eichhase_N : N ;
   eichhoernchen_N : N ;
   eingeweidebruch_N : N ;

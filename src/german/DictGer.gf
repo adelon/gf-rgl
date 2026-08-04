@@ -1150,6 +1150,10 @@ concrete DictGer of DictGerAbs =
     , edelknabe_N
     , edelmarderfell_N
     , edelpilz_N
+    , easteregg_N
+    , edelfraeulein_N
+    , edelmann_N
+    , effektenhaendler_N
     , eichhase_N
     , eichhoernchen_N
     , eingeweidebruch_N
@@ -6732,6 +6736,10 @@ lin edelfrau_N = mkN "Edel" frau_N ;
 lin edelknabe_N = mkN "Edel" knabe_N ;
 lin edelmarderfell_N = mkN "Edel" (mkN marder_N fell_N) ;
 lin edelpilz_N = mkN "Edel" pilz_N ;
+lin easteregg_N = mkN "Easter" (mkN "Egg" "Eggs" neuter) ;
+lin edelfraeulein_N = mkN "Edel" (mkN "Fräulein" "Fräulein" neuter) ;
+lin edelmann_N = mkN "Edel" (mkN "Mann" "Männer" masculine) ;
+lin effektenhaendler_N = mkN "Effekten" (mkN "Händler" "Händler" masculine) ;
 lin eichhase_N = mkN "Eich" hase_N ;
 lin eichhoernchen_N = mkN "Eich" hoernchen_N ;
 lin eingeweidebruch_N = mkN eingeweide_N bruch_N ;
