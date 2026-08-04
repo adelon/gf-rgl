@@ -956,6 +956,8 @@ fun
   aasblume_N : N ;
   aasfliege_N : N ;
   aasfresser_N : N ;
+  aasgeld_N : N ;
+  aasgeruch_N : N ;
   aasgeier_N : N ;
   aasinsekt_N : N ;
   aasjaeger_N : N ;

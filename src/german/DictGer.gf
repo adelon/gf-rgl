@@ -323,6 +323,8 @@ concrete DictGer of DictGerAbs =
     , aasblume_N
     , aasfliege_N
     , aasfresser_N
+    , aasgeld_N
+    , aasgeruch_N
     , aasgeier_N
     , aasinsekt_N
     , aasjaeger_N
@@ -4303,6 +4305,8 @@ lin aalstreif_N = mkN aal_N (mkN "Streif" "Streife" masculine) ;
 lin aasblume_N = mkN aas_N blume_N ;
 lin aasfliege_N = mkN aas_N fliege_N ;
 lin aasfresser_N = mkN aas_N fresser_N ;
+lin aasgeld_N = mkN "Aas" geld_N ;
+lin aasgeruch_N = mkN "Aas" geruch_N ;
 lin aasgeier_N = mkN aas_N geier_N ;
 lin aasinsekt_N = mkN aas_N insekt_N ;
 lin aasjaeger_N = mkN aas_N jaeger_N ;

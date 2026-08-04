@@ -1882,3 +1882,4 @@ cc -all kernsequenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ker
 cc -all kernspaltung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kernspaltung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kernspaltung_N.co
 cc -all kernspeicher_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kernspeicher_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kernspeicher_N.co
 cc -all kernwaffenexplosion_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kernwaffenexplosion_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kernwaffenexplosion_N.co
+cc -all aasgeld_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aasgeld_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aasgeld_N.co ++ aasgeruch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ aasgeruch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ aasgeruch_N.co
