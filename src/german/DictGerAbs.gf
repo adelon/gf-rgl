@@ -757,6 +757,8 @@ fun
   aktienhaendlerin_N : N ;
   aktieninhaber_N : N ;
   aktienkurs_N : N ;
+  akkusativobjekt_N : N ;
+  akkuwerkzeug_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
