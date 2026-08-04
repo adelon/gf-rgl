@@ -985,6 +985,8 @@ concrete DictGer of DictGerAbs =
     , dammriss_N
     , dammschnitt_N
     , dampfkochtopf_N
+    , dampfgarer_N
+    , dampfreiniger_N
     , dampfschifffahrt_N
     , dampfbackofen_N
     , deichbruch_N
@@ -6224,6 +6226,8 @@ lin dammbruch_N = mkN damm_N bruch_N ;
 lin dammriss_N = mkN damm_N riss_N ;
 lin dammschnitt_N = mkN damm_N schnitt_N ;
 lin dampfkochtopf_N = mkN dampf_N kochtopf_N ;
+lin dampfgarer_N = mkN dampf_N (mkN "Garer" "Garer" masculine) ;
+lin dampfreiniger_N = mkN dampf_N (mkN "Reiniger" "Reiniger" masculine) ;
 lin dampfschifffahrt_N = mkN dampf_N schifffahrt_N ;
 lin dampfbackofen_N = mkN dampf_N backofen_N ;
 lin deichbruch_N = mkN deich_N bruch_N ;

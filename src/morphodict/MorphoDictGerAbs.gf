@@ -7028,8 +7028,6 @@ fun damnum_N : N ;
 fun dampf_N : N ;
 fun dampfen_V : V ;
 fun dampfer_N : N ;
-fun dampfgarer_N : N ;
-fun dampfreiniger_N : N ;
 fun danach_Adv : Adv ;
 fun danaergeschenk_N : N ;
 fun dandy_N : N ;

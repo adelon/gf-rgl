@@ -1689,3 +1689,5 @@ cc -all calciumkanalantagonist_N.s ! ParadigmsGer.singular ! ParadigmsGer.nomina
 cc -all calciumkanalblocker_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ calciumkanalblocker_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ calciumkanalblocker_N.co
 cc -all chefarzt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefarzt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ chefarzt_N.co
 cc -all chefredakteur_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefredakteur_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ chefredakteur_N.co
+cc -all dampfgarer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dampfgarer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dampfgarer_N.co
+cc -all dampfreiniger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dampfreiniger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dampfreiniger_N.co

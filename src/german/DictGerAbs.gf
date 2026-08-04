@@ -2797,6 +2797,8 @@ fun
   dammriss_N : N ;
   dammschnitt_N : N ;
   dampfkochtopf_N : N ;
+  dampfgarer_N : N ;
+  dampfreiniger_N : N ;
   dampfschifffahrt_N : N ;
   dampfbackofen_N : N ;
   deichbruch_N : N ;
