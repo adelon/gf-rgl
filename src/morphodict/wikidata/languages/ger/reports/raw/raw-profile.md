@@ -110,7 +110,8 @@ Statement ranks:
 - Distinct Lexeme/tag/feature-bundle slots: 1943161
 - Exact duplicate slots: 346
 - Conflicting-value slots: 79341
-- `Q107614077` forms: 378 across 372 Lexemes
+- `Q107614077` forms (all categories): 378 across 372 Lexemes
+- `Q107614077` noun forms (`Q1084`): 376 across 370 Lexemes
 - Lexemes with multiple `Q107614077` forms: 6
 
 Most frequent raw grammatical features:
@@ -170,7 +171,18 @@ Most frequent raw grammatical features:
 - Unresolved or malformed target statements: 24
 - Sources with multiple components: 6896
 - `P1545` qualifiers on compound statements: 6147
+- Fully ordered multi-component analyses: 2893
+- Partially ordered multi-component analyses: 3983
+- Duplicate-ordinal multi-component analyses: 11
+- Malformed-ordinal multi-component analyses: 9
 - `P5548` qualifiers on compound statements: 526
+
+Ordering is classified once per source with multiple component statements.
+Fully ordered means exactly one canonical positive decimal ordinal per
+component and the complete sequence `1..N`; partially ordered means that
+some or all ordinals are absent but every present ordinal is valid and
+unique. Repeated ordinals form the duplicate bucket; invalid, ambiguous,
+or out-of-range ordinals form the malformed bucket.
 
 Most frequent raw statement properties:
 

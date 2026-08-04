@@ -29,6 +29,7 @@ COMPOUND_PROPERTY = "P5238"
 PARADIGM_CLASS_PROPERTY = "P5911"
 SERIES_ORDINAL_PROPERTY = "P1545"
 OBJECT_FORM_PROPERTY = "P5548"
+NOUN_CATEGORY = "Q1084"
 
 
 class ProfileError(RuntimeError):
@@ -285,6 +286,79 @@ FROM slots
 """
 
 
+def _series_ordinal(value_json: str | None) -> int | None:
+    value = json.loads(value_json) if value_json is not None else None
+    if (
+        not isinstance(value, str)
+        or not value
+        or not value.isascii()
+        or not value.isdecimal()
+    ):
+        return None
+    ordinal = int(value)
+    return ordinal if ordinal > 0 and str(ordinal) == value else None
+
+
+def _compound_order_metrics(connection: sqlite3.Connection) -> dict[str, int]:
+    statements_by_source: dict[str, list[int]] = {}
+    rows = connection.execute(
+        "SELECT subject_id, statement_rowid FROM statement "
+        "WHERE subject_kind = 'lexeme' AND property_id = ? "
+        "ORDER BY subject_id, position, statement_rowid",
+        (COMPOUND_PROPERTY,),
+    )
+    for source_id, statement_rowid in rows:
+        statements_by_source.setdefault(source_id, []).append(statement_rowid)
+
+    ordinal_values: dict[int, list[str | None]] = {}
+    rows = connection.execute(
+        "SELECT q.statement_rowid, q.value_json FROM qualifier q "
+        "JOIN statement s USING(statement_rowid) "
+        "WHERE s.subject_kind = 'lexeme' AND s.property_id = ? "
+        "AND q.property_id = ? ORDER BY q.statement_rowid, q.position",
+        (COMPOUND_PROPERTY, SERIES_ORDINAL_PROPERTY),
+    )
+    for statement_rowid, value_json in rows:
+        ordinal_values.setdefault(statement_rowid, []).append(value_json)
+
+    result = {
+        "fully_ordered_analyses": 0,
+        "partially_ordered_analyses": 0,
+        "duplicate_ordinal_analyses": 0,
+        "malformed_ordinal_analyses": 0,
+    }
+    for statement_ids in statements_by_source.values():
+        if len(statement_ids) < 2:
+            continue
+        values_by_component = [
+            ordinal_values.get(identifier, []) for identifier in statement_ids
+        ]
+        parsed_by_component = [
+            [_series_ordinal(value_json) for value_json in values]
+            for values in values_by_component
+        ]
+        if any(
+            len(values) > 1 or any(ordinal is None for ordinal in parsed)
+            for values, parsed in zip(
+                values_by_component, parsed_by_component, strict=True
+            )
+        ):
+            result["malformed_ordinal_analyses"] += 1
+            continue
+        assigned = [parsed[0] for parsed in parsed_by_component if parsed]
+        if len(set(assigned)) != len(assigned):
+            result["duplicate_ordinal_analyses"] += 1
+        elif any(ordinal > len(statement_ids) for ordinal in assigned):
+            result["malformed_ordinal_analyses"] += 1
+        elif len(assigned) < len(statement_ids):
+            result["partially_ordered_analyses"] += 1
+        elif set(assigned) == set(range(1, len(statement_ids) + 1)):
+            result["fully_ordered_analyses"] += 1
+        else:
+            result["malformed_ordinal_analyses"] += 1
+    return result
+
+
 def _compound_metrics(connection: sqlite3.Connection) -> dict[str, int]:
     known_lexemes = {
         lexeme_id for (lexeme_id,) in connection.execute("SELECT lexeme_id FROM lexeme")
@@ -298,7 +372,7 @@ def _compound_metrics(connection: sqlite3.Connection) -> dict[str, int]:
         target = value.get("id") if isinstance(value, dict) else None
         targets.append(target if isinstance(target, str) else None)
     valid_targets = [target for target in targets if target is not None]
-    return {
+    result = {
         "statements": len(targets),
         "source_lexemes": _count(
             connection,
@@ -331,6 +405,18 @@ def _compound_metrics(connection: sqlite3.Connection) -> dict[str, int]:
             (COMPOUND_PROPERTY,),
         ),
     }
+    result.update(_compound_order_metrics(connection))
+    if sum(
+        result[key]
+        for key in (
+            "fully_ordered_analyses",
+            "partially_ordered_analyses",
+            "duplicate_ordinal_analyses",
+            "malformed_ordinal_analyses",
+        )
+    ) != result["multi_component_sources"]:
+        raise ProfileError("compound-order classifications are not exhaustive")
+    return result
 
 
 def _raw_markdown(
@@ -392,6 +478,20 @@ def _raw_markdown(
             connection,
             "SELECT COUNT(DISTINCT form_id) FROM form_feature WHERE feature_qid = ?",
             (COMBINING_FORM,),
+        ),
+        "noun_forms": _count(
+            connection,
+            "SELECT COUNT(DISTINCT f.form_id) FROM form_feature ff "
+            "JOIN form f USING(form_id) JOIN lexeme l USING(lexeme_id) "
+            "WHERE ff.feature_qid = ? AND l.lexical_category_qid = ?",
+            (COMBINING_FORM, NOUN_CATEGORY),
+        ),
+        "noun_lexemes": _count(
+            connection,
+            "SELECT COUNT(DISTINCT f.lexeme_id) FROM form_feature ff "
+            "JOIN form f USING(form_id) JOIN lexeme l USING(lexeme_id) "
+            "WHERE ff.feature_qid = ? AND l.lexical_category_qid = ?",
+            (COMBINING_FORM, NOUN_CATEGORY),
         ),
         "lexemes": _count(
             connection,
@@ -470,7 +570,14 @@ def _raw_markdown(
         f"- Distinct Lexeme/tag/feature-bundle slots: {total_slots}",
         f"- Exact duplicate slots: {exact_duplicate_slots or 0}",
         f"- Conflicting-value slots: {conflicting_slots or 0}",
-        f"- `{COMBINING_FORM}` forms: {combining['forms']} across {combining['lexemes']} Lexemes",
+        (
+            f"- `{COMBINING_FORM}` forms (all categories): {combining['forms']} "
+            f"across {combining['lexemes']} Lexemes"
+        ),
+        (
+            f"- `{COMBINING_FORM}` noun forms (`{NOUN_CATEGORY}`): "
+            f"{combining['noun_forms']} across {combining['noun_lexemes']} Lexemes"
+        ),
         f"- Lexemes with multiple `{COMBINING_FORM}` forms: {combining['multiple_forms']}",
         "",
         "Most frequent raw grammatical features:",
@@ -489,7 +596,18 @@ def _raw_markdown(
         f"- Unresolved or malformed target statements: {compound['unresolved_target_statements']}",
         f"- Sources with multiple components: {compound['multi_component_sources']}",
         f"- `{SERIES_ORDINAL_PROPERTY}` qualifiers on compound statements: {compound['series_ordinal_qualifiers']}",
+        f"- Fully ordered multi-component analyses: {compound['fully_ordered_analyses']}",
+        f"- Partially ordered multi-component analyses: {compound['partially_ordered_analyses']}",
+        f"- Duplicate-ordinal multi-component analyses: {compound['duplicate_ordinal_analyses']}",
+        f"- Malformed-ordinal multi-component analyses: {compound['malformed_ordinal_analyses']}",
         f"- `{OBJECT_FORM_PROPERTY}` qualifiers on compound statements: {compound['object_form_qualifiers']}",
+        "",
+        "Ordering is classified once per source with multiple component statements.",
+        "Fully ordered means exactly one canonical positive decimal ordinal per",
+        "component and the complete sequence `1..N`; partially ordered means that",
+        "some or all ordinals are absent but every present ordinal is valid and",
+        "unique. Repeated ordinals form the duplicate bucket; invalid, ambiguous,",
+        "or out-of-range ordinals form the malformed bucket.",
         "",
         "Most frequent raw statement properties:",
         "",
@@ -1167,26 +1285,46 @@ def _duplicate_lemma_rows(
 
 
 def _object_form_metrics(connection: sqlite3.Connection) -> dict[str, int]:
-    identifiers: list[str | None] = []
+    targets: list[tuple[str | None, str | None]] = []
     rows = connection.execute(
-        "SELECT q.value_json FROM qualifier q JOIN statement s USING(statement_rowid) "
+        "SELECT s.value_json, q.value_json FROM qualifier q "
+        "JOIN statement s USING(statement_rowid) "
         "WHERE s.property_id = ? AND q.property_id = ? ORDER BY q.statement_rowid",
         (COMPOUND_PROPERTY, OBJECT_FORM_PROPERTY),
     )
-    for (value_json,) in rows:
-        value = json.loads(value_json) if value_json is not None else None
-        identifier = value.get("id") if isinstance(value, dict) else None
-        identifiers.append(identifier if isinstance(identifier, str) else None)
+    for target_json, form_json in rows:
+        target_value = json.loads(target_json) if target_json is not None else None
+        form_value = json.loads(form_json) if form_json is not None else None
+        target_id = target_value.get("id") if isinstance(target_value, dict) else None
+        form_id = form_value.get("id") if isinstance(form_value, dict) else None
+        targets.append(
+            (
+                target_id if isinstance(target_id, str) else None,
+                form_id if isinstance(form_id, str) else None,
+            )
+        )
     resolved = 0
-    for identifier in identifiers:
-        if identifier is not None and connection.execute(
-            "SELECT 1 FROM form WHERE form_id = ?", (identifier,)
-        ).fetchone():
+    wrong_owner = 0
+    unresolved = 0
+    for target_id, form_id in targets:
+        owner = (
+            connection.execute(
+                "SELECT lexeme_id FROM form WHERE form_id = ?", (form_id,)
+            ).fetchone()
+            if form_id is not None
+            else None
+        )
+        if target_id is None or owner is None:
+            unresolved += 1
+        elif owner[0] == target_id:
             resolved += 1
+        else:
+            wrong_owner += 1
     return {
-        "qualifiers": len(identifiers),
+        "qualifiers": len(targets),
         "resolved_forms": resolved,
-        "unresolved_or_malformed": len(identifiers) - resolved,
+        "wrong_owner": wrong_owner,
+        "unresolved_or_malformed": unresolved,
     }
 
 
@@ -1261,6 +1399,33 @@ def _interpreted_markdown(
         """,
         (combining_qid,),
     ).fetchall()
+    combining_totals = {
+        "forms": _count(
+            connection,
+            "SELECT COUNT(DISTINCT form_id) FROM form_feature WHERE feature_qid = ?",
+            (combining_qid,),
+        ),
+        "lexemes": _count(
+            connection,
+            "SELECT COUNT(DISTINCT f.lexeme_id) FROM form_feature ff "
+            "JOIN form f USING(form_id) WHERE ff.feature_qid = ?",
+            (combining_qid,),
+        ),
+        "noun_forms": _count(
+            connection,
+            "SELECT COUNT(DISTINCT f.form_id) FROM form_feature ff "
+            "JOIN form f USING(form_id) JOIN lexeme l USING(lexeme_id) "
+            "WHERE ff.feature_qid = ? AND l.lexical_category_qid = ?",
+            (combining_qid, noun_qid),
+        ),
+        "noun_lexemes": _count(
+            connection,
+            "SELECT COUNT(DISTINCT f.lexeme_id) FROM form_feature ff "
+            "JOIN form f USING(form_id) JOIN lexeme l USING(lexeme_id) "
+            "WHERE ff.feature_qid = ? AND l.lexical_category_qid = ?",
+            (combining_qid, noun_qid),
+        ),
+    }
     compound = _compound_metrics(connection)
     object_forms = _object_form_metrics(connection)
     relevant_properties = {
@@ -1360,6 +1525,15 @@ def _interpreted_markdown(
             combining_rows,
         ),
         "",
+        (
+            "- All-category combining-form total: "
+            f"{combining_totals['forms']} forms across "
+            f"{combining_totals['lexemes']} Lexemes"
+        ),
+        (
+            f"- Noun combining-form total: {combining_totals['noun_forms']} forms "
+            f"across {combining_totals['noun_lexemes']} Lexemes"
+        ),
         f"- `{COMPOUND_PROPERTY}` statements: {compound['statements']}",
         f"- Source Lexemes with compound evidence: {compound['source_lexemes']}",
         f"- Sources with multiple component statements: {compound['multi_component_sources']}",
@@ -1367,9 +1541,30 @@ def _interpreted_markdown(
         f"- Targets resolved inside the exact-Q188 store: {compound['resolved_targets']}",
         f"- Unresolved or malformed target statements: {compound['unresolved_target_statements']}",
         f"- `{SERIES_ORDINAL_PROPERTY}` ordering qualifiers: {compound['series_ordinal_qualifiers']}",
+        f"- Fully ordered multi-component analyses: {compound['fully_ordered_analyses']}",
+        f"- Partially ordered multi-component analyses: {compound['partially_ordered_analyses']}",
+        f"- Duplicate-ordinal multi-component analyses: {compound['duplicate_ordinal_analyses']}",
+        f"- Malformed-ordinal multi-component analyses: {compound['malformed_ordinal_analyses']}",
         f"- `{OBJECT_FORM_PROPERTY}` qualifiers: {object_forms['qualifiers']}",
-        f"- `{OBJECT_FORM_PROPERTY}` targets resolved to stored Forms: {object_forms['resolved_forms']}",
-        f"- Unresolved/malformed `{OBJECT_FORM_PROPERTY}` targets: {object_forms['unresolved_or_malformed']}",
+        (
+            f"- `{OBJECT_FORM_PROPERTY}` targets resolved to owned stored Forms: "
+            f"{object_forms['resolved_forms']}"
+        ),
+        (
+            f"- Stored `{OBJECT_FORM_PROPERTY}` targets owned by another Lexeme: "
+            f"{object_forms['wrong_owner']}"
+        ),
+        (
+            f"- Unresolved/malformed `{OBJECT_FORM_PROPERTY}` targets: "
+            f"{object_forms['unresolved_or_malformed']}"
+        ),
+        "",
+        "Ordering is classified once per source with multiple component statements.",
+        "Fully ordered means exactly one canonical positive decimal ordinal per",
+        "component and the complete sequence `1..N`; partially ordered means that",
+        "some or all ordinals are absent but every present ordinal is valid and",
+        "unique. Repeated ordinals form the duplicate bucket; invalid, ambiguous,",
+        "or out-of-range ordinals form the malformed bucket.",
         "",
         "Combining forms and construction-specific object-form qualifiers remain",
         "separate evidence. Missing statements are not interpreted as atomicity.",

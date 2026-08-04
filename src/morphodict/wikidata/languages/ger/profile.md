@@ -139,6 +139,8 @@ Combining-form representations:
 |---|---|---|---|---|
 | de | 378 | 378 | 372 | 376 |
 
+- All-category combining-form total: 378 forms across 372 Lexemes
+- Noun combining-form total: 376 forms across 370 Lexemes
 - `P5238` statements: 15026
 - Source Lexemes with compound evidence: 7717
 - Sources with multiple component statements: 6896
@@ -146,9 +148,21 @@ Combining-form representations:
 - Targets resolved inside the exact-Q188 store: 4971
 - Unresolved or malformed target statements: 24
 - `P1545` ordering qualifiers: 6147
+- Fully ordered multi-component analyses: 2893
+- Partially ordered multi-component analyses: 3983
+- Duplicate-ordinal multi-component analyses: 11
+- Malformed-ordinal multi-component analyses: 9
 - `P5548` qualifiers: 526
-- `P5548` targets resolved to stored Forms: 526
+- `P5548` targets resolved to owned stored Forms: 526
+- Stored `P5548` targets owned by another Lexeme: 0
 - Unresolved/malformed `P5548` targets: 0
+
+Ordering is classified once per source with multiple component statements.
+Fully ordered means exactly one canonical positive decimal ordinal per
+component and the complete sequence `1..N`; partially ordered means that
+some or all ordinals are absent but every present ordinal is valid and
+unique. Repeated ordinals form the duplicate bucket; invalid, ambiguous,
+or out-of-range ordinals form the malformed bucket.
 
 Combining forms and construction-specific object-form qualifiers remain
 separate evidence. Missing statements are not interpreted as atomicity.

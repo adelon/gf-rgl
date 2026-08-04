@@ -15,6 +15,16 @@ official 2026-07-29 Wikidata Lexeme JSON gzip snapshot.
 
 From `src/morphodict/wikidata`:
 
+Commands that generate the committed output locations:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli profile raw --output-dir languages/ger/reports/raw
+PYTHONPATH=src python3 -m wd2gf.cli profile interpreted --output-dir languages/ger
+PYTHONPATH=src python3 -m wd2gf.cli fixture extract --output-dir languages/ger/fixtures/pinned
+```
+
+Commands that create the independent repeat store and repeat outputs:
+
 ```sh
 PYTHONPATH=src python3 -m wd2gf.cli snapshot verify
 PYTHONPATH=src python3 -m wd2gf.cli store ingest
@@ -24,6 +34,18 @@ PYTHONPATH=src python3 -m wd2gf.cli store fingerprint --database .work/repeat/ge
 PYTHONPATH=src python3 -m wd2gf.cli profile raw --database .work/repeat/german-lexemes.sqlite3 --output-dir .work/repeat/raw
 PYTHONPATH=src python3 -m wd2gf.cli profile interpreted --database .work/repeat/german-lexemes.sqlite3 --output-dir .work/repeat/interpreted
 PYTHONPATH=src python3 -m wd2gf.cli fixture extract --database .work/repeat/german-lexemes.sqlite3 --output-dir .work/repeat/pinned
+```
+
+Commands that compare every committed artifact with its repeat counterpart:
+
+```sh
+cmp languages/ger/reports/raw/raw-profile.md .work/repeat/raw/raw-profile.md
+cmp languages/ger/reports/raw/raw-inventory.tsv .work/repeat/raw/raw-inventory.tsv
+cmp languages/ger/reports/raw/raw-feature-bundles.tsv .work/repeat/raw/raw-feature-bundles.tsv
+cmp languages/ger/profile.md .work/repeat/interpreted/profile.md
+cmp languages/ger/unknown-features.tsv .work/repeat/interpreted/unknown-features.tsv
+cmp languages/ger/fixtures/pinned/lexemes.json .work/repeat/pinned/lexemes.json
+cmp languages/ger/fixtures/pinned/manifest.tsv .work/repeat/pinned/manifest.tsv
 ```
 
 Both database paths were absent before their respective create-from-scratch
@@ -58,13 +80,17 @@ The primary and repeated outputs compared byte-for-byte:
 
 | Artifact | SHA-256 | Bytes |
 |---|---|---:|
-| `reports/raw/raw-profile.md` | `5f46c081cb95956bcf97282c9a67523233d50617f1c7d283c56824e2563a57ef` | 5340 |
+| `reports/raw/raw-profile.md` | `ee27b29b884ac58962d980b8f87a2e3fd386c2e73c61c749475eb9598ad1f89e` | 6028 |
 | `reports/raw/raw-inventory.tsv` | `f6538cdddf05f4a68c655945f0e3710f55f39b13e064c3a8bc86782fe8ecb577` | 487903 |
 | `reports/raw/raw-feature-bundles.tsv` | `6815758616a9e75928e921b3e8c99a3a921e6b24cb9e87faa6d87fa152789c95` | 36614 |
-| `profile.md` | `a07b5ce1d8e560bd296dc3694dea20ab23b66e19685d5ed48c9d15e8fb5673ff` | 7416 |
+| `profile.md` | `29c1fec0f33b84b0ca596520b18e669213a70fde9e69d9e3f939eab828239214` | 8209 |
 | `unknown-features.tsv` | `269177a37c45bdba94f093828dbcdf639dda3f5d324ee760efa1fee6780a17b2` | 2087 |
 | `fixtures/pinned/lexemes.json` | `e00c36f54e169250190ad7f79f5b4cdcdc798ebea6b8a0dab529ac6d5cffa724` | 82490 |
 | `fixtures/pinned/manifest.tsv` | `bbf47f856f9c1c8906272709beafa9340554334af5bf4fac629476b950675f89` | 1627 |
+
+The compound-evidence validation update reused the two fingerprint-identical
+stores above. It reran only the four raw/interpreted profile commands and the
+`cmp` commands; it did not ingest the dump again.
 
 The historical German dictionaries were not read as inventory inputs. No GF
 entries, candidate names, placement rules, compatibility declarations, or
