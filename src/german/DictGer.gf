@@ -409,12 +409,22 @@ concrete DictGer of DictGerAbs =
     , atomantrieb_N
     , atombindung_N
     , atombombe_N
+    , atomausstieg_N
+    , atombunker_N
     , atomgegner_N
     , atomgewicht_N
     , atomkern_N
+    , atomkonzern_N
     , atomkrieg_N
     , atommasse_N
+    , atomkraftgegner_N
+    , atomkraftwerk_N
+    , atommodell_N
+    , atommuellendlager_N
     , atomuhr_N
+    , atomreaktor_N
+    , atomspaltung_N
+    , atomwaffe_N
     , loeffelfoermige_seitling__N
     , roetende_schirmling_N
     , starkriechende_pfifferling__N
@@ -4428,12 +4438,22 @@ lin atomanlage_N = mkN atom_N anlage_N ;
 lin atomantrieb_N = mkN atom_N antrieb_N ;
 lin atombindung_N = mkN atom_N bindung_N ;
 lin atombombe_N = mkN atom_N bombe_N ;
+lin atomausstieg_N = mkN atom_N (mkN "Ausstieg" "Ausstiege" masculine) ;
+lin atombunker_N = mkN atom_N (mkN "Bunker" "Bunker" masculine) ;
 lin atomgegner_N = mkN atom_N gegner_N ;
 lin atomgewicht_N = mkN atom_N gewicht_N ;
 lin atomkern_N = mkN atom_N kern_N ;
+lin atomkonzern_N = mkN atom_N (mkN "Konzern" "Konzerne" masculine) ;
 lin atomkrieg_N = mkN atom_N krieg_N ;
 lin atommasse_N = mkN atom_N masse_N ;
+lin atomkraftgegner_N = mkN (mkN atom_N kraft_N) gegner_N ;
+lin atomkraftwerk_N = mkN atom_N kraftwerk_N ;
+lin atommodell_N = mkN atom_N (mkN "Modell" "Modelle" neuter) ;
+lin atommuellendlager_N = mkN atom_N (mkN "Müllendlager" "Müllendlager" neuter) ;
 lin atomuhr_N = mkN atom_N uhr_N ;
+lin atomreaktor_N = mkN atom_N reaktor_N ;
+lin atomspaltung_N = changeCompoundN "Atomspaltungs" (mkN atom_N spaltung_N) ;
+lin atomwaffe_N = mkN atom_N waffe_N ;
 lin abstossungsreaktion_N = mkN abstossung_N reaktion_N ;
 lin a_battuta_Adv = mkAdv "a battuta" ;
 lin a_cappella_Adv = mkAdv "a cappella" ;
