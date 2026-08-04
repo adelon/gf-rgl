@@ -264,6 +264,14 @@ concrete DictGer of DictGerAbs =
     , aminosaeuresequenzvariante_N
     , aminosaeureteilsequenz_N
     , aminosaeurezusammensetzung_N
+    , aminogruppe_N
+    , aminorest_N
+    , aminoschutzgruppe_N
+    , aminoseitenkette_N
+    , aminosubstituent_N
+    , aminosulfonsaeure_N
+    , aminoverbindung_N
+    , aminozucker_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3819,6 +3827,14 @@ lin aminosaeuresequenz_N = mkN aminosaeure_N sequenz_N ;
 lin aminosaeuresequenzvariante_N = mkN (mkN aminosaeure_N sequenz_N) variante_N ;
 lin aminosaeureteilsequenz_N = mkN aminosaeure_N teilsequenz_N ;
 lin aminosaeurezusammensetzung_N = mkN aminosaeure_N zusammensetzung_N ;
+lin aminogruppe_N = mkN "Amino" gruppe_N ;
+lin aminorest_N = mkN "Amino" rest_N ;
+lin aminoschutzgruppe_N = mkN "Amino" schutzgruppe_N ;
+lin aminoseitenkette_N = mkN "Amino" seitenkette_N ;
+lin aminosubstituent_N = mkN "Amino" substituent_N ;
+lin aminosulfonsaeure_N = mkN "Amino" sulfonsaeure_N ;
+lin aminoverbindung_N = mkN "Amino" verbindung_N ;
+lin aminozucker_N = mkN "Amino" zucker_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

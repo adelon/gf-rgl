@@ -803,6 +803,14 @@ fun
   aminosaeuresequenzvariante_N : N ;
   aminosaeureteilsequenz_N : N ;
   aminosaeurezusammensetzung_N : N ;
+  aminogruppe_N : N ;
+  aminorest_N : N ;
+  aminoschutzgruppe_N : N ;
+  aminoseitenkette_N : N ;
+  aminosubstituent_N : N ;
+  aminosulfonsaeure_N : N ;
+  aminoverbindung_N : N ;
+  aminozucker_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
