@@ -272,6 +272,19 @@ concrete DictGer of DictGerAbs =
     , aminosulfonsaeure_N
     , aminoverbindung_N
     , aminozucker_N
+    , amtsanmassung_N
+    , amtsanwalt_N
+    , amtsbezirk_N
+    , amtsbote_N
+    , amtsdirektor_N
+    , amtseid_N
+    , amtsgericht_N
+    , amtshilfe_N
+    , amtssitz_N
+    , amtssprache_N
+    , amtsstube_N
+    , amtswohnung_N
+    , amtszeit_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3835,6 +3848,19 @@ lin aminosubstituent_N = mkN "Amino" substituent_N ;
 lin aminosulfonsaeure_N = mkN "Amino" sulfonsaeure_N ;
 lin aminoverbindung_N = mkN "Amino" verbindung_N ;
 lin aminozucker_N = mkN "Amino" zucker_N ;
+lin amtsanmassung_N = mkN "Amts" anmassung_N ;
+lin amtsanwalt_N = mkN "Amts" anwalt_N ;
+lin amtsbezirk_N = mkN "Amts" bezirk_N ;
+lin amtsbote_N = mkN "Amts" bote_N ;
+lin amtsdirektor_N = mkN "Amts" direktor_N ;
+lin amtseid_N = mkN "Amts" eid_N ;
+lin amtsgericht_N = mkN "Amts" gericht_N ;
+lin amtshilfe_N = mkN "Amts" hilfe_N ;
+lin amtssitz_N = mkN "Amts" sitz_N ;
+lin amtssprache_N = mkN "Amts" sprache_N ;
+lin amtsstube_N = mkN "Amts" stube_N ;
+lin amtswohnung_N = mkN "Amts" wohnung_N ;
+lin amtszeit_N = mkN "Amts" zeit_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
