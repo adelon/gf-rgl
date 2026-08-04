@@ -20,9 +20,12 @@ from wd2gf.snapshot import (
 from wd2gf.profile_ger import (
     DEFAULT_FIXTURE_DIR,
     DEFAULT_FIXTURE_SELECTION,
+    DEFAULT_FEATURE_POLICY,
+    DEFAULT_INTERPRETED_REPORT_DIR,
     DEFAULT_RAW_REPORT_DIR,
     ProfileError,
     extract_pinned_fixture,
+    generate_interpreted_profile,
     generate_raw_profile,
 )
 from wd2gf.store import (
@@ -32,6 +35,7 @@ from wd2gf.store import (
     StoreError,
     ingest_dump,
     load_source_policy,
+    source_store_fingerprint,
 )
 
 
@@ -106,11 +110,29 @@ def _raw_profile(args: argparse.Namespace) -> int:
     return 0
 
 
+def _store_fingerprint(args: argparse.Namespace) -> int:
+    print(_metadata_json(source_store_fingerprint(args.database)))
+    return 0
+
+
 def _extract_fixture(args: argparse.Namespace) -> int:
     _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
     artifacts = extract_pinned_fixture(
         database_path=args.database,
         selection_path=args.selection,
+        output_dir=args.output_dir,
+        expected_snapshot=snapshot_metadata,
+    )
+    for artifact in artifacts:
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    return 0
+
+
+def _interpreted_profile(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    artifacts = generate_interpreted_profile(
+        database_path=args.database,
+        feature_policy_path=args.feature_policy,
         output_dir=args.output_dir,
         expected_snapshot=snapshot_metadata,
     )
@@ -172,6 +194,11 @@ def build_parser() -> argparse.ArgumentParser:
     ingest_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     ingest_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     ingest_parser.set_defaults(handler=_ingest)
+    fingerprint_parser = store_commands.add_parser(
+        "fingerprint", help="hash selected entity hashes and report projection counts"
+    )
+    fingerprint_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    fingerprint_parser.set_defaults(handler=_store_fingerprint)
 
     profile_parser = commands.add_parser("profile", help="profile the German source store")
     profile_commands = profile_parser.add_subparsers(dest="profile_command", required=True)
@@ -183,6 +210,19 @@ def build_parser() -> argparse.ArgumentParser:
     raw_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     raw_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     raw_parser.set_defaults(handler=_raw_profile)
+    interpreted_parser = profile_commands.add_parser(
+        "interpreted", help="apply the reviewed German QID mappings"
+    )
+    interpreted_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    interpreted_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    interpreted_parser.add_argument(
+        "--output-dir", type=Path, default=DEFAULT_INTERPRETED_REPORT_DIR
+    )
+    interpreted_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    interpreted_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    interpreted_parser.set_defaults(handler=_interpreted_profile)
 
     fixture_parser = commands.add_parser(
         "fixture", help="extract complete source entities for pinned tests"

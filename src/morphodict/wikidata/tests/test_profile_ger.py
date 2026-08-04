@@ -5,7 +5,12 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from wd2gf.profile_ger import extract_pinned_fixture, generate_raw_profile
+from wd2gf.profile_ger import (
+    DEFAULT_FEATURE_POLICY,
+    extract_pinned_fixture,
+    generate_interpreted_profile,
+    generate_raw_profile,
+)
 from wd2gf.store import SourcePolicy, ingest_dump
 
 
@@ -84,6 +89,40 @@ class RawProfileTests(unittest.TestCase):
             fixture = json.loads((root / "first/lexemes.json").read_text(encoding="utf-8"))
             self.assertEqual([entity["id"] for entity in fixture], ["L1", "L3"])
             self.assertIn("qualifiers", fixture[0]["claims"]["P5185"][0])
+
+    def test_interpreted_profile_is_deterministic(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            database = root / "source.sqlite3"
+            ingest_dump(
+                dump_path=FIXTURE,
+                database_path=database,
+                source_policy=SourcePolicy("Q188", "exact"),
+                snapshot_metadata=SNAPSHOT,
+            )
+            first = generate_interpreted_profile(
+                database_path=database,
+                feature_policy_path=DEFAULT_FEATURE_POLICY,
+                output_dir=root / "first",
+                expected_snapshot=SNAPSHOT,
+            )
+            second = generate_interpreted_profile(
+                database_path=database,
+                feature_policy_path=DEFAULT_FEATURE_POLICY,
+                output_dir=root / "second",
+                expected_snapshot=SNAPSHOT,
+            )
+            self.assertEqual(
+                [(artifact.path.name, artifact.sha256) for artifact in first],
+                [(artifact.path.name, artifact.sha256) for artifact in second],
+            )
+            profile = (root / "first/profile.md").read_text(encoding="utf-8")
+            self.assertIn("| N | 2 | 2 | 0 |", profile)
+            self.assertIn("Historical German dictionaries used as inventory inputs: no", profile)
+            self.assertEqual(
+                (root / "first/unknown-features.tsv").read_text(encoding="utf-8"),
+                "lexical_category_qid\tfeature_qid\tstatus\treason\tassignments\tlexemes\n",
+            )
 
 
 if __name__ == "__main__":

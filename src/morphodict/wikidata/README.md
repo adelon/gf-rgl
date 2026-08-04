@@ -28,7 +28,9 @@ PYTHONPATH=src python3 -m wd2gf.cli snapshot resolve --date 20260729 --compressi
 PYTHONPATH=src python3 -m wd2gf.cli snapshot download
 PYTHONPATH=src python3 -m wd2gf.cli snapshot verify
 PYTHONPATH=src python3 -m wd2gf.cli store ingest
+PYTHONPATH=src python3 -m wd2gf.cli store fingerprint
 PYTHONPATH=src python3 -m wd2gf.cli profile raw
+PYTHONPATH=src python3 -m wd2gf.cli profile interpreted
 PYTHONPATH=src python3 -m wd2gf.cli fixture extract
 ```
 
@@ -36,6 +38,12 @@ Snapshot acquisition and profile commands are documented by the CLI itself.
 Network access is needed only to resolve and download a snapshot. Verification,
 ingestion, and profiling are offline once the finalized lock and retained dump
 are present.
+
+Selected full-snapshot results are committed under `languages/ger`: the raw
+source-ID inventories, complete pinned entities, the reviewed feature policy,
+the interpreted `profile.md`, `unknown-features.tsv`, and the clean-repeat
+fingerprints in `REPRODUCIBILITY.md`. Detailed databases and repeat outputs stay
+under ignored `.work/` paths.
 
 Accepted entities are serialized with UTF-8 characters unescaped, object keys
 sorted, no optional whitespace, and standard JSON string/number semantics;

@@ -683,3 +683,53 @@ def ingest_dump(
         _cleanup_sqlite(temporary_path)
         raise
     return stats
+
+
+def source_store_fingerprint(database_path: Path = DEFAULT_DATABASE) -> dict[str, object]:
+    if not database_path.is_file():
+        raise StoreError(f"source database does not exist: {database_path}")
+    connection = sqlite3.connect(f"file:{database_path}?mode=ro", uri=True)
+    try:
+        user_version = connection.execute("PRAGMA user_version").fetchone()[0]
+        if user_version != SCHEMA_VERSION:
+            raise StoreError(
+                f"incompatible source database schema {user_version}; expected {SCHEMA_VERSION}"
+            )
+        table_counts = {
+            table: int(connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0])
+            for table in (
+                "lexeme",
+                "lemma",
+                "form",
+                "form_representation",
+                "form_feature",
+                "sense",
+                "sense_gloss",
+                "statement",
+                "qualifier",
+            )
+        }
+        entity_hashes = hashlib.sha256()
+        for lexeme_id, entity_sha256 in connection.execute(
+            "SELECT lexeme_id, entity_sha256 FROM lexeme ORDER BY lexeme_id"
+        ):
+            entity_hashes.update(lexeme_id.encode("ascii"))
+            entity_hashes.update(b"\t")
+            entity_hashes.update(entity_sha256.encode("ascii"))
+            entity_hashes.update(b"\n")
+        metadata = {
+            key: json.loads(value_json)
+            for key, value_json in connection.execute(
+                "SELECT key, value_json FROM metadata ORDER BY key"
+            )
+        }
+        return {
+            "schema_version": user_version,
+            "table_counts": table_counts,
+            "selected_entity_hashes_sha256": entity_hashes.hexdigest(),
+            "metadata_sha256": hashlib.sha256(
+                canonical_json(metadata).encode("utf-8")
+            ).hexdigest(),
+        }
+    finally:
+        connection.close()

@@ -1,5 +1,86 @@
 schema_version = 1
+reference = "Wikidata German Lexeme data model reviewed 2026-08-04"
+reference_url = "https://www.wikidata.org/wiki/Wikidata:Lexicographical_data/Documentation/Languages/de/Data_model"
 
-# Reviewed QID mappings are intentionally added only after the raw inventory
-# from the pinned dump has been examined.
-[items]
+[lexical_categories]
+Q1084 = "N"
+Q24905 = "V"
+Q34698 = "A"
+Q380057 = "Adv"
+
+[properties]
+P31 = "instance_of"
+P5185 = "grammatical_gender"
+P5187 = "word_stem"
+P5238 = "combines_lexemes"
+P5401 = "auxiliary_verb"
+P5911 = "paradigm_class"
+P1545 = "series_ordinal"
+P5548 = "object_form"
+
+[form_features]
+Q107614077 = "combining_form"
+Q110786 = "singular"
+Q146786 = "plural"
+Q131105 = "nominative"
+Q146233 = "genitive"
+Q145599 = "dative"
+Q146078 = "accusative"
+Q499327 = "masculine"
+Q1775415 = "feminine"
+Q1775461 = "neuter"
+Q179230 = "infinitive"
+Q100952920 = "zu_infinitive"
+Q10345583 = "present_participle"
+Q12717679 = "past_participle"
+Q21714344 = "first_person"
+Q51929049 = "second_person"
+Q51929074 = "third_person"
+Q1317831 = "active"
+Q192613 = "present_tense"
+Q442485 = "preterite"
+Q682111 = "indicative"
+Q55685962 = "subjunctive_i"
+Q54671845 = "subjunctive_ii"
+Q22716 = "imperative"
+Q1931259 = "predicative"
+Q4818723 = "attributive"
+Q3482678 = "positive"
+Q14169499 = "comparative"
+Q1817208 = "superlative"
+
+[statement_values]
+Q499327 = "masculine"
+Q1775415 = "feminine"
+Q1775461 = "neuter"
+Q138246 = "plurale_tantum"
+Q604984 = "singulare_tantum"
+Q104023380 = "n_declension"
+Q105099779 = "n_declension_genitive_s"
+Q105683521 = "genitive_es_invariant_plural"
+Q105571268 = "plural_en"
+Q105627457 = "plural_umlaut_e"
+Q105658318 = "genitive_es_plural_s"
+Q105628811 = "plural_s"
+Q103383087 = "adjectival_declension"
+Q60655 = "weak_verb"
+Q4129241 = "strong_verb"
+Q70235 = "irregular_verb"
+Q3254028 = "separable_verb"
+Q105714288 = "inseparable_verb"
+Q332375 = "absolute_adjective"
+Q58691134 = "indeclinable_adjective"
+
+[entity_ids]
+L4179 = "haben"
+L1761 = "sein"
+
+# These rare features occurred on noun-category forms in the pinned dump but
+# are outside the reviewed German noun case/number/combining-form model. Phase
+# 1 quarantines rather than interpreting any noun carrying them.
+[rejected_noun_form_features]
+Q102786 = "outside reviewed noun form model"
+Q3481903 = "outside reviewed noun form model"
+Q55094451 = "outside reviewed noun form model"
+Q56352306 = "outside reviewed noun form model"
+Q7977953 = "outside reviewed noun form model"

@@ -12,6 +12,7 @@ from wd2gf.store import (
     canonical_entity,
     ingest_dump,
     iter_dump,
+    source_store_fingerprint,
     validate_entity,
 )
 
@@ -118,6 +119,11 @@ class StoreTests(unittest.TestCase):
                     source_policy=SourcePolicy("Q188", "exact"),
                     snapshot_metadata=SNAPSHOT,
                 )
+            fingerprint = source_store_fingerprint(database)
+            self.assertEqual(fingerprint["schema_version"], 1)
+            self.assertEqual(fingerprint["table_counts"]["lexeme"], 2)
+            self.assertEqual(fingerprint["table_counts"]["form"], 4)
+            self.assertEqual(len(fingerprint["selected_entity_hashes_sha256"]), 64)
 
 
 if __name__ == "__main__":

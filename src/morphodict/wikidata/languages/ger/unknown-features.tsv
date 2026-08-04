@@ -1,0 +1,29 @@
+lexical_category_qid	feature_qid	status	reason	assignments	lexemes
+Q1084	Q102786	rejected	outside reviewed noun form model	1	1
+Q1084	Q3481903	rejected	outside reviewed noun form model	11	3
+Q1084	Q55094451	rejected	outside reviewed noun form model	2	2
+Q1084	Q56352306	rejected	outside reviewed noun form model	21	3
+Q1084	Q7977953	rejected	outside reviewed noun form model	15	4
+Q134830	Q57156426	deferred_unknown	category fitting is outside Phase 1	2	1
+Q134830	Q57156560	deferred_unknown	category fitting is outside Phase 1	2	1
+Q1964223	Q102786	deferred_unknown	category fitting is outside Phase 1	1	1
+Q24905	Q126729404	deferred_unknown	category fitting is outside Phase 1	1	1
+Q24905	Q1424306	deferred_unknown	category fitting is outside Phase 1	1	1
+Q24905	Q1923028	deferred_unknown	category fitting is outside Phase 1	1	1
+Q24905	Q3481903	deferred_unknown	category fitting is outside Phase 1	13	1
+Q24905	Q371427	deferred_unknown	category fitting is outside Phase 1	3	3
+Q24905	Q501405	deferred_unknown	category fitting is outside Phase 1	103	16
+Q24905	Q52434245	deferred_unknown	category fitting is outside Phase 1	9	9
+Q24905	Q55228835	deferred_unknown	category fitting is outside Phase 1	1	1
+Q24905	Q55698471	deferred_unknown	category fitting is outside Phase 1	34	1
+Q24905	Q55698475	deferred_unknown	category fitting is outside Phase 1	34	1
+Q24905	Q623742	deferred_unknown	category fitting is outside Phase 1	99	16
+Q24905	Q625420	deferred_unknown	category fitting is outside Phase 1	128	19
+Q24905	Q7977953	deferred_unknown	category fitting is outside Phase 1	13	1
+Q34698	Q3481903	deferred_unknown	category fitting is outside Phase 1	657	39
+Q34698	Q56352306	deferred_unknown	category fitting is outside Phase 1	1	1
+Q34698	Q7977953	deferred_unknown	category fitting is outside Phase 1	484	24
+Q34698	Q96407524	deferred_unknown	category fitting is outside Phase 1	466	22
+Q36484	Q80071	deferred_unknown	category fitting is outside Phase 1	1	1
+Q468801	Q77768790	deferred_unknown	category fitting is outside Phase 1	6	1
+Q468801	Q953129	deferred_unknown	category fitting is outside Phase 1	24	12
