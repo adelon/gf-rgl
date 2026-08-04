@@ -727,6 +727,14 @@ fun
   abc_waffen_N : N ;
   abc_waffen_frei_A : A ;
   a_achse_N : N ;
+  affenarsch_N : N ;
+  affenbrotbaum_N : N ;
+  affenfaust_N : N ;
+  affenhaus_N : N ;
+  affenkaefig_N : N ;
+  affenmensch_N : N ;
+  affenzahn_N : N ;
+  affenzelle_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;

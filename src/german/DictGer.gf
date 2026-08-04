@@ -188,6 +188,14 @@ concrete DictGer of DictGerAbs =
     , currypulver_N
     , currywurst_N
     , a_bombe_N
+    , affenarsch_N
+    , affenbrotbaum_N
+    , affenfaust_N
+    , affenhaus_N
+    , affenkaefig_N
+    , affenmensch_N
+    , affenzahn_N
+    , affenzelle_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3667,6 +3675,14 @@ lin larsen_system_N = changeCompoundN "Larsen-System-"
 lin abc_waffen_frei_A = mkA abc_waffen_N frei_A ;
 lin a_achse_N = mkHyphenN a_N achse_N ;
 lin a_bombe_N = mkHyphenN a_N bombe_N ;
+lin affenarsch_N = mkN "Affen" arsch_N ;
+lin affenbrotbaum_N = mkN "Affenbrot" baum_N ;
+lin affenfaust_N = mkN "Affen" faust_N ;
+lin affenhaus_N = mkN "Affen" haus_N ;
+lin affenkaefig_N = mkN "Affen" kaefig_N ;
+lin affenmensch_N = mkN "Affen" mensch_N ;
+lin affenzahn_N = mkN "Affen" zahn_N ;
+lin affenzelle_N = changeCompoundN "Affenzellen" (mkN "Affen" zelle_N) ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
