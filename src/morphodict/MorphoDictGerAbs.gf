@@ -1989,7 +1989,6 @@ fun ankauf_N : N ;
 fun ankennen_V : V ;
 fun anker_N : N ;
 fun ankern_V : V ;
-fun ankerplatz_N : N ;
 fun ankerspill_N : N ;
 fun ankersplint_N : N ;
 fun anklaeger_N : N ;

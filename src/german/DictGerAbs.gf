@@ -813,6 +813,7 @@ fun
   aminozucker_N : N ;
   ananassaft_N : N ;
   ananasschneider_N : N ;
+  ankerplatz_N : N ;
   angstgegner_N : N ;
   angsthase_N : N ;
   angstneurose_N : N ;

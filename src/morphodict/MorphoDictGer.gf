@@ -1995,7 +1995,6 @@ lin ankauf_N = mkN "Ankauf" "Ankäufe" masculine ;
 lin ankennen_V = prefixV "an" (irregV "kennen" "kennt" "kannte" "kannte" "gekannt") ;
 lin anker_N = mkN "Anker" "Anker" masculine ;
 lin ankern_V = prefixV "an" (irregV "kern" "kert" "kerte" "kerte" "gekert") ;
-lin ankerplatz_N = mkN "Ankerplatz" "Ankerplätze" masculine ;
 lin ankerspill_N = mkN "Ankerspill" "Ankerspille" neuter ;
 lin ankersplint_N = mkN "Ankersplint" "Ankersplinte" masculine ;
 lin anklaeger_N = mkN "Ankläger" "Ankläger" masculine ;

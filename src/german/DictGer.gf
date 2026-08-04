@@ -3850,6 +3850,7 @@ lin aminoverbindung_N = mkN "Amino" verbindung_N ;
 lin aminozucker_N = mkN "Amino" zucker_N ;
 lin ananassaft_N = mkN "Ananas" saft_N ;
 lin ananasschneider_N = mkN "Ananas" schneider_N ;
+lin ankerplatz_N = mkN anker_N platz_N ;
 lin angstgegner_N = mkN angst_N gegner_N ;
 lin angsthase_N = mkN angst_N hase_N ;
 lin angstneurose_N = mkN angst_N neurose_N ;
