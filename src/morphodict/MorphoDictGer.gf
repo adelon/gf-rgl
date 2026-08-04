@@ -5080,7 +5080,6 @@ lin besuchen_V = regV "besuchen" ;
 lin besucher_N = mkN "Besucher" "Besucher" masculine ;
 lin besudeln_V = regV "besudeln" ;
 lin beta_N = mkN "Beta" "Betas" neuter ;
-lin beta_version_N = mkN "Beta-Version" ;
 lin betablocker_N = mkN "Betablocker" "Betablocker" masculine ;
 lin betaetigen_V = regV "betätigen" ;
 lin betaetigung_N = mkN "Betätigung" ;
