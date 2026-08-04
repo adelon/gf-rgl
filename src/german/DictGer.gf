@@ -1086,6 +1086,15 @@ concrete DictGer of DictGerAbs =
     , einzugschacht_N
     , einzugsschacht_N
     , eisenbahn__N
+    , elektrizitaetsmenge_N
+    , elektrizitaetswerk_N
+    , elektrolytloesung_N
+    , elektrorad_N
+    , elementarladung_N
+    , elementarschule_N
+    , elementarteilchen_N
+    , elementarzelle_N
+    , elementsymbol_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6360,6 +6369,15 @@ lin einkristall_N = mkN "Ein" kristall_N ;
 lin einzugschacht_N = mkN "Einzug" schacht_N ;
 lin einzugsschacht_N = mkN "Einzugs" schacht_N ;
 lin eisenbahn__N = mkN eisen_N bahn_N ;
+lin elektrizitaetsmenge_N = mkN "Elektrizitäts" menge_N ;
+lin elektrizitaetswerk_N = mkN "Elektrizitäts" werk_N ;
+lin elektrolytloesung_N = mkN "Elektrolyt" loesung_N ;
+lin elektrorad_N = mkN "Elektro" rad_N ;
+lin elementarladung_N = mkN "Elementar" ladung_N ;
+lin elementarschule_N = changeCompoundN "Elementarschulen" (mkN "Elementar" schule_N) ;
+lin elementarteilchen_N = mkN "Elementar" teilchen_N ;
+lin elementarzelle_N = changeCompoundN "Elementarzellen" (mkN "Elementar" zelle_N) ;
+lin elementsymbol_N = mkN "Element" symbol_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

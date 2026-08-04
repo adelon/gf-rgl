@@ -1724,3 +1724,12 @@ cc -all einkristall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ein
 cc -all einzugschacht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einzugschacht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einzugschacht_N.co
 cc -all einzugsschacht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einzugsschacht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einzugsschacht_N.co
 cc -all eisenbahn__N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eisenbahn__N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eisenbahn__N.co
+cc -all elektrizitaetsmenge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elektrizitaetsmenge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elektrizitaetsmenge_N.co
+cc -all elektrizitaetswerk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elektrizitaetswerk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elektrizitaetswerk_N.co
+cc -all elektrolytloesung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elektrolytloesung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elektrolytloesung_N.co
+cc -all elektrorad_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elektrorad_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elektrorad_N.co
+cc -all elementarladung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementarladung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementarladung_N.co
+cc -all elementarschule_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementarschule_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementarschule_N.co
+cc -all elementarteilchen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementarteilchen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementarteilchen_N.co
+cc -all elementarzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementarzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementarzelle_N.co
+cc -all elementsymbol_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elementsymbol_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elementsymbol_N.co

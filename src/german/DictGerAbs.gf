@@ -2898,6 +2898,15 @@ fun
   einzugschacht_N : N ;
   einzugsschacht_N : N ;
   eisenbahn__N : N ;
+  elektrizitaetsmenge_N : N ;
+  elektrizitaetswerk_N : N ;
+  elektrolytloesung_N : N ;
+  elektrorad_N : N ;
+  elementarladung_N : N ;
+  elementarschule_N : N ;
+  elementarteilchen_N : N ;
+  elementarzelle_N : N ;
+  elementsymbol_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;
