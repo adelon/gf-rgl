@@ -354,6 +354,7 @@ concrete DictGer of DictGerAbs =
     , autoantigen_N
     , autoantikoerper_N
     , autobahn_N
+    , autobusfahrer_N
     , autobus_N
     , autoradio_N
     , autoreifen_N
@@ -364,10 +365,29 @@ concrete DictGer of DictGerAbs =
     , autobombe_N
     , autofahrer_N
     , autofahrerin_N
+    , autofriedhof_N
+    , autogrammjaeger_N
+    , autogrammstunde_N
+    , autohaendler_N
+    , autohaendlerin_N
     , autohaus_N
     , autoindustrie_N
     , autokennzeichen_N
     , autokino_N
+    , autokaeufer_N
+    , autokaeuferin_N
+    , autorenlesung_N
+    , autorennen_N
+    , autorenplural_N
+    , autorenwoerterbuch_N
+    , autoschlosser_N
+    , autoschluessel_N
+    , autositz_N
+    , autotelefon_N
+    , autoverkaeufer_N
+    , autoverkaeuferin_N
+    , autovermietung_N
+    , autowerkstatt_N
     , aussenbereich_N
     , aussenbezirk_N
     , aussenflaeche_N
@@ -4346,6 +4366,26 @@ lin augenzeugin_N = changeCompoundN "Augenzeuginnen" (mkN auge_N zeugin_N) ;
 lin autoantigen_N = mkN auto_N antigen_N ;
 lin autoantikoerper_N = mkN auto_N antikoerper_N ;
 lin autobahn_N = mkN auto_N bahn_N ;
+lin autobusfahrer_N = mkN "Autobus" (mkN "Fahrer" "Fahrer" masculine) ;
+lin autofriedhof_N = mkN auto_N (mkN "Friedhof" "Friedhöfe" masculine) ;
+lin autogrammjaeger_N = mkN "Autogramm" (mkN "Jäger" "Jäger" masculine) ;
+lin autogrammstunde_N = mkN "Autogramm" (mkN "Stunde" "Stunden" feminine) ;
+lin autohaendler_N = mkN auto_N (mkN "Händler" "Händler" masculine) ;
+lin autohaendlerin_N = mkN auto_N (mkN "Händlerin" "Händlerinnen" feminine) ;
+lin autokaeufer_N = mkN auto_N (mkN "Käufer" "Käufer" masculine) ;
+lin autokaeuferin_N = mkN auto_N (mkN "Käuferin" "Käuferinnen" feminine) ;
+lin autorenlesung_N = mkN "Autoren" (mkN "Lesung" "Lesungen" feminine) ;
+lin autorennen_N = mkN auto_N (mkN "Rennen" "Rennen" neuter) ;
+lin autorenplural_N = mkN "Autoren" (mkN "Plural" "Plurale" masculine) ;
+lin autorenwoerterbuch_N = mkN "Autoren" (mkN "Wörterbuch" "Wörterbücher" neuter) ;
+lin autoschlosser_N = mkN auto_N (mkN "Schlosser" "Schlosser" masculine) ;
+lin autoschluessel_N = mkN auto_N (mkN "Schlüssel" "Schlüssel" masculine) ;
+lin autositz_N = mkN auto_N (mkN "Sitz" "Sitze" masculine) ;
+lin autotelefon_N = mkN auto_N (mkN "Telefon" "Telefone" neuter) ;
+lin autoverkaeufer_N = mkN auto_N (mkN "Verkäufer" "Verkäufer" masculine) ;
+lin autoverkaeuferin_N = mkN auto_N (mkN "Verkäuferin" "Verkäuferinnen" feminine) ;
+lin autovermietung_N = mkN auto_N (mkN "Vermietung" "Vermietungen" feminine) ;
+lin autowerkstatt_N = mkN auto_N (mkN "Werkstatt" "Werkstätten" feminine) ;
 lin autobus_N = mkN auto_N (mkN "Bus" "Busse" masculine) ;
 lin autoradio_N = mkN auto_N radio_N ;
 lin autoreifen_N = mkN auto_N (mkN "Reifen" "Reifen" masculine) ;
