@@ -2971,6 +2971,13 @@ fun
   impfstoffkomponente_N : N ;
   impfstoffvalenz_N : N ;
   impfstoffzusammensetzung_N : N ;
+  jochbein_N : N ;
+  jogginghose_N : N ;
+  johannisbeere_N : N ;
+  jugendfeuerwehr_N : N ;
+  jugendherberge_N : N ;
+  junggesellenabschied_N : N ;
+  jutesack_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

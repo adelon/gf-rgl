@@ -1797,3 +1797,10 @@ cc -all impfstoffbestandteil_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominati
 cc -all impfstoffkomponente_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffkomponente_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffkomponente_N.co
 cc -all impfstoffvalenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffvalenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffvalenz_N.co
 cc -all impfstoffzusammensetzung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffzusammensetzung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffzusammensetzung_N.co
+cc -all jochbein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jochbein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jochbein_N.co
+cc -all jogginghose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jogginghose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jogginghose_N.co
+cc -all johannisbeere_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ johannisbeere_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ johannisbeere_N.co
+cc -all jugendfeuerwehr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jugendfeuerwehr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jugendfeuerwehr_N.co
+cc -all jugendherberge_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jugendherberge_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jugendherberge_N.co
+cc -all junggesellenabschied_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ junggesellenabschied_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ junggesellenabschied_N.co
+cc -all jutesack_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ jutesack_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ jutesack_N.co

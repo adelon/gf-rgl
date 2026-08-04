@@ -1159,6 +1159,13 @@ concrete DictGer of DictGerAbs =
     , impfstoffkomponente_N
     , impfstoffvalenz_N
     , impfstoffzusammensetzung_N
+    , jochbein_N
+    , jogginghose_N
+    , johannisbeere_N
+    , jugendfeuerwehr_N
+    , jugendherberge_N
+    , junggesellenabschied_N
+    , jutesack_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6506,6 +6513,13 @@ lin impfstoffbestandteil_N = mkN "Impfstoff" bestandteil_N ;
 lin impfstoffkomponente_N = mkN "Impfstoff" komponente_N ;
 lin impfstoffvalenz_N = mkN "Impfstoff" valenz_N ;
 lin impfstoffzusammensetzung_N = mkN "Impfstoff" zusammensetzung_N ;
+lin jochbein_N = mkN joch_N bein_N ;
+lin jogginghose_N = mkN jogging_N hose_N ;
+lin johannisbeere_N = mkN "Johannis" beere_N ;
+lin jugendfeuerwehr_N = mkN "Jugend" feuerwehr_N ;
+lin jugendherberge_N = mkN "Jugend" herberge_N ;
+lin junggesellenabschied_N = mkN junggeselle_N abschied_N ;
+lin jutesack_N = mkN "Jute" sack_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
