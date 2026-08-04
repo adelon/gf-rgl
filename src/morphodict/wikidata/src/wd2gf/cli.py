@@ -8,6 +8,12 @@ import sys
 from pathlib import Path
 
 from wd2gf import __version__
+from wd2gf.nouns_ger import (
+    DEFAULT_NOUN_POLICY,
+    DEFAULT_NOUN_SAMPLE,
+    NounError,
+    generate_noun_sample,
+)
 from wd2gf.snapshot import (
     DEFAULT_LOCK,
     DEFAULT_NEXT,
@@ -141,6 +147,20 @@ def _interpreted_profile(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_sample(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    sample, artifact = generate_noun_sample(
+        database_path=args.database,
+        noun_policy_path=args.noun_policy,
+        feature_policy_path=args.feature_policy,
+        output_path=args.output,
+        expected_snapshot=snapshot_metadata,
+    )
+    print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    print(f"sampled_nouns={len(sample)}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -239,6 +259,23 @@ def build_parser() -> argparse.ArgumentParser:
     extract_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     extract_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     extract_parser.set_defaults(handler=_extract_fixture)
+
+    noun_parser = commands.add_parser("noun", help="run the German noun pilot")
+    noun_commands = noun_parser.add_subparsers(dest="noun_command", required=True)
+    noun_sample_parser = noun_commands.add_parser(
+        "sample", help="select the deterministic stratified noun sample"
+    )
+    noun_sample_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    noun_sample_parser.add_argument(
+        "--noun-policy", type=Path, default=DEFAULT_NOUN_POLICY
+    )
+    noun_sample_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    noun_sample_parser.add_argument("--output", type=Path, default=DEFAULT_NOUN_SAMPLE)
+    noun_sample_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    noun_sample_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    noun_sample_parser.set_defaults(handler=_noun_sample)
     return parser
 
 
@@ -246,7 +283,7 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         return args.handler(args)
-    except (SnapshotError, StoreError, ProfileError) as error:
+    except (SnapshotError, StoreError, ProfileError, NounError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 2
 

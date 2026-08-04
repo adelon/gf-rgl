@@ -1,0 +1,30 @@
+schema_version = 1
+reference = "Phase 2 German noun pilot reviewed 2026-08-04"
+sample_seed = "wikidata-20260729-german-noun-pilot-v1"
+rank_policy = "preferred-over-normal; deprecated excluded"
+review_status = "automatic"
+singular_only_policy = "residual-api-gap"
+combining_form_policy = "Q107614077 Forms are atomic evidence; P5548 remains construction-specific"
+
+pinned_lexemes = ["L10227", "L295104", "L3146", "L40399"]
+
+[quotas]
+regular_masculine = 30
+regular_feminine = 30
+regular_neuter = 30
+invariant = 20
+invariant_plural = 20
+plural_only = 20
+singular_only = 20
+abbreviation = 20
+hyphenated = 20
+explicit_combining = 20
+ambiguous_combining = 10
+irregular_full = 25
+partial_evidence = 20
+multiple_gender = 20
+conflicting_slots = 20
+rejected_feature = 10
+restriction_conflict = 5
+multiword = 10
+unknown_gender = 10
