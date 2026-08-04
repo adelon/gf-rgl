@@ -1,0 +1,4 @@
+i -retain alltenses/TryGer.gfo
+
+cc -all "mkAdA field:" ++ (mkAdA "besonders").s
+cc -all "mkAdA consumers:" ++ (mkUtt (mkAP (mkAdA "besonders") (mkA "klar"))).s ++ (mkUtt (mkNP a_Det (mkCN (mkAP (mkAdA "besonders") (mkA "klar")) (mkN "Modell" "Modelle" neuter)))).s
