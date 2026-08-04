@@ -1740,3 +1740,9 @@ cc -all eleonorenfalke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ 
 cc -all ellbogengelenk_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ellbogengelenk_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ellbogengelenk_N.co
 cc -all ellenbogengesellschaft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ellenbogengesellschaft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ellenbogengesellschaft_N.co
 cc -all elutionsmedium_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ elutionsmedium_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ elutionsmedium_N.co
+cc -all emissionskurs_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ emissionskurs_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ emissionskurs_N.co
+cc -all emulsionsstabilisator_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ emulsionsstabilisator_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ emulsionsstabilisator_N.co
+cc -all enantiomerenmischung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ enantiomerenmischung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ enantiomerenmischung_N.co
+cc -all endwort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endwort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endwort_N.co
+cc -all endzeitstimmung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endzeitstimmung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endzeitstimmung_N.co
+cc -all endothelinrezeptor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endothelinrezeptor_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endothelinrezeptor_N.co

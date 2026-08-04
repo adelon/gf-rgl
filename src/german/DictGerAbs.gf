@@ -2914,6 +2914,12 @@ fun
   ellbogengelenk_N : N ;
   ellenbogengesellschaft_N : N ;
   elutionsmedium_N : N ;
+  emissionskurs_N : N ;
+  emulsionsstabilisator_N : N ;
+  enantiomerenmischung_N : N ;
+  endwort_N : N ;
+  endzeitstimmung_N : N ;
+  endothelinrezeptor_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

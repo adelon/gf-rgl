@@ -1102,6 +1102,12 @@ concrete DictGer of DictGerAbs =
     , ellbogengelenk_N
     , ellenbogengesellschaft_N
     , elutionsmedium_N
+    , emissionskurs_N
+    , emulsionsstabilisator_N
+    , enantiomerenmischung_N
+    , endwort_N
+    , endzeitstimmung_N
+    , endothelinrezeptor_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6392,6 +6398,12 @@ lin eleonorenfalke_N = mkN "Eleonoren" falke_N ;
 lin ellbogengelenk_N = mkN ellbogen_N gelenk_N ;
 lin ellenbogengesellschaft_N = mkN ellenbogen_N gesellschaft_N ;
 lin elutionsmedium_N = mkN "Elutions" medium_N ;
+lin emissionskurs_N = mkN "Emissions" kurs__N ;
+lin emulsionsstabilisator_N = mkN "Emulsions" stabilisator_N ;
+lin enantiomerenmischung_N = changeCompoundN "Enantiomerenmischungs" (mkN "Enantiomeren" mischung_N) ;
+lin endwort_N = mkN "End" wort_N ;
+lin endzeitstimmung_N = changeCompoundN "Endzeitstimmungs" (mkN "Endzeit" stimmung_N) ;
+lin endothelinrezeptor_N = mkN "Endothelin" rezeptor_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
