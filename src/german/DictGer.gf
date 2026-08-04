@@ -242,6 +242,11 @@ concrete DictGer of DictGerAbs =
     , aluminiumsalz_N
     , aluminiumsulfat_N
     , aluminiumtor_N
+    , ammoniumeinheit_N
+    , ammoniumgruppe_N
+    , ammoniumsalz_N
+    , ammoniumsulfat_N
+    , ammoniumverbindung_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3775,6 +3780,11 @@ lin aluminiumkomplex_N = mkN "Aluminium" komplex_N ;
 lin aluminiumsalz_N = mkN "Aluminium" salz_N ;
 lin aluminiumsulfat_N = mkN "Aluminium" sulfat_N ;
 lin aluminiumtor_N = mkN "Aluminium" tor_N ;
+lin ammoniumeinheit_N = mkN "Ammonium" einheit_N ;
+lin ammoniumgruppe_N = mkN "Ammonium" gruppe_N ;
+lin ammoniumsalz_N = mkN "Ammonium" salz_N ;
+lin ammoniumsulfat_N = mkN "Ammonium" sulfat_N ;
+lin ammoniumverbindung_N = mkN "Ammonium" verbindung_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

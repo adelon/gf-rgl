@@ -781,6 +781,11 @@ fun
   aluminiumsalz_N : N ;
   aluminiumsulfat_N : N ;
   aluminiumtor_N : N ;
+  ammoniumeinheit_N : N ;
+  ammoniumgruppe_N : N ;
+  ammoniumsalz_N : N ;
+  ammoniumsulfat_N : N ;
+  ammoniumverbindung_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
