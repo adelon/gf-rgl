@@ -17,6 +17,14 @@ from wd2gf.snapshot import (
     resolve_snapshot,
     verify_snapshot,
 )
+from wd2gf.store import (
+    DEFAULT_DATABASE,
+    DEFAULT_SOURCE_POLICY,
+    IngestStats,
+    StoreError,
+    ingest_dump,
+    load_source_policy,
+)
 
 
 def _metadata_json(metadata: dict[str, object]) -> str:
@@ -51,6 +59,30 @@ def _verify(args: argparse.Namespace) -> int:
     dump_path, metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
     print(f"verified snapshot: {dump_path}")
     print(_metadata_json(metadata))
+    return 0
+
+
+def _ingest(args: argparse.Namespace) -> int:
+    dump_path, snapshot_metadata = verify_snapshot(
+        lock_path=args.lock, work_dir=args.work_dir
+    )
+    source_policy = load_source_policy(args.source_policy)
+
+    def report_progress(stats: IngestStats) -> None:
+        print(
+            f"parsed={stats.entities_before_selection} "
+            f"selected={stats.entities_selected}",
+            file=sys.stderr,
+        )
+
+    stats = ingest_dump(
+        dump_path=dump_path,
+        database_path=args.database,
+        source_policy=source_policy,
+        snapshot_metadata=snapshot_metadata,
+        progress=report_progress,
+    )
+    print(_metadata_json(vars(stats)))
     return 0
 
 
@@ -96,6 +128,17 @@ def build_parser() -> argparse.ArgumentParser:
     verify_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     verify_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     verify_parser.set_defaults(handler=_verify)
+
+    store_parser = commands.add_parser("store", help="manage the lossless source store")
+    store_commands = store_parser.add_subparsers(dest="store_command", required=True)
+    ingest_parser = store_commands.add_parser(
+        "ingest", help="verify and stream the pinned dump into a new SQLite store"
+    )
+    ingest_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    ingest_parser.add_argument("--source-policy", type=Path, default=DEFAULT_SOURCE_POLICY)
+    ingest_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    ingest_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    ingest_parser.set_defaults(handler=_ingest)
     return parser
 
 
@@ -103,7 +146,7 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         return args.handler(args)
-    except SnapshotError as error:
+    except (SnapshotError, StoreError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 2
 
