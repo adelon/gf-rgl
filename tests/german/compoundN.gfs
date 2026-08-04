@@ -2,6 +2,8 @@ i -retain alltenses/ParadigmsGer.gfo
 
 cc -all (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Sg ! Nom ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Pl ! Nom ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).s ! Pl ! Dat ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).co ++ (mkN "Sprache" "Sprachen" "Sprach" feminine).uncap.co
 i -retain alltenses/DictGer.gfo
+cc -all ampelfrau_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ampelfrau_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ampelfrau_N.co
+cc -all ampelkoalition_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ampelkoalition_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ampelkoalition_N.co
 cc -all maedchenmord_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ maedchenmord_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ maedchenmord_N.co
 cc -all maedchenname_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ maedchenname_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ maedchenname_N.co
 cc -all maedchenpensionat_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ maedchenpensionat_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ maedchenpensionat_N.co

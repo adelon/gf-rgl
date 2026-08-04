@@ -811,6 +811,8 @@ fun
   aminosulfonsaeure_N : N ;
   aminoverbindung_N : N ;
   aminozucker_N : N ;
+  ampelfrau_N : N ;
+  ampelkoalition_N : N ;
   amtsanmassung_N : N ;
   amtsanwalt_N : N ;
   amtsbezirk_N : N ;

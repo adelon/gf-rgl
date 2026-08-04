@@ -1636,8 +1636,6 @@ fun amorphie_N : N ;
 fun amortisieren_V : V ;
 fun amouroes_A : A ;
 fun ampel_N : N ;
-fun ampelfrau_N : N ;
-fun ampelkoalition_N : N ;
 fun ampelograf_N : N ;
 fun ampelografisch_A : A ;
 fun ampelotherapie_N : N ;
