@@ -43,6 +43,11 @@ from wd2gf.profile_ger import (
     generate_raw_profile,
 )
 from wd2gf.probe_ger import probe_nouns, write_pilot_reports
+from wd2gf.scale_ger import (
+    DEFAULT_SCALE_POLICY,
+    DEFAULT_SCALE_WORK,
+    run_scale_gate,
+)
 from wd2gf.store import (
     DEFAULT_DATABASE,
     DEFAULT_SOURCE_POLICY,
@@ -261,6 +266,26 @@ def _noun_census(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_scale_gate(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    run = run_scale_gate(
+        gf_path=args.gf,
+        database_path=args.database,
+        noun_policy_path=args.noun_policy,
+        feature_policy_path=args.feature_policy,
+        scale_policy_path=args.scale_policy,
+        work_dir=args.output_dir,
+        expected_snapshot=snapshot_metadata,
+    )
+    for artifact in (run.semantic, run.measurements):
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    print(
+        f"fitting_candidates={run.fitting_candidates} "
+        f"result_entries={run.result_entries} budget_passed={run.budget_passed}"
+    )
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -446,6 +471,26 @@ def build_parser() -> argparse.ArgumentParser:
     noun_census_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     noun_census_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     noun_census_parser.set_defaults(handler=_noun_census)
+    noun_scale_parser = noun_commands.add_parser(
+        "scale-gate", help="run the authorized 5,000-candidate scale gate"
+    )
+    noun_scale_parser.add_argument("--gf", type=Path, required=True)
+    noun_scale_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    noun_scale_parser.add_argument(
+        "--noun-policy", type=Path, default=DEFAULT_NOUN_POLICY
+    )
+    noun_scale_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    noun_scale_parser.add_argument(
+        "--scale-policy", type=Path, default=DEFAULT_SCALE_POLICY
+    )
+    noun_scale_parser.add_argument(
+        "--output-dir", type=Path, default=DEFAULT_SCALE_WORK
+    )
+    noun_scale_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    noun_scale_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    noun_scale_parser.set_defaults(handler=_noun_scale_gate)
     return parser
 
 

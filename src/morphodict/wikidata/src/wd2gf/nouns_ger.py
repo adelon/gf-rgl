@@ -1418,16 +1418,23 @@ def render_proposal_modules(
     output_dir: Path = DEFAULT_NOUN_WORK,
 ) -> tuple[tuple[ProposalOption, ...], tuple[NounArtifact, ...]]:
     options = proposal_options(sample, noun_policy)
+    return options, render_option_modules(options, output_dir)
+
+
+def render_option_modules(
+    options: Sequence[ProposalOption],
+    output_dir: Path = DEFAULT_NOUN_WORK,
+) -> tuple[NounArtifact, ...]:
+    """Render an explicit option set for disposable fitting or scale probes."""
     if not options:
-        raise NounError("noun sample produced no renderable proposals")
-    artifacts = (
+        raise NounError("noun option set produced no renderable proposals")
+    return (
         _write_bytes(output_dir / "WdnPilotAbs.gf", _abstract_module(options)),
         _write_bytes(output_dir / "WdnPilotGer.gf", _concrete_module(options)),
         _write_bytes(
             output_dir / "proposal-manifest.tsv", proposal_manifest_bytes(options)
         ),
     )
-    return options, artifacts
 
 
 def _claim_json(claims: Sequence[ClaimEvidence]) -> str:

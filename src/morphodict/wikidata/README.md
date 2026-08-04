@@ -40,7 +40,14 @@ PYTHONPATH=src python3 -m wd2gf.cli noun render
 PYTHONPATH=src python3 -m wd2gf.cli noun probe --gf="$GF"
 PYTHONPATH=src python3 -m wd2gf.cli noun pilot --gf="$GF"
 PYTHONPATH=src python3 -m wd2gf.cli noun census
+PYTHONPATH=src python3 -m wd2gf.cli noun scale-gate --gf="$GF" --output-dir .work/phase3/gate-5000-primary
 ```
+
+`languages/ger/scale-policy.toml` authorizes only the 5,000 Phase 3 gate and
+freezes its local budgets before measurement. The scale command first fits
+competing proposals in bounded chunks, then separately compiles and probes one
+selected constructor per entry. A nonempty output directory is rejected so a
+timed run cannot silently reuse generated state.
 
 Snapshot acquisition and profile commands are documented by the CLI itself.
 Network access is needed only to resolve and download a snapshot. Verification,
