@@ -1,0 +1,11 @@
+ResGer.Nom => Predef.nonExist
+ResGer.Acc => Predef.nonExist
+ResGer.Dat => Predef.nonExist
+ResGer.Gen => Predef.nonExist
+ResGer.Nom => Predef.nonExist
+ResGer.Acc => Predef.nonExist
+ResGer.Dat => Predef.nonExist
+ResGer.Gen => Predef.nonExist
+Plural-only s: Testleute Testleute Testleuten Testleute
+Plural-only uncap.s: testleute testleute testleuten testleute
+Plural-only other: Testleute testleute bind masculine Testleutekern

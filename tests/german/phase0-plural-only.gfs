@@ -1,0 +1,7 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -table (pluralOnlyN "Testleute").s ! Sg
+cc -table (pluralOnlyN "Testleute").uncap.s ! Sg
+cc -all "Plural-only s:" ++ (pluralOnlyN "Testleute").s ! Pl ! Nom ++ (pluralOnlyN "Testleute").s ! Pl ! Acc ++ (pluralOnlyN "Testleute").s ! Pl ! Dat ++ (pluralOnlyN "Testleute").s ! Pl ! Gen
+cc -all "Plural-only uncap.s:" ++ (pluralOnlyN "Testleute").uncap.s ! Pl ! Nom ++ (pluralOnlyN "Testleute").uncap.s ! Pl ! Acc ++ (pluralOnlyN "Testleute").uncap.s ! Pl ! Dat ++ (pluralOnlyN "Testleute").uncap.s ! Pl ! Gen
+cc -all "Plural-only other:" ++ (pluralOnlyN "Testleute").co ++ (pluralOnlyN "Testleute").uncap.co ++ case (pluralOnlyN "Testleute").csep of {BindSep => "bind" ; HyphenSep => "hyphen"} ++ case (pluralOnlyN "Testleute").g of {Masc => "masculine" ; _ => "wrong"} ++ (mkN (pluralOnlyN "Testleute") (mkN "Kern" "Kerne" masculine)).s ! Sg ! Nom
