@@ -786,6 +786,16 @@ fun
   ammoniumsalz_N : N ;
   ammoniumsulfat_N : N ;
   ammoniumverbindung_N : N ;
+  aminosaeureaenderung_N : N ;
+  aminosaeureeinheit_N : N ;
+  aminosaeureester_N : N ;
+  aminosaeuregruppe_N : N ;
+  aminosaeurekette_N : N ;
+  aminosaeuremodifikation_N : N ;
+  aminosaeureposition_N : N ;
+  aminosaeureseitenkette_N : N ;
+  aminosaeurestruktur_N : N ;
+  aminosaeuresubstitution_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;

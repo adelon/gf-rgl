@@ -247,6 +247,16 @@ concrete DictGer of DictGerAbs =
     , ammoniumsalz_N
     , ammoniumsulfat_N
     , ammoniumverbindung_N
+    , aminosaeureaenderung_N
+    , aminosaeureeinheit_N
+    , aminosaeureester_N
+    , aminosaeuregruppe_N
+    , aminosaeurekette_N
+    , aminosaeuremodifikation_N
+    , aminosaeureposition_N
+    , aminosaeureseitenkette_N
+    , aminosaeurestruktur_N
+    , aminosaeuresubstitution_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3785,6 +3795,16 @@ lin ammoniumgruppe_N = mkN "Ammonium" gruppe_N ;
 lin ammoniumsalz_N = mkN "Ammonium" salz_N ;
 lin ammoniumsulfat_N = mkN "Ammonium" sulfat_N ;
 lin ammoniumverbindung_N = mkN "Ammonium" verbindung_N ;
+lin aminosaeureaenderung_N = mkN aminosaeure_N aenderung_N ;
+lin aminosaeureeinheit_N = mkN aminosaeure_N einheit_N ;
+lin aminosaeureester_N = mkN aminosaeure_N ester_N ;
+lin aminosaeuregruppe_N = mkN aminosaeure_N gruppe_N ;
+lin aminosaeurekette_N = mkN aminosaeure_N kette_N ;
+lin aminosaeuremodifikation_N = mkN aminosaeure_N modifikation_N ;
+lin aminosaeureposition_N = mkN aminosaeure_N position_N ;
+lin aminosaeureseitenkette_N = mkN aminosaeure_N seitenkette_N ;
+lin aminosaeurestruktur_N = mkN aminosaeure_N struktur_N ;
+lin aminosaeuresubstitution_N = mkN aminosaeure_N substitution_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
