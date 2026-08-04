@@ -1691,3 +1691,5 @@ cc -all chefarzt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefar
 cc -all chefredakteur_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ chefredakteur_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ chefredakteur_N.co
 cc -all dampfgarer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dampfgarer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dampfgarer_N.co
 cc -all dampfreiniger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dampfreiniger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dampfreiniger_N.co
+cc -all darmepithelzellpopulation_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ darmepithelzellpopulation_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ darmepithelzellpopulation_N.co
+cc -all darmmotilitaetsstoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ darmmotilitaetsstoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ darmmotilitaetsstoerung_N.co

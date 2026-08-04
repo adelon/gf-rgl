@@ -2865,6 +2865,8 @@ fun
   darmstoerung_N : N ;
   darmverschluss_N : N ;
   darmwind_N : N ;
+  darmepithelzellpopulation_N : N ;
+  darmmotilitaetsstoerung_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

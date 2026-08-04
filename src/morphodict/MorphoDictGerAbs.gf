@@ -7051,8 +7051,6 @@ fun darkroom_N : N ;
 fun darlegen_8_V : V ;
 fun darlehen_N : N ;
 fun darm_N : N ;
-fun darmepithelzellpopulation_N : N ;
-fun darmmotilitaetsstoerung_N : N ;
 fun darniederliegen_2_V : V ;
 fun darob_Adv : Adv ;
 fun darre_N : N ;

@@ -1053,6 +1053,8 @@ concrete DictGer of DictGerAbs =
     , darmstoerung_N
     , darmverschluss_N
     , darmwind_N
+    , darmepithelzellpopulation_N
+    , darmmotilitaetsstoerung_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6294,6 +6296,8 @@ lin darmspiegelung_N = mkN darm_N spiegelung_N ;
 lin darmstoerung_N = mkN darm_N stoerung_N ;
 lin darmverschluss_N = mkN darm_N verschluss_N ;
 lin darmwind_N = mkN darm_N wind_N ;
+lin darmepithelzellpopulation_N = mkN "Darmepithel" zellpopulation_N ;
+lin darmmotilitaetsstoerung_N = mkN "Darmmotilitäts" stoerung_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
