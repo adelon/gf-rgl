@@ -1,0 +1,10 @@
+schema_version = 1
+source = "wikidata-lexemes-json"
+dump_date = "2026-07-29"
+filename = "wikidata-20260729-lexemes.json.gz"
+url = "https://dumps.wikimedia.org/wikidatawiki/entities/20260729/wikidata-20260729-lexemes.json.gz"
+size_bytes = 596452649
+official_checksum_algorithm = "sha1"
+official_checksum = "12af73de6faa212ae3273343755e271c240a1f7d"
+sha256 = "ff02d6805f4b4d97d51091caa45ce12371b0ce543c33909c8c96a6b17c22b937"
+license = "CC0-1.0"

@@ -24,6 +24,9 @@ From this directory:
 ```sh
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 PYTHONPATH=src python3 -m wd2gf.cli --help
+PYTHONPATH=src python3 -m wd2gf.cli snapshot resolve --date 20260729 --compression gz
+PYTHONPATH=src python3 -m wd2gf.cli snapshot download
+PYTHONPATH=src python3 -m wd2gf.cli snapshot verify
 ```
 
 Snapshot acquisition and profile commands are documented by the CLI itself.
