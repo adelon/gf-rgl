@@ -210,6 +210,14 @@ concrete DictGer of DictGerAbs =
     , akkordlohn_N
     , akkordeonspieler_N
     , akkordeonspielerin_N
+    , aktienanleihe_N
+    , aktienbesitzer_N
+    , aktienfonds_N
+    , aktiengesellschaft_N
+    , aktienhaendler_N
+    , aktienhaendlerin_N
+    , aktieninhaber_N
+    , aktienkurs_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3711,6 +3719,14 @@ lin akkordarbeiterin_N = mkN akkord_N arbeiterin_N ;
 lin akkordlohn_N = mkN akkord_N lohn_N ;
 lin akkordeonspieler_N = mkN akkordeon_N spieler_N ;
 lin akkordeonspielerin_N = mkN akkordeon_N spielerin_N ;
+lin aktienanleihe_N = mkN "Aktien" anleihe_N ;
+lin aktienbesitzer_N = mkN "Aktien" besitzer_N ;
+lin aktienfonds_N = mkN "Aktien" fonds_N ;
+lin aktiengesellschaft_N = mkN "Aktien" gesellschaft_N ;
+lin aktienhaendler_N = mkN "Aktien" haendler_N ;
+lin aktienhaendlerin_N = mkN "Aktien" haendlerin_N ;
+lin aktieninhaber_N = mkN "Aktien" inhaber_N ;
+lin aktienkurs_N = mkN "Aktien" kurs__N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

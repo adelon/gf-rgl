@@ -749,6 +749,14 @@ fun
   akkordlohn_N : N ;
   akkordeonspieler_N : N ;
   akkordeonspielerin_N : N ;
+  aktienanleihe_N : N ;
+  aktienbesitzer_N : N ;
+  aktienfonds_N : N ;
+  aktiengesellschaft_N : N ;
+  aktienhaendler_N : N ;
+  aktienhaendlerin_N : N ;
+  aktieninhaber_N : N ;
+  aktienkurs_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
