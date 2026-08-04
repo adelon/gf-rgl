@@ -2908,6 +2908,20 @@ concrete DictGer of DictGerAbs =
     , indirekte_frage_N
     , indirekte_objekt_N
     , indirekte_sprechakt_N
+    , morphologische_analyse_N
+    , morphologische_kategorie_N
+    , morphologische_merkmal_N
+    , morphologische_wort_N
+    , semantische_relation_N
+    , semantische_rolle_N
+    , semantische_wert_N
+    , semantische_wort_N
+    , syntaktische_beziehung__N
+    , syntaktische_funktion__N
+    , syntaktische_kategorie__N
+    , syntaktische_relation__N
+    , syntaktische_umsetzung_N
+    , syntaktische_wort_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -4663,6 +4677,20 @@ lin direkter_sprechakt_CN = S.mkCN direkt_A sprechakt_N ;
 lin indirekte_frage_CN = S.mkCN indirekt_A frage_N ;
 lin indirektes_objekt_CN = S.mkCN indirekt_A objekt_N ;
 lin indirekter_sprechakt_CN = S.mkCN indirekt_A sprechakt_N ;
+lin morphologische_analyse_CN = S.mkCN morphologisch_A analyse_N ;
+lin morphologische_kategorie_CN = S.mkCN morphologisch_A kategorie_N ;
+lin morphologisches_merkmal_CN = S.mkCN morphologisch_A merkmal_N ;
+lin morphologisches_wort_CN = S.mkCN morphologisch_A wort_N ;
+lin semantische_relation_CN = S.mkCN semantisch_A relation_N ;
+lin semantische_rolle_CN = S.mkCN semantisch_A rolle_N ;
+lin semantischer_wert_CN = S.mkCN semantisch_A wert_N ;
+lin semantisches_wort_CN = S.mkCN semantisch_A wort_N ;
+lin syntaktische_beziehung_CN = S.mkCN syntaktisch_A beziehung_N ;
+lin syntaktische_funktion_CN = S.mkCN syntaktisch_A funktion_N ;
+lin syntaktische_kategorie_CN = S.mkCN syntaktisch_A kategorie_N ;
+lin syntaktische_relation_CN = S.mkCN syntaktisch_A relation_N ;
+lin syntaktische_umsetzung_CN = S.mkCN syntaktisch_A umsetzung_N ;
+lin syntaktisches_wort_CN = S.mkCN syntaktisch_A wort_N ;
 lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
 lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
 lin ewige_schach_N = changeCompoundN "Ewiges-Schach"

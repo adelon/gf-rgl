@@ -227,7 +227,21 @@ oper
     ++ DictGer.direkter_sprechakt_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.indirekte_frage_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.indirektes_objekt_CN.s ! Strong ! Sg ! Nom
-    ++ DictGer.indirekter_sprechakt_CN.s ! Strong ! Sg ! Nom ;
+    ++ DictGer.indirekter_sprechakt_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.morphologische_analyse_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.morphologische_kategorie_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.morphologisches_merkmal_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.morphologisches_wort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.semantische_relation_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.semantische_rolle_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.semantischer_wert_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.semantisches_wort_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.syntaktische_beziehung_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.syntaktische_funktion_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.syntaktische_kategorie_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.syntaktische_relation_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.syntaktische_umsetzung_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.syntaktisches_wort_CN.s ! Strong ! Sg ! Nom ;
   fusionSg = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
     DictGer.fusionierende_sprache_CN ;
   fusionDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
@@ -257,7 +271,13 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.direktes_objekt_CN).s ! False ! Dat
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
-      DictGer.indirekter_sprechakt_CN).s ! False ! Dat ;
+      DictGer.indirekter_sprechakt_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.morphologische_analyse_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.morphologisches_merkmal_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.syntaktisches_wort_CN).s ! False ! Dat ;
 
   reportedSpeechCitations : Str =
     DictGer.direkte_rede_CN.s ! Strong ! Sg ! Nom
