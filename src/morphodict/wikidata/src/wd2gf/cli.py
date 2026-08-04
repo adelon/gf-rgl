@@ -11,8 +11,11 @@ from wd2gf import __version__
 from wd2gf.nouns_ger import (
     DEFAULT_NOUN_POLICY,
     DEFAULT_NOUN_SAMPLE,
+    DEFAULT_NOUN_WORK,
     NounError,
     generate_noun_sample,
+    load_noun_policy,
+    render_proposal_modules,
 )
 from wd2gf.snapshot import (
     DEFAULT_LOCK,
@@ -161,6 +164,25 @@ def _noun_sample(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_render(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    sample, sample_artifact = generate_noun_sample(
+        database_path=args.database,
+        noun_policy_path=args.noun_policy,
+        feature_policy_path=args.feature_policy,
+        output_path=args.output_dir / "noun-sample.tsv",
+        expected_snapshot=snapshot_metadata,
+    )
+    _, artifacts = render_proposal_modules(
+        sample,
+        load_noun_policy(args.noun_policy),
+        args.output_dir,
+    )
+    for artifact in (sample_artifact, *artifacts):
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -276,6 +298,22 @@ def build_parser() -> argparse.ArgumentParser:
     noun_sample_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     noun_sample_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     noun_sample_parser.set_defaults(handler=_noun_sample)
+    noun_render_parser = noun_commands.add_parser(
+        "render", help="render disposable GF modules for the noun proposals"
+    )
+    noun_render_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    noun_render_parser.add_argument(
+        "--noun-policy", type=Path, default=DEFAULT_NOUN_POLICY
+    )
+    noun_render_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    noun_render_parser.add_argument(
+        "--output-dir", type=Path, default=DEFAULT_NOUN_WORK
+    )
+    noun_render_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    noun_render_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    noun_render_parser.set_defaults(handler=_noun_render)
     return parser
 
 

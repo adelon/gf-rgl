@@ -8,10 +8,16 @@ from dataclasses import replace
 from pathlib import Path
 
 from wd2gf.nouns_ger import (
+    AbbrevN,
     DEFAULT_NOUN_POLICY,
+    PROBE_FIELDS,
+    PluralOnlyN,
     STRATA,
     load_noun_policy,
     noun_sample_bytes,
+    proposal_blocker,
+    proposals_for_candidate,
+    render_proposal_modules,
     select_noun_sample,
 )
 from wd2gf.profile_ger import DEFAULT_FEATURE_POLICY, load_feature_policy
@@ -223,6 +229,42 @@ def _write_fixture(path: Path) -> None:
             "mehr Wort",
             _complete("mehr Wort", "mehr Worts", "mehr Worte", "mehr Worten"),
         ),
+        _lexeme(
+            "L12",
+            "USA",
+            _complete("USA", "USA", "USAs", "USAs"),
+            genders=(("neuter", "normal"),),
+        ),
+        _lexeme(
+            "L13",
+            "Herz",
+            {
+                "s_sg_nom": "Herz",
+                "s_sg_acc": "Herz",
+                "s_sg_dat": "Herzen",
+                "s_sg_gen": "Herzens",
+                "s_pl_nom": "Herzen",
+                "s_pl_acc": "Herzen",
+                "s_pl_dat": "Herzen",
+                "s_pl_gen": "Herzen",
+            },
+            genders=(("neuter", "normal"),),
+        ),
+        _lexeme(
+            "L14",
+            "Jeans",
+            {field: "Jeans" for field in (
+                "s_sg_nom", "s_sg_acc", "s_sg_dat", "s_sg_gen",
+                "s_pl_nom", "s_pl_acc", "s_pl_dat", "s_pl_gen",
+            )},
+            genders=(("feminine", "normal"),),
+        ),
+        _lexeme(
+            "L15",
+            "Auto",
+            _complete("Auto", "Autos", "Autos", "Autos"),
+            genders=(("neuter", "normal"),),
+        ),
     ]
     # A second distinct value for one L6 slot exercises conflict detection.
     entities[5]["forms"].append(
@@ -273,9 +315,56 @@ class NounCandidateTests(unittest.TestCase):
             self.assertEqual(by_source["L9"].stratum, "rejected_feature")
             self.assertEqual(by_source["L10"].stratum, "ambiguous_combining")
             self.assertEqual(by_source["L11"].stratum, "multiword")
+            self.assertEqual(by_source["L12"].stratum, "abbreviation")
+            self.assertEqual(by_source["L13"].stratum, "irregular_full")
+            self.assertEqual(by_source["L14"].stratum, "invariant")
+            self.assertEqual(by_source["L15"].stratum, "invariant_plural")
             self.assertEqual(
                 noun_sample_bytes(first, noun_policy),
                 noun_sample_bytes(second, noun_policy),
+            )
+
+            sampled_by_source = {
+                sampled.candidate.source_key: sampled for sampled in first
+            }
+            plural_options = proposals_for_candidate(
+                sampled_by_source["L2"], noun_policy
+            )
+            self.assertTrue(
+                any(isinstance(option.proposal, PluralOnlyN) for option in plural_options)
+            )
+            self.assertEqual(
+                proposal_blocker(by_source["L3"]),
+                "residual_api_gap_singular_only",
+            )
+            self.assertEqual(
+                proposal_blocker(by_source["L5"]),
+                "uncorrelated_multiple_genders",
+            )
+            abbreviation_options = proposals_for_candidate(
+                sampled_by_source["L12"], noun_policy
+            )
+            self.assertTrue(abbreviation_options)
+            self.assertTrue(
+                all(isinstance(option.proposal, AbbrevN) for option in abbreviation_options)
+            )
+            options, artifacts = render_proposal_modules(
+                first, noun_policy, root / "rendered"
+            )
+            self.assertTrue(options)
+            self.assertEqual(len(artifacts), 3)
+            concrete = (root / "rendered/WdnPilotGer.gf").read_text(
+                encoding="utf-8"
+            )
+            for field in PROBE_FIELDS:
+                self.assertIn(f"probe_{field}", concrete)
+            first_render = [artifact.path.read_bytes() for artifact in artifacts]
+            _, repeated_artifacts = render_proposal_modules(
+                first, noun_policy, root / "repeated"
+            )
+            self.assertEqual(
+                first_render,
+                [artifact.path.read_bytes() for artifact in repeated_artifacts],
             )
 
     def test_pinned_dump_nouns_are_forced_into_the_sample(self) -> None:

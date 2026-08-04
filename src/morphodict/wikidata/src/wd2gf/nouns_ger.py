@@ -27,6 +27,7 @@ from wd2gf.store import DEFAULT_DATABASE, SCHEMA_VERSION, canonical_json
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_NOUN_POLICY = PROJECT_ROOT / "languages/ger/noun-policy.toml"
 DEFAULT_NOUN_SAMPLE = PROJECT_ROOT / "languages/ger/noun-sample.tsv"
+DEFAULT_NOUN_WORK = PROJECT_ROOT / ".work/nouns"
 
 
 class NounError(RuntimeError):
@@ -91,6 +92,37 @@ STRATA = (
     "restriction_conflict",
     "multiword",
     "unknown_gender",
+)
+
+CONSTRUCTOR_ORDER = (
+    "mkN_lemma",
+    "mkN_lemma_gender",
+    "invarN_one",
+    "invarPlN_one",
+    "invarN_two",
+    "invarPlN_two",
+    "mkN_two",
+    "changeCompoundN",
+    "mkN_three",
+    "mkN_six",
+    "pluralOnlyN",
+    "abbrevN",
+)
+
+PROBE_FIELDS = (
+    *SLOT_FIELDS,
+    "gender",
+    "co",
+    "uncap_s_sg_nom",
+    "uncap_s_sg_acc",
+    "uncap_s_sg_dat",
+    "uncap_s_sg_gen",
+    "uncap_s_pl_nom",
+    "uncap_s_pl_acc",
+    "uncap_s_pl_dat",
+    "uncap_s_pl_gen",
+    "uncap_co",
+    "csep",
 )
 
 
@@ -158,6 +190,7 @@ class NounPolicy:
     review_status: str
     singular_only_policy: str
     combining_form_policy: str
+    constructor_order: tuple[str, ...]
     pinned_lexemes: tuple[str, ...]
     quotas: dict[str, int]
 
@@ -167,6 +200,113 @@ class NounArtifact:
     path: Path
     sha256: str
     size_bytes: int
+
+
+@dataclass(frozen=True)
+class MkNLemma:
+    lemma: str
+
+
+@dataclass(frozen=True)
+class MkNLemmaGender:
+    lemma: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class InvarNOne:
+    form: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class InvarNTwo:
+    singular: str
+    plural: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class InvarPlNOne:
+    form: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class InvarPlNTwo:
+    singular: str
+    plural: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class MkNTwo:
+    singular: str
+    plural: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class MkNThree:
+    singular: str
+    plural: str
+    combining: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class MkNSix:
+    singular_nom: str
+    singular_acc: str
+    singular_dat: str
+    singular_gen: str
+    plural_nom: str
+    plural_dat: str
+    gender: Gender
+
+
+@dataclass(frozen=True)
+class PluralOnlyN:
+    plural: str
+
+
+BaseProposal = (
+    MkNLemma
+    | MkNLemmaGender
+    | InvarNOne
+    | InvarNTwo
+    | InvarPlNOne
+    | InvarPlNTwo
+    | MkNTwo
+    | MkNThree
+    | MkNSix
+    | PluralOnlyN
+)
+
+
+@dataclass(frozen=True)
+class ChangeCompoundN:
+    combining: str
+    base: BaseProposal
+
+
+@dataclass(frozen=True)
+class AbbrevN:
+    base: BaseProposal | ChangeCompoundN
+
+
+NounProposal = BaseProposal | ChangeCompoundN | AbbrevN
+
+
+@dataclass(frozen=True)
+class ProposalOption:
+    candidate_id: str
+    option_id: str
+    function_id: str
+    constructor: str
+    explicit_form_arguments: int
+    expression: str
+    proposal: NounProposal
 
 
 @dataclass(frozen=True)
@@ -234,6 +374,7 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
         "review_status",
         "singular_only_policy",
         "combining_form_policy",
+        "constructor_order",
         "pinned_lexemes",
         "quotas",
     }
@@ -245,6 +386,9 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
         raise NounError("initial noun review status must be automatic")
     if data["singular_only_policy"] != "residual-api-gap":
         raise NounError("singular-only policy must preserve the public-API gap")
+    constructor_order = data["constructor_order"]
+    if constructor_order != list(CONSTRUCTOR_ORDER):
+        raise NounError("noun constructor order does not match the closed proposal set")
     pinned = data["pinned_lexemes"]
     if not isinstance(pinned, list) or any(
         not isinstance(identifier, str) or not identifier.startswith("L")
@@ -275,6 +419,7 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
         review_status=data["review_status"],
         singular_only_policy=data["singular_only_policy"],
         combining_form_policy=data["combining_form_policy"],
+        constructor_order=tuple(constructor_order),
         pinned_lexemes=tuple(pinned),
         quotas=dict(quotas),
     )
@@ -815,6 +960,368 @@ def select_noun_sample(
         )
         for index, candidate in enumerate(ordered, start=1)
     )
+
+
+def proposal_blocker(candidate: NounCandidate) -> str | None:
+    diagnostics = set(candidate.diagnostics)
+    if candidate.lemma is None:
+        return "missing_de_lemma"
+    if diagnostics & {
+        "rejected_noun_form_feature",
+        "unclassified_noun_form_feature",
+    }:
+        return "unsupported_form_feature"
+    if candidate.number_restriction is NumberRestriction.CONFLICTING:
+        return "conflicting_number_restrictions"
+    if candidate.source_completeness is SourceCompleteness.CONFLICTING:
+        return "conflicting_source_slots"
+    if "forms_conflict_with_number_restriction" in diagnostics:
+        return "forms_conflict_with_number_restriction"
+    if len(candidate.genders) > 1:
+        return "uncorrelated_multiple_genders"
+    if "whitespace" in candidate.orthography:
+        return "multiword_outside_atomic_noun_pilot"
+    if candidate.number_restriction is NumberRestriction.SINGULAR_ONLY:
+        return "residual_api_gap_singular_only"
+    if len({form.value for form in candidate.combining_forms}) > 1:
+        return "ambiguous_multiple_combining_forms"
+    return None
+
+
+def _gf_quote(value: str) -> str:
+    replacements = {
+        "\\": "\\\\",
+        '"': '\\"',
+        "\n": "\\n",
+        "\r": "\\r",
+        "\t": "\\t",
+    }
+    return '"' + "".join(replacements.get(character, character) for character in value) + '"'
+
+
+def _gf_gender(gender: Gender) -> str:
+    return {
+        Gender.MASCULINE: "P.masculine",
+        Gender.FEMININE: "P.feminine",
+        Gender.NEUTER: "P.neuter",
+    }[gender]
+
+
+def proposal_constructor(proposal: NounProposal) -> str:
+    match proposal:
+        case MkNLemma():
+            return "mkN_lemma"
+        case MkNLemmaGender():
+            return "mkN_lemma_gender"
+        case InvarNOne():
+            return "invarN_one"
+        case InvarNTwo():
+            return "invarN_two"
+        case InvarPlNOne():
+            return "invarPlN_one"
+        case InvarPlNTwo():
+            return "invarPlN_two"
+        case MkNTwo():
+            return "mkN_two"
+        case MkNThree():
+            return "mkN_three"
+        case MkNSix():
+            return "mkN_six"
+        case PluralOnlyN():
+            return "pluralOnlyN"
+        case ChangeCompoundN(base=base):
+            return f"changeCompoundN+{proposal_constructor(base)}"
+        case AbbrevN(base=base):
+            return f"abbrevN+{proposal_constructor(base)}"
+    raise NounError(f"unsupported noun proposal: {proposal!r}")
+
+
+def proposal_form_arguments(proposal: NounProposal) -> int:
+    match proposal:
+        case MkNLemma() | MkNLemmaGender() | InvarNOne() | InvarPlNOne() | PluralOnlyN():
+            return 1
+        case InvarNTwo() | InvarPlNTwo() | MkNTwo():
+            return 2
+        case MkNThree():
+            return 3
+        case MkNSix():
+            return 6
+        case ChangeCompoundN(base=base):
+            return 1 + proposal_form_arguments(base)
+        case AbbrevN(base=base):
+            return proposal_form_arguments(base)
+    raise NounError(f"unsupported noun proposal: {proposal!r}")
+
+
+def render_proposal(proposal: NounProposal) -> str:
+    match proposal:
+        case MkNLemma(lemma=lemma):
+            return f"P.mkN {_gf_quote(lemma)}"
+        case MkNLemmaGender(lemma=lemma, gender=gender):
+            return f"P.mkN {_gf_quote(lemma)} {_gf_gender(gender)}"
+        case InvarNOne(form=form, gender=gender):
+            return f"P.invarN {_gf_quote(form)} {_gf_gender(gender)}"
+        case InvarNTwo(singular=singular, plural=plural, gender=gender):
+            return (
+                f"P.invarN {_gf_quote(singular)} {_gf_quote(plural)} "
+                f"{_gf_gender(gender)}"
+            )
+        case InvarPlNOne(form=form, gender=gender):
+            return f"P.invarPlN {_gf_quote(form)} {_gf_gender(gender)}"
+        case InvarPlNTwo(singular=singular, plural=plural, gender=gender):
+            return (
+                f"P.invarPlN {_gf_quote(singular)} {_gf_quote(plural)} "
+                f"{_gf_gender(gender)}"
+            )
+        case MkNTwo(singular=singular, plural=plural, gender=gender):
+            return (
+                f"P.mkN {_gf_quote(singular)} {_gf_quote(plural)} "
+                f"{_gf_gender(gender)}"
+            )
+        case MkNThree(
+            singular=singular,
+            plural=plural,
+            combining=combining,
+            gender=gender,
+        ):
+            return (
+                f"P.mkN {_gf_quote(singular)} {_gf_quote(plural)} "
+                f"{_gf_quote(combining)} {_gf_gender(gender)}"
+            )
+        case MkNSix(
+            singular_nom=singular_nom,
+            singular_acc=singular_acc,
+            singular_dat=singular_dat,
+            singular_gen=singular_gen,
+            plural_nom=plural_nom,
+            plural_dat=plural_dat,
+            gender=gender,
+        ):
+            forms = (
+                singular_nom,
+                singular_acc,
+                singular_dat,
+                singular_gen,
+                plural_nom,
+                plural_dat,
+            )
+            return "P.mkN " + " ".join(
+                [*(_gf_quote(form) for form in forms), _gf_gender(gender)]
+            )
+        case PluralOnlyN(plural=plural):
+            return f"P.pluralOnlyN {_gf_quote(plural)}"
+        case ChangeCompoundN(combining=combining, base=base):
+            return f"P.changeCompoundN {_gf_quote(combining)} ({render_proposal(base)})"
+        case AbbrevN(base=base):
+            return f"P.abbrevN ({render_proposal(base)})"
+    raise NounError(f"unsupported noun proposal: {proposal!r}")
+
+
+def _base_constructor(proposal: NounProposal) -> str:
+    match proposal:
+        case ChangeCompoundN(base=base) | AbbrevN(base=base):
+            return _base_constructor(base)
+        case _:
+            return proposal_constructor(proposal)
+
+
+def _proposal_sort_key(
+    proposal: NounProposal, noun_policy: NounPolicy
+) -> tuple[int, int, int, str]:
+    base = _base_constructor(proposal)
+    outer = proposal_constructor(proposal).split("+", 1)[0]
+    return (
+        proposal_form_arguments(proposal),
+        noun_policy.constructor_order.index(base),
+        noun_policy.constructor_order.index(outer),
+        render_proposal(proposal),
+    )
+
+
+def proposals_for_candidate(
+    sampled: SampledCandidate, noun_policy: NounPolicy
+) -> tuple[ProposalOption, ...]:
+    candidate = sampled.candidate
+    if proposal_blocker(candidate) is not None or candidate.lemma is None:
+        return ()
+    values = _single_slot_values(candidate.slots)
+    gender = candidate.genders[0] if len(candidate.genders) == 1 else None
+    bases: list[BaseProposal] = []
+    if candidate.number_restriction is NumberRestriction.PLURAL_ONLY:
+        if "s_pl_nom" in values:
+            bases.append(PluralOnlyN(values["s_pl_nom"]))
+    else:
+        bases.append(MkNLemma(candidate.lemma))
+        if gender is not None:
+            bases.extend(
+                (
+                    MkNLemmaGender(candidate.lemma, gender),
+                    InvarNOne(candidate.lemma, gender),
+                    InvarPlNOne(candidate.lemma, gender),
+                )
+            )
+            if "s_sg_nom" in values and "s_pl_nom" in values:
+                singular = values["s_sg_nom"]
+                plural = values["s_pl_nom"]
+                bases.extend(
+                    (
+                        InvarNTwo(singular, plural, gender),
+                        InvarPlNTwo(singular, plural, gender),
+                        MkNTwo(singular, plural, gender),
+                    )
+                )
+            required_six = (
+                "s_sg_nom",
+                "s_sg_acc",
+                "s_sg_dat",
+                "s_sg_gen",
+                "s_pl_nom",
+                "s_pl_dat",
+            )
+            if all(field in values for field in required_six):
+                bases.append(MkNSix(*(values[field] for field in required_six), gender))
+
+    proposals: list[NounProposal] = list(bases)
+    combining_values = sorted({form.value for form in candidate.combining_forms})
+    if len(combining_values) == 1:
+        combining = combining_values[0]
+        proposals.extend(ChangeCompoundN(combining, base) for base in bases)
+        if (
+            gender is not None
+            and "s_sg_nom" in values
+            and "s_pl_nom" in values
+        ):
+            proposals.append(
+                MkNThree(values["s_sg_nom"], values["s_pl_nom"], combining, gender)
+            )
+    if "abbreviation" in candidate.orthography:
+        proposals = [AbbrevN(proposal) for proposal in proposals]
+
+    unique = {render_proposal(proposal): proposal for proposal in proposals}
+    ordered = sorted(unique.values(), key=lambda proposal: _proposal_sort_key(proposal, noun_policy))
+    stem = sampled.internal_id.removesuffix("_N")
+    return tuple(
+        ProposalOption(
+            candidate_id=sampled.internal_id,
+            option_id=f"{stem}_p{index:03d}",
+            function_id=f"{stem}_p{index:03d}_N",
+            constructor=proposal_constructor(proposal),
+            explicit_form_arguments=proposal_form_arguments(proposal),
+            expression=render_proposal(proposal),
+            proposal=proposal,
+        )
+        for index, proposal in enumerate(ordered, start=1)
+    )
+
+
+def proposal_options(
+    sample: Sequence[SampledCandidate], noun_policy: NounPolicy
+) -> tuple[ProposalOption, ...]:
+    return tuple(
+        option
+        for sampled in sample
+        for option in proposals_for_candidate(sampled, noun_policy)
+    )
+
+
+def _probe_expression(field: str) -> str:
+    if field.startswith("s_"):
+        _, number, case = field.split("_")
+        return f"n.s ! R.{number.capitalize()} ! R.{case.capitalize()}"
+    if field.startswith("uncap_s_"):
+        _, _, number, case = field.split("_")
+        return f"n.uncap.s ! R.{number.capitalize()} ! R.{case.capitalize()}"
+    if field == "co":
+        return "n.co"
+    if field == "uncap_co":
+        return "n.uncap.co"
+    if field == "gender":
+        return (
+            "case n.g of {R.Masc => \"masculine\" ; "
+            "R.Fem => \"feminine\" ; R.Neutr => \"neuter\"}"
+        )
+    if field == "csep":
+        return (
+            "case n.csep of {R.BindSep => \"bind\" ; "
+            "R.HyphenSep => \"hyphen\"}"
+        )
+    raise NounError(f"unknown noun probe field: {field}")
+
+
+def _abstract_module(options: Sequence[ProposalOption]) -> bytes:
+    functions = [f"  {option.function_id} : Entry ;" for option in options]
+    probes = [f"  probe_{field} : Entry -> Probe ;" for field in PROBE_FIELDS]
+    source = [
+        "abstract WdnPilotAbs = {",
+        "flags startcat=Entry ;",
+        "cat Entry ; Probe ;",
+        "fun",
+        *functions,
+        *probes,
+        "}",
+        "",
+    ]
+    return "\n".join(source).encode("utf-8")
+
+
+def _concrete_module(options: Sequence[ProposalOption]) -> bytes:
+    entries = [
+        f"  {option.function_id} = {option.expression} ;" for option in options
+    ]
+    probes = [
+        f"  probe_{field} n = {{s = {_probe_expression(field)}}} ;"
+        for field in PROBE_FIELDS
+    ]
+    source = [
+        "concrete WdnPilotGer of WdnPilotAbs =",
+        "  open Prelude, (R=ResGer), (P=ParadigmsGer) in {",
+        "flags coding=utf8 ;",
+        "lincat Entry = R.Noun ; Probe = {s : Str} ;",
+        "lin",
+        *entries,
+        *probes,
+        "}",
+        "",
+    ]
+    return "\n".join(source).encode("utf-8")
+
+
+def proposal_manifest_bytes(options: Sequence[ProposalOption]) -> bytes:
+    lines = [
+        "candidate_id\toption_id\tfunction_id\tconstructor\t"
+        "explicit_form_arguments\texpression"
+    ]
+    for option in options:
+        fields = (
+            option.candidate_id,
+            option.option_id,
+            option.function_id,
+            option.constructor,
+            str(option.explicit_form_arguments),
+            option.expression,
+        )
+        if any(character in field for field in fields for character in "\t\r\n"):
+            raise NounError("proposal manifest field escaped its structured TSV cell")
+        lines.append("\t".join(fields))
+    return ("\n".join(lines) + "\n").encode("utf-8")
+
+
+def render_proposal_modules(
+    sample: Sequence[SampledCandidate],
+    noun_policy: NounPolicy,
+    output_dir: Path = DEFAULT_NOUN_WORK,
+) -> tuple[tuple[ProposalOption, ...], tuple[NounArtifact, ...]]:
+    options = proposal_options(sample, noun_policy)
+    if not options:
+        raise NounError("noun sample produced no renderable proposals")
+    artifacts = (
+        _write_bytes(output_dir / "WdnPilotAbs.gf", _abstract_module(options)),
+        _write_bytes(output_dir / "WdnPilotGer.gf", _concrete_module(options)),
+        _write_bytes(
+            output_dir / "proposal-manifest.tsv", proposal_manifest_bytes(options)
+        ),
+    )
+    return options, artifacts
 
 
 def _claim_json(claims: Sequence[ClaimEvidence]) -> str:

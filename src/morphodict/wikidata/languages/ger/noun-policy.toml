@@ -5,6 +5,20 @@ rank_policy = "preferred-over-normal; deprecated excluded"
 review_status = "automatic"
 singular_only_policy = "residual-api-gap"
 combining_form_policy = "Q107614077 Forms are atomic evidence; P5548 remains construction-specific"
+constructor_order = [
+  "mkN_lemma",
+  "mkN_lemma_gender",
+  "invarN_one",
+  "invarPlN_one",
+  "invarN_two",
+  "invarPlN_two",
+  "mkN_two",
+  "changeCompoundN",
+  "mkN_three",
+  "mkN_six",
+  "pluralOnlyN",
+  "abbrevN",
+]
 
 pinned_lexemes = ["L10227", "L295104", "L3146", "L40399"]
 
