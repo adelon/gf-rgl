@@ -609,9 +609,9 @@ mkV2 : overload {
     let
       geb   = stemVerb geben ;
       gebe  = geb + "e" ;
-      gibst = verbST (init gibt) ;
+      gibst = verbPresSg2 geben gibt ;
       gebt  = verbT geb ;
-      gabst = verbST gab ;
+      gabst = verbPretSg2 gab ;
       gaben = pluralN gab ;
       gabt  = verbT gab
     in case geben of {
