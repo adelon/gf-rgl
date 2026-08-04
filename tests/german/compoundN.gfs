@@ -1762,3 +1762,11 @@ cc -all erdrutsch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erdru
 cc -all erstauffuehrung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erstauffuehrung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erstauffuehrung_N.co
 cc -all erstsprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erstsprache_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erstsprache_N.co
 cc -all erststimme_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erststimme_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erststimme_N.co
+cc -all fenofibratpartikel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fenofibratpartikel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fenofibratpartikel_N.co
+cc -all filialkirche_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ filialkirche_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ filialkirche_N.co
+cc -all filzstift_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ filzstift_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ filzstift_N.co
+cc -all flankengott_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ flankengott_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ flankengott_N.co
+cc -all fliessgewaesser_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fliessgewaesser_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fliessgewaesser_N.co
+cc -all fliesstext_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ fliesstext_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ fliesstext_N.co
+cc -all floetenquartett_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ floetenquartett_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ floetenquartett_N.co
+cc -all flohmarkt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ flohmarkt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ flohmarkt_N.co

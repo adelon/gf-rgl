@@ -2936,6 +2936,14 @@ fun
   erstauffuehrung_N : N ;
   erstsprache_N : N ;
   erststimme_N : N ;
+  fenofibratpartikel_N : N ;
+  filialkirche_N : N ;
+  filzstift_N : N ;
+  flankengott_N : N ;
+  fliessgewaesser_N : N ;
+  fliesstext_N : N ;
+  floetenquartett_N : N ;
+  flohmarkt_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

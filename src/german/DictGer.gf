@@ -1124,6 +1124,14 @@ concrete DictGer of DictGerAbs =
     , erstauffuehrung_N
     , erstsprache_N
     , erststimme_N
+    , fenofibratpartikel_N
+    , filialkirche_N
+    , filzstift_N
+    , flankengott_N
+    , fliessgewaesser_N
+    , fliesstext_N
+    , floetenquartett_N
+    , flohmarkt_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6436,6 +6444,14 @@ lin erdrutsch_N = mkN erde_N rutsch_N ;
 lin erstauffuehrung_N = changeCompoundN "Erstaufführungs" (mkN "Erst" auffuehrung_N) ;
 lin erstsprache_N = changeCompoundN "Erstsprachen" (mkN "Erst" sprache_N) ;
 lin erststimme_N = changeCompoundN "Erststimmen" (mkN "Erst" stimme_N) ;
+lin fenofibratpartikel_N = mkN fenofibrat_N partikel_N ;
+lin filialkirche_N = mkN "Filial" kirche_N ;
+lin filzstift_N = mkN filz_N stift_N ;
+lin flankengott_N = mkN flanke_N gott_N ;
+lin fliessgewaesser_N = mkN "Fließ" gewaesser_N ;
+lin fliesstext_N = mkN "Fließ" text_N ;
+lin floetenquartett_N = mkN "Flöten" quartett_N ;
+lin flohmarkt_N = mkN floh_N markt_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
