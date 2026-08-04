@@ -1,0 +1,5 @@
+schema_version = 1
+
+# Reviewed QID mappings are intentionally added only after the raw inventory
+# from the pinned dump has been examined.
+[items]

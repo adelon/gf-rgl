@@ -1,0 +1,4 @@
+.work/
+snapshot.next.toml
+__pycache__/
+*.py[cod]
