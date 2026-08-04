@@ -1113,6 +1113,12 @@ concrete DictGer of DictGerAbs =
     , endometriumhyperplasie_N
     , endothelinantagonist_N
     , endothelzelle_N
+    , elektrotechnik_N
+    , empfindungswort_N
+    , erntegut_N
+    , erntehelfer_N
+    , erntematerial_N
+    , erntemonat_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6414,6 +6420,12 @@ lin empfaengnisverhuetungsmittel_N = mkN "Empfängnisverhütungs" mittel_N ;
 lin endometriumhyperplasie_N = changeCompoundN "Endometriumhyperplasien" (mkN "Endometrium" hyperplasie_N) ;
 lin endothelinantagonist_N = changeCompoundN "Endothelinantagonist" (mkN "Endothelin" antagonist_N) ;
 lin endothelzelle_N = mkN "Endothel" zelle_N ;
+lin elektrotechnik_N = mkN "Elektro" technik_N ;
+lin empfindungswort_N = mkN "Empfindungs" wort_N ;
+lin erntegut_N = mkN "Ernte" gut_N ;
+lin erntehelfer_N = mkN "Ernte" helfer_N ;
+lin erntematerial_N = mkN "Ernte" material_N ;
+lin erntemonat_N = mkN "Ernte" monat_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

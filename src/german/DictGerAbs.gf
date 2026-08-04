@@ -2925,6 +2925,12 @@ fun
   endometriumhyperplasie_N : N ;
   endothelinantagonist_N : N ;
   endothelzelle_N : N ;
+  elektrotechnik_N : N ;
+  empfindungswort_N : N ;
+  erntegut_N : N ;
+  erntehelfer_N : N ;
+  erntematerial_N : N ;
+  erntemonat_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;
