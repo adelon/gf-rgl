@@ -4,6 +4,7 @@ import json
 import sqlite3
 import tempfile
 import unittest
+from contextlib import closing
 from dataclasses import replace
 from pathlib import Path
 
@@ -22,10 +23,14 @@ from wd2gf.nouns_ger import (
 )
 from wd2gf.profile_ger import DEFAULT_FEATURE_POLICY, load_feature_policy
 from wd2gf.probe_ger import (
+    CandidateFit,
     FieldEvidence,
     ProbeRecord,
     compare_record,
     decode_probe,
+    fit_candidates,
+    noun_fit_bytes,
+    noun_rejections_bytes,
 )
 from wd2gf.store import SourcePolicy, ingest_dump
 
@@ -302,7 +307,7 @@ class NounCandidateTests(unittest.TestCase):
             )
             noun_policy = replace(load_noun_policy(), pinned_lexemes=())
             feature_policy = load_feature_policy(DEFAULT_FEATURE_POLICY)
-            with sqlite3.connect(database) as connection:
+            with closing(sqlite3.connect(database)) as connection:
                 first = select_noun_sample(connection, noun_policy, feature_policy)
                 second = select_noun_sample(connection, noun_policy, feature_policy)
 
@@ -434,6 +439,105 @@ class NounCandidateTests(unittest.TestCase):
                 evidence["uncap_s_sg_nom"], FieldEvidence.UNAVAILABLE
             )
 
+            fit_report = noun_fit_bytes(
+                (
+                    CandidateFit(
+                        sampled_by_source["L2"], plural_comparison, None, 1, 1
+                    ),
+                ),
+                "a" * 64,
+            ).decode("utf-8")
+            fit_header, fit_row = fit_report.splitlines()
+            self.assertIn("gf_s_sg_nom_json", fit_header.split("\t"))
+            self.assertIn("complete_record_comparison", fit_header.split("\t"))
+            self.assertIn("\"s_sg_nom\":\"unavailable\"", fit_row)
+            self.assertIn("\t\"\"\t", fit_row)
+
+            rejection_report = noun_rejections_bytes(
+                (
+                    CandidateFit(
+                        sampled_by_source["L3"],
+                        None,
+                        "residual_api_gap_singular_only",
+                        0,
+                        0,
+                    ),
+                )
+            ).decode("utf-8")
+            rejection_header, rejection_row = rejection_report.splitlines()
+            self.assertIn("residual_api_gap", rejection_header.split("\t"))
+            self.assertIn(
+                "missing_public_singular_only_noun_constructor", rejection_row
+            )
+
+            invariant_sample = sampled_by_source["L14"]
+            invariant_options = proposals_for_candidate(
+                invariant_sample, noun_policy
+            )
+            self.assertEqual(
+                [option.explicit_form_arguments for option in invariant_options],
+                sorted(
+                    option.explicit_form_arguments for option in invariant_options
+                ),
+            )
+            invariant_values = {
+                field: (
+                    "feminine"
+                    if field == "gender"
+                    else "bind"
+                    if field == "csep"
+                    else "jeans"
+                    if field.startswith("uncap_")
+                    else "Jeans"
+                )
+                for field in PROBE_FIELDS
+            }
+            invariant_records = {
+                option.option_id: (
+                    ProbeRecord(
+                        option.option_id,
+                        1,
+                        tuple(
+                            (field, invariant_values[field])
+                            for field in PROBE_FIELDS
+                        ),
+                    ),
+                )
+                for option in invariant_options
+            }
+            least_explicit_fit = fit_candidates(
+                (invariant_sample,), invariant_options, invariant_records
+            )[0]
+            self.assertEqual(
+                least_explicit_fit.accepted.option.option_id,
+                invariant_options[0].option_id,
+            )
+
+            ambiguous_records = {
+                option.option_id: (
+                    records[0],
+                    replace(
+                        records[0],
+                        variant_index=2,
+                        values=tuple(
+                            (field, "JEANS" if field == "co" else value)
+                            for field, value in records[0].values
+                        ),
+                    ),
+                )
+                for option, records in (
+                    (option, invariant_records[option.option_id])
+                    for option in invariant_options
+                )
+            }
+            ambiguous_fit = fit_candidates(
+                (invariant_sample,), invariant_options, ambiguous_records
+            )[0]
+            self.assertIsNone(ambiguous_fit.accepted)
+            self.assertEqual(
+                ambiguous_fit.rejection_reason, "ambiguous_gf_record_variants"
+            )
+
     def test_pinned_dump_nouns_are_forced_into_the_sample(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -445,7 +549,7 @@ class NounCandidateTests(unittest.TestCase):
                 snapshot_metadata=SNAPSHOT,
             )
             noun_policy = load_noun_policy(DEFAULT_NOUN_POLICY)
-            with sqlite3.connect(database) as connection:
+            with closing(sqlite3.connect(database)) as connection:
                 sample = select_noun_sample(
                     connection,
                     noun_policy,

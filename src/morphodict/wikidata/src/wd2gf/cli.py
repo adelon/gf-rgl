@@ -37,7 +37,7 @@ from wd2gf.profile_ger import (
     generate_interpreted_profile,
     generate_raw_profile,
 )
-from wd2gf.probe_ger import probe_nouns
+from wd2gf.probe_ger import probe_nouns, write_pilot_reports
 from wd2gf.store import (
     DEFAULT_DATABASE,
     DEFAULT_SOURCE_POLICY,
@@ -211,6 +211,34 @@ def _noun_probe(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_pilot(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    sample, sample_artifact = generate_noun_sample(
+        database_path=args.database,
+        noun_policy_path=args.noun_policy,
+        feature_policy_path=args.feature_policy,
+        output_path=args.report_dir / "noun-sample.tsv",
+        expected_snapshot=snapshot_metadata,
+    )
+    run = probe_nouns(
+        sample=sample,
+        noun_policy=load_noun_policy(args.noun_policy),
+        gf_path=args.gf,
+        work_dir=args.output_dir,
+    )
+    report_artifacts = write_pilot_reports(
+        fits=run.fits,
+        pgf_sha256=run.pgf_sha256,
+        output_dir=args.report_dir,
+    )
+    for artifact in (sample_artifact, *report_artifacts):
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    accepted = sum(fit.accepted is not None for fit in run.fits)
+    print(f"pgf_sha256={run.pgf_sha256}")
+    print(f"accepted={accepted} rejected={len(run.fits) - accepted}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -359,6 +387,26 @@ def build_parser() -> argparse.ArgumentParser:
     noun_probe_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     noun_probe_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     noun_probe_parser.set_defaults(handler=_noun_probe)
+    noun_pilot_parser = noun_commands.add_parser(
+        "pilot", help="run the complete noun pilot and write decision reports"
+    )
+    noun_pilot_parser.add_argument("--gf", type=Path, required=True)
+    noun_pilot_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    noun_pilot_parser.add_argument(
+        "--noun-policy", type=Path, default=DEFAULT_NOUN_POLICY
+    )
+    noun_pilot_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    noun_pilot_parser.add_argument(
+        "--output-dir", type=Path, default=DEFAULT_NOUN_WORK
+    )
+    noun_pilot_parser.add_argument(
+        "--report-dir", type=Path, default=DEFAULT_NOUN_SAMPLE.parent
+    )
+    noun_pilot_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    noun_pilot_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    noun_pilot_parser.set_defaults(handler=_noun_pilot)
     return parser
 
 

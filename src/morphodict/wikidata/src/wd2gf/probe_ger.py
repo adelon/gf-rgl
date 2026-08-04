@@ -49,6 +49,13 @@ class GFFit(StrEnum):
     UNREPRESENTABLE = "unrepresentable"
 
 
+class InferenceConfidence(StrEnum):
+    SOURCE_EXACT = "source_exact"
+    REVIEWED = "reviewed"
+    PROVISIONAL = "provisional"
+    UNAVAILABLE = "unavailable"
+
+
 @dataclass(frozen=True)
 class ProbeRecord:
     option_id: str
@@ -427,6 +434,206 @@ def probe_details_bytes(fits: Sequence[CandidateFit], pgf_sha256: str) -> bytes:
             }
         )
     return (canonical_json(rows) + "\n").encode("utf-8")
+
+
+def _inference_confidence(comparison: RecordComparison) -> InferenceConfidence:
+    statuses = {status for _, status in comparison.field_evidence}
+    if FieldEvidence.PROVISIONAL_INFERENCE in statuses:
+        return InferenceConfidence.PROVISIONAL
+    if FieldEvidence.REVIEWED_INFERENCE in statuses:
+        return InferenceConfidence.REVIEWED
+    return InferenceConfidence.SOURCE_EXACT
+
+
+def _source_statement_ids(candidate: NounCandidate) -> list[str]:
+    return sorted(
+        {
+            *(claim.statement_key for claim in candidate.gender_claims),
+            *(claim.statement_key for claim in candidate.restriction_claims),
+            *(claim.statement_key for claim in candidate.paradigm_claims),
+            *candidate.compound_statement_keys,
+            *candidate.sense_statement_keys,
+        }
+    )
+
+
+def _source_form_ids(candidate: NounCandidate) -> dict[str, list[str]]:
+    result = {
+        slot.field: [form.form_id for form in slot.forms] for slot in candidate.slots
+    }
+    if candidate.combining_forms:
+        result["co"] = [form.form_id for form in candidate.combining_forms]
+    return result
+
+
+def _tsv(headers: Sequence[str], rows: Sequence[Sequence[str]]) -> bytes:
+    lines = ["\t".join(headers)]
+    for row in rows:
+        if len(row) != len(headers):
+            raise NounError("noun pilot report row does not match its header")
+        if any(character in field for field in row for character in "\t\r\n"):
+            raise NounError("noun pilot report field escaped its structured TSV cell")
+        lines.append("\t".join(row))
+    return ("\n".join(lines) + "\n").encode("utf-8")
+
+
+def noun_fit_bytes(fits: Sequence[CandidateFit], pgf_sha256: str) -> bytes:
+    headers = (
+        "internal_id",
+        "source_key",
+        "lexeme_ids_json",
+        "entity_sha256_json",
+        "lemma_json",
+        "stratum",
+        "pinned",
+        "proposal_option_id",
+        "constructor",
+        "expression",
+        "explicit_form_arguments",
+        "source_completeness",
+        "gf_fit",
+        "inference_confidence",
+        "review_status",
+        "structural_evidence",
+        "source_statement_ids_json",
+        "source_form_ids_json",
+        "p5548_evidence_json",
+        "field_evidence_json",
+        "complete_record_comparison",
+        "gf_record_sha256",
+        "pgf_sha256",
+        *(f"gf_{field}_json" for field in PROBE_FIELDS),
+    )
+    rows: list[tuple[str, ...]] = []
+    for fit in fits:
+        if fit.accepted is None:
+            continue
+        sampled = fit.sampled
+        candidate = sampled.candidate
+        comparison = fit.accepted
+        record = comparison.record.as_dict()
+        record_json = canonical_json(record)
+        rows.append(
+            (
+                sampled.internal_id,
+                candidate.source_key,
+                canonical_json(list(candidate.lexeme_ids)),
+                canonical_json(list(candidate.entity_sha256)),
+                canonical_json(candidate.lemma),
+                candidate.stratum,
+                "yes" if sampled.pinned else "no",
+                comparison.option.option_id,
+                comparison.option.constructor,
+                comparison.option.expression,
+                str(comparison.option.explicit_form_arguments),
+                candidate.source_completeness.value,
+                comparison.gf_fit.value,
+                _inference_confidence(comparison).value,
+                "sampled",
+                candidate.structural_evidence.value,
+                canonical_json(_source_statement_ids(candidate)),
+                canonical_json(_source_form_ids(candidate)),
+                canonical_json(list(candidate.object_form_evidence)),
+                canonical_json(
+                    {
+                        field: evidence.value
+                        for field, evidence in comparison.field_evidence
+                    }
+                ),
+                "yes",
+                hashlib.sha256(record_json.encode("utf-8")).hexdigest(),
+                pgf_sha256,
+                *(canonical_json(record[field]) for field in PROBE_FIELDS),
+            )
+        )
+    return _tsv(headers, rows)
+
+
+def _residual_api_gap(reason: str | None) -> str:
+    return {
+        "residual_api_gap_singular_only": "missing_public_singular_only_noun_constructor",
+        "no_public_constructor_matches_source_evidence": "public_noun_constructor_gap",
+    }.get(reason or "", "")
+
+
+def noun_rejections_bytes(fits: Sequence[CandidateFit]) -> bytes:
+    headers = (
+        "internal_id",
+        "source_key",
+        "lexeme_ids_json",
+        "entity_sha256_json",
+        "lemma_json",
+        "stratum",
+        "pinned",
+        "source_completeness",
+        "gf_fit",
+        "inference_confidence",
+        "review_status",
+        "rejection_reason",
+        "residual_api_gap",
+        "structural_evidence",
+        "genders_json",
+        "number_restriction",
+        "source_statement_ids_json",
+        "source_form_ids_json",
+        "combining_forms_json",
+        "p5548_evidence_json",
+        "diagnostics_json",
+        "compared_options",
+        "fitting_variants",
+    )
+    rows: list[tuple[str, ...]] = []
+    for fit in fits:
+        if fit.accepted is not None:
+            continue
+        sampled = fit.sampled
+        candidate = sampled.candidate
+        combining = [
+            {"form_id": form.form_id, "value": form.value}
+            for form in candidate.combining_forms
+        ]
+        rows.append(
+            (
+                sampled.internal_id,
+                candidate.source_key,
+                canonical_json(list(candidate.lexeme_ids)),
+                canonical_json(list(candidate.entity_sha256)),
+                canonical_json(candidate.lemma),
+                candidate.stratum,
+                "yes" if sampled.pinned else "no",
+                candidate.source_completeness.value,
+                GFFit.UNREPRESENTABLE.value,
+                InferenceConfidence.UNAVAILABLE.value,
+                "rejected",
+                fit.rejection_reason or "unknown_rejection",
+                _residual_api_gap(fit.rejection_reason),
+                candidate.structural_evidence.value,
+                canonical_json([gender.value for gender in candidate.genders]),
+                candidate.number_restriction.value,
+                canonical_json(_source_statement_ids(candidate)),
+                canonical_json(_source_form_ids(candidate)),
+                canonical_json(combining),
+                canonical_json(list(candidate.object_form_evidence)),
+                canonical_json(list(candidate.diagnostics)),
+                str(fit.compared_options),
+                str(fit.fitting_variants),
+            )
+        )
+    return _tsv(headers, rows)
+
+
+def write_pilot_reports(
+    *,
+    fits: Sequence[CandidateFit],
+    pgf_sha256: str,
+    output_dir: Path,
+) -> tuple[NounArtifact, NounArtifact]:
+    return (
+        _write_bytes(output_dir / "noun-fit.tsv", noun_fit_bytes(fits, pgf_sha256)),
+        _write_bytes(
+            output_dir / "noun-rejections.tsv", noun_rejections_bytes(fits)
+        ),
+    )
 
 
 def probe_nouns(

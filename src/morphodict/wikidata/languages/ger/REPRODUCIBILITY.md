@@ -1,4 +1,4 @@
-# Phase 1 reproducibility record
+# Phase 1 and Phase 2 reproducibility record
 
 This record covers the clean repeated ingestion and profiling run for the
 official 2026-07-29 Wikidata Lexeme JSON gzip snapshot.
@@ -96,3 +96,75 @@ The historical German dictionaries were not read as inventory inputs. No GF
 entries, candidate names, placement rules, compatibility declarations, or
 dictionary generators were produced. No RGL build was run because no RGL
 source file changed in Phase 1.
+
+## Phase 2 German noun pilot
+
+The noun pilot reused the verified primary Phase 1 store. It did not ingest the
+dump again. From `src/morphodict/wikidata`, the committed report locations were
+generated with the preflighted local GF executable:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli noun pilot --gf="$GF" --output-dir .work/phase2/pilot --report-dir languages/ger
+```
+
+An independent generation used distinct disposable and report directories:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli noun pilot --gf="$GF" --output-dir .work/phase2/repeat-pilot --report-dir .work/phase2/repeat-reports
+cmp languages/ger/noun-sample.tsv .work/phase2/repeat-reports/noun-sample.tsv
+cmp languages/ger/noun-fit.tsv .work/phase2/repeat-reports/noun-fit.tsv
+cmp languages/ger/noun-rejections.tsv .work/phase2/repeat-reports/noun-rejections.tsv
+```
+
+The primary and repeat report bytes were identical:
+
+| Artifact | SHA-256 | Bytes | Data rows |
+|---|---|---:|---:|
+| `noun-sample.tsv` | `a97a43ea48bb07140dffd34aa844bb6ae53b151c4195b9fa43cabbe9f2c443c7` | 273348 | 352 |
+| `noun-fit.tsv` | `8370b5983c0575eb2ec336679f4a874e658328a9d4f1c60825b23a4c0c306385` | 412017 | 261 |
+| `noun-rejections.tsv` | `67acee3e41bdba84ed9e8e81e153adc4ef31152e38259567e780aa785ecbcfa3` | 47967 | 91 |
+
+The disposable abstract module, concrete module, proposal manifest, structured
+probe output, detailed fit JSON, and PGF were also byte-identical between the
+two directories. Their respective SHA-256 hashes were
+`8067f5e6413bda197a8005999bd5b116d9a94188a3ed4f9b2431ffc1b6dcc786`,
+`8fbb70f723fea7728e166a1f6dc79a3552ae69c9e5d34a0bc023725f4fa4e77c`,
+`bf7e26ecb84282eeb65b2dff8b0f08b15505fad18df30b5785f06e8545bb52d3`,
+`78455ebf893a61c7520af520dd9ba11625a230ea959017663162c779d9fd05b1`,
+`3ae14c0c7a37e75c294a3fa022081bf7986536016f8841203a980fc09c739799`,
+and `537756d1f474dff804f2564fc787e3f6777d12b4b73dd31811dcf66f04d6bea4`.
+The manifest contained 1967 proposals and the structured probe contained 42740
+field rows.
+
+Of 352 sampled nouns, 200 had exact source-evidence fits and 61 had fits
+compatible with stated inference. Every one of the 261 accepted rows records
+the complete 20-field GF noun record, per-field evidence status, source entity
+hashes and Lexeme/Form/statement IDs, deterministic candidate and proposal
+identities, structural evidence, and review status. All accepted records retain
+at least provisional inference metadata because GF supplies fields not asserted
+by Wikidata; these generated values are reported only in `gf_*` columns.
+
+The 91 rejections were:
+
+| Reason | Nouns |
+|---|---:|
+| singular-only residual API gap | 20 |
+| uncorrelated multiple genders | 20 |
+| conflicting source slots | 20 |
+| unsupported form feature | 10 |
+| multiword outside the atomic pilot | 10 |
+| no public constructor matched | 7 |
+| multiple unsupported combining forms | 3 |
+| forms conflict with number restriction | 1 |
+
+The residual public-API populations are therefore 20 singular-only nouns that
+need a public singular-only constructor and seven records not reproduced by the
+current public noun constructors. Phase 2 does not add either API. The sample
+also forces four pinned dump-derived Lexemes: `L3146`, `L10227`, `L40399`, and
+`L295104`; all four obtained complete-record fits.
+
+The focused Python suite, warning-clean Haskell typecheck, disposable GF module
+compile, structured PGF probe, and byte-repeat checks passed. No broad RGL build
+was run because no RGL source changed. No canonical dictionary entries,
+compounds, public names, placement rules, or generated GF artifacts were
+committed.
