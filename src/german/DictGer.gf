@@ -3311,6 +3311,15 @@ concrete DictGer of DictGerAbs =
     , phonologische_transkription_N
     , phonologische_woerterbuch_N
     , phonologische_wort_N
+    , gamepad_N
+    , gallapfel_N
+    , gangliosidkomponente_N
+    , gangsterboss_N
+    , ganzkoerperschleier_N
+    , ganzzahl_N
+    , garantenstellung_N
+    , gattungsbezeichnung_N
+    , gattungsname_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -7780,6 +7789,15 @@ lin feriengebiet_N = mkN "Ferien" (mkN "Gebiet" "Gebiete" neuter) ;
 lin ferienwohnung_N = mkN "Ferien" (mkN "Wohnung" "Wohnungen" feminine) ;
 lin fermentationsloesung_N = mkN "Fermentations" (mkN "Lösung" "Lösungen" feminine) ;
 lin fermentationsmedium_N = mkN "Fermentations" (mkN "Medium" "Medien" neuter) ;
+lin gamepad_N = mkN "Game" (mkN "Pad" "Pads" neuter) ;
+lin gallapfel_N = mkN "Gall" apfel_N ;
+lin gangliosidkomponente_N = mkN gangliosid_N komponente_N ;
+lin gangsterboss_N = mkN gangster_N boss_N ;
+lin ganzkoerperschleier_N = mkN "Ganzkörper" (mkN "Schleier" "Schleier" masculine) ;
+lin ganzzahl_N = mkN "Ganz" (mkN "Zahl" "Zahlen" feminine) ;
+lin garantenstellung_N = mkN "Garanten" stellung_N ;
+lin gattungsbezeichnung_N = mkN gattung_N bezeichnung_N ;
+lin gattungsname_N = changeCompoundN "Gattungsnamen" (mkN gattung_N name_N) ;
 lin austernfischer_N = mkN "Austern" (mkN "Fischer" "Fischer" masculine) ;
 lin bratfisch_N = mkN "Brat" (mkN "Fisch" "Fische" masculine) ;
 lin clownfisch_N = mkN "Clown" (mkN "Fisch" "Fische" masculine) ;

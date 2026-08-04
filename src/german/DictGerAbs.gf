@@ -4438,4 +4438,13 @@ fun
   haifischflossensuppe_N : N ;
   knochenfisch_N : N ;
   meeresfisch_N : N ;
+  gamepad_N : N ;
+  gallapfel_N : N ;
+  gangliosidkomponente_N : N ;
+  gangsterboss_N : N ;
+  ganzkoerperschleier_N : N ;
+  ganzzahl_N : N ;
+  garantenstellung_N : N ;
+  gattungsbezeichnung_N : N ;
+  gattungsname_N : N ;
 }
