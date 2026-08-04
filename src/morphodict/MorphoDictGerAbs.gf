@@ -1076,8 +1076,6 @@ fun akkommodieren_V : V ;
 fun akkord_N : N ;
 fun akkordant_N : N ;
 fun akkordeon_N : N ;
-fun akkordeonspieler_N : N ;
-fun akkordeonspielerin_N : N ;
 fun akkreditieren_V : V ;
 fun akkreditierung_N : N ;
 fun akkretion_N : N ;

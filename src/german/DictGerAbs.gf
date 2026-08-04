@@ -747,6 +747,8 @@ fun
   akkordarbeiter_N : N ;
   akkordarbeiterin_N : N ;
   akkordlohn_N : N ;
+  akkordeonspieler_N : N ;
+  akkordeonspielerin_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
