@@ -28,6 +28,7 @@ class NounCensusTests(unittest.TestCase):
             self.assertEqual(
                 first.details.path.read_bytes(), second.details.path.read_bytes()
             )
+            self.assertFalse(first.report.path.read_bytes().endswith(b"\n\n"))
             report = first.report.path.read_text(encoding="utf-8")
             self.assertIn("GF compilations performed: `0`", report)
             self.assertIn("internal_structure_unresolved", report)

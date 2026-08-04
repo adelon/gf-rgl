@@ -569,7 +569,6 @@ def _report_bytes(
         "Effective noun paradigm-class bundles:",
         "",
         *_counter_table(counters["paradigm_class"]),
-        "",
     ]
     return ("\n".join(lines) + "\n").encode("utf-8")
 

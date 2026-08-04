@@ -201,8 +201,8 @@ cmp .work/phase3/census/noun-census.tsv .work/phase3/census-repeat/noun-census.t
 ```
 
 Both the compact report and the 188942-row local detail file were
-byte-identical. `noun-census.md` is 6495 bytes with SHA-256
-`2d822f22a682c49d748dc1d596e93ba8a88a6e91b82e4c33a11f799baa09152b`;
+byte-identical. `noun-census.md` is 6494 bytes with SHA-256
+`906226b492527fdf69528fc24c7e5a1889c44e0881389ae84f072acb3043f108`;
 the local detail is 48113280 bytes with SHA-256
 `526a34af000af0ef739d75e922f4accbe685205583e2023292dabaa5aaf4f688`.
 The census compiled no GF and did not inspect `ger` or `ger-fixes` placement.
