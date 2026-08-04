@@ -441,6 +441,10 @@ concrete DictGer of DictGerAbs =
     , fussballplatz__N
     , fabrikationsfehler_N
     , fabrikationsprozess_N
+    , fastfood_N
+    , faulpelz_N
+    , faultier_N
+    , faservliesstoffmaterial_N
     , fabelrekord_N
     , fabeltier_N
     , fabelweltrekord_N
@@ -6870,6 +6874,10 @@ lin einheitsschule_N = changeCompoundN "Einheitsschulen" (mkN einheit_N schule_N
 lin einheitssprache_N = changeCompoundN "Einheitssprachen" (mkN einheit_N sprache_N) ;
 lin fabrikationsfehler_N = mkN "Fabrikations" fehler_N ;
 lin fabrikationsprozess_N = mkN "Fabrikations" prozess_N ;
+lin fastfood_N = mkN "Fast" (mkN "Food" "Foods" neuter) ;
+lin faulpelz_N = mkN "Faul" (mkN "Pelz" "Pelze" masculine) ;
+lin faultier_N = mkN "Faul" (mkN "Tier" "Tiere" neuter) ;
+lin faservliesstoffmaterial_N = mkN "Faser" (mkN "Vliesstoffmaterial" "Vliesstoffmaterialien" neuter) ;
 lin fachaerztin_N = mkN "Fach" aerztin_N ;
 lin facharbeiter_N = mkN "Fach" arbeiter_N ;
 lin facharzt_N = mkN "Fach" arzt_N ;

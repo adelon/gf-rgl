@@ -2309,6 +2309,10 @@ fun
   fussballplatz__N : N ;
   fabrikationsfehler_N : N ;
   fabrikationsprozess_N : N ;
+  fastfood_N : N ;
+  faulpelz_N : N ;
+  faultier_N : N ;
+  faservliesstoffmaterial_N : N ;
   fabelrekord_N : N ;
   fabeltier_N : N ;
   fabelweltrekord_N : N ;
