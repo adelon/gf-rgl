@@ -236,7 +236,12 @@ mkN : overload {
 
 -- Sometimes an extra form is needed for positive forms.
 
-    mkA : (gut,gute,besser,beste : Str) -> A -- irregular positive if ending added
+    mkA : (gut,gute,besser,beste : Str) -> A ; -- irregular positive if ending added
+
+-- Noun-adjective compounds use the uncapitalized canonical compound form
+-- of the noun and preserve the complete adjective paradigm.
+
+    mkA : N -> A -> A -- Mutterseele + allein -> mutterseelenallein
 
     } ;
 
@@ -841,7 +846,10 @@ mkV2 : overload {
   mkA = overload {
     mkA : Str -> A = regA ;
     mkA : (gut,besser,beste : Str) -> A = mk3A ;
-    mkA : (gut,gute,besser,beste : Str) -> A = mk4A
+    mkA : (gut,gute,besser,beste : Str) -> A = mk4A ;
+    mkA : N -> A -> A = \n,a -> lin A {
+      s = \\d,f => n.uncap.co + a.s ! d ! f
+      }
     };
 
 

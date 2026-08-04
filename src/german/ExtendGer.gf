@@ -489,8 +489,10 @@ concrete ExtendGer of Extend =
       n = Pl
       } ;
 
+    -- Adjectival compounds consume the uncapitalized copy of the same
+    -- canonical noun modifier form.
     CompoundAP n a = {
-      s = \\af => n.co ++ Predef.BIND ++ a.s ! Posit ! af ;
+      s = \\af => n.uncap.co ++ Predef.BIND ++ a.s ! Posit ! af ;
       s2 = \\_ => [] ;
       isPre = True ;
       c = <[],[]> ;

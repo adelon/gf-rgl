@@ -1,0 +1,7 @@
+i -retain alltenses/ParadigmsGer.gfo
+
+cc -all "Paradigms mkA N A:" ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Posit ! APred ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Posit ! AMod (GSg Masc) Nom ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Posit ! AMod GPl Dat ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Compar ! APred ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Compar ! AMod (GSg Neutr) Nom ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Superl ! APred ++ (mkA (mkN "Testseele" "Testseelen" "Testseelen" feminine) (mkA "klar" "klarer" "klarste")).s ! Superl ! AMod GPl Dat
+
+i -retain alltenses/ExtendGer.gfo
+
+cc -all "Extend CompoundAP:" ++ (ExtendGer.CompoundAP (ParadigmsGer.mkN "Testseele" "Testseelen" "Testseelen" ParadigmsGer.feminine) (ParadigmsGer.mkA "klar")).s ! ResGer.APred ++ (ExtendGer.CompoundAP (ParadigmsGer.mkN "Testseele" "Testseelen" "Testseelen" ParadigmsGer.feminine) (ParadigmsGer.mkA "klar")).s ! ResGer.AMod (ResGer.GSg ResGer.Masc) ResGer.Nom
