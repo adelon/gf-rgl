@@ -1080,6 +1080,12 @@ concrete DictGer of DictGerAbs =
     , edelpilz_N
     , eichhase_N
     , eichhoernchen_N
+    , eingeweidebruch_N
+    , einfaltspinsel_N
+    , einkristall_N
+    , einzugschacht_N
+    , einzugsschacht_N
+    , eisenbahn__N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6348,6 +6354,12 @@ lin edelmarderfell_N = mkN "Edel" (mkN marder_N fell_N) ;
 lin edelpilz_N = mkN "Edel" pilz_N ;
 lin eichhase_N = mkN "Eich" hase_N ;
 lin eichhoernchen_N = mkN "Eich" hoernchen_N ;
+lin eingeweidebruch_N = mkN eingeweide_N bruch_N ;
+lin einfaltspinsel_N = mkN "Einfalts" pinsel_N ;
+lin einkristall_N = mkN "Ein" kristall_N ;
+lin einzugschacht_N = mkN "Einzug" schacht_N ;
+lin einzugsschacht_N = mkN "Einzugs" schacht_N ;
+lin eisenbahn__N = mkN eisen_N bahn_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

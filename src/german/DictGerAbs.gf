@@ -2892,6 +2892,12 @@ fun
   edelpilz_N : N ;
   eichhase_N : N ;
   eichhoernchen_N : N ;
+  eingeweidebruch_N : N ;
+  einfaltspinsel_N : N ;
+  einkristall_N : N ;
+  einzugschacht_N : N ;
+  einzugsschacht_N : N ;
+  eisenbahn__N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

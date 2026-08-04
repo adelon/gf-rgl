@@ -1718,3 +1718,9 @@ cc -all edelmarderfell_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ 
 cc -all edelpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelpilz_N.co
 cc -all eichhase_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eichhase_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eichhase_N.co
 cc -all eichhoernchen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eichhoernchen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eichhoernchen_N.co
+cc -all eingeweidebruch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eingeweidebruch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eingeweidebruch_N.co
+cc -all einfaltspinsel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einfaltspinsel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einfaltspinsel_N.co
+cc -all einkristall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einkristall_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einkristall_N.co
+cc -all einzugschacht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einzugschacht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einzugschacht_N.co
+cc -all einzugsschacht_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ einzugsschacht_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ einzugsschacht_N.co
+cc -all eisenbahn__N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eisenbahn__N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eisenbahn__N.co
