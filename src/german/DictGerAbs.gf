@@ -818,6 +818,12 @@ fun
   antigendeterminante_N : N ;
   antigenkomponente_N : N ;
   antigensequenz_N : N ;
+  autobahnabfahrt_N : N ;
+  autobahnauffahrt_N : N ;
+  autobahnbruecke_N : N ;
+  autobahngebuehr_N : N ;
+  autobahnkreuz_N : N ;
+  autobahnmaut_N : N ;
   angstgegner_N : N ;
   angsthase_N : N ;
   angstneurose_N : N ;

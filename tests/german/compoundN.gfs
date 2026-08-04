@@ -11,6 +11,12 @@ cc -all antigenbindungsstelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominat
 cc -all antigendeterminante_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigendeterminante_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigendeterminante_N.co
 cc -all antigenkomponente_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigenkomponente_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigenkomponente_N.co
 cc -all antigensequenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ antigensequenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ antigensequenz_N.co
+cc -all autobahnabfahrt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahnabfahrt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahnabfahrt_N.co
+cc -all autobahnauffahrt_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahnauffahrt_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahnauffahrt_N.co
+cc -all autobahnbruecke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahnbruecke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahnbruecke_N.co
+cc -all autobahngebuehr_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahngebuehr_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahngebuehr_N.co
+cc -all autobahnkreuz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahnkreuz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahnkreuz_N.co
+cc -all autobahnmaut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ autobahnmaut_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ autobahnmaut_N.co
 cc -all angstgegner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstgegner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstgegner_N.co
 cc -all angsthase_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angsthase_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angsthase_N.co
 cc -all angstneurose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstneurose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstneurose_N.co
