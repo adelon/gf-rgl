@@ -824,6 +824,8 @@ fun
   autobahngebuehr_N : N ;
   autobahnkreuz_N : N ;
   autobahnmaut_N : N ;
+  bankdruecker_N : N ;
+  bankueberfall_N : N ;
   angstgegner_N : N ;
   angsthase_N : N ;
   angstneurose_N : N ;
