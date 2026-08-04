@@ -5003,7 +5003,6 @@ lin besitzend_A = regA "besitzend" ;
 lin besitzer_N = mkN "Besitzer" "Besitzer" masculine ;
 lin besoffen_A = mk3A "besoffen" "besoffener" "besoffenste" ;
 lin besoldung_N = mkN "Besoldung" ;
-lin besonderebesonderesbesonderer_A = mk3A "besondere, besonderes, besonderer" "besonderer" "besonderste" ;
 lin besonderheit_N = mkN "Besonderheit" "Besonderheiten" feminine ;
 lin besonders_Adv = mkAdv "besonders" ;
 lin besonnen_A = mk3A "besonnen" "besonnener" "besonnenste" ;

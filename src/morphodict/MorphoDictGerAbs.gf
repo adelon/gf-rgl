@@ -4997,7 +4997,6 @@ fun besitzend_A : A ;
 fun besitzer_N : N ;
 fun besoffen_A : A ;
 fun besoldung_N : N ;
-fun besonderebesonderesbesonderer_A : A ;
 fun besonderheit_N : N ;
 fun besonders_Adv : Adv ;
 fun besonnen_A : A ;
