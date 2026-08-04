@@ -21,9 +21,12 @@ concrete DictGer of DictGerAbs =
     , abblasventil_N
     , abblendschalter_N
     , abblaseventil_N
+    , abblasedruck_N
+    , abblendlicht_N
     , abbildungsmassstab_N
     , abbuchungsauftrag_N
     , abdeckblech_N
+    , abdeckband_N
     , abdeckfarbe_N
     , abdeckplane_N
     , abdeckplatte_N
@@ -33,6 +36,7 @@ concrete DictGer of DictGerAbs =
     , abenddaemmerung_N
     , abendnebel_N
     , abendpunkt_N
+    , abnehmerland_N
     , abendmahlsfeier_N
     , abendmahlsgemeinschaft_N
     , abendmahlsstreit_N
@@ -3257,9 +3261,12 @@ lin abbiegespur_N = mkN "Abbiege" spur_N ;
 lin abblasventil_N = mkN "Abblas" ventil_N ;
 lin abblendschalter_N = mkN "Abblend" schalter_N ;
 lin abblaseventil_N = mkN "Abblase" ventil_N ;
+lin abblasedruck_N = mkN "Abblase" (mkN "Druck" "Drücke" masculine) ;
+lin abblendlicht_N = mkN "Abblend" (mkN "Licht" "Lichter" neuter) ;
 lin abbildungsmassstab_N = mkN abbildung_N massstab_N ;
 lin abbuchungsauftrag_N = mkN abbuchung_N auftrag_N ;
 lin abdeckblech_N = mkN "Abdeck" blech_N ;
+lin abdeckband_N = mkN "Abdeck" (mkN "Band" "Bänder" neuter) ;
 lin abdeckfarbe_N = changeCompoundN "Abdeckfarben" (mkN "Abdeck" farbe_N) ;
 lin abdeckplane_N = mkN "Abdeck" plane_N ;
 lin abdeckplatte_N = mkN "Abdeck" platte_N ;
@@ -3276,6 +3283,7 @@ lin abendnebel_N = mkN abend_N nebel_N ;
 lin abendpunkt_N = mkN abend_N punkt_N ;
 lin abessinierbrunnen_N = mkN abessinier_N brunnen_N ;
 lin ablassbrief_N = mkN ablass_N brief_N ;
+lin abnehmerland_N = mkN "Abnehmer" (mkN "Land" "Länder" neuter) ;
 lin ablauforganisation_N = mkN ablauf_N organisation_N ;
 lin ablehnungsgesuch_N = mkN ablehnung_N gesuch_N ;
 lin ableitungsmorphem_N = mkN ableitung_N morphem_N ;

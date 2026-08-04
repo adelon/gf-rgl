@@ -81,9 +81,12 @@ fun
   abblasventil_N : N ;
   abblendschalter_N : N ;
   abblaseventil_N : N ;
+  abblasedruck_N : N ;
+  abblendlicht_N : N ;
   abbildungsmassstab_N : N ;
   abbuchungsauftrag_N : N ;
   abdeckblech_N : N ;
+  abdeckband_N : N ;
   abdeckfarbe_N : N ;
   abdeckplane_N : N ;
   abdeckplatte_N : N ;
@@ -100,6 +103,7 @@ fun
   abendpunkt_N : N ;
   abessinierbrunnen_N : N ;
   ablassbrief_N : N ;
+  abnehmerland_N : N ;
   ablauforganisation_N : N ;
   ablehnungsgesuch_N : N ;
   ableitungsmorphem_N : N ;
