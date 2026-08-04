@@ -1788,6 +1788,25 @@ concrete DictGer of DictGerAbs =
     , keimmonat_N
     , keimplasmatheorie_N
     , keimzelle_N
+    , kernfamilie_N
+    , kernfusion_N
+    , kerngedanke_N
+    , kernkompetenz_N
+    , kernkraft_N
+    , kernkraftgegner_N
+    , kernkraftwerk_N
+    , kernladungszahl_N
+    , kernmaterial_N
+    , kernphonem_N
+    , kernprotein_N
+    , kernreaktor_N
+    , kernrezeptor_N
+    , kernsatz_N
+    , kernschmelze_N
+    , kernsequenz_N
+    , kernspaltung_N
+    , kernspeicher_N
+    , kernwaffenexplosion_N
     , kapselhuelse_N
     , kapsidpartikel_N
     , kapsidprotein_N
@@ -3754,6 +3773,25 @@ lin keimlinie_N = mkN keim_N linie_N ;
 lin keimmonat_N = mkN keim_N monat_N ;
 lin keimplasmatheorie_N = mkN (mkN keim_N plasma_N) theorie_N ;
 lin keimzelle_N = changeCompoundN "Keimzellen" (mkN keim_N zelle_N) ;
+lin kernfamilie_N = mkN kern_N familie_N ;
+lin kernfusion_N = mkN kern_N fusion_N ;
+lin kerngedanke_N = mkN kern_N gedanke_N ;
+lin kernkompetenz_N = mkN kern_N kompetenz_N ;
+lin kernkraft_N = mkN kern_N kraft_N ;
+lin kernkraftgegner_N = mkN kernkraft_N gegner_N ;
+lin kernkraftwerk_N = mkN kernkraft_N werk_N ;
+lin kernladungszahl_N = mkN (mkN kern_N ladung_N) zahl_N ;
+lin kernmaterial_N = mkN kern_N material_N ;
+lin kernphonem_N = mkN kern_N phonem_N ;
+lin kernprotein_N = mkN kern_N protein_N ;
+lin kernreaktor_N = mkN kern_N reaktor_N ;
+lin kernrezeptor_N = mkN kern_N rezeptor_N ;
+lin kernsatz_N = mkN kern_N satz_N ;
+lin kernschmelze_N = mkN kern_N (mkN "Schmelze" "Schmelzen" feminine) ;
+lin kernsequenz_N = mkN kern_N sequenz_N ;
+lin kernspaltung_N = mkN kern_N spaltung_N ;
+lin kernspeicher_N = mkN kern_N speicher_N ;
+lin kernwaffenexplosion_N = mkN "Kernwaffen" explosion_N ;
 lin kapselhuelse_N = mkN kapsel_N huelse_N ;
 lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
 lin kapsidprotein_N = mkN kapsid_N protein_N ;
