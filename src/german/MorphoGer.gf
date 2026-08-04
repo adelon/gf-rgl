@@ -44,7 +44,7 @@ oper
 -- For $ParadigmsGer$.
 
   genitS : Bool -> Str -> Str = \flag,hund -> case hund of {
-    _ + ("el" | "en" | "er") => hund + "s" ;
+    _ + ("e" | "el" | "en" | "er") => hund + "s" ;
     _ + ("s" | "ß" | "sch" | "st" | "x" | "z") => hund + "es" ;
     _ => hund + case flag of {True => "s"; False => "es"}
     } ;
