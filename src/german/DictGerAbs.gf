@@ -738,6 +738,12 @@ fun
   aktenkoffer_N : N ;
   aktenmappe_N : N ;
   aktenordner_N : N ;
+  adventskalender_N : N ;
+  adventskerze_N : N ;
+  adventskranz_N : N ;
+  adventslied_N : N ;
+  adventssonntag_N : N ;
+  adventsstern_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;

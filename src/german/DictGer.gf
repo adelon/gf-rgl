@@ -199,6 +199,12 @@ concrete DictGer of DictGerAbs =
     , aktenkoffer_N
     , aktenmappe_N
     , aktenordner_N
+    , adventskalender_N
+    , adventskerze_N
+    , adventskranz_N
+    , adventslied_N
+    , adventssonntag_N
+    , adventsstern_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3689,6 +3695,12 @@ lin affenzelle_N = changeCompoundN "Affenzellen" (mkN "Affen" zelle_N) ;
 lin aktenkoffer_N = mkN "Akten" koffer_N ;
 lin aktenmappe_N = mkN "Akten" mappe_N ;
 lin aktenordner_N = mkN "Akten" ordner_N ;
+lin adventskalender_N = mkN "Advents" kalender_N ;
+lin adventskerze_N = mkN "Advents" kerze_N ;
+lin adventskranz_N = mkN "Advents" kranz_N ;
+lin adventslied_N = mkN "Advents" lied_N ;
+lin adventssonntag_N = mkN "Advents" sonntag_N ;
+lin adventsstern_N = mkN "Advents" stern_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
