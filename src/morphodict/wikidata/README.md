@@ -41,6 +41,7 @@ PYTHONPATH=src python3 -m wd2gf.cli noun probe --gf="$GF"
 PYTHONPATH=src python3 -m wd2gf.cli noun pilot --gf="$GF"
 PYTHONPATH=src python3 -m wd2gf.cli noun census
 PYTHONPATH=src python3 -m wd2gf.cli noun scale-gate --gf="$GF" --output-dir .work/phase3/gate-5000-primary
+PYTHONPATH=src python3 -m wd2gf.cli noun scale-report --primary-dir .work/phase3/gate-5000-primary --repeat-dir .work/phase3/gate-5000-repeat
 ```
 
 `languages/ger/scale-policy.toml` authorizes only the 5,000 Phase 3 gate and

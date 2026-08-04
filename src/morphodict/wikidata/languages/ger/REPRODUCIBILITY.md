@@ -210,3 +210,35 @@ Candidates without a source component analysis remain structurally unresolved
 rather than being counted as atomic. Counts, acceptance tiers, multi-gender
 correlation findings, ambiguity and quarantine reasons, and placement-neutral
 cohorts are recorded in `noun-census.md`.
+
+## Phase 3 first noun scale gate
+
+The frozen policy authorizes only the 5,000 gate. The final primary and repeat
+runs used the configured optimized GF from the Phase 2 preflight and separate,
+initially absent output directories:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli noun scale-gate --gf="$GF" --output-dir .work/phase3/gate-5000-primary-final
+PYTHONPATH=src python3 -m wd2gf.cli noun scale-gate --gf="$GF" --output-dir .work/phase3/gate-5000-repeat-final
+```
+
+The committed report was generated at its exact location, and independently
+regenerated for a byte comparison, with:
+
+```sh
+PYTHONPATH=src python3 -m wd2gf.cli noun scale-report --primary-dir .work/phase3/gate-5000-primary-final --repeat-dir .work/phase3/gate-5000-repeat-final --output languages/ger/scale-results.md
+PYTHONPATH=src python3 -m wd2gf.cli noun scale-report --primary-dir .work/phase3/gate-5000-primary-final --repeat-dir .work/phase3/gate-5000-repeat-final --output .work/phase3/gate-5000-report-repeat.md
+cmp languages/ger/scale-results.md .work/phase3/gate-5000-report-repeat.md
+```
+
+`scale-report` also verifies 117 primary/repeat artifacts before writing:
+deterministic fitting and reserve selections, generated GF sources, proposal
+manifests, structured probe TSVs, PGFs, fit details, selected records, and the
+compact semantic summary. The semantic summary SHA-256 is
+`b14f1bb1a42f7b031e44c1abec5fa3284fcdb400cd638268ec5c80943c61fe10` in
+both runs. The committed report is 7487 bytes with SHA-256
+`85cc0406c35fd0a34c8f3edab987b55841ef8e6005bda989b7a2a166a94c05fe`.
+Timing JSON is intentionally not byte-compared. Every primary and repeat budget
+check passed; the measured values and the three projected-automatic fit misses
+are recorded in `scale-results.md`. No 25,000 gate or unrelated RGL build was
+run.
