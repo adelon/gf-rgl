@@ -2963,6 +2963,14 @@ fun
   hammerhai_N : N ;
   hamsterfell_N : N ;
   hamsterkaefig_N : N ;
+  immunkrankheit_N : N ;
+  immunserum_N : N ;
+  immunsystemerkrankung_N : N ;
+  impfkristall_N : N ;
+  impfstoffbestandteil_N : N ;
+  impfstoffkomponente_N : N ;
+  impfstoffvalenz_N : N ;
+  impfstoffzusammensetzung_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

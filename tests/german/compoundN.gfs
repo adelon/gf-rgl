@@ -1789,3 +1789,11 @@ cc -all hammergruppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ha
 cc -all hammerhai_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hammerhai_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hammerhai_N.co
 cc -all hamsterfell_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hamsterfell_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hamsterfell_N.co
 cc -all hamsterkaefig_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hamsterkaefig_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hamsterkaefig_N.co
+cc -all immunkrankheit_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ immunkrankheit_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ immunkrankheit_N.co
+cc -all immunserum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ immunserum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ immunserum_N.co
+cc -all immunsystemerkrankung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ immunsystemerkrankung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ immunsystemerkrankung_N.co
+cc -all impfkristall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfkristall_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfkristall_N.co
+cc -all impfstoffbestandteil_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffbestandteil_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffbestandteil_N.co
+cc -all impfstoffkomponente_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffkomponente_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffkomponente_N.co
+cc -all impfstoffvalenz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffvalenz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffvalenz_N.co
+cc -all impfstoffzusammensetzung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ impfstoffzusammensetzung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ impfstoffzusammensetzung_N.co

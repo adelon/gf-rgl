@@ -1151,6 +1151,14 @@ concrete DictGer of DictGerAbs =
     , hammerhai_N
     , hamsterfell_N
     , hamsterkaefig_N
+    , immunkrankheit_N
+    , immunserum_N
+    , immunsystemerkrankung_N
+    , impfkristall_N
+    , impfstoffbestandteil_N
+    , impfstoffkomponente_N
+    , impfstoffvalenz_N
+    , impfstoffzusammensetzung_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6490,6 +6498,14 @@ lin hammergruppe_N = mkN hammer_N gruppe_N ;
 lin hammerhai_N = mkN hammer_N hai_N ;
 lin hamsterfell_N = mkN hamster_N fell_N ;
 lin hamsterkaefig_N = mkN hamster_N kaefig_N ;
+lin immunkrankheit_N = mkN "Immun" krankheit_N ;
+lin immunserum_N = mkN "Immun" serum_N ;
+lin immunsystemerkrankung_N = mkN immunsystem_N erkrankung_N ;
+lin impfkristall_N = mkN "Impf" kristall_N ;
+lin impfstoffbestandteil_N = mkN "Impfstoff" bestandteil_N ;
+lin impfstoffkomponente_N = mkN "Impfstoff" komponente_N ;
+lin impfstoffvalenz_N = mkN "Impfstoff" valenz_N ;
+lin impfstoffzusammensetzung_N = mkN "Impfstoff" zusammensetzung_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
