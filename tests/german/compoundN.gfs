@@ -1757,3 +1757,8 @@ cc -all erntegut_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ernteg
 cc -all erntehelfer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erntehelfer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erntehelfer_N.co
 cc -all erntematerial_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erntematerial_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erntematerial_N.co
 cc -all erntemonat_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erntemonat_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erntemonat_N.co
+cc -all erdapfel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erdapfel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erdapfel_N.co
+cc -all erdrutsch_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erdrutsch_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erdrutsch_N.co
+cc -all erstauffuehrung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erstauffuehrung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erstauffuehrung_N.co
+cc -all erstsprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erstsprache_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erstsprache_N.co
+cc -all erststimme_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ erststimme_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ erststimme_N.co

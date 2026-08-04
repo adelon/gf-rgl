@@ -2931,6 +2931,11 @@ fun
   erntehelfer_N : N ;
   erntematerial_N : N ;
   erntemonat_N : N ;
+  erdapfel_N : N ;
+  erdrutsch_N : N ;
+  erstauffuehrung_N : N ;
+  erstsprache_N : N ;
+  erststimme_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

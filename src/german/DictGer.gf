@@ -1119,6 +1119,11 @@ concrete DictGer of DictGerAbs =
     , erntehelfer_N
     , erntematerial_N
     , erntemonat_N
+    , erdapfel_N
+    , erdrutsch_N
+    , erstauffuehrung_N
+    , erstsprache_N
+    , erststimme_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6426,6 +6431,11 @@ lin erntegut_N = mkN "Ernte" gut_N ;
 lin erntehelfer_N = mkN "Ernte" helfer_N ;
 lin erntematerial_N = mkN "Ernte" material_N ;
 lin erntemonat_N = mkN "Ernte" monat_N ;
+lin erdapfel_N = mkN erde_N apfel_N ;
+lin erdrutsch_N = mkN erde_N rutsch_N ;
+lin erstauffuehrung_N = changeCompoundN "Erstaufführungs" (mkN "Erst" auffuehrung_N) ;
+lin erstsprache_N = changeCompoundN "Erstsprachen" (mkN "Erst" sprache_N) ;
+lin erststimme_N = changeCompoundN "Erststimmen" (mkN "Erst" stimme_N) ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
