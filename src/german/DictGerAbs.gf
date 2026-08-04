@@ -2885,6 +2885,13 @@ fun
   edelmetall_N : N ;
   edelstein_N : N ;
   egotrip_N : N ;
+  edelfeder_N : N ;
+  edelfrau_N : N ;
+  edelknabe_N : N ;
+  edelmarderfell_N : N ;
+  edelpilz_N : N ;
+  eichhase_N : N ;
+  eichhoernchen_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

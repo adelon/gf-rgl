@@ -1073,6 +1073,13 @@ concrete DictGer of DictGerAbs =
     , edelmetall_N
     , edelstein_N
     , egotrip_N
+    , edelfeder_N
+    , edelfrau_N
+    , edelknabe_N
+    , edelmarderfell_N
+    , edelpilz_N
+    , eichhase_N
+    , eichhoernchen_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6334,6 +6341,13 @@ lin edelgas_N = mkN "Edel" gas_N ;
 lin edelmetall_N = mkN "Edel" metall_N ;
 lin edelstein_N = mkN "Edel" stein_N ;
 lin egotrip_N = mkN ego_N trip_N ;
+lin edelfeder_N = mkN "Edel" feder_N ;
+lin edelfrau_N = mkN "Edel" frau_N ;
+lin edelknabe_N = mkN "Edel" knabe_N ;
+lin edelmarderfell_N = mkN "Edel" (mkN marder_N fell_N) ;
+lin edelpilz_N = mkN "Edel" pilz_N ;
+lin eichhase_N = mkN "Eich" hase_N ;
+lin eichhoernchen_N = mkN "Eich" hoernchen_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

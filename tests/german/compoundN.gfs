@@ -1711,3 +1711,10 @@ cc -all edelgas_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelgas
 cc -all edelmetall_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelmetall_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelmetall_N.co
 cc -all edelstein_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelstein_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelstein_N.co
 cc -all egotrip_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ egotrip_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ egotrip_N.co
+cc -all edelfeder_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelfeder_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelfeder_N.co
+cc -all edelfrau_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelfrau_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelfrau_N.co
+cc -all edelknabe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelknabe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelknabe_N.co
+cc -all edelmarderfell_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelmarderfell_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelmarderfell_N.co
+cc -all edelpilz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ edelpilz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ edelpilz_N.co
+cc -all eichhase_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eichhase_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eichhase_N.co
+cc -all eichhoernchen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ eichhoernchen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ eichhoernchen_N.co
