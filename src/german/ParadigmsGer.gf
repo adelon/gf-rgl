@@ -76,8 +76,9 @@ mkN : overload {
 
   mkN : (Bild,Bilder : Str) -> Gender -> N ; -- sg and pl nom, and gender
 
--- A preferred productive compound modifier form can be supplied as a third
--- principal part. It may include a linker or an internal hyphen.
+-- The canonical productive compound modifier form can be supplied as a third
+-- principal part. It may include a linker or an internal hyphen. Lexicalized
+-- exceptions belong at the compound boundary rather than in this default.
 
   mkN : (sg,pl,co : Str) -> Gender -> N ;
 
@@ -90,9 +91,15 @@ mkN : overload {
 
 -- compound nouns
 
-  mkN : Str -> N -> N ;   -- Auto + Fahrer -> Autofahrer
+  -- Use the given string as the exact internal modifier form. The result takes
+  -- its inflection and gender from the head and propagates the head's canonical
+  -- compound form at its outward boundary: Auto + Fahrer -> Autofahrer.
+  mkN : Str -> N -> N ;
 
-  mkN : N -> N -> N ;     -- Freiheit + Kampf -> Freiheitskampf
+  -- Use the first noun's canonical co form at the internal boundary. Inflection,
+  -- gender, and outward compound-form propagation are otherwise as above:
+  -- Freiheit + Kampf -> Freiheitskampf.
+  mkN : N -> N -> N ;
 
   };
 
@@ -112,9 +119,10 @@ mkN : overload {
     invarPlN : (sg,pl : Str) -> Gender -> N ;
     } ;
 
--- The default compound form can be changed:
+-- Set the canonical outward compound modifier form of a completed noun.
+-- Citation and inflectional forms and gender remain unchanged.
 
-    changeCompoundN : Str -> N -> N ;   -- kyrko + kyrka_N
+    changeCompoundN : Str -> N -> N ;
 
 -- Add dative -e ; typically used as variant, either first or second.
 
@@ -525,9 +533,19 @@ mkV2 : overload {
       uncap = n.uncap ** {co = toLowerFirst co} ;
       } ;
 
-  dative_eN : N -> N = \n -> n ** {
-      s = table {Sg => table {Dat => n.s ! Sg ! Dat + "e" ; c => n.s ! Sg ! c} ; Pl => n.s ! Pl} ;
-      } ; ---- change uncap as well?
+  dative_eN : N -> N = \n ->
+    let addDativeE : (Number => Case => Str) -> (Number => Case => Str) =
+      \forms -> table {
+        Sg => table {
+          Dat => forms ! Sg ! Dat + "e" ;
+          c => forms ! Sg ! c
+          } ;
+        Pl => forms ! Pl
+        }
+    in n ** {
+      s = addDativeE n.s ;
+      uncap = n.uncap ** {s = addDativeE n.uncap.s}
+      } ;
 
   mkN2 = overload {
     mkN2 : Str -> N2 = \s -> vonN2 (regN s) ;
@@ -803,6 +821,8 @@ mkV2 : overload {
 
     };
 
+    -- The supplied string realizes the internal boundary; the completed noun's
+    -- outward co transparently combines it with the head's canonical co.
     mkCompoundN : Str -> N -> N  -- Auto + Fahrer -> Autofahrer
       = \s,x -> lin N {
           s  = \\n,c => s + x.uncap.s ! n ! c ; 

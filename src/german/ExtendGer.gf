@@ -426,6 +426,8 @@ concrete ExtendGer of Extend =
 
 --- from Extensions
 
+    -- The first noun's canonical co realizes the internal boundary. The
+    -- completed noun transparently propagates the head's co outward.
     CompoundN a x =
       let s = a.co in lin N {
         s  = \\n,c => s ++ Predef.BIND ++ x.uncap.s ! n ! c ;
