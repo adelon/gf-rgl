@@ -1781,3 +1781,11 @@ cc -all gemuesehobel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ge
 cc -all gemuesesaft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesesaft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesesaft_N.co
 cc -all gemueseschale_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemueseschale_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemueseschale_N.co
 cc -all gemuesesuppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ gemuesesuppe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ gemuesesuppe_N.co
+cc -all hagebutte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hagebutte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hagebutte_N.co
+cc -all hagelkorn_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hagelkorn_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hagelkorn_N.co
+cc -all hagelversicherung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hagelversicherung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hagelversicherung_N.co
+cc -all hainbuche_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hainbuche_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hainbuche_N.co
+cc -all hammergruppe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hammergruppe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hammergruppe_N.co
+cc -all hammerhai_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hammerhai_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hammerhai_N.co
+cc -all hamsterfell_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hamsterfell_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hamsterfell_N.co
+cc -all hamsterkaefig_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ hamsterkaefig_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ hamsterkaefig_N.co

@@ -2955,6 +2955,14 @@ fun
   gemuesesaft_N : N ;
   gemueseschale_N : N ;
   gemuesesuppe_N : N ;
+  hagebutte_N : N ;
+  hagelkorn_N : N ;
+  hagelversicherung_N : N ;
+  hainbuche_N : N ;
+  hammergruppe_N : N ;
+  hammerhai_N : N ;
+  hamsterfell_N : N ;
+  hamsterkaefig_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;

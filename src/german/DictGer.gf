@@ -1143,6 +1143,14 @@ concrete DictGer of DictGerAbs =
     , gemuesesaft_N
     , gemueseschale_N
     , gemuesesuppe_N
+    , hagebutte_N
+    , hagelkorn_N
+    , hagelversicherung_N
+    , hainbuche_N
+    , hammergruppe_N
+    , hammerhai_N
+    , hamsterfell_N
+    , hamsterkaefig_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6474,6 +6482,14 @@ lin gemuesehobel_N = mkN gemuese_N hobel_N ;
 lin gemuesesaft_N = mkN gemuese_N saft_N ;
 lin gemueseschale_N = mkN gemuese_N schale_N ;
 lin gemuesesuppe_N = mkN gemuese_N suppe_N ;
+lin hagebutte_N = mkN "Hage" butte_N ;
+lin hagelkorn_N = mkN "Hagel" korn_N ;
+lin hagelversicherung_N = mkN "Hagel" versicherung_N ;
+lin hainbuche_N = mkN hain_N buche_N ;
+lin hammergruppe_N = mkN hammer_N gruppe_N ;
+lin hammerhai_N = mkN hammer_N hai_N ;
+lin hamsterfell_N = mkN hamster_N fell_N ;
+lin hamsterkaefig_N = mkN hamster_N kaefig_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;
