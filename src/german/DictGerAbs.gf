@@ -1125,6 +1125,12 @@ fun
   slawische_sprache_CN : CN ;
   synthetische_sprache_CN : CN ;
   westgermanische_sprache_CN : CN ;
+  direkte_frage_CN : CN ;
+  direktes_objekt_CN : CN ;
+  direkter_sprechakt_CN : CN ;
+  indirekte_frage_CN : CN ;
+  indirektes_objekt_CN : CN ;
+  indirekter_sprechakt_CN : CN ;
   grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;

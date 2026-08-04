@@ -2902,6 +2902,12 @@ concrete DictGer of DictGerAbs =
     , slawische_sprache_N
     , synthetische_sprache_N
     , westgermanische_sprache_N
+    , direkte_frage_N
+    , direkte_objekt_N
+    , direkte_sprechakt_N
+    , indirekte_frage_N
+    , indirekte_objekt_N
+    , indirekte_sprechakt_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -4651,6 +4657,12 @@ lin skandinavische_sprache_CN = S.mkCN skandinavisch_A sprache_N ;
 lin slawische_sprache_CN = S.mkCN slawisch_A sprache_N ;
 lin synthetische_sprache_CN = S.mkCN synthetisch_A sprache_N ;
 lin westgermanische_sprache_CN = S.mkCN westgermanisch_A sprache_N ;
+lin direkte_frage_CN = S.mkCN direkt_A frage_N ;
+lin direktes_objekt_CN = S.mkCN direkt_A objekt_N ;
+lin direkter_sprechakt_CN = S.mkCN direkt_A sprechakt_N ;
+lin indirekte_frage_CN = S.mkCN indirekt_A frage_N ;
+lin indirektes_objekt_CN = S.mkCN indirekt_A objekt_N ;
+lin indirekter_sprechakt_CN = S.mkCN indirekt_A sprechakt_N ;
 lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
 lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
 lin ewige_schach_N = changeCompoundN "Ewiges-Schach"

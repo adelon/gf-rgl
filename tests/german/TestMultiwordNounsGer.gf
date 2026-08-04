@@ -221,7 +221,13 @@ oper
     ++ DictGer.slawische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.synthetische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.westgermanische_sprache_CN.s ! Strong ! Sg ! Nom
-    ++ DictGer.kurdische_sprache_CN.s ! Strong ! Sg ! Nom ;
+    ++ DictGer.kurdische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.direkte_frage_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.direktes_objekt_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.direkter_sprechakt_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.indirekte_frage_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.indirektes_objekt_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.indirekter_sprechakt_CN.s ! Strong ! Sg ! Nom ;
   fusionSg = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
     DictGer.fusionierende_sprache_CN ;
   fusionDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
@@ -245,7 +251,13 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
       DictGer.mikronesische_sprache_CN).s ! False ! Nom
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
-      DictGer.westgermanische_sprache_CN).s ! False ! Dat ;
+      DictGer.westgermanische_sprache_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.direkte_frage_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.direktes_objekt_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.indirekter_sprechakt_CN).s ! False ! Dat ;
 
   reportedSpeechCitations : Str =
     DictGer.direkte_rede_CN.s ! Strong ! Sg ! Nom
