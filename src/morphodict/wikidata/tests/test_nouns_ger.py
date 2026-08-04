@@ -21,6 +21,12 @@ from wd2gf.nouns_ger import (
     select_noun_sample,
 )
 from wd2gf.profile_ger import DEFAULT_FEATURE_POLICY, load_feature_policy
+from wd2gf.probe_ger import (
+    FieldEvidence,
+    ProbeRecord,
+    compare_record,
+    decode_probe,
+)
 from wd2gf.store import SourcePolicy, ingest_dump
 
 
@@ -356,8 +362,9 @@ class NounCandidateTests(unittest.TestCase):
             concrete = (root / "rendered/WdnPilotGer.gf").read_text(
                 encoding="utf-8"
             )
+            self.assertIn("probe_record", concrete)
             for field in PROBE_FIELDS:
-                self.assertIn(f"probe_{field}", concrete)
+                self.assertIn(f"{field} : Str", concrete)
             first_render = [artifact.path.read_bytes() for artifact in artifacts]
             _, repeated_artifacts = render_proposal_modules(
                 first, noun_policy, root / "repeated"
@@ -365,6 +372,66 @@ class NounCandidateTests(unittest.TestCase):
             self.assertEqual(
                 first_render,
                 [artifact.path.read_bytes() for artifact in repeated_artifacts],
+            )
+
+            first_option = options[0]
+            probe_lines = [
+                "candidate_id\toption_id\tfunction_id\tvariant_index\tfield\tvalue_json"
+            ]
+            probe_lines.extend(
+                "\t".join(
+                    (
+                        first_option.candidate_id,
+                        first_option.option_id,
+                        first_option.function_id,
+                        "1",
+                        field,
+                        json.dumps(field),
+                    )
+                )
+                for field in PROBE_FIELDS
+            )
+            decoded = decode_probe(
+                ("\n".join(probe_lines) + "\n").encode("utf-8"),
+                (first_option,),
+            )
+            self.assertEqual(len(decoded[first_option.option_id]), 1)
+
+            plural_candidate = sampled_by_source["L2"].candidate
+            plural_record_values = {field: "" for field in PROBE_FIELDS}
+            for field in ("s_pl_nom", "s_pl_acc", "s_pl_dat", "s_pl_gen"):
+                plural_record_values[field] = "Kosten"
+            for field in (
+                "uncap_s_pl_nom",
+                "uncap_s_pl_acc",
+                "uncap_s_pl_dat",
+                "uncap_s_pl_gen",
+            ):
+                plural_record_values[field] = "kosten"
+            plural_record_values.update(
+                {
+                    "gender": "masculine",
+                    "co": "Kosten",
+                    "uncap_co": "kosten",
+                    "csep": "bind",
+                }
+            )
+            plural_comparison = compare_record(
+                plural_candidate,
+                plural_options[0],
+                ProbeRecord(
+                    plural_options[0].option_id,
+                    1,
+                    tuple(
+                        (field, plural_record_values[field]) for field in PROBE_FIELDS
+                    ),
+                ),
+            )
+            self.assertEqual(plural_comparison.mismatches, ())
+            evidence = dict(plural_comparison.field_evidence)
+            self.assertEqual(evidence["s_sg_nom"], FieldEvidence.UNAVAILABLE)
+            self.assertEqual(
+                evidence["uncap_s_sg_nom"], FieldEvidence.UNAVAILABLE
             )
 
     def test_pinned_dump_nouns_are_forced_into_the_sample(self) -> None:

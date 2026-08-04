@@ -1250,14 +1250,13 @@ def _probe_expression(field: str) -> str:
 
 def _abstract_module(options: Sequence[ProposalOption]) -> bytes:
     functions = [f"  {option.function_id} : Entry ;" for option in options]
-    probes = [f"  probe_{field} : Entry -> Probe ;" for field in PROBE_FIELDS]
     source = [
         "abstract WdnPilotAbs = {",
         "flags startcat=Entry ;",
         "cat Entry ; Probe ;",
         "fun",
         *functions,
-        *probes,
+        "  probe_record : Entry -> Probe ;",
         "}",
         "",
     ]
@@ -1268,18 +1267,20 @@ def _concrete_module(options: Sequence[ProposalOption]) -> bytes:
     entries = [
         f"  {option.function_id} = {option.expression} ;" for option in options
     ]
-    probes = [
-        f"  probe_{field} n = {{s = {_probe_expression(field)}}} ;"
-        for field in PROBE_FIELDS
-    ]
+    probe_type = " ; ".join(f"{field} : Str" for field in PROBE_FIELDS)
+    probe_values = " ;\n    ".join(
+        f"{field} = {_probe_expression(field)}" for field in PROBE_FIELDS
+    )
     source = [
         "concrete WdnPilotGer of WdnPilotAbs =",
         "  open Prelude, (R=ResGer), (P=ParadigmsGer) in {",
         "flags coding=utf8 ;",
-        "lincat Entry = R.Noun ; Probe = {s : Str} ;",
+        f"lincat Entry = R.Noun ; Probe = {{{probe_type}}} ;",
         "lin",
         *entries,
-        *probes,
+        "  probe_record n = {",
+        f"    {probe_values}",
+        "    } ;",
         "}",
         "",
     ]

@@ -37,6 +37,7 @@ from wd2gf.profile_ger import (
     generate_interpreted_profile,
     generate_raw_profile,
 )
+from wd2gf.probe_ger import probe_nouns
 from wd2gf.store import (
     DEFAULT_DATABASE,
     DEFAULT_SOURCE_POLICY,
@@ -183,6 +184,33 @@ def _noun_render(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_probe(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    sample, sample_artifact = generate_noun_sample(
+        database_path=args.database,
+        noun_policy_path=args.noun_policy,
+        feature_policy_path=args.feature_policy,
+        output_path=args.output_dir / "noun-sample.tsv",
+        expected_snapshot=snapshot_metadata,
+    )
+    run = probe_nouns(
+        sample=sample,
+        noun_policy=load_noun_policy(args.noun_policy),
+        gf_path=args.gf,
+        work_dir=args.output_dir,
+    )
+    accepted = sum(fit.accepted is not None for fit in run.fits)
+    print(
+        f"{sample_artifact.sha256}  {sample_artifact.size_bytes}  "
+        f"{sample_artifact.path}"
+    )
+    print(f"{run.raw_probe.sha256}  {run.raw_probe.size_bytes}  {run.raw_probe.path}")
+    print(f"{run.details.sha256}  {run.details.size_bytes}  {run.details.path}")
+    print(f"pgf_sha256={run.pgf_sha256}")
+    print(f"accepted={accepted} rejected={len(run.fits) - accepted}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -314,6 +342,23 @@ def build_parser() -> argparse.ArgumentParser:
     noun_render_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     noun_render_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     noun_render_parser.set_defaults(handler=_noun_render)
+    noun_probe_parser = noun_commands.add_parser(
+        "probe", help="compile and structurally probe every noun proposal"
+    )
+    noun_probe_parser.add_argument("--gf", type=Path, required=True)
+    noun_probe_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    noun_probe_parser.add_argument(
+        "--noun-policy", type=Path, default=DEFAULT_NOUN_POLICY
+    )
+    noun_probe_parser.add_argument(
+        "--feature-policy", type=Path, default=DEFAULT_FEATURE_POLICY
+    )
+    noun_probe_parser.add_argument(
+        "--output-dir", type=Path, default=DEFAULT_NOUN_WORK
+    )
+    noun_probe_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    noun_probe_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    noun_probe_parser.set_defaults(handler=_noun_probe)
     return parser
 
 
