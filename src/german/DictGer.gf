@@ -257,6 +257,13 @@ concrete DictGer of DictGerAbs =
     , aminosaeureseitenkette_N
     , aminosaeurestruktur_N
     , aminosaeuresubstitution_N
+    , aminosaeurensequenz_N
+    , aminosaeurensubstitution_N
+    , aminosaeureseitenketteneinheit_N
+    , aminosaeuresequenz_N
+    , aminosaeuresequenzvariante_N
+    , aminosaeureteilsequenz_N
+    , aminosaeurezusammensetzung_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3805,6 +3812,13 @@ lin aminosaeureposition_N = mkN aminosaeure_N position_N ;
 lin aminosaeureseitenkette_N = mkN aminosaeure_N seitenkette_N ;
 lin aminosaeurestruktur_N = mkN aminosaeure_N struktur_N ;
 lin aminosaeuresubstitution_N = mkN aminosaeure_N substitution_N ;
+lin aminosaeurensequenz_N = mkN "Aminosäuren" sequenz_N ;
+lin aminosaeurensubstitution_N = mkN "Aminosäuren" substitution_N ;
+lin aminosaeureseitenketteneinheit_N = mkN (mkN aminosaeure_N seitenkette_N) einheit_N ;
+lin aminosaeuresequenz_N = mkN aminosaeure_N sequenz_N ;
+lin aminosaeuresequenzvariante_N = mkN (mkN aminosaeure_N sequenz_N) variante_N ;
+lin aminosaeureteilsequenz_N = mkN aminosaeure_N teilsequenz_N ;
+lin aminosaeurezusammensetzung_N = mkN aminosaeure_N zusammensetzung_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

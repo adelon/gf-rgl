@@ -796,6 +796,13 @@ fun
   aminosaeureseitenkette_N : N ;
   aminosaeurestruktur_N : N ;
   aminosaeuresubstitution_N : N ;
+  aminosaeurensequenz_N : N ;
+  aminosaeurensubstitution_N : N ;
+  aminosaeureseitenketteneinheit_N : N ;
+  aminosaeuresequenz_N : N ;
+  aminosaeuresequenzvariante_N : N ;
+  aminosaeureteilsequenz_N : N ;
+  aminosaeurezusammensetzung_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
