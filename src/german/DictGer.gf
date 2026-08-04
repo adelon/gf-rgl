@@ -1737,6 +1737,23 @@ concrete DictGer of DictGerAbs =
     , kapitaensbinde_N
     , kapitalismusanalyse_N
     , kapitalzinsfuss_N
+    , kartoffelacker_N
+    , kartoffelchip_N
+    , kartoffelernte_N
+    , kartoffelkaefer_N
+    , kartoffelkloss_N
+    , kartoffelknoedel_N
+    , kartoffelmus_N
+    , kartoffelnase_N
+    , kartoffelpueree_N
+    , kartoffelpuffer_N
+    , kartoffelreibe_N
+    , kartoffelsack_N
+    , kartoffelsalat_N
+    , kartoffelschaeler_N
+    , kartoffelschale_N
+    , kartoffelsorte_N
+    , kartoffelstampfer_N
     , kapselhuelse_N
     , kapsidpartikel_N
     , kapsidprotein_N
@@ -3652,6 +3669,23 @@ lin kanonenturm_N = mkN "Kanonen" turm_N ;
 lin kapitaensbinde_N = mkN "Kapitäns" binde_N ;
 lin kapitalismusanalyse_N = mkN "Kapitalismus" analyse_N ;
 lin kapitalzinsfuss_N = mkN "Kapital" (mkN "Zinsfuß" "Zinsfüße" masculine) ;
+lin kartoffelacker_N = mkN kartoffel_N acker_N ;
+lin kartoffelchip_N = mkN kartoffel_N chip_N ;
+lin kartoffelernte_N = mkN kartoffel_N ernte_N ;
+lin kartoffelkaefer_N = mkN kartoffel_N kaefer_N ;
+lin kartoffelkloss_N = mkN kartoffel_N kloss_N ;
+lin kartoffelknoedel_N = mkN kartoffel_N knoedel_N ;
+lin kartoffelmus_N = mkN kartoffel_N mus_N ;
+lin kartoffelnase_N = mkN kartoffel_N nase_N ;
+lin kartoffelpueree_N = mkN kartoffel_N pueree_N ;
+lin kartoffelpuffer_N = mkN kartoffel_N puffer_N ;
+lin kartoffelreibe_N = changeCompoundN "Kartoffelreiben" (mkN kartoffel_N reibe_N) ;
+lin kartoffelsack_N = mkN kartoffel_N sack_N ;
+lin kartoffelsalat_N = mkN kartoffel_N salat_N ;
+lin kartoffelschaeler_N = mkN kartoffel_N (mkN "Schäler" "Schäler" masculine) ;
+lin kartoffelschale_N = mkN kartoffel_N schale_N ;
+lin kartoffelsorte_N = mkN kartoffel_N sorte_N ;
+lin kartoffelstampfer_N = mkN kartoffel_N stampfer_N ;
 lin kapselhuelse_N = mkN kapsel_N huelse_N ;
 lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
 lin kapsidprotein_N = mkN kapsid_N protein_N ;
