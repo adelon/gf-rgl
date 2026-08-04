@@ -576,6 +576,18 @@ fun
   karbidlampe_N : N ;
   kardinalzahl_N : N ;
   kapuzenwaldsaenger_N : N ;
+  kassenhaeuschen_N : N ;
+  kassenpatient_N : N ;
+  kassenschlager_N : N ;
+  kassenwart_N : N ;
+  kassettendecke_N : N ;
+  kassettenfilm_N : N ;
+  kassettenvektor_N : N ;
+  kastanienbaum_N : N ;
+  kastenfuss_N : N ;
+  kasusgrammatik_N : N ;
+  kasusrektion_N : N ;
+  kasusrolle_N : N ;
   kapselhuelse_N : N ;
   kapsidpartikel_N : N ;
   kapsidprotein_N : N ;

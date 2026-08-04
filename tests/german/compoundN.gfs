@@ -1838,3 +1838,15 @@ cc -all kaufvertrag_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kau
 cc -all karbidlampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ karbidlampe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ karbidlampe_N.co
 cc -all kardinalzahl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kardinalzahl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kardinalzahl_N.co
 cc -all kapuzenwaldsaenger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kapuzenwaldsaenger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kapuzenwaldsaenger_N.co
+cc -all kassenhaeuschen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassenhaeuschen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassenhaeuschen_N.co
+cc -all kassenpatient_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassenpatient_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassenpatient_N.co
+cc -all kassenschlager_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassenschlager_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassenschlager_N.co
+cc -all kassenwart_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassenwart_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassenwart_N.co
+cc -all kassettendecke_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassettendecke_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassettendecke_N.co
+cc -all kassettenfilm_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassettenfilm_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassettenfilm_N.co
+cc -all kassettenvektor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kassettenvektor_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kassettenvektor_N.co
+cc -all kastanienbaum_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kastanienbaum_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kastanienbaum_N.co
+cc -all kastenfuss_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kastenfuss_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kastenfuss_N.co
+cc -all kasusgrammatik_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kasusgrammatik_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kasusgrammatik_N.co
+cc -all kasusrektion_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kasusrektion_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kasusrektion_N.co
+cc -all kasusrolle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kasusrolle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kasusrolle_N.co

@@ -1763,6 +1763,18 @@ concrete DictGer of DictGerAbs =
     , karbidlampe_N
     , kardinalzahl_N
     , kapuzenwaldsaenger_N
+    , kassenhaeuschen_N
+    , kassenpatient_N
+    , kassenschlager_N
+    , kassenwart_N
+    , kassettendecke_N
+    , kassettenfilm_N
+    , kassettenvektor_N
+    , kastanienbaum_N
+    , kastenfuss_N
+    , kasusgrammatik_N
+    , kasusrektion_N
+    , kasusrolle_N
     , kapselhuelse_N
     , kapsidpartikel_N
     , kapsidprotein_N
@@ -3704,6 +3716,18 @@ lin kaufvertrag_N = mkN kauf_N vertrag_N ;
 lin karbidlampe_N = mkN "Karbid" lampe_N ;
 lin kardinalzahl_N = mkN kardinal_N zahl_N ;
 lin kapuzenwaldsaenger_N = mkN "Kapuzen" (mkN "Waldsänger" "Waldsänger" masculine) ;
+lin kassenhaeuschen_N = mkN "Kassen" (mkN "Häuschen" "Häuschen" neuter) ;
+lin kassenpatient_N = mkN "Kassen" patient_N ;
+lin kassenschlager_N = mkN "Kassen" schlager_N ;
+lin kassenwart_N = mkN "Kassen" wart_N ;
+lin kassettendecke_N = mkN "Kassetten" decke_N ;
+lin kassettenfilm_N = mkN "Kassetten" film_N ;
+lin kassettenvektor_N = mkN "Kassetten" vektor_N ;
+lin kastanienbaum_N = mkN "Kastanien" baum_N ;
+lin kastenfuss_N = mkN kasten_N fuss_N ;
+lin kasusgrammatik_N = mkN kasus_N grammatik_N ;
+lin kasusrektion_N = mkN kasus_N rektion_N ;
+lin kasusrolle_N = mkN kasus_N rolle_N ;
 lin kapselhuelse_N = mkN kapsel_N huelse_N ;
 lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
 lin kapsidprotein_N = mkN kapsid_N protein_N ;
