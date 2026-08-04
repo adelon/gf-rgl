@@ -1108,6 +1108,11 @@ concrete DictGer of DictGerAbs =
     , endwort_N
     , endzeitstimmung_N
     , endothelinrezeptor_N
+    , emulgiermittel_N
+    , empfaengnisverhuetungsmittel_N
+    , endometriumhyperplasie_N
+    , endothelinantagonist_N
+    , endothelzelle_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6404,6 +6409,11 @@ lin enantiomerenmischung_N = changeCompoundN "Enantiomerenmischungs" (mkN "Enant
 lin endwort_N = mkN "End" wort_N ;
 lin endzeitstimmung_N = changeCompoundN "Endzeitstimmungs" (mkN "Endzeit" stimmung_N) ;
 lin endothelinrezeptor_N = mkN "Endothelin" rezeptor_N ;
+lin emulgiermittel_N = mkN "Emulgier" mittel_N ;
+lin empfaengnisverhuetungsmittel_N = mkN "Empfängnisverhütungs" mittel_N ;
+lin endometriumhyperplasie_N = changeCompoundN "Endometriumhyperplasien" (mkN "Endometrium" hyperplasie_N) ;
+lin endothelinantagonist_N = changeCompoundN "Endothelinantagonist" (mkN "Endothelin" antagonist_N) ;
+lin endothelzelle_N = mkN "Endothel" zelle_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

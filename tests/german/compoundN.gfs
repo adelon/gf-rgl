@@ -1746,3 +1746,8 @@ cc -all enantiomerenmischung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominati
 cc -all endwort_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endwort_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endwort_N.co
 cc -all endzeitstimmung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endzeitstimmung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endzeitstimmung_N.co
 cc -all endothelinrezeptor_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endothelinrezeptor_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endothelinrezeptor_N.co
+cc -all emulgiermittel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ emulgiermittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ emulgiermittel_N.co
+cc -all empfaengnisverhuetungsmittel_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ empfaengnisverhuetungsmittel_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ empfaengnisverhuetungsmittel_N.co
+cc -all endometriumhyperplasie_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endometriumhyperplasie_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endometriumhyperplasie_N.co
+cc -all endothelinantagonist_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endothelinantagonist_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endothelinantagonist_N.co
+cc -all endothelzelle_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ endothelzelle_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ endothelzelle_N.co
