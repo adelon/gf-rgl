@@ -744,6 +744,9 @@ fun
   adventslied_N : N ;
   adventssonntag_N : N ;
   adventsstern_N : N ;
+  akkordarbeiter_N : N ;
+  akkordarbeiterin_N : N ;
+  akkordlohn_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;

@@ -205,6 +205,9 @@ concrete DictGer of DictGerAbs =
     , adventslied_N
     , adventssonntag_N
     , adventsstern_N
+    , akkordarbeiter_N
+    , akkordarbeiterin_N
+    , akkordlohn_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3701,6 +3704,9 @@ lin adventskranz_N = mkN "Advents" kranz_N ;
 lin adventslied_N = mkN "Advents" lied_N ;
 lin adventssonntag_N = mkN "Advents" sonntag_N ;
 lin adventsstern_N = mkN "Advents" stern_N ;
+lin akkordarbeiter_N = mkN akkord_N arbeiter_N ;
+lin akkordarbeiterin_N = mkN akkord_N arbeiterin_N ;
+lin akkordlohn_N = mkN akkord_N lohn_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
