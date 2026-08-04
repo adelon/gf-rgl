@@ -212,6 +212,7 @@ concrete NounGer of Noun = CatGer ** open ResGer, MorphoGer, Prelude in {
         s = \\n,c => f.uncap.s ! n ! c ++ appPrepNP f.c2 x ;
         co = f.uncap.co ++ appPrepNP f.c2 x ; ---- should not occur at all; the abstract syntax is problematic in giving N2
        } ;
+      csep = f.csep ;
       g = f.g ; 
       c2 = f.c3 ;
       } ;

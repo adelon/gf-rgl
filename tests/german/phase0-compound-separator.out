@@ -1,0 +1,10 @@
+Ordinary noun separator: Testkern testkern Testkern testkern bind masculine
+Abbreviation record: ABC ABC ABC ABC ABC ABC ABC ABC hyphen neuter
+Forced hyphen s: ABC-Testkern ABC-Testkern ABC-Testkern ABC-Testkerns ABC-Testkerne ABC-Testkerne ABC-Testkernen ABC-Testkerne
+Forced hyphen uncap.s: ABC-Testkern ABC-Testkern ABC-Testkern ABC-Testkerns ABC-Testkerne ABC-Testkerne ABC-Testkernen ABC-Testkerne
+Forced hyphen other: ABC-Testkern ABC-Testkern hyphen masculine
+Inferred and changed separators: A-Test A-Test hyphen Test-co hyphen
+Recursive separators: ABC-Testkern-Tor Vor-ABC-Testkern ABC-Testkern
+Hyphenated noun-adjective: ABC-frei ABC-freier
+Extend hyphen CompoundN: ABC Predef.BIND - Predef.BIND Testkern ABC Predef.BIND - Predef.BIND Testkern ABC Predef.BIND - Predef.BIND Testkern ABC Predef.BIND - Predef.BIND Testkern hyphen masculine
+Extend hyphen CompoundAP: ABC Predef.BIND - Predef.BIND frei ABC Predef.BIND - Predef.BIND freier

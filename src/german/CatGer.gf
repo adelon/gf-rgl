@@ -110,7 +110,8 @@ concrete CatGer of Cat =
     A2 = Adjective ** {c2 : Preposition} ;
 
     N  = Noun ; -- {s : Number => Case => Str ; co : Str ;
-                --  uncap : {s: Number => Case => Str ; co : Str} ; g : Gender}
+                --  uncap : {s: Number => Case => Str ; co : Str} ;
+                --  csep : CompoundSep ; g : Gender}
     N2 = Noun ** {c2 : Preposition} ;
     N3 = Noun ** {c2,c3 : Preposition} ;
     GN = {s : Case => Str; g : Sex} ;

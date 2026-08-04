@@ -78,7 +78,8 @@ mkN : overload {
 
 -- The canonical productive compound modifier form can be supplied as a third
 -- principal part. It may include a linker or an internal hyphen. Lexicalized
--- exceptions belong at the compound boundary rather than in this default.
+-- exceptions belong at the compound boundary rather than in this default. A
+-- hyphen in the citation or modifier form triggers Durchkopplung automatically.
 
   mkN : (sg,pl,co : Str) -> Gender -> N ;
 
@@ -102,6 +103,19 @@ mkN : overload {
   mkN : N -> N -> N ;
 
   };
+
+-- Mark an abbreviation as retaining its spelling and requiring a hyphen at
+-- compound boundaries: Pkw + Maut -> Pkw-Maut.
+
+  abbrevN : N -> N ;
+
+-- Force a hyphenated noun compound. Hyphenation propagates to later compound
+-- boundaries by Durchkopplung.
+
+  mkHyphenN : overload {
+    mkHyphenN : Str -> N -> N ;
+    mkHyphenN : N -> N -> N ;
+    } ;
 
 -- Nouns whose cases are invariant. The plural can be supplied separately.
 
@@ -533,9 +547,25 @@ mkV2 : overload {
              hunde hunden g
     } ;
    
-  changeCompoundN : Str -> N -> N = \co,n -> n ** {
+  changeCompoundN : Str -> N -> N = \co,n ->
+    let csep = mergeCompoundSep n.csep (inferCompoundSep co co)
+    in n ** {
       co = co ;
-      uncap = n.uncap ** {co = toLowerFirst co} ;
+      uncap = n.uncap ** {
+        co = case csep of {
+          BindSep => toLowerFirst co ;
+          HyphenSep => co
+          }
+        } ;
+      csep = csep ;
+      } ;
+
+  abbrevN : N -> N = \n -> n ** {
+      uncap = {
+        s = n.s ;
+        co = n.co
+        } ;
+      csep = HyphenSep
       } ;
 
   dative_eN : N -> N = \n ->
@@ -815,9 +845,9 @@ mkV2 : overload {
       = \sg,pl,co,g -> changeCompoundN co (reg2N sg pl g) ;
     mkN : (x1,_,_,_,_,x6 : Str) -> Gender -> N = mk6N ;
     mkN : Str -> N -> N  -- Auto + Fahrer -> Autofahrer
-      = \s,x -> mkCompoundN s x ;
+      = \s,x -> mkCompoundN BindSep s (toLowerFirst s) x ;
     mkN : N -> N -> N  
-      = \n,x -> mkCompoundN n.co x ;
+      = \n,x -> mkCompoundN n.csep n.co n.uncap.co x ;
     mkN : Str -> Gender -> Gender -> N 
       = \s,g,h -> reg1N s g ; --- | reg1N s h ; -- no variants in the RGL
 
@@ -826,17 +856,44 @@ mkV2 : overload {
 
     };
 
-    -- The supplied string realizes the internal boundary; the completed noun's
-    -- outward co transparently combines it with the head's canonical co.
-    mkCompoundN : Str -> N -> N  -- Auto + Fahrer -> Autofahrer
-      = \s,x -> lin N {
-          s  = \\n,c => s + x.uncap.s ! n ! c ; 
-          co = s + x.uncap.co ;
-          uncap = {
-            s  = \\n,c => toLowerFirst s + x.uncap.s ! n ! c ; 
-            co = toLowerFirst s + x.uncap.co ;
+  mkHyphenN = overload {
+    mkHyphenN : Str -> N -> N
+      = \s,x -> mkCompoundN HyphenSep s s x ;
+    mkHyphenN : N -> N -> N
+      = \n,x -> mkCompoundN HyphenSep n.co n.co x ;
+    } ;
+
+    -- The supplied strings are the initial and word-internal modifier forms.
+    -- A hyphenated constituent forces Durchkopplung throughout the result.
+    mkCompoundN : CompoundSep -> Str -> Str -> N -> N
+      = \ssep,s,us,x ->
+        let csep = mergeCompoundSep ssep x.csep
+        in case csep of {
+          BindSep => lin N {
+            s  = \\n,c => s + x.uncap.s ! n ! c ;
+            co = s + x.uncap.co ;
+            uncap = {
+              s  = \\n,c => us + x.uncap.s ! n ! c ;
+              co = us + x.uncap.co ;
+              } ;
+            csep = csep ;
+            g = x.g
             } ;
-          g = x.g
+          HyphenSep =>
+            let
+              forms : Number => Case => Str =
+                \\n,c => s + "-" + x.s ! n ! c ;
+              co : Str = s + "-" + x.co
+            in lin N {
+              s = forms ;
+              co = co ;
+              uncap = {
+                s = forms ;
+                co = co
+                } ;
+              csep = csep ;
+              g = x.g
+              }
           } ;
 
 
@@ -848,7 +905,10 @@ mkV2 : overload {
     mkA : (gut,besser,beste : Str) -> A = mk3A ;
     mkA : (gut,gute,besser,beste : Str) -> A = mk4A ;
     mkA : N -> A -> A = \n,a -> lin A {
-      s = \\d,f => n.uncap.co + a.s ! d ! f
+      s = \\d,f => case n.csep of {
+        BindSep => n.uncap.co + a.s ! d ! f ;
+        HyphenSep => n.co + "-" + a.s ! d ! f
+        }
       }
     };
 
