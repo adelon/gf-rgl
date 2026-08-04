@@ -813,6 +813,12 @@ fun
   aminozucker_N : N ;
   ananassaft_N : N ;
   ananasschneider_N : N ;
+  angstgegner_N : N ;
+  angsthase_N : N ;
+  angstneurose_N : N ;
+  angststoerung_N : N ;
+  angststreifen_N : N ;
+  angstzuschlag_N : N ;
   ampelfrau_N : N ;
   ampelkoalition_N : N ;
   amtsanmassung_N : N ;

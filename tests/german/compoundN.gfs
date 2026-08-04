@@ -6,6 +6,12 @@ cc -all ampelfrau_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ampel
 cc -all ampelkoalition_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ampelkoalition_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ampelkoalition_N.co
 cc -all ananassaft_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ananassaft_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ananassaft_N.co
 cc -all ananasschneider_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ ananasschneider_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ ananasschneider_N.co
+cc -all angstgegner_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstgegner_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstgegner_N.co
+cc -all angsthase_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angsthase_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angsthase_N.co
+cc -all angstneurose_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstneurose_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstneurose_N.co
+cc -all angststoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angststoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angststoerung_N.co
+cc -all angststreifen_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angststreifen_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angststreifen_N.co
+cc -all angstzuschlag_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ angstzuschlag_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ angstzuschlag_N.co
 cc -all maedchenmord_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ maedchenmord_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ maedchenmord_N.co
 cc -all maedchenname_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ maedchenname_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ maedchenname_N.co
 cc -all maedchenpensionat_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ maedchenpensionat_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ maedchenpensionat_N.co
