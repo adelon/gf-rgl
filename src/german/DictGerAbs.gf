@@ -735,6 +735,9 @@ fun
   affenmensch_N : N ;
   affenzahn_N : N ;
   affenzelle_N : N ;
+  aktenkoffer_N : N ;
+  aktenmappe_N : N ;
+  aktenordner_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;

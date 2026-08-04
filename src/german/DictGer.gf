@@ -196,6 +196,9 @@ concrete DictGer of DictGerAbs =
     , affenmensch_N
     , affenzahn_N
     , affenzelle_N
+    , aktenkoffer_N
+    , aktenmappe_N
+    , aktenordner_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3683,6 +3686,9 @@ lin affenkaefig_N = mkN "Affen" kaefig_N ;
 lin affenmensch_N = mkN "Affen" mensch_N ;
 lin affenzahn_N = mkN "Affen" zahn_N ;
 lin affenzelle_N = changeCompoundN "Affenzellen" (mkN "Affen" zelle_N) ;
+lin aktenkoffer_N = mkN "Akten" koffer_N ;
+lin aktenmappe_N = mkN "Akten" mappe_N ;
+lin aktenordner_N = mkN "Akten" ordner_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;
