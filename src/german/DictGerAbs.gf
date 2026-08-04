@@ -71,6 +71,8 @@ fun
   abbruchsieg_N : N ;
   abbruchstein_N : N ;
   abbruchstelle_N : N ;
+  abgeordnetenbestechung_N : N ;
+  abgeordnetenhaus_N : N ;
   abbildungsfehler_N : N ;
   abflussrohr_N : N ;
   abflusslos_A : A ;

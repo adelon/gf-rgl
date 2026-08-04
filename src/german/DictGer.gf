@@ -28,6 +28,8 @@ concrete DictGer of DictGerAbs =
     , abdeckplane_N
     , abdeckplatte_N
     , abduzenslaehmung_N
+    , abgeordnetenbestechung_N
+    , abgeordnetenhaus_N
     , abenddaemmerung_N
     , abendnebel_N
     , abendpunkt_N
@@ -3647,6 +3649,8 @@ lin abbruchmaterial_N = mkN abbruch_N material_N ;
 lin abbruchsieg_N = mkN abbruch_N sieg_N ;
 lin abbruchstein_N = mkN abbruch_N stein_N ;
 lin abbruchstelle_N = mkN abbruch_N stelle_N ;
+lin abgeordnetenbestechung_N = mkN "Abgeordneten" bestechung_N ;
+lin abgeordnetenhaus_N = mkN "Abgeordneten" haus_N ;
 lin abbildungsfehler_N = mkN abbildung_N fehler_N ;
 lin abflussrohr_N = mkN abfluss_N rohr_N ;
 lin abwasseraufbereitung_N = mkN abwasser_N aufbereitung_N ;

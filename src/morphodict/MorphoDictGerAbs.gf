@@ -288,8 +288,6 @@ fun abgemacht_A : A ;
 fun abgemessen_A : A ;
 fun abgeneigt_A : A ;
 fun abgenzern_V : V ;
-fun abgeordnetenbestechung_N : N ;
-fun abgeordnetenhaus_N : N ;
 fun abgeraten_V : V ;
 fun abgesang_N : N ;
 fun abgeschlagen_A : A ;
