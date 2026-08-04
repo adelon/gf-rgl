@@ -28,6 +28,8 @@ PYTHONPATH=src python3 -m wd2gf.cli snapshot resolve --date 20260729 --compressi
 PYTHONPATH=src python3 -m wd2gf.cli snapshot download
 PYTHONPATH=src python3 -m wd2gf.cli snapshot verify
 PYTHONPATH=src python3 -m wd2gf.cli store ingest
+PYTHONPATH=src python3 -m wd2gf.cli profile raw
+PYTHONPATH=src python3 -m wd2gf.cli fixture extract
 ```
 
 Snapshot acquisition and profile commands are documented by the CLI itself.

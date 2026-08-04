@@ -17,6 +17,14 @@ from wd2gf.snapshot import (
     resolve_snapshot,
     verify_snapshot,
 )
+from wd2gf.profile_ger import (
+    DEFAULT_FIXTURE_DIR,
+    DEFAULT_FIXTURE_SELECTION,
+    DEFAULT_RAW_REPORT_DIR,
+    ProfileError,
+    extract_pinned_fixture,
+    generate_raw_profile,
+)
 from wd2gf.store import (
     DEFAULT_DATABASE,
     DEFAULT_SOURCE_POLICY,
@@ -86,6 +94,31 @@ def _ingest(args: argparse.Namespace) -> int:
     return 0
 
 
+def _raw_profile(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    artifacts = generate_raw_profile(
+        database_path=args.database,
+        output_dir=args.output_dir,
+        expected_snapshot=snapshot_metadata,
+    )
+    for artifact in artifacts:
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    return 0
+
+
+def _extract_fixture(args: argparse.Namespace) -> int:
+    _, snapshot_metadata = verify_snapshot(lock_path=args.lock, work_dir=args.work_dir)
+    artifacts = extract_pinned_fixture(
+        database_path=args.database,
+        selection_path=args.selection,
+        output_dir=args.output_dir,
+        expected_snapshot=snapshot_metadata,
+    )
+    for artifact in artifacts:
+        print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -139,6 +172,33 @@ def build_parser() -> argparse.ArgumentParser:
     ingest_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     ingest_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     ingest_parser.set_defaults(handler=_ingest)
+
+    profile_parser = commands.add_parser("profile", help="profile the German source store")
+    profile_commands = profile_parser.add_subparsers(dest="profile_command", required=True)
+    raw_parser = profile_commands.add_parser(
+        "raw", help="emit uninterpreted QID, property, and feature inventories"
+    )
+    raw_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    raw_parser.add_argument("--output-dir", type=Path, default=DEFAULT_RAW_REPORT_DIR)
+    raw_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    raw_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    raw_parser.set_defaults(handler=_raw_profile)
+
+    fixture_parser = commands.add_parser(
+        "fixture", help="extract complete source entities for pinned tests"
+    )
+    fixture_commands = fixture_parser.add_subparsers(
+        dest="fixture_command", required=True
+    )
+    extract_parser = fixture_commands.add_parser(
+        "extract", help="extract the reviewed fixture selection from the source store"
+    )
+    extract_parser.add_argument("--database", type=Path, default=DEFAULT_DATABASE)
+    extract_parser.add_argument("--selection", type=Path, default=DEFAULT_FIXTURE_SELECTION)
+    extract_parser.add_argument("--output-dir", type=Path, default=DEFAULT_FIXTURE_DIR)
+    extract_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
+    extract_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
+    extract_parser.set_defaults(handler=_extract_fixture)
     return parser
 
 
@@ -146,7 +206,7 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         return args.handler(args)
-    except (SnapshotError, StoreError) as error:
+    except (SnapshotError, StoreError, ProfileError) as error:
         print(f"error: {error}", file=sys.stderr)
         return 2
 
