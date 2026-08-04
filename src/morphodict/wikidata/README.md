@@ -62,6 +62,12 @@ case/number forms, gender, `co`, `uncap.s`, `uncap.co`, and `csep`, and labels
 those values as GF output separately from the source Form and statement IDs.
 `Q107614077` Forms are atomic combining-form evidence. `P5548` evidence remains
 construction-specific and is not promoted to unrestricted `N.co` evidence.
+The first Phase 3 gate promotes no implicit `ParadigmsGer` compound-form rule
+to reviewed evidence: every unlisted derived `co` remains provisional until a
+separate validation set justifies a named rule. Multi-gender Lexemes remain
+unresolved unless every effective gender is explicitly and disjointly
+correlated to owned senses and its morphology can be assigned without
+multiplying unrelated alternatives.
 
 Accepted entities are serialized with UTF-8 characters unescaped, object keys
 sorted, no optional whitespace, and standard JSON string/number semantics;

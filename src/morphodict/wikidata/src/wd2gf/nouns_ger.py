@@ -188,6 +188,7 @@ class SampledCandidate:
 class NounPolicy:
     reference: str
     sample_seed: str
+    scale_seed: str
     rank_policy: str
     review_status: str
     singular_only_policy: str
@@ -195,6 +196,16 @@ class NounPolicy:
     constructor_order: tuple[str, ...]
     pinned_lexemes: tuple[str, ...]
     quotas: dict[str, int]
+    acceptance_tiers: dict[str, str]
+    atomic_co_feature: str
+    construction_specific_co_property: str
+    reviewed_productive_co_rules: tuple[str, ...]
+    unlisted_derived_co_policy: str
+    co_inference_rationale: str
+    sense_correlation_property: str
+    form_gender_features: tuple[str, ...]
+    multi_gender_split_requirements: tuple[str, ...]
+    uncorrelated_multi_gender_policy: str
 
 
 @dataclass(frozen=True)
@@ -372,6 +383,7 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
         "schema_version",
         "reference",
         "sample_seed",
+        "scale_seed",
         "rank_policy",
         "review_status",
         "singular_only_policy",
@@ -379,8 +391,11 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
         "constructor_order",
         "pinned_lexemes",
         "quotas",
+        "acceptance_tiers",
+        "compound_form_inference",
+        "multi_gender",
     }
-    if set(data) != expected or data["schema_version"] != 1:
+    if set(data) != expected or data["schema_version"] != 2:
         raise NounError("unsupported noun policy schema")
     if data["rank_policy"] != "preferred-over-normal; deprecated excluded":
         raise NounError("unsupported noun statement-rank policy")
@@ -407,6 +422,7 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
     scalar_fields = (
         "reference",
         "sample_seed",
+        "scale_seed",
         "rank_policy",
         "review_status",
         "singular_only_policy",
@@ -414,9 +430,62 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
     )
     if any(not isinstance(data[field], str) or not data[field] for field in scalar_fields):
         raise NounError("noun policy scalar fields must be nonempty strings")
+    acceptance_tiers = data["acceptance_tiers"]
+    expected_tiers = {
+        "automatic_complete_with_co",
+        "automatic_complete",
+        "review_required_provisional",
+        "excluded",
+    }
+    if (
+        not isinstance(acceptance_tiers, dict)
+        or set(acceptance_tiers) != expected_tiers
+        or any(
+            not isinstance(value, str) or not value
+            for value in acceptance_tiers.values()
+        )
+    ):
+        raise NounError("acceptance_tiers must define the four frozen thresholds")
+    co_policy = data["compound_form_inference"]
+    if set(co_policy) != {
+        "atomic_source_feature",
+        "construction_specific_property",
+        "reviewed_productive_rules",
+        "unlisted_derived_value",
+        "rationale",
+    }:
+        raise NounError("compound_form_inference does not match its frozen schema")
+    reviewed_rules = co_policy["reviewed_productive_rules"]
+    if not isinstance(reviewed_rules, list) or any(
+        not isinstance(rule, str) or not rule for rule in reviewed_rules
+    ):
+        raise NounError("reviewed_productive_rules must be a list of rule names")
+    if co_policy["unlisted_derived_value"] != "provisional":
+        raise NounError("unlisted derived compound forms must remain provisional")
+    multi_gender = data["multi_gender"]
+    if set(multi_gender) != {
+        "sense_correlation_property",
+        "form_gender_features",
+        "split_requirements",
+        "uncorrelated_policy",
+    }:
+        raise NounError("multi_gender does not match its frozen schema")
+    form_gender_features = multi_gender["form_gender_features"]
+    split_requirements = multi_gender["split_requirements"]
+    if not isinstance(form_gender_features, list) or any(
+        not isinstance(value, str) or not value for value in form_gender_features
+    ):
+        raise NounError("form_gender_features must be a list of QIDs")
+    if not isinstance(split_requirements, list) or any(
+        not isinstance(value, str) or not value for value in split_requirements
+    ):
+        raise NounError("multi-gender split requirements must be nonempty strings")
+    if multi_gender["uncorrelated_policy"] != "reject-unresolved":
+        raise NounError("uncorrelated multi-gender candidates must remain unresolved")
     return NounPolicy(
         reference=data["reference"],
         sample_seed=data["sample_seed"],
+        scale_seed=data["scale_seed"],
         rank_policy=data["rank_policy"],
         review_status=data["review_status"],
         singular_only_policy=data["singular_only_policy"],
@@ -424,6 +493,18 @@ def load_noun_policy(path: Path = DEFAULT_NOUN_POLICY) -> NounPolicy:
         constructor_order=tuple(constructor_order),
         pinned_lexemes=tuple(pinned),
         quotas=dict(quotas),
+        acceptance_tiers=dict(acceptance_tiers),
+        atomic_co_feature=co_policy["atomic_source_feature"],
+        construction_specific_co_property=co_policy[
+            "construction_specific_property"
+        ],
+        reviewed_productive_co_rules=tuple(reviewed_rules),
+        unlisted_derived_co_policy=co_policy["unlisted_derived_value"],
+        co_inference_rationale=co_policy["rationale"],
+        sense_correlation_property=multi_gender["sense_correlation_property"],
+        form_gender_features=tuple(form_gender_features),
+        multi_gender_split_requirements=tuple(split_requirements),
+        uncorrelated_multi_gender_policy=multi_gender["uncorrelated_policy"],
     )
 
 

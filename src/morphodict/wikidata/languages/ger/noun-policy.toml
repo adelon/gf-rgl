@@ -1,6 +1,7 @@
-schema_version = 1
-reference = "Phase 2 German noun pilot reviewed 2026-08-04"
+schema_version = 2
+reference = "Phase 3 first-gate German noun policy reviewed 2026-08-04"
 sample_seed = "wikidata-20260729-german-noun-pilot-v1"
+scale_seed = "wikidata-20260729-german-noun-scale-v1"
 rank_policy = "preferred-over-normal; deprecated excluded"
 review_status = "automatic"
 singular_only_policy = "residual-api-gap"
@@ -21,6 +22,30 @@ constructor_order = [
 ]
 
 pinned_lexemes = ["L10227", "L295104", "L3146", "L40399"]
+
+[acceptance_tiers]
+automatic_complete_with_co = "complete required case-number evidence; exactly one effective gender; no blocker; one Q107614077 combining value or a listed reviewed productive rule"
+automatic_complete = "complete required case-number evidence; exactly one effective gender; no blocker; every available source field must still be reproduced by GF"
+review_required_provisional = "source-compatible proposal requiring missing inflectional, gender, or unlisted combining-form inference; GF probing remains mandatory"
+excluded = "source conflict, unsupported feature, unresolved alternative, category mismatch, phrasal item, or residual API gap"
+
+[compound_form_inference]
+atomic_source_feature = "Q107614077"
+construction_specific_property = "P5548"
+reviewed_productive_rules = []
+unlisted_derived_value = "provisional"
+rationale = "No ParadigmsGer mkCompoundForm suffix/default rule is promoted at the first gate without an independently reviewed validation set."
+
+[multi_gender]
+sense_correlation_property = "P6072"
+form_gender_features = ["Q499327", "Q1775415", "Q1775461"]
+split_requirements = [
+  "every effective gender claim has an owned sense correlation",
+  "correlated sense sets are nonempty and pairwise disjoint",
+  "forms are either a single nonconflicting shared paradigm or complete gender-correlated paradigms",
+  "no unrelated alternatives are multiplied",
+]
+uncorrelated_policy = "reject-unresolved"
 
 [quotas]
 regular_masculine = 30

@@ -56,6 +56,20 @@ class NounSamplingTests(unittest.TestCase):
         self.assertEqual(set(policy.quotas), set(STRATA))
         self.assertEqual(policy.singular_only_policy, "residual-api-gap")
         self.assertIn("P5548", policy.combining_form_policy)
+        self.assertEqual(
+            set(policy.acceptance_tiers),
+            {
+                "automatic_complete_with_co",
+                "automatic_complete",
+                "review_required_provisional",
+                "excluded",
+            },
+        )
+        self.assertEqual(policy.reviewed_productive_co_rules, ())
+        self.assertEqual(policy.unlisted_derived_co_policy, "provisional")
+        self.assertEqual(
+            policy.uncorrelated_multi_gender_policy, "reject-unresolved"
+        )
 
 
 if __name__ == "__main__":
