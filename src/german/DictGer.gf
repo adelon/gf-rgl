@@ -808,6 +808,10 @@ concrete DictGer of DictGerAbs =
     , bergfink_N
     , berghaenfling_N
     , bergstation_N
+    , callcenter_N
+    , callgirl_N
+    , caseinphosphopeptid_N
+    , cashewnuss_N
     , calcium_N
     , calciumhydrogen_N
     , calciumkanalantagonist_N
@@ -823,6 +827,9 @@ concrete DictGer of DictGerAbs =
     , calciumsalz_N
     , calciumspiegel_N
     , calciumverbindung_N
+    , chatroom_N
+    , cheeseburger_N
+    , chelatbildner_N
     , calziumverbindung_N
     , carboxylfunktion_N
     , carboxylgruppe_N
@@ -6375,6 +6382,10 @@ lin bergspitze_N = mkN berg_N spitze_N ;
 lin bergfink_N = mkN berg_N fink_N ;
 lin berghaenfling_N = mkN berg_N haenfling_N ;
 lin bergstation_N = mkN berg_N station_N ;
+lin callcenter_N = mkN "Call" (mkN "Center" "Center" neuter) ;
+lin callgirl_N = mkN "Call" (mkN "Girl" "Girls" neuter) ;
+lin caseinphosphopeptid_N = mkN casein_N (mkN "Phosphopeptid" "Phosphopeptide" neuter) ;
+lin cashewnuss_N = mkN "Cashew" nuss_N ;
 lin calcium_N = mkN "Calcium" "Calcien" neuter ;
 lin calciumhydrogen_N = mkN calcium_N wasserstoff_N ;
 lin calciumkanalantagonist_N = changeCompoundN "Calciumkanalantagonisten" (mkN (mkN calcium_N kanal_N) antagonist_N) ;
@@ -6390,6 +6401,9 @@ lin calciumquelle_N = mkN calcium_N quelle_N ;
 lin calciumsalz_N = mkN calcium_N salz_N ;
 lin calciumspiegel_N = mkN calcium_N spiegel_N ;
 lin calciumverbindung_N = mkN calcium_N verbindung_N ;
+lin chatroom_N = mkN chat_N (mkN "Room" "Rooms" masculine) ;
+lin cheeseburger_N = mkN "Cheese" burger_N ;
+lin chelatbildner_N = mkN chelat_N (mkN "Bildner" "Bildner" masculine) ;
 lin calziumverbindung_N = mkN calzium_N verbindung_N ;
 lin chefarzt_N = mkN chef_N arzt_N ;
 lin chefredakteur_N = mkN chef_N redakteur_N ;

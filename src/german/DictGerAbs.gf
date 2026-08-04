@@ -2673,6 +2673,10 @@ fun
   bergfink_N : N ;
   berghaenfling_N : N ;
   bergstation_N : N ;
+  callcenter_N : N ;
+  callgirl_N : N ;
+  caseinphosphopeptid_N : N ;
+  cashewnuss_N : N ;
   calcium_N : N ;
   calciumhydrogen_N : N ;
   calciumkanalantagonist_N : N ;
@@ -2688,6 +2692,9 @@ fun
   calciumsalz_N : N ;
   calciumspiegel_N : N ;
   calciumverbindung_N : N ;
+  chatroom_N : N ;
+  cheeseburger_N : N ;
+  chelatbildner_N : N ;
   calziumverbindung_N : N ;
   carboxylfunktion_N : N ;
   carboxylgruppe_N : N ;
