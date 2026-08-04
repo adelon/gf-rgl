@@ -1,0 +1,6 @@
+invarN.s: Testlexem Testlexem Testlexem Testlexem Testlexeme Testlexeme Testlexeme Testlexeme
+invarN.uncap.s: testlexem testlexem testlexem testlexem testlexeme testlexeme testlexeme testlexeme
+invarN.other: Testlexem testlexem neuter
+invarPlN.s: Testtoken Testtoken Testtoken Testtokens Testtoken Testtoken Testtoken Testtoken
+invarPlN.uncap.s: testtoken testtoken testtoken testtokens testtoken testtoken testtoken testtoken
+invarPlN.other: Testtoken testtoken masculine

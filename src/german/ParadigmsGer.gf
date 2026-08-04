@@ -91,6 +91,22 @@ mkN : overload {
 
   };
 
+-- Nouns whose cases are invariant. The plural can be supplied separately.
+
+  invarN : overload {
+    invarN : Str -> Gender -> N ;
+    invarN : (sg,pl : Str) -> Gender -> N ;
+    } ;
+
+-- Nouns with invariant nominative, accusative, and dative singular forms,
+-- an s-genitive for masculine and neuter nouns, and a case-invariant plural.
+-- The one-form overload is for zero-marked plurals.
+
+  invarPlN : overload {
+    invarPlN : Str -> Gender -> N ;
+    invarPlN : (sg,pl : Str) -> Gender -> N ;
+    } ;
+
 -- The default compound form can be changed:
 
     changeCompoundN : Str -> N -> N ;   -- kyrko + kyrka_N
@@ -734,6 +750,24 @@ mkV2 : overload {
   regN : Str -> N ;
   reg2N : (x1,x2 : Str) -> Gender -> N ;
   mk6N : (x1,_,_,_,_,x6 : Str) -> Gender -> N ; 
+
+  invarN = overload {
+    invarN : Str -> Gender -> N =
+      \s,g -> mk6N s s s s s s g ;
+    invarN : (sg,pl : Str) -> Gender -> N =
+      \sg,pl,g -> mk6N sg sg sg sg pl pl g ;
+    } ;
+
+  invarPlN = overload {
+    invarPlN : Str -> Gender -> N =
+      \s,g -> mk6N s s s
+        (case g of {Fem => s ; _ => genitS True s})
+        s s g ;
+    invarPlN : (sg,pl : Str) -> Gender -> N =
+      \sg,pl,g -> mk6N sg sg sg
+        (case g of {Fem => sg ; _ => genitS True sg})
+        pl pl g ;
+    } ;
 
   mkN = overload {
     mkN : Str -> N = regN ;
