@@ -234,6 +234,14 @@ concrete DictGer of DictGerAbs =
     , alpenbock_N
     , alpenrose_N
     , alpenveilchen_N
+    , aluminiumfolie_N
+    , aluminiumhydroxid_N
+    , aluminiumindustrie_N
+    , aluminiumion_N
+    , aluminiumkomplex_N
+    , aluminiumsalz_N
+    , aluminiumsulfat_N
+    , aluminiumtor_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3759,6 +3767,14 @@ lin alpenampfer_N = mkN "Alpen" ampfer_N ;
 lin alpenbock_N = mkN "Alpen" bock_N ;
 lin alpenrose_N = mkN "Alpen" rose_N ;
 lin alpenveilchen_N = mkN "Alpen" veilchen_N ;
+lin aluminiumfolie_N = mkN "Aluminium" folie_N ;
+lin aluminiumhydroxid_N = mkN "Aluminium" hydroxid_N ;
+lin aluminiumindustrie_N = mkN "Aluminium" industrie_N ;
+lin aluminiumion_N = mkN "Aluminium" ion_N ;
+lin aluminiumkomplex_N = mkN "Aluminium" komplex_N ;
+lin aluminiumsalz_N = mkN "Aluminium" salz_N ;
+lin aluminiumsulfat_N = mkN "Aluminium" sulfat_N ;
+lin aluminiumtor_N = mkN "Aluminium" tor_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

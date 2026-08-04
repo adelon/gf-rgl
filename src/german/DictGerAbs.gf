@@ -773,6 +773,14 @@ fun
   alpenbock_N : N ;
   alpenrose_N : N ;
   alpenveilchen_N : N ;
+  aluminiumfolie_N : N ;
+  aluminiumhydroxid_N : N ;
+  aluminiumindustrie_N : N ;
+  aluminiumion_N : N ;
+  aluminiumkomplex_N : N ;
+  aluminiumsalz_N : N ;
+  aluminiumsulfat_N : N ;
+  aluminiumtor_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
