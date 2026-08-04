@@ -1754,6 +1754,15 @@ concrete DictGer of DictGerAbs =
     , kartoffelschale_N
     , kartoffelsorte_N
     , kartoffelstampfer_N
+    , kaufhaus_N
+    , kaufmannssprache_N
+    , kaufoption_N
+    , kaufpreis_N
+    , kaufsumme_N
+    , kaufvertrag_N
+    , karbidlampe_N
+    , kardinalzahl_N
+    , kapuzenwaldsaenger_N
     , kapselhuelse_N
     , kapsidpartikel_N
     , kapsidprotein_N
@@ -3686,6 +3695,15 @@ lin kartoffelschaeler_N = mkN kartoffel_N (mkN "Schäler" "Schäler" masculine) 
 lin kartoffelschale_N = mkN kartoffel_N schale_N ;
 lin kartoffelsorte_N = mkN kartoffel_N sorte_N ;
 lin kartoffelstampfer_N = mkN kartoffel_N stampfer_N ;
+lin kaufhaus_N = mkN kauf_N haus_N ;
+lin kaufmannssprache_N = changeCompoundN "Kaufmannssprachen" (mkN "Kaufmanns" sprache_N) ;
+lin kaufoption_N = mkN kauf_N option_N ;
+lin kaufpreis_N = mkN kauf_N preis_N ;
+lin kaufsumme_N = mkN kauf_N summe_N ;
+lin kaufvertrag_N = mkN kauf_N vertrag_N ;
+lin karbidlampe_N = mkN "Karbid" lampe_N ;
+lin kardinalzahl_N = mkN kardinal_N zahl_N ;
+lin kapuzenwaldsaenger_N = mkN "Kapuzen" (mkN "Waldsänger" "Waldsänger" masculine) ;
 lin kapselhuelse_N = mkN kapsel_N huelse_N ;
 lin kapsidpartikel_N = mkN kapsid_N partikel_N ;
 lin kapsidprotein_N = mkN kapsid_N protein_N ;

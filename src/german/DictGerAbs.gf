@@ -567,6 +567,15 @@ fun
   kartoffelschale_N : N ;
   kartoffelsorte_N : N ;
   kartoffelstampfer_N : N ;
+  kaufhaus_N : N ;
+  kaufmannssprache_N : N ;
+  kaufoption_N : N ;
+  kaufpreis_N : N ;
+  kaufsumme_N : N ;
+  kaufvertrag_N : N ;
+  karbidlampe_N : N ;
+  kardinalzahl_N : N ;
+  kapuzenwaldsaenger_N : N ;
   kapselhuelse_N : N ;
   kapsidpartikel_N : N ;
   kapsidprotein_N : N ;

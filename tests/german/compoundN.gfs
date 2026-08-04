@@ -1829,3 +1829,12 @@ cc -all kartoffelschaeler_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative 
 cc -all kartoffelschale_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kartoffelschale_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kartoffelschale_N.co
 cc -all kartoffelsorte_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kartoffelsorte_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kartoffelsorte_N.co
 cc -all kartoffelstampfer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kartoffelstampfer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kartoffelstampfer_N.co
+cc -all kaufhaus_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaufhaus_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaufhaus_N.co
+cc -all kaufmannssprache_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaufmannssprache_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaufmannssprache_N.co
+cc -all kaufoption_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaufoption_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaufoption_N.co
+cc -all kaufpreis_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaufpreis_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaufpreis_N.co
+cc -all kaufsumme_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaufsumme_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaufsumme_N.co
+cc -all kaufvertrag_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kaufvertrag_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kaufvertrag_N.co
+cc -all karbidlampe_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ karbidlampe_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ karbidlampe_N.co
+cc -all kardinalzahl_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kardinalzahl_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kardinalzahl_N.co
+cc -all kapuzenwaldsaenger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ kapuzenwaldsaenger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ kapuzenwaldsaenger_N.co
