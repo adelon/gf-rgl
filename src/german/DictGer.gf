@@ -904,6 +904,14 @@ concrete DictGer of DictGerAbs =
     , dachsfell_N
     , dachshund_N
     , dachverband_N
+    , dachausmittlung_N
+    , darkroom_N
+    , dauerlutscher_N
+    , daumenfittich_N
+    , daytrader_N
+    , doppeldecker_N
+    , drehmomentschluessel_N
+    , drehorgelspieler_N
     , damoklesschwert_N
     , dateiname_N
     , dateityp_N
@@ -6480,6 +6488,8 @@ lin dachrinne_N = mkN dach_N (mkN "Rinne" "Rinnen" feminine) ;
 lin dachsfell_N = mkN dachs_N fell_N ;
 lin dachshund_N = mkN dachs_N hund_N ;
 lin dachverband_N = mkN dach_N verband_N ;
+lin dachausmittlung_N = mkN dach_N (mkN "Ausmittlung" "Ausmittlungen" feminine) ;
+lin darkroom_N = mkN "Dark" (mkN "Room" "Rooms" masculine) ;
 lin damoklesschwert_N = mkN "Damokles" schwert_N ;
 lin dateiname_N = changeCompoundN "Dateinamen" (mkN datei_N name_N) ;
 lin dateityp_N = mkN datei_N typ_N ;
@@ -6509,8 +6519,11 @@ lin dessertschaelchen_N = mkN "Dessert" (mkN "Schälchen" "Schälchen" neuter) ;
 lin dessertteller_N = mkN "Dessert" teller_N ;
 lin dessertwein_N = mkN "Dessert" wein_N ;
 lin dauerschach_N = mkN dauer_N schach_N ;
+lin dauerlutscher_N = mkN dauer_N (mkN "Lutscher" "Lutscher" masculine) ;
 lin daumenkino_N = mkN daumen_N kino_N ;
+lin daumenfittich_N = mkN daumen_N (mkN "Fittich" "Fittiche" masculine) ;
 lin daumenregel_N = mkN daumen_N regel_N ;
+lin daytrader_N = mkN "Day" (mkN "Trader" "Trader" masculine) ;
 lin davidstern_N = mkN "David" stern_N ;
 lin debattierclub_N = mkN "Debattier" club_N ;
 lin debuetantinnenball_N = mkN "Debütantinnen" ball_N ;
@@ -6521,6 +6534,8 @@ lin desinfektionsmittel_N = mkN "Desinfektions" mittel_N ;
 lin dezimalzahl_N = mkN "Dezimal" zahl_N ;
 lin drehzahl_N = mkN "Dreh" zahl_N ;
 lin drehzahlmesser_N = mkN "Drehzahl" messer_N ;
+lin drehmomentschluessel_N = mkN drehmoment_N schluessel_N ;
+lin drehorgelspieler_N = mkN drehorgel_N spieler_N ;
 lin eckball_N = mkN "Eck" ball_N ;
 lin eckballmarke_N = mkN "Eckball" marke_N ;
 lin eckhaus_N = mkN "Eck" haus_N ;
@@ -6654,6 +6669,7 @@ lin doppelspaltexperiment_N = mkN (mkN doppel_N spalt_N) experiment_N ;
 lin doppelweck_N = mkN doppel_N weck_N ;
 lin doppelweltmeister_N = mkN doppel_N weltmeister_N ;
 lin doppelzentner_N = mkN doppel_N zentner_N ;
+lin doppeldecker_N = mkN doppel_N (mkN "Decker" "Decker" masculine) ;
 lin dorfbewohner_N = mkN dorf_N bewohner_N ;
 lin dorfdepp_N = mkN dorf_N depp_N ;
 lin dorfflur_N = mkN dorf_N (mkN "Flur" "Fluren" masculine) ;

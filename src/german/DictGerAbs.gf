@@ -2769,6 +2769,14 @@ fun
   dachsfell_N : N ;
   dachshund_N : N ;
   dachverband_N : N ;
+  dachausmittlung_N : N ;
+  darkroom_N : N ;
+  dauerlutscher_N : N ;
+  daumenfittich_N : N ;
+  daytrader_N : N ;
+  doppeldecker_N : N ;
+  drehmomentschluessel_N : N ;
+  drehorgelspieler_N : N ;
   damoklesschwert_N : N ;
   dateiname_N : N ;
   dateityp_N : N ;
