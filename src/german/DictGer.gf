@@ -223,6 +223,13 @@ concrete DictGer of DictGerAbs =
     , akronymwoerterbuch_N
     , alarmanlage_N
     , alarmladung_N
+    , ameisenbaer_N
+    , ameisenhaufen_N
+    , ameisenigel_N
+    , ameisenloewe_N
+    , ameisenpuppe_N
+    , ameisenstaat_N
+    , ameisenstrasse_N
     , a_schwa_N
     , abc_buch_9_N
     , abc_buch_N
@@ -3737,6 +3744,13 @@ lin akkuwerkzeug_N = mkN "Akku" werkzeug_N ;
 lin akronymwoerterbuch_N = mkN "Akronym" woerterbuch_N ;
 lin alarmanlage_N = mkN "Alarm" anlage_N ;
 lin alarmladung_N = mkN "Alarm" ladung_N ;
+lin ameisenbaer_N = mkN ameise_N baer_N ;
+lin ameisenhaufen_N = mkN ameise_N haufen_N ;
+lin ameisenigel_N = mkN ameise_N igel_N ;
+lin ameisenloewe_N = mkN ameise_N loewe_N ;
+lin ameisenpuppe_N = mkN ameise_N puppe_N ;
+lin ameisenstaat_N = mkN ameise_N staat_N ;
+lin ameisenstrasse_N = mkN ameise_N strasse_N ;
 lin a_schwa_N = mkHyphenN "a" schwa_N ;
 lin ach_laut_N = mkHyphenN "Ach" laut_N ;
 lin ad_hoc_bildung__N = mkHyphenN "Ad-hoc" bildung_N ;

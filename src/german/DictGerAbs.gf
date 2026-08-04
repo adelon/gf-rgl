@@ -762,6 +762,13 @@ fun
   akronymwoerterbuch_N : N ;
   alarmanlage_N : N ;
   alarmladung_N : N ;
+  ameisenbaer_N : N ;
+  ameisenhaufen_N : N ;
+  ameisenigel_N : N ;
+  ameisenloewe_N : N ;
+  ameisenpuppe_N : N ;
+  ameisenstaat_N : N ;
+  ameisenstrasse_N : N ;
   aalbutt_N : N ;
   aalbeere_N : N ;
   aalfang_N : N ;
