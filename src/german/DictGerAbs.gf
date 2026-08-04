@@ -815,6 +815,7 @@ fun
   agglutinierende_sprache_CN : CN ;
   analytische_sprache_CN : CN ;
   ausgestorbene_sprache_CN : CN ;
+  austronesische_sprache_CN : CN ;
   alter_ego_N : N ;
   augenblicksbildung_N : N ;
   arbeitslosengeld_N : N ;
@@ -1112,6 +1113,9 @@ fun
   iranische_sprache_CN : CN ;
   keltische_sprache_CN : CN ;
   romanische_sprache_CN : CN ;
+  indoeuropaeische_sprache_CN : CN ;
+  indogermanische_sprache_CN : CN ;
+  kurdische_sprache_CN : CN ;
   grundreihenmatt_N : N ;
   fruehlingsknollenblaetterpilz_N : N ;
   fruehstueck_N : N ;

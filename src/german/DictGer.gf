@@ -2889,6 +2889,10 @@ concrete DictGer of DictGerAbs =
     , iranische_sprache_N
     , keltische_sprache_N
     , romanische_sprache_N
+    , austronesische_sprache_N
+    , indoeuropaeische_sprache_N
+    , indogermanische_sprache_N
+    , kurdische_sprache_N
     ] **
   open ParadigmsGer, (S = SyntaxGer) in {
 
@@ -3820,6 +3824,7 @@ lin ad_nauseam_Adv = mkAdv "ad nauseam" ;
 lin agglutinierende_sprache_CN = S.mkCN agglutinierend_A sprache_N ;
 lin analytische_sprache_CN = S.mkCN analytisch_A sprache_N ;
 lin ausgestorbene_sprache_CN = S.mkCN ausgestorben_A sprache_N ;
+lin austronesische_sprache_CN = S.mkCN austronesisch_A sprache_N ;
 lin alter_ego_N = changeCompoundN "Alter-Ego" (mkN "Alter Ego" "Alter Ego" "Alter Ego" (variants {"Alter Ego" ; "Alter Egos"}) "Alter Egos" "Alter Egos" neuter) ;
 lin augenblicksbildung_N = mkN "Augenblicks" bildung_N ;
 lin arbeitslosengeld_N = mkN "Arbeitslosen" geld_N ;
@@ -4625,6 +4630,9 @@ lin germanische_sprache_CN = S.mkCN germanisch_A sprache_N ;
 lin iranische_sprache_CN = S.mkCN iranisch_A sprache_N ;
 lin keltische_sprache_CN = S.mkCN keltisch_A sprache_N ;
 lin romanische_sprache_CN = S.mkCN romanisch_A sprache_N ;
+lin indoeuropaeische_sprache_CN = S.mkCN indoeuropaeisch_A sprache_N ;
+lin indogermanische_sprache_CN = S.mkCN indogermanisch_A sprache_N ;
+lin kurdische_sprache_CN = S.mkCN kurdisch_A sprache_N ;
 lin frei_variierendes_allomorph_CN = S.mkCN (mkA "frei variierend") allomorph_N ;
 lin frei_variierendes_allophon_CN = S.mkCN (mkA "frei variierend") allophon_N ;
 lin ewige_schach_N = changeCompoundN "Ewiges-Schach"

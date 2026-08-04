@@ -200,15 +200,19 @@ oper
     ++ DictGer.analytische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.ausgestorbene_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.baltische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.austronesische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.flektierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.fusionierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.germanische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.iranische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.indoeuropaeische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.indogermanische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.isolierende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.keltische_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.lebende_sprache_CN.s ! Strong ! Sg ! Nom
     ++ DictGer.natuerliche_sprache_CN.s ! Strong ! Sg ! Nom
-    ++ DictGer.romanische_sprache_CN.s ! Strong ! Sg ! Nom ;
+    ++ DictGer.romanische_sprache_CN.s ! Strong ! Sg ! Nom
+    ++ DictGer.kurdische_sprache_CN.s ! Strong ! Sg ! Nom ;
   fusionSg = SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
     DictGer.fusionierende_sprache_CN ;
   fusionDat = SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
@@ -222,7 +226,13 @@ oper
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
       DictGer.germanische_sprache_CN).s ! False ! Dat
     ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
-      DictGer.romanische_sprache_CN).s ! False ! Dat ;
+      DictGer.romanische_sprache_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.a_Quant SyntaxGer.singularNum
+      DictGer.austronesische_sprache_CN).s ! False ! Nom
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.singularNum
+      DictGer.indogermanische_sprache_CN).s ! False ! Dat
+    ++ (SyntaxGer.mkNP SyntaxGer.the_Quant SyntaxGer.pluralNum
+      DictGer.kurdische_sprache_CN).s ! False ! Dat ;
 
   reportedSpeechCitations : Str =
     DictGer.direkte_rede_CN.s ! Strong ! Sg ! Nom
