@@ -13,7 +13,7 @@ from wd2gf.census_ger import (
     GenderCorrelation,
     StructuralCohort,
 )
-from wd2gf.nouns_ger import proposals_for_candidate, render_option_modules
+from wd2gf.nouns_ger import NounError, proposals_for_candidate, render_option_modules
 from wd2gf.scale_ger import (
     SelectedCandidate,
     _compile_bridge,
@@ -22,6 +22,7 @@ from wd2gf.scale_ger import (
     fit_in_chunks,
     load_scale_policy,
     proportional_quotas,
+    verify_scale_repeat,
 )
 
 
@@ -80,6 +81,29 @@ class NounScaleTests(unittest.TestCase):
                 self.assertNotIn(f"  {unselected.function_id} =", concrete)
             manifest = (fixture.root / "selected/proposal-manifest.tsv").read_text()
             self.assertEqual(len(manifest.splitlines()), 2)
+
+    def test_repeat_verifier_checks_only_semantic_scale_artifacts(self) -> None:
+        with synthetic_nouns() as fixture:
+            primary = fixture.root / "primary"
+            repeated = fixture.root / "repeated"
+            names = (
+                "semantic-summary.json",
+                "fitting-selection.tsv",
+                "fitting-results.json",
+                "result-selection-pool.tsv",
+                "result-selection-results.json",
+                "result-selection.tsv",
+                "result-records.json",
+            )
+            for directory in (primary, repeated):
+                directory.mkdir()
+                for name in names:
+                    (directory / name).write_text(f"{name}\n")
+                (directory / "measurements.json").write_text(str(directory))
+            self.assertEqual(len(verify_scale_repeat(primary, repeated)), len(names))
+            (repeated / "result-records.json").write_text("changed\n")
+            with self.assertRaisesRegex(NounError, "changed deterministic artifacts"):
+                verify_scale_repeat(primary, repeated)
 
     @unittest.skipUnless(
         os.environ.get("GF_INTEGRATION"), "set GF_INTEGRATION for GF/Haskell check"

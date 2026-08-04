@@ -45,8 +45,10 @@ from wd2gf.profile_ger import (
 from wd2gf.probe_ger import probe_nouns, write_pilot_reports
 from wd2gf.scale_ger import (
     DEFAULT_SCALE_POLICY,
+    DEFAULT_SCALE_RESULTS,
     DEFAULT_SCALE_WORK,
     run_scale_gate,
+    write_scale_report,
 )
 from wd2gf.store import (
     DEFAULT_DATABASE,
@@ -286,6 +288,16 @@ def _noun_scale_gate(args: argparse.Namespace) -> int:
     return 0
 
 
+def _noun_scale_report(args: argparse.Namespace) -> int:
+    artifact = write_scale_report(
+        primary_dir=args.primary_dir,
+        repeat_dir=args.repeat_dir,
+        output_path=args.output,
+    )
+    print(f"{artifact.sha256}  {artifact.size_bytes}  {artifact.path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wd2gf",
@@ -491,6 +503,15 @@ def build_parser() -> argparse.ArgumentParser:
     noun_scale_parser.add_argument("--lock", type=Path, default=DEFAULT_LOCK)
     noun_scale_parser.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     noun_scale_parser.set_defaults(handler=_noun_scale_gate)
+    noun_scale_report_parser = noun_commands.add_parser(
+        "scale-report", help="verify repeated gate artifacts and write scale results"
+    )
+    noun_scale_report_parser.add_argument("--primary-dir", type=Path, required=True)
+    noun_scale_report_parser.add_argument("--repeat-dir", type=Path, required=True)
+    noun_scale_report_parser.add_argument(
+        "--output", type=Path, default=DEFAULT_SCALE_RESULTS
+    )
+    noun_scale_report_parser.set_defaults(handler=_noun_scale_report)
     return parser
 
 

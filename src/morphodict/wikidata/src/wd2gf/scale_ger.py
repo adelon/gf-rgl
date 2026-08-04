@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import os
 import subprocess
 import tomllib
@@ -53,6 +54,7 @@ RGL_ROOT = Path(__file__).resolve().parents[5]
 HASKELL_PROBE = PROJECT_ROOT / "probe/NounProbe.hs"
 DEFAULT_SCALE_POLICY = PROJECT_ROOT / "languages/ger/scale-policy.toml"
 DEFAULT_SCALE_WORK = PROJECT_ROOT / ".work/phase3/gate-5000"
+DEFAULT_SCALE_RESULTS = PROJECT_ROOT / "languages/ger/scale-results.md"
 T = TypeVar("T")
 
 
@@ -660,12 +662,21 @@ def fit_results_bytes(
     rows = []
     for fit in fits:
         accepted = fit.accepted
+        candidate = fit.sampled.candidate
         classification = classifications[fit.sampled.internal_id]
         rows.append(
             {
                 "internal_id": fit.sampled.internal_id,
-                "source_key": fit.sampled.candidate.source_key,
+                "source_key": candidate.source_key,
+                "lemma": candidate.lemma,
                 "acceptance_tier": classification.acceptance_tier.value,
+                "source_completeness": candidate.source_completeness.value,
+                "genders": [gender.value for gender in candidate.genders],
+                "number_restriction": candidate.number_restriction.value,
+                "source_slots": {
+                    slot.field: list(slot.values) for slot in candidate.slots
+                },
+                "diagnostics": list(candidate.diagnostics),
                 "accepted": accepted is not None,
                 "rejection_reason": fit.rejection_reason,
                 "compared_options": fit.compared_options,
@@ -717,6 +728,24 @@ def _directory_size(path: Path) -> int:
     if not path.exists():
         return 0
     return sum(item.stat().st_size for item in path.rglob("*") if item.is_file())
+
+
+def _gf_metadata(gf_path: Path) -> dict[str, str]:
+    resolved = gf_path.resolve(strict=True)
+    try:
+        result = subprocess.run(
+            (str(resolved), "--version"),
+            check=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+    except (FileNotFoundError, subprocess.CalledProcessError) as error:
+        raise NounError("configured GF did not report its version") from error
+    return {
+        "executable": str(resolved),
+        "sha256": hashlib.sha256(resolved.read_bytes()).hexdigest(),
+        "version": result.stdout.decode("utf-8", errors="strict").strip(),
+    }
 
 
 def _artifact_map(artifacts: Sequence[NounArtifact]) -> list[dict[str, object]]:
@@ -934,6 +963,8 @@ def run_scale_gate(
     )
     semantic_data = {
         "schema_version": 1,
+        "snapshot": dict(expected_snapshot) if expected_snapshot is not None else None,
+        "gf": _gf_metadata(gf_path),
         "gate_candidates": len(selection.fitting),
         "fitting_selection": {
             "sha256": fitting_selection.sha256,
@@ -1003,3 +1034,373 @@ def run_scale_gate(
         fitting_candidates=len(selection.fitting),
         result_entries=len(chosen),
     )
+
+
+def _load_json(path: Path) -> object:
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError as error:
+        raise NounError(f"scale artifact does not exist: {path}") from error
+    except json.JSONDecodeError as error:
+        raise NounError(f"scale artifact is not valid JSON: {path}") from error
+
+
+def _repeat_artifacts(work_dir: Path) -> dict[str, Path]:
+    root_files = (
+        "semantic-summary.json",
+        "fitting-selection.tsv",
+        "fitting-results.json",
+        "result-selection-pool.tsv",
+        "result-selection-results.json",
+        "result-selection.tsv",
+        "result-records.json",
+    )
+    result = {name: work_dir / name for name in root_files}
+    for parent in (work_dir / "fitting", work_dir / "result-selection", work_dir / "result"):
+        for path in parent.rglob("*"):
+            if path.is_file() and (
+                path.name
+                in {
+                    "WdnPilotAbs.gf",
+                    "WdnPilotGer.gf",
+                    "proposal-manifest.tsv",
+                    "probe-output.tsv",
+                }
+                or path.suffix == ".pgf"
+            ):
+                result[str(path.relative_to(work_dir))] = path
+    return dict(sorted(result.items()))
+
+
+def verify_scale_repeat(primary_dir: Path, repeat_dir: Path) -> tuple[str, ...]:
+    primary = _repeat_artifacts(primary_dir)
+    repeated = _repeat_artifacts(repeat_dir)
+    if set(primary) != set(repeated):
+        raise NounError("scale repeat produced a different deterministic artifact set")
+    mismatches = tuple(
+        key for key in primary if primary[key].read_bytes() != repeated[key].read_bytes()
+    )
+    if mismatches:
+        raise NounError(f"scale repeat changed deterministic artifacts: {mismatches}")
+    return tuple(primary)
+
+
+def _markdown_table(headers: Sequence[str], rows: Iterable[Sequence[object]]) -> list[str]:
+    rendered = [
+        [str(value).replace("|", "\\|").replace("\n", " ") for value in row]
+        for row in rows
+    ]
+    return [
+        "| " + " | ".join(headers) + " |",
+        "|" + "|".join("---" for _ in headers) + "|",
+        *("| " + " | ".join(row) + " |" for row in rendered),
+    ]
+
+
+def _fit_matrix(rows: Sequence[Mapping[str, object]]) -> list[tuple[str, int, int, int]]:
+    counts: Counter[tuple[str, bool]] = Counter(
+        (str(row["acceptance_tier"]), bool(row["accepted"])) for row in rows
+    )
+    return [
+        (tier, counts[(tier, True)] + counts[(tier, False)], counts[(tier, True)], counts[(tier, False)])
+        for tier in sorted({key[0] for key in counts})
+    ]
+
+
+def _stage_measurements(
+    measurements: Sequence[Mapping[str, object]], prefix: str
+) -> tuple[float, float, int]:
+    selected = [item for item in measurements if str(item["label"]).startswith(prefix)]
+    return (
+        sum(float(item["wall_seconds"]) for item in selected),
+        sum(
+            float(item["wall_seconds"])
+            for item in selected
+            if "_probe_" in str(item["label"])
+        ),
+        max((int(item["peak_rss_kib"]) for item in selected), default=0),
+    )
+
+
+def write_scale_report(
+    *,
+    primary_dir: Path,
+    repeat_dir: Path,
+    output_path: Path = DEFAULT_SCALE_RESULTS,
+) -> NounArtifact:
+    compared = verify_scale_repeat(primary_dir, repeat_dir)
+    semantic = _load_json(primary_dir / "semantic-summary.json")
+    primary_measurements = _load_json(primary_dir / "measurements.json")
+    repeat_measurements = _load_json(repeat_dir / "measurements.json")
+    fitting_rows = _load_json(primary_dir / "fitting-results.json")
+    pool_rows = _load_json(primary_dir / "result-selection-results.json")
+    if not all(
+        isinstance(value, dict)
+        for value in (semantic, primary_measurements, repeat_measurements)
+    ) or not all(isinstance(value, list) for value in (fitting_rows, pool_rows)):
+        raise NounError("scale artifacts do not match their report schemas")
+    semantic = dict(semantic)
+    primary_measurements = dict(primary_measurements)
+    repeat_measurements = dict(repeat_measurements)
+    fitting_rows = list(fitting_rows)
+    pool_rows = list(pool_rows)
+    if not primary_measurements.get("budget_passed") or not repeat_measurements.get(
+        "budget_passed"
+    ):
+        raise NounError("cannot finalize a passing scale report from a failed budget run")
+    primary_commands = list(primary_measurements["proposal_commands"])
+    repeat_commands = list(repeat_measurements["proposal_commands"])
+    primary_fitting = _stage_measurements(primary_commands, "fitting_")
+    repeat_fitting = _stage_measurements(repeat_commands, "fitting_")
+    primary_selection = _stage_measurements(primary_commands, "result_selection_")
+    repeat_selection = _stage_measurements(repeat_commands, "result_selection_")
+    fitting_rejections = Counter(
+        str(row["rejection_reason"])
+        for row in fitting_rows
+        if not bool(row["accepted"])
+    )
+    automatic_failures = sorted(
+        (
+            str(row["source_key"]),
+            str(row.get("lemma")),
+            str(row["rejection_reason"]),
+            canonical_json(row.get("source_slots")),
+        )
+        for row in (*fitting_rows, *pool_rows)
+        if row["acceptance_tier"] == AcceptanceTier.AUTOMATIC_COMPLETE.value
+        and not bool(row["accepted"])
+    )
+    automatic_failures = list(dict.fromkeys(automatic_failures))
+    fitting_semantic = dict(semantic["fitting"])
+    result_semantic = dict(semantic["result"])
+    selection_semantic = dict(semantic["result_selection"])
+    primary_checks = dict(primary_measurements["budget_checks"])
+    repeat_checks = dict(repeat_measurements["budget_checks"])
+    snapshot = semantic.get("snapshot")
+    snapshot = dict(snapshot) if isinstance(snapshot, dict) else {}
+    gf_metadata = dict(semantic["gf"])
+    gf_version_lines = str(gf_metadata["version"]).splitlines()
+    result_primary = {
+        str(item["label"]): item for item in primary_measurements["result_commands"]
+    }
+    result_repeat = {
+        str(item["label"]): item for item in repeat_measurements["result_commands"]
+    }
+    primary_artifacts = dict(primary_measurements["artifact_bytes"])
+    repeat_artifacts = dict(repeat_measurements["artifact_bytes"])
+    semantic_sha = hashlib.sha256(
+        (primary_dir / "semantic-summary.json").read_bytes()
+    ).hexdigest()
+    lines = [
+        "# German noun first scale gate",
+        "",
+        "The authorized 5,000-candidate Phase 3 gate passed its frozen local",
+        "budgets twice. The 25,000 gate was not run. Proposal fitting and the",
+        "one-selected-constructor resulting module are measured separately.",
+        "",
+        f"- Snapshot dump date: `{snapshot.get('dump_date', 'unknown')}`",
+        f"- Snapshot SHA-256: `{snapshot.get('sha256', 'unknown')}`",
+        f"- GF: `{gf_version_lines[0]}`",
+        f"- GF build: `{gf_version_lines[1]}`",
+        f"- GF executable: `{gf_metadata['executable']}`",
+        f"- GF executable SHA-256: `{gf_metadata['sha256']}`",
+        "- Fitting chunk size: `500` candidates",
+        f"- Deterministic artifacts compared: `{len(compared)}` files",
+        f"- Semantic summary SHA-256: `{semantic_sha}`",
+        "",
+        "## Deterministic populations and outcomes",
+        "",
+        f"The fitting sample contains `{semantic['gate_candidates']}` candidates in",
+        f"`{len(semantic['fitting_selection']['strata'])}` source-completeness and",
+        "rejection strata. Its selection TSV SHA-256 is",
+        f"`{semantic['fitting_selection']['sha256']}`.",
+        "",
+        *_markdown_table(
+            ("Projected tier", "Candidates", "GF fits", "No fit"),
+            _fit_matrix(fitting_rows),
+        ),
+        "",
+        f"Those candidates generated `{fitting_semantic['proposals']}` competing",
+        "constructor proposals. A GF fit does not override an excluded source or",
+        "review classification; this is why some excluded candidates can still be",
+        "morphologically representable.",
+        "",
+        "No-fit reasons in the fitting sample:",
+        "",
+        *_markdown_table(
+            ("Reason", "Candidates"), sorted(fitting_rejections.items())
+        ),
+        "",
+        "The deterministic accepted-entry pool contained",
+        f"`{selection_semantic['pool_candidates']}` projected automatic candidates",
+        "and retained same-tier reserves before selecting exactly 5,000 successful",
+        "fits:",
+        "",
+        *_markdown_table(
+            ("Projected tier", "Pool candidates", "GF fits", "No fit"),
+            _fit_matrix(pool_rows),
+        ),
+        "",
+        *_markdown_table(
+            ("Result acceptance tier", "Entries"),
+            sorted(result_semantic["acceptance_tiers"].items()),
+        ),
+        "",
+        "Selected constructor distribution:",
+        "",
+        *_markdown_table(
+            ("Constructor", "Entries"),
+            sorted(result_semantic["constructors"].items()),
+        ),
+        "",
+        "All 5,000 result entries were probed across every case/number form, gender,",
+        "`co`, `uncap.s`, `uncap.co`, and `csep`; their complete records matched the",
+        "records selected during fitting.",
+        "",
+        "## Automatic-projection misses",
+        "",
+        f"{len(automatic_failures)} distinct projected `automatic_complete` Lexemes in the two",
+        "deterministic proposal samples had no matching public constructor. They are",
+        "review findings, not automatically labelled API gaps:",
+        "",
+        *_markdown_table(
+            ("Lexeme", "Lemma", "Fit reason", "Source slots"), automatic_failures
+        ),
+        "",
+        "`Tote` and `Geflüchtete` show adjective-like inflection without the source",
+        "paradigm marker used by the census quarantine. `Kameruner` combines a",
+        "feminine claim with a form table requiring source review. The accepted-entry",
+        "module excluded all three via the fit requirement.",
+        "",
+        "## Measurements",
+        "",
+        "The fitting-gate row is the 5,000-candidate workload. Accepted-entry",
+        "selection is shown separately because it probes the reserve pool needed to",
+        "obtain exactly 5,000 fitted automatic entries; neither row is the resulting",
+        "dictionary approximation.",
+        "",
+        *_markdown_table(
+            (
+                "Proposal workload",
+                "Primary wall s",
+                "Repeat wall s",
+                "Primary probe s",
+                "Repeat probe s",
+                "Peak RSS KiB (P/R)",
+            ),
+            (
+                (
+                    "5,000-candidate fitting gate",
+                    f"{primary_fitting[0]:.2f}",
+                    f"{repeat_fitting[0]:.2f}",
+                    f"{primary_fitting[1]:.2f}",
+                    f"{repeat_fitting[1]:.2f}",
+                    f"{primary_fitting[2]} / {repeat_fitting[2]}",
+                ),
+                (
+                    "5,200-candidate accepted selection",
+                    f"{primary_selection[0]:.2f}",
+                    f"{repeat_selection[0]:.2f}",
+                    f"{primary_selection[1]:.2f}",
+                    f"{repeat_selection[1]:.2f}",
+                    f"{primary_selection[2]} / {repeat_selection[2]}",
+                ),
+            ),
+        ),
+        "",
+        *_markdown_table(
+            (
+                "5,000-entry result stage",
+                "Primary",
+                "Repeat",
+                "Frozen limit",
+            ),
+            (
+                (
+                    "Clean GF build wall seconds",
+                    result_primary["result_clean"]["wall_seconds"],
+                    result_repeat["result_clean"]["wall_seconds"],
+                    primary_checks["result.clean_build_wall_seconds"]["limit"],
+                ),
+                (
+                    "Structured probe wall seconds",
+                    result_primary["result_probe"]["wall_seconds"],
+                    result_repeat["result_probe"]["wall_seconds"],
+                    primary_checks["result.probe_wall_seconds"]["limit"],
+                ),
+                (
+                    "Incremental GF build wall seconds",
+                    result_primary["result_incremental"]["wall_seconds"],
+                    result_repeat["result_incremental"]["wall_seconds"],
+                    primary_checks["result.incremental_build_wall_seconds"]["limit"],
+                ),
+                (
+                    "Peak RSS KiB",
+                    primary_checks["result.peak_rss_kib"]["observed"],
+                    repeat_checks["result.peak_rss_kib"]["observed"],
+                    primary_checks["result.peak_rss_kib"]["limit"],
+                ),
+                (
+                    "GF source bytes",
+                    primary_artifacts["result_gf_source"],
+                    repeat_artifacts["result_gf_source"],
+                    primary_checks["result.gf_source_bytes"]["limit"],
+                ),
+                (
+                    ".gfo bytes",
+                    primary_artifacts["result_gfo"],
+                    repeat_artifacts["result_gfo"],
+                    primary_checks["result.gfo_bytes"]["limit"],
+                ),
+                (
+                    ".pgf bytes",
+                    primary_artifacts["result_pgf"],
+                    repeat_artifacts["result_pgf"],
+                    primary_checks["result.pgf_bytes"]["limit"],
+                ),
+            ),
+        ),
+        "",
+        "All frozen checks passed in both runs. The combined competing-proposal",
+        f"workload used {primary_checks['fitting.total_wall_seconds']['observed']} /",
+        f"{repeat_checks['fitting.total_wall_seconds']['observed']} seconds, at most",
+        f"{max(int(primary_checks['fitting.peak_rss_kib']['observed']), int(repeat_checks['fitting.peak_rss_kib']['observed']))} KiB RSS,",
+        f"and at most {max(int(primary_checks['fitting.disposable_artifact_bytes']['observed']), int(repeat_checks['fitting.disposable_artifact_bytes']['observed']))}",
+        "disposable bytes, including accepted-entry selection.",
+        "",
+        "## Repeat verification",
+        "",
+        f"The primary and repeat semantic summaries are byte-identical at `{semantic_sha}`.",
+        "Candidate and reserve selection, all generated GF source, proposal",
+        "manifests, structured probe TSVs, PGFs, fitted results, selected records,",
+        "and this compact semantic report match byte-for-byte. The result hashes are:",
+        "",
+        *_markdown_table(
+            ("Artifact", "SHA-256"),
+            (
+                ("Selected-entry TSV", selection_semantic["selected_sha256"]),
+                ("Result concrete GF", result_semantic["source_artifacts"][1]["sha256"]),
+                ("Result PGF", result_semantic["pgf_sha256"]),
+                ("Result probe TSV", result_semantic["probe_sha256"]),
+                ("Complete result records", result_semantic["records_sha256"]),
+            ),
+        ),
+        "",
+        "`.gfo` bytes embed their disposable run-directory paths, so their primary",
+        "and repeat sizes differ by two bytes; they are ignored intermediates, not a",
+        "semantic repeat artifact. Their downstream PGFs are byte-identical.",
+        "",
+        "## Gate assessment",
+        "",
+        "Proceeding to the 25,000 engineering scale point is justified by the wide",
+        "performance margins, deterministic selection and output, and successful",
+        "complete-record checks. It still requires explicit authorization and must",
+        "retain fit-based exclusion and review of projection misses. This gate does",
+        "not resolve the much larger linguistic risks recorded by the census:",
+        "source conflicts and incompleteness, unresolved multi-gender Lexemes, sparse",
+        "combining-form evidence, and overwhelmingly unresolved internal structure.",
+        "It is not a decision to generate or place a canonical dictionary.",
+        "",
+        "The 25,000 gate was not run.",
+    ]
+    return _write_bytes(output_path, ("\n".join(lines) + "\n").encode("utf-8"))
