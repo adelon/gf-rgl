@@ -1055,6 +1055,14 @@ concrete DictGer of DictGerAbs =
     , darmwind_N
     , darmepithelzellpopulation_N
     , darmmotilitaetsstoerung_N
+    , dasssatz_N
+    , deutschlehrer_N
+    , deutschlehrerin_N
+    , duschvorhang_N
+    , dunkelziffer_N
+    , durchblutungsstoerung_N
+    , drittelstunde_N
+    , druckgradient_N
     , datenbank_N
     , datenpanne_N
     , datensammlung_N
@@ -6298,6 +6306,14 @@ lin darmverschluss_N = mkN darm_N verschluss_N ;
 lin darmwind_N = mkN darm_N wind_N ;
 lin darmepithelzellpopulation_N = mkN "Darmepithel" zellpopulation_N ;
 lin darmmotilitaetsstoerung_N = mkN "Darmmotilitäts" stoerung_N ;
+lin dasssatz_N = mkN "Dass" satz_N ;
+lin deutschlehrer_N = mkN "Deutsch" lehrer_N ;
+lin deutschlehrerin_N = mkN "Deutsch" lehrerin_N ;
+lin duschvorhang_N = mkN dusche_N vorhang_N ;
+lin dunkelziffer_N = mkN "Dunkel" ziffer_N ;
+lin durchblutungsstoerung_N = mkN "Durchblutungs" stoerung_N ;
+lin drittelstunde_N = mkN drittel_N stunde_N ;
+lin druckgradient_N = mkN "Druck" gradient_N ;
 lin datenbank_N = mkN "Daten" bank_N ;
 lin datenpanne_N = mkN "Daten" panne_N ;
 lin datensammlung_N = mkN "Daten" sammlung_N ;

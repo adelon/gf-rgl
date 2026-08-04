@@ -1693,3 +1693,11 @@ cc -all dampfgarer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ damp
 cc -all dampfreiniger_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dampfreiniger_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dampfreiniger_N.co
 cc -all darmepithelzellpopulation_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ darmepithelzellpopulation_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ darmepithelzellpopulation_N.co
 cc -all darmmotilitaetsstoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ darmmotilitaetsstoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ darmmotilitaetsstoerung_N.co
+cc -all dasssatz_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dasssatz_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dasssatz_N.co
+cc -all deutschlehrer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ deutschlehrer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ deutschlehrer_N.co
+cc -all deutschlehrerin_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ deutschlehrerin_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ deutschlehrerin_N.co
+cc -all duschvorhang_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ duschvorhang_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ duschvorhang_N.co
+cc -all dunkelziffer_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ dunkelziffer_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ dunkelziffer_N.co
+cc -all durchblutungsstoerung_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ durchblutungsstoerung_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ durchblutungsstoerung_N.co
+cc -all drittelstunde_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ drittelstunde_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ drittelstunde_N.co
+cc -all druckgradient_N.s ! ParadigmsGer.singular ! ParadigmsGer.nominative ++ druckgradient_N.s ! ParadigmsGer.plural ! ParadigmsGer.nominative ++ druckgradient_N.co

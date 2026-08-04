@@ -2867,6 +2867,14 @@ fun
   darmwind_N : N ;
   darmepithelzellpopulation_N : N ;
   darmmotilitaetsstoerung_N : N ;
+  dasssatz_N : N ;
+  deutschlehrer_N : N ;
+  deutschlehrerin_N : N ;
+  duschvorhang_N : N ;
+  dunkelziffer_N : N ;
+  durchblutungsstoerung_N : N ;
+  drittelstunde_N : N ;
+  druckgradient_N : N ;
   datenbank_N : N ;
   datenpanne_N : N ;
   datensammlung_N : N ;
