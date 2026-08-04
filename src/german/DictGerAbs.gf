@@ -987,6 +987,12 @@ fun
   autoantigen_N : N ;
   autoantikoerper_N : N ;
   autobahn_N : N ;
+  autobus_N : N ;
+  autoradio_N : N ;
+  autoreifen_N : N ;
+  autorenfilm_N : N ;
+  autounfall_N : N ;
+  autowaschanlage_N : N ;
   autobesitzer_N : N ;
   autobombe_N : N ;
   autofahrer_N : N ;

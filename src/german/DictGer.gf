@@ -354,6 +354,12 @@ concrete DictGer of DictGerAbs =
     , autoantigen_N
     , autoantikoerper_N
     , autobahn_N
+    , autobus_N
+    , autoradio_N
+    , autoreifen_N
+    , autorenfilm_N
+    , autounfall_N
+    , autowaschanlage_N
     , autobesitzer_N
     , autobombe_N
     , autofahrer_N
@@ -4340,6 +4346,12 @@ lin augenzeugin_N = changeCompoundN "Augenzeuginnen" (mkN auge_N zeugin_N) ;
 lin autoantigen_N = mkN auto_N antigen_N ;
 lin autoantikoerper_N = mkN auto_N antikoerper_N ;
 lin autobahn_N = mkN auto_N bahn_N ;
+lin autobus_N = mkN auto_N (mkN "Bus" "Busse" masculine) ;
+lin autoradio_N = mkN auto_N radio_N ;
+lin autoreifen_N = mkN auto_N (mkN "Reifen" "Reifen" masculine) ;
+lin autorenfilm_N = mkN "Autoren" (mkN "Film" "Filme" masculine) ;
+lin autounfall_N = mkN auto_N unfall_N ;
+lin autowaschanlage_N = mkN auto_N (mkN "Waschanlage" "Waschanlagen" feminine) ;
 lin autobesitzer_N = mkN auto_N besitzer_N ;
 lin autobombe_N = mkN auto_N bombe_N ;
 lin autofahrer_N = mkN auto_N fahrer_N ;
