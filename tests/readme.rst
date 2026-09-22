@@ -34,3 +34,11 @@ from the checkout root. The source tests check subject omission through
 ``ExtendRus.ProDrop``, including agreement and preservation of object,
 prepositional and possessive forms. Use the full source profile: Russian
 resource patterns still reference tense constructors removed by ``present``.
+
+Thai tests
+----------
+
+With ``GF`` set to the local executable, run ``sh tests/thai/check.sh``.
+The test links ``NumeralTha`` independently of the full grammar, then checks
+``Decimal`` and ``Digits`` generation and parsing. This catches omitted
+category imports that a full ``GrammarTha`` build can conceal.

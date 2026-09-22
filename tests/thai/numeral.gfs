@@ -1,0 +1,7 @@
+l -lang=NumeralTha PosDecimal (IDig D_0)
+p -lang=NumeralTha -cat=Decimal "๐" | pt -number=3
+l -lang=NumeralTha PosDecimal (IIDig D_4 (IDig D_2))
+p -lang=NumeralTha -cat=Decimal "๔ ๒" | pt -number=3
+l -lang=NumeralTha IIDig D_2 (IDig D_3)
+p -lang=NumeralTha -cat=Digits "๒ ๓" | pt -number=3
+q

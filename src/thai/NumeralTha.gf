@@ -1,4 +1,4 @@
-concrete NumeralTha of Numeral = CatTha [Numeral,Digits] ** open ResTha, StringsTha, Prelude in {
+concrete NumeralTha of Numeral = CatTha [Numeral,Digits,Decimal] ** open ResTha, StringsTha, Prelude in {
 
 flags coding = utf8 ;
 
