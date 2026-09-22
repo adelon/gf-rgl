@@ -1,0 +1,9 @@
+i -retain tests/russian/RusProDrop.gf
+cc -one (mkUtt (mkS (mkCl (mkNP i_Pron) L.live_V)))
+cc -one (mkUtt (mkS (mkCl (mkNP (E.ProDrop i_Pron)) L.live_V)))
+cc -one (mkUtt (mkS (mkCl (mkNP (E.ProDrop E.iFem_Pron)) (P.ShortenA (P.mkA "готовый")))))
+cc -one (mkUtt (mkS (mkCl (mkNP (E.ProDrop they_Pron)) call_V2 (mkNP she_Pron))))
+cc -one (mkUtt (mkS (mkCl (mkNP i_Pron) L.love_V2 (mkNP (E.ProDrop she_Pron)))))
+cc -one (SyntaxRus.mkAdv (P.mkPrep "у" P.genitive) (mkNP (E.ProDrop he_Pron)))
+cc -one (mkUtt (mkNP (E.ProDrop i_Pron) L.wife_N))
+q

@@ -25,3 +25,12 @@ From the checkout root, run ``sh tests/czech/check.sh``. See the
 `Czech test README <czech/README.md>`_ for executable selection and coverage.
 The runner uses the same ``.gfs``/``.out`` convention and additionally checks
 API imports and generation/parsing through finite PGF fragments.
+
+Russian tests
+-------------
+
+With ``GF`` set to the local executable, run ``sh tests/russian/check.sh``
+from the checkout root. The source tests check subject omission through
+``ExtendRus.ProDrop``, including agreement and preservation of object,
+prepositional and possessive forms. Use the full source profile: Russian
+resource patterns still reference tense constructors removed by ``present``.

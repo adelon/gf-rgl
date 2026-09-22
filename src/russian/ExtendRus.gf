@@ -32,7 +32,7 @@ concrete ExtendRus of Extend =
     -- EmbedPresPart, EmptyRelSlash,
     ExistsNP,
     -- ExistCN, ExistMassCN, ExistPluralCN,
-    --ProDrop,
+    ProDrop,
     -- FocusAP, FocusAdV, FocusAdv,
     FocusObj,
     -- GenIP, GenModIP, GenModNP, GenNP, GenRP,
@@ -219,12 +219,8 @@ lin
 
 
   -- : Pron -> Pron ;  -- unstressed subject pronoun becomes empty: "am tired"
-  ProDrop pron = {
-    nom,gen,dat,acc,ins,prep=[] ;
-    nPrefix=False ;
-    poss={msnom,fsnom,nsnom,pnom,msgen,fsgen,pgen,msdat,fsacc,msins,fsins,pins,msprep=[]} ;
-    a=pron.a
-    } ;
+  -- Omit only the subject form; preserve oblique cases and possessives.
+  ProDrop pron = pron ** {nom=[]} ;
 
   -- : AdV -> Utt ;                  -- always(!)
   UttAdV adv = {s=adv.s} ;
